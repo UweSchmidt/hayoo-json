@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "emgm"
+        "phrase": "emgm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Type classes used for generic functions with \u003cem\u003eone\u003c/em\u003e generic argument.\n\u003c/p\u003e\u003cp\u003eA \u003cem\u003egeneric function\u003c/em\u003e is defined as an instance of \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eGeneric2\u003c/a\u003e\u003c/code\u003e, or\n \u003ccode\u003e\u003ca\u003eGeneric3\u003c/a\u003e\u003c/code\u003e. Each method in the class serves for a case in the datatype\n representation\n\u003c/p\u003e\u003cp\u003eA \u003cem\u003erepresentation dispatcher\u003c/em\u003e simplifies the use of a generic function. There\n must be an instance of each of the classes \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFRep\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFRep2\u003c/a\u003e\u003c/code\u003e, etc. (that\n apply) for every datatype.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "Base",
           "package": "emgm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Summary Type classes used for generic functions with one generic argument generic function is defined as an instance of Generic Generic2 or Generic3 Each method in the class serves for case in the datatype representation representation dispatcher simplifies the use of generic function There must be an instance of each of the classes Rep FRep FRep2 etc that apply for every datatype",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "Base",
           "package": "emgm",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation dispatcher for bifunctor types (kind \u003ccode\u003e* -\u003e *\u003c/code\u003e) used with\n \u003ccode\u003e\u003ca\u003eGeneric2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "BiFRep2",
           "package": "emgm",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Representation dispatcher for bifunctor types kind used with Generic2",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "BiFRep2",
           "package": "emgm",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation dispatcher for functor types (kind \u003ccode\u003e* -\u003e *\u003c/code\u003e) used with\n \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "FRep",
           "package": "emgm",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Representation dispatcher for functor types kind used with Generic",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "FRep",
           "package": "emgm",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation dispatcher for functor types (kind \u003ccode\u003e* -\u003e *\u003c/code\u003e) used with\n \u003ccode\u003e\u003ca\u003eGeneric2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "FRep2",
           "package": "emgm",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Representation dispatcher for functor types kind used with Generic2",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "FRep2",
           "package": "emgm",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation dispatcher for functor types (kind \u003ccode\u003e* -\u003e *\u003c/code\u003e) used with\n \u003ccode\u003e\u003ca\u003eGeneric3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "FRep3",
           "package": "emgm",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Representation dispatcher for functor types kind used with Generic3",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "FRep3",
           "package": "emgm",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class forms the foundation for defining generic functions with a\n single generic argument. Each method represents a type case. There are cases\n for primitive types, structural representation types, and for user-defined\n datatypes.\n\u003c/p\u003e\u003cp\u003eThe included modules using \u003ccode\u003eGeneric\u003c/code\u003e are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Collect\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Compare\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Constructor\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Crush\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Enum\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Read\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Show\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "Generic",
           "package": "emgm",
@@ -143,6 +154,7 @@
         "index": {
           "description": "This class forms the foundation for defining generic functions with single generic argument Each method represents type case There are cases for primitive types structural representation types and for user-defined datatypes The included modules using Generic are Generics.EMGM.Functions.Collect Generics.EMGM.Functions.Compare Generics.EMGM.Functions.Constructor Generics.EMGM.Functions.Crush Generics.EMGM.Functions.Enum Generics.EMGM.Functions.Read Generics.EMGM.Functions.Show",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "Generic",
           "package": "emgm",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class forms the foundation for defining generic functions with two\n generic arguments. See \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e\u003cp\u003eThe included modules using \u003ccode\u003eGeneric2\u003c/code\u003e are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Map\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Transpose\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "Generic2",
           "package": "emgm",
@@ -166,6 +179,7 @@
         "index": {
           "description": "This class forms the foundation for defining generic functions with two generic arguments See Generic for details The included modules using Generic2 are Generics.EMGM.Functions.Map Generics.EMGM.Functions.Transpose",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "Generic2",
           "package": "emgm",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class forms the foundation for defining generic functions with three\n generic arguments. See \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e\u003cp\u003eThe included modules using \u003ccode\u003eGeneric3\u003c/code\u003e are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.UnzipWith\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.ZipWith\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "Generic3",
           "package": "emgm",
@@ -189,6 +204,7 @@
         "index": {
           "description": "This class forms the foundation for defining generic functions with three generic arguments See Generic for details The included modules using Generic3 are Generics.EMGM.Functions.UnzipWith Generics.EMGM.Functions.ZipWith",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "Generic3",
           "package": "emgm",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation dispatcher for monomorphic types (kind \u003ccode\u003e*\u003c/code\u003e) used with\n \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e. Every structure type and supported datatype should have an\n instance of \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "Rep",
           "package": "emgm",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Representation dispatcher for monomorphic types kind used with Generic Every structure type and supported datatype should have an instance of Rep",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "Rep",
           "package": "emgm",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "bifrep2",
           "package": "emgm",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "bifrep2",
           "normalized": "a b c-\u003ea b c-\u003ea(d b b)(d c c)",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "frep",
           "package": "emgm",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "frep",
           "normalized": "a b-\u003ea(c b)",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "frep2",
           "package": "emgm",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "frep2",
           "normalized": "a b c-\u003ea(d b)(d c)",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "frep3",
           "package": "emgm",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "frep3",
           "normalized": "a b c d-\u003ea(e b)(e c)(e d)",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the primitive type \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rchar",
           "package": "emgm",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Case for the primitive type Char",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rchar",
           "package": "emgm",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rchar2",
           "package": "emgm",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rchar2",
           "package": "emgm",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rchar3",
           "package": "emgm",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rchar3",
           "package": "emgm",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for constructors. It is used to hold the meta-information about a\n constructor, e.g. name, arity, fixity, etc. This is not needed for many\n generic functions, so the default implementation is:\n\u003c/p\u003e\u003cpre\u003e\n   rcon = const id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rcon",
           "package": "emgm",
@@ -393,6 +426,7 @@
         "index": {
           "description": "Case for constructors It is used to hold the meta-information about constructor e.g name arity fixity etc This is not needed for many generic functions so the default implementation is rcon const id",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rcon",
           "normalized": "ConDescr-\u003ea b-\u003ea b",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rcon2",
           "package": "emgm",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rcon2",
           "normalized": "ConDescr-\u003ea b b-\u003ea b b",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rcon3",
           "package": "emgm",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rcon3",
           "normalized": "ConDescr-\u003ea b b b-\u003ea b b b",
@@ -454,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the primitive type \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rdouble",
           "package": "emgm",
@@ -464,6 +503,7 @@
         "index": {
           "description": "Case for the primitive type Double",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rdouble",
           "package": "emgm",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rdouble2",
           "package": "emgm",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rdouble2",
           "package": "emgm",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rdouble3",
           "package": "emgm",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rdouble3",
           "package": "emgm",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rep",
           "package": "emgm",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rep",
           "package": "emgm",
@@ -540,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the primitive type \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rfloat",
           "package": "emgm",
@@ -550,6 +597,7 @@
         "index": {
           "description": "Case for the primitive type Float",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rfloat",
           "package": "emgm",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rfloat2",
           "package": "emgm",
@@ -571,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rfloat2",
           "package": "emgm",
@@ -583,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rfloat3",
           "package": "emgm",
@@ -592,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rfloat3",
           "package": "emgm",
@@ -605,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the primitive type \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rint",
           "package": "emgm",
@@ -615,6 +668,7 @@
         "index": {
           "description": "Case for the primitive type Int",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rint",
           "package": "emgm",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rint2",
           "package": "emgm",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rint2",
           "package": "emgm",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rint3",
           "package": "emgm",
@@ -657,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rint3",
           "package": "emgm",
@@ -670,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the primitive type \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rinteger",
           "package": "emgm",
@@ -680,6 +739,7 @@
         "index": {
           "description": "Case for the primitive type Integer",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rinteger",
           "package": "emgm",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rinteger2",
           "package": "emgm",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rinteger2",
           "package": "emgm",
@@ -713,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rinteger3",
           "package": "emgm",
@@ -722,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rinteger3",
           "package": "emgm",
@@ -735,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for labeled field. Contains the label string. This is not needed for\n many generic functions, so the default implementation is:\n\u003c/p\u003e\u003cpre\u003e\n   rlbl = const id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rlbl",
           "package": "emgm",
@@ -745,6 +810,7 @@
         "index": {
           "description": "Case for labeled field Contains the label string This is not needed for many generic functions so the default implementation is rlbl const id",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rlbl",
           "normalized": "LblDescr-\u003ea b-\u003ea b",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rlbl2",
           "package": "emgm",
@@ -768,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rlbl2",
           "normalized": "LblDescr-\u003ea b b-\u003ea b b",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rlbl3",
           "package": "emgm",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rlbl3",
           "normalized": "LblDescr-\u003ea b b b-\u003ea b b b",
@@ -806,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the structural representation type \u003ccode\u003e:*:\u003c/code\u003e (product). Represents\n the fields of a constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rprod",
           "package": "emgm",
@@ -816,6 +887,7 @@
         "index": {
           "description": "Case for the structural representation type product Represents the fields of constructor",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rprod",
           "normalized": "a b-\u003ea c-\u003ea(b*c)",
@@ -830,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rprod2",
           "package": "emgm",
@@ -839,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rprod2",
           "normalized": "a b b-\u003ea c c-\u003ea(b*c)(b*c)",
@@ -853,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rprod3",
           "package": "emgm",
@@ -862,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rprod3",
           "normalized": "a b b b-\u003ea c c c-\u003ea(b*c)(b*c)(b*c)",
@@ -877,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the structural representation type \u003ccode\u003e:+:\u003c/code\u003e (sum). Represents\n alternative constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rsum",
           "package": "emgm",
@@ -887,6 +964,7 @@
         "index": {
           "description": "Case for the structural representation type sum Represents alternative constructors",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rsum",
           "normalized": "a b-\u003ea c-\u003ea(b c)",
@@ -901,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rsum2",
           "package": "emgm",
@@ -910,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rsum2",
           "normalized": "a b b-\u003ea c c-\u003ea(b c)(b c)",
@@ -924,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rsum3",
           "package": "emgm",
@@ -933,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rsum3",
           "normalized": "a b b b-\u003ea c c c-\u003ea(b c)(b c)(b c)",
@@ -948,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for datatypes. This method is used to define the structural\n representation of an arbitrary Haskell datatype. The first argument is the\n embedding-projection pair, necessary for establishing the isomorphism\n between datatype and representation. The second argument is the\n run-time representation using the methods of \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rtype",
           "package": "emgm",
@@ -958,6 +1041,7 @@
         "index": {
           "description": "Case for datatypes This method is used to define the structural representation of an arbitrary Haskell datatype The first argument is the embedding-projection pair necessary for establishing the isomorphism between datatype and representation The second argument is the run-time representation using the methods of Generic",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rtype",
           "normalized": "EP a b-\u003ec b-\u003ec a",
@@ -973,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003ertype\u003c/a\u003e\u003c/code\u003e. This case is the primary difference that separates\n \u003ccode\u003e\u003ca\u003eGeneric2\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e. Since we have two generic type parameters, we\n need to have two \u003ccode\u003e\u003ca\u003eEP\u003c/a\u003e\u003c/code\u003e values. Each translates between the Haskell type and\n its generic representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rtype2",
           "package": "emgm",
@@ -983,6 +1068,7 @@
         "index": {
           "description": "See rtype This case is the primary difference that separates Generic2 from Generic Since we have two generic type parameters we need to have two EP values Each translates between the Haskell type and its generic representation",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rtype2",
           "normalized": "EP a a-\u003eEP b b-\u003ec a b-\u003ec a b",
@@ -998,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003ertype\u003c/a\u003e\u003c/code\u003e. This case is the primary difference that separates\n \u003ccode\u003e\u003ca\u003eGeneric3\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e. Since we have three generic type parameters, we\n need three \u003ccode\u003e\u003ca\u003eEP\u003c/a\u003e\u003c/code\u003e values. Each translates between the Haskell type and its\n generic representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "rtype3",
           "package": "emgm",
@@ -1008,6 +1095,7 @@
         "index": {
           "description": "See rtype This case is the primary difference that separates Generic3 from Generic Since we have three generic type parameters we need three EP values Each translates between the Haskell type and its generic representation",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "rtype3",
           "normalized": "EP a a-\u003eEP b b-\u003eEP c c-\u003ed a b c-\u003ed a b c",
@@ -1023,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the structural representation type \u003ccode\u003e\u003ca\u003eUnit\u003c/a\u003e\u003c/code\u003e. Represents a\n constructor with no arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "runit",
           "package": "emgm",
@@ -1033,6 +1122,7 @@
         "index": {
           "description": "Case for the structural representation type Unit Represents constructor with no arguments",
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "runit",
           "package": "emgm",
@@ -1045,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "runit2",
           "package": "emgm",
@@ -1054,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "runit2",
           "package": "emgm",
@@ -1066,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Base",
           "name": "runit3",
           "package": "emgm",
@@ -1075,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Base",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Base",
           "name": "runit3",
           "package": "emgm",
@@ -1088,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic representation and instances for \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Bool",
           "name": "Bool",
           "package": "emgm",
@@ -1097,6 +1192,7 @@
         "index": {
           "description": "Summary Generic representation and instances for Bool",
           "hierarchy": "Generics EMGM Data Bool",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Bool",
           "name": "Bool",
           "package": "emgm",
@@ -1110,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Bool",
           "name": "BoolS",
           "package": "emgm",
@@ -1118,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Data Bool",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Bool",
           "name": "BoolS",
           "package": "emgm",
@@ -1132,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003ebifrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Bool",
           "name": "bifrep2Bool",
           "package": "emgm",
@@ -1142,6 +1241,7 @@
         "index": {
           "description": "Representation of Bool for bifrep2",
           "hierarchy": "Generics EMGM Data Bool",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Bool",
           "name": "bifrep2Bool",
           "package": "emgm",
@@ -1156,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Bool",
           "name": "conFalse",
           "package": "emgm",
@@ -1166,6 +1267,7 @@
         "index": {
           "description": "Constructor description for False",
           "hierarchy": "Generics EMGM Data Bool",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Bool",
           "name": "conFalse",
           "package": "emgm",
@@ -1180,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Bool",
           "name": "conTrue",
           "package": "emgm",
@@ -1190,6 +1293,7 @@
         "index": {
           "description": "Constructor description for True",
           "hierarchy": "Generics EMGM Data Bool",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Bool",
           "name": "conTrue",
           "package": "emgm",
@@ -1204,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Bool",
           "name": "frep2Bool",
           "package": "emgm",
@@ -1214,6 +1319,7 @@
         "index": {
           "description": "Representation of Bool for frep2",
           "hierarchy": "Generics EMGM Data Bool",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Bool",
           "name": "frep2Bool",
           "package": "emgm",
@@ -1228,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Bool",
           "name": "frep3Bool",
           "package": "emgm",
@@ -1238,6 +1345,7 @@
         "index": {
           "description": "Representation of Bool for frep3",
           "hierarchy": "Generics EMGM Data Bool",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Bool",
           "name": "frep3Bool",
           "package": "emgm",
@@ -1252,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Bool",
           "name": "frepBool",
           "package": "emgm",
@@ -1262,6 +1371,7 @@
         "index": {
           "description": "Representation of Bool for frep",
           "hierarchy": "Generics EMGM Data Bool",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Bool",
           "name": "frepBool",
           "package": "emgm",
@@ -1276,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Bool",
           "name": "repBool",
           "package": "emgm",
@@ -1286,6 +1397,7 @@
         "index": {
           "description": "Representation of Bool for rep",
           "hierarchy": "Generics EMGM Data Bool",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Bool",
           "name": "repBool",
           "package": "emgm",
@@ -1300,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic representation and instances for \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Either",
           "name": "Either",
           "package": "emgm",
@@ -1309,6 +1422,7 @@
         "index": {
           "description": "Summary Generic representation and instances for Either",
           "hierarchy": "Generics EMGM Data Either",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Either",
           "name": "Either",
           "package": "emgm",
@@ -1322,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Either",
           "name": "EitherS",
           "package": "emgm",
@@ -1330,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Data Either",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Either",
           "name": "EitherS",
           "package": "emgm",
@@ -1344,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003ebifrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Either",
           "name": "bifrep2Either",
           "package": "emgm",
@@ -1354,6 +1471,7 @@
         "index": {
           "description": "Representation of Either for bifrep2",
           "hierarchy": "Generics EMGM Data Either",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Either",
           "name": "bifrep2Either",
           "normalized": "a b b-\u003ea c c-\u003ea(Either b c)(Either b c)",
@@ -1370,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Either",
           "name": "conLeft",
           "package": "emgm",
@@ -1380,6 +1499,7 @@
         "index": {
           "description": "Constructor description for Left",
           "hierarchy": "Generics EMGM Data Either",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Either",
           "name": "conLeft",
           "package": "emgm",
@@ -1394,6 +1514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Either",
           "name": "conRight",
           "package": "emgm",
@@ -1404,6 +1525,7 @@
         "index": {
           "description": "Constructor description for Right",
           "hierarchy": "Generics EMGM Data Either",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Either",
           "name": "conRight",
           "package": "emgm",
@@ -1418,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Either",
           "name": "frep2Either",
           "package": "emgm",
@@ -1428,6 +1551,7 @@
         "index": {
           "description": "Representation of Either for frep2",
           "hierarchy": "Generics EMGM Data Either",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Either",
           "name": "frep2Either",
           "normalized": "a b b-\u003ea c c-\u003ea(Either b c)(Either b c)",
@@ -1444,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Either",
           "name": "frep3Either",
           "package": "emgm",
@@ -1454,6 +1579,7 @@
         "index": {
           "description": "Representation of Either for frep3",
           "hierarchy": "Generics EMGM Data Either",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Either",
           "name": "frep3Either",
           "normalized": "a b b b-\u003ea c c c-\u003ea(Either b c)(Either b c)(Either b c)",
@@ -1470,6 +1596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Either",
           "name": "frepEither",
           "package": "emgm",
@@ -1480,6 +1607,7 @@
         "index": {
           "description": "Representation of Either for frep",
           "hierarchy": "Generics EMGM Data Either",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Either",
           "name": "frepEither",
           "normalized": "a b-\u003ea c-\u003ea(Either b c)",
@@ -1496,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Either",
           "name": "repEither",
           "package": "emgm",
@@ -1506,6 +1635,7 @@
         "index": {
           "description": "Representation of Either for rep",
           "hierarchy": "Generics EMGM Data Either",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Either",
           "name": "repEither",
           "package": "emgm",
@@ -1520,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic representation and instances for lists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.List",
           "name": "List",
           "package": "emgm",
@@ -1529,6 +1660,7 @@
         "index": {
           "description": "Summary Generic representation and instances for lists",
           "hierarchy": "Generics EMGM Data List",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.List",
           "name": "List",
           "package": "emgm",
@@ -1542,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.List",
           "name": "ListS",
           "package": "emgm",
@@ -1550,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Data List",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.List",
           "name": "ListS",
           "package": "emgm",
@@ -1564,6 +1698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of lists for \u003ccode\u003e\u003ca\u003ebifrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.List",
           "name": "bifrep2List",
           "package": "emgm",
@@ -1574,6 +1709,7 @@
         "index": {
           "description": "Representation of lists for bifrep2",
           "hierarchy": "Generics EMGM Data List",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.List",
           "name": "bifrep2List",
           "normalized": "a b c-\u003ea[b][c]",
@@ -1590,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for ''cons'': \u003ccode\u003e(:)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.List",
           "name": "conCons",
           "package": "emgm",
@@ -1600,6 +1737,7 @@
         "index": {
           "description": "Constructor description for cons",
           "hierarchy": "Generics EMGM Data List",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.List",
           "name": "conCons",
           "package": "emgm",
@@ -1614,6 +1752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for ''nil'': \u003ccode\u003e[]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.List",
           "name": "conNil",
           "package": "emgm",
@@ -1624,6 +1763,7 @@
         "index": {
           "description": "Constructor description for nil",
           "hierarchy": "Generics EMGM Data List",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.List",
           "name": "conNil",
           "package": "emgm",
@@ -1638,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of lists for \u003ccode\u003e\u003ca\u003efrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.List",
           "name": "frep2List",
           "package": "emgm",
@@ -1648,6 +1789,7 @@
         "index": {
           "description": "Representation of lists for frep2",
           "hierarchy": "Generics EMGM Data List",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.List",
           "name": "frep2List",
           "normalized": "a b c-\u003ea[b][c]",
@@ -1664,6 +1806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of lists for \u003ccode\u003e\u003ca\u003efrep3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.List",
           "name": "frep3List",
           "package": "emgm",
@@ -1674,6 +1817,7 @@
         "index": {
           "description": "Representation of lists for frep3",
           "hierarchy": "Generics EMGM Data List",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.List",
           "name": "frep3List",
           "normalized": "a b c d-\u003ea[b][c][d]",
@@ -1690,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of lists for \u003ccode\u003e\u003ca\u003efrep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.List",
           "name": "frepList",
           "package": "emgm",
@@ -1700,6 +1845,7 @@
         "index": {
           "description": "Representation of lists for frep",
           "hierarchy": "Generics EMGM Data List",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.List",
           "name": "frepList",
           "normalized": "a b-\u003ea[b]",
@@ -1716,6 +1862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of lists for \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.List",
           "name": "repList",
           "package": "emgm",
@@ -1726,6 +1873,7 @@
         "index": {
           "description": "Representation of lists for rep",
           "hierarchy": "Generics EMGM Data List",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.List",
           "name": "repList",
           "normalized": "a[b]",
@@ -1742,6 +1890,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic representation and instances for \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "Maybe",
           "package": "emgm",
@@ -1751,6 +1900,7 @@
         "index": {
           "description": "Summary Generic representation and instances for Maybe",
           "hierarchy": "Generics EMGM Data Maybe",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "Maybe",
           "package": "emgm",
@@ -1764,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "MaybeS",
           "package": "emgm",
@@ -1772,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Data Maybe",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "MaybeS",
           "package": "emgm",
@@ -1786,6 +1938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003ebifrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "bifrep2Maybe",
           "package": "emgm",
@@ -1796,6 +1949,7 @@
         "index": {
           "description": "Representation of Maybe for bifrep2",
           "hierarchy": "Generics EMGM Data Maybe",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "bifrep2Maybe",
           "normalized": "a b c-\u003ea(Maybe b)(Maybe c)",
@@ -1812,6 +1966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "conJust",
           "package": "emgm",
@@ -1822,6 +1977,7 @@
         "index": {
           "description": "Constructor description for Just",
           "hierarchy": "Generics EMGM Data Maybe",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "conJust",
           "package": "emgm",
@@ -1836,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "conNothing",
           "package": "emgm",
@@ -1846,6 +2003,7 @@
         "index": {
           "description": "Constructor description for Nothing",
           "hierarchy": "Generics EMGM Data Maybe",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "conNothing",
           "package": "emgm",
@@ -1860,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "frep2Maybe",
           "package": "emgm",
@@ -1870,6 +2029,7 @@
         "index": {
           "description": "Representation of Maybe for frep2",
           "hierarchy": "Generics EMGM Data Maybe",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "frep2Maybe",
           "normalized": "a b c-\u003ea(Maybe b)(Maybe c)",
@@ -1886,6 +2046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "frep3Maybe",
           "package": "emgm",
@@ -1896,6 +2057,7 @@
         "index": {
           "description": "Representation of Maybe for frep3",
           "hierarchy": "Generics EMGM Data Maybe",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "frep3Maybe",
           "normalized": "a b c d-\u003ea(Maybe b)(Maybe c)(Maybe d)",
@@ -1912,6 +2074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "frepMaybe",
           "package": "emgm",
@@ -1922,6 +2085,7 @@
         "index": {
           "description": "Representation of Maybe for frep",
           "hierarchy": "Generics EMGM Data Maybe",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "frepMaybe",
           "normalized": "a b-\u003ea(Maybe b)",
@@ -1938,6 +2102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "repMaybe",
           "package": "emgm",
@@ -1948,6 +2113,7 @@
         "index": {
           "description": "Representation of Maybe for rep",
           "hierarchy": "Generics EMGM Data Maybe",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Maybe",
           "name": "repMaybe",
           "package": "emgm",
@@ -1962,6 +2128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic representation and instances for \u003ccode\u003e\u003ca\u003eRatio\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "Ratio",
           "package": "emgm",
@@ -1971,6 +2138,7 @@
         "index": {
           "description": "Summary Generic representation and instances for Ratio",
           "hierarchy": "Generics EMGM Data Ratio",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "Ratio",
           "package": "emgm",
@@ -1984,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "RatioS",
           "package": "emgm",
@@ -1992,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Data Ratio",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "RatioS",
           "package": "emgm",
@@ -2006,6 +2176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eRatio\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003ebifrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "bifrep2Ratio",
           "package": "emgm",
@@ -2016,6 +2187,7 @@
         "index": {
           "description": "Representation of Ratio for bifrep2",
           "hierarchy": "Generics EMGM Data Ratio",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "bifrep2Ratio",
           "normalized": "a b b-\u003ea(Ratio b)(Ratio b)",
@@ -2032,6 +2204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e\u003ca\u003e%\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "conRatio",
           "package": "emgm",
@@ -2042,6 +2215,7 @@
         "index": {
           "description": "Constructor description for",
           "hierarchy": "Generics EMGM Data Ratio",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "conRatio",
           "package": "emgm",
@@ -2056,6 +2230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eRatio\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "frep2Ratio",
           "package": "emgm",
@@ -2066,6 +2241,7 @@
         "index": {
           "description": "Representation of Ratio for frep2",
           "hierarchy": "Generics EMGM Data Ratio",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "frep2Ratio",
           "normalized": "a b b-\u003ea(Ratio b)(Ratio b)",
@@ -2082,6 +2258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eRatio\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "frep3Ratio",
           "package": "emgm",
@@ -2092,6 +2269,7 @@
         "index": {
           "description": "Representation of Ratio for frep3",
           "hierarchy": "Generics EMGM Data Ratio",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "frep3Ratio",
           "normalized": "a b b b-\u003ea(Ratio b)(Ratio b)(Ratio b)",
@@ -2108,6 +2286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eRatio\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "frepRatio",
           "package": "emgm",
@@ -2118,6 +2297,7 @@
         "index": {
           "description": "Representation of Ratio for frep",
           "hierarchy": "Generics EMGM Data Ratio",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "frepRatio",
           "normalized": "a b-\u003ea(Ratio b)",
@@ -2134,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eRatio\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "repRatio",
           "package": "emgm",
@@ -2144,6 +2325,7 @@
         "index": {
           "description": "Representation of Ratio for rep",
           "hierarchy": "Generics EMGM Data Ratio",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Ratio",
           "name": "repRatio",
           "package": "emgm",
@@ -2158,6 +2340,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic representation and instances for tuples of arity 0\n (''unit'') and 2 to 7.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple",
           "package": "emgm",
@@ -2167,6 +2350,7 @@
         "index": {
           "description": "Summary Generic representation and instances for tuples of arity unit and to",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple",
           "package": "emgm",
@@ -2180,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple0S",
           "package": "emgm",
@@ -2188,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple0S",
           "package": "emgm",
@@ -2201,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple2S",
           "package": "emgm",
@@ -2209,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple2S",
           "package": "emgm",
@@ -2222,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple3S",
           "package": "emgm",
@@ -2230,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple3S",
           "package": "emgm",
@@ -2243,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple4S",
           "package": "emgm",
@@ -2251,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple4S",
           "package": "emgm",
@@ -2264,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple5S",
           "package": "emgm",
@@ -2272,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple5S",
           "package": "emgm",
@@ -2285,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple6S",
           "package": "emgm",
@@ -2293,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple6S",
           "package": "emgm",
@@ -2306,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple7S",
           "package": "emgm",
@@ -2314,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "Tuple7S",
           "package": "emgm",
@@ -2328,6 +2526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e()\u003c/code\u003e for \u003ccode\u003e\u003ca\u003ebifrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple0",
           "package": "emgm",
@@ -2338,6 +2537,7 @@
         "index": {
           "description": "Representation of for bifrep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple0",
           "normalized": "a()()",
@@ -2354,6 +2554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003ebifrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple2",
           "package": "emgm",
@@ -2364,6 +2565,7 @@
         "index": {
           "description": "Representation of for bifrep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple2",
           "normalized": "a b b-\u003ea c c-\u003ea(b,c)(b,c)",
@@ -2380,6 +2582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003ebifrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple3",
           "package": "emgm",
@@ -2390,6 +2593,7 @@
         "index": {
           "description": "Representation of for bifrep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple3",
           "normalized": "a b b-\u003ea c c-\u003ea d d-\u003ea(b,c,d)(b,c,d)",
@@ -2406,6 +2610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003ebifrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple4",
           "package": "emgm",
@@ -2416,6 +2621,7 @@
         "index": {
           "description": "Representation of for bifrep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple4",
           "normalized": "a b b-\u003ea c c-\u003ea d d-\u003ea e e-\u003ea(b,c,d,e)(b,c,d,e)",
@@ -2432,6 +2638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,)\u003c/code\u003e for \u003ccode\u003ebfrep2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple5",
           "package": "emgm",
@@ -2442,6 +2649,7 @@
         "index": {
           "description": "Representation of for bfrep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple5",
           "normalized": "a b b-\u003ea c c-\u003ea d d-\u003ea e e-\u003ea f f-\u003ea(b,c,d,e,f)(b,c,d,e,f)",
@@ -2458,6 +2666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003ebifrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple6",
           "package": "emgm",
@@ -2468,6 +2677,7 @@
         "index": {
           "description": "Representation of for bifrep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple6",
           "normalized": "a b b-\u003ea c c-\u003ea d d-\u003ea e e-\u003ea f f-\u003ea g g-\u003ea(b,c,d,e,f,g)(b,c,d,e,f,g)",
@@ -2484,6 +2694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003ebifrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple7",
           "package": "emgm",
@@ -2494,6 +2705,7 @@
         "index": {
           "description": "Representation of for bifrep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "bifrep2Tuple7",
           "normalized": "a b b-\u003ea c c-\u003ea d d-\u003ea e e-\u003ea f f-\u003ea g g-\u003ea h h-\u003ea(b,c,d,e,f,g,h)(b,c,d,e,f,g,h)",
@@ -2510,6 +2722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple0",
           "package": "emgm",
@@ -2520,6 +2733,7 @@
         "index": {
           "description": "Constructor description for",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple0",
           "package": "emgm",
@@ -2534,6 +2748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e(,)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple2",
           "package": "emgm",
@@ -2544,6 +2759,7 @@
         "index": {
           "description": "Constructor description for",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple2",
           "package": "emgm",
@@ -2558,6 +2774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e(,,)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple3",
           "package": "emgm",
@@ -2568,6 +2785,7 @@
         "index": {
           "description": "Constructor description for",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple3",
           "package": "emgm",
@@ -2582,6 +2800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e(,,,)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple4",
           "package": "emgm",
@@ -2592,6 +2811,7 @@
         "index": {
           "description": "Constructor description for",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple4",
           "package": "emgm",
@@ -2606,6 +2826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e(,,,,)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple5",
           "package": "emgm",
@@ -2616,6 +2837,7 @@
         "index": {
           "description": "Constructor description for",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple5",
           "package": "emgm",
@@ -2630,6 +2852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e(,,,,,)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple6",
           "package": "emgm",
@@ -2640,6 +2863,7 @@
         "index": {
           "description": "Constructor description for",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple6",
           "package": "emgm",
@@ -2654,6 +2878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor description for \u003ccode\u003e(,,,,,,)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple7",
           "package": "emgm",
@@ -2664,6 +2889,7 @@
         "index": {
           "description": "Constructor description for",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "conTuple7",
           "package": "emgm",
@@ -2678,6 +2904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e()\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple0",
           "package": "emgm",
@@ -2688,6 +2915,7 @@
         "index": {
           "description": "Representation of for frep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple0",
           "normalized": "a()()",
@@ -2704,6 +2932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple2",
           "package": "emgm",
@@ -2714,6 +2943,7 @@
         "index": {
           "description": "Representation of for frep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple2",
           "normalized": "a b b-\u003ea c c-\u003ea(b,c)(b,c)",
@@ -2730,6 +2960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple3",
           "package": "emgm",
@@ -2740,6 +2971,7 @@
         "index": {
           "description": "Representation of for frep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple3",
           "normalized": "a b b-\u003ea c c-\u003ea d d-\u003ea(b,c,d)(b,c,d)",
@@ -2756,6 +2988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple4",
           "package": "emgm",
@@ -2766,6 +2999,7 @@
         "index": {
           "description": "Representation of for frep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple4",
           "normalized": "a b b-\u003ea c c-\u003ea d d-\u003ea e e-\u003ea(b,c,d,e)(b,c,d,e)",
@@ -2782,6 +3016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple5",
           "package": "emgm",
@@ -2792,6 +3027,7 @@
         "index": {
           "description": "Representation of for frep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple5",
           "normalized": "a b b-\u003ea c c-\u003ea d d-\u003ea e e-\u003ea f f-\u003ea(b,c,d,e,f)(b,c,d,e,f)",
@@ -2808,6 +3044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple6",
           "package": "emgm",
@@ -2818,6 +3055,7 @@
         "index": {
           "description": "Representation of for frep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple6",
           "normalized": "a b b-\u003ea c c-\u003ea d d-\u003ea e e-\u003ea f f-\u003ea g g-\u003ea(b,c,d,e,f,g)(b,c,d,e,f,g)",
@@ -2834,6 +3072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple7",
           "package": "emgm",
@@ -2844,6 +3083,7 @@
         "index": {
           "description": "Representation of for frep2",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep2Tuple7",
           "normalized": "a b b-\u003ea c c-\u003ea d d-\u003ea e e-\u003ea f f-\u003ea g g-\u003ea h h-\u003ea(b,c,d,e,f,g,h)(b,c,d,e,f,g,h)",
@@ -2860,6 +3100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e()\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple0",
           "package": "emgm",
@@ -2870,6 +3111,7 @@
         "index": {
           "description": "Representation of for frep3",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple0",
           "normalized": "a()()()",
@@ -2886,6 +3128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple2",
           "package": "emgm",
@@ -2896,6 +3139,7 @@
         "index": {
           "description": "Representation of for frep3",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple2",
           "normalized": "a b b b-\u003ea c c c-\u003ea(b,c)(b,c)(b,c)",
@@ -2912,6 +3156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple3",
           "package": "emgm",
@@ -2922,6 +3167,7 @@
         "index": {
           "description": "Representation of for frep3",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple3",
           "normalized": "a b b b-\u003ea c c c-\u003ea d d d-\u003ea(b,c,d)(b,c,d)(b,c,d)",
@@ -2938,6 +3184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple4",
           "package": "emgm",
@@ -2948,6 +3195,7 @@
         "index": {
           "description": "Representation of for frep3",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple4",
           "normalized": "a b b b-\u003ea c c c-\u003ea d d d-\u003ea e e e-\u003ea(b,c,d,e)(b,c,d,e)(b,c,d,e)",
@@ -2964,6 +3212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple5",
           "package": "emgm",
@@ -2974,6 +3223,7 @@
         "index": {
           "description": "Representation of for frep3",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple5",
           "normalized": "a b b b-\u003ea c c c-\u003ea d d d-\u003ea e e e-\u003ea f f f-\u003ea(b,c,d,e,f)(b,c,d,e,f)(b,c,d,e,f)",
@@ -2990,6 +3240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple6",
           "package": "emgm",
@@ -3000,6 +3251,7 @@
         "index": {
           "description": "Representation of for frep3",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple6",
           "normalized": "a b b b-\u003ea c c c-\u003ea d d d-\u003ea e e e-\u003ea f f f-\u003ea g g g-\u003ea(b,c,d,e,f,g)(b,c,d,e,f,g)(b,c,d,e,f,g)",
@@ -3016,6 +3268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple7",
           "package": "emgm",
@@ -3026,6 +3279,7 @@
         "index": {
           "description": "Representation of for frep3",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frep3Tuple7",
           "normalized": "a b b b-\u003ea c c c-\u003ea d d d-\u003ea e e e-\u003ea f f f-\u003ea g g g-\u003ea h h h-\u003ea(b,c,d,e,f,g,h)(b,c,d,e,f,g,h)(b,c,d,e,f,g,h)",
@@ -3042,6 +3296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e()\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple0",
           "package": "emgm",
@@ -3052,6 +3307,7 @@
         "index": {
           "description": "Representation of for frep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple0",
           "normalized": "a()",
@@ -3068,6 +3324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple2",
           "package": "emgm",
@@ -3078,6 +3335,7 @@
         "index": {
           "description": "Representation of for frep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple2",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -3094,6 +3352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple3",
           "package": "emgm",
@@ -3104,6 +3363,7 @@
         "index": {
           "description": "Representation of for frep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple3",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea(b,c,d)",
@@ -3120,6 +3380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple4",
           "package": "emgm",
@@ -3130,6 +3391,7 @@
         "index": {
           "description": "Representation of for frep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple4",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea e-\u003ea(b,c,d,e)",
@@ -3146,6 +3408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple5",
           "package": "emgm",
@@ -3156,6 +3419,7 @@
         "index": {
           "description": "Representation of for frep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple5",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea e-\u003ea f-\u003ea(b,c,d,e,f)",
@@ -3172,6 +3436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple6",
           "package": "emgm",
@@ -3182,6 +3447,7 @@
         "index": {
           "description": "Representation of for frep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple6",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea e-\u003ea f-\u003ea g-\u003ea(b,c,d,e,f,g)",
@@ -3198,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003efrep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple7",
           "package": "emgm",
@@ -3208,6 +3475,7 @@
         "index": {
           "description": "Representation of for frep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "frepTuple7",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea e-\u003ea f-\u003ea g-\u003ea h-\u003ea(b,c,d,e,f,g,h)",
@@ -3224,6 +3492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e()\u003c/code\u003e for \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple0",
           "package": "emgm",
@@ -3234,6 +3503,7 @@
         "index": {
           "description": "Representation of for rep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple0",
           "normalized": "a()",
@@ -3250,6 +3520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple2",
           "package": "emgm",
@@ -3260,6 +3531,7 @@
         "index": {
           "description": "Representation of for rep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple2",
           "normalized": "a(b,c)",
@@ -3276,6 +3548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple3",
           "package": "emgm",
@@ -3286,6 +3559,7 @@
         "index": {
           "description": "Representation of for rep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple3",
           "normalized": "a(b,c,d)",
@@ -3302,6 +3576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple4",
           "package": "emgm",
@@ -3312,6 +3587,7 @@
         "index": {
           "description": "Representation of for rep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple4",
           "normalized": "a(b,c,d,e)",
@@ -3328,6 +3604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple5",
           "package": "emgm",
@@ -3338,6 +3615,7 @@
         "index": {
           "description": "Representation of for rep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple5",
           "normalized": "a(b,c,d,e,f)",
@@ -3354,6 +3632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple6",
           "package": "emgm",
@@ -3364,6 +3643,7 @@
         "index": {
           "description": "Representation of for rep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple6",
           "normalized": "a(b,c,d,e,f,g)",
@@ -3380,6 +3660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e(,,,,,,)\u003c/code\u003e for \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple7",
           "package": "emgm",
@@ -3390,6 +3671,7 @@
         "index": {
           "description": "Representation of for rep",
           "hierarchy": "Generics EMGM Data Tuple",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Data.Tuple",
           "name": "repTuple7",
           "normalized": "a(b,c,d,e,f,g,h)",
@@ -3406,6 +3688,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic function that collects values of a specified type from a\n generic value.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Collect",
           "name": "Collect",
           "package": "emgm",
@@ -3415,6 +3698,7 @@
         "index": {
           "description": "Summary Generic function that collects values of specified type from generic value",
           "hierarchy": "Generics EMGM Functions Collect",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Collect",
           "name": "Collect",
           "package": "emgm",
@@ -3429,6 +3713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes a value of one type and returns a\n collection of values of another type.\n\u003c/p\u003e\u003cp\u003eFor datatypes to work with Collect, a special instance must be given. This\n instance is trivial to write. Given a type \u003ccode\u003eT\u003c/code\u003e, the \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e instance looks like\n this:\n\u003c/p\u003e\u003cpre\u003e  {-# LANGUAGE OverlappingInstances #-}\n\n  data T = ...\n\n  instance (Alternative f) =\u003e Rep (Collect f T) T where\n    rep = Collect pure\n\u003c/pre\u003e\u003cp\u003e(Note that overlapping instances are required.) This instance triggers when\n the result type (the \u003ccode\u003eT\u003c/code\u003e in \u003ccode\u003eCollect f T\u003c/code\u003e) matches the value type (the second\n \u003ccode\u003eT\u003c/code\u003e) contained within the argument to \u003ccode\u003e\u003ca\u003ecollect\u003c/a\u003e\u003c/code\u003e. See the source of this\n module for more examples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Collect",
           "name": "Collect",
           "package": "emgm",
@@ -3438,6 +3723,7 @@
         "index": {
           "description": "The type of generic function that takes value of one type and returns collection of values of another type For datatypes to work with Collect special instance must be given This instance is trivial to write Given type the Rep instance looks like this LANGUAGE OverlappingInstances data instance Alternative Rep Collect where rep Collect pure Note that overlapping instances are required This instance triggers when the result type the in Collect matches the value type the second contained within the argument to collect See the source of this module for more examples",
           "hierarchy": "Generics EMGM Functions Collect",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Collect",
           "name": "Collect",
           "package": "emgm",
@@ -3451,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Collect",
           "name": "Collect",
           "package": "emgm",
@@ -3460,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Collect",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Collect",
           "name": "Collect",
           "package": "emgm",
@@ -3499,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Collect",
           "name": "selCollect",
           "package": "emgm",
@@ -3508,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Collect",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Collect",
           "name": "selCollect",
           "normalized": "a-\u003eb c",
@@ -3524,6 +3814,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic functions for comparing two values in different ways.\n\u003c/p\u003e\u003cp\u003eThe fundamental function here is \u003ccode\u003e\u003ca\u003ecompare\u003c/a\u003e\u003c/code\u003e, a function that returns the\n \u003ccode\u003e\u003ca\u003eOrdering\u003c/a\u003e\u003c/code\u003e of two values (less than, equal to, or greater than). It uses the\n same lexicographical ordering as \u003ccode\u003ederiving Ord\u003c/code\u003e (e.g. left alternative of a\n sum is less than the right alternative, the first component of a product is\n compared first while the second is only compared if the first is equal,\n etc.).\n\u003c/p\u003e\u003cp\u003eAll of the remaining functions are simply derived (in the most obvious way)\n from \u003ccode\u003e\u003ca\u003ecompare\u003c/a\u003e\u003c/code\u003e. All of these functions are equivalent to methods in the \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e type classes. The difference with using this approach vs. \u003ccode\u003ederiving\n (Eq, Ord)\u003c/code\u003e is that you can write ad-hoc cases for certain datatypes while\n most of the functionality is handled generically.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Compare",
           "name": "Compare",
           "package": "emgm",
@@ -3533,6 +3824,7 @@
         "index": {
           "description": "Summary Generic functions for comparing two values in different ways The fundamental function here is compare function that returns the Ordering of two values less than equal to or greater than It uses the same lexicographical ordering as deriving Ord e.g left alternative of sum is less than the right alternative the first component of product is compared first while the second is only compared if the first is equal etc All of the remaining functions are simply derived in the most obvious way from compare All of these functions are equivalent to methods in the Eq and Ord type classes The difference with using this approach vs deriving Eq Ord is that you can write ad-hoc cases for certain datatypes while most of the functionality is handled generically",
           "hierarchy": "Generics EMGM Functions Compare",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Compare",
           "name": "Compare",
           "package": "emgm",
@@ -3547,6 +3839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes two values of the same type and\n returns an \u003ccode\u003e\u003ca\u003eOrdering\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Compare",
           "name": "Compare",
           "package": "emgm",
@@ -3556,6 +3849,7 @@
         "index": {
           "description": "The type of generic function that takes two values of the same type and returns an Ordering",
           "hierarchy": "Generics EMGM Functions Compare",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Compare",
           "name": "Compare",
           "package": "emgm",
@@ -3569,6 +3863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Compare",
           "name": "Compare",
           "package": "emgm",
@@ -3578,6 +3873,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Compare",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Compare",
           "name": "Compare",
           "package": "emgm",
@@ -3825,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Compare",
           "name": "selCompare",
           "package": "emgm",
@@ -3834,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Compare",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Compare",
           "name": "selCompare",
           "normalized": "a-\u003ea-\u003eOrdering",
@@ -3850,6 +4148,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic functions that crush a container into an iteration over\n its elements.\n\u003c/p\u003e\u003cp\u003eCrush is a datatype-generic operation on container types. It is a\n generalization of folds, but it is not a catamorphism. To understand how\n crush works, one can think of it as generating a list of all elements and\n mapping an accumulating function over each one. With this image in mind, it\n is evident that (unlike a catamorphism) very little information can be\n determined about the structure of the container.\n\u003c/p\u003e\u003cp\u003eThe EMGM implementation of \u003ccode\u003e\u003ca\u003ecrush\u003c/a\u003e\u003c/code\u003e can not inherently know the associativity\n of the binary operator. Consequently, associativity is left as an argument,\n but there are variants specific to left- and right-associativity for\n convenience.\n\u003c/p\u003e\u003cp\u003eMany standard Haskell datatypes (e.g. \u003ccode\u003e[]\u003c/code\u003e, \u003ccode\u003eData.Tree\u003c/code\u003e) are designed such\n that a constructor with more than one argument (i.e. a product structurally\n represented by \u003ccode\u003e(:*:)\u003c/code\u003e) has the element on the left and any recursive points\n towards the right. Due to this, the right-associative functions would\n typically produce the expected values. See examples in the comments for\n \u003ccode\u003e\u003ca\u003eflattenr\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efirstr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Crush",
           "name": "Crush",
           "package": "emgm",
@@ -3859,6 +4158,7 @@
         "index": {
           "description": "Summary Generic functions that crush container into an iteration over its elements Crush is datatype-generic operation on container types It is generalization of folds but it is not catamorphism To understand how crush works one can think of it as generating list of all elements and mapping an accumulating function over each one With this image in mind it is evident that unlike catamorphism very little information can be determined about the structure of the container The EMGM implementation of crush can not inherently know the associativity of the binary operator Consequently associativity is left as an argument but there are variants specific to left and right-associativity for convenience Many standard Haskell datatypes e.g Data.Tree are designed such that constructor with more than one argument i.e product structurally represented by has the element on the left and any recursive points towards the right Due to this the right-associative functions would typically produce the expected values See examples in the comments for flattenr and firstr",
           "hierarchy": "Generics EMGM Functions Crush",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Crush",
           "name": "Crush",
           "package": "emgm",
@@ -3873,6 +4173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociativity of the binary operator used for \u003ccode\u003e\u003ca\u003ecrush\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Crush",
           "name": "Assoc",
           "package": "emgm",
@@ -3882,6 +4183,7 @@
         "index": {
           "description": "Associativity of the binary operator used for crush",
           "hierarchy": "Generics EMGM Functions Crush",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Crush",
           "name": "Assoc",
           "package": "emgm",
@@ -3896,6 +4198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes an associativity and two\n arguments of different types and returns a value of the type of the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Crush",
           "name": "Crush",
           "package": "emgm",
@@ -3905,6 +4208,7 @@
         "index": {
           "description": "The type of generic function that takes an associativity and two arguments of different types and returns value of the type of the second",
           "hierarchy": "Generics EMGM Functions Crush",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Crush",
           "name": "Crush",
           "package": "emgm",
@@ -3968,6 +4272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Crush",
           "name": "Crush",
           "package": "emgm",
@@ -3977,6 +4282,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Crush",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Crush",
           "name": "Crush",
           "package": "emgm",
@@ -4458,6 +4764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Crush",
           "name": "selCrush",
           "package": "emgm",
@@ -4467,6 +4774,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Crush",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Crush",
           "name": "selCrush",
           "normalized": "Assoc-\u003ea-\u003eb-\u003eb",
@@ -4509,6 +4817,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic function that enumerates the values of a datatype.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eenum\u003c/a\u003e\u003c/code\u003e generates a list of the values of a datatypes. It will produce all\n values of all supported datatypes (with only a few exceptions [1]). For\n datatypes that have an infinite enumeration (e.g. \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e[a]\u003c/code\u003e),\n \u003ccode\u003e\u003ca\u003eenum\u003c/a\u003e\u003c/code\u003e produces an infinite list.\n\u003c/p\u003e\u003cp\u003eA number of the techniques used to write \u003ccode\u003e\u003ca\u003eenum\u003c/a\u003e\u003c/code\u003e came from a talk by Mark\n Jones at the 2008 Advanced Functional Programming Summer School. The authors\n gratefully acknowledge his contribution.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e1\u003c/dt\u003e\u003cdd\u003e The exceptions are \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e. These are treated in the same way\n as their \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e instances are treated. The result looks like this:\n \u003ccode\u003e[0.0,-1.0,1.0,-2.0,..]\u003c/code\u003e, thus skipping all non-integral values. Note that\n these may overflow, because they are unbounded.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Enum",
           "name": "Enum",
           "package": "emgm",
@@ -4518,6 +4827,7 @@
         "index": {
           "description": "Summary Generic function that enumerates the values of datatype enum generates list of the values of datatypes It will produce all values of all supported datatypes with only few exceptions For datatypes that have an infinite enumeration e.g Integer and enum produces an infinite list number of the techniques used to write enum came from talk by Mark Jones at the Advanced Functional Programming Summer School The authors gratefully acknowledge his contribution The exceptions are Float and Double These are treated in the same way as their Enum instances are treated The result looks like this thus skipping all non-integral values Note that these may overflow because they are unbounded",
           "hierarchy": "Generics EMGM Functions Enum",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Enum",
           "name": "Enum",
           "package": "emgm",
@@ -4532,6 +4842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes no arguments and returns a list\n of some type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Enum",
           "name": "Enum",
           "package": "emgm",
@@ -4541,6 +4852,7 @@
         "index": {
           "description": "The type of generic function that takes no arguments and returns list of some type",
           "hierarchy": "Generics EMGM Functions Enum",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Enum",
           "name": "Enum",
           "package": "emgm",
@@ -4554,6 +4866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Enum",
           "name": "Enum",
           "package": "emgm",
@@ -4563,6 +4876,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Enum",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Enum",
           "name": "Enum",
           "package": "emgm",
@@ -4652,6 +4966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Enum",
           "name": "selEnum",
           "package": "emgm",
@@ -4661,6 +4976,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Enum",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Enum",
           "name": "selEnum",
           "normalized": "[a]",
@@ -4677,6 +4993,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic functions that apply a transformation at every location of\n one type in a value of a possibly different type.\n\u003c/p\u003e\u003cp\u003eThe functions \u003ccode\u003e\u003ca\u003eeverywhere\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eeverywhere'\u003c/a\u003e\u003c/code\u003e have exactly the same type, but\n they apply the transformation in different fashions. \u003ccode\u003e\u003ca\u003eeverywhere\u003c/a\u003e\u003c/code\u003e uses\n bottom-up application while \u003ccode\u003e\u003ca\u003eeverywhere'\u003c/a\u003e\u003c/code\u003e uses a top-down approach. This may\n make a difference if you have recursive datatypes or use nested pattern\n matching in the higher-order function.\n\u003c/p\u003e\u003cp\u003eThese functions are very similar to others with the same names in the \"Scrap\n Your Boilerplate\" library (\u003ccode\u003esyb\u003c/code\u003e package). The SYB functions use rank-2\n types, while the EMGM functions use a single class constraint. Compare the\n types of the following:\n\u003c/p\u003e\u003cpre\u003e\n   -- SYB\n   everywhere :: (forall a. Data a =\u003e a -\u003e a) -\u003e forall a. Data a =\u003e a -\u003e a\n\u003c/pre\u003e\u003cpre\u003e\n   -- EMGM\n   everywhere :: (Rep (Everywhere a) b) =\u003e (a -\u003e a) -\u003e b -\u003e b\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "Everywhere",
           "package": "emgm",
@@ -4686,6 +5003,7 @@
         "index": {
           "description": "Summary Generic functions that apply transformation at every location of one type in value of possibly different type The functions everywhere and everywhere have exactly the same type but they apply the transformation in different fashions everywhere uses bottom-up application while everywhere uses top-down approach This may make difference if you have recursive datatypes or use nested pattern matching in the higher-order function These functions are very similar to others with the same names in the Scrap Your Boilerplate library syb package The SYB functions use rank-2 types while the EMGM functions use single class constraint Compare the types of the following SYB everywhere forall Data forall Data EMGM everywhere Rep Everywhere",
           "hierarchy": "Generics EMGM Functions Everywhere",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "Everywhere",
           "package": "emgm",
@@ -4700,6 +5018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes a function of one type, a value\n of another type, and returns a value of the value type.\n\u003c/p\u003e\u003cp\u003eFor datatypes to work with Everywhere, a special instance must be given. This\n instance is trivial to write. For a non-recursive type, the instance is the\n same as described for \u003ccode\u003e\u003ca\u003eEverywhere'\u003c/a\u003e\u003c/code\u003e. For a recursive type \u003ccode\u003eT\u003c/code\u003e, the \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e\n instance looks like this:\n\u003c/p\u003e\u003cpre\u003e   {-# LANGUAGE OverlappingInstances #-}\n\u003c/pre\u003e\u003cpre\u003e\n   data T a = Val a | Rec (T a)\n\u003c/pre\u003e\u003cpre\u003e\n   instance (\u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e (Everywhere (T a)) (T a), \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e (Everywhere (T a)) a) =\u003e \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e (Everywhere (T a)) (T a) where\n     \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e = Everywhere app\n       where\n         app f x =\n           case x of\n             Val v1 -\u003e f (Val (selEverywhere \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e f v1))\n             Rec v1 -\u003e f (Rec (selEverywhere \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e f v1))\n\u003c/pre\u003e\u003cp\u003eNote the requirement of overlapping instances.\n\u003c/p\u003e\u003cp\u003eThis instance is triggered when the function type (the first \u003ccode\u003eT a\u003c/code\u003e in \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e\n (Everywhere (T a)) (T a)\u003c/code\u003e) matches some value type (the second \u003ccode\u003eT a\u003c/code\u003e)\n contained within the argument to \u003ccode\u003e\u003ca\u003eeverywhere\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "Everywhere",
           "package": "emgm",
@@ -4709,6 +5028,7 @@
         "index": {
           "description": "The type of generic function that takes function of one type value of another type and returns value of the value type For datatypes to work with Everywhere special instance must be given This instance is trivial to write For non-recursive type the instance is the same as described for Everywhere For recursive type the Rep instance looks like this LANGUAGE OverlappingInstances data Val Rec instance Rep Everywhere Rep Everywhere Rep Everywhere where rep Everywhere app where app case of Val v1 Val selEverywhere rep v1 Rec v1 Rec selEverywhere rep v1 Note the requirement of overlapping instances This instance is triggered when the function type the first in Rep Everywhere matches some value type the second contained within the argument to everywhere",
           "hierarchy": "Generics EMGM Functions Everywhere",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "Everywhere",
           "package": "emgm",
@@ -4723,6 +5043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type servers the same purpose as \u003ccode\u003e\u003ca\u003eEverywhere\u003c/a\u003e\u003c/code\u003e, except that \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e\n instances are designed to be top-down instead of bottom-up. That means, given\n any type \u003ccode\u003eU\u003c/code\u003e (recursive or not), the \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e instance looks like this:\n\u003c/p\u003e\u003cpre\u003e   {-# LANGUAGE OverlappingInstances #-}\n\u003c/pre\u003e\u003cpre\u003e\n   data U = ...\n\u003c/pre\u003e\u003cpre\u003e\n   instance \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e (Everywhere' U) U where\n     \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e = Everywhere' ($)\n\u003c/pre\u003e\u003cp\u003eNote the requirement of overlapping instances.\n\u003c/p\u003e\u003cp\u003eThis instance is triggered when the function type (the first \u003ccode\u003eU\u003c/code\u003e in \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e\n (Everywhere U) U\u003c/code\u003e) matches some value type (the second \u003ccode\u003eU\u003c/code\u003e) contained within\n the argument to \u003ccode\u003e\u003ca\u003eeverywhere'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "Everywhere'",
           "package": "emgm",
@@ -4732,6 +5053,7 @@
         "index": {
           "description": "This type servers the same purpose as Everywhere except that Rep instances are designed to be top-down instead of bottom-up That means given any type recursive or not the Rep instance looks like this LANGUAGE OverlappingInstances data instance Rep Everywhere where rep Everywhere Note the requirement of overlapping instances This instance is triggered when the function type the first in Rep Everywhere matches some value type the second contained within the argument to everywhere",
           "hierarchy": "Generics EMGM Functions Everywhere",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "Everywhere'",
           "package": "emgm",
@@ -4745,6 +5067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "Everywhere",
           "package": "emgm",
@@ -4754,6 +5077,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Everywhere",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "Everywhere",
           "package": "emgm",
@@ -4767,6 +5091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "Everywhere'",
           "package": "emgm",
@@ -4776,6 +5101,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Everywhere",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "Everywhere'",
           "package": "emgm",
@@ -4841,6 +5167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "selEverywhere",
           "package": "emgm",
@@ -4850,6 +5177,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Everywhere",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "selEverywhere",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -4865,6 +5193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "selEverywhere'",
           "package": "emgm",
@@ -4874,6 +5203,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Everywhere",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Everywhere",
           "name": "selEverywhere'",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -4890,6 +5220,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic functions that translate values of one type into values of\n another.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e is a generic version of the \u003ccode\u003ePrelude\u003c/code\u003e \u003ccode\u003emap\u003c/code\u003e function. It works\n on all supported container datatypes of kind \u003ccode\u003e* -\u003e *\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e function is\n equivalent to \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e after \u003ccode\u003ederiving \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e if that were possible.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ecast\u003c/a\u003e\u003c/code\u003e is a generic and configurable function for converting a value of one\n type into a value of another using instances provided by the programmer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Map",
           "name": "Map",
           "package": "emgm",
@@ -4899,6 +5230,7 @@
         "index": {
           "description": "Summary Generic functions that translate values of one type into values of another map is generic version of the Prelude map function It works on all supported container datatypes of kind The map function is equivalent to fmap after deriving Functor if that were possible cast is generic and configurable function for converting value of one type into value of another using instances provided by the programmer",
           "hierarchy": "Generics EMGM Functions Map",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Map",
           "name": "Map",
           "package": "emgm",
@@ -4913,6 +5245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes a value of one type and returns a\n value of a different type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Map",
           "name": "Map",
           "package": "emgm",
@@ -4922,6 +5255,7 @@
         "index": {
           "description": "The type of generic function that takes value of one type and returns value of different type",
           "hierarchy": "Generics EMGM Functions Map",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Map",
           "name": "Map",
           "package": "emgm",
@@ -4935,6 +5269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Map",
           "name": "Map",
           "package": "emgm",
@@ -4944,6 +5279,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Map",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Map",
           "name": "Map",
           "package": "emgm",
@@ -5061,6 +5397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Map",
           "name": "selMap",
           "package": "emgm",
@@ -5070,6 +5407,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Map",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Map",
           "name": "selMap",
           "normalized": "a-\u003eb",
@@ -5086,6 +5424,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Functions for extracting meta-information about the representation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "Meta",
           "package": "emgm",
@@ -5095,6 +5434,7 @@
         "index": {
           "description": "Summary Functions for extracting meta-information about the representation",
           "hierarchy": "Generics EMGM Functions Meta",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "Meta",
           "package": "emgm",
@@ -5109,6 +5449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes one value and returns an optional\n constructor description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "Con",
           "package": "emgm",
@@ -5118,6 +5459,7 @@
         "index": {
           "description": "The type of generic function that takes one value and returns an optional constructor description",
           "hierarchy": "Generics EMGM Functions Meta",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "Con",
           "package": "emgm",
@@ -5132,6 +5474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class to reveal the embedding-projection pair for a given datatype and\n its isomorphic representation type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "HasEP",
           "package": "emgm",
@@ -5141,6 +5484,7 @@
         "index": {
           "description": "class to reveal the embedding-projection pair for given datatype and its isomorphic representation type",
           "hierarchy": "Generics EMGM Functions Meta",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "HasEP",
           "package": "emgm",
@@ -5155,6 +5499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes a boolean to limit recursion and\n a value and returns a list of label descriptions for that constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "Lbls",
           "package": "emgm",
@@ -5164,6 +5509,7 @@
         "index": {
           "description": "The type of generic function that takes boolean to limit recursion and value and returns list of label descriptions for that constructor",
           "hierarchy": "Generics EMGM Functions Meta",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "Lbls",
           "package": "emgm",
@@ -5177,6 +5523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "Con",
           "package": "emgm",
@@ -5186,6 +5533,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Meta",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "Con",
           "package": "emgm",
@@ -5199,6 +5547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "Lbls",
           "package": "emgm",
@@ -5208,6 +5557,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Meta",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "Lbls",
           "package": "emgm",
@@ -5249,6 +5599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parameter is never evaluated, so \u003ccode\u003eundefined\u003c/code\u003e is acceptable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "epOf",
           "package": "emgm",
@@ -5259,6 +5610,7 @@
         "index": {
           "description": "The parameter is never evaluated so undefined is acceptable",
           "hierarchy": "Generics EMGM Functions Meta",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "epOf",
           "normalized": "a-\u003eEP a b",
@@ -5301,6 +5653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "selConstructor",
           "package": "emgm",
@@ -5310,6 +5663,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Meta",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "selConstructor",
           "normalized": "a-\u003eMaybe ConDescr",
@@ -5325,6 +5679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "selLabels",
           "package": "emgm",
@@ -5334,6 +5689,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Meta",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Meta",
           "name": "selLabels",
           "normalized": "Bool-\u003ea-\u003e[LblDescr]",
@@ -5350,6 +5706,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic functions that parse strings to produce values.\n\u003c/p\u003e\u003cp\u003eThe functions in this module involve generically parsing a string and\n producing a value. They rely on the return type to determine the structure\n for parsing. Often, this can be determined by the type checker, but\n you will occasionally need to give an explicit type signature.\n\u003c/p\u003e\u003cp\u003eThe underlying parser is designed to be as similar to \u003ccode\u003ederiving Read\u003c/code\u003e (as\n implemented by GHC) as possible. Refer to documentation in \u003ca\u003eText.Read\u003c/a\u003e for\n details.\n\u003c/p\u003e\u003cp\u003eSince this library does not have access to the syntax of a \u003ccode\u003edata\u003c/code\u003e\n declaration, it relies on \u003ccode\u003e\u003ca\u003eConDescr\u003c/a\u003e\u003c/code\u003e for information. It is important that\n \u003ccode\u003e\u003ca\u003eConDescr\u003c/a\u003e\u003c/code\u003e accurately describe, for each constructor, the name, record\n labels (in same order as declared) if present, and fixity.\n\u003c/p\u003e\u003cp\u003eSee also \u003ca\u003eGenerics.EMGM.Functions.Show\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Read",
           "name": "Read",
           "package": "emgm",
@@ -5359,6 +5716,7 @@
         "index": {
           "description": "Summary Generic functions that parse strings to produce values The functions in this module involve generically parsing string and producing value They rely on the return type to determine the structure for parsing Often this can be determined by the type checker but you will occasionally need to give an explicit type signature The underlying parser is designed to be as similar to deriving Read as implemented by GHC as possible Refer to documentation in Text.Read for details Since this library does not have access to the syntax of data declaration it relies on ConDescr for information It is important that ConDescr accurately describe for each constructor the name record labels in same order as declared if present and fixity See also Generics.EMGM.Functions.Show",
           "hierarchy": "Generics EMGM Functions Read",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Read",
           "name": "Read",
           "package": "emgm",
@@ -5373,6 +5731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes a constructor-type argument and\n returns a parser combinator for some type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Read",
           "name": "Read",
           "package": "emgm",
@@ -5382,6 +5741,7 @@
         "index": {
           "description": "The type of generic function that takes constructor-type argument and returns parser combinator for some type",
           "hierarchy": "Generics EMGM Functions Read",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Read",
           "name": "Read",
           "package": "emgm",
@@ -5395,6 +5755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Read",
           "name": "Read",
           "package": "emgm",
@@ -5404,6 +5765,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Read",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Read",
           "name": "Read",
           "package": "emgm",
@@ -5543,6 +5905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Read",
           "name": "selRead",
           "package": "emgm",
@@ -5552,6 +5915,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Read",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Read",
           "name": "selRead",
           "normalized": "ConType-\u003eReadPrec a",
@@ -5568,6 +5932,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic functions that convert values to readable strings.\n\u003c/p\u003e\u003cp\u003eThe functions in this module involve generically producing a string from a\n value of a supported datatype. The functions \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e are\n modeled after those in the class \u003ccode\u003eShow\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eshows\u003c/a\u003e\u003c/code\u003e after the related\n function of the same name.\n\u003c/p\u003e\u003cp\u003eThe underlying unparser is designed to be as similar to \u003ccode\u003ederiving Show\u003c/code\u003e as\n possible. Refer to documentation in \u003ca\u003eText.Show\u003c/a\u003e for details.\n\u003c/p\u003e\u003cp\u003eSince this library does not have access to the syntax of a \u003ccode\u003edata\u003c/code\u003e\n declaration, it relies on \u003ccode\u003e\u003ca\u003eConDescr\u003c/a\u003e\u003c/code\u003e for information. It is important that\n \u003ccode\u003e\u003ca\u003eConDescr\u003c/a\u003e\u003c/code\u003e accurately describe, for each constructor, the name, arity, record\n labels (in same order as declared) if present, and fixity.\n\u003c/p\u003e\u003cp\u003eSee also \u003ca\u003eGenerics.EMGM.Functions.Read\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Show",
           "name": "Show",
           "package": "emgm",
@@ -5577,6 +5942,7 @@
         "index": {
           "description": "Summary Generic functions that convert values to readable strings The functions in this module involve generically producing string from value of supported datatype The functions showsPrec and show are modeled after those in the class Show and shows after the related function of the same name The underlying unparser is designed to be as similar to deriving Show as possible Refer to documentation in Text.Show for details Since this library does not have access to the syntax of data declaration it relies on ConDescr for information It is important that ConDescr accurately describe for each constructor the name arity record labels in same order as declared if present and fixity See also Generics.EMGM.Functions.Read",
           "hierarchy": "Generics EMGM Functions Show",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Show",
           "name": "Show",
           "package": "emgm",
@@ -5591,6 +5957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes a constructor-type argument, a\n number (precedence), and a value and returns a \u003ccode\u003e\u003ca\u003eShowS\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Show",
           "name": "Show",
           "package": "emgm",
@@ -5600,6 +5967,7 @@
         "index": {
           "description": "The type of generic function that takes constructor-type argument number precedence and value and returns ShowS function",
           "hierarchy": "Generics EMGM Functions Show",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Show",
           "name": "Show",
           "package": "emgm",
@@ -5613,6 +5981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Show",
           "name": "Show",
           "package": "emgm",
@@ -5622,6 +5991,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Show",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Show",
           "name": "Show",
           "package": "emgm",
@@ -5635,6 +6005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Show",
           "name": "selShow",
           "package": "emgm",
@@ -5644,6 +6015,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Show",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Show",
           "name": "selShow",
           "normalized": "ConType-\u003eInt-\u003ea-\u003eShowS",
@@ -5738,6 +6110,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic function thats transposes a value \u003ccode\u003ef (g a)\u003c/code\u003e to \u003ccode\u003eg (f a)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is an interesting generic function since it uses multiple other generic\n functions: \u003ccode\u003e\u003ca\u003eCrush\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eZipWith\u003c/a\u003e\u003c/code\u003e. Notably, \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eZipWith\u003c/a\u003e\u003c/code\u003e are required for definining the sum and product cases of the\n generic function. The others make the generic function easy to use.\n\u003c/p\u003e\u003cp\u003eNOTE: Be aware of the special case for empty values noted in the\n documentation of \u003ccode\u003etranpose\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Transpose",
           "name": "Transpose",
           "package": "emgm",
@@ -5747,6 +6120,7 @@
         "index": {
           "description": "Summary Generic function thats transposes value to This is an interesting generic function since it uses multiple other generic functions Crush Enum Map and ZipWith Notably Map and ZipWith are required for definining the sum and product cases of the generic function The others make the generic function easy to use NOTE Be aware of the special case for empty values noted in the documentation of tranpose",
           "hierarchy": "Generics EMGM Functions Transpose",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Transpose",
           "name": "Transpose",
           "package": "emgm",
@@ -5761,6 +6135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes a generic value and non-generic\n container and returns the container filled with other generic values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Transpose",
           "name": "Transpose",
           "package": "emgm",
@@ -5770,6 +6145,7 @@
         "index": {
           "description": "The type of generic function that takes generic value and non-generic container and returns the container filled with other generic values",
           "hierarchy": "Generics EMGM Functions Transpose",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Transpose",
           "name": "Transpose",
           "package": "emgm",
@@ -5783,6 +6159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Transpose",
           "name": "Transpose",
           "package": "emgm",
@@ -5792,6 +6169,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Transpose",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Transpose",
           "name": "Transpose",
           "package": "emgm",
@@ -5805,6 +6183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.Transpose",
           "name": "selTranspose",
           "package": "emgm",
@@ -5814,6 +6193,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions Transpose",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.Transpose",
           "name": "selTranspose",
           "normalized": "a-\u003eb c-\u003ed(b e)",
@@ -5882,6 +6262,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic function that applies a (non-generic) function to every\n element in a value, splitting the element into two. The result is a pair of\n structurally equivalent values, one with the elements from the first\n component of the splitting function and the other with the elements from the\n second component.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eUnzipWith\u003c/a\u003e\u003c/code\u003e can be seen as the dual of \u003ccode\u003eZipWith\u003c/code\u003e, though it has no direct\n \u003ccode\u003ePrelude\u003c/code\u003e counterpart. Only \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e has a \u003ccode\u003ePrelude\u003c/code\u003e analog.\n\u003c/p\u003e\u003cp\u003eSee also \u003ca\u003eGenerics.EMGM.Functions.ZipWith\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.UnzipWith",
           "name": "UnzipWith",
           "package": "emgm",
@@ -5891,6 +6272,7 @@
         "index": {
           "description": "Summary Generic function that applies non-generic function to every element in value splitting the element into two The result is pair of structurally equivalent values one with the elements from the first component of the splitting function and the other with the elements from the second component UnzipWith can be seen as the dual of ZipWith though it has no direct Prelude counterpart Only unzip has Prelude analog See also Generics.EMGM.Functions.ZipWith",
           "hierarchy": "Generics EMGM Functions UnzipWith",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.UnzipWith",
           "name": "UnzipWith",
           "package": "emgm",
@@ -5905,6 +6287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes an argument of one type and\n returns a pair of values with two different types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.UnzipWith",
           "name": "UnzipWith",
           "package": "emgm",
@@ -5914,6 +6297,7 @@
         "index": {
           "description": "The type of generic function that takes an argument of one type and returns pair of values with two different types",
           "hierarchy": "Generics EMGM Functions UnzipWith",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.UnzipWith",
           "name": "UnzipWith",
           "package": "emgm",
@@ -5927,6 +6311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.UnzipWith",
           "name": "UnzipWith",
           "package": "emgm",
@@ -5936,6 +6321,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions UnzipWith",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.UnzipWith",
           "name": "UnzipWith",
           "package": "emgm",
@@ -5949,6 +6335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.UnzipWith",
           "name": "selUnzipWith",
           "package": "emgm",
@@ -5958,6 +6345,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions UnzipWith",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.UnzipWith",
           "name": "selUnzipWith",
           "normalized": "a-\u003eb(c,d)",
@@ -6053,6 +6441,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic function that applies a (non-generic) function to every\n pair of corresponding elements in two structurally equivalent polymorphic\n values to produce a third (also structurally equivalent) value with the\n result of each application in every element location.\n\u003c/p\u003e\u003cp\u003eThe important concepts for \u003ccode\u003e\u003ca\u003ezipWithM\u003c/a\u003e\u003c/code\u003e are \u003cem\u003estructural equivalence\u003c/em\u003e and\n \u003cem\u003ecorresponding elements\u003c/em\u003e. For \u003ccode\u003e\u003ca\u003ezipWithM\u003c/a\u003e\u003c/code\u003e to be successful (and not \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e),\n its two container arguments must have exactly the same shape. If the shapes\n of the arguments differ, then it is unclear what the shape of the result is\n supposed to be. As a result, \u003ccode\u003e\u003ca\u003ezipWithM\u003c/a\u003e\u003c/code\u003e will \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eCorresponding elements are those elements that are located in the same place\n in the tree of each argument. If you were to traverse the tree to get to\n element x in one tree, then its corresponding element y in the other tree\n should require the exact same path to reach it.\n\u003c/p\u003e\u003cp\u003eSee also \u003ca\u003eGenerics.EMGM.Functions.UnzipWith\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.ZipWith",
           "name": "ZipWith",
           "package": "emgm",
@@ -6062,6 +6451,7 @@
         "index": {
           "description": "Summary Generic function that applies non-generic function to every pair of corresponding elements in two structurally equivalent polymorphic values to produce third also structurally equivalent value with the result of each application in every element location The important concepts for zipWithM are structural equivalence and corresponding elements For zipWithM to be successful and not fail its two container arguments must have exactly the same shape If the shapes of the arguments differ then it is unclear what the shape of the result is supposed to be As result zipWithM will fail Corresponding elements are those elements that are located in the same place in the tree of each argument If you were to traverse the tree to get to element in one tree then its corresponding element in the other tree should require the exact same path to reach it See also Generics.EMGM.Functions.UnzipWith",
           "hierarchy": "Generics EMGM Functions ZipWith",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.ZipWith",
           "name": "ZipWith",
           "package": "emgm",
@@ -6076,6 +6466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic function that takes two arguments of two different\n types and returns a value of a third type in a Monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.ZipWith",
           "name": "ZipWith",
           "package": "emgm",
@@ -6085,6 +6476,7 @@
         "index": {
           "description": "The type of generic function that takes two arguments of two different types and returns value of third type in Monad",
           "hierarchy": "Generics EMGM Functions ZipWith",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.ZipWith",
           "name": "ZipWith",
           "package": "emgm",
@@ -6098,6 +6490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.ZipWith",
           "name": "ZipWith",
           "package": "emgm",
@@ -6107,6 +6500,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions ZipWith",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.ZipWith",
           "name": "ZipWith",
           "package": "emgm",
@@ -6120,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Functions.ZipWith",
           "name": "selZipWith",
           "package": "emgm",
@@ -6129,6 +6524,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Functions ZipWith",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Functions.ZipWith",
           "name": "selZipWith",
           "normalized": "a-\u003eb-\u003ec d",
@@ -6224,6 +6620,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Types and related functions for the representation used in EMGM.\n\u003c/p\u003e\u003cp\u003eEMGM uses a generic sum-of-products view of datatypes encoded into the\n \u003ccode\u003e\u003ca\u003eUnit\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e:+:\u003c/code\u003e (sum), and \u003ccode\u003e:*:\u003c/code\u003e (product). Many Haskell datatypes can be\n represented in this way. Right-nested sums replace the \u003ccode\u003e|\u003c/code\u003e, and right-nested\n products replace the arguments to a constructor. Units replace constructors\n with no arguments.\n\u003c/p\u003e\u003cp\u003eSince constructors encode more than just a list of arguments, this library\n uses \u003ccode\u003e\u003ca\u003eConDescr\u003c/a\u003e\u003c/code\u003e to store that information. This includes name, arity, record\n labels, fixity, and operator precedence. Constructor descriptions are useful\n for generic operations such as \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e and possibly others.\n\u003c/p\u003e\u003cp\u003eGeneric functions need to convert values between the Haskell datatype and its\n structure representation. This is done using the embedding-projection pair,\n which is simply a pair a functions for translating between two types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "Representation",
           "package": "emgm",
@@ -6233,6 +6630,7 @@
         "index": {
           "description": "Summary Types and related functions for the representation used in EMGM EMGM uses generic sum-of-products view of datatypes encoded into the Unit sum and product Many Haskell datatypes can be represented in this way Right-nested sums replace the and right-nested products replace the arguments to constructor Units replace constructors with no arguments Since constructors encode more than just list of arguments this library uses ConDescr to store that information This includes name arity record labels fixity and operator precedence Constructor descriptions are useful for generic operations such as Read and Show and possibly others Generic functions need to convert values between the Haskell datatype and its structure representation This is done using the embedding-projection pair which is simply pair functions for translating between two types",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "Representation",
           "package": "emgm",
@@ -6247,6 +6645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \"product\" encodes 2 constructor arguments. An analogous standard\n Haskell type is \u003ccode\u003e(a, b)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": ":*:",
           "package": "emgm",
@@ -6256,6 +6655,7 @@
         "index": {
           "description": "The product encodes constructor arguments An analogous standard Haskell type is",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": ":*:",
           "package": "emgm",
@@ -6269,6 +6669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \"sum\" encodes 2 constructor alternatives. An analogous standard\n Haskell type is \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e a b\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": ":+:",
           "package": "emgm",
@@ -6278,6 +6679,7 @@
         "index": {
           "description": "The sum encodes constructor alternatives An analogous standard Haskell type is Either",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": ":+:",
           "package": "emgm",
@@ -6291,6 +6693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constructor's associativity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "Associativity",
           "package": "emgm",
@@ -6300,6 +6703,7 @@
         "index": {
           "description": "constructor associativity",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "Associativity",
           "package": "emgm",
@@ -6314,6 +6718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains useful meta-information about the syntax used in a constructor\n declaration.\n\u003c/p\u003e\u003cp\u003eNOTE: It is important that the \u003ccode\u003e\u003ca\u003eConDescr\u003c/a\u003e\u003c/code\u003e value accurately describe the\n syntax in a constructor declaration. An incorrect description may lead to\n faulty \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "ConDescr",
           "package": "emgm",
@@ -6323,6 +6728,7 @@
         "index": {
           "description": "Contains useful meta-information about the syntax used in constructor declaration NOTE It is important that the ConDescr value accurately describe the syntax in constructor declaration An incorrect description may lead to faulty Read or Show operation",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "ConDescr",
           "package": "emgm",
@@ -6337,6 +6743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of constructor syntax. Used in the generic functions \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "ConType",
           "package": "emgm",
@@ -6346,6 +6753,7 @@
         "index": {
           "description": "Type of constructor syntax Used in the generic functions Read and Show",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "ConType",
           "package": "emgm",
@@ -6360,6 +6768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe embedding-projection pair contains two functions for converting between\n the datatype and its representation. An \u003ccode\u003eEP\u003c/code\u003e value preserves an isomorphism\n (ignoring \u003ccode\u003e_|_\u003c/code\u003es) between a datatype and its structure representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "EP",
           "package": "emgm",
@@ -6369,6 +6778,7 @@
         "index": {
           "description": "The embedding-projection pair contains two functions for converting between the datatype and its representation An EP value preserves an isomorphism ignoring between datatype and its structure representation",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "EP",
           "package": "emgm",
@@ -6383,6 +6793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constructor's fixity, associativity, and precedence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "Fixity",
           "package": "emgm",
@@ -6392,6 +6803,7 @@
         "index": {
           "description": "constructor fixity associativity and precedence",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "Fixity",
           "package": "emgm",
@@ -6406,6 +6818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes the string label for a field in a constructor defined with labeled\n fields (a.k.a. record syntax).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "LblDescr",
           "package": "emgm",
@@ -6415,6 +6828,7 @@
         "index": {
           "description": "Encodes the string label for field in constructor defined with labeled fields a.k.a record syntax",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "LblDescr",
           "package": "emgm",
@@ -6428,6 +6842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "Prec",
           "package": "emgm",
@@ -6435,6 +6850,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "Prec",
           "package": "emgm",
@@ -6449,6 +6865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes a constructor with no arguments. An analogous standard Haskell type\n is \u003ccode\u003e()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "Unit",
           "package": "emgm",
@@ -6458,6 +6875,7 @@
         "index": {
           "description": "Encodes constructor with no arguments An analogous standard Haskell type is",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "Unit",
           "package": "emgm",
@@ -6565,6 +6983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix with symbol (no record syntax)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "InfixC",
           "package": "emgm",
@@ -6575,6 +6994,7 @@
         "index": {
           "description": "Infix with symbol no record syntax",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "InfixC",
           "package": "emgm",
@@ -6686,6 +7106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal prefix-style constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "NormalC",
           "package": "emgm",
@@ -6696,6 +7117,7 @@
         "index": {
           "description": "Normal prefix-style constructor",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "NormalC",
           "package": "emgm",
@@ -6759,6 +7181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord-style (any fixity)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "RecordC",
           "package": "emgm",
@@ -6769,6 +7192,7 @@
         "index": {
           "description": "Record-style any fixity",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "RecordC",
           "package": "emgm",
@@ -6833,6 +7257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHave not seen the rcon yet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "UnknownC",
           "package": "emgm",
@@ -6843,6 +7268,7 @@
         "index": {
           "description": "Have not seen the rcon yet",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "UnknownC",
           "package": "emgm",
@@ -6857,6 +7283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrecedence for function application: 10\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "appPrec",
           "package": "emgm",
@@ -6867,6 +7294,7 @@
         "index": {
           "description": "Precedence for function application",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "appPrec",
           "package": "emgm",
@@ -7007,6 +7435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum precedence: 11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "maxPrec",
           "package": "emgm",
@@ -7017,6 +7446,7 @@
         "index": {
           "description": "Maximum precedence",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "maxPrec",
           "package": "emgm",
@@ -7030,6 +7460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "minPrec",
           "package": "emgm",
@@ -7038,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "minPrec",
           "package": "emgm",
@@ -7078,6 +7510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrecedence for record construction: 11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM.Representation",
           "name": "recPrec",
           "package": "emgm",
@@ -7088,6 +7521,7 @@
         "index": {
           "description": "Precedence for record construction",
           "hierarchy": "Generics EMGM Representation",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM.Representation",
           "name": "recPrec",
           "package": "emgm",
@@ -7128,6 +7562,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEMGM is \"Extensible and Modular Generics for the Masses,\" a library for\n datatype-generic programming in Haskell.\n\u003c/p\u003e\u003cp\u003eThis module exports the most commonly used types, classes, and functions. The\n documentation is organized by topic for convenient access.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "EMGM",
           "package": "emgm",
@@ -7137,6 +7572,7 @@
         "index": {
           "description": "EMGM is Extensible and Modular Generics for the Masses library for datatype-generic programming in Haskell This module exports the most commonly used types classes and functions The documentation is organized by topic for convenient access",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "EMGM",
           "package": "emgm",
@@ -7151,6 +7587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \"product\" encodes 2 constructor arguments. An analogous standard\n Haskell type is \u003ccode\u003e(a, b)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": ":*:",
           "package": "emgm",
@@ -7160,6 +7597,7 @@
         "index": {
           "description": "The product encodes constructor arguments An analogous standard Haskell type is",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": ":*:",
           "package": "emgm",
@@ -7173,6 +7611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \"sum\" encodes 2 constructor alternatives. An analogous standard\n Haskell type is \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e a b\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": ":+:",
           "package": "emgm",
@@ -7182,6 +7621,7 @@
         "index": {
           "description": "The sum encodes constructor alternatives An analogous standard Haskell type is Either",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": ":+:",
           "package": "emgm",
@@ -7195,6 +7635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociativity of the binary operator used for \u003ccode\u003e\u003ca\u003ecrush\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "Assoc",
           "package": "emgm",
@@ -7204,6 +7645,7 @@
         "index": {
           "description": "Associativity of the binary operator used for crush",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "Assoc",
           "package": "emgm",
@@ -7218,6 +7660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constructor's associativity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "Associativity",
           "package": "emgm",
@@ -7227,6 +7670,7 @@
         "index": {
           "description": "constructor associativity",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "Associativity",
           "package": "emgm",
@@ -7241,6 +7685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation dispatcher for bifunctor types (kind \u003ccode\u003e* -\u003e *\u003c/code\u003e) used with\n \u003ccode\u003e\u003ca\u003eGeneric2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "BiFRep2",
           "package": "emgm",
@@ -7250,6 +7695,7 @@
         "index": {
           "description": "Representation dispatcher for bifunctor types kind used with Generic2",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "BiFRep2",
           "package": "emgm",
@@ -7264,6 +7710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains useful meta-information about the syntax used in a constructor\n declaration.\n\u003c/p\u003e\u003cp\u003eNOTE: It is important that the \u003ccode\u003e\u003ca\u003eConDescr\u003c/a\u003e\u003c/code\u003e value accurately describe the\n syntax in a constructor declaration. An incorrect description may lead to\n faulty \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "ConDescr",
           "package": "emgm",
@@ -7273,6 +7720,7 @@
         "index": {
           "description": "Contains useful meta-information about the syntax used in constructor declaration NOTE It is important that the ConDescr value accurately describe the syntax in constructor declaration An incorrect description may lead to faulty Read or Show operation",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "ConDescr",
           "package": "emgm",
@@ -7287,6 +7735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe embedding-projection pair contains two functions for converting between\n the datatype and its representation. An \u003ccode\u003eEP\u003c/code\u003e value preserves an isomorphism\n (ignoring \u003ccode\u003e_|_\u003c/code\u003es) between a datatype and its structure representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "EP",
           "package": "emgm",
@@ -7296,6 +7745,7 @@
         "index": {
           "description": "The embedding-projection pair contains two functions for converting between the datatype and its representation An EP value preserves an isomorphism ignoring between datatype and its structure representation",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "EP",
           "package": "emgm",
@@ -7310,6 +7760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation dispatcher for functor types (kind \u003ccode\u003e* -\u003e *\u003c/code\u003e) used with\n \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "FRep",
           "package": "emgm",
@@ -7319,6 +7770,7 @@
         "index": {
           "description": "Representation dispatcher for functor types kind used with Generic",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "FRep",
           "package": "emgm",
@@ -7333,6 +7785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation dispatcher for functor types (kind \u003ccode\u003e* -\u003e *\u003c/code\u003e) used with\n \u003ccode\u003e\u003ca\u003eGeneric2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "FRep2",
           "package": "emgm",
@@ -7342,6 +7795,7 @@
         "index": {
           "description": "Representation dispatcher for functor types kind used with Generic2",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "FRep2",
           "package": "emgm",
@@ -7356,6 +7810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation dispatcher for functor types (kind \u003ccode\u003e* -\u003e *\u003c/code\u003e) used with\n \u003ccode\u003e\u003ca\u003eGeneric3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "FRep3",
           "package": "emgm",
@@ -7365,6 +7820,7 @@
         "index": {
           "description": "Representation dispatcher for functor types kind used with Generic3",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "FRep3",
           "package": "emgm",
@@ -7379,6 +7835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constructor's fixity, associativity, and precedence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "Fixity",
           "package": "emgm",
@@ -7388,6 +7845,7 @@
         "index": {
           "description": "constructor fixity associativity and precedence",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "Fixity",
           "package": "emgm",
@@ -7402,6 +7860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class forms the foundation for defining generic functions with a\n single generic argument. Each method represents a type case. There are cases\n for primitive types, structural representation types, and for user-defined\n datatypes.\n\u003c/p\u003e\u003cp\u003eThe included modules using \u003ccode\u003eGeneric\u003c/code\u003e are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Collect\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Compare\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Constructor\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Crush\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Enum\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Read\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Show\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "Generic",
           "package": "emgm",
@@ -7411,6 +7870,7 @@
         "index": {
           "description": "This class forms the foundation for defining generic functions with single generic argument Each method represents type case There are cases for primitive types structural representation types and for user-defined datatypes The included modules using Generic are Generics.EMGM.Functions.Collect Generics.EMGM.Functions.Compare Generics.EMGM.Functions.Constructor Generics.EMGM.Functions.Crush Generics.EMGM.Functions.Enum Generics.EMGM.Functions.Read Generics.EMGM.Functions.Show",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "Generic",
           "package": "emgm",
@@ -7425,6 +7885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class forms the foundation for defining generic functions with two\n generic arguments. See \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e\u003cp\u003eThe included modules using \u003ccode\u003eGeneric2\u003c/code\u003e are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Map\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.Transpose\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "Generic2",
           "package": "emgm",
@@ -7434,6 +7895,7 @@
         "index": {
           "description": "This class forms the foundation for defining generic functions with two generic arguments See Generic for details The included modules using Generic2 are Generics.EMGM.Functions.Map Generics.EMGM.Functions.Transpose",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "Generic2",
           "package": "emgm",
@@ -7448,6 +7910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class forms the foundation for defining generic functions with three\n generic arguments. See \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e\u003cp\u003eThe included modules using \u003ccode\u003eGeneric3\u003c/code\u003e are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.UnzipWith\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eGenerics.EMGM.Functions.ZipWith\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "Generic3",
           "package": "emgm",
@@ -7457,6 +7920,7 @@
         "index": {
           "description": "This class forms the foundation for defining generic functions with three generic arguments See Generic for details The included modules using Generic3 are Generics.EMGM.Functions.UnzipWith Generics.EMGM.Functions.ZipWith",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "Generic3",
           "package": "emgm",
@@ -7471,6 +7935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class to reveal the embedding-projection pair for a given datatype and\n its isomorphic representation type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "HasEP",
           "package": "emgm",
@@ -7480,6 +7945,7 @@
         "index": {
           "description": "class to reveal the embedding-projection pair for given datatype and its isomorphic representation type",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "HasEP",
           "package": "emgm",
@@ -7494,6 +7960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes the string label for a field in a constructor defined with labeled\n fields (a.k.a. record syntax).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "LblDescr",
           "package": "emgm",
@@ -7503,6 +7970,7 @@
         "index": {
           "description": "Encodes the string label for field in constructor defined with labeled fields a.k.a record syntax",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "LblDescr",
           "package": "emgm",
@@ -7516,6 +7984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "Prec",
           "package": "emgm",
@@ -7523,6 +7992,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "Prec",
           "package": "emgm",
@@ -7537,6 +8007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation dispatcher for monomorphic types (kind \u003ccode\u003e*\u003c/code\u003e) used with\n \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e. Every structure type and supported datatype should have an\n instance of \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "Rep",
           "package": "emgm",
@@ -7546,6 +8017,7 @@
         "index": {
           "description": "Representation dispatcher for monomorphic types kind used with Generic Every structure type and supported datatype should have an instance of Rep",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "Rep",
           "package": "emgm",
@@ -7560,6 +8032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes a constructor with no arguments. An analogous standard Haskell type\n is \u003ccode\u003e()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "Unit",
           "package": "emgm",
@@ -7569,6 +8042,7 @@
         "index": {
           "description": "Encodes constructor with no arguments An analogous standard Haskell type is",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "Unit",
           "package": "emgm",
@@ -7582,6 +8056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "bifrep2",
           "package": "emgm",
@@ -7591,6 +8066,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "bifrep2",
           "normalized": "a b c-\u003ea b c-\u003ea(d b b)(d c c)",
@@ -7606,6 +8082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parameter is never evaluated, so \u003ccode\u003eundefined\u003c/code\u003e is acceptable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "epOf",
           "package": "emgm",
@@ -7616,6 +8093,7 @@
         "index": {
           "description": "The parameter is never evaluated so undefined is acceptable",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "epOf",
           "normalized": "a-\u003eEP a b",
@@ -7631,6 +8109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "frep",
           "package": "emgm",
@@ -7640,6 +8119,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "frep",
           "normalized": "a b-\u003ea(c b)",
@@ -7654,6 +8134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "frep2",
           "package": "emgm",
@@ -7663,6 +8144,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "frep2",
           "normalized": "a b c-\u003ea(d b)(d c)",
@@ -7677,6 +8159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "frep3",
           "package": "emgm",
@@ -7686,6 +8169,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "frep3",
           "normalized": "a b c d-\u003ea(e b)(e c)(e d)",
@@ -7701,6 +8185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the primitive type \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rchar",
           "package": "emgm",
@@ -7711,6 +8196,7 @@
         "index": {
           "description": "Case for the primitive type Char",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rchar",
           "package": "emgm",
@@ -7723,6 +8209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rchar2",
           "package": "emgm",
@@ -7732,6 +8219,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rchar2",
           "package": "emgm",
@@ -7744,6 +8232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rchar3",
           "package": "emgm",
@@ -7753,6 +8242,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rchar3",
           "package": "emgm",
@@ -7766,6 +8256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for constructors. It is used to hold the meta-information about a\n constructor, e.g. name, arity, fixity, etc. This is not needed for many\n generic functions, so the default implementation is:\n\u003c/p\u003e\u003cpre\u003e\n   rcon = const id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rcon",
           "package": "emgm",
@@ -7776,6 +8267,7 @@
         "index": {
           "description": "Case for constructors It is used to hold the meta-information about constructor e.g name arity fixity etc This is not needed for many generic functions so the default implementation is rcon const id",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rcon",
           "normalized": "ConDescr-\u003ea b-\u003ea b",
@@ -7790,6 +8282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rcon2",
           "package": "emgm",
@@ -7799,6 +8292,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rcon2",
           "normalized": "ConDescr-\u003ea b b-\u003ea b b",
@@ -7813,6 +8307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rcon3",
           "package": "emgm",
@@ -7822,6 +8317,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rcon3",
           "normalized": "ConDescr-\u003ea b b b-\u003ea b b b",
@@ -7837,6 +8333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the primitive type \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rdouble",
           "package": "emgm",
@@ -7847,6 +8344,7 @@
         "index": {
           "description": "Case for the primitive type Double",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rdouble",
           "package": "emgm",
@@ -7859,6 +8357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rdouble2",
           "package": "emgm",
@@ -7868,6 +8367,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rdouble2",
           "package": "emgm",
@@ -7880,6 +8380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rdouble3",
           "package": "emgm",
@@ -7889,6 +8390,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rdouble3",
           "package": "emgm",
@@ -7901,6 +8403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rep",
           "package": "emgm",
@@ -7910,6 +8413,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rep",
           "package": "emgm",
@@ -7923,6 +8427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the primitive type \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rfloat",
           "package": "emgm",
@@ -7933,6 +8438,7 @@
         "index": {
           "description": "Case for the primitive type Float",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rfloat",
           "package": "emgm",
@@ -7945,6 +8451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rfloat2",
           "package": "emgm",
@@ -7954,6 +8461,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rfloat2",
           "package": "emgm",
@@ -7966,6 +8474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rfloat3",
           "package": "emgm",
@@ -7975,6 +8484,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rfloat3",
           "package": "emgm",
@@ -7988,6 +8498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the primitive type \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rint",
           "package": "emgm",
@@ -7998,6 +8509,7 @@
         "index": {
           "description": "Case for the primitive type Int",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rint",
           "package": "emgm",
@@ -8010,6 +8522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rint2",
           "package": "emgm",
@@ -8019,6 +8532,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rint2",
           "package": "emgm",
@@ -8031,6 +8545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rint3",
           "package": "emgm",
@@ -8040,6 +8555,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rint3",
           "package": "emgm",
@@ -8053,6 +8569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the primitive type \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rinteger",
           "package": "emgm",
@@ -8063,6 +8580,7 @@
         "index": {
           "description": "Case for the primitive type Integer",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rinteger",
           "package": "emgm",
@@ -8075,6 +8593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rinteger2",
           "package": "emgm",
@@ -8084,6 +8603,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rinteger2",
           "package": "emgm",
@@ -8096,6 +8616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rinteger3",
           "package": "emgm",
@@ -8105,6 +8626,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rinteger3",
           "package": "emgm",
@@ -8118,6 +8640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for labeled field. Contains the label string. This is not needed for\n many generic functions, so the default implementation is:\n\u003c/p\u003e\u003cpre\u003e\n   rlbl = const id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rlbl",
           "package": "emgm",
@@ -8128,6 +8651,7 @@
         "index": {
           "description": "Case for labeled field Contains the label string This is not needed for many generic functions so the default implementation is rlbl const id",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rlbl",
           "normalized": "LblDescr-\u003ea b-\u003ea b",
@@ -8142,6 +8666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rlbl2",
           "package": "emgm",
@@ -8151,6 +8676,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rlbl2",
           "normalized": "LblDescr-\u003ea b b-\u003ea b b",
@@ -8165,6 +8691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rlbl3",
           "package": "emgm",
@@ -8174,6 +8701,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rlbl3",
           "normalized": "LblDescr-\u003ea b b b-\u003ea b b b",
@@ -8189,6 +8717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the structural representation type \u003ccode\u003e:*:\u003c/code\u003e (product). Represents\n the fields of a constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rprod",
           "package": "emgm",
@@ -8199,6 +8728,7 @@
         "index": {
           "description": "Case for the structural representation type product Represents the fields of constructor",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rprod",
           "normalized": "a b-\u003ea c-\u003ea(b*c)",
@@ -8213,6 +8743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rprod2",
           "package": "emgm",
@@ -8222,6 +8753,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rprod2",
           "normalized": "a b b-\u003ea c c-\u003ea(b*c)(b*c)",
@@ -8236,6 +8768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rprod3",
           "package": "emgm",
@@ -8245,6 +8778,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rprod3",
           "normalized": "a b b b-\u003ea c c c-\u003ea(b*c)(b*c)(b*c)",
@@ -8260,6 +8794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the structural representation type \u003ccode\u003e:+:\u003c/code\u003e (sum). Represents\n alternative constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rsum",
           "package": "emgm",
@@ -8270,6 +8805,7 @@
         "index": {
           "description": "Case for the structural representation type sum Represents alternative constructors",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rsum",
           "normalized": "a b-\u003ea c-\u003ea(b c)",
@@ -8284,6 +8820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rsum2",
           "package": "emgm",
@@ -8293,6 +8830,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rsum2",
           "normalized": "a b b-\u003ea c c-\u003ea(b c)(b c)",
@@ -8307,6 +8845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rsum3",
           "package": "emgm",
@@ -8316,6 +8855,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rsum3",
           "normalized": "a b b b-\u003ea c c c-\u003ea(b c)(b c)(b c)",
@@ -8331,6 +8871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for datatypes. This method is used to define the structural\n representation of an arbitrary Haskell datatype. The first argument is the\n embedding-projection pair, necessary for establishing the isomorphism\n between datatype and representation. The second argument is the\n run-time representation using the methods of \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rtype",
           "package": "emgm",
@@ -8341,6 +8882,7 @@
         "index": {
           "description": "Case for datatypes This method is used to define the structural representation of an arbitrary Haskell datatype The first argument is the embedding-projection pair necessary for establishing the isomorphism between datatype and representation The second argument is the run-time representation using the methods of Generic",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rtype",
           "normalized": "EP a b-\u003ec b-\u003ec a",
@@ -8356,6 +8898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003ertype\u003c/a\u003e\u003c/code\u003e. This case is the primary difference that separates\n \u003ccode\u003e\u003ca\u003eGeneric2\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e. Since we have two generic type parameters, we\n need to have two \u003ccode\u003e\u003ca\u003eEP\u003c/a\u003e\u003c/code\u003e values. Each translates between the Haskell type and\n its generic representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rtype2",
           "package": "emgm",
@@ -8366,6 +8909,7 @@
         "index": {
           "description": "See rtype This case is the primary difference that separates Generic2 from Generic Since we have two generic type parameters we need to have two EP values Each translates between the Haskell type and its generic representation",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rtype2",
           "normalized": "EP a a-\u003eEP b b-\u003ec a b-\u003ec a b",
@@ -8381,6 +8925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003ertype\u003c/a\u003e\u003c/code\u003e. This case is the primary difference that separates\n \u003ccode\u003e\u003ca\u003eGeneric3\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e. Since we have three generic type parameters, we\n need three \u003ccode\u003e\u003ca\u003eEP\u003c/a\u003e\u003c/code\u003e values. Each translates between the Haskell type and its\n generic representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "rtype3",
           "package": "emgm",
@@ -8391,6 +8936,7 @@
         "index": {
           "description": "See rtype This case is the primary difference that separates Generic3 from Generic Since we have three generic type parameters we need three EP values Each translates between the Haskell type and its generic representation",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "rtype3",
           "normalized": "EP a a-\u003eEP b b-\u003eEP c c-\u003ed a b c-\u003ed a b c",
@@ -8406,6 +8952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase for the structural representation type \u003ccode\u003e\u003ca\u003eUnit\u003c/a\u003e\u003c/code\u003e. Represents a\n constructor with no arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "runit",
           "package": "emgm",
@@ -8416,6 +8963,7 @@
         "index": {
           "description": "Case for the structural representation type Unit Represents constructor with no arguments",
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "runit",
           "package": "emgm",
@@ -8428,6 +8976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "runit2",
           "package": "emgm",
@@ -8437,6 +8986,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "runit2",
           "package": "emgm",
@@ -8449,6 +8999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:27 UTC 2014",
           "module": "Generics.EMGM",
           "name": "runit3",
           "package": "emgm",
@@ -8458,6 +9009,7 @@
         },
         "index": {
           "hierarchy": "Generics EMGM",
+          "indexed": "2014-03-11T18:02:27",
           "module": "Generics.EMGM",
           "name": "runit3",
           "package": "emgm",

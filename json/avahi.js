@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "avahi"
+        "phrase": "avahi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Announce",
           "name": "Announce",
           "package": "avahi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Announce",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Announce",
           "name": "Announce",
           "package": "avahi",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnounce network service\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Announce",
           "name": "announce",
           "package": "avahi",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Announce network service",
           "hierarchy": "Network Avahi Announce",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Announce",
           "name": "announce",
           "normalized": "Service-\u003eIO()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Browse",
           "name": "Browse",
           "package": "avahi",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Browse",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Browse",
           "name": "Browse",
           "package": "avahi",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrowse for specified service\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Browse",
           "name": "browse",
           "package": "avahi",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Browse for specified service",
           "hierarchy": "Network Avahi Browse",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Browse",
           "name": "browse",
           "normalized": "BrowseQuery-\u003eIO()",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDispatch signal and call corresponding function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Browse",
           "name": "dispatch",
           "package": "avahi",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Dispatch signal and call corresponding function",
           "hierarchy": "Network Avahi Browse",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Browse",
           "name": "dispatch",
           "normalized": "[(Text,Signal-\u003eIO a)]-\u003eSignal-\u003eIO()",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "Common",
           "package": "avahi",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "Common",
           "package": "avahi",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eService browsing query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "BrowseQuery",
           "package": "avahi",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Service browsing query",
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "BrowseQuery",
           "package": "avahi",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternet protocol specification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "InetProtocol",
           "package": "avahi",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Internet protocol specification",
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "InetProtocol",
           "package": "avahi",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eService specification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "Service",
           "package": "avahi",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Service specification",
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "Service",
           "package": "avahi",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "BrowseQuery",
           "package": "avahi",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "BrowseQuery",
           "package": "avahi",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv4 protocol (0)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "PROTO_INET",
           "package": "avahi",
@@ -257,6 +278,7 @@
         "index": {
           "description": "IPv4 protocol",
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "PROTO_INET",
           "package": "avahi",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv6 protocol (1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "PROTO_INET6",
           "package": "avahi",
@@ -281,6 +304,7 @@
         "index": {
           "description": "IPv6 protocol",
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "PROTO_INET6",
           "package": "avahi",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnspecified (any) protocol (-1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "PROTO_UNSPEC",
           "package": "avahi",
@@ -305,6 +330,7 @@
         "index": {
           "description": "Unspecified any protocol",
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "PROTO_UNSPEC",
           "package": "avahi",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "Service",
           "package": "avahi",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "Service",
           "package": "avahi",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "avahiBrowser",
           "package": "avahi",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "avahiBrowser",
           "package": "avahi",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "avahiBus",
           "package": "avahi",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "avahiBus",
           "package": "avahi",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "entryGroupInterface",
           "package": "avahi",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "entryGroupInterface",
           "package": "avahi",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "flags_empty",
           "package": "avahi",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "flags_empty",
           "package": "avahi",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "forceMaybe",
           "package": "avahi",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "forceMaybe",
           "normalized": "String-\u003eMaybe a-\u003ea",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "fromVariant_",
           "package": "avahi",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "fromVariant_",
           "normalized": "String-\u003eVariant-\u003ea",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "hostNameResolver",
           "package": "avahi",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "hostNameResolver",
           "package": "avahi",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "iface_unspec",
           "package": "avahi",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "iface_unspec",
           "package": "avahi",
@@ -519,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to be called on found service\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "lookupCallback",
           "package": "avahi",
@@ -529,6 +574,7 @@
         "index": {
           "description": "Function to be called on found service",
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "lookupCallback",
           "normalized": "Service-\u003eIO()",
@@ -545,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDomain to search in (usually \u003ccode\u003elocal\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "lookupDomain",
           "package": "avahi",
@@ -555,6 +602,7 @@
         "index": {
           "description": "Domain to search in usually local",
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "lookupDomain",
           "package": "avahi",
@@ -569,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProtocol to be used for lookup\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "lookupProtocol",
           "package": "avahi",
@@ -579,6 +628,7 @@
         "index": {
           "description": "Protocol to be used for lookup",
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "lookupProtocol",
           "package": "avahi",
@@ -593,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eService name to find\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "lookupServiceName",
           "package": "avahi",
@@ -603,6 +654,7 @@
         "index": {
           "description": "Service name to find",
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "lookupServiceName",
           "package": "avahi",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "proto2variant",
           "package": "avahi",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "proto2variant",
           "normalized": "InetProtocol-\u003eVariant",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "serverInterface",
           "package": "avahi",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "serverInterface",
           "package": "avahi",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "serviceAddress",
           "package": "avahi",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "serviceAddress",
           "package": "avahi",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "serviceDomain",
           "package": "avahi",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "serviceDomain",
           "package": "avahi",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "serviceHost",
           "package": "avahi",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "serviceHost",
           "package": "avahi",
@@ -727,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "serviceName",
           "package": "avahi",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "serviceName",
           "package": "avahi",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "servicePort",
           "package": "avahi",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "servicePort",
           "package": "avahi",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "serviceProtocol",
           "package": "avahi",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "serviceProtocol",
           "package": "avahi",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "serviceResolver",
           "package": "avahi",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "serviceResolver",
           "package": "avahi",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "serviceText",
           "package": "avahi",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "serviceText",
           "package": "avahi",
@@ -837,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "serviceType",
           "package": "avahi",
@@ -846,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "serviceType",
           "package": "avahi",
@@ -859,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi.Common",
           "name": "variant2proto",
           "package": "avahi",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi Common",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi.Common",
           "name": "variant2proto",
           "normalized": "Variant-\u003eInetProtocol",
@@ -882,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:18 UTC 2014",
           "module": "Network.Avahi",
           "name": "Avahi",
           "package": "avahi",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Network Avahi",
+          "indexed": "2014-03-11T17:15:18",
           "module": "Network.Avahi",
           "name": "Avahi",
           "package": "avahi",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "progressbar"
+        "phrase": "progressbar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Progress bar\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:01 UTC 2014",
           "module": "ProgressBar",
           "name": "ProgressBar",
           "package": "progressbar",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Progress bar",
           "hierarchy": "ProgressBar",
+          "indexed": "2014-03-11T19:45:01",
           "module": "ProgressBar",
           "name": "ProgressBar",
           "package": "progressbar",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgress bar meter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:01 UTC 2014",
           "module": "ProgressBar",
           "name": "Progress",
           "package": "progressbar",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Progress bar meter",
           "hierarchy": "ProgressBar",
+          "indexed": "2014-03-11T19:45:01",
           "module": "ProgressBar",
           "name": "Progress",
           "package": "progressbar",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:01 UTC 2014",
           "module": "ProgressBar",
           "name": "Progress",
           "package": "progressbar",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "ProgressBar",
+          "indexed": "2014-03-11T19:45:01",
           "module": "ProgressBar",
           "name": "Progress",
           "package": "progressbar",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a progress bar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:01 UTC 2014",
           "module": "ProgressBar",
           "name": "mkProgress",
           "package": "progressbar",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Create progress bar",
           "hierarchy": "ProgressBar",
+          "indexed": "2014-03-11T19:45:01",
           "module": "ProgressBar",
           "name": "mkProgress",
           "normalized": "Handle-\u003eIO Progress",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis finishes the progressbar \u003cem\u003eNOTE\u003c/em\u003e: it is\n unusable after this\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:01 UTC 2014",
           "module": "ProgressBar",
           "name": "pr_done",
           "package": "progressbar",
@@ -123,6 +132,7 @@
         "index": {
           "description": "This finishes the progressbar NOTE it is unusable after this",
           "hierarchy": "ProgressBar",
+          "indexed": "2014-03-11T19:45:01",
           "module": "ProgressBar",
           "name": "pr_done",
           "normalized": "IO()",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis increments the progressbar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:01 UTC 2014",
           "module": "ProgressBar",
           "name": "pr_inc",
           "package": "progressbar",
@@ -148,6 +159,7 @@
         "index": {
           "description": "This increments the progressbar",
           "hierarchy": "ProgressBar",
+          "indexed": "2014-03-11T19:45:01",
           "module": "ProgressBar",
           "name": "pr_inc",
           "normalized": "IO()",

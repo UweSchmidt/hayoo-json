@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gentlemark"
+        "phrase": "gentlemark",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "Parsec",
           "package": "gentlemark",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "Parsec",
           "package": "gentlemark",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "bold",
           "package": "gentlemark",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "bold",
           "package": "gentlemark",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "hyperlink",
           "package": "gentlemark",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "hyperlink",
           "package": "gentlemark",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "italic",
           "package": "gentlemark",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "italic",
           "package": "gentlemark",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "latex",
           "package": "gentlemark",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "latex",
           "package": "gentlemark",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "monospace",
           "package": "gentlemark",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "monospace",
           "package": "gentlemark",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "olist",
           "package": "gentlemark",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "olist",
           "package": "gentlemark",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "paragraph",
           "package": "gentlemark",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "paragraph",
           "package": "gentlemark",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "quote",
           "package": "gentlemark",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "quote",
           "package": "gentlemark",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "reference",
           "package": "gentlemark",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "reference",
           "package": "gentlemark",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "spoiler",
           "package": "gentlemark",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "spoiler",
           "package": "gentlemark",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "striked",
           "package": "gentlemark",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "striked",
           "package": "gentlemark",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "style",
           "package": "gentlemark",
@@ -279,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "style",
           "package": "gentlemark",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "tag",
           "package": "gentlemark",
@@ -300,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "tag",
           "package": "gentlemark",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "text",
           "package": "gentlemark",
@@ -321,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "text",
           "package": "gentlemark",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "textualTerm",
           "package": "gentlemark",
@@ -342,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "textualTerm",
           "package": "gentlemark",
@@ -355,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "toplevelTerm",
           "package": "gentlemark",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "toplevelTerm",
           "package": "gentlemark",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "ulist",
           "package": "gentlemark",
@@ -386,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "ulist",
           "package": "gentlemark",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Parsec",
           "name": "underlined",
           "package": "gentlemark",
@@ -407,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Parsec",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Parsec",
           "name": "underlined",
           "package": "gentlemark",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Term",
           "package": "gentlemark",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Term",
           "package": "gentlemark",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Term",
           "package": "gentlemark",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Term",
           "package": "gentlemark",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Type",
           "package": "gentlemark",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Type",
           "package": "gentlemark",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Bold",
           "package": "gentlemark",
@@ -491,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Bold",
           "normalized": "[Term Textual]-\u003eTerm Textual",
@@ -506,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Hyperlink",
           "package": "gentlemark",
@@ -515,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Hyperlink",
           "normalized": "String-\u003eTerm Textual",
@@ -530,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Italic",
           "package": "gentlemark",
@@ -539,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Italic",
           "normalized": "[Term Textual]-\u003eTerm Textual",
@@ -554,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Latex",
           "package": "gentlemark",
@@ -563,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Latex",
           "normalized": "String-\u003eTerm Textual",
@@ -578,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Monospace",
           "package": "gentlemark",
@@ -587,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Monospace",
           "normalized": "String-\u003eTerm Textual",
@@ -602,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "OList",
           "package": "gentlemark",
@@ -611,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "OList",
           "normalized": "[(Integer,[Term Textual])]-\u003eTerm Toplevel",
@@ -626,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Paragraph",
           "package": "gentlemark",
@@ -635,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Paragraph",
           "normalized": "[Term Textual]-\u003eTerm Toplevel",
@@ -650,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Quote",
           "package": "gentlemark",
@@ -659,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Quote",
           "normalized": "String-\u003eTerm Toplevel",
@@ -674,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Reference",
           "package": "gentlemark",
@@ -683,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Reference",
           "normalized": "String-\u003eTerm Textual",
@@ -698,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Spoiler",
           "package": "gentlemark",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Spoiler",
           "normalized": "[Term Textual]-\u003eTerm Textual",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Striked",
           "package": "gentlemark",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Striked",
           "normalized": "[Term Textual]-\u003eTerm Textual",
@@ -746,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Tag",
           "package": "gentlemark",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Tag",
           "normalized": "String-\u003e[String]-\u003eString-\u003eTerm Textual",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Text",
           "package": "gentlemark",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Text",
           "normalized": "String-\u003eTerm Textual",
@@ -794,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Textual",
           "package": "gentlemark",
@@ -803,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Textual",
           "package": "gentlemark",
@@ -816,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Toplevel",
           "package": "gentlemark",
@@ -825,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Toplevel",
           "package": "gentlemark",
@@ -838,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "UList",
           "package": "gentlemark",
@@ -847,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "UList",
           "normalized": "[[Term Textual]]-\u003eTerm Toplevel",
@@ -862,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "Underlined",
           "package": "gentlemark",
@@ -871,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "Underlined",
           "normalized": "[Term Textual]-\u003eTerm Textual",
@@ -886,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "tagBody",
           "package": "gentlemark",
@@ -895,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "tagBody",
           "normalized": "Term Textual-\u003eString",
@@ -910,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "tagName",
           "package": "gentlemark",
@@ -919,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "tagName",
           "normalized": "Term Textual-\u003eString",
@@ -934,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark.Term",
           "name": "tagOptions",
           "package": "gentlemark",
@@ -943,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark Term",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark.Term",
           "name": "tagOptions",
           "normalized": "Term Textual-\u003e[String]",
@@ -958,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark",
           "name": "GentleMark",
           "package": "gentlemark",
@@ -966,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark",
           "name": "GentleMark",
           "package": "gentlemark",
@@ -979,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark",
           "name": "Source",
           "package": "gentlemark",
@@ -987,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark",
           "name": "Source",
           "package": "gentlemark",
@@ -1000,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:27 UTC 2014",
           "module": "Text.GentleMark",
           "name": "parse",
           "package": "gentlemark",
@@ -1009,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Text GentleMark",
+          "indexed": "2014-03-11T18:15:27",
           "module": "Text.GentleMark",
           "name": "parse",
           "normalized": "a-\u003e[Term Toplevel]",

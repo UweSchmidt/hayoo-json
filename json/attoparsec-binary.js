@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "attoparsec-binary"
+        "phrase": "attoparsec-binary",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinary processing extensions to Attoparsec.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "Binary",
           "package": "attoparsec-binary",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Binary processing extensions to Attoparsec",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "Binary",
           "package": "attoparsec-binary",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any 16-bit big-endian word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "anyWord16be",
           "package": "attoparsec-binary",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Match any bit big-endian word",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "anyWord16be",
           "package": "attoparsec-binary",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any 16-bit little-endian word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "anyWord16le",
           "package": "attoparsec-binary",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Match any bit little-endian word",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "anyWord16le",
           "package": "attoparsec-binary",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any 32-bit big-endian word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "anyWord32be",
           "package": "attoparsec-binary",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Match any bit big-endian word",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "anyWord32be",
           "package": "attoparsec-binary",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any 32-bit little-endian word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "anyWord32le",
           "package": "attoparsec-binary",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Match any bit little-endian word",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "anyWord32le",
           "package": "attoparsec-binary",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any 64-bit big-endian word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "anyWord64be",
           "package": "attoparsec-binary",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Match any bit big-endian word",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "anyWord64be",
           "package": "attoparsec-binary",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any 64-bit little-endian word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "anyWord64le",
           "package": "attoparsec-binary",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Match any bit little-endian word",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "anyWord64le",
           "package": "attoparsec-binary",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a specific 16-bit big-endian word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "word16be",
           "package": "attoparsec-binary",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Match specific bit big-endian word",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "word16be",
           "normalized": "Word-\u003eParser Word",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a specific 16-bit little-endian word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "word16le",
           "package": "attoparsec-binary",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Match specific bit little-endian word",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "word16le",
           "normalized": "Word-\u003eParser Word",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a specific 32-bit big-endian word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "word32be",
           "package": "attoparsec-binary",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Match specific bit big-endian word",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "word32be",
           "normalized": "Word-\u003eParser Word",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a specific 32-bit little-endian word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "word32le",
           "package": "attoparsec-binary",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Match specific bit little-endian word",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "word32le",
           "normalized": "Word-\u003eParser Word",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a specific 64-bit big-endian word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "word64be",
           "package": "attoparsec-binary",
@@ -296,6 +319,7 @@
         "index": {
           "description": "Match specific bit big-endian word",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "word64be",
           "normalized": "Word-\u003eParser Word",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a specific 64-bit little-endian word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:30 UTC 2014",
           "module": "Data.Attoparsec.Binary",
           "name": "word64le",
           "package": "attoparsec-binary",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Match specific bit little-endian word",
           "hierarchy": "Data Attoparsec Binary",
+          "indexed": "2014-03-11T17:14:30",
           "module": "Data.Attoparsec.Binary",
           "name": "word64le",
           "normalized": "Word-\u003eParser Word",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hfoil"
+        "phrase": "hfoil",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Drawing",
           "name": "Drawing",
           "package": "hfoil",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Drawing",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Drawing",
           "name": "Drawing",
           "package": "hfoil",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawFoil",
           "package": "hfoil",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Drawing",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawFoil",
           "normalized": "Foil a-\u003ePicture",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawForces",
           "package": "hfoil",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Drawing",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawForces",
           "normalized": "FlowSol Double-\u003ePicture",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawKuttas",
           "package": "hfoil",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Drawing",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawKuttas",
           "normalized": "FlowSol a-\u003ePicture",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawLine",
           "package": "hfoil",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Drawing",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawLine",
           "normalized": "Color-\u003e[(a,a)]-\u003ePicture",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawLineV",
           "package": "hfoil",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Drawing",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawLineV",
           "normalized": "Color-\u003e(Vector a,Vector a)-\u003ePicture",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawNormals",
           "package": "hfoil",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Drawing",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawNormals",
           "normalized": "Foil Double-\u003ePicture",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawOnce",
           "package": "hfoil",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Drawing",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawOnce",
           "normalized": "[Picture]-\u003eIO()",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawSolution",
           "package": "hfoil",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Drawing",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Drawing",
           "name": "drawSolution",
           "normalized": "FlowSol Double-\u003ePicture",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "Flow",
           "package": "hfoil",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "Flow",
           "package": "hfoil",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "FlowSol",
           "package": "hfoil",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "FlowSol",
           "package": "hfoil",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "FlowSol",
           "package": "hfoil",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "FlowSol",
           "package": "hfoil",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solAlpha",
           "package": "hfoil",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solAlpha",
           "package": "hfoil",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solCd",
           "package": "hfoil",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solCd",
           "package": "hfoil",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solCenterPressure",
           "package": "hfoil",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solCenterPressure",
           "normalized": "(a,a)",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solCl",
           "package": "hfoil",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solCl",
           "package": "hfoil",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solCm",
           "package": "hfoil",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solCm",
           "package": "hfoil",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solCps",
           "package": "hfoil",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solCps",
           "package": "hfoil",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solFoil",
           "package": "hfoil",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solFoil",
           "package": "hfoil",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solForce",
           "package": "hfoil",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solForce",
           "normalized": "(a,a)",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solForces",
           "package": "hfoil",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solForces",
           "normalized": "(Vector a,Vector a)",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solKuttaIndices",
           "package": "hfoil",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solKuttaIndices",
           "normalized": "[(Int,Int)]",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solVorticities",
           "package": "hfoil",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solVorticities",
           "normalized": "[a]",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solVs",
           "package": "hfoil",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solVs",
           "package": "hfoil",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Flow",
           "name": "solveFlow",
           "package": "hfoil",
@@ -578,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Flow",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Flow",
           "name": "solveFlow",
           "normalized": "Foil a-\u003ea-\u003eFlowSol a",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "Foil",
           "package": "hfoil",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "Foil",
           "package": "hfoil",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "Element",
           "package": "hfoil",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "Element",
           "package": "hfoil",
@@ -635,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "Foil",
           "package": "hfoil",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "Foil",
           "package": "hfoil",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "Element",
           "package": "hfoil",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "Element",
           "package": "hfoil",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "Foil",
           "package": "hfoil",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "Foil",
           "normalized": "Foil[Element a]String",
@@ -702,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "fAngles",
           "package": "hfoil",
@@ -711,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "fAngles",
           "package": "hfoil",
@@ -724,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "fInits",
           "package": "hfoil",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "fInits",
           "normalized": "(Vector a,Vector a)",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "fLengths",
           "package": "hfoil",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "fLengths",
           "package": "hfoil",
@@ -770,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "fMidpoints",
           "package": "hfoil",
@@ -779,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "fMidpoints",
           "normalized": "(Vector a,Vector a)",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "fNodes",
           "package": "hfoil",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "fNodes",
           "normalized": "(Vector a,Vector a)",
@@ -818,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "fNormals",
           "package": "hfoil",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "fNormals",
           "normalized": "(Vector a,Vector a)",
@@ -842,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "fTails",
           "package": "hfoil",
@@ -851,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "fTails",
           "normalized": "(Vector a,Vector a)",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "fTangents",
           "package": "hfoil",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "fTangents",
           "normalized": "(Vector a,Vector a)",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "fUnitNormals",
           "package": "hfoil",
@@ -899,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "fUnitNormals",
           "normalized": "(Vector a,Vector a)",
@@ -914,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "getUIUCFoil",
           "package": "hfoil",
@@ -923,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "getUIUCFoil",
           "normalized": "String-\u003eIO(Either String(Foil a))",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "loadFoil",
           "package": "hfoil",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "loadFoil",
           "normalized": "FilePath-\u003eIO(Either String(Foil Double))",
@@ -962,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Foil",
           "name": "panelizeNaca4",
           "package": "hfoil",
@@ -971,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Foil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Foil",
           "name": "panelizeNaca4",
           "normalized": "Naca a-\u003eInt-\u003eFoil a",
@@ -986,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Naca4",
           "name": "Naca4",
           "package": "hfoil",
@@ -994,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Naca4",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Naca4",
           "name": "Naca4",
           "package": "hfoil",
@@ -1007,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Naca4",
           "name": "Naca4",
           "package": "hfoil",
@@ -1015,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Naca4",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Naca4",
           "name": "Naca4",
           "package": "hfoil",
@@ -1028,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Naca4",
           "name": "Naca4",
           "package": "hfoil",
@@ -1037,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Naca4",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Naca4",
           "name": "Naca4",
           "package": "hfoil",
@@ -1050,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Naca4",
           "name": "coords",
           "package": "hfoil",
@@ -1059,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Naca4",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Naca4",
           "name": "coords",
           "normalized": "Naca a-\u003ea-\u003e((a,a),(a,a))",
@@ -1073,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Naca4",
           "name": "dyt",
           "package": "hfoil",
@@ -1082,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Naca4",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Naca4",
           "name": "dyt",
           "normalized": "Naca a-\u003ea-\u003ea",
@@ -1096,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Naca4",
           "name": "naca4",
           "package": "hfoil",
@@ -1105,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Naca4",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Naca4",
           "name": "naca4",
           "normalized": "String-\u003eNaca a",
@@ -1119,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Naca4",
           "name": "naca4_m",
           "package": "hfoil",
@@ -1128,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Naca4",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Naca4",
           "name": "naca4_m",
           "package": "hfoil",
@@ -1140,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Naca4",
           "name": "naca4_name",
           "package": "hfoil",
@@ -1149,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Naca4",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Naca4",
           "name": "naca4_name",
           "package": "hfoil",
@@ -1161,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Naca4",
           "name": "naca4_p",
           "package": "hfoil",
@@ -1170,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Naca4",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Naca4",
           "name": "naca4_p",
           "package": "hfoil",
@@ -1182,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Naca4",
           "name": "naca4_t",
           "package": "hfoil",
@@ -1191,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Naca4",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Naca4",
           "name": "naca4_t",
           "package": "hfoil",
@@ -1203,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Naca4",
           "name": "yt",
           "package": "hfoil",
@@ -1212,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Naca4",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Naca4",
           "name": "yt",
           "normalized": "Naca a-\u003ea-\u003ea",
@@ -1226,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Repl",
           "name": "Repl",
           "package": "hfoil",
@@ -1234,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Repl",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Repl",
           "name": "Repl",
           "package": "hfoil",
@@ -1247,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil.Repl",
           "name": "run",
           "package": "hfoil",
@@ -1256,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Numeric HFoil Repl",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil.Repl",
           "name": "run",
           "normalized": "IO()",
@@ -1271,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the top level module which exports the API\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:06 UTC 2014",
           "module": "Numeric.HFoil",
           "name": "HFoil",
           "package": "hfoil",
@@ -1280,6 +1391,7 @@
         "index": {
           "description": "This is the top level module which exports the API",
           "hierarchy": "Numeric HFoil",
+          "indexed": "2014-03-11T18:38:06",
           "module": "Numeric.HFoil",
           "name": "HFoil",
           "package": "hfoil",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "assembler"
+        "phrase": "assembler",
+        "type": "phrase"
       },
       "type": "context"
     }

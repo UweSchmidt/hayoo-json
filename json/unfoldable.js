@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unfoldable"
+        "phrase": "unfoldable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClass of data structures with 2 type arguments that can be unfolded.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Biunfoldable",
           "name": "Biunfoldable",
           "package": "unfoldable",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Class of data structures with type arguments that can be unfolded",
           "hierarchy": "Data Biunfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Biunfoldable",
           "name": "Biunfoldable",
           "package": "unfoldable",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structures with 2 type arguments (kind \u003ccode\u003e* -\u003e * -\u003e *\u003c/code\u003e) that can be unfolded.\n\u003c/p\u003e\u003cp\u003eFor example, given a data type\n\u003c/p\u003e\u003cpre\u003e data Tree a b = Empty | Leaf a | Node (Tree a b) b (Tree a b)\n\u003c/pre\u003e\u003cp\u003ea suitable instance would be\n\u003c/p\u003e\u003cpre\u003e instance Biunfoldable Tree where\n   biunfold fa fb = choose\n     [ pure Empty\n     , Leaf \u003c$\u003e fa\n     , Node \u003c$\u003e biunfold fa fb \u003c*\u003e fb \u003c*\u003e biunfold fa fb\n     ]\n\u003c/pre\u003e\u003cp\u003ei.e. it follows closely the instance for \u003ccode\u003eBitraversable\u003c/code\u003e, but instead of matching on an input value,\n we \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e from a list of all cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Biunfoldable",
           "name": "Biunfoldable",
           "package": "unfoldable",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Data structures with type arguments kind that can be unfolded For example given data type data Tree Empty Leaf Node Tree Tree suitable instance would be instance Biunfoldable Tree where biunfold fa fb choose pure Empty Leaf fa Node biunfold fa fb fb biunfold fa fb i.e it follows closely the instance for Bitraversable but instead of matching on an input value we choose from list of all cases",
           "hierarchy": "Data Biunfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Biunfoldable",
           "name": "Biunfoldable",
           "package": "unfoldable",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides a QuickCheck generator, can be used as default instance for \u003ccode\u003e\u003ca\u003eArbitrary\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Biunfoldable",
           "name": "arbitraryDefault",
           "package": "unfoldable",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Provides QuickCheck generator can be used as default instance for Arbitrary",
           "hierarchy": "Data Biunfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Biunfoldable",
           "name": "arbitraryDefault",
           "package": "unfoldable",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a way to generate elements, return a way to generate structures containing those elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Biunfoldable",
           "name": "biunfold",
           "package": "unfoldable",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Given way to generate elements return way to generate structures containing those elements",
           "hierarchy": "Data Biunfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Biunfoldable",
           "name": "biunfold",
           "normalized": "a b-\u003ea c-\u003ea(d b c)",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreadth-first unfold, which orders the result by the number of \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Biunfoldable",
           "name": "biunfoldBF",
           "package": "unfoldable",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Breadth-first unfold which orders the result by the number of choose calls",
           "hierarchy": "Data Biunfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Biunfoldable",
           "name": "biunfoldBF",
           "normalized": "a b-\u003ea c-\u003ea(d b c)",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold the structure breadth-first, always using \u003ccode\u003e()\u003c/code\u003e as elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Biunfoldable",
           "name": "biunfoldBF_",
           "package": "unfoldable",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Unfold the structure breadth-first always using as elements",
           "hierarchy": "Data Biunfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Biunfoldable",
           "name": "biunfoldBF_",
           "normalized": "a(b()())",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold the structure, always using \u003ccode\u003e()\u003c/code\u003e as elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Biunfoldable",
           "name": "biunfold_",
           "package": "unfoldable",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Unfold the structure always using as elements",
           "hierarchy": "Data Biunfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Biunfoldable",
           "name": "biunfold_",
           "normalized": "a(b()())",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebiunfoldr\u003c/code\u003e builds a data structure from a seed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Biunfoldable",
           "name": "biunfoldr",
           "package": "unfoldable",
@@ -201,6 +216,7 @@
         "index": {
           "description": "biunfoldr builds data structure from seed value",
           "hierarchy": "Data Biunfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Biunfoldable",
           "name": "biunfoldr",
           "normalized": "(a-\u003eMaybe(b,a))-\u003e(a-\u003eMaybe(c,a))-\u003ea-\u003eMaybe(d b c)",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a data structure using the lists as input.\n This can fail because there might not be a data structure with the same number\n of element positions as the number of elements in the lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Biunfoldable",
           "name": "fromLists",
           "package": "unfoldable",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Create data structure using the lists as input This can fail because there might not be data structure with the same number of element positions as the number of elements in the lists",
           "hierarchy": "Data Biunfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Biunfoldable",
           "name": "fromLists",
           "normalized": "[a]-\u003e[b]-\u003eMaybe(c a b)",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a random value, can be used as default instance for \u003ccode\u003e\u003ca\u003eRandom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Biunfoldable",
           "name": "randomDefault",
           "package": "unfoldable",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Generate random value can be used as default instance for Random",
           "hierarchy": "Data Biunfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Biunfoldable",
           "name": "randomDefault",
           "normalized": "a-\u003e(b c d,a)",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClass of data structures that can be unfolded.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "Unfoldable",
           "package": "unfoldable",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Class of data structures that can be unfolded",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "Unfoldable",
           "package": "unfoldable",
@@ -291,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structures that can be unfolded.\n\u003c/p\u003e\u003cp\u003eFor example, given a data type\n\u003c/p\u003e\u003cpre\u003e data Tree a = Empty | Leaf a | Node (Tree a) a (Tree a)\n\u003c/pre\u003e\u003cp\u003ea suitable instance would be\n\u003c/p\u003e\u003cpre\u003e instance Unfoldable Tree where\n   unfold fa = choose\n     [ pure Empty\n     , Leaf \u003c$\u003e fa\n     , Node \u003c$\u003e unfold fa \u003c*\u003e fa \u003c*\u003e unfold fa\n     ]\n\u003c/pre\u003e\u003cp\u003ei.e. it follows closely the instance for \u003ccode\u003eTraversable\u003c/code\u003e, but instead of matching on an input value,\n we \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e from a list of all cases.\n\u003c/p\u003e\u003cp\u003eInstead of manually writing the \u003ccode\u003e\u003ca\u003eUnfoldable\u003c/a\u003e\u003c/code\u003e instance, you can add a \u003ccode\u003ederiving\u003c/code\u003e \u003ccode\u003eGeneric1\u003c/code\u003e\n to your datatype and declare an \u003ccode\u003e\u003ca\u003eUnfoldable\u003c/a\u003e\u003c/code\u003e instance without giving a definition for \u003ccode\u003e\u003ca\u003eunfold\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example the previous example can be simplified to just:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE DeriveGeneric #-}\n\n import GHC.Generics\n\n data Tree a = Empty | Leaf a | Node (Tree a) a (Tree a) deriving Generic1\n \n instance Unfoldable Tree\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "Unfoldable",
           "package": "unfoldable",
@@ -300,6 +323,7 @@
         "index": {
           "description": "Data structures that can be unfolded For example given data type data Tree Empty Leaf Node Tree Tree suitable instance would be instance Unfoldable Tree where unfold fa choose pure Empty Leaf fa Node unfold fa fa unfold fa i.e it follows closely the instance for Traversable but instead of matching on an input value we choose from list of all cases Instead of manually writing the Unfoldable instance you can add deriving Generic1 to your datatype and declare an Unfoldable instance without giving definition for unfold For example the previous example can be simplified to just LANGUAGE DeriveGeneric import GHC.Generics data Tree Empty Leaf Node Tree Tree deriving Generic1 instance Unfoldable Tree",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "Unfoldable",
           "package": "unfoldable",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate all the values breadth-first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "allBreadthFirst",
           "package": "unfoldable",
@@ -324,6 +349,7 @@
         "index": {
           "description": "Generate all the values breadth-first",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "allBreadthFirst",
           "normalized": "[a()]",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate all the values depth-first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "allDepthFirst",
           "package": "unfoldable",
@@ -350,6 +377,7 @@
         "index": {
           "description": "Generate all the values depth-first",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "allDepthFirst",
           "normalized": "[a()]",
@@ -366,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate all the values upto a given depth, depth-first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "allToDepth",
           "package": "unfoldable",
@@ -376,6 +405,7 @@
         "index": {
           "description": "Generate all the values upto given depth depth-first",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "allToDepth",
           "normalized": "Int-\u003e[a()]",
@@ -392,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides a QuickCheck generator, can be used as default instance for \u003ccode\u003e\u003ca\u003eArbitrary\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "arbitraryDefault",
           "package": "unfoldable",
@@ -402,6 +433,7 @@
         "index": {
           "description": "Provides QuickCheck generator can be used as default instance for Arbitrary",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "arbitraryDefault",
           "package": "unfoldable",
@@ -416,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a data structure using the list as input.\n This can fail because there might not be a data structure with the same number\n of element positions as the number of elements in the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "fromList",
           "package": "unfoldable",
@@ -426,6 +459,7 @@
         "index": {
           "description": "Create data structure using the list as input This can fail because there might not be data structure with the same number of element positions as the number of elements in the list",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "fromList",
           "normalized": "[a]-\u003eMaybe(b a)",
@@ -442,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways choose the first constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "leftMost",
           "package": "unfoldable",
@@ -452,6 +487,7 @@
         "index": {
           "description": "Always choose the first constructor",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "leftMost",
           "normalized": "Maybe(a())",
@@ -468,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a random value, can be used as default instance for \u003ccode\u003e\u003ca\u003eRandom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "randomDefault",
           "package": "unfoldable",
@@ -478,6 +515,7 @@
         "index": {
           "description": "Generate random value can be used as default instance for Random",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "randomDefault",
           "normalized": "a-\u003e(b c,a)",
@@ -494,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways choose the last constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "rightMost",
           "package": "unfoldable",
@@ -504,6 +543,7 @@
         "index": {
           "description": "Always choose the last constructor",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "rightMost",
           "normalized": "Maybe(a())",
@@ -520,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a way to generate elements, return a way to generate structures containing those elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "unfold",
           "package": "unfoldable",
@@ -530,6 +571,7 @@
         "index": {
           "description": "Given way to generate elements return way to generate structures containing those elements",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "unfold",
           "normalized": "a b-\u003ea(c b)",
@@ -545,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreadth-first unfold, which orders the result by the number of \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "unfoldBF",
           "package": "unfoldable",
@@ -555,6 +598,7 @@
         "index": {
           "description": "Breadth-first unfold which orders the result by the number of choose calls",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "unfoldBF",
           "normalized": "a b-\u003ea(c b)",
@@ -571,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold the structure breadth-first, always using \u003ccode\u003e()\u003c/code\u003e as elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "unfoldBF_",
           "package": "unfoldable",
@@ -581,6 +626,7 @@
         "index": {
           "description": "Unfold the structure breadth-first always using as elements",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "unfoldBF_",
           "normalized": "a(b())",
@@ -597,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold the structure, always using \u003ccode\u003e()\u003c/code\u003e as elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "unfold_",
           "package": "unfoldable",
@@ -607,6 +654,7 @@
         "index": {
           "description": "Unfold the structure always using as elements",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "unfold_",
           "normalized": "a(b())",
@@ -622,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunfoldr\u003c/code\u003e builds a data structure from a seed value. It can be specified as:\n\u003c/p\u003e\u003cpre\u003e unfoldr f z == fromList (Data.List.unfoldr f z)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfoldable",
           "name": "unfoldr",
           "package": "unfoldable",
@@ -632,6 +681,7 @@
         "index": {
           "description": "unfoldr builds data structure from seed value It can be specified as unfoldr fromList Data.List.unfoldr",
           "hierarchy": "Data Unfoldable",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfoldable",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(b,a))-\u003ea-\u003eMaybe(c b)",
@@ -647,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnfolders provide a way to unfold data structures.\n They are basically \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instances, but the \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e method\n allows the unfolder to do something special for the recursive positions\n of the data structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "Unfolder",
           "package": "unfoldable",
@@ -656,6 +707,7 @@
         "index": {
           "description": "Unfolders provide way to unfold data structures They are basically Alternative instances but the choose method allows the unfolder to do something special for the recursive positions of the data structure",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "Unfolder",
           "package": "unfoldable",
@@ -670,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of Test.QuickCheck.Gen, with failure \n and a count of the number of recursive positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "Arb",
           "package": "unfoldable",
@@ -679,6 +732,7 @@
         "index": {
           "description": "variant of Test.QuickCheck.Gen with failure and count of the number of recursive positions",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "Arb",
           "package": "unfoldable",
@@ -693,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a generator of values of a given depth.\n Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if there are no values of that depth or deeper.\n The depth is the number of \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "BFS",
           "package": "unfoldable",
@@ -702,6 +757,7 @@
         "index": {
           "description": "Return generator of values of given depth Returns Nothing if there are no values of that depth or deeper The depth is the number of choose calls",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "BFS",
           "package": "unfoldable",
@@ -716,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDualA\u003c/a\u003e\u003c/code\u003e flips the \u003ccode\u003e\u003c|\u003e\u003c/code\u003e operator from \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "DualA",
           "package": "unfoldable",
@@ -725,6 +782,7 @@
         "index": {
           "description": "DualA flips the operator from Alternative",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "DualA",
           "package": "unfoldable",
@@ -739,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNatural transformations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "NT",
           "package": "unfoldable",
@@ -748,6 +807,7 @@
         "index": {
           "description": "Natural transformations",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "NT",
           "package": "unfoldable",
@@ -762,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eConstant\u003c/a\u003e\u003c/code\u003e that does multiplication of the constants for \u003ccode\u003e\u003c*\u003e\u003c/code\u003e and addition for \u003ccode\u003e\u003c|\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "NumConst",
           "package": "unfoldable",
@@ -771,6 +832,7 @@
         "index": {
           "description": "Variant of Constant that does multiplication of the constants for and addition for",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "NumConst",
           "package": "unfoldable",
@@ -784,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "Random",
           "package": "unfoldable",
@@ -792,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "Random",
           "package": "unfoldable",
@@ -805,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "Split",
           "package": "unfoldable",
@@ -813,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "Split",
           "package": "unfoldable",
@@ -827,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfolders provide a way to unfold data structures.\n The methods have default implementations in terms of \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e,\n but you can implement \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e to act on recursive positions of the\n data structure, or simply to provide a faster implementation than \u003ccode\u003e\u003ca\u003easum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "Unfolder",
           "package": "unfoldable",
@@ -836,6 +903,7 @@
         "index": {
           "description": "Unfolders provide way to unfold data structures The methods have default implementations in terms of Alternative but you can implement choose to act on recursive positions of the data structure or simply to provide faster implementation than asum",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "Unfolder",
           "package": "unfoldable",
@@ -850,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eUnfolderTransformer\u003c/a\u003e\u003c/code\u003e changes the way an \u003ccode\u003e\u003ca\u003eUnfolder\u003c/a\u003e\u003c/code\u003e unfolds. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "UnfolderTransformer",
           "package": "unfoldable",
@@ -859,6 +928,7 @@
         "index": {
           "description": "An UnfolderTransformer changes the way an Unfolder unfolds",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "UnfolderTransformer",
           "package": "unfoldable",
@@ -872,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "WithRec",
           "package": "unfoldable",
@@ -880,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "WithRec",
           "package": "unfoldable",
@@ -893,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "Arb",
           "package": "unfoldable",
@@ -902,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "Arb",
           "normalized": "Arb Int(StdGen-\u003eInt-\u003eMaybe a)",
@@ -917,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "BFS",
           "package": "unfoldable",
@@ -926,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "BFS",
           "package": "unfoldable",
@@ -939,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "DualA",
           "package": "unfoldable",
@@ -948,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "DualA",
           "package": "unfoldable",
@@ -961,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "NT",
           "package": "unfoldable",
@@ -970,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "NT",
           "package": "unfoldable",
@@ -983,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "NumConst",
           "package": "unfoldable",
@@ -992,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "NumConst",
           "package": "unfoldable",
@@ -1005,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "Random",
           "package": "unfoldable",
@@ -1014,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "Random",
           "package": "unfoldable",
@@ -1027,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "WithRec",
           "package": "unfoldable",
@@ -1036,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "WithRec",
           "package": "unfoldable",
@@ -1050,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an unfolding function with one argument using an \u003ccode\u003e\u003ca\u003eUnfolderTransformer\u003c/a\u003e\u003c/code\u003e, given a way to run the transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "ala",
           "package": "unfoldable",
@@ -1060,6 +1147,7 @@
         "index": {
           "description": "Run an unfolding function with one argument using an UnfolderTransformer given way to run the transformer",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "ala",
           "normalized": "(a b c-\u003eb c)-\u003e(a b d-\u003ea b c)-\u003eb d-\u003eb c",
@@ -1075,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an unfolding function with two arguments using an \u003ccode\u003e\u003ca\u003eUnfolderTransformer\u003c/a\u003e\u003c/code\u003e, given a way to run the transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "ala2",
           "package": "unfoldable",
@@ -1085,6 +1174,7 @@
         "index": {
           "description": "Run an unfolding function with two arguments using an UnfolderTransformer given way to run the transformer",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "ala2",
           "normalized": "(a b c-\u003eb c)-\u003e(a b d-\u003ea b e-\u003ea b c)-\u003eb d-\u003eb e-\u003eb c",
@@ -1100,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an unfolding function with three arguments using an \u003ccode\u003e\u003ca\u003eUnfolderTransformer\u003c/a\u003e\u003c/code\u003e, given a way to run the transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "ala3",
           "package": "unfoldable",
@@ -1110,6 +1201,7 @@
         "index": {
           "description": "Run an unfolding function with three arguments using an UnfolderTransformer given way to run the transformer",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "ala3",
           "normalized": "(a b c-\u003eb c)-\u003e(a b d-\u003ea b e-\u003ea b f-\u003ea b c)-\u003eb d-\u003eb e-\u003eb f-\u003eb c",
@@ -1124,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "arbUnit",
           "package": "unfoldable",
@@ -1133,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "arbUnit",
           "package": "unfoldable",
@@ -1147,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a datatype is enumerable, we can use \u003ccode\u003e\u003ca\u003echooseInt\u003c/a\u003e\u003c/code\u003e to generate a value.\n This is the function to use if you want to unfold a datatype that has no type arguments (has kind \u003ccode\u003e*\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "between",
           "package": "unfoldable",
@@ -1157,6 +1252,7 @@
         "index": {
           "description": "If datatype is enumerable we can use chooseInt to generate value This is the function to use if you want to unfold datatype that has no type arguments has kind",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "between",
           "normalized": "a-\u003ea-\u003eb a",
@@ -1172,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ebetweenD\u003c/a\u003e\u003c/code\u003e uses \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e to generate a value. It chooses between the lower bound and one\n   of the higher values. This means that f.e. breadth-first unfolding and arbitrary will prefer\n   lower values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "betweenD",
           "package": "unfoldable",
@@ -1182,6 +1279,7 @@
         "index": {
           "description": "betweenD uses choose to generate value It chooses between the lower bound and one of the higher values This means that f.e breadth-first unfolding and arbitrary will prefer lower values",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "betweenD",
           "normalized": "a-\u003ea-\u003eb a",
@@ -1197,6 +1295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the order of unfolding to be breadth-first, by maximum depth of the components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "bfs",
           "package": "unfoldable",
@@ -1207,6 +1306,7 @@
         "index": {
           "description": "Change the order of unfolding to be breadth-first by maximum depth of the components",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "bfs",
           "normalized": "BFS a b-\u003ea b",
@@ -1222,6 +1322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the order of unfolding to be breadth-first, by the sum of depths of the components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "bfsBySum",
           "package": "unfoldable",
@@ -1232,6 +1333,7 @@
         "index": {
           "description": "Change the order of unfolding to be breadth-first by the sum of depths of the components",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "bfsBySum",
           "normalized": "BFS a b-\u003ea b",
@@ -1248,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a datatype is also bounded, we choose between all possible values.\n\u003c/p\u003e\u003cpre\u003e boundedEnum = between minBound maxBound\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "boundedEnum",
           "package": "unfoldable",
@@ -1258,6 +1361,7 @@
         "index": {
           "description": "If datatype is also bounded we choose between all possible values boundedEnum between minBound maxBound",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "boundedEnum",
           "package": "unfoldable",
@@ -1272,6 +1376,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e boundedEnumD = betweenD minBound maxBound\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "boundedEnumD",
           "package": "unfoldable",
@@ -1282,6 +1387,7 @@
         "index": {
           "description": "boundedEnumD betweenD minBound maxBound",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "boundedEnumD",
           "package": "unfoldable",
@@ -1296,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose one of the values from the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "choose",
           "package": "unfoldable",
@@ -1306,6 +1413,7 @@
         "index": {
           "description": "Choose one of the values from the list",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "choose",
           "normalized": "[a b]-\u003ea b",
@@ -1321,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a number \u003ccode\u003en\u003c/code\u003e, return a number between '0' and 'n - 1'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "chooseInt",
           "package": "unfoldable",
@@ -1331,6 +1440,7 @@
         "index": {
           "description": "Given number return number between and",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "chooseInt",
           "normalized": "Int-\u003ea Int",
@@ -1347,6 +1457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf an unfolder is monadic, \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e can be implemented in terms of \u003ccode\u003e\u003ca\u003echooseInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "chooseMonadDefault",
           "package": "unfoldable",
@@ -1357,6 +1468,7 @@
         "index": {
           "description": "If an unfolder is monadic choose can be implemented in terms of chooseInt",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "chooseMonadDefault",
           "normalized": "[a b]-\u003ea b",
@@ -1372,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "getBFS",
           "package": "unfoldable",
@@ -1381,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "getBFS",
           "normalized": "(Int,Split)-\u003eMaybe[a b]",
@@ -1396,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "getDualA",
           "package": "unfoldable",
@@ -1405,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "getDualA",
           "package": "unfoldable",
@@ -1418,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "getNT",
           "package": "unfoldable",
@@ -1427,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "getNT",
           "normalized": "a b c d-\u003ee d",
@@ -1442,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "getNumConst",
           "package": "unfoldable",
@@ -1451,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "getNumConst",
           "package": "unfoldable",
@@ -1464,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "getRandom",
           "package": "unfoldable",
@@ -1473,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "getRandom",
           "package": "unfoldable",
@@ -1486,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "getWithRec",
           "package": "unfoldable",
@@ -1495,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "getWithRec",
           "normalized": "ReaderT(Int-\u003eNT a a)a b",
@@ -1511,6 +1635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the argument unfolder to the constructed unfolder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "lift",
           "package": "unfoldable",
@@ -1521,6 +1646,7 @@
         "index": {
           "description": "Lift computation from the argument unfolder to the constructed unfolder",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "lift",
           "normalized": "a b-\u003ec a b",
@@ -1536,6 +1662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit the depth of an unfolding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "limitDepth",
           "package": "unfoldable",
@@ -1546,6 +1673,7 @@
         "index": {
           "description": "Limit the depth of an unfolding",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "limitDepth",
           "normalized": "Int-\u003eWithRec a b-\u003ea b",
@@ -1562,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a certain function of type \u003ccode\u003ef a -\u003e f a\u003c/code\u003e to the result of a \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e.\n The depth is passed as \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, so you can apply a different function at each depth.\n Because of a \u003ccode\u003eforall\u003c/code\u003e, the function needs to be wrapped in a \u003ccode\u003e\u003ca\u003eNT\u003c/a\u003e\u003c/code\u003e constructor.\n See \u003ccode\u003e\u003ca\u003elimitDepth\u003c/a\u003e\u003c/code\u003e for an example how to use this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:11 UTC 2014",
           "module": "Data.Unfolder",
           "name": "withRec",
           "package": "unfoldable",
@@ -1572,6 +1701,7 @@
         "index": {
           "description": "Apply certain function of type to the result of choose The depth is passed as Int so you can apply different function at each depth Because of forall the function needs to be wrapped in NT constructor See limitDepth for an example how to use this function",
           "hierarchy": "Data Unfolder",
+          "indexed": "2014-03-11T20:29:11",
           "module": "Data.Unfolder",
           "name": "withRec",
           "normalized": "(Int-\u003eNT a a)-\u003eWithRec a b-\u003ea b",

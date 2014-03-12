@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "feed-cli"
+        "phrase": "feed-cli",
+        "type": "phrase"
       },
       "type": "context"
     }

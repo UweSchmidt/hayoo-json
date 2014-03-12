@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rsagl"
+        "phrase": "rsagl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupports monadic and arrow operations for animated\n scenes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Animation",
           "name": "Animation",
           "package": "rsagl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Supports monadic and arrow operations for animated scenes",
           "hierarchy": "RSAGL Animation Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Animation",
           "name": "Animation",
           "package": "rsagl",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad for animation using RSAGL's scene accumulation system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Animation",
           "name": "AniM",
           "package": "rsagl",
@@ -51,6 +54,7 @@
         "index": {
           "description": "monad for animation using RSAGL scene accumulation system",
           "hierarchy": "RSAGL Animation Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Animation",
           "name": "AniM",
           "package": "rsagl",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn object that can capture either a monadic or\n arrow-based animation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Animation",
           "name": "AnimationObject",
           "package": "rsagl",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An object that can capture either monadic or arrow-based animation",
           "hierarchy": "RSAGL Animation Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Animation",
           "name": "AnimationObject",
           "package": "rsagl",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA time-aware scene accumulator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Animation",
           "name": "TimePlusSceneAccumulator",
           "package": "rsagl",
@@ -97,6 +104,7 @@
         "index": {
           "description": "time-aware scene accumulator",
           "hierarchy": "RSAGL Animation Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Animation",
           "name": "TimePlusSceneAccumulator",
           "package": "rsagl",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine an animation with a continuous affine transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Animation",
           "name": "animateM",
           "package": "rsagl",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Combine an animation with continuous affine transformation",
           "hierarchy": "RSAGL Animation Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Animation",
           "name": "animateM",
           "normalized": "AniM AffineTransformation-\u003eAniM a-\u003eAniM a",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet's the time of the current frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Animation",
           "name": "frameTime",
           "package": "rsagl",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Get the time of the current frame",
           "hierarchy": "RSAGL Animation Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Animation",
           "name": "frameTime",
           "package": "rsagl",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Animation",
           "name": "newAnimationObjectA",
           "package": "rsagl",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Animation",
           "name": "newAnimationObjectA",
           "normalized": "(a b FRP c(FRP(SceneAccumulator IO)d e)d e)-\u003eIO(AnimationObject d e)",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Animation",
           "name": "newAnimationObjectM",
           "package": "rsagl",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Animation",
           "name": "newAnimationObjectM",
           "normalized": "(a-\u003eAniM b)-\u003eAnimationObject a b",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate an animation continuously.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Animation",
           "name": "rotateM",
           "package": "rsagl",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Rotate an animation continuously",
           "hierarchy": "RSAGL Animation Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Animation",
           "name": "rotateM",
           "normalized": "Vector D-\u003eRate Angle-\u003eAniM a-\u003eAniM a",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a continuous rotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Animation",
           "name": "rotationM",
           "package": "rsagl",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Generates continuous rotation",
           "hierarchy": "RSAGL Animation Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Animation",
           "name": "rotationM",
           "normalized": "Vector D-\u003eRate Angle-\u003eAniM AffineTransformation",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Animation",
           "name": "runAniM",
           "package": "rsagl",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Animation",
           "name": "runAniM",
           "normalized": "AniM(a,SceneLayerInfo)-\u003eIO(a,Scene)",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Animation",
           "name": "runAnimationObject",
           "package": "rsagl",
@@ -290,6 +313,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Animation",
           "name": "runAnimationObject",
           "normalized": "AnimationObject a b-\u003ea-\u003eAniM b",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "AnimationExtras",
           "package": "rsagl",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "AnimationExtras",
           "package": "rsagl",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA time-varying, velocity-aware vector field that can act on a particle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "ForceFunction",
           "package": "rsagl",
@@ -336,6 +363,7 @@
         "index": {
           "description": "time-varying velocity-aware vector field that can act on particle",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "ForceFunction",
           "package": "rsagl",
@@ -350,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA particle with a position and velocity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "PV",
           "package": "rsagl",
@@ -359,6 +388,7 @@
         "index": {
           "description": "particle with position and velocity",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "PV",
           "package": "rsagl",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA particle with a position, velocity and acceleration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "PVA",
           "package": "rsagl",
@@ -382,6 +413,7 @@
         "index": {
           "description": "particle with position velocity and acceleration",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "PVA",
           "package": "rsagl",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an affine transformation to an animation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "animateA",
           "package": "rsagl",
@@ -406,6 +439,7 @@
         "index": {
           "description": "Apply an affine transformation to an animation",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "animateA",
           "normalized": "FRP a b c AffineTransformation-\u003eFRP a b c d-\u003eFRP a b c d",
@@ -421,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd many forces together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "concatForces",
           "package": "rsagl",
@@ -431,6 +466,7 @@
         "index": {
           "description": "Add many forces together",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "concatForces",
           "normalized": "[ForceFunction]-\u003eForceFunction",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA filter function on forces.  Where the filter is False,\n the force is coerced to zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "constrainForce",
           "package": "rsagl",
@@ -457,6 +494,7 @@
         "index": {
           "description": "filter function on forces Where the filter is False the force is coerced to zero",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "constrainForce",
           "normalized": "(Time-\u003ePoint D-\u003eRate Vector D-\u003eBool)-\u003eForceFunction-\u003eForceFunction",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA force function describing aerodynamic drag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "drag",
           "package": "rsagl",
@@ -483,6 +522,7 @@
         "index": {
           "description": "force function describing aerodynamic drag",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "drag",
           "normalized": "RSdouble-\u003eForceFunction",
@@ -498,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn energy-conserving force function describing gravitational attraction.\n Accepts the intensity and singularity of the vector field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "inverseSquareLaw",
           "package": "rsagl",
@@ -508,6 +549,7 @@
         "index": {
           "description": "An energy-conserving force function describing gravitational attraction Accepts the intensity and singularity of the vector field",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "inverseSquareLaw",
           "normalized": "RSdouble-\u003ePoint D-\u003eForceFunction",
@@ -524,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a varying force function to a system of particles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "particleSystem",
           "package": "rsagl",
@@ -534,6 +577,7 @@
         "index": {
           "description": "Apply varying force function to system of particles",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "particleSystem",
           "normalized": "Frequency-\u003e[PV]-\u003eFRP a b([PV]-\u003eForceFunction)[PVA]",
@@ -550,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways rotates the model so that it's Y+ axis points directly at the camera.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "pointAtCameraA",
           "package": "rsagl",
@@ -560,6 +605,7 @@
         "index": {
           "description": "Always rotates the model so that it axis points directly at the camera",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "pointAtCameraA",
           "normalized": "a(SceneLayer,b c)()",
@@ -576,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn energy-conserving force function that increases in\n intensity with distance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "quadraticTrap",
           "package": "rsagl",
@@ -586,6 +633,7 @@
         "index": {
           "description": "An energy-conserving force function that increases in intensity with distance",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "quadraticTrap",
           "normalized": "RSdouble-\u003ePoint D-\u003eForceFunction",
@@ -602,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnimation that rotates continuously.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "rotateA",
           "package": "rsagl",
@@ -612,6 +661,7 @@
         "index": {
           "description": "Animation that rotates continuously",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "rotateA",
           "normalized": "Vector D-\u003eRate Angle-\u003eFRP a b c d-\u003eFRP a b c d",
@@ -627,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswers a continuous rotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "rotationA",
           "package": "rsagl",
@@ -637,6 +688,7 @@
         "index": {
           "description": "Answers continuous rotation",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "rotationA",
           "normalized": "Vector D-\u003eRate Angle-\u003eFRP a b c AffineTransformation",
@@ -652,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a varying force function to a particle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "singleParticle",
           "package": "rsagl",
@@ -662,6 +715,7 @@
         "index": {
           "description": "Apply varying force function to particle",
           "hierarchy": "RSAGL Animation AnimationExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.AnimationExtras",
           "name": "singleParticle",
           "normalized": "Frequency-\u003ePV-\u003eFRP a b ForceFunction PVA",
@@ -677,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "InverseKinematics",
           "package": "rsagl",
@@ -685,6 +740,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation InverseKinematics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "InverseKinematics",
           "package": "rsagl",
@@ -699,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of a leg.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "Leg",
           "package": "rsagl",
@@ -708,6 +765,7 @@
         "index": {
           "description": "description of leg",
           "hierarchy": "RSAGL Animation InverseKinematics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "Leg",
           "package": "rsagl",
@@ -721,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "LegStyle",
           "package": "rsagl",
@@ -729,6 +788,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation InverseKinematics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "LegStyle",
           "package": "rsagl",
@@ -742,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "Insectoid",
           "package": "rsagl",
@@ -751,6 +812,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation InverseKinematics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "Insectoid",
           "package": "rsagl",
@@ -764,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "Upright",
           "package": "rsagl",
@@ -773,6 +836,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation InverseKinematics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "Upright",
           "package": "rsagl",
@@ -787,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn acceleration function that that tries to approach a goal point.\n It begins slowing down when it comes within the goal radius, and otherwise\n travels at a fixed speed toward the goal.  The goal radius and speed are\n defined in terms of the magnitude method of the vector type.\n\u003c/p\u003e\u003cp\u003eThis function is just a pure differential equation, see \u003ccode\u003e\u003ca\u003eapproachFrom\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003eapproachA\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eParameters are:\n * A goal point.\n * A goal radius.\n * An approach speed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "approach",
           "package": "rsagl",
@@ -797,6 +862,7 @@
         "index": {
           "description": "An acceleration function that that tries to approach goal point It begins slowing down when it comes within the goal radius and otherwise travels at fixed speed toward the goal The goal radius and speed are defined in terms of the magnitude method of the vector type This function is just pure differential equation see approachFrom and approachA Parameters are goal point goal radius An approach speed",
           "hierarchy": "RSAGL Animation InverseKinematics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "approach",
           "normalized": "a-\u003eRSdouble-\u003eRate RSdouble-\u003eTime-\u003ea-\u003eRate b",
@@ -812,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproach a moving goal point, starting at the initial\n position of the goal point.  The particle won't move\n until the goal point moves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "approachA",
           "package": "rsagl",
@@ -822,6 +889,7 @@
         "index": {
           "description": "Approach moving goal point starting at the initial position of the goal point The particle won move until the goal point moves",
           "hierarchy": "RSAGL Animation InverseKinematics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "approachA",
           "normalized": "RSdouble-\u003eRate RSdouble-\u003eFRP a b c c",
@@ -837,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproach a moving goal point from the specified starting point.\n See the description of \u003ccode\u003e\u003ca\u003eapproach\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "approachFrom",
           "package": "rsagl",
@@ -847,6 +916,7 @@
         "index": {
           "description": "Approach moving goal point from the specified starting point See the description of approach",
           "hierarchy": "RSAGL Animation InverseKinematics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "approachFrom",
           "normalized": "RSdouble-\u003eRate RSdouble-\u003ea-\u003eFRP b c a a",
@@ -863,6 +933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnimates the upper and lower limbs of a joint into a single animation,\n using the affine transformations \u003ccode\u003ejoitn_arm_upper\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ejoint_arm_lower\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "jointAnimation",
           "package": "rsagl",
@@ -873,6 +944,7 @@
         "index": {
           "description": "Animates the upper and lower limbs of joint into single animation using the affine transformations joitn arm upper and joint arm lower",
           "hierarchy": "RSAGL Animation InverseKinematics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "jointAnimation",
           "normalized": "FRP a b()()-\u003eFRP a b()()-\u003eFRP a b Joint()",
@@ -889,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a leg, based on several parameters.\n See the descriptions of \u003ccode\u003efoot\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ejoint\u003c/a\u003e\u003c/code\u003e for\n more information on how some of these parameters\n are interpreted.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e style - See LegStyle.\n * bend - The bend vector of the articulated joint\n * base - the base or shoulder or fixed point of the joint\n * len - the total length of the articulation\n * end - the natural resting point of the foot\n         the foot will rarely actually be here,\n         but will try to return to this point\n         as it walks.\n * animation - an animation to display the joint\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "leg",
           "package": "rsagl",
@@ -899,6 +972,7 @@
         "index": {
           "description": "Constructs leg based on several parameters See the descriptions of foot and joint for more information on how some of these parameters are interpreted style See LegStyle bend The bend vector of the articulated joint base the base or shoulder or fixed point of the joint len the total length of the articulation end the natural resting point of the foot the foot will rarely actually be here but will try to return to this point as it walks animation an animation to display the joint",
           "hierarchy": "RSAGL Animation InverseKinematics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "leg",
           "normalized": "LegStyle-\u003eVector D-\u003ePoint D-\u003eRSdouble-\u003ePoint D-\u003eFRP a b Joint()-\u003eLeg a b",
@@ -914,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines a group of legs into a group that will try to keep at least half\n of the legs on the ground at all times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "legs",
           "package": "rsagl",
@@ -924,6 +999,7 @@
         "index": {
           "description": "Combines group of legs into group that will try to keep at least half of the legs on the ground at all times",
           "hierarchy": "RSAGL Animation InverseKinematics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.InverseKinematics",
           "name": "legs",
           "normalized": "[Leg a b]-\u003eFRP a b()()",
@@ -938,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Joint",
           "name": "Joint",
           "package": "rsagl",
@@ -946,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation Joint",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Joint",
           "name": "Joint",
           "package": "rsagl",
@@ -960,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of computing a joint.  It provides AffineTransformations that\n describe the orientations of the components of the joint.\n All affine transformations reorient the +Z axis to aim in the direction\n of the far point.  For example, in \u003ccode\u003ejoint_arm_lower\u003c/code\u003e the +Z axis aims\n at the position of the hand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Joint",
           "name": "Joint",
           "package": "rsagl",
@@ -969,6 +1048,7 @@
         "index": {
           "description": "The result of computing joint It provides AffineTransformations that describe the orientations of the components of the joint All affine transformations reorient the axis to aim in the direction of the far point For example in joint arm lower the axis aims at the position of the hand",
           "hierarchy": "RSAGL Animation Joint",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Joint",
           "name": "Joint",
           "package": "rsagl",
@@ -982,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Joint",
           "name": "Joint",
           "package": "rsagl",
@@ -991,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation Joint",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Joint",
           "name": "Joint",
           "package": "rsagl",
@@ -1005,6 +1087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a joint where given a bend vector, describing the direction\n in which the articulated point (elbow) will try to move when the\n arm is retracted, and shoulder or base of the joint, the total\n length of the joint, and ideal position of the hand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Joint",
           "name": "joint",
           "package": "rsagl",
@@ -1015,6 +1098,7 @@
         "index": {
           "description": "Compute joint where given bend vector describing the direction in which the articulated point elbow will try to move when the arm is retracted and shoulder or base of the joint the total length of the joint and ideal position of the hand",
           "hierarchy": "RSAGL Animation Joint",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Joint",
           "name": "joint",
           "normalized": "Vector D-\u003ePoint D-\u003eRSdouble-\u003ePoint D-\u003eJoint",
@@ -1030,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe affine transformation where the origin\n is the hand.  Oriented to preserve as much as\n possible the +Y axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Joint",
           "name": "joint_arm_hand",
           "package": "rsagl",
@@ -1040,6 +1125,7 @@
         "index": {
           "description": "The affine transformation where the origin is the hand Oriented to preserve as much as possible the axis",
           "hierarchy": "RSAGL Animation Joint",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Joint",
           "name": "joint_arm_hand",
           "package": "rsagl",
@@ -1053,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe affine transformation to the lower\n arm, where the origin is the elbow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Joint",
           "name": "joint_arm_lower",
           "package": "rsagl",
@@ -1063,6 +1150,7 @@
         "index": {
           "description": "The affine transformation to the lower arm where the origin is the elbow",
           "hierarchy": "RSAGL Animation Joint",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Joint",
           "name": "joint_arm_lower",
           "package": "rsagl",
@@ -1076,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe affine transformation to the upper\n arm, where the origin is the shoulder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Joint",
           "name": "joint_arm_upper",
           "package": "rsagl",
@@ -1086,6 +1175,7 @@
         "index": {
           "description": "The affine transformation to the upper arm where the origin is the shoulder",
           "hierarchy": "RSAGL Animation Joint",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Joint",
           "name": "joint_arm_upper",
           "package": "rsagl",
@@ -1099,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe articulated point of the joint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Joint",
           "name": "joint_elbow",
           "package": "rsagl",
@@ -1109,6 +1200,7 @@
         "index": {
           "description": "The articulated point of the joint",
           "hierarchy": "RSAGL Animation Joint",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Joint",
           "name": "joint_elbow",
           "package": "rsagl",
@@ -1122,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe far end point of the joint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Joint",
           "name": "joint_hand",
           "package": "rsagl",
@@ -1132,6 +1225,7 @@
         "index": {
           "description": "The far end point of the joint",
           "hierarchy": "RSAGL Animation Joint",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Joint",
           "name": "joint_hand",
           "package": "rsagl",
@@ -1145,6 +1239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fixed point of the joint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.Joint",
           "name": "joint_shoulder",
           "package": "rsagl",
@@ -1155,6 +1250,7 @@
         "index": {
           "description": "The fixed point of the joint",
           "hierarchy": "RSAGL Animation Joint",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.Joint",
           "name": "joint_shoulder",
           "package": "rsagl",
@@ -1167,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.KinematicSensors",
           "name": "KinematicSensors",
           "package": "rsagl",
@@ -1175,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation KinematicSensors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.KinematicSensors",
           "name": "KinematicSensors",
           "package": "rsagl",
@@ -1189,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasures the (presumed) acceleration due to inertia of a point\n in the local coordinate system, relative to a (presumably) inertial frame a reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.KinematicSensors",
           "name": "inertia",
           "package": "rsagl",
@@ -1199,6 +1298,7 @@
         "index": {
           "description": "Measures the presumed acceleration due to inertia of point in the local coordinate system relative to presumably inertial frame reference",
           "hierarchy": "RSAGL Animation KinematicSensors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.KinematicSensors",
           "name": "inertia",
           "normalized": "CoordinateSystem-\u003ePoint D-\u003eFRP a b()(Acceleration Vector D)",
@@ -1214,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasures the distance traveled, by the origin of the local coordinate\n system, as measured in a remote coordinate system, in terms\n of a vector in the local coordinate system.\n\u003c/p\u003e\u003cp\u003eFor example, if we are animating a model of a wheel, we could put an\n odometer at the bottom-most point of the wheel, and then rotate\n the wheel according to the result.  The wheel would seem to\n turn as it travels, but would not turn when dragged sidewise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation.KinematicSensors",
           "name": "odometer",
           "package": "rsagl",
@@ -1224,6 +1325,7 @@
         "index": {
           "description": "Measures the distance traveled by the origin of the local coordinate system as measured in remote coordinate system in terms of vector in the local coordinate system For example if we are animating model of wheel we could put an odometer at the bottom-most point of the wheel and then rotate the wheel according to the result The wheel would seem to turn as it travels but would not turn when dragged sidewise",
           "hierarchy": "RSAGL Animation KinematicSensors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation.KinematicSensors",
           "name": "odometer",
           "normalized": "CoordinateSystem-\u003eVector D-\u003eFRP a b()RSdouble",
@@ -1238,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Animation",
           "name": "Animation",
           "package": "rsagl",
@@ -1246,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Animation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Animation",
           "name": "Animation",
           "package": "rsagl",
@@ -1259,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Alpha",
           "name": "Alpha",
           "package": "rsagl",
@@ -1267,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color Alpha",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Alpha",
           "name": "Alpha",
           "package": "rsagl",
@@ -1281,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color with an alpha channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Alpha",
           "name": "Alpha",
           "package": "rsagl",
@@ -1290,6 +1397,7 @@
         "index": {
           "description": "color with an alpha channel",
           "hierarchy": "RSAGL Color Alpha",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Alpha",
           "name": "Alpha",
           "package": "rsagl",
@@ -1303,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Alpha",
           "name": "Alpha",
           "package": "rsagl",
@@ -1312,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color Alpha",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Alpha",
           "name": "Alpha",
           "package": "rsagl",
@@ -1326,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply (more) transparency to a color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Alpha",
           "name": "alpha",
           "package": "rsagl",
@@ -1336,6 +1447,7 @@
         "index": {
           "description": "Apply more transparency to color",
           "hierarchy": "RSAGL Color Alpha",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Alpha",
           "name": "alpha",
           "normalized": "RSdouble-\u003eAlpha a-\u003eAlpha a",
@@ -1351,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the range [0..255].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Alpha",
           "name": "alpha256",
           "package": "rsagl",
@@ -1361,6 +1474,7 @@
         "index": {
           "description": "In the range",
           "hierarchy": "RSAGL Color Alpha",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Alpha",
           "name": "alpha256",
           "normalized": "a-\u003eAlpha b-\u003eAlpha b",
@@ -1375,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Alpha",
           "name": "alpha_alpha",
           "package": "rsagl",
@@ -1384,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color Alpha",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Alpha",
           "name": "alpha_alpha",
           "package": "rsagl",
@@ -1396,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Alpha",
           "name": "alpha_color",
           "package": "rsagl",
@@ -1405,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color Alpha",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Alpha",
           "name": "alpha_color",
           "package": "rsagl",
@@ -1417,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "Channels",
           "package": "rsagl",
@@ -1425,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "Channels",
           "package": "rsagl",
@@ -1439,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe blue channel of the RGB color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_blue",
           "package": "rsagl",
@@ -1449,6 +1570,7 @@
         "index": {
           "description": "The blue channel of the RGB color space",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_blue",
           "package": "rsagl",
@@ -1462,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA blue (1.0) vs. yellow (-1.0) channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_blue_yellow",
           "package": "rsagl",
@@ -1472,6 +1595,7 @@
         "index": {
           "description": "blue vs yellow channel",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_blue_yellow",
           "package": "rsagl",
@@ -1485,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum channel of the subtractive CMY color space.\n This channel represents the device gamut: it should be between 0 and 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_boldness",
           "package": "rsagl",
@@ -1495,6 +1620,7 @@
         "index": {
           "description": "The maximum channel of the subtractive CMY color space This channel represents the device gamut it should be between and",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_boldness",
           "package": "rsagl",
@@ -1508,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe brightness channel in simple device interpretation.\n That is, (red + green + blue) / 3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_brightness",
           "package": "rsagl",
@@ -1518,6 +1645,7 @@
         "index": {
           "description": "The brightness channel in simple device interpretation That is red green blue",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_brightness",
           "package": "rsagl",
@@ -1531,6 +1659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Chroma (colorfulness) of a color, isotropic to luminance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_chroma",
           "package": "rsagl",
@@ -1541,6 +1670,7 @@
         "index": {
           "description": "The Chroma colorfulness of color isotropic to luminance",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_chroma",
           "package": "rsagl",
@@ -1554,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cyan channel of the CMY color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_cyan",
           "package": "rsagl",
@@ -1564,6 +1695,7 @@
         "index": {
           "description": "The cyan channel of the CMY color space",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_cyan",
           "package": "rsagl",
@@ -1577,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe green channel of the RGB color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_green",
           "package": "rsagl",
@@ -1587,6 +1720,7 @@
         "index": {
           "description": "The green channel of the RGB color space",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_green",
           "package": "rsagl",
@@ -1600,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA green (1.0) vs. magenta (-1.0) channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_green_magenta",
           "package": "rsagl",
@@ -1610,6 +1745,7 @@
         "index": {
           "description": "green vs magenta channel",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_green_magenta",
           "package": "rsagl",
@@ -1623,6 +1759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum channel of the neutral RGB color space.\n This channel represents the device gamut: it should be between -1 and 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_intensity",
           "package": "rsagl",
@@ -1633,6 +1770,7 @@
         "index": {
           "description": "The maximum channel of the neutral RGB color space This channel represents the device gamut it should be between and",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_intensity",
           "package": "rsagl",
@@ -1646,6 +1784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLuminance of a color as percieved by the human eye.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_luminance",
           "package": "rsagl",
@@ -1656,6 +1795,7 @@
         "index": {
           "description": "Luminance of color as percieved by the human eye",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_luminance",
           "package": "rsagl",
@@ -1669,6 +1809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe magenta channel of the CMY color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_magenta",
           "package": "rsagl",
@@ -1679,6 +1820,7 @@
         "index": {
           "description": "The magenta channel of the CMY color space",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_magenta",
           "package": "rsagl",
@@ -1692,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe red channel of the RGB color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_red",
           "package": "rsagl",
@@ -1702,6 +1845,7 @@
         "index": {
           "description": "The red channel of the RGB color space",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_red",
           "package": "rsagl",
@@ -1715,6 +1859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA red (1.0) vs. cyan (-1.0) channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_red_cyan",
           "package": "rsagl",
@@ -1725,6 +1870,7 @@
         "index": {
           "description": "red vs cyan channel",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_red_cyan",
           "package": "rsagl",
@@ -1738,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum channel of the additive RGB color space.\n This is identical to the value channel of the HSB color model.\n This channel represents the device gamut: it should be between 0 and 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_value",
           "package": "rsagl",
@@ -1748,6 +1895,7 @@
         "index": {
           "description": "The maximum channel of the additive RGB color space This is identical to the value channel of the HSB color model This channel represents the device gamut it should be between and",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_value",
           "package": "rsagl",
@@ -1761,6 +1909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe yellow channel of the CMY color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Channels",
           "name": "channel_yellow",
           "package": "rsagl",
@@ -1771,6 +1920,7 @@
         "index": {
           "description": "The yellow channel of the CMY color space",
           "hierarchy": "RSAGL Color Channels",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Channels",
           "name": "channel_yellow",
           "package": "rsagl",
@@ -1783,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ColorSpace",
           "package": "rsagl",
@@ -1791,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ColorSpace",
           "package": "rsagl",
@@ -1805,6 +1957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn affine transformation from the default RGB color space\n to the specified color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "AffineColorSpace",
           "package": "rsagl",
@@ -1814,6 +1967,7 @@
         "index": {
           "description": "An affine transformation from the default RGB color space to the specified color space",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "AffineColorSpace",
           "package": "rsagl",
@@ -1828,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003echannel_u\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003echannel_v\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003echannel_w\u003c/a\u003e\u003c/code\u003e, of a 3-channel color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ChannelIndex",
           "package": "rsagl",
@@ -1837,6 +1992,7 @@
         "index": {
           "description": "channel channel channel of channel color space",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ChannelIndex",
           "package": "rsagl",
@@ -1851,6 +2007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific component of a 3-channel color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ColorChannel",
           "package": "rsagl",
@@ -1860,6 +2017,7 @@
         "index": {
           "description": "specific component of channel color space",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ColorChannel",
           "package": "rsagl",
@@ -1874,6 +2032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color space specification or color type that has an associated\n color space.\n\u003c/p\u003e\u003cp\u003eIf a type implements both \u003ccode\u003e\u003ca\u003eImportColorCoordinates\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eColorSpace\u003c/a\u003e\u003c/code\u003e, then it must ensure that:\n\u003c/p\u003e\u003cpre\u003eimportColorCoordinates f =\n     (let c = importColorCoordinates (const $ f $ affineColorSpaceOf c) in c)\u003c/pre\u003e\u003cp\u003eThis is not hard -- all that is required is that\n \u003ccode\u003eaffineColorSpaceOf undefined\u003c/code\u003e is defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ColorSpace",
           "package": "rsagl",
@@ -1883,6 +2042,7 @@
         "index": {
           "description": "color space specification or color type that has an associated color space If type implements both ImportColorCoordinates and ColorSpace then it must ensure that importColorCoordinates let importColorCoordinates const affineColorSpaceOf in This is not hard all that is required is that affineColorSpaceOf undefined is defined",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ColorSpace",
           "package": "rsagl",
@@ -1897,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rotatable color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ColorWheel",
           "package": "rsagl",
@@ -1906,6 +2067,7 @@
         "index": {
           "description": "rotatable color space",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ColorWheel",
           "package": "rsagl",
@@ -1920,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color type that can export its color coordinates.\n An easy implementation is\n\u003c/p\u003e\u003cpre\u003etransformColorFromTo your_color_space your_color_coordinates\u003c/pre\u003e\u003cp\u003eIf a type implements both \u003ccode\u003e\u003ca\u003eExportColorCoordinates\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eImportColorCoordinates\u003c/a\u003e\u003c/code\u003e, then it must ensure that\n \u003ccode\u003eimportColorCoordinates . exportColorCoordinates = id\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ExportColorCoordinates",
           "package": "rsagl",
@@ -1929,6 +2092,7 @@
         "index": {
           "description": "color type that can export its color coordinates An easy implementation is transformColorFromTo your color space your color coordinates If type implements both ExportColorCoordinates and ImportColorCoordinates then it must ensure that importColorCoordinates exportColorCoordinates id",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ExportColorCoordinates",
           "package": "rsagl",
@@ -1943,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color type that can import its color coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ImportColorCoordinates",
           "package": "rsagl",
@@ -1952,6 +2117,7 @@
         "index": {
           "description": "color type that can import its color coordinates",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "ImportColorCoordinates",
           "package": "rsagl",
@@ -1966,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA view of a specific color channel, such as red, or luminance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "LinearMetric",
           "package": "rsagl",
@@ -1975,6 +2142,7 @@
         "index": {
           "description": "view of specific color channel such as red or luminance",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "LinearMetric",
           "package": "rsagl",
@@ -1988,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "LinearMetric",
           "package": "rsagl",
@@ -1997,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "LinearMetric",
           "package": "rsagl",
@@ -2010,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "affineColorSpaceOf",
           "package": "rsagl",
@@ -2019,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "affineColorSpaceOf",
           "normalized": "a-\u003eAffineColorSpace",
@@ -2035,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first channel of a color space represented by the ordered tripple,\n \u003ccode\u003e(u,v,w)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "channel_u",
           "package": "rsagl",
@@ -2045,6 +2218,7 @@
         "index": {
           "description": "The first channel of color space represented by the ordered tripple",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "channel_u",
           "package": "rsagl",
@@ -2058,6 +2232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe second channel of a color space represented by the ordered tripple,\n \u003ccode\u003e(u,v,w)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "channel_v",
           "package": "rsagl",
@@ -2068,6 +2243,7 @@
         "index": {
           "description": "The second channel of color space represented by the ordered tripple",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "channel_v",
           "package": "rsagl",
@@ -2081,6 +2257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe third channel of a color space represented by the ordered tripple,\n \u003ccode\u003e(u,v,w)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "channel_w",
           "package": "rsagl",
@@ -2091,6 +2268,7 @@
         "index": {
           "description": "The third channel of color space represented by the ordered tripple",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "channel_w",
           "package": "rsagl",
@@ -2104,6 +2282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe red-green-blue device color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "color_space_rgb",
           "package": "rsagl",
@@ -2114,6 +2293,7 @@
         "index": {
           "description": "The red-green-blue device color space",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "color_space_rgb",
           "package": "rsagl",
@@ -2127,6 +2307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color wheel constructed with red, green and blue device primaries\n and a luminance component.  This is the basis of the HCL color system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "color_wheel_rgbl",
           "package": "rsagl",
@@ -2137,6 +2318,7 @@
         "index": {
           "description": "color wheel constructed with red green and blue device primaries and luminance component This is the basis of the HCL color system",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "color_wheel_rgbl",
           "package": "rsagl",
@@ -2149,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "exportColorCoordinates",
           "package": "rsagl",
@@ -2158,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "exportColorCoordinates",
           "normalized": "a-\u003eAffineColorSpace-\u003ePoint D",
@@ -2173,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "importColorCoordinates",
           "package": "rsagl",
@@ -2182,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "importColorCoordinates",
           "normalized": "(AffineColorSpace-\u003ePoint D)-\u003ea",
@@ -2198,6 +2384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to modify a color channel independantly\n from the other color channels in the same color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "linear_color_function",
           "package": "rsagl",
@@ -2208,6 +2395,7 @@
         "index": {
           "description": "function to modify color channel independantly from the other color channels in the same color space",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "linear_color_function",
           "normalized": "RSdouble-\u003eColor",
@@ -2223,6 +2411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe range of a color channel that is within gamut.\n This range depends on the channel and the particular\n color being observed, and may not exist if the\n color itself is out of gamut.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "linear_gamut_bounds",
           "package": "rsagl",
@@ -2233,6 +2422,7 @@
         "index": {
           "description": "The range of color channel that is within gamut This range depends on the channel and the particular color being observed and may not exist if the color itself is out of gamut",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "linear_gamut_bounds",
           "normalized": "Maybe(RSdouble,RSdouble)",
@@ -2248,6 +2438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe original color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "linear_original",
           "package": "rsagl",
@@ -2258,6 +2449,7 @@
         "index": {
           "description": "The original color",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "linear_original",
           "package": "rsagl",
@@ -2271,6 +2463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value of the particular color channel for the\n particular color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "linear_value",
           "package": "rsagl",
@@ -2281,6 +2474,7 @@
         "index": {
           "description": "The value of the particular color channel for the particular color",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "linear_value",
           "package": "rsagl",
@@ -2294,6 +2488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an isotropic \u003ccode\u003e\u003ca\u003eColorChannel\u003c/a\u003e\u003c/code\u003e that runs along a\n hue angle.  The meaning of the hue angle depends on the\n primary colors used in the construction of the color wheel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "newAngularChannel",
           "package": "rsagl",
@@ -2304,6 +2499,7 @@
         "index": {
           "description": "Construct an isotropic ColorChannel that runs along hue angle The meaning of the hue angle depends on the primary colors used in the construction of the color wheel",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "newAngularChannel",
           "normalized": "ColorWheel-\u003eAngle-\u003eColorChannel",
@@ -2320,6 +2516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePick a channel from a color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "newChannel",
           "package": "rsagl",
@@ -2330,6 +2527,7 @@
         "index": {
           "description": "Pick channel from color space",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "newChannel",
           "normalized": "ChannelIndex-\u003ea-\u003eColorChannel",
@@ -2346,6 +2544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new color space.  This requires a minimal point\n (the black point in an additive color space, or the white point\n in a subtractive color space), and three primary colors.\n The three primarys color correspond to the \u003ccode\u003e\u003ca\u003echannel_u\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003echannel_v\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003echannel_w\u003c/a\u003e\u003c/code\u003e respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "newColorSpace",
           "package": "rsagl",
@@ -2356,6 +2555,7 @@
         "index": {
           "description": "Construct new color space This requires minimal point the black point in an additive color space or the white point in subtractive color space and three primary colors The three primarys color correspond to the channel channel and channel respectively",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "newColorSpace",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eAffineColorSpace",
@@ -2372,6 +2572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new color wheel.  This requires a minimal point,\n (the black point in an additive color space, or the white point\n in a subtractive color space), and three primary colors with\n assigned hue angles and value parameters.\n The hue angle maps onto \u003ccode\u003e\u003ca\u003echannel_u\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003echannel_v\u003c/a\u003e\u003c/code\u003e, while\n the value parameter maps directly and additively onto\n \u003ccode\u003e\u003ca\u003echannel_w\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "newColorWheel",
           "package": "rsagl",
@@ -2382,6 +2583,7 @@
         "index": {
           "description": "Construct new color wheel This requires minimal point the black point in an additive color space or the white point in subtractive color space and three primary colors with assigned hue angles and value parameters The hue angle maps onto channel and channel while the value parameter maps directly and additively onto channel",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "newColorWheel",
           "normalized": "a-\u003e(a,Angle,RSdouble)-\u003e(a,Angle,RSdouble)-\u003e(a,Angle,RSdouble)-\u003eColorWheel",
@@ -2398,6 +2600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eColorChannel\u003c/a\u003e\u003c/code\u003e representing the maximum\n of the three color components.  For example, the\n maximum of \u003ccode\u003eRGB 0.25 0.5 0.4\u003c/code\u003e is 0.5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "newMaximalChannel",
           "package": "rsagl",
@@ -2408,6 +2611,7 @@
         "index": {
           "description": "Construct ColorChannel representing the maximum of the three color components For example the maximum of RGB is",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "newMaximalChannel",
           "normalized": "AffineColorSpace-\u003eColorChannel",
@@ -2424,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an isotropic \u003ccode\u003e\u003ca\u003eColorChannel\u003c/a\u003e\u003c/code\u003e along the radii\n of a color wheel.  This is exactly like calling\n \u003ccode\u003e\u003ca\u003enewAngularChannel\u003c/a\u003e\u003c/code\u003e knowing in advance the specific\n hue of the color in question.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "newRadialChannel",
           "package": "rsagl",
@@ -2434,6 +2639,7 @@
         "index": {
           "description": "Construct an isotropic ColorChannel along the radii of color wheel This is exactly like calling newAngularChannel knowing in advance the specific hue of the color in question",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "newRadialChannel",
           "normalized": "ColorWheel-\u003eColorChannel",
@@ -2450,6 +2656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform colors between color spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "transformColor",
           "package": "rsagl",
@@ -2460,6 +2667,7 @@
         "index": {
           "description": "Transform colors between color spaces",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "transformColor",
           "normalized": "a-\u003eb",
@@ -2476,6 +2684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform ordered triples between color spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "transformColorFromTo",
           "package": "rsagl",
@@ -2486,6 +2695,7 @@
         "index": {
           "description": "Transform ordered triples between color spaces",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "transformColorFromTo",
           "normalized": "AffineColorSpace-\u003ePoint D-\u003eAffineColorSpace-\u003ePoint D",
@@ -2502,6 +2712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a specific channel of a color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.ColorSpace",
           "name": "viewChannel",
           "package": "rsagl",
@@ -2512,6 +2723,7 @@
         "index": {
           "description": "Read specific channel of color",
           "hierarchy": "RSAGL Color ColorSpace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.ColorSpace",
           "name": "viewChannel",
           "normalized": "ColorChannel-\u003ea-\u003eLinearMetric",
@@ -2527,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.HCL",
           "name": "HCL",
           "package": "rsagl",
@@ -2535,6 +2748,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color HCL",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.HCL",
           "name": "HCL",
           "package": "rsagl",
@@ -2549,6 +2763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color in the hue-chroma-luminance color space.\n This is an additive color system (like RGB).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.HCL",
           "name": "HCL",
           "package": "rsagl",
@@ -2558,6 +2773,7 @@
         "index": {
           "description": "color in the hue-chroma-luminance color space This is an additive color system like RGB",
           "hierarchy": "RSAGL Color HCL",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.HCL",
           "name": "HCL",
           "package": "rsagl",
@@ -2571,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.HCL",
           "name": "HCL",
           "package": "rsagl",
@@ -2580,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color HCL",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.HCL",
           "name": "HCL",
           "package": "rsagl",
@@ -2593,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.HCL",
           "name": "hcl_chroma",
           "package": "rsagl",
@@ -2602,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color HCL",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.HCL",
           "name": "hcl_chroma",
           "package": "rsagl",
@@ -2614,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.HCL",
           "name": "hcl_hue",
           "package": "rsagl",
@@ -2623,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color HCL",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.HCL",
           "name": "hcl_hue",
           "package": "rsagl",
@@ -2635,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.HCL",
           "name": "hcl_luminance",
           "package": "rsagl",
@@ -2644,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color HCL",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.HCL",
           "name": "hcl_luminance",
           "package": "rsagl",
@@ -2656,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.LinearAdjust",
           "name": "LinearAdjust",
           "package": "rsagl",
@@ -2664,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color LinearAdjust",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.LinearAdjust",
           "name": "LinearAdjust",
           "package": "rsagl",
@@ -2677,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.LinearAdjust",
           "name": "LinearAdjustment",
           "package": "rsagl",
@@ -2685,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color LinearAdjust",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.LinearAdjust",
           "name": "LinearAdjustment",
           "package": "rsagl",
@@ -2699,6 +2927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eManipulate an arbitrary component of a color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.LinearAdjust",
           "name": "adjustColor",
           "package": "rsagl",
@@ -2709,6 +2938,7 @@
         "index": {
           "description": "Manipulate an arbitrary component of color",
           "hierarchy": "RSAGL Color LinearAdjust",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.LinearAdjust",
           "name": "adjustColor",
           "normalized": "ColorChannel-\u003eLinearAdjustment-\u003ea-\u003eb",
@@ -2725,6 +2955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClamp a channel to the gamut.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.LinearAdjust",
           "name": "clamp",
           "package": "rsagl",
@@ -2735,6 +2966,7 @@
         "index": {
           "description": "Clamp channel to the gamut",
           "hierarchy": "RSAGL Color LinearAdjust",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.LinearAdjust",
           "name": "clamp",
           "package": "rsagl",
@@ -2748,6 +2980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrease a channel to a maximum in-gamut value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.LinearAdjust",
           "name": "maximize",
           "package": "rsagl",
@@ -2758,6 +2991,7 @@
         "index": {
           "description": "Increase channel to maximum in-gamut value",
           "hierarchy": "RSAGL Color LinearAdjust",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.LinearAdjust",
           "name": "maximize",
           "package": "rsagl",
@@ -2771,6 +3005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrease a channel to it's minimum in-gamut value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.LinearAdjust",
           "name": "minimize",
           "package": "rsagl",
@@ -2781,6 +3016,7 @@
         "index": {
           "description": "Decrease channel to it minimum in-gamut value",
           "hierarchy": "RSAGL Color LinearAdjust",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.LinearAdjust",
           "name": "minimize",
           "package": "rsagl",
@@ -2793,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.OpenGL",
           "name": "OpenGL",
           "package": "rsagl",
@@ -2801,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color OpenGL",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.OpenGL",
           "name": "OpenGL",
           "package": "rsagl",
@@ -2814,6 +3052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.OpenGL",
           "name": "ColorToOpenGL",
           "package": "rsagl",
@@ -2822,6 +3061,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color OpenGL",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.OpenGL",
           "name": "ColorToOpenGL",
           "package": "rsagl",
@@ -2835,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.OpenGL",
           "name": "colorToOpenGL",
           "package": "rsagl",
@@ -2844,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color OpenGL",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.OpenGL",
           "name": "colorToOpenGL",
           "normalized": "a-\u003eColor GLdouble",
@@ -2859,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "RGB",
           "package": "rsagl",
@@ -2867,6 +3110,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "RGB",
           "package": "rsagl",
@@ -2881,6 +3125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color in the red-green-blue color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "RGB",
           "package": "rsagl",
@@ -2890,6 +3135,7 @@
         "index": {
           "description": "color in the red-green-blue color space",
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "RGB",
           "package": "rsagl",
@@ -2903,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "RGB",
           "package": "rsagl",
@@ -2912,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "RGB",
           "package": "rsagl",
@@ -2926,6 +3174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a gray color from a value in the range\n [0.0..1.0].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "grayscale",
           "package": "rsagl",
@@ -2936,6 +3185,7 @@
         "index": {
           "description": "Construct gray color from value in the range",
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "grayscale",
           "normalized": "RSdouble-\u003ea",
@@ -2951,6 +3201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a gray color from a value in the range\n [0..255].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "grayscale256",
           "package": "rsagl",
@@ -2961,6 +3212,7 @@
         "index": {
           "description": "Construct gray color from value in the range",
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "grayscale256",
           "normalized": "a-\u003eb",
@@ -2975,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "greyscale",
           "package": "rsagl",
@@ -2984,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "greyscale",
           "normalized": "RSdouble-\u003ea",
@@ -2998,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "greyscale256",
           "package": "rsagl",
@@ -3007,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "greyscale256",
           "normalized": "a-\u003eb",
@@ -3021,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "mapRGB",
           "package": "rsagl",
@@ -3030,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "mapRGB",
           "normalized": "(RSdouble-\u003eRSdouble)-\u003eRGB-\u003eRGB",
@@ -3046,6 +3304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a color from an RGB triple in the range [0.0..1.0].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "rgb",
           "package": "rsagl",
@@ -3056,6 +3315,7 @@
         "index": {
           "description": "Construct color from an RGB triple in the range",
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "rgb",
           "normalized": "RSdouble-\u003eRSdouble-\u003eRSdouble-\u003ea",
@@ -3071,6 +3331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a color from an RGB triple in the range [0..255].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "rgb256",
           "package": "rsagl",
@@ -3081,6 +3342,7 @@
         "index": {
           "description": "Construct color from an RGB triple in the range",
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "rgb256",
           "normalized": "a-\u003ea-\u003ea-\u003eb",
@@ -3095,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "rgb_blue",
           "package": "rsagl",
@@ -3104,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "rgb_blue",
           "package": "rsagl",
@@ -3116,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "rgb_green",
           "package": "rsagl",
@@ -3125,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "rgb_green",
           "package": "rsagl",
@@ -3137,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "rgb_red",
           "package": "rsagl",
@@ -3146,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "rgb_red",
           "package": "rsagl",
@@ -3158,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "zipRGB",
           "package": "rsagl",
@@ -3167,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "zipRGB",
           "normalized": "(RSdouble-\u003eRSdouble-\u003eRSdouble)-\u003eRGB-\u003eRGB-\u003eRGB",
@@ -3183,6 +3453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combining function on three RGB values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RGB",
           "name": "zipRGB3",
           "package": "rsagl",
@@ -3193,6 +3464,7 @@
         "index": {
           "description": "combining function on three RGB values",
           "hierarchy": "RSAGL Color RGB",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RGB",
           "name": "zipRGB3",
           "normalized": "(RSdouble-\u003eRSdouble-\u003eRSdouble-\u003eRSdouble)-\u003eRGB-\u003eRGB-\u003eRGB-\u003eRGB",
@@ -3208,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "RSAGLColors",
           "package": "rsagl",
@@ -3216,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "RSAGLColors",
           "package": "rsagl",
@@ -3229,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "aqua",
           "package": "rsagl",
@@ -3238,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "aqua",
           "package": "rsagl",
@@ -3250,6 +3526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "beige",
           "package": "rsagl",
@@ -3259,6 +3536,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "beige",
           "package": "rsagl",
@@ -3271,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "black",
           "package": "rsagl",
@@ -3280,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "black",
           "package": "rsagl",
@@ -3292,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "blackbody",
           "package": "rsagl",
@@ -3301,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "blackbody",
           "package": "rsagl",
@@ -3313,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "blue",
           "package": "rsagl",
@@ -3322,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "blue",
           "package": "rsagl",
@@ -3334,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "bright_green",
           "package": "rsagl",
@@ -3343,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "bright_green",
           "package": "rsagl",
@@ -3355,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "brown",
           "package": "rsagl",
@@ -3364,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "brown",
           "package": "rsagl",
@@ -3376,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "cyan",
           "package": "rsagl",
@@ -3385,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "cyan",
           "package": "rsagl",
@@ -3397,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "dark_blue",
           "package": "rsagl",
@@ -3406,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "dark_blue",
           "package": "rsagl",
@@ -3418,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "dark_green",
           "package": "rsagl",
@@ -3427,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "dark_green",
           "package": "rsagl",
@@ -3439,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "dark_pink",
           "package": "rsagl",
@@ -3448,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "dark_pink",
           "package": "rsagl",
@@ -3460,6 +3756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "dark_purple",
           "package": "rsagl",
@@ -3469,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "dark_purple",
           "package": "rsagl",
@@ -3481,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "forest_green",
           "package": "rsagl",
@@ -3490,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "forest_green",
           "package": "rsagl",
@@ -3502,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "green",
           "package": "rsagl",
@@ -3511,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "green",
           "package": "rsagl",
@@ -3523,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "grey",
           "package": "rsagl",
@@ -3532,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "grey",
           "package": "rsagl",
@@ -3544,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "hot_pink",
           "package": "rsagl",
@@ -3553,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "hot_pink",
           "package": "rsagl",
@@ -3565,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "indigo",
           "package": "rsagl",
@@ -3574,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "indigo",
           "package": "rsagl",
@@ -3586,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "lavender",
           "package": "rsagl",
@@ -3595,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "lavender",
           "package": "rsagl",
@@ -3607,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "light_blue",
           "package": "rsagl",
@@ -3616,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "light_blue",
           "package": "rsagl",
@@ -3628,6 +3940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "light_brown",
           "package": "rsagl",
@@ -3637,6 +3950,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "light_brown",
           "package": "rsagl",
@@ -3649,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "light_green",
           "package": "rsagl",
@@ -3658,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "light_green",
           "package": "rsagl",
@@ -3670,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "light_pink",
           "package": "rsagl",
@@ -3679,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "light_pink",
           "package": "rsagl",
@@ -3691,6 +4009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "light_purple",
           "package": "rsagl",
@@ -3700,6 +4019,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "light_purple",
           "package": "rsagl",
@@ -3712,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "lilac",
           "package": "rsagl",
@@ -3721,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "lilac",
           "package": "rsagl",
@@ -3733,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "lime",
           "package": "rsagl",
@@ -3742,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "lime",
           "package": "rsagl",
@@ -3754,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "lime_green",
           "package": "rsagl",
@@ -3763,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "lime_green",
           "package": "rsagl",
@@ -3775,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "magenta",
           "package": "rsagl",
@@ -3784,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "magenta",
           "package": "rsagl",
@@ -3796,6 +4124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "maroon",
           "package": "rsagl",
@@ -3805,6 +4134,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "maroon",
           "package": "rsagl",
@@ -3817,6 +4147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "mauve",
           "package": "rsagl",
@@ -3826,6 +4157,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "mauve",
           "package": "rsagl",
@@ -3838,6 +4170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "mustard",
           "package": "rsagl",
@@ -3847,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "mustard",
           "package": "rsagl",
@@ -3859,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "navy_blue",
           "package": "rsagl",
@@ -3868,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "navy_blue",
           "package": "rsagl",
@@ -3880,6 +4216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "olive",
           "package": "rsagl",
@@ -3889,6 +4226,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "olive",
           "package": "rsagl",
@@ -3901,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "olive_green",
           "package": "rsagl",
@@ -3910,6 +4249,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "olive_green",
           "package": "rsagl",
@@ -3922,6 +4262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "orange",
           "package": "rsagl",
@@ -3931,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "orange",
           "package": "rsagl",
@@ -3943,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "pale_green",
           "package": "rsagl",
@@ -3952,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "pale_green",
           "package": "rsagl",
@@ -3964,6 +4308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "peach",
           "package": "rsagl",
@@ -3973,6 +4318,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "peach",
           "package": "rsagl",
@@ -3985,6 +4331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "periwinkle",
           "package": "rsagl",
@@ -3994,6 +4341,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "periwinkle",
           "package": "rsagl",
@@ -4006,6 +4354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "pink",
           "package": "rsagl",
@@ -4015,6 +4364,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "pink",
           "package": "rsagl",
@@ -4027,6 +4377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "purple",
           "package": "rsagl",
@@ -4036,6 +4387,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "purple",
           "package": "rsagl",
@@ -4048,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "red",
           "package": "rsagl",
@@ -4057,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "red",
           "package": "rsagl",
@@ -4069,6 +4423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "royal_blue",
           "package": "rsagl",
@@ -4078,6 +4433,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "royal_blue",
           "package": "rsagl",
@@ -4090,6 +4446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "salmon",
           "package": "rsagl",
@@ -4099,6 +4456,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "salmon",
           "package": "rsagl",
@@ -4111,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "sea_green",
           "package": "rsagl",
@@ -4120,6 +4479,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "sea_green",
           "package": "rsagl",
@@ -4132,6 +4492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "sky_blue",
           "package": "rsagl",
@@ -4141,6 +4502,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "sky_blue",
           "package": "rsagl",
@@ -4153,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "tan",
           "package": "rsagl",
@@ -4162,6 +4525,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "tan",
           "package": "rsagl",
@@ -4174,6 +4538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "teal",
           "package": "rsagl",
@@ -4183,6 +4548,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "teal",
           "package": "rsagl",
@@ -4195,6 +4561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "turquoise",
           "package": "rsagl",
@@ -4204,6 +4571,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "turquoise",
           "package": "rsagl",
@@ -4216,6 +4584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "violet",
           "package": "rsagl",
@@ -4225,6 +4594,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "violet",
           "package": "rsagl",
@@ -4237,6 +4607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "white",
           "package": "rsagl",
@@ -4246,6 +4617,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "white",
           "package": "rsagl",
@@ -4258,6 +4630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "yellow",
           "package": "rsagl",
@@ -4267,6 +4640,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color RSAGLColors",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.RSAGLColors",
           "name": "yellow",
           "package": "rsagl",
@@ -4279,6 +4653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Spaces",
           "name": "Spaces",
           "package": "rsagl",
@@ -4287,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color Spaces",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Spaces",
           "name": "Spaces",
           "package": "rsagl",
@@ -4301,6 +4677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe subtractive Cyan-Magenta-Yellow color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Spaces",
           "name": "color_space_cmy",
           "package": "rsagl",
@@ -4311,6 +4688,7 @@
         "index": {
           "description": "The subtractive Cyan-Magenta-Yellow color space",
           "hierarchy": "RSAGL Color Spaces",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Spaces",
           "name": "color_space_cmy",
           "package": "rsagl",
@@ -4324,6 +4702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RGB color space with neutral gray as the\n origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Spaces",
           "name": "color_space_neutral",
           "package": "rsagl",
@@ -4334,6 +4713,7 @@
         "index": {
           "description": "The RGB color space with neutral gray as the origin",
           "hierarchy": "RSAGL Color Spaces",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Spaces",
           "name": "color_space_neutral",
           "package": "rsagl",
@@ -4347,6 +4727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color wheel with an isotropic Blue-Yellow channel.\n The hue definition is identical to \u003ccode\u003e\u003ca\u003ecolor_wheel_rgbl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Spaces",
           "name": "color_wheel_blue_yellow_iso",
           "package": "rsagl",
@@ -4357,6 +4738,7 @@
         "index": {
           "description": "color wheel with an isotropic Blue-Yellow channel The hue definition is identical to color wheel rgbl",
           "hierarchy": "RSAGL Color Spaces",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Spaces",
           "name": "color_wheel_blue_yellow_iso",
           "package": "rsagl",
@@ -4370,6 +4752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color wheel in the subtractive Cyan-Magenta-Yellow color space.\n The hue definition is identical to \u003ccode\u003e\u003ca\u003ecolor_wheel_rgbl\u003c/a\u003e\u003c/code\u003e.\n This color wheel uses a simple definition of black,\n \u003ccode\u003e(cyan + magenta + yellow) / 3\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Spaces",
           "name": "color_wheel_cmyk",
           "package": "rsagl",
@@ -4380,6 +4763,7 @@
         "index": {
           "description": "color wheel in the subtractive Cyan-Magenta-Yellow color space The hue definition is identical to color wheel rgbl This color wheel uses simple definition of black cyan magenta yellow",
           "hierarchy": "RSAGL Color Spaces",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Spaces",
           "name": "color_wheel_cmyk",
           "package": "rsagl",
@@ -4393,6 +4777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color wheel with an isotropic Green-Magenta channel.\n The hue definition is identical to \u003ccode\u003e\u003ca\u003ecolor_wheel_rgbl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Spaces",
           "name": "color_wheel_green_magenta_iso",
           "package": "rsagl",
@@ -4403,6 +4788,7 @@
         "index": {
           "description": "color wheel with an isotropic Green-Magenta channel The hue definition is identical to color wheel rgbl",
           "hierarchy": "RSAGL Color Spaces",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Spaces",
           "name": "color_wheel_green_magenta_iso",
           "package": "rsagl",
@@ -4416,6 +4802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color wheel with an isotropic Red-Cyan channel.\n The hue definition is identical to \u003ccode\u003e\u003ca\u003ecolor_wheel_rgbl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Spaces",
           "name": "color_wheel_red_cyan_iso",
           "package": "rsagl",
@@ -4426,6 +4813,7 @@
         "index": {
           "description": "color wheel with an isotropic Red-Cyan channel The hue definition is identical to color wheel rgbl",
           "hierarchy": "RSAGL Color Spaces",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Spaces",
           "name": "color_wheel_red_cyan_iso",
           "package": "rsagl",
@@ -4439,6 +4827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color wheel using a simple definition of brightness,\n \u003ccode\u003e(red + green + blue) / 3\u003c/code\u003e.  The hue definition is\n identical to \u003ccode\u003e\u003ca\u003ecolor_wheel_rgbl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color.Spaces",
           "name": "color_wheel_rgb_brightness",
           "package": "rsagl",
@@ -4449,6 +4838,7 @@
         "index": {
           "description": "color wheel using simple definition of brightness red green blue The hue definition is identical to color wheel rgbl",
           "hierarchy": "RSAGL Color Spaces",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color.Spaces",
           "name": "color_wheel_rgb_brightness",
           "package": "rsagl",
@@ -4461,6 +4851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color",
           "name": "Color",
           "package": "rsagl",
@@ -4469,6 +4860,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color",
           "name": "Color",
           "package": "rsagl",
@@ -4482,6 +4874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color",
           "name": "RGBA",
           "package": "rsagl",
@@ -4490,6 +4883,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color",
           "name": "RGBA",
           "package": "rsagl",
@@ -4503,6 +4897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color",
           "name": "filterRGB",
           "package": "rsagl",
@@ -4512,6 +4907,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Color",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color",
           "name": "filterRGB",
           "normalized": "RGB-\u003eRGB-\u003eRGB",
@@ -4528,6 +4924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaps an RGB color between a black point and a white point.\n The first parameter, the black point, will map to RGB 0 0 0.\n The second parameter, the white point, will map to RGB 1 1 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color",
           "name": "filterRGBLinear",
           "package": "rsagl",
@@ -4538,6 +4935,7 @@
         "index": {
           "description": "maps an RGB color between black point and white point The first parameter the black point will map to RGB The second parameter the white point will map to RGB",
           "hierarchy": "RSAGL Color",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color",
           "name": "filterRGBLinear",
           "normalized": "RGB-\u003eRGB-\u003eRGB-\u003eRGB",
@@ -4554,6 +4952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArithmetic inverse of a color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color",
           "name": "invertRGB",
           "package": "rsagl",
@@ -4564,6 +4963,7 @@
         "index": {
           "description": "Arithmetic inverse of color",
           "hierarchy": "RSAGL Color",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color",
           "name": "invertRGB",
           "normalized": "RGB-\u003eRGB",
@@ -4580,6 +4980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the minimum of the three RGB components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color",
           "name": "minRGB",
           "package": "rsagl",
@@ -4590,6 +4991,7 @@
         "index": {
           "description": "Get the minimum of the three RGB components",
           "hierarchy": "RSAGL Color",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color",
           "name": "minRGB",
           "normalized": "RGB-\u003eRSdouble",
@@ -4606,6 +5008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an RGBA color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Color",
           "name": "rgba",
           "package": "rsagl",
@@ -4616,6 +5019,7 @@
         "index": {
           "description": "Construct an RGBA color",
           "hierarchy": "RSAGL Color",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Color",
           "name": "rgba",
           "normalized": "RSdouble-\u003eRSdouble-\u003eRSdouble-\u003eRSdouble-\u003eRGBA",
@@ -4630,6 +5034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.ColorPhysics",
           "name": "ColorPhysics",
           "package": "rsagl",
@@ -4638,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Extras ColorPhysics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.ColorPhysics",
           "name": "ColorPhysics",
           "package": "rsagl",
@@ -4652,6 +5058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates the intensity of black body radiation in terms of temperature and wavelength, as percieved by the human eye\n with a white point at which all wavelengths equal 1.0 at 5800K.\n Accepts temperature in Kelvins (K) and wavelength in nanometers (nm).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.ColorPhysics",
           "name": "blackBody",
           "package": "rsagl",
@@ -4662,6 +5069,7 @@
         "index": {
           "description": "Indicates the intensity of black body radiation in terms of temperature and wavelength as percieved by the human eye with white point at which all wavelengths equal at Accepts temperature in Kelvins and wavelength in nanometers nm",
           "hierarchy": "RSAGL Extras ColorPhysics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.ColorPhysics",
           "name": "blackBody",
           "normalized": "RSdouble-\u003eRSdouble-\u003eRSdouble",
@@ -4678,6 +5086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates the percieved color of a black body radiator, where \u003ccode\u003ergb 1.0 1.0 1.0\u003c/code\u003e is the white point representing 5800K.\n Accepts temperature in Kelvins (K).  It is suggested to use \u003ccode\u003emaximizeRGB\u003c/code\u003e or some other filter as very dark or overbright\n colors are easily generated from this function.  In particular \u003ccode\u003emaximizeRGB . blackBodyRGB\u003c/code\u003e tends to approach roughly\n \u003ccode\u003ergb 0.0 0.0 1.0\u003c/code\u003e for very low temperatures and roughly \u003ccode\u003ergb 0.50 0.53 1.0\u003c/code\u003e for very high temperatures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.ColorPhysics",
           "name": "blackBodyRGB",
           "package": "rsagl",
@@ -4688,6 +5097,7 @@
         "index": {
           "description": "Indicates the percieved color of black body radiator where rgb is the white point representing Accepts temperature in Kelvins It is suggested to use maximizeRGB or some other filter as very dark or overbright colors are easily generated from this function In particular maximizeRGB blackBodyRGB tends to approach roughly rgb for very low temperatures and roughly rgb for very high temperatures",
           "hierarchy": "RSAGL Extras ColorPhysics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.ColorPhysics",
           "name": "blackBodyRGB",
           "normalized": "RSdouble-\u003eRGB",
@@ -4704,6 +5114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates planck's law respecting blackbody radiation.\n Accepts temperature in Kelvins (K) and wavelength in nanometers (nm).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.ColorPhysics",
           "name": "plancksLaw",
           "package": "rsagl",
@@ -4714,6 +5125,7 @@
         "index": {
           "description": "Evaluates planck law respecting blackbody radiation Accepts temperature in Kelvins and wavelength in nanometers nm",
           "hierarchy": "RSAGL Extras ColorPhysics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.ColorPhysics",
           "name": "plancksLaw",
           "normalized": "RSdouble-\u003eRSdouble-\u003eRSdouble",
@@ -4730,6 +5142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterprets a spectral function as an \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e color by sampling in the red, green, blue, and indigo wavelengths.\n This is pretty rough, and actually interprets monochromatic spectral yellow or monochromatic spectral cyan as\n black, for example.  It also does not take into account the relative responsiveness of the human eye to\n different wavelengths, so passing \u003ccode\u003e\u003ccode\u003e\u003ca\u003eplancksLaw\u003c/a\u003e\u003c/code\u003e 5800\u003c/code\u003e directly to this function results in bright green.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.ColorPhysics",
           "name": "spectralRGB",
           "package": "rsagl",
@@ -4740,6 +5153,7 @@
         "index": {
           "description": "Interprets spectral function as an RGB color by sampling in the red green blue and indigo wavelengths This is pretty rough and actually interprets monochromatic spectral yellow or monochromatic spectral cyan as black for example It also does not take into account the relative responsiveness of the human eye to different wavelengths so passing plancksLaw directly to this function results in bright green",
           "hierarchy": "RSAGL Extras ColorPhysics",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.ColorPhysics",
           "name": "spectralRGB",
           "normalized": "(RSdouble-\u003eRSdouble)-\u003eRGB",
@@ -4756,6 +5170,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGenerate a realistic sky.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "Sky",
           "package": "rsagl",
@@ -4765,6 +5180,7 @@
         "index": {
           "description": "Generate realistic sky",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "Sky",
           "package": "rsagl",
@@ -4779,6 +5195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn atmosphere, consisting of zero or more layers of different composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "Atmosphere",
           "package": "rsagl",
@@ -4788,6 +5205,7 @@
         "index": {
           "description": "An atmosphere consisting of zero or more layers of different composition",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "Atmosphere",
           "package": "rsagl",
@@ -4802,6 +5220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific scattering model for an \u003ccode\u003e\u003ca\u003eAtmosphereLayer\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "AtmosphereComposition",
           "package": "rsagl",
@@ -4811,6 +5230,7 @@
         "index": {
           "description": "specific scattering model for an AtmosphereLayer",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "AtmosphereComposition",
           "package": "rsagl",
@@ -4825,6 +5245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single layer of atmosphere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "AtmosphereLayer",
           "package": "rsagl",
@@ -4834,6 +5255,7 @@
         "index": {
           "description": "single layer of atmosphere",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "AtmosphereLayer",
           "package": "rsagl",
@@ -4848,6 +5270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn adaptive color filter, used to set adaptive white and black points.\n Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the result is a constant black.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "SkyFilter",
           "package": "rsagl",
@@ -4857,6 +5280,7 @@
         "index": {
           "description": "An adaptive color filter used to set adaptive white and black points Returns Nothing if the result is constant black",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "SkyFilter",
           "package": "rsagl",
@@ -4871,6 +5295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses Rayleigh scattering, as though an oxygen-nitrogen atmosphere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "Air",
           "package": "rsagl",
@@ -4881,6 +5306,7 @@
         "index": {
           "description": "Uses Rayleigh scattering as though an oxygen-nitrogen atmosphere",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "Air",
           "package": "rsagl",
@@ -4894,6 +5320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "AtmosphereLayer",
           "package": "rsagl",
@@ -4903,6 +5330,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "AtmosphereLayer",
           "package": "rsagl",
@@ -4917,6 +5345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMacroscopic colored dust spheres.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "Dust",
           "package": "rsagl",
@@ -4927,6 +5356,7 @@
         "index": {
           "description": "Macroscopic colored dust spheres",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "Dust",
           "package": "rsagl",
@@ -4941,6 +5371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnrealistic colored fog, might be appropriate for some kind of poison gas atmosphere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "Fog",
           "package": "rsagl",
@@ -4951,6 +5382,7 @@
         "index": {
           "description": "Unrealistic colored fog might be appropriate for some kind of poison gas atmosphere",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "Fog",
           "package": "rsagl",
@@ -4965,6 +5397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses Mie scattering (approximate) to give an effect similar to what we would expect\n from some kind of suspended water vapor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "Vapor",
           "package": "rsagl",
@@ -4975,6 +5408,7 @@
         "index": {
           "description": "Uses Mie scattering approximate to give an effect similar to what we would expect from some kind of suspended water vapor",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "Vapor",
           "package": "rsagl",
@@ -4989,6 +5423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a filter color and modifies it on a logarithmic scale.  Helps when dealing with very dense color filters.\n In particular, atmosphereScatteringMaterial uses this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "absorbtionFilter",
           "package": "rsagl",
@@ -4999,6 +5434,7 @@
         "index": {
           "description": "Takes filter color and modifies it on logarithmic scale Helps when dealing with very dense color filters In particular atmosphereScatteringMaterial uses this",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "absorbtionFilter",
           "normalized": "RGB-\u003eRGB",
@@ -5015,6 +5451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAggrigated absorbtion from multiple \u003ccode\u003eAtmosphereLayers\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "atmosphereAbsorbtion",
           "package": "rsagl",
@@ -5025,6 +5462,7 @@
         "index": {
           "description": "Aggrigated absorbtion from multiple AtmosphereLayers",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "atmosphereAbsorbtion",
           "normalized": "Atmosphere-\u003ePoint D-\u003eVector D-\u003eRGB",
@@ -5041,6 +5479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAggrigated scattering from multiple \u003ccode\u003eAtmosphereLayers\u003c/code\u003e and multiple suns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "atmosphereScattering",
           "package": "rsagl",
@@ -5051,6 +5490,7 @@
         "index": {
           "description": "Aggrigated scattering from multiple AtmosphereLayers and multiple suns",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "atmosphereScattering",
           "normalized": "Atmosphere-\u003e[(Vector D,RGB)]-\u003ePoint D-\u003eVector D-\u003eRGB",
@@ -5067,6 +5507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a material for a sky sphere.  This material includes both scattering and absorbtion information.\n The material assumes the origin as the eye point, tracing to the geometric point at each vertex.  Therefore,\n this material need not be applied to an exact sphere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "atmosphereScatteringMaterial",
           "package": "rsagl",
@@ -5077,6 +5518,7 @@
         "index": {
           "description": "Generate material for sky sphere This material includes both scattering and absorbtion information The material assumes the origin as the eye point tracing to the geometric point at each vertex Therefore this material need not be applied to an exact sphere",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "atmosphereScatteringMaterial",
           "normalized": "Atmosphere-\u003e[(Vector D,RGB)]-\u003eSkyFilter-\u003eMaterialM a()",
@@ -5093,6 +5535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe altitude to the edge of this atmosphere layer, where 1.0 is the diameter of the planet.  \n Lowering the altitude actually increases the density, and vice-versa, so double or halve the thickness\n and altitude at the same time.  A typical value is 1e-4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "atmosphere_altitude",
           "package": "rsagl",
@@ -5103,6 +5546,7 @@
         "index": {
           "description": "The altitude to the edge of this atmosphere layer where is the diameter of the planet Lowering the altitude actually increases the density and vice-versa so double or halve the thickness and altitude at the same time typical value is e-4",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "atmosphere_altitude",
           "package": "rsagl",
@@ -5116,6 +5560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents what substance this layer of atmosphere is made of.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "atmosphere_composition",
           "package": "rsagl",
@@ -5126,6 +5571,7 @@
         "index": {
           "description": "Represents what substance this layer of atmosphere is made of",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "atmosphere_composition",
           "package": "rsagl",
@@ -5139,6 +5585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the optical thickness of this layer looking straight up.  That is,\n if you reduce the altitude but hold the thickness constant, the layer will be\n essentially unchanged in the vertical direction.  A typical value is 1.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "atmosphere_thickness",
           "package": "rsagl",
@@ -5149,6 +5596,7 @@
         "index": {
           "description": "Represents the optical thickness of this layer looking straight up That is if you reduce the altitude but hold the thickness constant the layer will be essentially unchanged in the vertical direction typical value is",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "atmosphere_thickness",
           "package": "rsagl",
@@ -5162,6 +5610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSkyFilter\u003c/a\u003e\u003c/code\u003e that takes a maximum black point and a minimum white point, and applies\n these to black and white points determined by probabalistic means, and then generates a\n linear filter based on those points.  For well chosen parameters this will hopefully \n produce an appealing sky at any time of day or twilight.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "dynamicSkyFilter",
           "package": "rsagl",
@@ -5172,6 +5621,7 @@
         "index": {
           "description": "SkyFilter that takes maximum black point and minimum white point and applies these to black and white points determined by probabalistic means and then generates linear filter based on those points For well chosen parameters this will hopefully produce an appealing sky at any time of day or twilight",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "dynamicSkyFilter",
           "normalized": "RSdouble-\u003eRSdouble-\u003eSkyFilter",
@@ -5188,6 +5638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn atmosphere that is fairly typical of the earth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "earth_atmosphere",
           "package": "rsagl",
@@ -5198,6 +5649,7 @@
         "index": {
           "description": "An atmosphere that is fairly typical of the earth",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "earth_atmosphere",
           "package": "rsagl",
@@ -5211,6 +5663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSkyFilter\u003c/a\u003e\u003c/code\u003e that just passes through the raw RGB values, essentially, \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Extras.Sky",
           "name": "rawSkyFilter",
           "package": "rsagl",
@@ -5221,6 +5674,7 @@
         "index": {
           "description": "SkyFilter that just passes through the raw RGB values essentially id",
           "hierarchy": "RSAGL Extras Sky",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Extras.Sky",
           "name": "rawSkyFilter",
           "package": "rsagl",
@@ -5234,6 +5688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.BakedModel",
           "name": "BakedModel",
           "package": "rsagl",
@@ -5242,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling BakedModel",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.BakedModel",
           "name": "BakedModel",
           "package": "rsagl",
@@ -5255,6 +5711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.BakedModel",
           "name": "BakedSurface",
           "package": "rsagl",
@@ -5263,6 +5720,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling BakedModel",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.BakedModel",
           "name": "BakedSurface",
           "package": "rsagl",
@@ -5276,6 +5734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.BakedModel",
           "name": "bakeSurface",
           "package": "rsagl",
@@ -5285,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling BakedModel",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.BakedModel",
           "name": "bakeSurface",
           "normalized": "(IO()-\u003eIO())-\u003eBool-\u003e[(PrimitiveMode,[a])]-\u003eIO BakedSurface",
@@ -5300,6 +5760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.BakedModel",
           "name": "freeSurface",
           "package": "rsagl",
@@ -5309,6 +5770,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling BakedModel",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.BakedModel",
           "name": "freeSurface",
           "normalized": "BakedSurface-\u003eIO()",
@@ -5324,6 +5786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.BakedModel",
           "name": "surfaceToOpenGL",
           "package": "rsagl",
@@ -5333,6 +5796,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling BakedModel",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.BakedModel",
           "name": "surfaceToOpenGL",
           "normalized": "BakedSurface-\u003eIO()",
@@ -5348,6 +5812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.BakedModel",
           "name": "tesselatedElementToOpenGL",
           "package": "rsagl",
@@ -5357,6 +5822,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling BakedModel",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.BakedModel",
           "name": "tesselatedElementToOpenGL",
           "normalized": "Bool-\u003eTesselatedElement a-\u003eIO()",
@@ -5372,6 +5838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Deformation",
           "name": "Deformation",
           "package": "rsagl",
@@ -5380,6 +5847,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Deformation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Deformation",
           "name": "Deformation",
           "package": "rsagl",
@@ -5394,6 +5862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA deformation of a surface.  These come in two types: a deformation that\n modifies only the shape of a surface, leaving the normal vectors to\n be recalculated automatically, or a deformation that modified both\n the shape and the normal vectors explicitly.\n\u003c/p\u003e\u003cp\u003eFor example, the deformation function of type \u003ccode\u003e(Point3D -\u003e Ponit3D)\u003c/code\u003e\n depends on automatic differentiation to determine the new surface normals.\n\u003c/p\u003e\u003cp\u003eOn the other hand, an affine transformation applied as a deformation\n can quickly and correctly compute the new surface normals.\n\u003c/p\u003e\u003cp\u003eFinally, one might want to construct a deformation that modifies\n the surface normals while leaving the shape intact -- this is\n perfectly legal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Deformation",
           "name": "Deformation",
           "package": "rsagl",
@@ -5403,6 +5872,7 @@
         "index": {
           "description": "deformation of surface These come in two types deformation that modifies only the shape of surface leaving the normal vectors to be recalculated automatically or deformation that modified both the shape and the normal vectors explicitly For example the deformation function of type Point3D Ponit3D depends on automatic differentiation to determine the new surface normals On the other hand an affine transformation applied as deformation can quickly and correctly compute the new surface normals Finally one might want to construct deformation that modifies the surface normals while leaving the shape intact this is perfectly legal",
           "hierarchy": "RSAGL Modeling Deformation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Deformation",
           "name": "Deformation",
           "package": "rsagl",
@@ -5417,6 +5887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenienve class to convert common descriptions of deformations\n into the canonical representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Deformation",
           "name": "DeformationClass",
           "package": "rsagl",
@@ -5426,6 +5897,7 @@
         "index": {
           "description": "convenienve class to convert common descriptions of deformations into the canonical representation",
           "hierarchy": "RSAGL Modeling Deformation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Deformation",
           "name": "DeformationClass",
           "package": "rsagl",
@@ -5439,6 +5911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Deformation",
           "name": "constrain",
           "package": "rsagl",
@@ -5448,6 +5921,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Deformation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Deformation",
           "name": "constrain",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003ea)-\u003ea-\u003ea",
@@ -5462,6 +5936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Deformation",
           "name": "deformation",
           "package": "rsagl",
@@ -5471,6 +5946,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Deformation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Deformation",
           "name": "deformation",
           "normalized": "a-\u003eDeformation",
@@ -5485,6 +5961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Extrusion",
           "name": "Extrusion",
           "package": "rsagl",
@@ -5493,6 +5970,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Extrusion",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Extrusion",
           "name": "Extrusion",
           "package": "rsagl",
@@ -5507,6 +5985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most general form of an extrusion.  Requires first a\n control curve for orientation, for example the center of\n a torus or a vector that simply never runs parallel\n to the spine.  Second, the spine of the extrusion,\n and third the shape to be extruded.\n\u003c/p\u003e\u003cp\u003eThe +Y axis of the shape will be oriented toward\n the control curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Extrusion",
           "name": "extrude",
           "package": "rsagl",
@@ -5517,6 +5996,7 @@
         "index": {
           "description": "The most general form of an extrusion Requires first control curve for orientation for example the center of torus or vector that simply never runs parallel to the spine Second the spine of the extrusion and third the shape to be extruded The axis of the shape will be oriented toward the control curve",
           "hierarchy": "RSAGL Modeling Extrusion",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Extrusion",
           "name": "extrude",
           "normalized": "Curve(Either Point D Vector D)-\u003eCurve Point D-\u003eCurve(Curve Point D)-\u003eSurface Point D",
@@ -5532,6 +6012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn extrusion whose spine is a straight line, with radii specified\n at both ends.  In this case only the extruded shape needs to be\n specified as a curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Extrusion",
           "name": "extrudePrism",
           "package": "rsagl",
@@ -5542,6 +6023,7 @@
         "index": {
           "description": "An extrusion whose spine is straight line with radii specified at both ends In this case only the extruded shape needs to be specified as curve",
           "hierarchy": "RSAGL Modeling Extrusion",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Extrusion",
           "name": "extrudePrism",
           "normalized": "Vector D-\u003e(Point D,RSdouble)-\u003e(Point D,RSdouble)-\u003eCurve Point D-\u003eSurface Point D",
@@ -5558,6 +6040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tubular extrusion using taking a radius and a spine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Extrusion",
           "name": "extrudeTube",
           "package": "rsagl",
@@ -5568,6 +6051,7 @@
         "index": {
           "description": "tubular extrusion using taking radius and spine",
           "hierarchy": "RSAGL Modeling Extrusion",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Extrusion",
           "name": "extrudeTube",
           "normalized": "Curve RSdouble-\u003eCurve Point D-\u003eSurface Point D",
@@ -5584,6 +6068,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRSAGL.Material handles properties of surfaces such as color, shininess, and transparency\n including procedural textures but not including anything touching the normal vector, such\n as bumpiness.  Materials are handled using layers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "Material",
           "package": "rsagl",
@@ -5593,6 +6078,7 @@
         "index": {
           "description": "RSAGL.Material handles properties of surfaces such as color shininess and transparency including procedural textures but not including anything touching the normal vector such as bumpiness Materials are handled using layers",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "Material",
           "package": "rsagl",
@@ -5607,6 +6093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stack of \u003ccode\u003e\u003ca\u003eMaterialLayer\u003c/a\u003e\u003c/code\u003es.  \u003ccode\u003e\u003ca\u003eMaterial\u003c/a\u003e\u003c/code\u003e is smart about compressing multiple layers into the least of number of equivalent layers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "Material",
           "package": "rsagl",
@@ -5616,6 +6103,7 @@
         "index": {
           "description": "stack of MaterialLayer Material is smart about compressing multiple layers into the least of number of equivalent layers",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "Material",
           "package": "rsagl",
@@ -5630,6 +6118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMaterialLayer\u003c/a\u003e\u003c/code\u003e is a layer of material some material quality (diffuse, transparent, emissive, or specular highlight).  \n \u003ccode\u003eMaterialLayers\u003c/code\u003e are rendered one on top of another to create layered effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "MaterialLayer",
           "package": "rsagl",
@@ -5639,6 +6128,7 @@
         "index": {
           "description": "MaterialLayer is layer of material some material quality diffuse transparent emissive or specular highlight MaterialLayers are rendered one on top of another to create layered effects",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "MaterialLayer",
           "package": "rsagl",
@@ -5653,6 +6143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMaterialSurface\u003c/a\u003e\u003c/code\u003e is parameterized either on RGB or RGBA, depending\n on whether or not the \u003ccode\u003e\u003ca\u003eMaterialLayer\u003c/a\u003e\u003c/code\u003e is capable of transparency.\n \u003ccode\u003e\u003ca\u003eMaterialSurface\u003c/a\u003e\u003c/code\u003es that are only one color (as opposed to procedural textures)\n can be described using \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e, for example \u003ca\u003epure red\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "MaterialSurface",
           "package": "rsagl",
@@ -5662,6 +6153,7 @@
         "index": {
           "description": "MaterialSurface is parameterized either on RGB or RGBA depending on whether or not the MaterialLayer is capable of transparency MaterialSurface that are only one color as opposed to procedural textures can be described using pure for example pure red",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "MaterialSurface",
           "package": "rsagl",
@@ -5676,6 +6168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple colored material.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "diffuseLayer",
           "package": "rsagl",
@@ -5686,6 +6179,7 @@
         "index": {
           "description": "simple colored material",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "diffuseLayer",
           "normalized": "MaterialSurface RGB-\u003eMaterial",
@@ -5702,6 +6196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA material that seems to glow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "emissiveLayer",
           "package": "rsagl",
@@ -5712,6 +6207,7 @@
         "index": {
           "description": "material that seems to glow",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "emissiveLayer",
           "normalized": "MaterialSurface RGB-\u003eMaterial",
@@ -5728,6 +6224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA material that doesn't reflect or emit life, but simply performs a multiplicative filter on whatever is behind it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "filteringLayer",
           "package": "rsagl",
@@ -5738,6 +6235,7 @@
         "index": {
           "description": "material that doesn reflect or emit life but simply performs multiplicative filter on whatever is behind it",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "filteringLayer",
           "normalized": "MaterialSurface RGB-\u003eMaterial",
@@ -5754,6 +6252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the \u003ccode\u003e\u003ca\u003eMaterialLayer\u003c/a\u003e\u003c/code\u003e is completely opaque.  A layer under an opaque layer is not visible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "isOpaqueLayer",
           "package": "rsagl",
@@ -5764,6 +6263,7 @@
         "index": {
           "description": "True if the MaterialLayer is completely opaque layer under an opaque layer is not visible",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "isOpaqueLayer",
           "normalized": "MaterialLayer-\u003eBool",
@@ -5780,6 +6280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswers a complexity heuristic for a \u003ccode\u003e\u003ca\u003eMaterial\u003c/a\u003e\u003c/code\u003e.  Result is a small integer greater than or equal to zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "materialComplexity",
           "package": "rsagl",
@@ -5790,6 +6291,7 @@
         "index": {
           "description": "Answers complexity heuristic for Material Result is small integer greater than or equal to zero",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "materialComplexity",
           "normalized": "Material-\u003eInteger",
@@ -5805,6 +6307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "materialIsEmpty",
           "package": "rsagl",
@@ -5814,6 +6317,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "materialIsEmpty",
           "normalized": "Material-\u003eBool",
@@ -5830,6 +6334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a relevance layer for a surface.  Purely irrelevant materials can be removed without changing the\n appearance of a model.  Irrelevant triangles can also be selectively culled from a model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "materialLayerRelevant",
           "package": "rsagl",
@@ -5840,6 +6345,7 @@
         "index": {
           "description": "Get relevance layer for surface Purely irrelevant materials can be removed without changing the appearance of model Irrelevant triangles can also be selectively culled from model",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "materialLayerRelevant",
           "normalized": "MaterialLayer-\u003eMaterialSurface Bool",
@@ -5856,6 +6362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the color information for a \u003ccode\u003e\u003ca\u003eMaterialLayer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "materialLayerSurface",
           "package": "rsagl",
@@ -5866,6 +6373,7 @@
         "index": {
           "description": "Get the color information for MaterialLayer",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "materialLayerSurface",
           "normalized": "MaterialLayer-\u003eMaterialSurface RGBA",
@@ -5882,6 +6390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an IO action wrapped in OpenGL state appropriate for the layer in question.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "materialLayerToOpenGLWrapper",
           "package": "rsagl",
@@ -5892,6 +6401,7 @@
         "index": {
           "description": "Run an IO action wrapped in OpenGL state appropriate for the layer in question",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "materialLayerToOpenGLWrapper",
           "normalized": "MaterialLayer-\u003eIO()-\u003eIO()",
@@ -5908,6 +6418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shiny material with specular highlight, including a specular exponent parameter.\n Larger exponents give tighter specular highlights, but should be less than 128 (larger than\n that wouldn't have very much effect anyway).  Typical values are 1-10 or so.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "specularLayer",
           "package": "rsagl",
@@ -5918,6 +6429,7 @@
         "index": {
           "description": "shiny material with specular highlight including specular exponent parameter Larger exponents give tighter specular highlights but should be less than larger than that wouldn have very much effect anyway Typical values are or so",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "specularLayer",
           "normalized": "MaterialSurface RGB-\u003eGLfloat-\u003eMaterial",
@@ -5934,6 +6446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit open a Material into its component layers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "toLayers",
           "package": "rsagl",
@@ -5944,6 +6457,7 @@
         "index": {
           "description": "Split open Material into its component layers",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "toLayers",
           "normalized": "Material-\u003e[MaterialLayer]",
@@ -5960,6 +6474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transparent colored material.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Material",
           "name": "transparentLayer",
           "package": "rsagl",
@@ -5970,6 +6485,7 @@
         "index": {
           "description": "transparent colored material",
           "hierarchy": "RSAGL Modeling Material",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Material",
           "name": "transparentLayer",
           "normalized": "MaterialSurface RGBA-\u003eMaterial",
@@ -5985,6 +6501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "Model",
           "package": "rsagl",
@@ -5993,6 +6510,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "Model",
           "package": "rsagl",
@@ -6006,6 +6524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "BakedModel",
           "package": "rsagl",
@@ -6014,6 +6533,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "BakedModel",
           "package": "rsagl",
@@ -6027,6 +6547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "IntermediateModel",
           "package": "rsagl",
@@ -6035,6 +6556,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "IntermediateModel",
           "package": "rsagl",
@@ -6048,6 +6570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "MaterialM",
           "package": "rsagl",
@@ -6056,6 +6579,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "MaterialM",
           "package": "rsagl",
@@ -6069,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "Model",
           "package": "rsagl",
@@ -6077,6 +6602,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "Model",
           "package": "rsagl",
@@ -6090,6 +6616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "ModelType",
           "package": "rsagl",
@@ -6098,6 +6625,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "ModelType",
           "package": "rsagl",
@@ -6111,6 +6639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "Modeling",
           "package": "rsagl",
@@ -6119,6 +6648,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "Modeling",
           "package": "rsagl",
@@ -6132,6 +6662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "ModelingM",
           "package": "rsagl",
@@ -6140,6 +6671,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "ModelingM",
           "package": "rsagl",
@@ -6153,6 +6685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "MonadAffine",
           "package": "rsagl",
@@ -6161,6 +6694,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "MonadAffine",
           "package": "rsagl",
@@ -6174,6 +6708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "RGBAFunction",
           "package": "rsagl",
@@ -6182,6 +6717,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "RGBAFunction",
           "package": "rsagl",
@@ -6195,6 +6731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "RGBFunction",
           "package": "rsagl",
@@ -6203,6 +6740,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "RGBFunction",
           "package": "rsagl",
@@ -6216,6 +6754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "adaptive",
           "package": "rsagl",
@@ -6225,6 +6764,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "adaptive",
           "package": "rsagl",
@@ -6237,6 +6777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "affine",
           "package": "rsagl",
@@ -6246,6 +6787,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "affine",
           "normalized": "AffineTransformation-\u003ea()",
@@ -6260,6 +6802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "attribute",
           "package": "rsagl",
@@ -6269,6 +6812,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "attribute",
           "normalized": "a-\u003eModeling a",
@@ -6283,6 +6827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "bakeModel",
           "package": "rsagl",
@@ -6292,6 +6837,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "bakeModel",
           "normalized": "IntermediateModel-\u003eIO BakedModel",
@@ -6307,6 +6853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "box",
           "package": "rsagl",
@@ -6316,6 +6863,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "box",
           "normalized": "Point D-\u003ePoint D-\u003eModeling a",
@@ -6330,6 +6878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "buildIntermediateModel",
           "package": "rsagl",
@@ -6339,6 +6888,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "buildIntermediateModel",
           "normalized": "Integer-\u003eModeling a-\u003eIntermediateModel",
@@ -6354,6 +6904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "closedCone",
           "package": "rsagl",
@@ -6363,6 +6914,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "closedCone",
           "normalized": "(Point D,RSdouble)-\u003e(Point D,RSdouble)-\u003eModeling a",
@@ -6378,6 +6930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "closedDisc",
           "package": "rsagl",
@@ -6387,6 +6940,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "closedDisc",
           "normalized": "Point D-\u003eVector D-\u003eRSdouble-\u003eModeling a",
@@ -6402,6 +6956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "deform",
           "package": "rsagl",
@@ -6411,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "deform",
           "normalized": "a-\u003eModeling b",
@@ -6425,6 +6981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "emissive",
           "package": "rsagl",
@@ -6434,6 +6991,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "emissive",
           "normalized": "RGBFunction-\u003eMaterialM a()",
@@ -6448,6 +7006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "extractModel",
           "package": "rsagl",
@@ -6457,6 +7016,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "extractModel",
           "normalized": "Modeling a-\u003eModel a",
@@ -6472,6 +7032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "filtering",
           "package": "rsagl",
@@ -6481,6 +7042,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "filtering",
           "normalized": "RGBFunction-\u003eMaterialM a()",
@@ -6495,6 +7057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "fixed",
           "package": "rsagl",
@@ -6504,6 +7067,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "fixed",
           "normalized": "(Integer,Integer)-\u003eModeling a",
@@ -6518,6 +7082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "freeModel",
           "package": "rsagl",
@@ -6527,6 +7092,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "freeModel",
           "normalized": "BakedModel-\u003eIO()",
@@ -6542,6 +7108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "generalSurface",
           "package": "rsagl",
@@ -6551,6 +7118,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "generalSurface",
           "normalized": "Either(Surface Point D)(Surface(Point D,Vector D))-\u003eModeling a",
@@ -6566,6 +7134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "hemisphere",
           "package": "rsagl",
@@ -6575,6 +7144,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "hemisphere",
           "normalized": "Point D-\u003eVector D-\u003eRSdouble-\u003eModeling a",
@@ -6589,6 +7159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "intermediateModelToOpenGL",
           "package": "rsagl",
@@ -6598,6 +7169,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "intermediateModelToOpenGL",
           "normalized": "IntermediateModel-\u003eIO()",
@@ -6613,6 +7185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "intermediateModelToVertexCloud",
           "package": "rsagl",
@@ -6622,6 +7195,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "intermediateModelToVertexCloud",
           "normalized": "IntermediateModel-\u003e[SurfaceVertex D]",
@@ -6637,6 +7211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "material",
           "package": "rsagl",
@@ -6646,6 +7221,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "material",
           "normalized": "MaterialM a()-\u003eb a()",
@@ -6660,6 +7236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "model",
           "package": "rsagl",
@@ -6669,6 +7246,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "model",
           "normalized": "Modeling a-\u003eModeling a",
@@ -6683,6 +7261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "modelInfo",
           "package": "rsagl",
@@ -6692,6 +7271,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "modelInfo",
           "normalized": "IntermediateModel-\u003eString",
@@ -6707,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "modelingToOpenGL",
           "package": "rsagl",
@@ -6716,6 +7297,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "modelingToOpenGL",
           "normalized": "Integer-\u003eModeling a-\u003eIO()",
@@ -6731,6 +7313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "openCone",
           "package": "rsagl",
@@ -6740,6 +7323,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "openCone",
           "normalized": "(Point D,RSdouble)-\u003e(Point D,RSdouble)-\u003eModeling a",
@@ -6756,6 +7340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA flat disc with a hole in the middle, defined in terms of it's center, normal vector, inner (hole) radius and outer radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "openDisc",
           "package": "rsagl",
@@ -6766,6 +7351,7 @@
         "index": {
           "description": "flat disc with hole in the middle defined in terms of it center normal vector inner hole radius and outer radius",
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "openDisc",
           "normalized": "Point D-\u003eVector D-\u003eRSdouble-\u003eRSdouble-\u003eModeling a",
@@ -6782,6 +7368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eperspectiveSphere\u003c/a\u003e\u003c/code\u003e is rendered anticipating the point from which it is to be viewed.\n Only the part of the surface of the sphere that would be visible from a vantage point is\n rendered, and otherwise the sphere seems clipped.\n\u003c/p\u003e\u003cp\u003eThis is the appropriate geometry to model the curvature of a planet from 200 kilometers altitude, for example.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "perspectiveSphere",
           "package": "rsagl",
@@ -6792,6 +7379,7 @@
         "index": {
           "description": "perspectiveSphere is rendered anticipating the point from which it is to be viewed Only the part of the surface of the sphere that would be visible from vantage point is rendered and otherwise the sphere seems clipped This is the appropriate geometry to model the curvature of planet from kilometers altitude for example",
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "perspectiveSphere",
           "normalized": "Point D-\u003eRSdouble-\u003ePoint D-\u003eModeling a",
@@ -6807,6 +7395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "pigment",
           "package": "rsagl",
@@ -6816,6 +7405,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "pigment",
           "normalized": "RGBFunction-\u003eMaterialM a()",
@@ -6830,6 +7420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "prism",
           "package": "rsagl",
@@ -6839,6 +7430,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "prism",
           "normalized": "Vector D-\u003e(Point D,RSdouble)-\u003e(Point D,RSdouble)-\u003eCurve Point D-\u003eModeling a",
@@ -6853,6 +7445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "quadralateral",
           "package": "rsagl",
@@ -6862,6 +7455,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "quadralateral",
           "normalized": "Point D-\u003ePoint D-\u003ePoint D-\u003ePoint D-\u003eModeling a",
@@ -6876,6 +7470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "regenerateNormals",
           "package": "rsagl",
@@ -6885,6 +7480,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "regenerateNormals",
           "package": "rsagl",
@@ -6899,6 +7495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap inside and outside surfaces and reverse normal vectors.  This shouldn't effect \u003ccode\u003e\u003ca\u003etwoSided\u003c/a\u003e\u003c/code\u003e surfaces in any visible way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "reverseOrientation",
           "package": "rsagl",
@@ -6909,6 +7506,7 @@
         "index": {
           "description": "Swap inside and outside surfaces and reverse normal vectors This shouldn effect twoSided surfaces in any visible way",
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "reverseOrientation",
           "normalized": "Modeling a-\u003eModeling a",
@@ -6924,6 +7522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "skyHemisphere",
           "package": "rsagl",
@@ -6933,6 +7532,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "skyHemisphere",
           "normalized": "Point D-\u003eVector D-\u003eRSdouble-\u003eModeling a",
@@ -6948,6 +7548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "skySphere",
           "package": "rsagl",
@@ -6957,6 +7558,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "skySphere",
           "normalized": "Point D-\u003eRSdouble-\u003eModeling a",
@@ -6972,6 +7574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "sor",
           "package": "rsagl",
@@ -6981,6 +7584,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "sor",
           "normalized": "Curve Point D-\u003eModeling a",
@@ -6995,6 +7599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "specular",
           "package": "rsagl",
@@ -7004,6 +7609,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "specular",
           "normalized": "GLfloat-\u003eRGBFunction-\u003eMaterialM a()",
@@ -7018,6 +7624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "sphere",
           "package": "rsagl",
@@ -7027,6 +7634,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "sphere",
           "normalized": "Point D-\u003eRSdouble-\u003eModeling a",
@@ -7041,6 +7649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "splitOpaques",
           "package": "rsagl",
@@ -7050,6 +7659,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "splitOpaques",
           "normalized": "IntermediateModel-\u003e(IntermediateModel,[IntermediateModel])",
@@ -7065,6 +7675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "tesselationHintComplexity",
           "package": "rsagl",
@@ -7074,6 +7685,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "tesselationHintComplexity",
           "normalized": "Integer-\u003eModeling a",
@@ -7089,6 +7701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "toIntermediateModel",
           "package": "rsagl",
@@ -7098,6 +7711,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "toIntermediateModel",
           "normalized": "a-\u003eIntermediateModel",
@@ -7113,6 +7727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "torus",
           "package": "rsagl",
@@ -7122,6 +7737,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "torus",
           "normalized": "RSdouble-\u003eRSdouble-\u003eModeling a",
@@ -7136,6 +7752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "transparent",
           "package": "rsagl",
@@ -7145,6 +7762,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "transparent",
           "normalized": "RGBAFunction-\u003eMaterialM a()",
@@ -7159,6 +7777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "triangle",
           "package": "rsagl",
@@ -7168,6 +7787,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "triangle",
           "normalized": "Point D-\u003ePoint D-\u003ePoint D-\u003eModeling a",
@@ -7182,6 +7802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "tube",
           "package": "rsagl",
@@ -7191,6 +7812,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "tube",
           "normalized": "Curve(RSdouble,Point D)-\u003eModeling a",
@@ -7205,6 +7827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "turbulence",
           "package": "rsagl",
@@ -7214,6 +7837,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "turbulence",
           "normalized": "(SurfaceVertex D-\u003eSurfaceVertex D)-\u003eMaterialM a()",
@@ -7228,6 +7852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "twoSided",
           "package": "rsagl",
@@ -7237,6 +7862,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "twoSided",
           "normalized": "Bool-\u003eModeling a",
@@ -7252,6 +7878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Model",
           "name": "withAttribute",
           "package": "rsagl",
@@ -7261,6 +7888,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Model",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Model",
           "name": "withAttribute",
           "normalized": "(a-\u003eBool)-\u003eModeling a-\u003eModeling a",
@@ -7276,6 +7904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "ModelingExtras",
           "package": "rsagl",
@@ -7284,6 +7913,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "ModelingExtras",
           "package": "rsagl",
@@ -7298,6 +7928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eApplicativeWrapper\u003c/a\u003e\u003c/code\u003e captures an applicative entity and remembers whether the entity is pure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "ApplicativeWrapper",
           "package": "rsagl",
@@ -7307,6 +7938,7 @@
         "index": {
           "description": "ApplicativeWrapper captures an applicative entity and remembers whether the entity is pure",
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "ApplicativeWrapper",
           "package": "rsagl",
@@ -7320,6 +7952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "ColorFunction",
           "package": "rsagl",
@@ -7328,6 +7961,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "ColorFunction",
           "package": "rsagl",
@@ -7341,6 +7975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "Pattern",
           "package": "rsagl",
@@ -7349,6 +7984,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "Pattern",
           "package": "rsagl",
@@ -7362,6 +7998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "ApplicativeWrapper",
           "package": "rsagl",
@@ -7371,6 +8008,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "ApplicativeWrapper",
           "package": "rsagl",
@@ -7384,6 +8022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "blinkBoxes",
           "package": "rsagl",
@@ -7393,6 +8032,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "blinkBoxes",
           "normalized": "Int-\u003eRSdouble-\u003eRSdouble-\u003eRSdouble-\u003ePattern",
@@ -7408,6 +8048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "bumps",
           "package": "rsagl",
@@ -7417,6 +8058,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "bumps",
           "normalized": "Pattern-\u003eModeling a",
@@ -7431,6 +8073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "cloudy",
           "package": "rsagl",
@@ -7440,6 +8083,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "cloudy",
           "normalized": "Int-\u003eRSdouble-\u003ePattern",
@@ -7454,6 +8098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "directional",
           "package": "rsagl",
@@ -7463,6 +8108,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "directional",
           "normalized": "Vector D-\u003ePattern",
@@ -7478,6 +8124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor models where we are certain surface normals don't matter, then don't calculate them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "disregardSurfaceNormals",
           "package": "rsagl",
@@ -7488,6 +8135,7 @@
         "index": {
           "description": "For models where we are certain surface normals don matter then don calculate them",
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "disregardSurfaceNormals",
           "package": "rsagl",
@@ -7501,6 +8149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "dropRandomElements",
           "package": "rsagl",
@@ -7510,6 +8159,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "dropRandomElements",
           "normalized": "Int-\u003eStdGen-\u003e[a]-\u003e[a]",
@@ -7525,6 +8175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "fromPure",
           "package": "rsagl",
@@ -7534,6 +8185,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "fromPure",
           "normalized": "ApplicativeWrapper a b-\u003eMaybe b",
@@ -7549,6 +8201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "glass",
           "package": "rsagl",
@@ -7558,6 +8211,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "glass",
           "normalized": "RGBFunction-\u003eMaterialM a()",
@@ -7572,6 +8226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "gradient",
           "package": "rsagl",
@@ -7581,6 +8236,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "gradient",
           "normalized": "Point D-\u003eVector D-\u003ePattern",
@@ -7596,6 +8252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA circular height field rising off of the x-z plane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "heightDisc",
           "package": "rsagl",
@@ -7606,6 +8263,7 @@
         "index": {
           "description": "circular height field rising off of the x-z plane",
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "heightDisc",
           "normalized": "(RSdouble,RSdouble)-\u003eRSdouble-\u003e((RSdouble,RSdouble)-\u003eRSdouble)-\u003eModeling a",
@@ -7622,6 +8280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangular height field rising off of the x-z plane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "heightField",
           "package": "rsagl",
@@ -7632,6 +8291,7 @@
         "index": {
           "description": "rectangular height field rising off of the x-z plane",
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "heightField",
           "normalized": "(RSdouble,RSdouble)-\u003e(RSdouble,RSdouble)-\u003e((RSdouble,RSdouble)-\u003eRSdouble)-\u003eModeling a",
@@ -7648,6 +8308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaises or lowers each point in a model along the y-axis according to its (x,z) coordinate.\n Typically this is used to construct height fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "heightMap",
           "package": "rsagl",
@@ -7658,6 +8319,7 @@
         "index": {
           "description": "Raises or lowers each point in model along the y-axis according to its coordinate Typically this is used to construct height fields",
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "heightMap",
           "normalized": "((RSdouble,RSdouble)-\u003eRSdouble)-\u003eModeling a",
@@ -7673,6 +8335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "isPure",
           "package": "rsagl",
@@ -7682,6 +8345,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "isPure",
           "normalized": "ApplicativeWrapper a b-\u003eBool",
@@ -7697,6 +8361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "metallic",
           "package": "rsagl",
@@ -7706,6 +8371,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "metallic",
           "normalized": "RGBFunction-\u003eMaterialM a()",
@@ -7720,6 +8386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "pattern",
           "package": "rsagl",
@@ -7729,6 +8396,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "pattern",
           "normalized": "Pattern-\u003e[(RSfloat,ColorFunction a)]-\u003eColorFunction a",
@@ -7743,6 +8411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "plastic",
           "package": "rsagl",
@@ -7752,6 +8421,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "plastic",
           "normalized": "RGBFunction-\u003eMaterialM a()",
@@ -7766,6 +8436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "regularPrism",
           "package": "rsagl",
@@ -7775,6 +8446,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "regularPrism",
           "normalized": "(Point D,RSdouble)-\u003e(Point D,RSdouble)-\u003eInteger-\u003eModeling a",
@@ -7790,6 +8462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "rotationGroup",
           "package": "rsagl",
@@ -7799,6 +8472,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "rotationGroup",
           "normalized": "Vector D-\u003eInteger-\u003ea-\u003e[a]",
@@ -7814,6 +8488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "smoothbox",
           "package": "rsagl",
@@ -7823,6 +8498,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "smoothbox",
           "normalized": "RSdouble-\u003ePoint D-\u003ePoint D-\u003eModeling a",
@@ -7837,6 +8513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "spherical",
           "package": "rsagl",
@@ -7846,6 +8523,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "spherical",
           "normalized": "Point D-\u003eRSdouble-\u003ePattern",
@@ -7860,6 +8538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "toApplicative",
           "package": "rsagl",
@@ -7869,6 +8548,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "toApplicative",
           "normalized": "ApplicativeWrapper a b-\u003ea b",
@@ -7884,6 +8564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "unwrapApplicative",
           "package": "rsagl",
@@ -7893,6 +8574,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "unwrapApplicative",
           "normalized": "ApplicativeWrapper a b-\u003eEither(a b)b",
@@ -7908,6 +8590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "waves",
           "package": "rsagl",
@@ -7917,6 +8600,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "waves",
           "normalized": "RSdouble-\u003eRSdouble-\u003ePattern",
@@ -7931,6 +8615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "wrapApplicative",
           "package": "rsagl",
@@ -7940,6 +8625,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling ModelingExtras",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.ModelingExtras",
           "name": "wrapApplicative",
           "normalized": "a b-\u003eApplicativeWrapper a b",
@@ -7955,6 +8641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Noise",
           "name": "Noise",
           "package": "rsagl",
@@ -7963,6 +8650,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Noise",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Noise",
           "name": "Noise",
           "package": "rsagl",
@@ -7977,6 +8665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates an arbitrary, smoothly varying value\n between \u003ccode\u003e-1\u003c/code\u003e and \u003ccode\u003e1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Noise",
           "name": "perlinNoise",
           "package": "rsagl",
@@ -7987,6 +8676,7 @@
         "index": {
           "description": "Generates an arbitrary smoothly varying value between and",
           "hierarchy": "RSAGL Modeling Noise",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Noise",
           "name": "perlinNoise",
           "normalized": "Point D-\u003eRSdouble",
@@ -8003,6 +8693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurbulence function.  Accepts an amplitude, which determines\n how intense turbulence will be.  'perlinTurbulence 0 == id'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Noise",
           "name": "perlinTurbulence",
           "package": "rsagl",
@@ -8013,6 +8704,7 @@
         "index": {
           "description": "Turbulence function Accepts an amplitude which determines how intense turbulence will be perlinTurbulence id",
           "hierarchy": "RSAGL Modeling Noise",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Noise",
           "name": "perlinTurbulence",
           "normalized": "RSdouble-\u003ePoint D-\u003ePoint D",
@@ -8028,6 +8720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Optimization",
           "name": "Optimization",
           "package": "rsagl",
@@ -8036,6 +8729,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Optimization",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Optimization",
           "name": "Optimization",
           "package": "rsagl",
@@ -8049,6 +8743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Optimization",
           "name": "allocateComplexity",
           "package": "rsagl",
@@ -8058,6 +8753,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Optimization",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Optimization",
           "name": "allocateComplexity",
           "normalized": "(a-\u003ea-\u003eRSdouble)-\u003e[(Surface a,RSdouble)]-\u003eInteger-\u003e[Integer]",
@@ -8073,6 +8769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Optimization",
           "name": "estimateSurfaceArea",
           "package": "rsagl",
@@ -8082,6 +8779,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Optimization",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Optimization",
           "name": "estimateSurfaceArea",
           "normalized": "(a-\u003ea-\u003eRSdouble)-\u003eSurface a-\u003eRSdouble",
@@ -8097,6 +8795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Optimization",
           "name": "optimizeSurface",
           "package": "rsagl",
@@ -8106,6 +8805,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Optimization",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Optimization",
           "name": "optimizeSurface",
           "normalized": "(a-\u003ea-\u003eRSdouble)-\u003eSurface a-\u003eInteger-\u003eTesselatedSurface a",
@@ -8121,6 +8821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "Tesselation",
           "package": "rsagl",
@@ -8129,6 +8830,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Tesselation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "Tesselation",
           "package": "rsagl",
@@ -8142,6 +8844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "TesselatedElement",
           "package": "rsagl",
@@ -8150,6 +8853,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Tesselation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "TesselatedElement",
           "package": "rsagl",
@@ -8163,6 +8867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "TesselatedSurface",
           "package": "rsagl",
@@ -8171,6 +8876,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Tesselation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "TesselatedSurface",
           "package": "rsagl",
@@ -8184,6 +8890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "TesselatedTriangleFan",
           "package": "rsagl",
@@ -8193,6 +8900,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Tesselation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "TesselatedTriangleFan",
           "package": "rsagl",
@@ -8206,6 +8914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "TesselatedTriangleStrip",
           "package": "rsagl",
@@ -8215,6 +8924,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Tesselation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "TesselatedTriangleStrip",
           "package": "rsagl",
@@ -8228,6 +8938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "TesselatedTriangles",
           "package": "rsagl",
@@ -8237,6 +8948,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Tesselation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "TesselatedTriangles",
           "package": "rsagl",
@@ -8251,6 +8963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTesselate polylines of possibly differing number of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "tesselateGrid",
           "package": "rsagl",
@@ -8261,6 +8974,7 @@
         "index": {
           "description": "Tesselate polylines of possibly differing number of elements",
           "hierarchy": "RSAGL Modeling Tesselation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "tesselateGrid",
           "normalized": "[[(RSdouble,a)]]-\u003eTesselatedSurface a",
@@ -8277,6 +8991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTesselate a surface into a u-by-v grid of triangles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "tesselateSurface",
           "package": "rsagl",
@@ -8287,6 +9002,7 @@
         "index": {
           "description": "Tesselate surface into u-by-v grid of triangles",
           "hierarchy": "RSAGL Modeling Tesselation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "tesselateSurface",
           "normalized": "Surface a-\u003e(Integer,Integer)-\u003eTesselatedSurface a",
@@ -8302,6 +9018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "tesselatedElementToOpenGL",
           "package": "rsagl",
@@ -8311,6 +9028,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Tesselation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "tesselatedElementToOpenGL",
           "normalized": "Bool-\u003eTesselatedElement a-\u003eIO()",
@@ -8327,6 +9045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a list of all vertices in a TesselatedSurface.\n There will be duplicate entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "tesselatedSurfaceToVertexCloud",
           "package": "rsagl",
@@ -8337,6 +9056,7 @@
         "index": {
           "description": "Generates list of all vertices in TesselatedSurface There will be duplicate entries",
           "hierarchy": "RSAGL Modeling Tesselation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "tesselatedSurfaceToVertexCloud",
           "normalized": "TesselatedSurface a-\u003e[a]",
@@ -8352,6 +9072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "tesselated_vertices",
           "package": "rsagl",
@@ -8361,6 +9082,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Tesselation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "tesselated_vertices",
           "normalized": "[a]",
@@ -8375,6 +9097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "unmapTesselatedElement",
           "package": "rsagl",
@@ -8384,6 +9107,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling Tesselation",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling.Tesselation",
           "name": "unmapTesselatedElement",
           "normalized": "TesselatedElement a-\u003e(PrimitiveMode,[a])",
@@ -8399,6 +9123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Modeling",
           "name": "Modeling",
           "package": "rsagl",
@@ -8407,6 +9132,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Modeling",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Modeling",
           "name": "Modeling",
           "package": "rsagl",
@@ -8420,6 +9146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "RayTrace",
           "package": "rsagl",
@@ -8428,6 +9155,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace RayTrace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "RayTrace",
           "package": "rsagl",
@@ -8441,6 +9169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "Geometry",
           "package": "rsagl",
@@ -8449,6 +9178,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace RayTrace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "Geometry",
           "package": "rsagl",
@@ -8462,6 +9192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "Plane",
           "package": "rsagl",
@@ -8470,6 +9201,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace RayTrace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "Plane",
           "package": "rsagl",
@@ -8483,6 +9215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "Sphere",
           "package": "rsagl",
@@ -8491,6 +9224,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace RayTrace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "Sphere",
           "package": "rsagl",
@@ -8504,6 +9238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "UnitSphere",
           "package": "rsagl",
@@ -8512,6 +9247,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace RayTrace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "UnitSphere",
           "package": "rsagl",
@@ -8525,6 +9261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "UnitSphere",
           "package": "rsagl",
@@ -8534,6 +9271,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace RayTrace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "UnitSphere",
           "package": "rsagl",
@@ -8547,6 +9285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "plane",
           "package": "rsagl",
@@ -8556,6 +9295,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace RayTrace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "plane",
           "normalized": "Point D-\u003eVector D-\u003ePlane",
@@ -8570,6 +9310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "plane3",
           "package": "rsagl",
@@ -8579,6 +9320,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace RayTrace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "plane3",
           "normalized": "Point D-\u003ePoint D-\u003ePoint D-\u003ePlane",
@@ -8593,6 +9335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "shadowDeform",
           "package": "rsagl",
@@ -8602,6 +9345,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace RayTrace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "shadowDeform",
           "normalized": "Vector D-\u003ea-\u003eSurfaceVertex D-\u003eSurfaceVertex D",
@@ -8617,6 +9361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "sphere",
           "package": "rsagl",
@@ -8626,6 +9371,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace RayTrace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "sphere",
           "normalized": "Point D-\u003eRSdouble-\u003eSphere",
@@ -8640,6 +9386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "testRay",
           "package": "rsagl",
@@ -8649,6 +9396,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace RayTrace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "testRay",
           "normalized": "Ray D-\u003ea-\u003e[(RSdouble,SurfaceVertex D)]",
@@ -8664,6 +9412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "testRay1st",
           "package": "rsagl",
@@ -8673,6 +9422,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace RayTrace",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.RayTrace",
           "name": "testRay1st",
           "normalized": "Ray D-\u003ea-\u003eMaybe(RSdouble,SurfaceVertex D)",
@@ -8688,6 +9438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "Scattering",
           "package": "rsagl",
@@ -8696,6 +9447,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "Scattering",
           "package": "rsagl",
@@ -8709,6 +9461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "AdaptiveSample",
           "package": "rsagl",
@@ -8717,6 +9470,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "AdaptiveSample",
           "package": "rsagl",
@@ -8730,6 +9484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "Scattering",
           "package": "rsagl",
@@ -8738,6 +9493,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "Scattering",
           "package": "rsagl",
@@ -8751,6 +9507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "Scattering",
           "package": "rsagl",
@@ -8760,6 +9517,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "Scattering",
           "package": "rsagl",
@@ -8773,6 +9531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "absorbtionOverDistance",
           "package": "rsagl",
@@ -8782,6 +9541,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "absorbtionOverDistance",
           "normalized": "RSdouble-\u003eRGB-\u003eRGB",
@@ -8797,6 +9557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "achromaticAbsorbtion",
           "package": "rsagl",
@@ -8806,6 +9567,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "achromaticAbsorbtion",
           "normalized": "Scattering-\u003eScattering",
@@ -8822,6 +9584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eadaptiveSamples\u003c/a\u003e\u003c/code\u003e tries to selectively subdivide samples that seem most \"conspicuous\" using a user-supplied\n \"conspicuous-ness\" function.  This should give a better result in less samples for highly detailed media models,\n but is likely to be slower that \u003ccode\u003e\u003ca\u003elinearSamples\u003c/a\u003e\u003c/code\u003e for the same number of samples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "adaptiveSamples",
           "package": "rsagl",
@@ -8832,6 +9595,7 @@
         "index": {
           "description": "adaptiveSamples tries to selectively subdivide samples that seem most conspicuous using user-supplied conspicuous-ness function This should give better result in less samples for highly detailed media models but is likely to be slower that linearSamples for the same number of samples",
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "adaptiveSamples",
           "package": "rsagl",
@@ -8845,6 +9609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "dust",
           "package": "rsagl",
@@ -8854,6 +9619,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "dust",
           "normalized": "RSdouble-\u003eRGB-\u003eScattering",
@@ -8868,6 +9634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "elasticBackScatter",
           "package": "rsagl",
@@ -8877,6 +9644,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "elasticBackScatter",
           "normalized": "RSdouble-\u003eAngle-\u003eRGB-\u003eScattering",
@@ -8892,6 +9660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "elasticForwardScatter",
           "package": "rsagl",
@@ -8901,6 +9670,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "elasticForwardScatter",
           "normalized": "RSdouble-\u003eAngle-\u003eRGB-\u003eScattering",
@@ -8916,6 +9686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "elasticOmnidirectionalScatter",
           "package": "rsagl",
@@ -8925,6 +9696,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "elasticOmnidirectionalScatter",
           "normalized": "RSdouble-\u003eRGB-\u003eScattering",
@@ -8940,6 +9712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "emissionOverDistance",
           "package": "rsagl",
@@ -8949,6 +9722,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "emissionOverDistance",
           "normalized": "RSdouble-\u003eRGB-\u003eRGB",
@@ -8964,6 +9738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "fog",
           "package": "rsagl",
@@ -8973,6 +9748,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "fog",
           "normalized": "RSdouble-\u003eRGB-\u003eScattering",
@@ -8987,6 +9763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "linearSamples",
           "package": "rsagl",
@@ -8996,6 +9773,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "linearSamples",
           "package": "rsagl",
@@ -9009,6 +9787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "rayleigh",
           "package": "rsagl",
@@ -9018,6 +9797,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "rayleigh",
           "normalized": "RSdouble-\u003eRGB-\u003eScattering",
@@ -9032,6 +9812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "rayleigh_sky",
           "package": "rsagl",
@@ -9041,6 +9822,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "rayleigh_sky",
           "package": "rsagl",
@@ -9053,6 +9835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "scattering_absorb",
           "package": "rsagl",
@@ -9062,6 +9845,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "scattering_absorb",
           "package": "rsagl",
@@ -9074,6 +9858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "scattering_scatter",
           "package": "rsagl",
@@ -9083,6 +9868,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "scattering_scatter",
           "normalized": "Angle-\u003eRGB",
@@ -9097,6 +9883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "traceAbsorbtion",
           "package": "rsagl",
@@ -9106,6 +9893,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "traceAbsorbtion",
           "normalized": "(Point D-\u003eScattering)-\u003eSamplingAlgorithm RGB-\u003ePoint D-\u003ePoint D-\u003eSamples RGB",
@@ -9121,6 +9909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "traceScattering",
           "package": "rsagl",
@@ -9130,6 +9919,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "traceScattering",
           "normalized": "(Point D-\u003eScattering)-\u003e(Point D-\u003e(Vector D,RGB))-\u003eSamplingAlgorithm(RGB,RGB)-\u003ePoint D-\u003ePoint D-\u003eSamples(RGB,RGB)",
@@ -9145,6 +9935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "withoutAbsorbtion",
           "package": "rsagl",
@@ -9154,6 +9945,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "withoutAbsorbtion",
           "normalized": "Scattering-\u003eScattering",
@@ -9169,6 +9961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "withoutScattering",
           "package": "rsagl",
@@ -9178,6 +9971,7 @@
         },
         "index": {
           "hierarchy": "RSAGL RayTrace Scattering",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.RayTrace.Scattering",
           "name": "withoutScattering",
           "normalized": "Scattering-\u003eScattering",
@@ -9193,6 +9987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "CoordinateSystems",
           "package": "rsagl",
@@ -9201,6 +9996,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "CoordinateSystems",
           "package": "rsagl",
@@ -9214,6 +10010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "Affine",
           "package": "rsagl",
@@ -9222,6 +10019,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "Affine",
           "package": "rsagl",
@@ -9235,6 +10033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "AffineTransformation",
           "package": "rsagl",
@@ -9243,6 +10042,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "AffineTransformation",
           "package": "rsagl",
@@ -9256,6 +10056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "CSN",
           "package": "rsagl",
@@ -9264,6 +10065,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "CSN",
           "package": "rsagl",
@@ -9277,6 +10079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "CoordinateSystem",
           "package": "rsagl",
@@ -9285,6 +10088,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "CoordinateSystem",
           "package": "rsagl",
@@ -9298,6 +10102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "CoordinateSystemClass",
           "package": "rsagl",
@@ -9306,6 +10111,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "CoordinateSystemClass",
           "package": "rsagl",
@@ -9319,6 +10125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "Distance",
           "package": "rsagl",
@@ -9327,6 +10134,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "Distance",
           "package": "rsagl",
@@ -9340,6 +10148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "NestedCoordinateSystemTransformer",
           "package": "rsagl",
@@ -9348,6 +10157,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "NestedCoordinateSystemTransformer",
           "package": "rsagl",
@@ -9361,6 +10171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "Affine",
           "package": "rsagl",
@@ -9370,6 +10181,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "Affine",
           "package": "rsagl",
@@ -9383,6 +10195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "affineOf",
           "package": "rsagl",
@@ -9392,6 +10205,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "affineOf",
           "normalized": "AffineTransformation-\u003eAffine",
@@ -9407,6 +10221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "affine_identity",
           "package": "rsagl",
@@ -9416,6 +10231,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "affine_identity",
           "package": "rsagl",
@@ -9428,6 +10244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "affine_transformation",
           "package": "rsagl",
@@ -9437,6 +10254,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "affine_transformation",
           "normalized": "a-\u003ea",
@@ -9451,6 +10269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "distance",
           "package": "rsagl",
@@ -9460,6 +10279,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "distance",
           "normalized": "Distance-\u003eRSdouble",
@@ -9474,6 +10294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "distanceSquared",
           "package": "rsagl",
@@ -9483,6 +10304,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "distanceSquared",
           "normalized": "Distance-\u003eRSdouble",
@@ -9498,6 +10320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "exportA",
           "package": "rsagl",
@@ -9507,6 +10330,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "exportA",
           "package": "rsagl",
@@ -9519,6 +10343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "exportCSN",
           "package": "rsagl",
@@ -9528,6 +10353,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "exportCSN",
           "normalized": "CoordinateSystem-\u003ea-\u003eCSN a",
@@ -9543,6 +10369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "exportCoordinateSystem",
           "package": "rsagl",
@@ -9552,6 +10379,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "exportCoordinateSystem",
           "package": "rsagl",
@@ -9565,6 +10393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "exportM",
           "package": "rsagl",
@@ -9574,6 +10403,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "exportM",
           "normalized": "a-\u003eb(CSN a)",
@@ -9588,6 +10418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "exportToA",
           "package": "rsagl",
@@ -9597,6 +10428,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "exportToA",
           "normalized": "CoordinateSystem-\u003ea b b",
@@ -9612,6 +10444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "getCoordinateSystem",
           "package": "rsagl",
@@ -9621,6 +10454,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "getCoordinateSystem",
           "normalized": "a-\u003eCoordinateSystem",
@@ -9636,6 +10470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "importA",
           "package": "rsagl",
@@ -9645,6 +10480,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "importA",
           "package": "rsagl",
@@ -9657,6 +10493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "importCSN",
           "package": "rsagl",
@@ -9666,6 +10503,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "importCSN",
           "normalized": "CoordinateSystem-\u003eCSN a-\u003ea",
@@ -9681,6 +10519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "importFromA",
           "package": "rsagl",
@@ -9690,6 +10529,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "importFromA",
           "normalized": "CoordinateSystem-\u003ea b b",
@@ -9705,6 +10545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "importM",
           "package": "rsagl",
@@ -9714,6 +10555,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "importM",
           "normalized": "CSN a-\u003eb a",
@@ -9728,6 +10570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "inverseTransformation",
           "package": "rsagl",
@@ -9737,6 +10580,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "inverseTransformation",
           "normalized": "AffineTransformation-\u003ea-\u003ea",
@@ -9752,6 +10596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "measure",
           "package": "rsagl",
@@ -9761,6 +10606,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "measure",
           "normalized": "a-\u003ea-\u003eDistance",
@@ -9775,6 +10621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "migrateToFrom",
           "package": "rsagl",
@@ -9784,6 +10631,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "migrateToFrom",
           "normalized": "CoordinateSystem-\u003eCoordinateSystem-\u003ea-\u003ea",
@@ -9799,6 +10647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "remoteA",
           "package": "rsagl",
@@ -9808,6 +10657,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "remoteA",
           "normalized": "a(CoordinateSystem,b-\u003ec,b)c",
@@ -9822,6 +10672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "remoteCSN",
           "package": "rsagl",
@@ -9831,6 +10682,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "remoteCSN",
           "normalized": "CoordinateSystem-\u003e(a-\u003eb)-\u003eCSN a-\u003eCSN b",
@@ -9846,6 +10698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "remoteM",
           "package": "rsagl",
@@ -9855,6 +10708,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "remoteM",
           "normalized": "CoordinateSystem-\u003e(a-\u003eb)-\u003ea-\u003ec b",
@@ -9869,6 +10723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "root_coordinate_system",
           "package": "rsagl",
@@ -9878,6 +10733,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "root_coordinate_system",
           "package": "rsagl",
@@ -9890,6 +10746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "storeCoordinateSystem",
           "package": "rsagl",
@@ -9899,6 +10756,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "storeCoordinateSystem",
           "normalized": "CoordinateSystem-\u003ea-\u003ea",
@@ -9914,6 +10772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "transformA",
           "package": "rsagl",
@@ -9923,6 +10782,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "transformA",
           "normalized": "a b c-\u003ea(d,b)c",
@@ -9937,6 +10797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "transformM",
           "package": "rsagl",
@@ -9946,6 +10807,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "transformM",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -9960,6 +10822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "transformation",
           "package": "rsagl",
@@ -9969,6 +10832,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene CoordinateSystems",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.CoordinateSystems",
           "name": "transformation",
           "normalized": "AffineTransformation-\u003ea-\u003ea",
@@ -9983,6 +10847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "LightSource",
           "package": "rsagl",
@@ -9991,6 +10856,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "LightSource",
           "package": "rsagl",
@@ -10005,6 +10871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA light source.  In addition to position information, each type of \n light source (except \u003ccode\u003e\u003ca\u003eNoLight\u003c/a\u003e\u003c/code\u003e) has a \u003ca\u003ecolor\u003c/a\u003e term, indicating the color of direct lighting,\n and an \u003ca\u003eambient\u003c/a\u003e term, indicating the color of indirect lighting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "LightSource",
           "package": "rsagl",
@@ -10014,6 +10881,7 @@
         "index": {
           "description": "light source In addition to position information each type of light source except NoLight has color term indicating the color of direct lighting and an ambient term indicating the color of indirect lighting",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "LightSource",
           "package": "rsagl",
@@ -10028,6 +10896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes a transformation of a light source, including the light color and ambient color terms, and any affine transformation.\n The \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance supports \u003ccode\u003e\u003ca\u003eMapLightSource\u003c/a\u003e\u003c/code\u003e as a specialized endomorphism (see \u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "MapLightSource",
           "package": "rsagl",
@@ -10037,6 +10906,7 @@
         "index": {
           "description": "Encodes transformation of light source including the light color and ambient color terms and any affine transformation The Monoid instance supports MapLightSource as specialized endomorphism see Endo",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "MapLightSource",
           "package": "rsagl",
@@ -10051,6 +10921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA directional or infinite light source, which always appears to be comming from the specified vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "DirectionalLight",
           "package": "rsagl",
@@ -10061,6 +10932,7 @@
         "index": {
           "description": "directional or infinite light source which always appears to be comming from the specified vector",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "DirectionalLight",
           "package": "rsagl",
@@ -10075,6 +10947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn inactive light source, equivalent to any light source with a color and ambient term of \u003ca\u003ergb 0 0 0\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "NoLight",
           "package": "rsagl",
@@ -10085,6 +10958,7 @@
         "index": {
           "description": "An inactive light source equivalent to any light source with color and ambient term of rgb",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "NoLight",
           "package": "rsagl",
@@ -10099,6 +10973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA point light, which has a specific position.  The intensity of point light radiation falls off with the\n inverse square of distance, normalized to one at the specified radius.  This means that point lights will\n be overbright inside that radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "PointLight",
           "package": "rsagl",
@@ -10109,6 +10984,7 @@
         "index": {
           "description": "point light which has specific position The intensity of point light radiation falls off with the inverse square of distance normalized to one at the specified radius This means that point lights will be overbright inside that radius",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "PointLight",
           "package": "rsagl",
@@ -10123,6 +10999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003ePointLight\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eDirectionalLight\u003c/a\u003e\u003c/code\u003e, assuming that the camera is at the origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "infiniteLightSourceOf",
           "package": "rsagl",
@@ -10133,6 +11010,7 @@
         "index": {
           "description": "Converts PointLight to DirectionalLight assuming that the camera is at the origin",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "infiniteLightSourceOf",
           "normalized": "LightSource-\u003eLightSource",
@@ -10149,6 +11027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if a light is \u003ccode\u003e\u003ca\u003eNoLight\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "isNoLight",
           "package": "rsagl",
@@ -10159,6 +11038,7 @@
         "index": {
           "description": "True if light is NoLight",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "isNoLight",
           "normalized": "LightSource-\u003eBool",
@@ -10174,6 +11054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "lightsource_ambient",
           "package": "rsagl",
@@ -10183,6 +11064,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "lightsource_ambient",
           "package": "rsagl",
@@ -10195,6 +11077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "lightsource_color",
           "package": "rsagl",
@@ -10204,6 +11087,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "lightsource_color",
           "package": "rsagl",
@@ -10216,6 +11100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "lightsource_direction",
           "package": "rsagl",
@@ -10225,6 +11110,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "lightsource_direction",
           "package": "rsagl",
@@ -10237,6 +11123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "lightsource_position",
           "package": "rsagl",
@@ -10246,6 +11133,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "lightsource_position",
           "package": "rsagl",
@@ -10258,6 +11146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "lightsource_radius",
           "package": "rsagl",
@@ -10267,6 +11156,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "lightsource_radius",
           "package": "rsagl",
@@ -10280,6 +11170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformation of the ambient color of a light source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "mapAmbient",
           "package": "rsagl",
@@ -10290,6 +11181,7 @@
         "index": {
           "description": "Transformation of the ambient color of light source",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "mapAmbient",
           "normalized": "(RGB-\u003eRGB)-\u003eMapLightSource",
@@ -10306,6 +11198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformation of both the direct illumination and the ambient color terms of a light source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "mapBoth",
           "package": "rsagl",
@@ -10316,6 +11209,7 @@
         "index": {
           "description": "Transformation of both the direct illumination and the ambient color terms of light source",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "mapBoth",
           "normalized": "(RGB-\u003eRGB)-\u003eMapLightSource",
@@ -10332,6 +11226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformation of the direct illumination color of a light source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "mapLight",
           "package": "rsagl",
@@ -10342,6 +11237,7 @@
         "index": {
           "description": "Transformation of the direct illumination color of light source",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "mapLight",
           "normalized": "(RGB-\u003eRGB)-\u003eMapLightSource",
@@ -10358,6 +11254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eMapLightSource\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eLightSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "mapLightSource",
           "package": "rsagl",
@@ -10368,6 +11265,7 @@
         "index": {
           "description": "Apply MapLightSource to LightSource",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "mapLightSource",
           "normalized": "MapLightSource-\u003eLightSource-\u003eLightSource",
@@ -10384,6 +11282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet one specific OpenGL light source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "setLightSourceToOpenGL",
           "package": "rsagl",
@@ -10394,6 +11293,7 @@
         "index": {
           "description": "Set one specific OpenGL light source",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "setLightSourceToOpenGL",
           "normalized": "(Light,LightSource)-\u003eIO()",
@@ -10410,6 +11310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet OpenGL light sources starting from 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "setLightSourcesToOpenGL",
           "package": "rsagl",
@@ -10420,6 +11321,7 @@
         "index": {
           "description": "Set OpenGL light sources starting from",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "setLightSourcesToOpenGL",
           "normalized": "[LightSource]-\u003eIO()",
@@ -10436,6 +11338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA DirectionalLight approximation of ambient sky radiation.  Normally, set the vector to straight up, since that is the direction of the sky.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.LightSource",
           "name": "skylight",
           "package": "rsagl",
@@ -10446,6 +11349,7 @@
         "index": {
           "description": "DirectionalLight approximation of ambient sky radiation Normally set the vector to straight up since that is the direction of the sky",
           "hierarchy": "RSAGL Scene LightSource",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.LightSource",
           "name": "skylight",
           "normalized": "Vector D-\u003eRGB-\u003eLightSource",
@@ -10460,6 +11364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "Scene",
           "package": "rsagl",
@@ -10468,6 +11373,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "Scene",
           "package": "rsagl",
@@ -10481,6 +11387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "Camera",
           "package": "rsagl",
@@ -10489,6 +11396,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "Camera",
           "package": "rsagl",
@@ -10502,6 +11410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "LightSourceLayerTransform",
           "package": "rsagl",
@@ -10510,6 +11419,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "LightSourceLayerTransform",
           "package": "rsagl",
@@ -10523,6 +11433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "Scene",
           "package": "rsagl",
@@ -10531,6 +11442,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "Scene",
           "package": "rsagl",
@@ -10544,6 +11456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "SceneAccumulator",
           "package": "rsagl",
@@ -10552,6 +11465,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "SceneAccumulator",
           "package": "rsagl",
@@ -10565,6 +11479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "SceneLayer",
           "package": "rsagl",
@@ -10573,6 +11488,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "SceneLayer",
           "package": "rsagl",
@@ -10586,6 +11502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "SceneLayerInfo",
           "package": "rsagl",
@@ -10594,6 +11511,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "SceneLayerInfo",
           "package": "rsagl",
@@ -10607,6 +11525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "SceneObject",
           "package": "rsagl",
@@ -10615,6 +11534,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "SceneObject",
           "package": "rsagl",
@@ -10628,6 +11548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "ScenicAccumulator",
           "package": "rsagl",
@@ -10636,6 +11557,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "ScenicAccumulator",
           "package": "rsagl",
@@ -10649,6 +11571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "LightSourceLayerTransform",
           "package": "rsagl",
@@ -10658,6 +11581,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "LightSourceLayerTransform",
           "package": "rsagl",
@@ -10671,6 +11595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "PerspectiveCamera",
           "package": "rsagl",
@@ -10680,6 +11605,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "PerspectiveCamera",
           "package": "rsagl",
@@ -10693,6 +11619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "SceneLayerInfo",
           "package": "rsagl",
@@ -10702,6 +11629,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "SceneLayerInfo",
           "package": "rsagl",
@@ -10715,6 +11643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "accumulateScene",
           "package": "rsagl",
@@ -10724,6 +11653,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "accumulateScene",
           "normalized": "SceneLayer-\u003eSceneObject a-\u003eb-\u003eb",
@@ -10739,6 +11669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "accumulateSceneA",
           "package": "rsagl",
@@ -10748,6 +11679,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "accumulateSceneA",
           "normalized": "a(SceneLayer,SceneObject b)()",
@@ -10763,6 +11695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "accumulateSceneM",
           "package": "rsagl",
@@ -10772,6 +11705,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "accumulateSceneM",
           "normalized": "SceneLayer-\u003eSceneObject a-\u003eb()",
@@ -10787,6 +11721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "assembleScene",
           "package": "rsagl",
@@ -10796,6 +11731,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "assembleScene",
           "normalized": "SceneLayerInfo-\u003eSceneAccumulator a-\u003ea Scene",
@@ -10812,6 +11748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms the minimal light source layer transform needed to maintain correct light sources under camera transformations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "cameraLightSourceLayerTransform",
           "package": "rsagl",
@@ -10822,6 +11759,7 @@
         "index": {
           "description": "Performs the minimal light source layer transform needed to maintain correct light sources under camera transformations",
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "cameraLightSourceLayerTransform",
           "normalized": "(SceneLayer-\u003eCamera)-\u003eLightSourceLayerTransform",
@@ -10837,6 +11775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "cameraRelativeSceneObject",
           "package": "rsagl",
@@ -10846,6 +11785,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "cameraRelativeSceneObject",
           "normalized": "(Camera-\u003ea(WrappedAffine IntermediateModel))-\u003eSceneObject a",
@@ -10861,6 +11801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "camera_fov",
           "package": "rsagl",
@@ -10870,6 +11811,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "camera_fov",
           "package": "rsagl",
@@ -10882,6 +11824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "camera_lookat",
           "package": "rsagl",
@@ -10891,6 +11834,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "camera_lookat",
           "package": "rsagl",
@@ -10903,6 +11847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "camera_position",
           "package": "rsagl",
@@ -10912,6 +11857,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "camera_position",
           "package": "rsagl",
@@ -10924,6 +11870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "camera_up",
           "package": "rsagl",
@@ -10933,6 +11880,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "camera_up",
           "package": "rsagl",
@@ -10945,6 +11893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "infiniteCameraOf",
           "package": "rsagl",
@@ -10954,6 +11903,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "infiniteCameraOf",
           "normalized": "Camera-\u003eCamera",
@@ -10969,6 +11919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "lightSource",
           "package": "rsagl",
@@ -10978,6 +11929,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "lightSource",
           "normalized": "LightSource-\u003eSceneObject a",
@@ -10993,6 +11945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "lightSourceLayerTransform",
           "package": "rsagl",
@@ -11002,6 +11955,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "lightSourceLayerTransform",
           "normalized": "SceneLayer-\u003eSceneLayer-\u003eLightSource-\u003eLightSource",
@@ -11017,6 +11971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "null_scene_accumulator",
           "package": "rsagl",
@@ -11026,6 +11981,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "null_scene_accumulator",
           "package": "rsagl",
@@ -11038,6 +11994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "sceneObject",
           "package": "rsagl",
@@ -11047,6 +12004,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "sceneObject",
           "normalized": "a b-\u003eSceneObject a",
@@ -11062,6 +12020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "sceneToOpenGL",
           "package": "rsagl",
@@ -11071,6 +12030,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "sceneToOpenGL",
           "normalized": "RSdouble-\u003e(RSdouble,RSdouble)-\u003eScene-\u003eIO()",
@@ -11086,6 +12046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "scene_layer_camera",
           "package": "rsagl",
@@ -11095,6 +12056,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "scene_layer_camera",
           "normalized": "SceneLayer-\u003eCamera",
@@ -11109,6 +12071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "scene_layer_light_source_layer_transform",
           "package": "rsagl",
@@ -11118,6 +12081,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "scene_layer_light_source_layer_transform",
           "package": "rsagl",
@@ -11130,6 +12094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "stdSceneLayerInfo",
           "package": "rsagl",
@@ -11139,6 +12104,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "stdSceneLayerInfo",
           "normalized": "Camera-\u003eSceneLayerInfo",
@@ -11154,6 +12120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "stdSceneLayers",
           "package": "rsagl",
@@ -11163,6 +12130,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "stdSceneLayers",
           "normalized": "Camera-\u003eSceneLayer-\u003eCamera",
@@ -11178,6 +12146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "std_scene_layer_cockpit",
           "package": "rsagl",
@@ -11187,6 +12156,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "std_scene_layer_cockpit",
           "package": "rsagl",
@@ -11199,6 +12169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "std_scene_layer_hud",
           "package": "rsagl",
@@ -11208,6 +12179,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "std_scene_layer_hud",
           "package": "rsagl",
@@ -11220,6 +12192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "std_scene_layer_infinite",
           "package": "rsagl",
@@ -11229,6 +12202,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "std_scene_layer_infinite",
           "package": "rsagl",
@@ -11241,6 +12215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.Scene",
           "name": "std_scene_layer_local",
           "package": "rsagl",
@@ -11250,6 +12225,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.Scene",
           "name": "std_scene_layer_local",
           "package": "rsagl",
@@ -11262,6 +12238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.WrappedAffine",
           "name": "WrappedAffine",
           "package": "rsagl",
@@ -11270,6 +12247,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene WrappedAffine",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.WrappedAffine",
           "name": "WrappedAffine",
           "package": "rsagl",
@@ -11284,6 +12262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrappedAffine stores up affine transformations that are commited only when\n the entity is unwrapped.  In this way we can store affine transformations\n for entities that can not be directly transformed, or for which delaying\n transformation an optimization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.WrappedAffine",
           "name": "WrappedAffine",
           "package": "rsagl",
@@ -11293,6 +12272,7 @@
         "index": {
           "description": "WrappedAffine stores up affine transformations that are commited only when the entity is unwrapped In this way we can store affine transformations for entities that can not be directly transformed or for which delaying transformation an optimization",
           "hierarchy": "RSAGL Scene WrappedAffine",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.WrappedAffine",
           "name": "WrappedAffine",
           "package": "rsagl",
@@ -11306,6 +12286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.WrappedAffine",
           "name": "WrappedAffine",
           "package": "rsagl",
@@ -11315,6 +12296,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene WrappedAffine",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.WrappedAffine",
           "name": "WrappedAffine",
           "package": "rsagl",
@@ -11328,6 +12310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.WrappedAffine",
           "name": "unwrapAffine",
           "package": "rsagl",
@@ -11337,6 +12320,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene WrappedAffine",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.WrappedAffine",
           "name": "unwrapAffine",
           "normalized": "WrappedAffine a-\u003ea",
@@ -11352,6 +12336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene.WrappedAffine",
           "name": "wrapAffine",
           "package": "rsagl",
@@ -11361,6 +12346,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene WrappedAffine",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene.WrappedAffine",
           "name": "wrapAffine",
           "normalized": "a-\u003eWrappedAffine a",
@@ -11376,6 +12362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:39 UTC 2014",
           "module": "RSAGL.Scene",
           "name": "Scene",
           "package": "rsagl",
@@ -11384,6 +12371,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Scene",
+          "indexed": "2014-03-11T19:55:39",
           "module": "RSAGL.Scene",
           "name": "Scene",
           "package": "rsagl",

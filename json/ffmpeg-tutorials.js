@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ffmpeg-tutorials"
+        "phrase": "ffmpeg-tutorials",
+        "type": "phrase"
       },
       "type": "context"
     }

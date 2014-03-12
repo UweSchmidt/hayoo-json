@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "explicit-iomodes-text"
+        "phrase": "explicit-iomodes-text",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module lifts the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e IO operations to handles with explicit\n IOModes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:05:31 UTC 2014",
           "module": "Data.Text.IO.ExplicitIOModes",
           "name": "ExplicitIOModes",
           "package": "explicit-iomodes-text",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module lifts the Text IO operations to handles with explicit IOModes",
           "hierarchy": "Data Text IO ExplicitIOModes",
+          "indexed": "2014-03-11T18:05:31",
           "module": "Data.Text.IO.ExplicitIOModes",
           "name": "ExplicitIOModes",
           "package": "explicit-iomodes-text",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps \u003ccode\u003eData.Text.IO.\u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:31 UTC 2014",
           "module": "Data.Text.IO.ExplicitIOModes",
           "name": "hGetContents",
           "package": "explicit-iomodes-text",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Wraps Data.Text.IO hGetContents",
           "hierarchy": "Data Text IO ExplicitIOModes",
+          "indexed": "2014-03-11T18:05:31",
           "module": "Data.Text.IO.ExplicitIOModes",
           "name": "hGetContents",
           "normalized": "Handle a-\u003eIO Text",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps \u003ccode\u003eData.Text.IO.\u003ccode\u003e\u003ca\u003ehGetLine\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:31 UTC 2014",
           "module": "Data.Text.IO.ExplicitIOModes",
           "name": "hGetLine",
           "package": "explicit-iomodes-text",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Wraps Data.Text.IO hGetLine",
           "hierarchy": "Data Text IO ExplicitIOModes",
+          "indexed": "2014-03-11T18:05:31",
           "module": "Data.Text.IO.ExplicitIOModes",
           "name": "hGetLine",
           "normalized": "Handle a-\u003eIO Text",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps \u003ccode\u003eData.Text.IO.\u003ccode\u003e\u003ca\u003ehPutStr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:31 UTC 2014",
           "module": "Data.Text.IO.ExplicitIOModes",
           "name": "hPutStr",
           "package": "explicit-iomodes-text",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Wraps Data.Text.IO hPutStr",
           "hierarchy": "Data Text IO ExplicitIOModes",
+          "indexed": "2014-03-11T18:05:31",
           "module": "Data.Text.IO.ExplicitIOModes",
           "name": "hPutStr",
           "normalized": "Handle a-\u003eText-\u003eIO()",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps \u003ccode\u003eData.Text.IO.\u003ccode\u003e\u003ca\u003ehPutStrLn\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:31 UTC 2014",
           "module": "Data.Text.IO.ExplicitIOModes",
           "name": "hPutStrLn",
           "package": "explicit-iomodes-text",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Wraps Data.Text.IO hPutStrLn",
           "hierarchy": "Data Text IO ExplicitIOModes",
+          "indexed": "2014-03-11T18:05:31",
           "module": "Data.Text.IO.ExplicitIOModes",
           "name": "hPutStrLn",
           "normalized": "Handle a-\u003eText-\u003eIO()",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module lifts the lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e IO operations to handles with explicit\n IOModes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:05:31 UTC 2014",
           "module": "Data.Text.Lazy.IO.ExplicitIOModes",
           "name": "ExplicitIOModes",
           "package": "explicit-iomodes-text",
@@ -155,6 +166,7 @@
         "index": {
           "description": "This module lifts the lazy Text IO operations to handles with explicit IOModes",
           "hierarchy": "Data Text Lazy IO ExplicitIOModes",
+          "indexed": "2014-03-11T18:05:31",
           "module": "Data.Text.Lazy.IO.ExplicitIOModes",
           "name": "ExplicitIOModes",
           "package": "explicit-iomodes-text",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps \u003ccode\u003eData.Text.Lazy.IO.\u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:31 UTC 2014",
           "module": "Data.Text.Lazy.IO.ExplicitIOModes",
           "name": "hGetContents",
           "package": "explicit-iomodes-text",
@@ -179,6 +192,7 @@
         "index": {
           "description": "Wraps Data.Text.Lazy.IO hGetContents",
           "hierarchy": "Data Text Lazy IO ExplicitIOModes",
+          "indexed": "2014-03-11T18:05:31",
           "module": "Data.Text.Lazy.IO.ExplicitIOModes",
           "name": "hGetContents",
           "normalized": "Handle a-\u003eIO Text",
@@ -195,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps \u003ccode\u003eData.Text.Lazy.IO.\u003ccode\u003e\u003ca\u003ehGetLine\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:31 UTC 2014",
           "module": "Data.Text.Lazy.IO.ExplicitIOModes",
           "name": "hGetLine",
           "package": "explicit-iomodes-text",
@@ -205,6 +220,7 @@
         "index": {
           "description": "Wraps Data.Text.Lazy.IO hGetLine",
           "hierarchy": "Data Text Lazy IO ExplicitIOModes",
+          "indexed": "2014-03-11T18:05:31",
           "module": "Data.Text.Lazy.IO.ExplicitIOModes",
           "name": "hGetLine",
           "normalized": "Handle a-\u003eIO Text",
@@ -221,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps \u003ccode\u003eData.Text.Lazy.IO.\u003ccode\u003e\u003ca\u003ehPutStr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:31 UTC 2014",
           "module": "Data.Text.Lazy.IO.ExplicitIOModes",
           "name": "hPutStr",
           "package": "explicit-iomodes-text",
@@ -231,6 +248,7 @@
         "index": {
           "description": "Wraps Data.Text.Lazy.IO hPutStr",
           "hierarchy": "Data Text Lazy IO ExplicitIOModes",
+          "indexed": "2014-03-11T18:05:31",
           "module": "Data.Text.Lazy.IO.ExplicitIOModes",
           "name": "hPutStr",
           "normalized": "Handle a-\u003eText-\u003eIO()",
@@ -247,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps \u003ccode\u003eData.Text.Lazy.IO.\u003ccode\u003e\u003ca\u003ehPutStrLn\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:31 UTC 2014",
           "module": "Data.Text.Lazy.IO.ExplicitIOModes",
           "name": "hPutStrLn",
           "package": "explicit-iomodes-text",
@@ -257,6 +276,7 @@
         "index": {
           "description": "Wraps Data.Text.Lazy.IO hPutStrLn",
           "hierarchy": "Data Text Lazy IO ExplicitIOModes",
+          "indexed": "2014-03-11T18:05:31",
           "module": "Data.Text.Lazy.IO.ExplicitIOModes",
           "name": "hPutStrLn",
           "normalized": "Handle a-\u003eText-\u003eIO()",

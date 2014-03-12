@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-eventsource"
+        "phrase": "wai-eventsource",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal module, usually you don't need to use it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:56 UTC 2014",
           "module": "Network.Wai.EventSource.EventStream",
           "name": "EventStream",
           "package": "wai-eventsource",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Internal module usually you don need to use it",
           "hierarchy": "Network Wai EventSource EventStream",
+          "indexed": "2014-03-11T20:35:56",
           "module": "Network.Wai.EventSource.EventStream",
           "name": "EventStream",
           "package": "wai-eventsource",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representing a communication over an event stream.  This can be an\n    actual event, a comment, a modification to the retry timer, or a special\n    \u003ca\u003eclose\u003c/a\u003e event indicating the server should close the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:56 UTC 2014",
           "module": "Network.Wai.EventSource.EventStream",
           "name": "ServerEvent",
           "package": "wai-eventsource",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type representing communication over an event stream This can be an actual event comment modification to the retry timer or special close event indicating the server should close the connection",
           "hierarchy": "Network Wai EventSource EventStream",
+          "indexed": "2014-03-11T20:35:56",
           "module": "Network.Wai.EventSource.EventStream",
           "name": "ServerEvent",
           "package": "wai-eventsource",
@@ -274,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eServerEvent\u003c/a\u003e\u003c/code\u003e to its wire representation as specified by the\n    \u003ccode\u003etext/event-stream\u003c/code\u003e content type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:56 UTC 2014",
           "module": "Network.Wai.EventSource.EventStream",
           "name": "eventToBuilder",
           "package": "wai-eventsource",
@@ -284,6 +289,7 @@
         "index": {
           "description": "Converts ServerEvent to its wire representation as specified by the text event-stream content type",
           "hierarchy": "Network Wai EventSource EventStream",
+          "indexed": "2014-03-11T20:35:56",
           "module": "Network.Wai.EventSource.EventStream",
           "name": "eventToBuilder",
           "normalized": "ServerEvent-\u003eMaybe Builder",
@@ -300,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA WAI adapter to the HTML5 Server-Sent Events API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:56 UTC 2014",
           "module": "Network.Wai.EventSource",
           "name": "EventSource",
           "package": "wai-eventsource",
@@ -309,6 +316,7 @@
         "index": {
           "description": "WAI adapter to the HTML5 Server-Sent Events API",
           "hierarchy": "Network Wai EventSource",
+          "indexed": "2014-03-11T20:35:56",
           "module": "Network.Wai.EventSource",
           "name": "EventSource",
           "package": "wai-eventsource",
@@ -323,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representing a communication over an event stream.  This can be an\n    actual event, a comment, a modification to the retry timer, or a special\n    \u003ca\u003eclose\u003c/a\u003e event indicating the server should close the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:56 UTC 2014",
           "module": "Network.Wai.EventSource",
           "name": "ServerEvent",
           "package": "wai-eventsource",
@@ -332,6 +341,7 @@
         "index": {
           "description": "Type representing communication over an event stream This can be an actual event comment modification to the retry timer or special close event indicating the server should close the connection",
           "hierarchy": "Network Wai EventSource",
+          "indexed": "2014-03-11T20:35:56",
           "module": "Network.Wai.EventSource",
           "name": "ServerEvent",
           "package": "wai-eventsource",
@@ -346,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a new WAI EventSource application reading events from\n the given channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:56 UTC 2014",
           "module": "Network.Wai.EventSource",
           "name": "eventSourceAppChan",
           "package": "wai-eventsource",
@@ -356,6 +367,7 @@
         "index": {
           "description": "Make new WAI EventSource application reading events from the given channel",
           "hierarchy": "Network Wai EventSource",
+          "indexed": "2014-03-11T20:35:56",
           "module": "Network.Wai.EventSource",
           "name": "eventSourceAppChan",
           "normalized": "Chan ServerEvent-\u003eApplication",
@@ -372,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a new WAI EventSource application reading events from\n the given IO action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:56 UTC 2014",
           "module": "Network.Wai.EventSource",
           "name": "eventSourceAppIO",
           "package": "wai-eventsource",
@@ -382,6 +395,7 @@
         "index": {
           "description": "Make new WAI EventSource application reading events from the given IO action",
           "hierarchy": "Network Wai EventSource",
+          "indexed": "2014-03-11T20:35:56",
           "module": "Network.Wai.EventSource",
           "name": "eventSourceAppIO",
           "normalized": "IO ServerEvent-\u003eApplication",
@@ -398,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a new WAI EventSource application reading events from\n the given source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:56 UTC 2014",
           "module": "Network.Wai.EventSource",
           "name": "eventSourceAppSource",
           "package": "wai-eventsource",
@@ -408,6 +423,7 @@
         "index": {
           "description": "Make new WAI EventSource application reading events from the given source",
           "hierarchy": "Network Wai EventSource",
+          "indexed": "2014-03-11T20:35:56",
           "module": "Network.Wai.EventSource",
           "name": "eventSourceAppSource",
           "normalized": "Source IO ServerEvent-\u003eApplication",
@@ -424,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a ServerEvent source into a Builder source of serialized\n events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:56 UTC 2014",
           "module": "Network.Wai.EventSource",
           "name": "sourceToSource",
           "package": "wai-eventsource",
@@ -434,6 +451,7 @@
         "index": {
           "description": "Convert ServerEvent source into Builder source of serialized events",
           "hierarchy": "Network Wai EventSource",
+          "indexed": "2014-03-11T20:35:56",
           "module": "Network.Wai.EventSource",
           "name": "sourceToSource",
           "normalized": "Source a ServerEvent-\u003eSource a(Flush Builder)",

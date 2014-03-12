@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nanospec"
+        "phrase": "nanospec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA lightweight implementation of a subset of Hspec's API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:03 UTC 2014",
           "module": "Test.Hspec",
           "name": "Hspec",
           "package": "nanospec",
@@ -28,6 +29,7 @@
         "index": {
           "description": "lightweight implementation of subset of Hspec API",
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T19:26:03",
           "module": "Test.Hspec",
           "name": "Hspec",
           "package": "nanospec",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:03 UTC 2014",
           "module": "Test.Hspec",
           "name": "Expectation",
           "package": "nanospec",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T19:26:03",
           "module": "Test.Hspec",
           "name": "Expectation",
           "package": "nanospec",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:03 UTC 2014",
           "module": "Test.Hspec",
           "name": "Spec",
           "package": "nanospec",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T19:26:03",
           "module": "Test.Hspec",
           "name": "Spec",
           "package": "nanospec",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:03 UTC 2014",
           "module": "Test.Hspec",
           "name": "SpecM",
           "package": "nanospec",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T19:26:03",
           "module": "Test.Hspec",
           "name": "SpecM",
           "package": "nanospec",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:03 UTC 2014",
           "module": "Test.Hspec",
           "name": "context",
           "package": "nanospec",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T19:26:03",
           "module": "Test.Hspec",
           "name": "context",
           "normalized": "String-\u003eSpec-\u003eSpec",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:03 UTC 2014",
           "module": "Test.Hspec",
           "name": "describe",
           "package": "nanospec",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T19:26:03",
           "module": "Test.Hspec",
           "name": "describe",
           "normalized": "String-\u003eSpec-\u003eSpec",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:03 UTC 2014",
           "module": "Test.Hspec",
           "name": "expect",
           "package": "nanospec",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T19:26:03",
           "module": "Test.Hspec",
           "name": "expect",
           "normalized": "String-\u003eBool-\u003eExpectation",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:03 UTC 2014",
           "module": "Test.Hspec",
           "name": "hspec",
           "package": "nanospec",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T19:26:03",
           "module": "Test.Hspec",
           "name": "hspec",
           "normalized": "Spec-\u003eIO()",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:03 UTC 2014",
           "module": "Test.Hspec",
           "name": "it",
           "package": "nanospec",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T19:26:03",
           "module": "Test.Hspec",
           "name": "it",
           "normalized": "String-\u003eExpectation-\u003eSpec",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:03 UTC 2014",
           "module": "Test.Hspec",
           "name": "shouldBe",
           "package": "nanospec",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T19:26:03",
           "module": "Test.Hspec",
           "name": "shouldBe",
           "normalized": "a-\u003ea-\u003eExpectation",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:03 UTC 2014",
           "module": "Test.Hspec",
           "name": "shouldReturn",
           "package": "nanospec",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T19:26:03",
           "module": "Test.Hspec",
           "name": "shouldReturn",
           "normalized": "IO a-\u003ea-\u003eExpectation",

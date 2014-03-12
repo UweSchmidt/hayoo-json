@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PandocAgda"
+        "phrase": "PandocAgda",
+        "type": "phrase"
       },
       "type": "context"
     }

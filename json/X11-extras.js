@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "X11-extras"
+        "phrase": "X11-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xinerama",
           "name": "XineramaScreenInfo",
           "package": "X11-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xinerama",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xinerama",
           "name": "XineramaScreenInfo",
           "package": "X11-extras",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xinerama",
           "name": "compiledWithXinerama",
           "package": "X11-extras",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xinerama",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xinerama",
           "name": "compiledWithXinerama",
           "package": "X11-extras",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "Wrapper around xineramaQueryScreens that fakes a single screen when\n Xinerama is not active. This is the preferred interface to\n Graphics.X11.Xinerama.\n",
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xinerama",
           "name": "getScreenInfo",
           "package": "X11-extras",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Wrapper around xineramaQueryScreens that fakes single screen when Xinerama is not active This is the preferred interface to Graphics.X11.Xinerama",
           "hierarchy": "Graphics X11 Xinerama",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xinerama",
           "name": "getScreenInfo",
           "normalized": "Display-\u003eIO[Rectangle]",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xinerama",
           "name": "xineramaIsActive",
           "package": "X11-extras",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xinerama",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xinerama",
           "name": "xineramaIsActive",
           "normalized": "Display-\u003eIO Bool",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xinerama",
           "name": "xineramaQueryExtension",
           "package": "X11-extras",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xinerama",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xinerama",
           "name": "xineramaQueryExtension",
           "normalized": "Display-\u003eIO(Maybe(CInt,CInt))",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xinerama",
           "name": "xineramaQueryScreens",
           "package": "X11-extras",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xinerama",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xinerama",
           "name": "xineramaQueryScreens",
           "normalized": "Display-\u003eIO(Maybe[XineramaScreenInfo])",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xinerama",
           "name": "xineramaQueryVersion",
           "package": "X11-extras",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xinerama",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xinerama",
           "name": "xineramaQueryVersion",
           "normalized": "Display-\u003eIO(Maybe(CInt,CInt))",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "ClassHint",
           "package": "X11-extras",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "ClassHint",
           "package": "X11-extras",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "Event",
           "package": "X11-extras",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "Event",
           "package": "X11-extras",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "FontSet",
           "package": "X11-extras",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "FontSet",
           "package": "X11-extras",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "SizeHints",
           "package": "X11-extras",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "SizeHints",
           "package": "X11-extras",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "TextProperty",
           "package": "X11-extras",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "TextProperty",
           "package": "X11-extras",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "WindowAttributes",
           "package": "X11-extras",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "WindowAttributes",
           "package": "X11-extras",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "WindowChanges",
           "package": "X11-extras",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "WindowChanges",
           "package": "X11-extras",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "anyButton",
           "package": "X11-extras",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "anyButton",
           "package": "X11-extras",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "anyKey",
           "package": "X11-extras",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "anyKey",
           "package": "X11-extras",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "anyPropertyType",
           "package": "X11-extras",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "anyPropertyType",
           "package": "X11-extras",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "changeProperty16",
           "package": "X11-extras",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "changeProperty16",
           "normalized": "Display-\u003eWindow-\u003eAtom-\u003eAtom-\u003eCInt-\u003e[Word]-\u003eIO()",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "changeProperty32",
           "package": "X11-extras",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "changeProperty32",
           "normalized": "Display-\u003eWindow-\u003eAtom-\u003eAtom-\u003eCInt-\u003e[Word]-\u003eIO()",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "changeProperty8",
           "package": "X11-extras",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "changeProperty8",
           "normalized": "Display-\u003eWindow-\u003eAtom-\u003eAtom-\u003eCInt-\u003e[Word]-\u003eIO()",
@@ -469,6 +509,7 @@
       "document": {
         "description": {
           "description": "interface to the X11 library function \u003ctt\u003eXChangeWindowAttributes()\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "changeWindowAttributes",
           "package": "X11-extras",
@@ -479,6 +520,7 @@
         "index": {
           "description": "interface to the X11 library function XChangeWindowAttributes",
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "changeWindowAttributes",
           "normalized": "Display-\u003eWindow-\u003eAttributeMask-\u003ePtr SetWindowAttributes-\u003eIO()",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "configureWindow",
           "package": "X11-extras",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "configureWindow",
           "normalized": "Display-\u003eWindow-\u003eCULong-\u003eWindowChanges-\u003eIO()",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "createFontSet",
           "package": "X11-extras",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "createFontSet",
           "normalized": "Display-\u003eString-\u003eIO([String],String,FontSet)",
@@ -542,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "currentTime",
           "package": "X11-extras",
@@ -551,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "currentTime",
           "package": "X11-extras",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "eventName",
           "package": "X11-extras",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "eventName",
           "normalized": "Event-\u003eString",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "fetchName",
           "package": "X11-extras",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "fetchName",
           "normalized": "Display-\u003eWindow-\u003eIO(Maybe String)",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "freeFontSet",
           "package": "X11-extras",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "freeFontSet",
           "normalized": "Display-\u003eFontSet-\u003eIO()",
@@ -636,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "freeStringList",
           "package": "X11-extras",
@@ -645,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "freeStringList",
           "normalized": "Ptr CString-\u003eIO()",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getClassHint",
           "package": "X11-extras",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getClassHint",
           "normalized": "Display-\u003eWindow-\u003eIO ClassHint",
@@ -684,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getEvent",
           "package": "X11-extras",
@@ -693,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getEvent",
           "normalized": "XEventPtr-\u003eIO Event",
@@ -708,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getTextProperty",
           "package": "X11-extras",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getTextProperty",
           "normalized": "Display-\u003eWindow-\u003eAtom-\u003eIO TextProperty",
@@ -732,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getTransientForHint",
           "package": "X11-extras",
@@ -741,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getTransientForHint",
           "normalized": "Display-\u003eWindow-\u003eIO(Maybe Window)",
@@ -756,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getWMNormalHints",
           "package": "X11-extras",
@@ -765,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getWMNormalHints",
           "normalized": "Display-\u003eWindow-\u003eIO SizeHints",
@@ -781,6 +847,7 @@
       "document": {
         "description": {
           "description": "The XGetWMProtocols function returns the list of atoms\n stored in the WM_PROTOCOLS property on the specified win\n dow.  These atoms describe window manager protocols in\n which the owner of this window is willing to participate.\n If the property exists, is of type ATOM, is of format 32,\n and the atom WM_PROTOCOLS can be interned, XGetWMProtocols\n sets the protocols_return argument to a list of atoms,\n sets the count_return argument to the number of elements\n in the list, and returns a nonzero status.  Otherwise, it\n sets neither of the return arguments and returns a zero\n status.  To release the list of atoms, use XFree.\n",
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getWMProtocols",
           "package": "X11-extras",
@@ -791,6 +858,7 @@
         "index": {
           "description": "The XGetWMProtocols function returns the list of atoms stored in the WM PROTOCOLS property on the specified win dow These atoms describe window manager protocols in which the owner of this window is willing to participate If the property exists is of type ATOM is of format and the atom WM PROTOCOLS can be interned XGetWMProtocols sets the protocols return argument to list of atoms sets the count return argument to the number of elements in the list and returns nonzero status Otherwise it sets neither of the return arguments and returns zero status To release the list of atoms use XFree",
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getWMProtocols",
           "normalized": "Display-\u003eWindow-\u003eIO[Atom]",
@@ -806,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getWindowProperty16",
           "package": "X11-extras",
@@ -815,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getWindowProperty16",
           "normalized": "Display-\u003eAtom-\u003eWindow-\u003eIO(Maybe[Word])",
@@ -830,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getWindowProperty32",
           "package": "X11-extras",
@@ -839,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getWindowProperty32",
           "normalized": "Display-\u003eAtom-\u003eWindow-\u003eIO(Maybe[Word])",
@@ -854,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getWindowProperty8",
           "package": "X11-extras",
@@ -863,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "getWindowProperty8",
           "normalized": "Display-\u003eAtom-\u003eWindow-\u003eIO(Maybe[Word])",
@@ -878,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isCursorKey",
           "package": "X11-extras",
@@ -887,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isCursorKey",
           "normalized": "KeySym-\u003eBool",
@@ -902,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isFunctionKey",
           "package": "X11-extras",
@@ -911,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isFunctionKey",
           "normalized": "KeySym-\u003eBool",
@@ -926,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isKeypadKey",
           "package": "X11-extras",
@@ -935,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isKeypadKey",
           "normalized": "KeySym-\u003eBool",
@@ -950,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isMiscFunctionKey",
           "package": "X11-extras",
@@ -959,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isMiscFunctionKey",
           "normalized": "KeySym-\u003eBool",
@@ -974,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isModifierKey",
           "package": "X11-extras",
@@ -983,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isModifierKey",
           "normalized": "KeySym-\u003eBool",
@@ -998,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isPFKey",
           "package": "X11-extras",
@@ -1007,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isPFKey",
           "normalized": "KeySym-\u003eBool",
@@ -1022,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isPrivateKeypadKey",
           "package": "X11-extras",
@@ -1031,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "isPrivateKeypadKey",
           "normalized": "KeySym-\u003eBool",
@@ -1046,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "killClient",
           "package": "X11-extras",
@@ -1055,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "killClient",
           "normalized": "Display-\u003eWindow-\u003eIO CInt",
@@ -1070,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "none",
           "package": "X11-extras",
@@ -1079,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "none",
           "package": "X11-extras",
@@ -1091,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "propModeAppend",
           "package": "X11-extras",
@@ -1100,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "propModeAppend",
           "package": "X11-extras",
@@ -1113,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "propModePrepend",
           "package": "X11-extras",
@@ -1122,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "propModePrepend",
           "package": "X11-extras",
@@ -1135,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "propModeReplace",
           "package": "X11-extras",
@@ -1144,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "propModeReplace",
           "package": "X11-extras",
@@ -1157,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "queryTree",
           "package": "X11-extras",
@@ -1166,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "queryTree",
           "normalized": "Display-\u003eWindow-\u003eIO(Window,Window,[Window])",
@@ -1181,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "rawGetWindowProperty",
           "package": "X11-extras",
@@ -1190,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "rawGetWindowProperty",
           "normalized": "Int-\u003eDisplay-\u003eAtom-\u003eWindow-\u003eIO(Maybe[a])",
@@ -1206,6 +1308,7 @@
       "document": {
         "description": {
           "description": "refreshKeyboardMapping.  TODO Remove this binding when the fix has been commited to\n X11\n",
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "refreshKeyboardMapping",
           "package": "X11-extras",
@@ -1216,6 +1319,7 @@
         "index": {
           "description": "refreshKeyboardMapping TODO Remove this binding when the fix has been commited to X11",
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "refreshKeyboardMapping",
           "normalized": "Event-\u003eIO()",
@@ -1231,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "setClientMessageEvent",
           "package": "X11-extras",
@@ -1240,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "setClientMessageEvent",
           "normalized": "XEventPtr-\u003eWindow-\u003eAtom-\u003eCInt-\u003eAtom-\u003eTime-\u003eIO()",
@@ -1255,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "setConfigureEvent",
           "package": "X11-extras",
@@ -1264,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "setConfigureEvent",
           "normalized": "XEventPtr-\u003eWindow-\u003eWindow-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eWindow-\u003eBool-\u003eIO()",
@@ -1279,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "setEventType",
           "package": "X11-extras",
@@ -1288,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "setEventType",
           "normalized": "XEventPtr-\u003eEventType-\u003eIO()",
@@ -1303,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "setSelectionNotify",
           "package": "X11-extras",
@@ -1312,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "setSelectionNotify",
           "normalized": "XEventPtr-\u003eWindow-\u003eAtom-\u003eAtom-\u003eAtom-\u003eTime-\u003eIO()",
@@ -1327,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "unmapWindow",
           "package": "X11-extras",
@@ -1336,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "unmapWindow",
           "normalized": "Display-\u003eWindow-\u003eIO()",
@@ -1351,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "waIsUnmapped",
           "package": "X11-extras",
@@ -1360,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "waIsUnmapped",
           "package": "X11-extras",
@@ -1373,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "waIsUnviewable",
           "package": "X11-extras",
@@ -1382,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "waIsUnviewable",
           "package": "X11-extras",
@@ -1395,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "waIsViewable",
           "package": "X11-extras",
@@ -1404,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "waIsViewable",
           "package": "X11-extras",
@@ -1417,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "wcDrawImageString",
           "package": "X11-extras",
@@ -1426,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "wcDrawImageString",
           "normalized": "Display-\u003eDrawable-\u003eFontSet-\u003eGC-\u003ePosition-\u003ePosition-\u003eString-\u003eIO()",
@@ -1441,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "wcDrawString",
           "package": "X11-extras",
@@ -1450,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "wcDrawString",
           "normalized": "Display-\u003eDrawable-\u003eFontSet-\u003eGC-\u003ePosition-\u003ePosition-\u003eString-\u003eIO()",
@@ -1465,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "wcFreeStringList",
           "package": "X11-extras",
@@ -1474,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "wcFreeStringList",
           "normalized": "Ptr CWString-\u003eIO()",
@@ -1489,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "wcTextEscapement",
           "package": "X11-extras",
@@ -1498,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "wcTextEscapement",
           "normalized": "FontSet-\u003eString-\u003eInt",
@@ -1513,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "wcTextExtents",
           "package": "X11-extras",
@@ -1522,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "wcTextExtents",
           "normalized": "FontSet-\u003eString-\u003e(Rectangle,Rectangle)",
@@ -1537,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "wcTextPropertyToTextList",
           "package": "X11-extras",
@@ -1546,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "wcTextPropertyToTextList",
           "normalized": "Display-\u003eTextProperty-\u003eIO[String]",
@@ -1562,6 +1694,7 @@
       "document": {
         "description": {
           "description": "Run an action with the server\n",
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "withServer",
           "package": "X11-extras",
@@ -1572,6 +1705,7 @@
         "index": {
           "description": "Run an action with the server",
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "withServer",
           "normalized": "Display-\u003eIO()-\u003eIO()",
@@ -1587,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xChangeProperty",
           "package": "X11-extras",
@@ -1596,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xChangeProperty",
           "normalized": "Display-\u003eWindow-\u003eAtom-\u003eAtom-\u003eCInt-\u003eCInt-\u003ePtr CUChar-\u003eCInt-\u003eIO Status",
@@ -1611,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xConfigureWindow",
           "package": "X11-extras",
@@ -1620,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xConfigureWindow",
           "normalized": "Display-\u003eWindow-\u003eCULong-\u003ePtr WindowChanges-\u003eIO CInt",
@@ -1635,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xConvertSelection",
           "package": "X11-extras",
@@ -1644,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xConvertSelection",
           "normalized": "Display-\u003eAtom-\u003eAtom-\u003eAtom-\u003eWindow-\u003eTime-\u003eIO()",
@@ -1659,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xCreateFontSet",
           "package": "X11-extras",
@@ -1668,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xCreateFontSet",
           "normalized": "Display-\u003eCString-\u003ePtr(Ptr CString)-\u003ePtr CInt-\u003ePtr CString-\u003eIO(Ptr FontSet)",
@@ -1683,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xFetchName",
           "package": "X11-extras",
@@ -1692,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xFetchName",
           "normalized": "Display-\u003eWindow-\u003ePtr CString-\u003eIO Status",
@@ -1707,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xFree",
           "package": "X11-extras",
@@ -1716,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xFree",
           "normalized": "Ptr a-\u003eIO CInt",
@@ -1731,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetClassHint",
           "package": "X11-extras",
@@ -1740,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetClassHint",
           "normalized": "Display-\u003eWindow-\u003ePtr ClassHint-\u003eIO Status",
@@ -1755,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetSelectionOwner",
           "package": "X11-extras",
@@ -1764,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetSelectionOwner",
           "normalized": "Display-\u003eAtom-\u003eIO Window",
@@ -1779,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetTextProperty",
           "package": "X11-extras",
@@ -1788,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetTextProperty",
           "normalized": "Display-\u003eWindow-\u003ePtr TextProperty-\u003eAtom-\u003eIO Status",
@@ -1803,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetTransientForHint",
           "package": "X11-extras",
@@ -1812,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetTransientForHint",
           "normalized": "Display-\u003eWindow-\u003ePtr Window-\u003eIO Status",
@@ -1827,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetWMNormalHints",
           "package": "X11-extras",
@@ -1836,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetWMNormalHints",
           "normalized": "Display-\u003eWindow-\u003ePtr SizeHints-\u003ePtr CLong-\u003eIO Status",
@@ -1851,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetWMProtocols",
           "package": "X11-extras",
@@ -1860,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetWMProtocols",
           "normalized": "Display-\u003eWindow-\u003ePtr(Ptr Atom)-\u003ePtr CInt-\u003eIO Status",
@@ -1875,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetWindowAttributes",
           "package": "X11-extras",
@@ -1884,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetWindowAttributes",
           "normalized": "Display-\u003eWindow-\u003ePtr WindowAttributes-\u003eIO Status",
@@ -1899,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetWindowProperty",
           "package": "X11-extras",
@@ -1908,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xGetWindowProperty",
           "normalized": "Display-\u003eWindow-\u003eAtom-\u003eCLong-\u003eCLong-\u003eBool-\u003eAtom-\u003ePtr Atom-\u003ePtr CInt-\u003ePtr CULong-\u003ePtr CULong-\u003ePtr(Ptr CUChar)-\u003eIO Status",
@@ -1923,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xQueryTree",
           "package": "X11-extras",
@@ -1932,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xQueryTree",
           "normalized": "Display-\u003eWindow-\u003ePtr Window-\u003ePtr Window-\u003ePtr(Ptr Window)-\u003ePtr CInt-\u003eIO Status",
@@ -1947,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xRefreshKeyboardMapping",
           "package": "X11-extras",
@@ -1956,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xRefreshKeyboardMapping",
           "normalized": "Ptr()-\u003eIO CInt",
@@ -1971,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xSetErrorHandler",
           "package": "X11-extras",
@@ -1980,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xSetErrorHandler",
           "normalized": "IO()",
@@ -1995,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xSetSelectionOwner",
           "package": "X11-extras",
@@ -2004,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xSetSelectionOwner",
           "normalized": "Display-\u003eAtom-\u003eWindow-\u003eTime-\u003eIO()",
@@ -2019,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xUnmapWindow",
           "package": "X11-extras",
@@ -2028,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xUnmapWindow",
           "normalized": "Display-\u003eWindow-\u003eIO CInt",
@@ -2043,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xwcDrawImageString",
           "package": "X11-extras",
@@ -2052,6 +2225,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xwcDrawImageString",
           "normalized": "Display-\u003eDrawable-\u003eFontSet-\u003eGC-\u003ePosition-\u003ePosition-\u003eCWString-\u003eCInt-\u003eIO()",
@@ -2067,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xwcDrawString",
           "package": "X11-extras",
@@ -2076,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xwcDrawString",
           "normalized": "Display-\u003eDrawable-\u003eFontSet-\u003eGC-\u003ePosition-\u003ePosition-\u003eCWString-\u003eCInt-\u003eIO()",
@@ -2091,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xwcTextEscapement",
           "package": "X11-extras",
@@ -2100,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xwcTextEscapement",
           "normalized": "FontSet-\u003eCWString-\u003eCInt-\u003eIO Int",
@@ -2115,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xwcTextExtents",
           "package": "X11-extras",
@@ -2124,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xwcTextExtents",
           "normalized": "FontSet-\u003eCWString-\u003eCInt-\u003ePtr Rectangle-\u003ePtr Rectangle-\u003eIO CInt",
@@ -2139,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:11 UTC 2014",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xwcTextPropertyToTextList",
           "package": "X11-extras",
@@ -2148,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xlib Extras",
+          "indexed": "2014-03-11T17:05:11",
           "module": "Graphics.X11.Xlib.Extras",
           "name": "xwcTextPropertyToTextList",
           "normalized": "Display-\u003ePtr TextProperty-\u003ePtr(Ptr CWString)-\u003ePtr CInt-\u003eIO CInt",

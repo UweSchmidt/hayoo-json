@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack2-contrib-extra"
+        "phrase": "hack2-contrib-extra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ematching a list of regexp agains a path_info, if matched, consponding app\n   is used, otherwise, pass the env down to lower middleware\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:56 UTC 2014",
           "module": "Hack2.Contrib.Middleware.RegexpRouter",
           "name": "RegexpRouter",
           "package": "hack2-contrib-extra",
@@ -28,6 +29,7 @@
         "index": {
           "description": "matching list of regexp agains path info if matched consponding app is used otherwise pass the env down to lower middleware",
           "hierarchy": "Hack2 Contrib Middleware RegexpRouter",
+          "indexed": "2014-03-11T18:25:56",
           "module": "Hack2.Contrib.Middleware.RegexpRouter",
           "name": "RegexpRouter",
           "package": "hack2-contrib-extra",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:56 UTC 2014",
           "module": "Hack2.Contrib.Middleware.RegexpRouter",
           "name": "regexp_router",
           "package": "hack2-contrib-extra",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Contrib Middleware RegexpRouter",
+          "indexed": "2014-03-11T18:25:56",
           "module": "Hack2.Contrib.Middleware.RegexpRouter",
           "name": "regexp_router",
           "normalized": "[RoutePath]-\u003eMiddleware",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:56 UTC 2014",
           "module": "Hack2.Contrib.Middleware.UTF8Body",
           "name": "UTF8Body",
           "package": "hack2-contrib-extra",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Contrib Middleware UTF8Body",
+          "indexed": "2014-03-11T18:25:56",
           "module": "Hack2.Contrib.Middleware.UTF8Body",
           "name": "UTF8Body",
           "package": "hack2-contrib-extra",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:56 UTC 2014",
           "module": "Hack2.Contrib.Middleware.UTF8Body",
           "name": "utf8_body",
           "package": "hack2-contrib-extra",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Contrib Middleware UTF8Body",
+          "indexed": "2014-03-11T18:25:56",
           "module": "Hack2.Contrib.Middleware.UTF8Body",
           "name": "utf8_body",
           "package": "hack2-contrib-extra",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:56 UTC 2014",
           "module": "Hack2.Contrib.RequestExtra",
           "name": "RequestExtra",
           "package": "hack2-contrib-extra",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Contrib RequestExtra",
+          "indexed": "2014-03-11T18:25:56",
           "module": "Hack2.Contrib.RequestExtra",
           "name": "RequestExtra",
           "package": "hack2-contrib-extra",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:56 UTC 2014",
           "module": "Hack2.Contrib.RequestExtra",
           "name": "content_charset",
           "package": "hack2-contrib-extra",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Contrib RequestExtra",
+          "indexed": "2014-03-11T18:25:56",
           "module": "Hack2.Contrib.RequestExtra",
           "name": "content_charset",
           "normalized": "Env-\u003eByteString",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:56 UTC 2014",
           "module": "Hack2.Contrib.RequestExtra",
           "name": "media_type",
           "package": "hack2-contrib-extra",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Contrib RequestExtra",
+          "indexed": "2014-03-11T18:25:56",
           "module": "Hack2.Contrib.RequestExtra",
           "name": "media_type",
           "normalized": "Env-\u003eByteString",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:56 UTC 2014",
           "module": "Hack2.Contrib.RequestExtra",
           "name": "media_type_params",
           "package": "hack2-contrib-extra",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Contrib RequestExtra",
+          "indexed": "2014-03-11T18:25:56",
           "module": "Hack2.Contrib.RequestExtra",
           "name": "media_type_params",
           "normalized": "Env-\u003e[(ByteString,ByteString)]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "date-cache"
+        "phrase": "date-cache",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormatting time is slow.\n This package provides mechanisms to cache formatted date.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:50:29 UTC 2014",
           "module": "System.Date.Cache",
           "name": "Cache",
           "package": "date-cache",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Formatting time is slow This package provides mechanisms to cache formatted date",
           "hierarchy": "System Date Cache",
+          "indexed": "2014-03-11T17:50:29",
           "module": "System.Date.Cache",
           "name": "Cache",
           "package": "date-cache",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:29 UTC 2014",
           "module": "System.Date.Cache",
           "name": "DateCacheCloser",
           "package": "date-cache",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Date Cache",
+          "indexed": "2014-03-11T17:50:29",
           "module": "System.Date.Cache",
           "name": "DateCacheCloser",
           "package": "date-cache",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:29 UTC 2014",
           "module": "System.Date.Cache",
           "name": "DateCacheConf",
           "package": "date-cache",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "System Date Cache",
+          "indexed": "2014-03-11T17:50:29",
           "module": "System.Date.Cache",
           "name": "DateCacheConf",
           "package": "date-cache",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:29 UTC 2014",
           "module": "System.Date.Cache",
           "name": "DateCacheGetter",
           "package": "date-cache",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "System Date Cache",
+          "indexed": "2014-03-11T17:50:29",
           "module": "System.Date.Cache",
           "name": "DateCacheGetter",
           "package": "date-cache",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:29 UTC 2014",
           "module": "System.Date.Cache",
           "name": "DateCacheConf",
           "package": "date-cache",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "System Date Cache",
+          "indexed": "2014-03-11T17:50:29",
           "module": "System.Date.Cache",
           "name": "DateCacheConf",
           "package": "date-cache",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate cacher which gets a time and formatted it every second.\n This returns a getter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:29 UTC 2014",
           "module": "System.Date.Cache",
           "name": "clockDateCacher",
           "package": "date-cache",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Date cacher which gets time and formatted it every second This returns getter",
           "hierarchy": "System Date Cache",
+          "indexed": "2014-03-11T17:50:29",
           "module": "System.Date.Cache",
           "name": "clockDateCacher",
           "normalized": "DateCacheConf a-\u003eIO(DateCacheGetter,DateCacheCloser)",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to format a time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:29 UTC 2014",
           "module": "System.Date.Cache",
           "name": "formatDate",
           "package": "date-cache",
@@ -163,6 +176,7 @@
         "index": {
           "description": "function to format time",
           "hierarchy": "System Date Cache",
+          "indexed": "2014-03-11T17:50:29",
           "module": "System.Date.Cache",
           "name": "formatDate",
           "normalized": "a-\u003eIO ByteString",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to get a time. E.g \u003ccode\u003eepochTime\u003c/code\u003e and \u003ccode\u003egetCurrentTime\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:29 UTC 2014",
           "module": "System.Date.Cache",
           "name": "getTime",
           "package": "date-cache",
@@ -189,6 +204,7 @@
         "index": {
           "description": "function to get time E.g epochTime and getCurrentTime",
           "hierarchy": "System Date Cache",
+          "indexed": "2014-03-11T17:50:29",
           "module": "System.Date.Cache",
           "name": "getTime",
           "package": "date-cache",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate cacher which gets a time and formatted it only when\n returned getter is executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:29 UTC 2014",
           "module": "System.Date.Cache",
           "name": "ondemandDateCacher",
           "package": "date-cache",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Date cacher which gets time and formatted it only when returned getter is executed",
           "hierarchy": "System Date Cache",
+          "indexed": "2014-03-11T17:50:29",
           "module": "System.Date.Cache",
           "name": "ondemandDateCacher",
           "normalized": "DateCacheConf a-\u003eIO(DateCacheGetter,DateCacheCloser)",

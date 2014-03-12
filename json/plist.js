@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "plist"
+        "phrase": "plist",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlObject data type\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:06 UTC 2014",
           "module": "Text.XML.Plist.PlObject",
           "name": "PlObject",
           "package": "plist",
@@ -28,6 +29,7 @@
         "index": {
           "description": "PlObject data type",
           "hierarchy": "Text XML Plist PlObject",
+          "indexed": "2014-03-11T19:40:06",
           "module": "Text.XML.Plist.PlObject",
           "name": "PlObject",
           "package": "plist",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents plist object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:06 UTC 2014",
           "module": "Text.XML.Plist.PlObject",
           "name": "PlObject",
           "package": "plist",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Data type that represents plist object",
           "hierarchy": "Text XML Plist PlObject",
+          "indexed": "2014-03-11T19:40:06",
           "module": "Text.XML.Plist.PlObject",
           "name": "PlObject",
           "package": "plist",
@@ -421,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing property list format\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:06 UTC 2014",
           "module": "Text.XML.Plist.Read",
           "name": "Read",
           "package": "plist",
@@ -430,6 +435,7 @@
         "index": {
           "description": "Parsing property list format",
           "hierarchy": "Text XML Plist Read",
+          "indexed": "2014-03-11T19:40:06",
           "module": "Text.XML.Plist.Read",
           "name": "Read",
           "package": "plist",
@@ -521,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGenerating property list format\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:06 UTC 2014",
           "module": "Text.XML.Plist.Write",
           "name": "Write",
           "package": "plist",
@@ -530,6 +537,7 @@
         "index": {
           "description": "Generating property list format",
           "hierarchy": "Text XML Plist Write",
+          "indexed": "2014-03-11T19:40:06",
           "module": "Text.XML.Plist.Write",
           "name": "Write",
           "package": "plist",
@@ -623,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLibrary for generation and parsing Mac OS X plist format\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:06 UTC 2014",
           "module": "Text.XML.Plist",
           "name": "Plist",
           "package": "plist",
@@ -632,6 +641,7 @@
         "index": {
           "description": "Library for generation and parsing Mac OS plist format",
           "hierarchy": "Text XML Plist",
+          "indexed": "2014-03-11T19:40:06",
           "module": "Text.XML.Plist",
           "name": "Plist",
           "package": "plist",
@@ -646,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents plist object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:06 UTC 2014",
           "module": "Text.XML.Plist",
           "name": "PlObject",
           "package": "plist",
@@ -655,6 +666,7 @@
         "index": {
           "description": "Data type that represents plist object",
           "hierarchy": "Text XML Plist",
+          "indexed": "2014-03-11T19:40:06",
           "module": "Text.XML.Plist",
           "name": "PlObject",
           "package": "plist",

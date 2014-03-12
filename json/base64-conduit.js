@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "base64-conduit"
+        "phrase": "base64-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:13 UTC 2014",
           "module": "Data.Conduit.Base64",
           "name": "Base64",
           "package": "base64-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Base64",
+          "indexed": "2014-03-11T17:17:13",
           "module": "Data.Conduit.Base64",
           "name": "Base64",
           "package": "base64-conduit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:13 UTC 2014",
           "module": "Data.Conduit.Base64",
           "name": "decode",
           "package": "base64-conduit",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Base64",
+          "indexed": "2014-03-11T17:17:13",
           "module": "Data.Conduit.Base64",
           "name": "decode",
           "package": "base64-conduit",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:13 UTC 2014",
           "module": "Data.Conduit.Base64",
           "name": "decodeURL",
           "package": "base64-conduit",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Base64",
+          "indexed": "2014-03-11T17:17:13",
           "module": "Data.Conduit.Base64",
           "name": "decodeURL",
           "package": "base64-conduit",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:13 UTC 2014",
           "module": "Data.Conduit.Base64",
           "name": "encode",
           "package": "base64-conduit",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Base64",
+          "indexed": "2014-03-11T17:17:13",
           "module": "Data.Conduit.Base64",
           "name": "encode",
           "package": "base64-conduit",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:13 UTC 2014",
           "module": "Data.Conduit.Base64",
           "name": "encodeURL",
           "package": "base64-conduit",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Base64",
+          "indexed": "2014-03-11T17:17:13",
           "module": "Data.Conduit.Base64",
           "name": "encodeURL",
           "package": "base64-conduit",

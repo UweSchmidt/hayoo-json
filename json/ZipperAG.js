@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ZipperAG"
+        "phrase": "ZipperAG",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Algol68",
           "package": "ZipperAG",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Algol68",
           "package": "ZipperAG",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "It",
           "package": "ZipperAG",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "It",
           "package": "ZipperAG",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Its",
           "package": "ZipperAG",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Its",
           "package": "ZipperAG",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Root",
           "package": "ZipperAG",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Root",
           "package": "ZipperAG",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "(.|)",
           "package": "ZipperAG",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "(.|) .|",
           "normalized": "Zipper a-\u003eInt-\u003eBool",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "(.$)",
           "package": "ZipperAG",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "(.$) .$",
           "normalized": "Zipper a-\u003eInt-\u003eZipper a",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Block",
           "package": "ZipperAG",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Block",
           "package": "ZipperAG",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "ConsIts",
           "package": "ZipperAG",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "ConsIts",
           "package": "ZipperAG",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Decl",
           "package": "ZipperAG",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Decl",
           "package": "ZipperAG",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "NilIts",
           "package": "ZipperAG",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "NilIts",
           "package": "ZipperAG",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Root",
           "package": "ZipperAG",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Root",
           "package": "ZipperAG",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Use",
           "package": "ZipperAG",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "Use",
           "package": "ZipperAG",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "block",
           "package": "ZipperAG",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "block",
           "package": "ZipperAG",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "constructor",
           "package": "ZipperAG",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "constructor",
           "normalized": "Zipper a-\u003eString",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "dcli",
           "package": "ZipperAG",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "dcli",
           "normalized": "Zipper Root-\u003e[(String,Int)]",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "dclo",
           "package": "ZipperAG",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "dclo",
           "normalized": "Zipper Root-\u003e[(String,Int)]",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "env",
           "package": "ZipperAG",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "env",
           "normalized": "Zipper Root-\u003e[(String,Int)]",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "errs",
           "package": "ZipperAG",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "errs",
           "normalized": "Zipper Root-\u003e[String]",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "lev",
           "package": "ZipperAG",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "lev",
           "normalized": "Zipper Root-\u003eInt",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "mBIn",
           "package": "ZipperAG",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "mBIn",
           "normalized": "a-\u003e[(a,b)]-\u003e[a]",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "mNBIn",
           "package": "ZipperAG",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "mNBIn",
           "normalized": "(a,b)-\u003e[(a,b)]-\u003e[a]",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "parent",
           "package": "ZipperAG",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "parent",
           "normalized": "Zipper a-\u003eZipper a",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "program",
           "package": "ZipperAG",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "program",
           "package": "ZipperAG",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "semantics",
           "package": "ZipperAG",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "semantics",
           "normalized": "Its-\u003e[String]",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "value",
           "package": "ZipperAG",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples Algol68",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.Algol68",
           "name": "value",
           "normalized": "Zipper a-\u003eString",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "BreadthFirst",
           "package": "ZipperAG",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "BreadthFirst",
           "package": "ZipperAG",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "Root",
           "package": "ZipperAG",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "Root",
           "package": "ZipperAG",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "Tree",
           "package": "ZipperAG",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "Tree",
           "package": "ZipperAG",
@@ -640,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "(.|)",
           "package": "ZipperAG",
@@ -649,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "(.|) .|",
           "normalized": "Zipper a-\u003eInt-\u003eBool",
@@ -663,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "(.$)",
           "package": "ZipperAG",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "(.$) .$",
           "normalized": "Zipper a-\u003eInt-\u003eZipper a",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "Empty",
           "package": "ZipperAG",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "Empty",
           "package": "ZipperAG",
@@ -708,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "Fork",
           "package": "ZipperAG",
@@ -717,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "Fork",
           "package": "ZipperAG",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "Root",
           "package": "ZipperAG",
@@ -739,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "Root",
           "package": "ZipperAG",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "constructor",
           "package": "ZipperAG",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "constructor",
           "normalized": "Zipper a-\u003eString",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "ilist",
           "package": "ZipperAG",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "ilist",
           "normalized": "Zipper Root-\u003e[Int]",
@@ -798,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "parent",
           "package": "ZipperAG",
@@ -807,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "parent",
           "normalized": "Zipper a-\u003eZipper a",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "replace",
           "package": "ZipperAG",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "replace",
           "normalized": "Zipper Root-\u003eTree",
@@ -844,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "semantics",
           "package": "ZipperAG",
@@ -853,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "semantics",
           "package": "ZipperAG",
@@ -865,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "slist",
           "package": "ZipperAG",
@@ -874,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "slist",
           "normalized": "Zipper Root-\u003e[Int]",
@@ -888,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "tree",
           "package": "ZipperAG",
@@ -897,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples BreadthFirst",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.BreadthFirst",
           "name": "tree",
           "package": "ZipperAG",
@@ -909,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "DESK",
           "package": "ZipperAG",
@@ -917,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "DESK",
           "package": "ZipperAG",
@@ -930,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "ConstDef",
           "package": "ZipperAG",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "ConstDef",
           "package": "ZipperAG",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "ConstDefList",
           "package": "ZipperAG",
@@ -959,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "ConstDefList",
           "package": "ZipperAG",
@@ -972,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "ConstName",
           "package": "ZipperAG",
@@ -980,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "ConstName",
           "package": "ZipperAG",
@@ -993,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "ConstPart",
           "package": "ZipperAG",
@@ -1001,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "ConstPart",
           "package": "ZipperAG",
@@ -1014,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Expression",
           "package": "ZipperAG",
@@ -1022,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Expression",
           "package": "ZipperAG",
@@ -1035,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Factor",
           "package": "ZipperAG",
@@ -1043,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Factor",
           "package": "ZipperAG",
@@ -1056,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Program",
           "package": "ZipperAG",
@@ -1064,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Program",
           "package": "ZipperAG",
@@ -1077,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Root",
           "package": "ZipperAG",
@@ -1085,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Root",
           "package": "ZipperAG",
@@ -1098,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "SymbolTable",
           "package": "ZipperAG",
@@ -1106,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "SymbolTable",
           "package": "ZipperAG",
@@ -1119,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "(.|)",
           "package": "ZipperAG",
@@ -1128,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "(.|) .|",
           "normalized": "Zipper a-\u003eInt-\u003eBool",
@@ -1142,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "(.$)",
           "package": "ZipperAG",
@@ -1151,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "(.$) .$",
           "normalized": "Zipper a-\u003eInt-\u003eZipper a",
@@ -1165,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Add",
           "package": "ZipperAG",
@@ -1174,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Add",
           "package": "ZipperAG",
@@ -1187,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Comma",
           "package": "ZipperAG",
@@ -1196,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Comma",
           "package": "ZipperAG",
@@ -1209,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Def",
           "package": "ZipperAG",
@@ -1218,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Def",
           "package": "ZipperAG",
@@ -1231,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "EmptyConstPart",
           "package": "ZipperAG",
@@ -1240,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "EmptyConstPart",
           "package": "ZipperAG",
@@ -1253,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Equal",
           "package": "ZipperAG",
@@ -1262,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Equal",
           "package": "ZipperAG",
@@ -1275,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Fact",
           "package": "ZipperAG",
@@ -1284,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Fact",
           "package": "ZipperAG",
@@ -1297,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Id",
           "package": "ZipperAG",
@@ -1306,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Id",
           "package": "ZipperAG",
@@ -1319,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Name",
           "package": "ZipperAG",
@@ -1328,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Name",
           "package": "ZipperAG",
@@ -1341,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Number",
           "package": "ZipperAG",
@@ -1350,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Number",
           "package": "ZipperAG",
@@ -1363,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "PRINT",
           "package": "ZipperAG",
@@ -1372,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "PRINT",
           "package": "ZipperAG",
@@ -1385,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Root",
           "package": "ZipperAG",
@@ -1394,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "Root",
           "package": "ZipperAG",
@@ -1407,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "WHERE",
           "package": "ZipperAG",
@@ -1416,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "WHERE",
           "package": "ZipperAG",
@@ -1429,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "code",
           "package": "ZipperAG",
@@ -1438,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "code",
           "normalized": "Zipper Root-\u003eString",
@@ -1452,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "constructor",
           "package": "ZipperAG",
@@ -1461,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "constructor",
           "normalized": "Zipper Root-\u003eString",
@@ -1475,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "deflst",
           "package": "ZipperAG",
@@ -1484,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "deflst",
           "package": "ZipperAG",
@@ -1496,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "envi",
           "package": "ZipperAG",
@@ -1505,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "envi",
           "normalized": "Zipper Root-\u003eSymbolTable",
@@ -1519,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "envs",
           "package": "ZipperAG",
@@ -1528,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "envs",
           "normalized": "Zipper Root-\u003eSymbolTable",
@@ -1542,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "expr",
           "package": "ZipperAG",
@@ -1551,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "expr",
           "package": "ZipperAG",
@@ -1563,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "getValue",
           "package": "ZipperAG",
@@ -1572,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "getValue",
           "normalized": "String-\u003eSymbolTable-\u003eString",
@@ -1587,6 +1729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "isInST",
           "package": "ZipperAG",
@@ -1596,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "isInST",
           "normalized": "String-\u003eSymbolTable-\u003eBool",
@@ -1611,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "lexeme",
           "package": "ZipperAG",
@@ -1620,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "lexeme",
           "normalized": "Zipper Root-\u003eString",
@@ -1634,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "name",
           "package": "ZipperAG",
@@ -1643,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "name",
           "normalized": "Zipper Root-\u003eString",
@@ -1657,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "ok",
           "package": "ZipperAG",
@@ -1666,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "ok",
           "normalized": "Zipper Root-\u003eBool",
@@ -1680,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "parent",
           "package": "ZipperAG",
@@ -1689,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "parent",
           "normalized": "Zipper a-\u003eZipper a",
@@ -1703,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "program",
           "package": "ZipperAG",
@@ -1712,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "program",
           "package": "ZipperAG",
@@ -1724,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "semantics",
           "package": "ZipperAG",
@@ -1733,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "semantics",
           "normalized": "Root-\u003eIO()",
@@ -1747,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "value",
           "package": "ZipperAG",
@@ -1756,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK",
           "name": "value",
           "normalized": "Zipper Root-\u003eString",
@@ -1770,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "DESK_HighOrder",
           "package": "ZipperAG",
@@ -1778,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "DESK_HighOrder",
           "package": "ZipperAG",
@@ -1791,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "ConstDef",
           "package": "ZipperAG",
@@ -1799,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "ConstDef",
           "package": "ZipperAG",
@@ -1812,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "ConstDefList",
           "package": "ZipperAG",
@@ -1820,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "ConstDefList",
           "package": "ZipperAG",
@@ -1833,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "ConstName",
           "package": "ZipperAG",
@@ -1841,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "ConstName",
           "package": "ZipperAG",
@@ -1854,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "ConstPart",
           "package": "ZipperAG",
@@ -1862,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "ConstPart",
           "package": "ZipperAG",
@@ -1875,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Expression",
           "package": "ZipperAG",
@@ -1883,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Expression",
           "package": "ZipperAG",
@@ -1896,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Factor",
           "package": "ZipperAG",
@@ -1904,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Factor",
           "package": "ZipperAG",
@@ -1917,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Program",
           "package": "ZipperAG",
@@ -1925,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Program",
           "package": "ZipperAG",
@@ -1938,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Root",
           "package": "ZipperAG",
@@ -1946,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Root",
           "package": "ZipperAG",
@@ -1959,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Root_HO",
           "package": "ZipperAG",
@@ -1967,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Root_HO",
           "package": "ZipperAG",
@@ -1980,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "SymbolTable",
           "package": "ZipperAG",
@@ -1988,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "SymbolTable",
           "package": "ZipperAG",
@@ -2001,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Tuple",
           "package": "ZipperAG",
@@ -2009,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Tuple",
           "package": "ZipperAG",
@@ -2022,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "(.$)",
           "package": "ZipperAG",
@@ -2031,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "(.$) .$",
           "normalized": "Zipper a-\u003eInt-\u003eZipper a",
@@ -2045,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Add",
           "package": "ZipperAG",
@@ -2054,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Add",
           "package": "ZipperAG",
@@ -2067,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Comma",
           "package": "ZipperAG",
@@ -2076,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Comma",
           "package": "ZipperAG",
@@ -2089,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "ConsST",
           "package": "ZipperAG",
@@ -2098,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "ConsST",
           "package": "ZipperAG",
@@ -2111,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Def",
           "package": "ZipperAG",
@@ -2120,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Def",
           "package": "ZipperAG",
@@ -2133,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "EmptyConstPart",
           "package": "ZipperAG",
@@ -2142,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "EmptyConstPart",
           "package": "ZipperAG",
@@ -2155,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Equal",
           "package": "ZipperAG",
@@ -2164,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Equal",
           "package": "ZipperAG",
@@ -2177,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Fact",
           "package": "ZipperAG",
@@ -2186,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Fact",
           "package": "ZipperAG",
@@ -2199,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Id",
           "package": "ZipperAG",
@@ -2208,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Id",
           "package": "ZipperAG",
@@ -2221,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Name",
           "package": "ZipperAG",
@@ -2230,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Name",
           "package": "ZipperAG",
@@ -2243,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "NilST",
           "package": "ZipperAG",
@@ -2252,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "NilST",
           "package": "ZipperAG",
@@ -2265,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Number",
           "package": "ZipperAG",
@@ -2274,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Number",
           "package": "ZipperAG",
@@ -2287,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "PRINT",
           "package": "ZipperAG",
@@ -2296,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "PRINT",
           "package": "ZipperAG",
@@ -2309,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Root",
           "package": "ZipperAG",
@@ -2318,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Root",
           "package": "ZipperAG",
@@ -2331,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Root_HO",
           "package": "ZipperAG",
@@ -2340,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Root_HO",
           "package": "ZipperAG",
@@ -2353,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Tuple",
           "package": "ZipperAG",
@@ -2362,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "Tuple",
           "package": "ZipperAG",
@@ -2375,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "WHERE",
           "package": "ZipperAG",
@@ -2384,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "WHERE",
           "package": "ZipperAG",
@@ -2397,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "code",
           "package": "ZipperAG",
@@ -2406,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "code",
           "normalized": "Zipper Root-\u003eString",
@@ -2420,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "constructor",
           "package": "ZipperAG",
@@ -2429,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "constructor",
           "normalized": "Zipper Root-\u003eString",
@@ -2443,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "constructor_HO",
           "package": "ZipperAG",
@@ -2452,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "constructor_HO",
           "normalized": "Zipper Root_HO-\u003eString",
@@ -2467,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "deflst",
           "package": "ZipperAG",
@@ -2476,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "deflst",
           "package": "ZipperAG",
@@ -2488,6 +2712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "envi",
           "package": "ZipperAG",
@@ -2497,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "envi",
           "normalized": "Zipper Root-\u003eSymbolTable",
@@ -2511,6 +2737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "envs",
           "package": "ZipperAG",
@@ -2520,6 +2747,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "envs",
           "normalized": "Zipper Root-\u003eSymbolTable",
@@ -2534,6 +2762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "expr",
           "package": "ZipperAG",
@@ -2543,6 +2772,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "expr",
           "package": "ZipperAG",
@@ -2555,6 +2785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "getValue",
           "package": "ZipperAG",
@@ -2564,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "getValue",
           "normalized": "String-\u003eZipper Root_HO-\u003eString",
@@ -2579,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "isInST",
           "package": "ZipperAG",
@@ -2588,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "isInST",
           "normalized": "String-\u003eZipper Root_HO-\u003eBool",
@@ -2603,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "lexeme",
           "package": "ZipperAG",
@@ -2612,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "lexeme",
           "normalized": "Zipper Root-\u003eString",
@@ -2626,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "lexeme_Tuple_name",
           "package": "ZipperAG",
@@ -2635,6 +2872,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "lexeme_Tuple_name",
           "normalized": "Zipper Root_HO-\u003eString",
@@ -2650,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "lexeme_Tuple_value",
           "package": "ZipperAG",
@@ -2659,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "lexeme_Tuple_value",
           "normalized": "Zipper Root_HO-\u003eString",
@@ -2674,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "name",
           "package": "ZipperAG",
@@ -2683,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "name",
           "normalized": "Zipper Root-\u003eString",
@@ -2697,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "ok",
           "package": "ZipperAG",
@@ -2706,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "ok",
           "normalized": "Zipper Root-\u003eBool",
@@ -2720,6 +2964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "parent",
           "package": "ZipperAG",
@@ -2729,6 +2974,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "parent",
           "normalized": "Zipper a-\u003eZipper a",
@@ -2743,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "program",
           "package": "ZipperAG",
@@ -2752,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "program",
           "package": "ZipperAG",
@@ -2764,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "semantics",
           "package": "ZipperAG",
@@ -2773,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "semantics",
           "normalized": "Root-\u003eIO()",
@@ -2787,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "value",
           "package": "ZipperAG",
@@ -2796,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_HighOrder",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_HighOrder",
           "name": "value",
           "normalized": "Zipper Root-\u003eString",
@@ -2810,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "DESK_circular",
           "package": "ZipperAG",
@@ -2818,6 +3071,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "DESK_circular",
           "package": "ZipperAG",
@@ -2831,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "ConstDef",
           "package": "ZipperAG",
@@ -2839,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "ConstDef",
           "package": "ZipperAG",
@@ -2852,6 +3108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "ConstDefList",
           "package": "ZipperAG",
@@ -2860,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "ConstDefList",
           "package": "ZipperAG",
@@ -2873,6 +3131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "ConstName",
           "package": "ZipperAG",
@@ -2881,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "ConstName",
           "package": "ZipperAG",
@@ -2894,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "ConstPart",
           "package": "ZipperAG",
@@ -2902,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "ConstPart",
           "package": "ZipperAG",
@@ -2915,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Expression",
           "package": "ZipperAG",
@@ -2923,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Expression",
           "package": "ZipperAG",
@@ -2936,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Factor",
           "package": "ZipperAG",
@@ -2944,6 +3209,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Factor",
           "package": "ZipperAG",
@@ -2957,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Program",
           "package": "ZipperAG",
@@ -2965,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Program",
           "package": "ZipperAG",
@@ -2978,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Root",
           "package": "ZipperAG",
@@ -2986,6 +3255,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Root",
           "package": "ZipperAG",
@@ -2999,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Root_HO",
           "package": "ZipperAG",
@@ -3007,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Root_HO",
           "package": "ZipperAG",
@@ -3020,6 +3292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "SymbolTable",
           "package": "ZipperAG",
@@ -3028,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "SymbolTable",
           "package": "ZipperAG",
@@ -3041,6 +3315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Tuple",
           "package": "ZipperAG",
@@ -3049,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Tuple",
           "package": "ZipperAG",
@@ -3062,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "(.|)",
           "package": "ZipperAG",
@@ -3071,6 +3348,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "(.|) .|",
           "normalized": "Zipper a-\u003eInt-\u003eBool",
@@ -3085,6 +3363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "(.$)",
           "package": "ZipperAG",
@@ -3094,6 +3373,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "(.$) .$",
           "normalized": "Zipper a-\u003eInt-\u003eZipper a",
@@ -3108,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Add",
           "package": "ZipperAG",
@@ -3117,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Add",
           "package": "ZipperAG",
@@ -3130,6 +3412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Comma",
           "package": "ZipperAG",
@@ -3139,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Comma",
           "package": "ZipperAG",
@@ -3152,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "ConsST",
           "package": "ZipperAG",
@@ -3161,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "ConsST",
           "package": "ZipperAG",
@@ -3174,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Def",
           "package": "ZipperAG",
@@ -3183,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Def",
           "package": "ZipperAG",
@@ -3196,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "EmptyConstPart",
           "package": "ZipperAG",
@@ -3205,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "EmptyConstPart",
           "package": "ZipperAG",
@@ -3218,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "EqualInt",
           "package": "ZipperAG",
@@ -3227,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "EqualInt",
           "package": "ZipperAG",
@@ -3240,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "EqualString",
           "package": "ZipperAG",
@@ -3249,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "EqualString",
           "package": "ZipperAG",
@@ -3262,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Fact",
           "package": "ZipperAG",
@@ -3271,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Fact",
           "package": "ZipperAG",
@@ -3284,6 +3580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Id",
           "package": "ZipperAG",
@@ -3293,6 +3590,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Id",
           "package": "ZipperAG",
@@ -3306,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Name",
           "package": "ZipperAG",
@@ -3315,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Name",
           "package": "ZipperAG",
@@ -3328,6 +3628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "NilST",
           "package": "ZipperAG",
@@ -3337,6 +3638,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "NilST",
           "package": "ZipperAG",
@@ -3350,6 +3652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Number",
           "package": "ZipperAG",
@@ -3359,6 +3662,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Number",
           "package": "ZipperAG",
@@ -3372,6 +3676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "PRINT",
           "package": "ZipperAG",
@@ -3381,6 +3686,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "PRINT",
           "package": "ZipperAG",
@@ -3394,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Root",
           "package": "ZipperAG",
@@ -3403,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Root",
           "package": "ZipperAG",
@@ -3416,6 +3724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Root_HO",
           "package": "ZipperAG",
@@ -3425,6 +3734,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "Root_HO",
           "package": "ZipperAG",
@@ -3438,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "TupleInt",
           "package": "ZipperAG",
@@ -3447,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "TupleInt",
           "package": "ZipperAG",
@@ -3460,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "TupleString",
           "package": "ZipperAG",
@@ -3469,6 +3782,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "TupleString",
           "package": "ZipperAG",
@@ -3482,6 +3796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "WHERE",
           "package": "ZipperAG",
@@ -3491,6 +3806,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "WHERE",
           "package": "ZipperAG",
@@ -3504,6 +3820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "apply",
           "package": "ZipperAG",
@@ -3513,6 +3830,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "apply",
           "normalized": "[(String,Int)]-\u003eTuple-\u003eTuple",
@@ -3527,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "auxIsSolved",
           "package": "ZipperAG",
@@ -3536,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "auxIsSolved",
           "normalized": "Zipper Root_HO-\u003eBool",
@@ -3551,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "auxSolve",
           "package": "ZipperAG",
@@ -3560,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "auxSolve",
           "normalized": "Zipper Root_HO-\u003eSymbolTable",
@@ -3575,6 +3897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "auxSolvedSymbols",
           "package": "ZipperAG",
@@ -3584,6 +3907,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "auxSolvedSymbols",
           "normalized": "Zipper Root_HO-\u003e[(String,Int)]",
@@ -3599,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "check",
           "package": "ZipperAG",
@@ -3608,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "check",
           "normalized": "Zipper Root_HO-\u003eTuple",
@@ -3622,6 +3948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "code",
           "package": "ZipperAG",
@@ -3631,6 +3958,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "code",
           "normalized": "Zipper Root-\u003eString",
@@ -3645,6 +3973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "constructor",
           "package": "ZipperAG",
@@ -3654,6 +3983,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "constructor",
           "normalized": "Zipper a-\u003eString",
@@ -3668,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "constructor_HO",
           "package": "ZipperAG",
@@ -3677,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "constructor_HO",
           "normalized": "Zipper a-\u003eString",
@@ -3692,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "deflst",
           "package": "ZipperAG",
@@ -3701,6 +4034,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "deflst",
           "package": "ZipperAG",
@@ -3713,6 +4047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "envi",
           "package": "ZipperAG",
@@ -3722,6 +4057,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "envi",
           "normalized": "Zipper Root-\u003eZipper Root_HO",
@@ -3736,6 +4072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "envs",
           "package": "ZipperAG",
@@ -3745,6 +4082,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "envs",
           "normalized": "Zipper Root-\u003eSymbolTable",
@@ -3759,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "expr",
           "package": "ZipperAG",
@@ -3768,6 +4107,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "expr",
           "package": "ZipperAG",
@@ -3780,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "extract",
           "package": "ZipperAG",
@@ -3789,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "extract",
           "normalized": "Zipper Root-\u003eTuple",
@@ -3803,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "getValue",
           "package": "ZipperAG",
@@ -3812,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "getValue",
           "normalized": "String-\u003eZipper Root_HO-\u003eInt",
@@ -3827,6 +4171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "isInST",
           "package": "ZipperAG",
@@ -3836,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "isInST",
           "normalized": "String-\u003eZipper Root_HO-\u003eBool",
@@ -3851,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "isSolved",
           "package": "ZipperAG",
@@ -3860,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "isSolved",
           "normalized": "Zipper Root_HO-\u003eBool",
@@ -3875,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Equal_Int",
           "package": "ZipperAG",
@@ -3884,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Equal_Int",
           "normalized": "Zipper a-\u003eInt",
@@ -3899,6 +4249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Equal_String",
           "package": "ZipperAG",
@@ -3908,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Equal_String",
           "normalized": "Zipper a-\u003eString",
@@ -3923,6 +4275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Id",
           "package": "ZipperAG",
@@ -3932,6 +4285,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Id",
           "normalized": "Zipper a-\u003eString",
@@ -3947,6 +4301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Number",
           "package": "ZipperAG",
@@ -3956,6 +4311,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Number",
           "normalized": "Zipper a-\u003eInt",
@@ -3971,6 +4327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Root",
           "package": "ZipperAG",
@@ -3980,6 +4337,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Root",
           "normalized": "Zipper a-\u003eSymbolTable",
@@ -3995,6 +4353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Tuple_Int",
           "package": "ZipperAG",
@@ -4004,6 +4363,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Tuple_Int",
           "normalized": "Zipper a-\u003eTuple",
@@ -4019,6 +4379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Tuple_Int_Value",
           "package": "ZipperAG",
@@ -4028,6 +4389,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Tuple_Int_Value",
           "normalized": "Zipper a-\u003eInt",
@@ -4043,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Tuple_String",
           "package": "ZipperAG",
@@ -4052,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Tuple_String",
           "normalized": "Zipper a-\u003eTuple",
@@ -4067,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Tuple_String_Value",
           "package": "ZipperAG",
@@ -4076,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Tuple_String_Value",
           "normalized": "Zipper a-\u003eString",
@@ -4091,6 +4457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Tuple_name",
           "package": "ZipperAG",
@@ -4100,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "lexeme_Tuple_name",
           "normalized": "Zipper a-\u003eString",
@@ -4115,6 +4483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "name",
           "package": "ZipperAG",
@@ -4124,6 +4493,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "name",
           "normalized": "Zipper Root-\u003eString",
@@ -4138,6 +4508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "ok",
           "package": "ZipperAG",
@@ -4147,6 +4518,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "ok",
           "normalized": "Zipper Root-\u003eBool",
@@ -4161,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "parent",
           "package": "ZipperAG",
@@ -4170,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "parent",
           "normalized": "Zipper a-\u003eZipper a",
@@ -4184,6 +4558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "program",
           "package": "ZipperAG",
@@ -4193,6 +4568,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "program",
           "package": "ZipperAG",
@@ -4205,6 +4581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "semantics",
           "package": "ZipperAG",
@@ -4214,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "semantics",
           "normalized": "Root-\u003eIO()",
@@ -4228,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "solve",
           "package": "ZipperAG",
@@ -4237,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "solve",
           "normalized": "Zipper Root_HO-\u003eZipper Root_HO",
@@ -4251,6 +4631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "solvedSymbols",
           "package": "ZipperAG",
@@ -4260,6 +4641,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "solvedSymbols",
           "normalized": "Zipper Root_HO-\u003e[(String,Int)]",
@@ -4275,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "value",
           "package": "ZipperAG",
@@ -4284,6 +4667,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_circular",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_circular",
           "name": "value",
           "normalized": "Zipper Root-\u003eInt",
@@ -4298,6 +4682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "DESK_references",
           "package": "ZipperAG",
@@ -4306,6 +4691,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "DESK_references",
           "package": "ZipperAG",
@@ -4319,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "ConstDef",
           "package": "ZipperAG",
@@ -4327,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "ConstDef",
           "package": "ZipperAG",
@@ -4340,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "ConstDefList",
           "package": "ZipperAG",
@@ -4348,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "ConstDefList",
           "package": "ZipperAG",
@@ -4361,6 +4751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "ConstName",
           "package": "ZipperAG",
@@ -4369,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "ConstName",
           "package": "ZipperAG",
@@ -4382,6 +4774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "ConstPart",
           "package": "ZipperAG",
@@ -4390,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "ConstPart",
           "package": "ZipperAG",
@@ -4403,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Expression",
           "package": "ZipperAG",
@@ -4411,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Expression",
           "package": "ZipperAG",
@@ -4424,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Factor",
           "package": "ZipperAG",
@@ -4432,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Factor",
           "package": "ZipperAG",
@@ -4445,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Program",
           "package": "ZipperAG",
@@ -4453,6 +4852,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Program",
           "package": "ZipperAG",
@@ -4466,6 +4866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Root",
           "package": "ZipperAG",
@@ -4474,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Root",
           "package": "ZipperAG",
@@ -4487,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "SymbolTable",
           "package": "ZipperAG",
@@ -4495,6 +4898,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "SymbolTable",
           "package": "ZipperAG",
@@ -4508,6 +4912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "(.|)",
           "package": "ZipperAG",
@@ -4517,6 +4922,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "(.|) .|",
           "normalized": "Zipper a-\u003eInt-\u003eBool",
@@ -4531,6 +4937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "(.$)",
           "package": "ZipperAG",
@@ -4540,6 +4947,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "(.$) .$",
           "normalized": "Zipper a-\u003eInt-\u003eZipper a",
@@ -4554,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Add",
           "package": "ZipperAG",
@@ -4563,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Add",
           "package": "ZipperAG",
@@ -4576,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Comma",
           "package": "ZipperAG",
@@ -4585,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Comma",
           "package": "ZipperAG",
@@ -4598,6 +5010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Def",
           "package": "ZipperAG",
@@ -4607,6 +5020,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Def",
           "package": "ZipperAG",
@@ -4620,6 +5034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "EmptyConstPart",
           "package": "ZipperAG",
@@ -4629,6 +5044,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "EmptyConstPart",
           "package": "ZipperAG",
@@ -4642,6 +5058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Equal",
           "package": "ZipperAG",
@@ -4651,6 +5068,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Equal",
           "package": "ZipperAG",
@@ -4664,6 +5082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Fact",
           "package": "ZipperAG",
@@ -4673,6 +5092,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Fact",
           "package": "ZipperAG",
@@ -4686,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Id",
           "package": "ZipperAG",
@@ -4695,6 +5116,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Id",
           "package": "ZipperAG",
@@ -4708,6 +5130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Name",
           "package": "ZipperAG",
@@ -4717,6 +5140,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Name",
           "package": "ZipperAG",
@@ -4730,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Number",
           "package": "ZipperAG",
@@ -4739,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Number",
           "package": "ZipperAG",
@@ -4752,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "PRINT",
           "package": "ZipperAG",
@@ -4761,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "PRINT",
           "package": "ZipperAG",
@@ -4774,6 +5202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Root",
           "package": "ZipperAG",
@@ -4783,6 +5212,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "Root",
           "package": "ZipperAG",
@@ -4796,6 +5226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "WHERE",
           "package": "ZipperAG",
@@ -4805,6 +5236,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "WHERE",
           "package": "ZipperAG",
@@ -4818,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "code",
           "package": "ZipperAG",
@@ -4827,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "code",
           "normalized": "Zipper Root-\u003eString",
@@ -4841,6 +5275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "constructor",
           "package": "ZipperAG",
@@ -4850,6 +5285,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "constructor",
           "normalized": "Zipper Root-\u003eString",
@@ -4864,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "deflst",
           "package": "ZipperAG",
@@ -4873,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "deflst",
           "package": "ZipperAG",
@@ -4885,6 +5323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "envi",
           "package": "ZipperAG",
@@ -4894,6 +5333,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "envi",
           "normalized": "Zipper Root-\u003eSymbolTable",
@@ -4908,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "envs",
           "package": "ZipperAG",
@@ -4917,6 +5358,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "envs",
           "normalized": "Zipper Root-\u003eSymbolTable",
@@ -4931,6 +5373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "expr",
           "package": "ZipperAG",
@@ -4940,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "expr",
           "package": "ZipperAG",
@@ -4952,6 +5396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "getValue",
           "package": "ZipperAG",
@@ -4961,6 +5406,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "getValue",
           "normalized": "String-\u003eSymbolTable-\u003eString",
@@ -4976,6 +5422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "isInST",
           "package": "ZipperAG",
@@ -4985,6 +5432,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "isInST",
           "normalized": "String-\u003eSymbolTable-\u003eBool",
@@ -5000,6 +5448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "lexeme",
           "package": "ZipperAG",
@@ -5009,6 +5458,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "lexeme",
           "normalized": "Zipper Root-\u003eString",
@@ -5023,6 +5473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "name",
           "package": "ZipperAG",
@@ -5032,6 +5483,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "name",
           "normalized": "Zipper Root-\u003eString",
@@ -5046,6 +5498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "ok",
           "package": "ZipperAG",
@@ -5055,6 +5508,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "ok",
           "normalized": "Zipper Root-\u003eBool",
@@ -5069,6 +5523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "parent",
           "package": "ZipperAG",
@@ -5078,6 +5533,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "parent",
           "normalized": "Zipper a-\u003eZipper a",
@@ -5092,6 +5548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "program",
           "package": "ZipperAG",
@@ -5101,6 +5558,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "program",
           "package": "ZipperAG",
@@ -5113,6 +5571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "semantics",
           "package": "ZipperAG",
@@ -5122,6 +5581,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "semantics",
           "normalized": "Root-\u003eIO()",
@@ -5136,6 +5596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "value",
           "package": "ZipperAG",
@@ -5145,6 +5606,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples DESK_references",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.DESK_references",
           "name": "value",
           "normalized": "Zipper Root-\u003eString",
@@ -5159,6 +5621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "HTMLTableFormatter",
           "package": "ZipperAG",
@@ -5167,6 +5630,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "HTMLTableFormatter",
           "package": "ZipperAG",
@@ -5180,6 +5644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "Elem",
           "package": "ZipperAG",
@@ -5188,6 +5653,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "Elem",
           "package": "ZipperAG",
@@ -5201,6 +5667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "Elems",
           "package": "ZipperAG",
@@ -5209,6 +5676,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "Elems",
           "package": "ZipperAG",
@@ -5222,6 +5690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "R",
           "package": "ZipperAG",
@@ -5230,6 +5699,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "R",
           "package": "ZipperAG",
@@ -5242,6 +5712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "Row",
           "package": "ZipperAG",
@@ -5250,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "Row",
           "package": "ZipperAG",
@@ -5263,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "Rows",
           "package": "ZipperAG",
@@ -5271,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "Rows",
           "package": "ZipperAG",
@@ -5284,6 +5758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "Table",
           "package": "ZipperAG",
@@ -5292,6 +5767,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "Table",
           "package": "ZipperAG",
@@ -5305,6 +5781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "(.|)",
           "package": "ZipperAG",
@@ -5314,6 +5791,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "(.|) .|",
           "normalized": "Zipper a-\u003eInt-\u003eBool",
@@ -5328,6 +5806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "(.#.)",
           "package": "ZipperAG",
@@ -5337,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "(.#.) .#.",
           "normalized": "(a-\u003eb)-\u003ea-\u003eZipper b",
@@ -5351,6 +5831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "(.$)",
           "package": "ZipperAG",
@@ -5360,6 +5841,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "(.$) .$",
           "normalized": "Zipper a-\u003eInt-\u003eZipper a",
@@ -5374,6 +5856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "ConsElem",
           "package": "ZipperAG",
@@ -5383,6 +5866,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "ConsElem",
           "package": "ZipperAG",
@@ -5396,6 +5880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "ConsRow",
           "package": "ZipperAG",
@@ -5405,6 +5890,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "ConsRow",
           "package": "ZipperAG",
@@ -5418,6 +5904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "NestedTable",
           "package": "ZipperAG",
@@ -5427,6 +5914,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "NestedTable",
           "package": "ZipperAG",
@@ -5440,6 +5928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "NoElem",
           "package": "ZipperAG",
@@ -5449,6 +5938,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "NoElem",
           "package": "ZipperAG",
@@ -5462,6 +5952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "NoRow",
           "package": "ZipperAG",
@@ -5471,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "NoRow",
           "package": "ZipperAG",
@@ -5484,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "OneRow",
           "package": "ZipperAG",
@@ -5493,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "OneRow",
           "package": "ZipperAG",
@@ -5506,6 +6000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "RootR",
           "package": "ZipperAG",
@@ -5515,6 +6010,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "RootR",
           "package": "ZipperAG",
@@ -5528,6 +6024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "RootTable",
           "package": "ZipperAG",
@@ -5537,6 +6034,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "RootTable",
           "package": "ZipperAG",
@@ -5550,6 +6048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "TableText",
           "package": "ZipperAG",
@@ -5559,6 +6058,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "TableText",
           "package": "ZipperAG",
@@ -5572,6 +6072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "add_border_line",
           "package": "ZipperAG",
@@ -5581,6 +6082,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "add_border_line",
           "normalized": "[String]-\u003e[String]",
@@ -5595,6 +6097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "add_elems",
           "package": "ZipperAG",
@@ -5604,6 +6107,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "add_elems",
           "normalized": "Int-\u003eElems",
@@ -5618,6 +6122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "add_hor",
           "package": "ZipperAG",
@@ -5627,6 +6132,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "add_hor",
           "normalized": "String-\u003eInt-\u003eString-\u003eString",
@@ -5641,6 +6147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "add_sep_line",
           "package": "ZipperAG",
@@ -5650,6 +6157,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "add_sep_line",
           "normalized": "Int-\u003e[String]-\u003e[String]-\u003e[String]",
@@ -5664,6 +6172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "add_sepline",
           "package": "ZipperAG",
@@ -5673,6 +6182,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "add_sepline",
           "normalized": "Int-\u003e[String]",
@@ -5687,6 +6197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "add_vertical",
           "package": "ZipperAG",
@@ -5696,6 +6207,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "add_vertical",
           "normalized": "Int-\u003e[String]",
@@ -5710,6 +6222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "addglue",
           "package": "ZipperAG",
@@ -5719,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "addglue",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[String]-\u003eString-\u003e[String]",
@@ -5733,6 +6247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "ah_Inh",
           "package": "ZipperAG",
@@ -5742,6 +6257,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "ah_Inh",
           "normalized": "Zipper R-\u003ea",
@@ -5757,6 +6273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "ane_Inh",
           "package": "ZipperAG",
@@ -5766,6 +6283,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "ane_Inh",
           "normalized": "Zipper R-\u003eInt",
@@ -5781,6 +6299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "ata",
           "package": "ZipperAG",
@@ -5790,6 +6309,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "ata",
           "normalized": "Zipper R-\u003eZipper R",
@@ -5804,6 +6324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "aw_Inh",
           "package": "ZipperAG",
@@ -5813,6 +6334,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "aw_Inh",
           "normalized": "Zipper R-\u003eInt",
@@ -5828,6 +6350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "aws_Inh",
           "package": "ZipperAG",
@@ -5837,6 +6360,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "aws_Inh",
           "normalized": "Zipper R-\u003e[Int]",
@@ -5852,6 +6376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "constructor",
           "package": "ZipperAG",
@@ -5861,6 +6386,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "constructor",
           "normalized": "Zipper R-\u003eString",
@@ -5875,6 +6401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "elem1",
           "package": "ZipperAG",
@@ -5884,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "elem1",
           "package": "ZipperAG",
@@ -5896,6 +6424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "elem2",
           "package": "ZipperAG",
@@ -5905,6 +6434,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "elem2",
           "package": "ZipperAG",
@@ -5917,6 +6447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "elem3",
           "package": "ZipperAG",
@@ -5926,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "elem3",
           "package": "ZipperAG",
@@ -5938,6 +6470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "eq_zeros",
           "package": "ZipperAG",
@@ -5947,6 +6480,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "eq_zeros",
           "normalized": "[a]",
@@ -5961,6 +6495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "eq_zipwith_cat",
           "package": "ZipperAG",
@@ -5970,6 +6505,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "eq_zipwith_cat",
           "normalized": "[String]-\u003e[String]-\u003e[String]",
@@ -5984,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "eq_zipwith_max",
           "package": "ZipperAG",
@@ -5993,6 +6530,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "eq_zipwith_max",
           "normalized": "[Int]-\u003e[Int]-\u003e[Int]",
@@ -6007,6 +6545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "glue_horizontal",
           "package": "ZipperAG",
@@ -6016,6 +6555,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "glue_horizontal",
           "normalized": "Int-\u003eInt-\u003e[String]-\u003eString-\u003e[String]",
@@ -6030,6 +6570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "glue_vertical_new",
           "package": "ZipperAG",
@@ -6039,6 +6580,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "glue_vertical_new",
           "normalized": "Int-\u003e[String]-\u003e[String]",
@@ -6053,6 +6595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "headList",
           "package": "ZipperAG",
@@ -6062,6 +6605,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "headList",
           "normalized": "[Int]-\u003eInt",
@@ -6077,6 +6621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "hor_spaces",
           "package": "ZipperAG",
@@ -6086,6 +6631,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "hor_spaces",
           "normalized": "Int-\u003eString",
@@ -6100,6 +6646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "lengthList",
           "package": "ZipperAG",
@@ -6109,6 +6656,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "lengthList",
           "normalized": "[a]-\u003eInt",
@@ -6124,6 +6672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "lines_Syn",
           "package": "ZipperAG",
@@ -6133,6 +6682,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "lines_Syn",
           "normalized": "Zipper R-\u003e[String]",
@@ -6148,6 +6698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "lmw_Local",
           "package": "ZipperAG",
@@ -6157,6 +6708,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "lmw_Local",
           "normalized": "Zipper R-\u003eInt",
@@ -6172,6 +6724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "maxList",
           "package": "ZipperAG",
@@ -6181,6 +6734,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "maxList",
           "normalized": "[Int]-\u003eInt",
@@ -6196,6 +6750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "mh_Syn",
           "package": "ZipperAG",
@@ -6205,6 +6760,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "mh_Syn",
           "normalized": "Zipper R-\u003ea",
@@ -6220,6 +6776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "mw_Syn",
           "package": "ZipperAG",
@@ -6229,6 +6786,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "mw_Syn",
           "normalized": "Zipper R-\u003eInt",
@@ -6244,6 +6802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "mws_Syn",
           "package": "ZipperAG",
@@ -6253,6 +6812,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "mws_Syn",
           "normalized": "Zipper R-\u003e[Int]",
@@ -6268,6 +6828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "n_Syn",
           "package": "ZipperAG",
@@ -6277,6 +6838,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "n_Syn",
           "normalized": "Zipper R-\u003eInt",
@@ -6292,6 +6854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "nestedtable",
           "package": "ZipperAG",
@@ -6301,6 +6864,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "nestedtable",
           "package": "ZipperAG",
@@ -6313,6 +6877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "ns_Syn",
           "package": "ZipperAG",
@@ -6322,6 +6887,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "ns_Syn",
           "normalized": "Zipper R-\u003e[Int]",
@@ -6337,6 +6903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "parent",
           "package": "ZipperAG",
@@ -6346,6 +6913,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "parent",
           "normalized": "Zipper a-\u003eZipper a",
@@ -6360,6 +6928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "printTable",
           "package": "ZipperAG",
@@ -6369,6 +6938,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "printTable",
           "normalized": "[String]-\u003eString",
@@ -6384,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "r2",
           "package": "ZipperAG",
@@ -6393,6 +6964,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "r2",
           "normalized": "Zipper R-\u003eR",
@@ -6407,6 +6979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "r2_elem",
           "package": "ZipperAG",
@@ -6416,6 +6989,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "r2_elem",
           "normalized": "Zipper R-\u003eElem",
@@ -6430,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "r2_elems",
           "package": "ZipperAG",
@@ -6439,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "r2_elems",
           "normalized": "Zipper R-\u003eElems",
@@ -6453,6 +7029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "r2_row",
           "package": "ZipperAG",
@@ -6462,6 +7039,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "r2_row",
           "normalized": "Zipper R-\u003eRow",
@@ -6476,6 +7054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "r2_rows",
           "package": "ZipperAG",
@@ -6485,6 +7064,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "r2_rows",
           "normalized": "Zipper R-\u003eRows",
@@ -6499,6 +7079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "r2_table",
           "package": "ZipperAG",
@@ -6508,6 +7089,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "r2_table",
           "normalized": "Zipper R-\u003eTable",
@@ -6522,6 +7104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "repeatChar",
           "package": "ZipperAG",
@@ -6531,6 +7114,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "repeatChar",
           "normalized": "Char-\u003eInt-\u003eString",
@@ -6546,6 +7130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "row1",
           "package": "ZipperAG",
@@ -6555,6 +7140,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "row1",
           "package": "ZipperAG",
@@ -6567,6 +7153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "semantics",
           "package": "ZipperAG",
@@ -6576,6 +7163,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "semantics",
           "normalized": "R-\u003eIO()",
@@ -6590,6 +7178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "sumList",
           "package": "ZipperAG",
@@ -6599,6 +7188,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "sumList",
           "normalized": "[Int]-\u003eInt",
@@ -6614,6 +7204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "table",
           "package": "ZipperAG",
@@ -6623,6 +7214,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "table",
           "package": "ZipperAG",
@@ -6635,6 +7227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "tailList",
           "package": "ZipperAG",
@@ -6644,6 +7237,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "tailList",
           "normalized": "[a]-\u003e[a]",
@@ -6659,6 +7253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "value",
           "package": "ZipperAG",
@@ -6668,6 +7263,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples HTMLTableFormatter",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.HTMLTableFormatter",
           "name": "value",
           "normalized": "Zipper a-\u003eString",
@@ -6682,6 +7278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "RepMin",
           "package": "ZipperAG",
@@ -6690,6 +7287,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "RepMin",
           "package": "ZipperAG",
@@ -6703,6 +7301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "Root",
           "package": "ZipperAG",
@@ -6711,6 +7310,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "Root",
           "package": "ZipperAG",
@@ -6724,6 +7324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "Tree",
           "package": "ZipperAG",
@@ -6732,6 +7333,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "Tree",
           "package": "ZipperAG",
@@ -6745,6 +7347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "(.$)",
           "package": "ZipperAG",
@@ -6754,6 +7357,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "(.$) .$",
           "normalized": "Zipper a-\u003eInt-\u003eZipper a",
@@ -6768,6 +7372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "Fork",
           "package": "ZipperAG",
@@ -6777,6 +7382,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "Fork",
           "package": "ZipperAG",
@@ -6790,6 +7396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "Leaf",
           "package": "ZipperAG",
@@ -6799,6 +7406,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "Leaf",
           "package": "ZipperAG",
@@ -6812,6 +7420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "Root",
           "package": "ZipperAG",
@@ -6821,6 +7430,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "Root",
           "package": "ZipperAG",
@@ -6834,6 +7444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "constructor",
           "package": "ZipperAG",
@@ -6843,6 +7454,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "constructor",
           "normalized": "Zipper Root-\u003eString",
@@ -6857,6 +7469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "globmin",
           "package": "ZipperAG",
@@ -6866,6 +7479,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "globmin",
           "normalized": "Zipper Root-\u003eInt",
@@ -6880,6 +7494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "lexeme",
           "package": "ZipperAG",
@@ -6889,6 +7504,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "lexeme",
           "normalized": "Zipper Root-\u003eInt",
@@ -6903,6 +7519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "locmin",
           "package": "ZipperAG",
@@ -6912,6 +7529,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "locmin",
           "normalized": "Zipper Root-\u003eInt",
@@ -6926,6 +7544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "parent",
           "package": "ZipperAG",
@@ -6935,6 +7554,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "parent",
           "normalized": "Zipper a-\u003eZipper a",
@@ -6949,6 +7569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "replace",
           "package": "ZipperAG",
@@ -6958,6 +7579,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "replace",
           "normalized": "Zipper Root-\u003eTree",
@@ -6972,6 +7594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "semantics",
           "package": "ZipperAG",
@@ -6981,6 +7604,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "semantics",
           "normalized": "Root-\u003eTree",
@@ -6995,6 +7619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "tree",
           "package": "ZipperAG",
@@ -7004,6 +7629,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples RepMin",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.RepMin",
           "name": "tree",
           "package": "ZipperAG",
@@ -7016,6 +7642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "SmartParentesis",
           "package": "ZipperAG",
@@ -7024,6 +7651,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "SmartParentesis",
           "package": "ZipperAG",
@@ -7037,6 +7665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Exp",
           "package": "ZipperAG",
@@ -7045,6 +7674,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Exp",
           "package": "ZipperAG",
@@ -7058,6 +7688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Root",
           "package": "ZipperAG",
@@ -7066,6 +7697,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Root",
           "package": "ZipperAG",
@@ -7079,6 +7711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "(.|)",
           "package": "ZipperAG",
@@ -7088,6 +7721,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "(.|) .|",
           "normalized": "Zipper a-\u003eInt-\u003eBool",
@@ -7102,6 +7736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "(.$)",
           "package": "ZipperAG",
@@ -7111,6 +7746,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "(.$) .$",
           "normalized": "Zipper a-\u003eInt-\u003eZipper a",
@@ -7125,6 +7761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Add",
           "package": "ZipperAG",
@@ -7134,6 +7771,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Add",
           "package": "ZipperAG",
@@ -7147,6 +7785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Div",
           "package": "ZipperAG",
@@ -7156,6 +7795,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Div",
           "package": "ZipperAG",
@@ -7169,6 +7809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Lit",
           "package": "ZipperAG",
@@ -7178,6 +7819,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Lit",
           "package": "ZipperAG",
@@ -7191,6 +7833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Mul",
           "package": "ZipperAG",
@@ -7200,6 +7843,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Mul",
           "package": "ZipperAG",
@@ -7213,6 +7857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Root",
           "package": "ZipperAG",
@@ -7222,6 +7867,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Root",
           "package": "ZipperAG",
@@ -7235,6 +7881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Sub",
           "package": "ZipperAG",
@@ -7244,6 +7891,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "Sub",
           "package": "ZipperAG",
@@ -7257,6 +7905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "bpp",
           "package": "ZipperAG",
@@ -7266,6 +7915,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "bpp",
           "normalized": "Zipper Root-\u003eString",
@@ -7280,6 +7930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "constructor",
           "package": "ZipperAG",
@@ -7289,6 +7940,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "constructor",
           "normalized": "Zipper Root-\u003eString",
@@ -7303,6 +7955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "enclosingOpPrecedence",
           "package": "ZipperAG",
@@ -7312,6 +7965,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "enclosingOpPrecedence",
           "normalized": "Zipper Root-\u003eInt",
@@ -7327,6 +7981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "exp2str",
           "package": "ZipperAG",
@@ -7336,6 +7991,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "exp2str",
           "normalized": "Exp-\u003eString",
@@ -7350,6 +8006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "expr",
           "package": "ZipperAG",
@@ -7359,6 +8016,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "expr",
           "package": "ZipperAG",
@@ -7371,6 +8029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "leftOrRight",
           "package": "ZipperAG",
@@ -7380,6 +8039,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "leftOrRight",
           "normalized": "Zipper Root-\u003eString",
@@ -7395,6 +8055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "lexeme",
           "package": "ZipperAG",
@@ -7404,6 +8065,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "lexeme",
           "normalized": "Zipper Root-\u003eInt",
@@ -7418,6 +8080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "parent",
           "package": "ZipperAG",
@@ -7427,6 +8090,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "parent",
           "normalized": "Zipper a-\u003eZipper a",
@@ -7441,6 +8105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "semantics",
           "package": "ZipperAG",
@@ -7450,6 +8115,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "semantics",
           "normalized": "Root-\u003eString",
@@ -7464,6 +8130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "wrapInParens",
           "package": "ZipperAG",
@@ -7473,6 +8140,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars ZipperAG Examples SmartParentesis",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG.Examples.SmartParentesis",
           "name": "wrapInParens",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eBool",
@@ -7489,6 +8157,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eZipper-based AG supporting functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG",
           "name": "ZipperAG",
           "package": "ZipperAG",
@@ -7498,6 +8167,7 @@
         "index": {
           "description": "Zipper-based AG supporting functions",
           "hierarchy": "Language Grammars ZipperAG",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG",
           "name": "ZipperAG",
           "package": "ZipperAG",
@@ -7512,6 +8182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests if z is the n'th sibling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG",
           "name": "(.|)",
           "package": "ZipperAG",
@@ -7522,6 +8193,7 @@
         "index": {
           "description": "Tests if is the th sibling",
           "hierarchy": "Language Grammars ZipperAG",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG",
           "name": "(.|) .|",
           "normalized": "Zipper a-\u003eInt-\u003eBool",
@@ -7537,6 +8209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives the n'th child\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG",
           "name": "(.$)",
           "package": "ZipperAG",
@@ -7547,6 +8220,7 @@
         "index": {
           "description": "Gives the th child",
           "hierarchy": "Language Grammars ZipperAG",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG",
           "name": "(.$) .$",
           "normalized": "Zipper a-\u003eInt-\u003eZipper a",
@@ -7562,6 +8236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:14 UTC 2014",
           "module": "Language.Grammars.ZipperAG",
           "name": "parent",
           "package": "ZipperAG",
@@ -7572,6 +8247,7 @@
         "index": {
           "description": "parent",
           "hierarchy": "Language Grammars ZipperAG",
+          "indexed": "2014-03-11T17:06:14",
           "module": "Language.Grammars.ZipperAG",
           "name": "parent",
           "normalized": "Zipper a-\u003eZipper a",

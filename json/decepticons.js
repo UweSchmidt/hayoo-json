@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "decepticons"
+        "phrase": "decepticons",
+        "type": "phrase"
       },
       "type": "context"
     }

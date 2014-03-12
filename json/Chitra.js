@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Chitra"
+        "phrase": "Chitra",
+        "type": "phrase"
       },
       "type": "context"
     }

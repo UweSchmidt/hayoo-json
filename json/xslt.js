@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xslt"
+        "phrase": "xslt",
+        "type": "phrase"
       },
       "type": "context"
     }

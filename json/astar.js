@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "astar"
+        "phrase": "astar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:36 UTC 2014",
           "module": "Data.Graph.AStar",
           "name": "AStar",
           "package": "astar",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Graph AStar",
+          "indexed": "2014-03-11T17:13:36",
           "module": "Data.Graph.AStar",
           "name": "AStar",
           "package": "astar",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes an optimal (minimal distance) path through a graph in a best-first fashion,\n starting from a given starting point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:36 UTC 2014",
           "module": "Data.Graph.AStar",
           "name": "aStar",
           "package": "astar",
@@ -49,6 +52,7 @@
         "index": {
           "description": "This function computes an optimal minimal distance path through graph in best-first fashion starting from given starting point",
           "hierarchy": "Data Graph AStar",
+          "indexed": "2014-03-11T17:13:36",
           "module": "Data.Graph.AStar",
           "name": "aStar",
           "normalized": "(a-\u003eSet a)-\u003e(a-\u003ea-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eBool)-\u003ea-\u003eMaybe[a]",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes an optimal (minimal distance) path through a graph in a best-first fashion,\n starting from a given starting point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:36 UTC 2014",
           "module": "Data.Graph.AStar",
           "name": "aStarM",
           "package": "astar",
@@ -74,6 +79,7 @@
         "index": {
           "description": "This function computes an optimal minimal distance path through graph in best-first fashion starting from given starting point",
           "hierarchy": "Data Graph AStar",
+          "indexed": "2014-03-11T17:13:36",
           "module": "Data.Graph.AStar",
           "name": "aStarM",
           "normalized": "(a-\u003eb(Set a))-\u003e(a-\u003ea-\u003eb c)-\u003e(a-\u003eb c)-\u003e(a-\u003eb Bool)-\u003eb a-\u003eb(Maybe[a])",

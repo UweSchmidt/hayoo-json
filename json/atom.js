@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "atom"
+        "phrase": "atom",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Analysis",
           "name": "Analysis",
           "package": "atom",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Analysis",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Analysis",
           "name": "Analysis",
           "package": "atom",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of UE's computed in rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Analysis",
           "name": "ruleComplexity",
           "package": "atom",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Number of UE computed in rule",
           "hierarchy": "Language Atom Analysis",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Analysis",
           "name": "ruleComplexity",
           "normalized": "UeMap-\u003eRule-\u003eInt",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTopologically sorts a list of expressions and subexpressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Analysis",
           "name": "topo",
           "package": "atom",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Topologically sorts list of expressions and subexpressions",
           "hierarchy": "Language Atom Analysis",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Analysis",
           "name": "topo",
           "normalized": "UeMap-\u003e[Hash]-\u003e[(Hash,String)]",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAtom C code generation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "Code",
           "package": "atom",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Atom code generation",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "Code",
           "package": "atom",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData associated with sampling a hardware clock.  For the clock to work\n correctly, you MUST assign \u003ccode\u003e__global_clock\u003c/code\u003e the current time (accoring to\n \u003ccode\u003eclockName\u003c/code\u003e) the first time you enter the main Atom-generated function\n calling your rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "Clock",
           "package": "atom",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Data associated with sampling hardware clock For the clock to work correctly you MUST assign global clock the current time accoring to clockName the first time you enter the main Atom-generated function calling your rules",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "Clock",
           "package": "atom",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC code configuration parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "Config",
           "package": "atom",
@@ -146,6 +157,7 @@
         "index": {
           "description": "code configuration parameters",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "Config",
           "package": "atom",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "RuleCoverage",
           "package": "atom",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "RuleCoverage",
           "package": "atom",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "Clock",
           "package": "atom",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "Clock",
           "package": "atom",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "Config",
           "package": "atom",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "Config",
           "package": "atom",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable assertions and functional coverage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "cAssert",
           "package": "atom",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Enable assertions and functional coverage",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "cAssert",
           "package": "atom",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of assertion function.  Type: void\n assert(int, bool, uint64_t);\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "cAssertName",
           "package": "atom",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Name of assertion function Type void assert int bool uint64",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "cAssertName",
           "package": "atom",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom C code to insert above\n and below the functions, given\n assertion names, coverage names,\n and probe names and types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "cCode",
           "package": "atom",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Custom code to insert above and below the functions given assertion names coverage names and probe names and types",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "cCode",
           "normalized": "[Name]-\u003e[Name]-\u003e[(Name,Type)]-\u003e(String,String)",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of coverage function.  Type: void\n cover(int, bool, uint64_t);\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "cCoverName",
           "package": "atom",
@@ -309,6 +334,7 @@
         "index": {
           "description": "Name of coverage function Type void cover int bool uint64",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "cCoverName",
           "package": "atom",
@@ -323,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative primary function name.  Leave empty\n to use compile name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "cFuncName",
           "package": "atom",
@@ -333,6 +360,7 @@
         "index": {
           "description": "Alternative primary function name Leave empty to use compile name",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "cFuncName",
           "package": "atom",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable rule coverage tracking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "cRuleCoverage",
           "package": "atom",
@@ -357,6 +386,7 @@
         "index": {
           "description": "Enable rule coverage tracking",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "cRuleCoverage",
           "package": "atom",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of state variable structure.  Default: state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "cStateName",
           "package": "atom",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Name of state variable structure Default state",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "cStateName",
           "package": "atom",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC99 type naming rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "cType",
           "package": "atom",
@@ -405,6 +438,7 @@
         "index": {
           "description": "C99 type naming rules",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "cType",
           "normalized": "Type-\u003eString",
@@ -421,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC function to sample the clock.  The\n funciton is assumed to have the prototype\n \u003ccode\u003eclockType clockName(void)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "clockName",
           "package": "atom",
@@ -431,6 +466,7 @@
         "index": {
           "description": "function to sample the clock The funciton is assumed to have the prototype clockType clockName void",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "clockName",
           "package": "atom",
@@ -445,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClock type.  Assumed to be one of Word8,\n Word16, Word32, or Word64.  It is permissible\n for the clock to rollover.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "clockType",
           "package": "atom",
@@ -455,6 +492,7 @@
         "index": {
           "description": "Clock type Assumed to be one of Word8 Word16 Word32 or Word64 It is permissible for the clock to rollover",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "clockType",
           "package": "atom",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "defaultClock",
           "package": "atom",
@@ -477,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "defaultClock",
           "package": "atom",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault C code configuration parameters (default function name, no pre/post code, ANSI C types).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "defaults",
           "package": "atom",
@@ -501,6 +542,7 @@
         "index": {
           "description": "Default code configuration parameters default function name no pre post code ANSI types",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "defaults",
           "package": "atom",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC function to delay/sleep.  The function is\n assumed to have the prototype \u003ccode\u003evoid\n delay(clockType i)\u003c/code\u003e, where \u003ccode\u003ei\u003c/code\u003e is the\n duration of delay/sleep.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "delay",
           "package": "atom",
@@ -524,6 +567,7 @@
         "index": {
           "description": "function to delay sleep The function is assumed to have the prototype void delay clockType where is the duration of delay sleep",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "delay",
           "package": "atom",
@@ -537,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of ticks in a phase.  Must be greater than 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "delta",
           "package": "atom",
@@ -547,6 +592,7 @@
         "index": {
           "description": "Number of ticks in phase Must be greater than",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "delta",
           "package": "atom",
@@ -560,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing or a user-defined error-reporting\n function if the period duration is violated;\n e.g., the execution time was greater than\n \u003ccode\u003edelta\u003c/code\u003e.  Assumed to have prototype \u003ccode\u003evoid\n err(void)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "err",
           "package": "atom",
@@ -570,6 +617,7 @@
         "index": {
           "description": "Nothing or user-defined error-reporting function if the period duration is violated e.g the execution time was greater than delta Assumed to have prototype void err void",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "err",
           "package": "atom",
@@ -583,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom C code to insert above\n and below the state definition\n in the header file, given assertion\n names, coverage names, and probe names\n and types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "hCode",
           "package": "atom",
@@ -593,6 +642,7 @@
         "index": {
           "description": "Custom code to insert above and below the state definition in the header file given assertion names coverage names and probe names and types",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "hCode",
           "normalized": "[Name]-\u003e[Name]-\u003e[(Name,Type)]-\u003e(String,String)",
@@ -609,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo we use a hardware counter to schedule\n rules?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "hardwareClock",
           "package": "atom",
@@ -619,6 +670,7 @@
         "index": {
           "description": "Do we use hardware counter to schedule rules",
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "hardwareClock",
           "package": "atom",
@@ -632,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Code",
           "name": "writeC",
           "package": "atom",
@@ -641,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Code",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Code",
           "name": "writeC",
           "normalized": "Name-\u003eConfig-\u003eStateHierarchy-\u003e[Rule]-\u003eSchedule-\u003e[Name]-\u003e[Name]-\u003e[(Name,Type)]-\u003eIO RuleCoverage",
@@ -656,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon Atom functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Common",
           "name": "Common",
           "package": "atom",
@@ -665,6 +720,7 @@
         "index": {
           "description": "Common Atom functions",
           "hierarchy": "Language Atom Common",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Common",
           "name": "Common",
           "package": "atom",
@@ -679,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Timer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Common",
           "name": "Timer",
           "package": "atom",
@@ -688,6 +745,7 @@
         "index": {
           "description": "Timer",
           "hierarchy": "Language Atom Common",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Common",
           "name": "Timer",
           "package": "atom",
@@ -702,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDebounces a boolean given an on and off time (ticks) and an initial state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Common",
           "name": "debounce",
           "package": "atom",
@@ -712,6 +771,7 @@
         "index": {
           "description": "Debounces boolean given an on and off time ticks and an initial state",
           "hierarchy": "Language Atom Common",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Common",
           "name": "debounce",
           "normalized": "Name-\u003eE Word-\u003eE Word-\u003eBool-\u003eE Bool-\u003eAtom(E Bool)",
@@ -727,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHysteresis returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when the input exceeds \u003ccode\u003emax\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e when\n   the input is less than \u003ccode\u003emin\u003c/code\u003e.  The state is held when the input is between\n   \u003ccode\u003emin\u003c/code\u003e and \u003ccode\u003emax\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e hysteresis name min max input\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Common",
           "name": "hysteresis",
           "package": "atom",
@@ -737,6 +798,7 @@
         "index": {
           "description": "Hysteresis returns True when the input exceeds max and False when the input is less than min The state is held when the input is between min and max hysteresis name min max input",
           "hierarchy": "Language Atom Common",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Common",
           "name": "hysteresis",
           "normalized": "E a-\u003eE a-\u003eE a-\u003eAtom(E Bool)",
@@ -752,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear extrapolation and interpolation on a line with 2 points.\n   The two x points must be different to prevent a divide-by-zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Common",
           "name": "linear",
           "package": "atom",
@@ -762,6 +825,7 @@
         "index": {
           "description": "Linear extrapolation and interpolation on line with points The two points must be different to prevent divide-by-zero",
           "hierarchy": "Language Atom Common",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Common",
           "name": "linear",
           "normalized": "(E a,E a)-\u003e(E a,E a)-\u003eE a-\u003eE a",
@@ -777,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1-D lookup table.  X values out of table range are clipped at end Y values.\n   Input table must be monotonically increasing in X.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Common",
           "name": "lookupTable",
           "package": "atom",
@@ -787,6 +852,7 @@
         "index": {
           "description": "lookup table values out of table range are clipped at end values Input table must be monotonically increasing in",
           "hierarchy": "Language Atom Common",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Common",
           "name": "lookupTable",
           "normalized": "[(E a,E a)]-\u003eE a-\u003eE a",
@@ -803,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-shot on a falling transition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Common",
           "name": "oneShotFall",
           "package": "atom",
@@ -813,6 +880,7 @@
         "index": {
           "description": "One-shot on falling transition",
           "hierarchy": "Language Atom Common",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Common",
           "name": "oneShotFall",
           "normalized": "E Bool-\u003eAtom(E Bool)",
@@ -829,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-shot on a rising transition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Common",
           "name": "oneShotRise",
           "package": "atom",
@@ -839,6 +908,7 @@
         "index": {
           "description": "One-shot on rising transition",
           "hierarchy": "Language Atom Common",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Common",
           "name": "oneShotRise",
           "normalized": "E Bool-\u003eAtom(E Bool)",
@@ -855,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a Timer.  A timer can be restarted at any time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Common",
           "name": "startTimer",
           "package": "atom",
@@ -865,6 +936,7 @@
         "index": {
           "description": "Starts Timer timer can be restarted at any time",
           "hierarchy": "Language Atom Common",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Common",
           "name": "startTimer",
           "normalized": "Timer-\u003eE Word-\u003eAtom()",
@@ -881,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditionally start a Timer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Common",
           "name": "startTimerIf",
           "package": "atom",
@@ -891,6 +964,7 @@
         "index": {
           "description": "Conditionally start Timer",
           "hierarchy": "Language Atom Common",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Common",
           "name": "startTimerIf",
           "normalized": "Timer-\u003eE Bool-\u003eE Word-\u003eAtom()",
@@ -907,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new timer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Common",
           "name": "timer",
           "package": "atom",
@@ -917,6 +992,7 @@
         "index": {
           "description": "Creates new timer",
           "hierarchy": "Language Atom Common",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Common",
           "name": "timer",
           "normalized": "Name-\u003eAtom Timer",
@@ -932,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when a timer has completed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Common",
           "name": "timerDone",
           "package": "atom",
@@ -942,6 +1019,7 @@
         "index": {
           "description": "True when timer has completed",
           "hierarchy": "Language Atom Common",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Common",
           "name": "timerDone",
           "normalized": "Timer-\u003eE Bool",
@@ -958,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAtom compilation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Compile",
           "name": "Compile",
           "package": "atom",
@@ -967,6 +1046,7 @@
         "index": {
           "description": "Atom compilation",
           "hierarchy": "Language Atom Compile",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Compile",
           "name": "Compile",
           "package": "atom",
@@ -980,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Compile",
           "name": "Schedule",
           "package": "atom",
@@ -988,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Compile",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Compile",
           "name": "Schedule",
           "package": "atom",
@@ -1002,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiles an atom description to C.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Compile",
           "name": "compile",
           "package": "atom",
@@ -1012,6 +1095,7 @@
         "index": {
           "description": "Compiles an atom description to",
           "hierarchy": "Language Atom Compile",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Compile",
           "name": "compile",
           "normalized": "Name-\u003eConfig-\u003eAtom()-\u003eIO(Schedule,RuleCoverage,[Name],[Name],[(Name,Type)])",
@@ -1051,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "Elaboration",
           "package": "atom",
@@ -1059,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "Elaboration",
           "package": "atom",
@@ -1073,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Atom monad holds variable and rule declarations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "Atom",
           "package": "atom",
@@ -1082,6 +1169,7 @@
         "index": {
           "description": "The Atom monad holds variable and rule declarations",
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "Atom",
           "package": "atom",
@@ -1095,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "AtomDB",
           "package": "atom",
@@ -1103,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "AtomDB",
           "package": "atom",
@@ -1116,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "Global",
           "package": "atom",
@@ -1124,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "Global",
           "package": "atom",
@@ -1138,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "Name",
           "package": "atom",
@@ -1147,6 +1240,7 @@
         "index": {
           "description": "name",
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "Name",
           "package": "atom",
@@ -1161,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hierarchical name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "Path",
           "package": "atom",
@@ -1170,6 +1265,7 @@
         "index": {
           "description": "hierarchical name",
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "Path",
           "package": "atom",
@@ -1184,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA phase is either the minimum phase or the exact phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "Phase",
           "package": "atom",
@@ -1193,6 +1290,7 @@
         "index": {
           "description": "phase is either the minimum phase or the exact phase",
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "Phase",
           "package": "atom",
@@ -1206,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "Rule",
           "package": "atom",
@@ -1214,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "Rule",
           "package": "atom",
@@ -1227,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "StateHierarchy",
           "package": "atom",
@@ -1235,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "StateHierarchy",
           "package": "atom",
@@ -1248,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "UID",
           "package": "atom",
@@ -1256,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "UID",
           "package": "atom",
@@ -1269,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "Assert",
           "package": "atom",
@@ -1278,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "Assert",
           "package": "atom",
@@ -1291,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "AtomDB",
           "package": "atom",
@@ -1300,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "AtomDB",
           "package": "atom",
@@ -1313,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "Cover",
           "package": "atom",
@@ -1322,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "Cover",
           "package": "atom",
@@ -1335,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "ExactPhase",
           "package": "atom",
@@ -1344,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "ExactPhase",
           "package": "atom",
@@ -1357,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "Global",
           "package": "atom",
@@ -1366,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "Global",
           "package": "atom",
@@ -1379,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "MinPhase",
           "package": "atom",
@@ -1388,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "MinPhase",
           "package": "atom",
@@ -1401,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "Rule",
           "package": "atom",
@@ -1410,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "Rule",
           "package": "atom",
@@ -1423,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "StateArray",
           "package": "atom",
@@ -1432,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "StateArray",
           "normalized": "StateArray Name[Const]",
@@ -1447,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "StateHierarchy",
           "package": "atom",
@@ -1456,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "StateHierarchy",
           "normalized": "StateHierarchy Name[StateHierarchy]",
@@ -1471,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "StateVariable",
           "package": "atom",
@@ -1480,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "StateVariable",
           "package": "atom",
@@ -1493,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "addName",
           "package": "atom",
@@ -1502,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "addName",
           "normalized": "Name-\u003eAtom Name",
@@ -1518,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll primary expressions used in a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "allUEs",
           "package": "atom",
@@ -1528,6 +1655,7 @@
         "index": {
           "description": "All primary expressions used in rule",
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "allUEs",
           "normalized": "Rule-\u003e[Hash]",
@@ -1544,6 +1672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the variables that directly and indirectly control the value of an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "allUVs",
           "package": "atom",
@@ -1554,6 +1683,7 @@
         "index": {
           "description": "All the variables that directly and indirectly control the value of an expression",
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "allUVs",
           "normalized": "UeMap-\u003e[Rule]-\u003eHash-\u003e[MUV]",
@@ -1621,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "atomActions",
           "package": "atom",
@@ -1630,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "atomActions",
           "normalized": "[([String]-\u003eString,[Hash])]",
@@ -1645,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "atomAsserts",
           "package": "atom",
@@ -1654,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "atomAsserts",
           "normalized": "[(Name,Hash)]",
@@ -1669,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "atomAssigns",
           "package": "atom",
@@ -1678,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "atomAssigns",
           "normalized": "[(MUV,Hash)]",
@@ -1693,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "atomCovers",
           "package": "atom",
@@ -1702,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "atomCovers",
           "normalized": "[(Name,Hash)]",
@@ -1717,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "atomEnable",
           "package": "atom",
@@ -1726,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "atomEnable",
           "package": "atom",
@@ -1739,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "atomId",
           "package": "atom",
@@ -1748,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "atomId",
           "package": "atom",
@@ -1761,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "atomName",
           "package": "atom",
@@ -1770,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "atomName",
           "package": "atom",
@@ -1783,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "atomNames",
           "package": "atom",
@@ -1792,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "atomNames",
           "normalized": "[Name]",
@@ -1807,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "atomPeriod",
           "package": "atom",
@@ -1816,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "atomPeriod",
           "package": "atom",
@@ -1829,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "atomPhase",
           "package": "atom",
@@ -1838,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "atomPhase",
           "package": "atom",
@@ -1851,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "atomSubs",
           "package": "atom",
@@ -1860,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "atomSubs",
           "normalized": "[AtomDB]",
@@ -1875,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "buildAtom",
           "package": "atom",
@@ -1884,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "buildAtom",
           "normalized": "UeMap-\u003eGlobal-\u003eName-\u003eAtom a-\u003eIO(a,AtomSt)",
@@ -1900,6 +2054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Relation is used for relative performance constraints between \u003ccode\u003eAction\u003c/code\u003es.\n data Relation = Higher UID | Lower UID deriving (Show, Eq)\n\u003c/p\u003e\u003cp\u003eGiven a top level name and design, elaborates design and returns a design database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "elaborate",
           "package": "atom",
@@ -1910,6 +2065,7 @@
         "index": {
           "description": "Relation is used for relative performance constraints between Action data Relation Higher UID Lower UID deriving Show Eq Given top level name and design elaborates design and returns design database",
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "elaborate",
           "normalized": "UeMap-\u003eName-\u003eAtom()-\u003eIO(Maybe(UeMap,(StateHierarchy,[Rule],[Name],[Name],[(Name,Type)])))",
@@ -1924,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "gArrayId",
           "package": "atom",
@@ -1933,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "gArrayId",
           "package": "atom",
@@ -1946,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "gPeriod",
           "package": "atom",
@@ -1955,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "gPeriod",
           "package": "atom",
@@ -1968,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "gPhase",
           "package": "atom",
@@ -1977,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "gPhase",
           "package": "atom",
@@ -1990,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "gProbes",
           "package": "atom",
@@ -1999,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "gProbes",
           "normalized": "[(String,Hash)]",
@@ -2014,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "gRuleId",
           "package": "atom",
@@ -2023,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "gRuleId",
           "package": "atom",
@@ -2036,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "gState",
           "package": "atom",
@@ -2045,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "gState",
           "normalized": "[StateHierarchy]",
@@ -2060,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "gVarId",
           "package": "atom",
@@ -2069,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "gVarId",
           "package": "atom",
@@ -2082,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "get",
           "package": "atom",
@@ -2091,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "get",
           "package": "atom",
@@ -2103,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "put",
           "package": "atom",
@@ -2112,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "put",
           "normalized": "AtomSt-\u003eAtom()",
@@ -2126,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "ruleActions",
           "package": "atom",
@@ -2135,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "ruleActions",
           "normalized": "[([String]-\u003eString,[Hash])]",
@@ -2150,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "ruleAssert",
           "package": "atom",
@@ -2159,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "ruleAssert",
           "package": "atom",
@@ -2172,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "ruleAssigns",
           "package": "atom",
@@ -2181,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "ruleAssigns",
           "normalized": "[(MUV,Hash)]",
@@ -2196,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "ruleCover",
           "package": "atom",
@@ -2205,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "ruleCover",
           "package": "atom",
@@ -2218,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "ruleEnable",
           "package": "atom",
@@ -2227,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "ruleEnable",
           "package": "atom",
@@ -2240,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "ruleId",
           "package": "atom",
@@ -2249,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "ruleId",
           "package": "atom",
@@ -2262,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "ruleName",
           "package": "atom",
@@ -2271,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "ruleName",
           "package": "atom",
@@ -2284,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "rulePeriod",
           "package": "atom",
@@ -2293,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "rulePeriod",
           "package": "atom",
@@ -2306,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Elaboration",
           "name": "rulePhase",
           "package": "atom",
@@ -2315,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Elaboration",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Elaboration",
           "name": "rulePhase",
           "package": "atom",
@@ -2381,6 +2573,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn example atom design.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Example",
           "name": "Example",
           "package": "atom",
@@ -2390,6 +2583,7 @@
         "index": {
           "description": "An example atom design",
           "hierarchy": "Language Atom Example",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Example",
           "name": "Example",
           "package": "atom",
@@ -2404,6 +2598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvoke the atom compiler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Example",
           "name": "compileExample",
           "package": "atom",
@@ -2414,6 +2609,7 @@
         "index": {
           "description": "Invoke the atom compiler",
           "hierarchy": "Language Atom Example",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Example",
           "name": "compileExample",
           "normalized": "IO()",
@@ -2430,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn example design that computes the greatest common divisor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Example",
           "name": "example",
           "package": "atom",
@@ -2440,6 +2637,7 @@
         "index": {
           "description": "An example design that computes the greatest common divisor",
           "hierarchy": "Language Atom Example",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Example",
           "name": "example",
           "normalized": "Atom()",
@@ -2454,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Expressions",
           "package": "atom",
@@ -2462,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Expressions",
           "package": "atom",
@@ -2476,6 +2676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typed array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "A",
           "package": "atom",
@@ -2485,6 +2686,7 @@
         "index": {
           "description": "typed array",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "A",
           "package": "atom",
@@ -2497,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Const",
           "package": "atom",
@@ -2505,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Const",
           "package": "atom",
@@ -2519,6 +2723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typed expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "E",
           "package": "atom",
@@ -2528,6 +2733,7 @@
         "index": {
           "description": "typed expression",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "E",
           "package": "atom",
@@ -2540,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "EqE",
           "package": "atom",
@@ -2548,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "EqE",
           "package": "atom",
@@ -2561,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Expr",
           "package": "atom",
@@ -2569,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Expr",
           "package": "atom",
@@ -2582,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Expression",
           "package": "atom",
@@ -2590,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Expression",
           "package": "atom",
@@ -2603,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "FloatingE",
           "package": "atom",
@@ -2611,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "FloatingE",
           "package": "atom",
@@ -2624,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "IntegralE",
           "package": "atom",
@@ -2632,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "IntegralE",
           "package": "atom",
@@ -2645,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "NumE",
           "package": "atom",
@@ -2653,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "NumE",
           "package": "atom",
@@ -2666,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "OrdE",
           "package": "atom",
@@ -2674,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "OrdE",
           "package": "atom",
@@ -2688,6 +2908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a \u003ccode\u003e\u003ca\u003eE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Type",
           "package": "atom",
@@ -2697,6 +2918,7 @@
         "index": {
           "description": "The type of",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Type",
           "package": "atom",
@@ -2710,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "TypeOf",
           "package": "atom",
@@ -2718,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "TypeOf",
           "package": "atom",
@@ -2732,6 +2956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn untyped array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UA",
           "package": "atom",
@@ -2741,6 +2966,7 @@
         "index": {
           "description": "An untyped array",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UA",
           "package": "atom",
@@ -2755,6 +2981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn untyped term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UE",
           "package": "atom",
@@ -2764,6 +2991,7 @@
         "index": {
           "description": "An untyped term",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UE",
           "package": "atom",
@@ -2778,6 +3006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUntyped variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UV",
           "package": "atom",
@@ -2787,6 +3016,7 @@
         "index": {
           "description": "Untyped variables",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UV",
           "package": "atom",
@@ -2801,6 +3031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables updated by state transition rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "V",
           "package": "atom",
@@ -2810,6 +3041,7 @@
         "index": {
           "description": "Variables updated by state transition rules",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "V",
           "package": "atom",
@@ -2822,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Variable",
           "package": "atom",
@@ -2830,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Variable",
           "package": "atom",
@@ -2843,6 +3077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Width",
           "package": "atom",
@@ -2851,6 +3086,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Width",
           "package": "atom",
@@ -2865,6 +3101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical OR.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(||.)",
           "package": "atom",
@@ -2875,6 +3112,7 @@
         "index": {
           "description": "Logical OR",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(||.) ||.",
           "normalized": "E Bool-\u003eE Bool-\u003eE Bool",
@@ -2890,6 +3128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArray index to variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(!)",
           "package": "atom",
@@ -2900,6 +3139,7 @@
         "index": {
           "description": "Array index to variable",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(!) !",
           "normalized": "A a-\u003eE b-\u003eV a",
@@ -2915,6 +3155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArray index to expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(!.)",
           "package": "atom",
@@ -2925,6 +3166,7 @@
         "index": {
           "description": "Array index to expression",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(!.) !.",
           "normalized": "A a-\u003eE b-\u003eE a",
@@ -2940,6 +3182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical AND.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(&&.)",
           "package": "atom",
@@ -2950,6 +3193,7 @@
         "index": {
           "description": "Logical AND",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(&&.) &&.",
           "normalized": "E Bool-\u003eE Bool-\u003eE Bool",
@@ -2965,6 +3209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(/=.)",
           "package": "atom",
@@ -2975,6 +3220,7 @@
         "index": {
           "description": "Not equal",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(/=.) /=.",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -2990,6 +3236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than or equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(\u003c=.)",
           "package": "atom",
@@ -3000,6 +3247,7 @@
         "index": {
           "description": "Less than or equal",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(\u003c=.) \u003c=.",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -3015,6 +3263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(\u003c.)",
           "package": "atom",
@@ -3025,6 +3274,7 @@
         "index": {
           "description": "Less than",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(\u003c.) \u003c.",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -3040,6 +3290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqual.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(==.)",
           "package": "atom",
@@ -3050,6 +3301,7 @@
         "index": {
           "description": "Equal",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(==.) ==.",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -3065,6 +3317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater than or equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(\u003e=.)",
           "package": "atom",
@@ -3075,6 +3328,7 @@
         "index": {
           "description": "Greater than or equal",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(\u003e=.) \u003e=.",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -3090,6 +3344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater than.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(\u003e.)",
           "package": "atom",
@@ -3100,6 +3355,7 @@
         "index": {
           "description": "Greater than",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(\u003e.) \u003e.",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -3115,6 +3371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitwise \"or\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(.|.)",
           "package": "atom",
@@ -3124,6 +3381,7 @@
         "index": {
           "description": "Bitwise or",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(.|.) .|.",
           "normalized": "a-\u003ea-\u003ea",
@@ -3139,6 +3397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitwise \"and\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(.&.)",
           "package": "atom",
@@ -3148,6 +3407,7 @@
         "index": {
           "description": "Bitwise and",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(.&.) .&.",
           "normalized": "a-\u003ea-\u003ea",
@@ -3163,6 +3423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitwise left-shifting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(.\u003c\u003c.)",
           "package": "atom",
@@ -3173,6 +3434,7 @@
         "index": {
           "description": "Bitwise left-shifting",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(.\u003c\u003c.) .\u003c\u003c.",
           "normalized": "E a-\u003eE b-\u003eE a",
@@ -3188,6 +3450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitwise right-shifting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "(.\u003e\u003e.)",
           "package": "atom",
@@ -3198,6 +3461,7 @@
         "index": {
           "description": "Bitwise right-shifting",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "(.\u003e\u003e.) .\u003e\u003e.",
           "normalized": "E a-\u003eE b-\u003eE a",
@@ -3212,6 +3476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "A",
           "package": "atom",
@@ -3221,6 +3486,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "A",
           "package": "atom",
@@ -3233,6 +3499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Acos",
           "package": "atom",
@@ -3242,6 +3509,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Acos",
           "normalized": "E a-\u003eE a",
@@ -3257,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Acosh",
           "package": "atom",
@@ -3266,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Acosh",
           "normalized": "E a-\u003eE a",
@@ -3281,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Add",
           "package": "atom",
@@ -3290,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Add",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -3305,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "And",
           "package": "atom",
@@ -3314,6 +3587,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "And",
           "normalized": "E Bool-\u003eE Bool-\u003eE Bool",
@@ -3329,6 +3603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Asin",
           "package": "atom",
@@ -3338,6 +3613,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Asin",
           "normalized": "E a-\u003eE a",
@@ -3353,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Asinh",
           "package": "atom",
@@ -3362,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Asinh",
           "normalized": "E a-\u003eE a",
@@ -3377,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Atan",
           "package": "atom",
@@ -3386,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Atan",
           "normalized": "E a-\u003eE a",
@@ -3401,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Atanh",
           "package": "atom",
@@ -3410,6 +3691,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Atanh",
           "normalized": "E a-\u003eE a",
@@ -3425,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "B2D",
           "package": "atom",
@@ -3434,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "B2D",
           "normalized": "E Word-\u003eE Double",
@@ -3448,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "B2F",
           "package": "atom",
@@ -3457,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "B2F",
           "normalized": "E Word-\u003eE Float",
@@ -3471,6 +3757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "BWAnd",
           "package": "atom",
@@ -3480,6 +3767,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "BWAnd",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -3495,6 +3783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "BWNot",
           "package": "atom",
@@ -3504,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "BWNot",
           "normalized": "E a-\u003eE a",
@@ -3519,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "BWOr",
           "package": "atom",
@@ -3528,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "BWOr",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -3543,6 +3835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "BWShiftL",
           "package": "atom",
@@ -3552,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "BWShiftL",
           "normalized": "E a-\u003eE b-\u003eE a",
@@ -3567,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "BWShiftR",
           "package": "atom",
@@ -3576,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "BWShiftR",
           "normalized": "E a-\u003eE b-\u003eE a",
@@ -3591,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "BWXor",
           "package": "atom",
@@ -3600,6 +3897,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "BWXor",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -3615,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Bool",
           "package": "atom",
@@ -3624,6 +3923,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Bool",
           "package": "atom",
@@ -3637,6 +3937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "CBool",
           "package": "atom",
@@ -3646,6 +3947,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "CBool",
           "package": "atom",
@@ -3659,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "CDouble",
           "package": "atom",
@@ -3668,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "CDouble",
           "package": "atom",
@@ -3681,6 +3985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "CFloat",
           "package": "atom",
@@ -3690,6 +3995,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "CFloat",
           "package": "atom",
@@ -3703,6 +4009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "CInt16",
           "package": "atom",
@@ -3712,6 +4019,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "CInt16",
           "package": "atom",
@@ -3725,6 +4033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "CInt32",
           "package": "atom",
@@ -3734,6 +4043,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "CInt32",
           "package": "atom",
@@ -3747,6 +4057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "CInt64",
           "package": "atom",
@@ -3756,6 +4067,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "CInt64",
           "package": "atom",
@@ -3769,6 +4081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "CInt8",
           "package": "atom",
@@ -3778,6 +4091,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "CInt8",
           "package": "atom",
@@ -3791,6 +4105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "CWord16",
           "package": "atom",
@@ -3800,6 +4115,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "CWord16",
           "package": "atom",
@@ -3813,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "CWord32",
           "package": "atom",
@@ -3822,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "CWord32",
           "package": "atom",
@@ -3835,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "CWord64",
           "package": "atom",
@@ -3844,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "CWord64",
           "package": "atom",
@@ -3857,6 +4177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "CWord8",
           "package": "atom",
@@ -3866,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "CWord8",
           "package": "atom",
@@ -3879,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Cast",
           "package": "atom",
@@ -3888,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Cast",
           "normalized": "E a-\u003eE b",
@@ -3903,6 +4227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Const",
           "package": "atom",
@@ -3912,6 +4237,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Const",
           "normalized": "a-\u003eE a",
@@ -3927,6 +4253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Cos",
           "package": "atom",
@@ -3936,6 +4263,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Cos",
           "normalized": "E a-\u003eE a",
@@ -3951,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Cosh",
           "package": "atom",
@@ -3960,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Cosh",
           "normalized": "E a-\u003eE a",
@@ -3975,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "D2B",
           "package": "atom",
@@ -3984,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "D2B",
           "normalized": "E Double-\u003eE Word",
@@ -3998,6 +4330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Div",
           "package": "atom",
@@ -4007,6 +4340,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Div",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -4022,6 +4356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Double",
           "package": "atom",
@@ -4031,6 +4366,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Double",
           "package": "atom",
@@ -4044,6 +4380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "EBool",
           "package": "atom",
@@ -4053,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "EBool",
           "package": "atom",
@@ -4066,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "EDouble",
           "package": "atom",
@@ -4075,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "EDouble",
           "package": "atom",
@@ -4088,6 +4428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "EFloat",
           "package": "atom",
@@ -4097,6 +4438,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "EFloat",
           "package": "atom",
@@ -4110,6 +4452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "EInt16",
           "package": "atom",
@@ -4119,6 +4462,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "EInt16",
           "package": "atom",
@@ -4132,6 +4476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "EInt32",
           "package": "atom",
@@ -4141,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "EInt32",
           "package": "atom",
@@ -4154,6 +4500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "EInt64",
           "package": "atom",
@@ -4163,6 +4510,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "EInt64",
           "package": "atom",
@@ -4176,6 +4524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "EInt8",
           "package": "atom",
@@ -4185,6 +4534,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "EInt8",
           "package": "atom",
@@ -4198,6 +4548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "EWord16",
           "package": "atom",
@@ -4207,6 +4558,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "EWord16",
           "package": "atom",
@@ -4220,6 +4572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "EWord32",
           "package": "atom",
@@ -4229,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "EWord32",
           "package": "atom",
@@ -4242,6 +4596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "EWord64",
           "package": "atom",
@@ -4251,6 +4606,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "EWord64",
           "package": "atom",
@@ -4264,6 +4620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "EWord8",
           "package": "atom",
@@ -4273,6 +4630,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "EWord8",
           "package": "atom",
@@ -4286,6 +4644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Eq",
           "package": "atom",
@@ -4295,6 +4654,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Eq",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -4310,6 +4670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Exp",
           "package": "atom",
@@ -4319,6 +4680,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Exp",
           "normalized": "E a-\u003eE a",
@@ -4334,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "F2B",
           "package": "atom",
@@ -4343,6 +4706,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "F2B",
           "normalized": "E Float-\u003eE Word",
@@ -4357,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Float",
           "package": "atom",
@@ -4366,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Float",
           "package": "atom",
@@ -4379,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Int16",
           "package": "atom",
@@ -4388,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Int16",
           "package": "atom",
@@ -4401,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Int32",
           "package": "atom",
@@ -4410,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Int32",
           "package": "atom",
@@ -4423,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Int64",
           "package": "atom",
@@ -4432,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Int64",
           "package": "atom",
@@ -4445,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Int8",
           "package": "atom",
@@ -4454,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Int8",
           "package": "atom",
@@ -4467,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Log",
           "package": "atom",
@@ -4476,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Log",
           "normalized": "E a-\u003eE a",
@@ -4491,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Lt",
           "package": "atom",
@@ -4500,6 +4877,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Lt",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -4515,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Mod",
           "package": "atom",
@@ -4524,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Mod",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -4539,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Mul",
           "package": "atom",
@@ -4548,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Mul",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -4563,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Mux",
           "package": "atom",
@@ -4572,6 +4955,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Mux",
           "normalized": "E Bool-\u003eE a-\u003eE a-\u003eE a",
@@ -4587,6 +4971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Not",
           "package": "atom",
@@ -4596,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Not",
           "normalized": "E Bool-\u003eE Bool",
@@ -4611,6 +4997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Pi",
           "package": "atom",
@@ -4620,6 +5007,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Pi",
           "package": "atom",
@@ -4633,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Pow",
           "package": "atom",
@@ -4642,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Pow",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -4657,6 +5047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Retype",
           "package": "atom",
@@ -4666,6 +5057,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Retype",
           "normalized": "UE-\u003eE a",
@@ -4681,6 +5073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Sin",
           "package": "atom",
@@ -4690,6 +5083,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Sin",
           "normalized": "E a-\u003eE a",
@@ -4705,6 +5099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Sinh",
           "package": "atom",
@@ -4714,6 +5109,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Sinh",
           "normalized": "E a-\u003eE a",
@@ -4729,6 +5125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Sqrt",
           "package": "atom",
@@ -4738,6 +5135,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Sqrt",
           "normalized": "E a-\u003eE a",
@@ -4753,6 +5151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Sub",
           "package": "atom",
@@ -4762,6 +5161,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Sub",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -4777,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UA",
           "package": "atom",
@@ -4786,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UA",
           "normalized": "UA Int String[Const]",
@@ -4801,6 +5203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UAExtern",
           "package": "atom",
@@ -4810,6 +5213,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UAExtern",
           "package": "atom",
@@ -4823,6 +5227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UAcos",
           "package": "atom",
@@ -4832,6 +5237,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UAcos",
           "package": "atom",
@@ -4845,6 +5251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UAcosh",
           "package": "atom",
@@ -4854,6 +5261,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UAcosh",
           "package": "atom",
@@ -4867,6 +5275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UAdd",
           "package": "atom",
@@ -4876,6 +5285,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UAdd",
           "package": "atom",
@@ -4889,6 +5299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UAnd",
           "package": "atom",
@@ -4898,6 +5309,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UAnd",
           "normalized": "UAnd[UE]",
@@ -4913,6 +5325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UAsin",
           "package": "atom",
@@ -4922,6 +5335,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UAsin",
           "package": "atom",
@@ -4935,6 +5349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UAsinh",
           "package": "atom",
@@ -4944,6 +5359,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UAsinh",
           "package": "atom",
@@ -4957,6 +5373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UAtan",
           "package": "atom",
@@ -4966,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UAtan",
           "package": "atom",
@@ -4979,6 +5397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UAtanh",
           "package": "atom",
@@ -4988,6 +5407,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UAtanh",
           "package": "atom",
@@ -5001,6 +5421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UB2D",
           "package": "atom",
@@ -5010,6 +5431,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UB2D",
           "package": "atom",
@@ -5023,6 +5445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UB2F",
           "package": "atom",
@@ -5032,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UB2F",
           "package": "atom",
@@ -5045,6 +5469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UBWAnd",
           "package": "atom",
@@ -5054,6 +5479,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UBWAnd",
           "package": "atom",
@@ -5067,6 +5493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UBWNot",
           "package": "atom",
@@ -5076,6 +5503,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UBWNot",
           "package": "atom",
@@ -5089,6 +5517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UBWOr",
           "package": "atom",
@@ -5098,6 +5527,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UBWOr",
           "package": "atom",
@@ -5111,6 +5541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UBWShiftL",
           "package": "atom",
@@ -5120,6 +5551,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UBWShiftL",
           "package": "atom",
@@ -5133,6 +5565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UBWShiftR",
           "package": "atom",
@@ -5142,6 +5575,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UBWShiftR",
           "package": "atom",
@@ -5155,6 +5589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UBWXor",
           "package": "atom",
@@ -5164,6 +5599,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UBWXor",
           "package": "atom",
@@ -5177,6 +5613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UCast",
           "package": "atom",
@@ -5186,6 +5623,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UCast",
           "package": "atom",
@@ -5199,6 +5637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UConst",
           "package": "atom",
@@ -5208,6 +5647,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UConst",
           "package": "atom",
@@ -5221,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UCos",
           "package": "atom",
@@ -5230,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UCos",
           "package": "atom",
@@ -5243,6 +5685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UCosh",
           "package": "atom",
@@ -5252,6 +5695,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UCosh",
           "package": "atom",
@@ -5265,6 +5709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UD2B",
           "package": "atom",
@@ -5274,6 +5719,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UD2B",
           "package": "atom",
@@ -5287,6 +5733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UDiv",
           "package": "atom",
@@ -5296,6 +5743,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UDiv",
           "package": "atom",
@@ -5309,6 +5757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UEq",
           "package": "atom",
@@ -5318,6 +5767,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UEq",
           "package": "atom",
@@ -5331,6 +5781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UExp",
           "package": "atom",
@@ -5340,6 +5791,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UExp",
           "package": "atom",
@@ -5353,6 +5805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UF2B",
           "package": "atom",
@@ -5362,6 +5815,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UF2B",
           "package": "atom",
@@ -5375,6 +5829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "ULog",
           "package": "atom",
@@ -5384,6 +5839,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "ULog",
           "package": "atom",
@@ -5397,6 +5853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "ULt",
           "package": "atom",
@@ -5406,6 +5863,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "ULt",
           "package": "atom",
@@ -5419,6 +5877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UMod",
           "package": "atom",
@@ -5428,6 +5887,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UMod",
           "package": "atom",
@@ -5441,6 +5901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UMul",
           "package": "atom",
@@ -5450,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UMul",
           "package": "atom",
@@ -5463,6 +5925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UMux",
           "package": "atom",
@@ -5472,6 +5935,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UMux",
           "package": "atom",
@@ -5485,6 +5949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UNot",
           "package": "atom",
@@ -5494,6 +5959,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UNot",
           "package": "atom",
@@ -5507,6 +5973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UPi",
           "package": "atom",
@@ -5516,6 +5983,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UPi",
           "package": "atom",
@@ -5529,6 +5997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UPow",
           "package": "atom",
@@ -5538,6 +6007,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UPow",
           "package": "atom",
@@ -5551,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "USin",
           "package": "atom",
@@ -5560,6 +6031,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "USin",
           "package": "atom",
@@ -5573,6 +6045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "USinh",
           "package": "atom",
@@ -5582,6 +6055,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "USinh",
           "package": "atom",
@@ -5595,6 +6069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "USqrt",
           "package": "atom",
@@ -5604,6 +6079,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "USqrt",
           "package": "atom",
@@ -5617,6 +6093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "USub",
           "package": "atom",
@@ -5626,6 +6103,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "USub",
           "package": "atom",
@@ -5639,6 +6117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UV",
           "package": "atom",
@@ -5648,6 +6127,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UV",
           "package": "atom",
@@ -5661,6 +6141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UVArray",
           "package": "atom",
@@ -5670,6 +6151,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UVArray",
           "package": "atom",
@@ -5683,6 +6165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UVExtern",
           "package": "atom",
@@ -5692,6 +6175,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UVExtern",
           "package": "atom",
@@ -5705,6 +6189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "UVRef",
           "package": "atom",
@@ -5714,6 +6199,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "UVRef",
           "package": "atom",
@@ -5727,6 +6213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "V",
           "package": "atom",
@@ -5736,6 +6223,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "V",
           "package": "atom",
@@ -5748,6 +6236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "VBool",
           "package": "atom",
@@ -5757,6 +6246,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "VBool",
           "package": "atom",
@@ -5770,6 +6260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "VDouble",
           "package": "atom",
@@ -5779,6 +6270,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "VDouble",
           "package": "atom",
@@ -5792,6 +6284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "VFloat",
           "package": "atom",
@@ -5801,6 +6294,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "VFloat",
           "package": "atom",
@@ -5814,6 +6308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "VInt16",
           "package": "atom",
@@ -5823,6 +6318,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "VInt16",
           "package": "atom",
@@ -5836,6 +6332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "VInt32",
           "package": "atom",
@@ -5845,6 +6342,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "VInt32",
           "package": "atom",
@@ -5858,6 +6356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "VInt64",
           "package": "atom",
@@ -5867,6 +6366,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "VInt64",
           "package": "atom",
@@ -5880,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "VInt8",
           "package": "atom",
@@ -5889,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "VInt8",
           "package": "atom",
@@ -5902,6 +6404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "VRef",
           "package": "atom",
@@ -5911,6 +6414,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "VRef",
           "normalized": "V a-\u003eE a",
@@ -5926,6 +6430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "VWord16",
           "package": "atom",
@@ -5935,6 +6440,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "VWord16",
           "package": "atom",
@@ -5948,6 +6454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "VWord32",
           "package": "atom",
@@ -5957,6 +6464,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "VWord32",
           "package": "atom",
@@ -5970,6 +6478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "VWord64",
           "package": "atom",
@@ -5979,6 +6488,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "VWord64",
           "package": "atom",
@@ -5992,6 +6502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "VWord8",
           "package": "atom",
@@ -6001,6 +6512,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "VWord8",
           "package": "atom",
@@ -6014,6 +6526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Word16",
           "package": "atom",
@@ -6023,6 +6536,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Word16",
           "package": "atom",
@@ -6036,6 +6550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Word32",
           "package": "atom",
@@ -6045,6 +6560,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Word32",
           "package": "atom",
@@ -6058,6 +6574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Word64",
           "package": "atom",
@@ -6067,6 +6584,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Word64",
           "package": "atom",
@@ -6080,6 +6598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "Word8",
           "package": "atom",
@@ -6089,6 +6608,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "Word8",
           "package": "atom",
@@ -6103,6 +6623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the predicate is true for all elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "all_",
           "package": "atom",
@@ -6113,6 +6634,7 @@
         "index": {
           "description": "True iff the predicate is true for all elements",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "all_",
           "normalized": "(a-\u003eE Bool)-\u003e[a]-\u003eE Bool",
@@ -6128,6 +6650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe conjunction of a E Bool list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "and_",
           "package": "atom",
@@ -6138,6 +6661,7 @@
         "index": {
           "description": "The conjunction of Bool list",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "and_",
           "normalized": "[E Bool]-\u003eE Bool",
@@ -6153,6 +6677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the predicate is true for any element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "any_",
           "package": "atom",
@@ -6163,6 +6688,7 @@
         "index": {
           "description": "True iff the predicate is true for any element",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "any_",
           "normalized": "(a-\u003eE Bool)-\u003e[a]-\u003eE Bool",
@@ -6178,6 +6704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of bits in the type of the argument.  The actual\n        value of the argument is ignored.  The function \u003ccode\u003e\u003ca\u003ebitSize\u003c/a\u003e\u003c/code\u003e is\n        undefined for types that do not have a fixed bitsize, like \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "bitSize",
           "package": "atom",
@@ -6187,6 +6714,7 @@
         "index": {
           "description": "Return the number of bits in the type of the argument The actual value of the argument is ignored The function bitSize is undefined for types that do not have fixed bitsize like Integer",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "bitSize",
           "normalized": "a-\u003eInt",
@@ -6202,6 +6730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "bytes",
           "package": "atom",
@@ -6211,6 +6740,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "bytes",
           "normalized": "a-\u003eInt",
@@ -6226,6 +6756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse all the bits in the argument \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "complement",
           "package": "atom",
@@ -6235,6 +6766,7 @@
         "index": {
           "description": "Reverse all the bits in the argument",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "complement",
           "normalized": "a-\u003ea",
@@ -6249,6 +6781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "constant",
           "package": "atom",
@@ -6258,6 +6791,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "constant",
           "normalized": "a-\u003eConst",
@@ -6273,6 +6807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision, where the C code is instrumented with a runtime check to ensure\n the divisor does not equal \u003ccode\u003e0\u003c/code\u003e.  If it is equal to \u003ccode\u003e0\u003c/code\u003e, the 3rd argument is a\n user-supplied non-zero divsor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "div0_",
           "package": "atom",
@@ -6283,6 +6818,7 @@
         "index": {
           "description": "Division where the code is instrumented with runtime check to ensure the divisor does not equal If it is equal to the rd argument is user-supplied non-zero divsor",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "div0_",
           "normalized": "E a-\u003eE a-\u003ea-\u003eE a",
@@ -6298,6 +6834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision.  If both the dividend and divisor are constants, a compile-time\n check is made for divide-by-zero.  Otherwise, if the divisor ever evaluates\n to \u003ccode\u003e0\u003c/code\u003e, a runtime exception will occur, even if the division occurs within\n the scope of a \u003ccode\u003econd\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emux\u003c/a\u003e\u003c/code\u003e that tests for \u003ccode\u003e0\u003c/code\u003e (because Atom generates\n deterministic-time code, every branch of a \u003ccode\u003econd\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emux\u003c/a\u003e\u003c/code\u003e is executed).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "div_",
           "package": "atom",
@@ -6308,6 +6845,7 @@
         "index": {
           "description": "Division If both the dividend and divisor are constants compile-time check is made for divide-by-zero Otherwise if the divisor ever evaluates to runtime exception will occur even if the division occurs within the scope of cond or mux that tests for because Atom generates deterministic-time code every branch of cond or mux is executed",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "div_",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -6322,6 +6860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "eType",
           "package": "atom",
@@ -6331,6 +6870,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "eType",
           "normalized": "E a-\u003eType",
@@ -6346,6 +6886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "expression",
           "package": "atom",
@@ -6355,6 +6896,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "expression",
           "normalized": "E a-\u003eExpression",
@@ -6370,6 +6912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "false",
           "package": "atom",
@@ -6380,6 +6923,7 @@
         "index": {
           "description": "False term",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "false",
           "package": "atom",
@@ -6392,6 +6936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "imply",
           "package": "atom",
@@ -6401,6 +6946,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "imply",
           "normalized": "E Bool-\u003eE Bool-\u003eE Bool",
@@ -6416,6 +6962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the argument is a signed type.  The actual\n        value of the argument is ignored \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "isSigned",
           "package": "atom",
@@ -6425,6 +6972,7 @@
         "index": {
           "description": "Return True if the argument is signed type The actual value of the argument is ignored",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "isSigned",
           "normalized": "a-\u003eBool",
@@ -6441,6 +6989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimits between min and max.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "limit",
           "package": "atom",
@@ -6451,6 +7000,7 @@
         "index": {
           "description": "Limits between min and max",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "limit",
           "normalized": "E a-\u003eE a-\u003eE a-\u003eE a",
@@ -6466,6 +7016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the maximum of two numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "max_",
           "package": "atom",
@@ -6476,6 +7027,7 @@
         "index": {
           "description": "Returns the maximum of two numbers",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "max_",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -6491,6 +7043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the maximum of a list of numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "maximum_",
           "package": "atom",
@@ -6501,6 +7054,7 @@
         "index": {
           "description": "Returns the maximum of list of numbers",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "maximum_",
           "normalized": "[E a]-\u003eE a",
@@ -6516,6 +7070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the minimum of two numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "min_",
           "package": "atom",
@@ -6526,6 +7081,7 @@
         "index": {
           "description": "Returns the minimum of two numbers",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "min_",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -6541,6 +7097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the minimum of a list of numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "minimum_",
           "package": "atom",
@@ -6551,6 +7108,7 @@
         "index": {
           "description": "Returns the minimum of list of numbers",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "minimum_",
           "normalized": "[E a]-\u003eE a",
@@ -6566,6 +7124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModulus, where the C code is instrumented with a runtime check to ensure\n the modulus does not equal \u003ccode\u003e0\u003c/code\u003e.  If it is equal to \u003ccode\u003e0\u003c/code\u003e, the 3rd argument is\n a user-supplied non-zero divsor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "mod0_",
           "package": "atom",
@@ -6576,6 +7135,7 @@
         "index": {
           "description": "Modulus where the code is instrumented with runtime check to ensure the modulus does not equal If it is equal to the rd argument is user-supplied non-zero divsor",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "mod0_",
           "normalized": "E a-\u003eE a-\u003ea-\u003eE a",
@@ -6591,6 +7151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModulo.  If both the dividend and modulus are constants, a compile-time\n check is made for divide-by-zero.  Otherwise, if the modulus ever evaluates\n to \u003ccode\u003e0\u003c/code\u003e, a runtime exception will occur, even if the division occurs within\n the scope of a \u003ccode\u003econd\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emux\u003c/a\u003e\u003c/code\u003e that tests for \u003ccode\u003e0\u003c/code\u003e (because Atom generates\n deterministic-time code, every branch of a \u003ccode\u003econd\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emux\u003c/a\u003e\u003c/code\u003e is executed).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "mod_",
           "package": "atom",
@@ -6601,6 +7162,7 @@
         "index": {
           "description": "Modulo If both the dividend and modulus are constants compile-time check is made for divide-by-zero Otherwise if the modulus ever evaluates to runtime exception will occur even if the division occurs within the scope of cond or mux that tests for because Atom generates deterministic-time code every branch of cond or mux is executed",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "mod_",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -6616,6 +7178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional expression.  Note, both branches are evaluated!\n\u003c/p\u003e\u003cpre\u003e mux test onTrue onFalse\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "mux",
           "package": "atom",
@@ -6626,6 +7189,7 @@
         "index": {
           "description": "Conditional expression Note both branches are evaluated mux test onTrue onFalse",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "mux",
           "normalized": "E Bool-\u003eE a-\u003eE a-\u003eE a",
@@ -6641,6 +7205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical negation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "not_",
           "package": "atom",
@@ -6651,6 +7216,7 @@
         "index": {
           "description": "Logical negation",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "not_",
           "normalized": "E Bool-\u003eE Bool",
@@ -6666,6 +7232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe disjunction of a E Bool list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "or_",
           "package": "atom",
@@ -6676,6 +7243,7 @@
         "index": {
           "description": "The disjunction of Bool list",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "or_",
           "normalized": "[E Bool]-\u003eE Bool",
@@ -6690,6 +7258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "rawBits",
           "package": "atom",
@@ -6699,6 +7268,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "rawBits",
           "normalized": "E a-\u003eE Word",
@@ -6715,6 +7285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitwise left-rotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "rol",
           "package": "atom",
@@ -6725,6 +7296,7 @@
         "index": {
           "description": "Bitwise left-rotation",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "rol",
           "normalized": "E a-\u003eE b-\u003eE a",
@@ -6740,6 +7312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitwise right-rotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "ror",
           "package": "atom",
@@ -6750,6 +7323,7 @@
         "index": {
           "description": "Bitwise right-rotation",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "ror",
           "normalized": "E a-\u003eE b-\u003eE a",
@@ -6765,6 +7339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "true",
           "package": "atom",
@@ -6775,6 +7350,7 @@
         "index": {
           "description": "True term",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "true",
           "package": "atom",
@@ -6787,6 +7363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "typeOf",
           "package": "atom",
@@ -6796,6 +7373,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "typeOf",
           "normalized": "a-\u003eType",
@@ -6811,6 +7389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "uand",
           "package": "atom",
@@ -6820,6 +7399,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "uand",
           "normalized": "UE-\u003eUE-\u003eUE",
@@ -6834,6 +7414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "ubool",
           "package": "atom",
@@ -6843,6 +7424,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "ubool",
           "normalized": "Bool-\u003eUE",
@@ -6858,6 +7440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an typed expression (E a) to an untyped expression (UE).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "ue",
           "package": "atom",
@@ -6868,6 +7451,7 @@
         "index": {
           "description": "Converts an typed expression to an untyped expression UE",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "ue",
           "normalized": "E a-\u003eUE",
@@ -6882,6 +7466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "ueq",
           "package": "atom",
@@ -6891,6 +7476,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "ueq",
           "normalized": "UE-\u003eUE-\u003eUE",
@@ -6905,6 +7491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "umux",
           "package": "atom",
@@ -6914,6 +7501,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "umux",
           "normalized": "UE-\u003eUE-\u003eUE-\u003eUE",
@@ -6928,6 +7516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "unot",
           "package": "atom",
@@ -6937,6 +7526,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "unot",
           "normalized": "UE-\u003eUE",
@@ -6951,6 +7541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "uor",
           "package": "atom",
@@ -6960,6 +7551,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "uor",
           "normalized": "UE-\u003eUE-\u003eUE",
@@ -6974,6 +7566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "uv",
           "package": "atom",
@@ -6983,6 +7576,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "uv",
           "normalized": "V a-\u003eUV",
@@ -6998,6 +7592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value of a \u003ccode\u003e\u003ca\u003eV\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "value",
           "package": "atom",
@@ -7008,6 +7603,7 @@
         "index": {
           "description": "Returns the value of",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "value",
           "normalized": "V a-\u003eE a",
@@ -7022,6 +7618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "variable",
           "package": "atom",
@@ -7031,6 +7628,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "variable",
           "normalized": "V a-\u003eVariable",
@@ -7045,6 +7643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "width",
           "package": "atom",
@@ -7054,6 +7653,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "width",
           "normalized": "a-\u003eInt",
@@ -7069,6 +7669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitwise \"xor\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Expressions",
           "name": "xor",
           "package": "atom",
@@ -7078,6 +7679,7 @@
         "index": {
           "description": "Bitwise xor",
           "hierarchy": "Language Atom Expressions",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Expressions",
           "name": "xor",
           "normalized": "a-\u003ea-\u003ea",
@@ -7093,6 +7695,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Atom language.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "Language",
           "package": "atom",
@@ -7102,6 +7705,7 @@
         "index": {
           "description": "The Atom language",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "Language",
           "package": "atom",
@@ -7115,6 +7719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "Assign",
           "package": "atom",
@@ -7123,6 +7728,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "Assign",
           "package": "atom",
@@ -7137,6 +7743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Atom monad captures variable and transition rule declarations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "Atom",
           "package": "atom",
@@ -7146,6 +7753,7 @@
         "index": {
           "description": "The Atom monad captures variable and transition rule declarations",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "Atom",
           "package": "atom",
@@ -7160,6 +7768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "Name",
           "package": "atom",
@@ -7169,6 +7778,7 @@
         "index": {
           "description": "name",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "Name",
           "package": "atom",
@@ -7183,6 +7793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign an \u003ccode\u003e\u003ca\u003eE\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eV\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "(\u003c==)",
           "package": "atom",
@@ -7193,6 +7804,7 @@
         "index": {
           "description": "Assign an to",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "(\u003c==) \u003c==",
           "normalized": "V a-\u003eE a-\u003eAtom()",
@@ -7208,6 +7820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclares an action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "action",
           "package": "atom",
@@ -7218,6 +7831,7 @@
         "index": {
           "description": "Declares an action",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "action",
           "normalized": "([String]-\u003eString)-\u003e[UE]-\u003eAtom()",
@@ -7233,6 +7847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn assertions checks that an E Bool is true.  Assertions are checked\n between the execution of every rule.  Parent enabling conditions can\n disable assertions, but period and phase constraints do not.  Assertion\n names should be globally unique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "assert",
           "package": "atom",
@@ -7243,6 +7858,7 @@
         "index": {
           "description": "An assertions checks that an Bool is true Assertions are checked between the execution of every rule Parent enabling conditions can disable assertions but period and phase constraints do not Assertion names should be globally unique",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "assert",
           "normalized": "Name-\u003eE Bool-\u003eAtom()",
@@ -7258,6 +7874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplication assertions.  Creates an implicit coverage point for the precondition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "assertImply",
           "package": "atom",
@@ -7268,6 +7885,7 @@
         "index": {
           "description": "Implication assertions Creates an implicit coverage point for the precondition",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "assertImply",
           "normalized": "Name-\u003eE Bool-\u003eE Bool-\u003eAtom()",
@@ -7284,6 +7902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a hierarchical node, where each node could be a atomic rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "atom",
           "package": "atom",
@@ -7294,6 +7913,7 @@
         "index": {
           "description": "Creates hierarchical node where each node could be atomic rule",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "atom",
           "normalized": "Name-\u003eAtom a-\u003eAtom a",
@@ -7309,6 +7929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal boolean variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "bool",
           "package": "atom",
@@ -7319,6 +7940,7 @@
         "index": {
           "description": "Local boolean variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "bool",
           "normalized": "Name-\u003eBool-\u003eAtom(V Bool)",
@@ -7334,6 +7956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal boolean variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "bool'",
           "package": "atom",
@@ -7344,6 +7967,7 @@
         "index": {
           "description": "External boolean variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "bool'",
           "normalized": "Name-\u003eV Bool",
@@ -7359,6 +7983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls an external C function of type 'void f(void)'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "call",
           "package": "atom",
@@ -7369,6 +7994,7 @@
         "index": {
           "description": "Calls an external function of type void void",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "call",
           "normalized": "Name-\u003eAtom()",
@@ -7384,6 +8010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to the 64-bit free running clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "clock",
           "package": "atom",
@@ -7394,6 +8021,7 @@
         "index": {
           "description": "Reference to the bit free running clock",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "clock",
           "package": "atom",
@@ -7407,6 +8035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds an enabling condition to an atom subtree of rules.\n This condition must be true before any rules in hierarchy\n are allowed to execute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "cond",
           "package": "atom",
@@ -7417,6 +8046,7 @@
         "index": {
           "description": "Adds an enabling condition to an atom subtree of rules This condition must be true before any rules in hierarchy are allowed to execute",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "cond",
           "normalized": "E Bool-\u003eAtom()",
@@ -7432,6 +8062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA functional coverage point tracks if an event has occured (true).\n   Coverage points are checked at the same time as assertions.\n   Coverage names should be globally unique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "cover",
           "package": "atom",
@@ -7442,6 +8073,7 @@
         "index": {
           "description": "functional coverage point tracks if an event has occured true Coverage points are checked at the same time as assertions Coverage names should be globally unique",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "cover",
           "normalized": "Name-\u003eE Bool-\u003eAtom()",
@@ -7457,6 +8089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrements a NumE \u003ccode\u003e\u003ca\u003eV\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "decr",
           "package": "atom",
@@ -7467,6 +8100,7 @@
         "index": {
           "description": "Decrements NumE",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "decr",
           "normalized": "V a-\u003eAtom()",
@@ -7482,6 +8116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal double variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "double",
           "package": "atom",
@@ -7492,6 +8127,7 @@
         "index": {
           "description": "Local double variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "double",
           "normalized": "Name-\u003eDouble-\u003eAtom(V Double)",
@@ -7507,6 +8143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal double variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "double'",
           "package": "atom",
@@ -7517,6 +8154,7 @@
         "index": {
           "description": "External double variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "double'",
           "normalized": "Name-\u003eV Double",
@@ -7532,6 +8170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsures an atom is scheduled only at phase \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "exactPhase",
           "package": "atom",
@@ -7542,6 +8181,7 @@
         "index": {
           "description": "Ensures an atom is scheduled only at phase",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "exactPhase",
           "normalized": "Int-\u003eAtom a-\u003eAtom a",
@@ -7558,6 +8198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal float variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "float",
           "package": "atom",
@@ -7568,6 +8209,7 @@
         "index": {
           "description": "Local float variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "float",
           "normalized": "Name-\u003eFloat-\u003eAtom(V Float)",
@@ -7583,6 +8225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal float variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "float'",
           "package": "atom",
@@ -7593,6 +8236,7 @@
         "index": {
           "description": "External float variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "float'",
           "normalized": "Name-\u003eV Float",
@@ -7608,6 +8252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the execution period of the current scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "getPeriod",
           "package": "atom",
@@ -7618,6 +8263,7 @@
         "index": {
           "description": "Returns the execution period of the current scope",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "getPeriod",
           "package": "atom",
@@ -7632,6 +8278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the phase of the current scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "getPhase",
           "package": "atom",
@@ -7642,6 +8289,7 @@
         "index": {
           "description": "Returns the phase of the current scope",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "getPhase",
           "package": "atom",
@@ -7656,6 +8304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrements a NumE \u003ccode\u003e\u003ca\u003eV\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "incr",
           "package": "atom",
@@ -7666,6 +8315,7 @@
         "index": {
           "description": "Increments NumE",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "incr",
           "normalized": "V a-\u003eAtom()",
@@ -7681,6 +8331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal int16 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "int16",
           "package": "atom",
@@ -7691,6 +8342,7 @@
         "index": {
           "description": "Local int16 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "int16",
           "normalized": "Name-\u003eInt-\u003eAtom(V Int)",
@@ -7706,6 +8358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal int16 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "int16'",
           "package": "atom",
@@ -7716,6 +8369,7 @@
         "index": {
           "description": "External int16 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "int16'",
           "normalized": "Name-\u003eV Int",
@@ -7731,6 +8385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal int32 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "int32",
           "package": "atom",
@@ -7741,6 +8396,7 @@
         "index": {
           "description": "Local int32 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "int32",
           "normalized": "Name-\u003eInt-\u003eAtom(V Int)",
@@ -7756,6 +8412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal int32 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "int32'",
           "package": "atom",
@@ -7766,6 +8423,7 @@
         "index": {
           "description": "External int32 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "int32'",
           "normalized": "Name-\u003eV Int",
@@ -7781,6 +8439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal int64 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "int64",
           "package": "atom",
@@ -7791,6 +8450,7 @@
         "index": {
           "description": "Local int64 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "int64",
           "normalized": "Name-\u003eInt-\u003eAtom(V Int)",
@@ -7806,6 +8466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal int64 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "int64'",
           "package": "atom",
@@ -7816,6 +8477,7 @@
         "index": {
           "description": "External int64 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "int64'",
           "normalized": "Name-\u003eV Int",
@@ -7831,6 +8493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal int8 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "int8",
           "package": "atom",
@@ -7841,6 +8504,7 @@
         "index": {
           "description": "Local int8 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "int8",
           "normalized": "Name-\u003eInt-\u003eAtom(V Int)",
@@ -7856,6 +8520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal int8 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "int8'",
           "package": "atom",
@@ -7866,6 +8531,7 @@
         "index": {
           "description": "External int8 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "int8'",
           "normalized": "Name-\u003eV Int",
@@ -7881,6 +8547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "liftIO",
           "package": "atom",
@@ -7890,6 +8557,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -7906,6 +8574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRule coverage information.  (current coverage index, coverage data)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "nextCoverage",
           "package": "atom",
@@ -7916,6 +8585,7 @@
         "index": {
           "description": "Rule coverage information current coverage index coverage data",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "nextCoverage",
           "normalized": "Atom(E Word,E Word)",
@@ -7932,6 +8602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current atom hierarchical path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "path",
           "package": "atom",
@@ -7942,6 +8613,7 @@
         "index": {
           "description": "Returns the current atom hierarchical path",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "path",
           "package": "atom",
@@ -7955,6 +8627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the period of execution of sub rules as a factor of the base rate of the system.\n   Rule period is bound by the closest period assertion.  For example:\n\u003c/p\u003e\u003cpre\u003e period 10 $ period 2 a   -- Rules in 'a' have a period of 2, not 10.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "period",
           "package": "atom",
@@ -7965,6 +8638,7 @@
         "index": {
           "description": "Defines the period of execution of sub rules as factor of the base rate of the system Rule period is bound by the closest period assertion For example period period Rules in have period of not",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "period",
           "normalized": "Int-\u003eAtom a-\u003eAtom a",
@@ -7980,6 +8654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the earliest phase within the period at which the rule should\n execute; the scheduler attempt to find an optimal phase from 0 \u003c= \u003ccode\u003en\u003c/code\u003e \u003c\n period (thus, the \u003ccode\u003e\u003ca\u003ephase\u003c/a\u003e\u003c/code\u003e must be at least zero and less than the current\n \u003ccode\u003e\u003ca\u003eperiod\u003c/a\u003e\u003c/code\u003e.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "phase",
           "package": "atom",
@@ -7990,6 +8665,7 @@
         "index": {
           "description": "Defines the earliest phase within the period at which the rule should execute the scheduler attempt to find an optimal phase from period thus the phase must be at least zero and less than the current period",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "phase",
           "normalized": "Int-\u003eAtom a-\u003eAtom a",
@@ -8005,6 +8681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclares a probe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "probe",
           "package": "atom",
@@ -8015,6 +8692,7 @@
         "index": {
           "description": "Declares probe",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "probe",
           "normalized": "Name-\u003eE a-\u003eAtom()",
@@ -8030,6 +8708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetches all declared probes to current design point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "probes",
           "package": "atom",
@@ -8040,6 +8719,7 @@
         "index": {
           "description": "Fetches all declared probes to current design point",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "probes",
           "normalized": "Atom[(String,UE)]",
@@ -8055,6 +8735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal word16 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "word16",
           "package": "atom",
@@ -8065,6 +8746,7 @@
         "index": {
           "description": "Local word16 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "word16",
           "normalized": "Name-\u003eWord-\u003eAtom(V Word)",
@@ -8080,6 +8762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal word16 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "word16'",
           "package": "atom",
@@ -8090,6 +8773,7 @@
         "index": {
           "description": "External word16 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "word16'",
           "normalized": "Name-\u003eV Word",
@@ -8105,6 +8789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal word32 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "word32",
           "package": "atom",
@@ -8115,6 +8800,7 @@
         "index": {
           "description": "Local word32 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "word32",
           "normalized": "Name-\u003eWord-\u003eAtom(V Word)",
@@ -8130,6 +8816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal word32 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "word32'",
           "package": "atom",
@@ -8140,6 +8827,7 @@
         "index": {
           "description": "External word32 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "word32'",
           "normalized": "Name-\u003eV Word",
@@ -8155,6 +8843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal word64 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "word64",
           "package": "atom",
@@ -8165,6 +8854,7 @@
         "index": {
           "description": "Local word64 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "word64",
           "normalized": "Name-\u003eWord-\u003eAtom(V Word)",
@@ -8180,6 +8870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal word64 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "word64'",
           "package": "atom",
@@ -8190,6 +8881,7 @@
         "index": {
           "description": "External word64 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "word64'",
           "normalized": "Name-\u003eV Word",
@@ -8205,6 +8897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal word8 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "word8",
           "package": "atom",
@@ -8215,6 +8908,7 @@
         "index": {
           "description": "Local word8 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "word8",
           "normalized": "Name-\u003eWord-\u003eAtom(V Word)",
@@ -8230,6 +8924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal word8 variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Language",
           "name": "word8'",
           "package": "atom",
@@ -8240,6 +8935,7 @@
         "index": {
           "description": "External word8 variable declaration",
           "hierarchy": "Language Atom Language",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Language",
           "name": "word8'",
           "normalized": "Name-\u003eV Word",
@@ -8255,6 +8951,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAtom rule scheduling.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Scheduling",
           "name": "Scheduling",
           "package": "atom",
@@ -8264,6 +8961,7 @@
         "index": {
           "description": "Atom rule scheduling",
           "hierarchy": "Language Atom Scheduling",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Scheduling",
           "name": "Scheduling",
           "package": "atom",
@@ -8277,6 +8975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Scheduling",
           "name": "Schedule",
           "package": "atom",
@@ -8285,6 +8984,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Scheduling",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Scheduling",
           "name": "Schedule",
           "package": "atom",
@@ -8298,6 +8998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Scheduling",
           "name": "schedule",
           "package": "atom",
@@ -8307,6 +9008,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Scheduling",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Scheduling",
           "name": "schedule",
           "normalized": "[Rule]-\u003eUeMap-\u003eSchedule",
@@ -8322,6 +9024,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSharing for UEs, based on IntMaps.  The idea is to share subexpressions of \u003ccode\u003e\u003ca\u003eUE\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "UeMap",
           "package": "atom",
@@ -8331,6 +9034,7 @@
         "index": {
           "description": "Sharing for UEs based on IntMaps The idea is to share subexpressions of UE",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "UeMap",
           "package": "atom",
@@ -8344,6 +9048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "Hash",
           "package": "atom",
@@ -8352,6 +9057,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "Hash",
           "package": "atom",
@@ -8366,6 +9072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUntyped variables map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUV",
           "package": "atom",
@@ -8375,6 +9082,7 @@
         "index": {
           "description": "Untyped variables map",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUV",
           "package": "atom",
@@ -8389,6 +9097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to \u003ccode\u003e\u003ca\u003eUE\u003c/a\u003e\u003c/code\u003es --- the elements in the sharing structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "UeElem",
           "package": "atom",
@@ -8398,6 +9107,7 @@
         "index": {
           "description": "Corresponds to UE the elements in the sharing structure",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "UeElem",
           "package": "atom",
@@ -8412,6 +9122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entry in the Map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "UeMap",
           "package": "atom",
@@ -8421,6 +9132,7 @@
         "index": {
           "description": "An entry in the Map",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "UeMap",
           "package": "atom",
@@ -8435,6 +9147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapped in the State Monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "UeState",
           "package": "atom",
@@ -8444,6 +9157,7 @@
         "index": {
           "description": "Wrapped in the State Monad",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "UeState",
           "package": "atom",
@@ -8457,6 +9171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUAcos",
           "package": "atom",
@@ -8466,6 +9181,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUAcos",
           "package": "atom",
@@ -8479,6 +9195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUAcosh",
           "package": "atom",
@@ -8488,6 +9205,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUAcosh",
           "package": "atom",
@@ -8501,6 +9219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUAdd",
           "package": "atom",
@@ -8510,6 +9229,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUAdd",
           "package": "atom",
@@ -8523,6 +9243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUAnd",
           "package": "atom",
@@ -8532,6 +9253,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUAnd",
           "normalized": "MUAnd[Hash]",
@@ -8547,6 +9269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUAsin",
           "package": "atom",
@@ -8556,6 +9279,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUAsin",
           "package": "atom",
@@ -8569,6 +9293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUAsinh",
           "package": "atom",
@@ -8578,6 +9303,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUAsinh",
           "package": "atom",
@@ -8591,6 +9317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUAtan",
           "package": "atom",
@@ -8600,6 +9327,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUAtan",
           "package": "atom",
@@ -8613,6 +9341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUAtanh",
           "package": "atom",
@@ -8622,6 +9351,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUAtanh",
           "package": "atom",
@@ -8635,6 +9365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUB2D",
           "package": "atom",
@@ -8644,6 +9375,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUB2D",
           "package": "atom",
@@ -8657,6 +9389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUB2F",
           "package": "atom",
@@ -8666,6 +9399,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUB2F",
           "package": "atom",
@@ -8679,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUBWAnd",
           "package": "atom",
@@ -8688,6 +9423,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUBWAnd",
           "package": "atom",
@@ -8701,6 +9437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUBWNot",
           "package": "atom",
@@ -8710,6 +9447,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUBWNot",
           "package": "atom",
@@ -8723,6 +9461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUBWOr",
           "package": "atom",
@@ -8732,6 +9471,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUBWOr",
           "package": "atom",
@@ -8745,6 +9485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUBWShiftL",
           "package": "atom",
@@ -8754,6 +9495,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUBWShiftL",
           "package": "atom",
@@ -8767,6 +9509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUBWShiftR",
           "package": "atom",
@@ -8776,6 +9519,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUBWShiftR",
           "package": "atom",
@@ -8789,6 +9533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUBWXor",
           "package": "atom",
@@ -8798,6 +9543,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUBWXor",
           "package": "atom",
@@ -8811,6 +9557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUCast",
           "package": "atom",
@@ -8820,6 +9567,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUCast",
           "package": "atom",
@@ -8833,6 +9581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUConst",
           "package": "atom",
@@ -8842,6 +9591,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUConst",
           "package": "atom",
@@ -8855,6 +9605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUCos",
           "package": "atom",
@@ -8864,6 +9615,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUCos",
           "package": "atom",
@@ -8877,6 +9629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUCosh",
           "package": "atom",
@@ -8886,6 +9639,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUCosh",
           "package": "atom",
@@ -8899,6 +9653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUD2B",
           "package": "atom",
@@ -8908,6 +9663,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUD2B",
           "package": "atom",
@@ -8921,6 +9677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUDiv",
           "package": "atom",
@@ -8930,6 +9687,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUDiv",
           "package": "atom",
@@ -8943,6 +9701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUEq",
           "package": "atom",
@@ -8952,6 +9711,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUEq",
           "package": "atom",
@@ -8965,6 +9725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUExp",
           "package": "atom",
@@ -8974,6 +9735,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUExp",
           "package": "atom",
@@ -8987,6 +9749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUF2B",
           "package": "atom",
@@ -8996,6 +9759,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUF2B",
           "package": "atom",
@@ -9009,6 +9773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MULog",
           "package": "atom",
@@ -9018,6 +9783,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MULog",
           "package": "atom",
@@ -9031,6 +9797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MULt",
           "package": "atom",
@@ -9040,6 +9807,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MULt",
           "package": "atom",
@@ -9053,6 +9821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUMod",
           "package": "atom",
@@ -9062,6 +9831,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUMod",
           "package": "atom",
@@ -9075,6 +9845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUMul",
           "package": "atom",
@@ -9084,6 +9855,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUMul",
           "package": "atom",
@@ -9097,6 +9869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUMux",
           "package": "atom",
@@ -9106,6 +9879,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUMux",
           "package": "atom",
@@ -9119,6 +9893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUNot",
           "package": "atom",
@@ -9128,6 +9903,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUNot",
           "package": "atom",
@@ -9141,6 +9917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUPi",
           "package": "atom",
@@ -9150,6 +9927,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUPi",
           "package": "atom",
@@ -9163,6 +9941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUPow",
           "package": "atom",
@@ -9172,6 +9951,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUPow",
           "package": "atom",
@@ -9185,6 +9965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUSin",
           "package": "atom",
@@ -9194,6 +9975,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUSin",
           "package": "atom",
@@ -9207,6 +9989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUSinh",
           "package": "atom",
@@ -9216,6 +9999,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUSinh",
           "package": "atom",
@@ -9229,6 +10013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUSqrt",
           "package": "atom",
@@ -9238,6 +10023,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUSqrt",
           "package": "atom",
@@ -9251,6 +10037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUSub",
           "package": "atom",
@@ -9260,6 +10047,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUSub",
           "package": "atom",
@@ -9273,6 +10061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUV",
           "package": "atom",
@@ -9282,6 +10071,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUV",
           "package": "atom",
@@ -9295,6 +10085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUVArray",
           "package": "atom",
@@ -9304,6 +10095,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUVArray",
           "package": "atom",
@@ -9317,6 +10109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUVExtern",
           "package": "atom",
@@ -9326,6 +10119,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUVExtern",
           "package": "atom",
@@ -9339,6 +10133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "MUVRef",
           "package": "atom",
@@ -9348,6 +10143,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "MUVRef",
           "package": "atom",
@@ -9362,6 +10158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll array indexing subexpressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "arrayIndices",
           "package": "atom",
@@ -9372,6 +10169,7 @@
         "index": {
           "description": "All array indexing subexpressions",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "arrayIndices",
           "normalized": "Hash-\u003eUeMap-\u003e[(UA,Hash)]",
@@ -9387,6 +10185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "emptyMap",
           "package": "atom",
@@ -9396,6 +10195,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "emptyMap",
           "package": "atom",
@@ -9410,6 +10210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the element associated with a \u003ccode\u003e\u003ca\u003eHash\u003c/a\u003e\u003c/code\u003e value.  It's an error if the\n element is not in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "getUE",
           "package": "atom",
@@ -9420,6 +10221,7 @@
         "index": {
           "description": "Get the element associated with Hash value It an error if the element is not in the map",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "getUE",
           "normalized": "Hash-\u003eUeMap-\u003eUeElem",
@@ -9435,6 +10237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "isMathHCall",
           "package": "atom",
@@ -9444,6 +10247,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "isMathHCall",
           "normalized": "UeElem-\u003eBool",
@@ -9460,6 +10264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup an element in the map, and if it's in there, do nothing, but return\n its hash value.  Otherwise, update the map and return the new hash value\n for the inserted element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "maybeUpdate",
           "package": "atom",
@@ -9470,6 +10275,7 @@
         "index": {
           "description": "Lookup an element in the map and if it in there do nothing but return its hash value Otherwise update the map and return the new hash value for the inserted element",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "maybeUpdate",
           "normalized": "UeElem-\u003eUeState Hash",
@@ -9486,6 +10292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of all UVs that directly control the value of an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "nearestUVs",
           "package": "atom",
@@ -9496,6 +10303,7 @@
         "index": {
           "description": "The list of all UVs that directly control the value of an expression",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "nearestUVs",
           "normalized": "Hash-\u003eUeMap-\u003e[MUV]",
@@ -9512,6 +10320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a new \u003ccode\u003e\u003ca\u003eUE\u003c/a\u003e\u003c/code\u003e in the map, unless it's already in there, and return the\n hash pointing to the \u003ccode\u003e\u003ca\u003eUE\u003c/a\u003e\u003c/code\u003e and a new map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "newUE",
           "package": "atom",
@@ -9522,6 +10331,7 @@
         "index": {
           "description": "Put new UE in the map unless it already in there and return the hash pointing to the UE and new map",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "newUE",
           "normalized": "UE-\u003eUeMap-\u003e(Hash,UeMap)",
@@ -9538,6 +10348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a \u003ccode\u003e\u003ca\u003eUV\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eMUV\u003c/a\u003e\u003c/code\u003e, returning the possibly updated map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "newUV",
           "package": "atom",
@@ -9548,6 +10359,7 @@
         "index": {
           "description": "Transforms UV into MUV returning the possibly updated map",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "newUV",
           "normalized": "UV-\u003eUeMap-\u003e(MUV,UeMap)",
@@ -9564,6 +10376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eUE\u003c/a\u003e\u003c/code\u003e back out of the \u003ccode\u003e\u003ca\u003eUeMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "recoverUE",
           "package": "atom",
@@ -9574,6 +10387,7 @@
         "index": {
           "description": "Get UE back out of the UeMap",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "recoverUE",
           "normalized": "UeMap-\u003eHash-\u003eUE",
@@ -9589,6 +10403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "typeOf",
           "package": "atom",
@@ -9598,6 +10413,7 @@
         },
         "index": {
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "typeOf",
           "normalized": "Hash-\u003eUeMap-\u003eType",
@@ -9614,6 +10430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of Hashes to adjacent upstream of a UE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.UeMap",
           "name": "ueUpstream",
           "package": "atom",
@@ -9624,6 +10441,7 @@
         "index": {
           "description": "The list of Hashes to adjacent upstream of UE",
           "hierarchy": "Language Atom UeMap",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.UeMap",
           "name": "ueUpstream",
           "normalized": "Hash-\u003eUeMap-\u003e[Hash]",
@@ -9639,6 +10457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "Unit",
           "package": "atom",
@@ -9647,6 +10466,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "Unit",
           "package": "atom",
@@ -9660,6 +10480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "Random",
           "package": "atom",
@@ -9668,6 +10489,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "Random",
           "package": "atom",
@@ -9682,6 +10504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData constructor:Test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "Test",
           "package": "atom",
@@ -9691,6 +10514,7 @@
         "index": {
           "description": "Data constructor Test",
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "Test",
           "package": "atom",
@@ -9704,6 +10528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "Test",
           "package": "atom",
@@ -9713,6 +10538,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "Test",
           "package": "atom",
@@ -9726,6 +10552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "cycles",
           "package": "atom",
@@ -9735,6 +10562,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "cycles",
           "package": "atom",
@@ -9747,6 +10575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "declCode",
           "package": "atom",
@@ -9756,6 +10585,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "declCode",
           "package": "atom",
@@ -9769,6 +10599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "defaultTest",
           "package": "atom",
@@ -9778,6 +10609,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "defaultTest",
           "package": "atom",
@@ -9791,6 +10623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "endCode",
           "package": "atom",
@@ -9800,6 +10633,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "endCode",
           "package": "atom",
@@ -9813,6 +10647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "includes",
           "package": "atom",
@@ -9822,6 +10657,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "includes",
           "normalized": "[FilePath]",
@@ -9836,6 +10672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "initCode",
           "package": "atom",
@@ -9845,6 +10682,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "initCode",
           "package": "atom",
@@ -9858,6 +10696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "loopCode",
           "package": "atom",
@@ -9867,6 +10706,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "loopCode",
           "package": "atom",
@@ -9880,6 +10720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "modules",
           "package": "atom",
@@ -9889,6 +10730,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "modules",
           "normalized": "[FilePath]",
@@ -9903,6 +10745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "name",
           "package": "atom",
@@ -9912,6 +10755,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "name",
           "package": "atom",
@@ -9925,6 +10769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint floating point values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "printFloatingE",
           "package": "atom",
@@ -9935,6 +10780,7 @@
         "index": {
           "description": "Print floating point values",
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "printFloatingE",
           "normalized": "String-\u003eE a-\u003eAtom()",
@@ -9951,6 +10797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint integral values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "printIntegralE",
           "package": "atom",
@@ -9961,6 +10808,7 @@
         "index": {
           "description": "Print integral values",
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "printIntegralE",
           "normalized": "String-\u003eE a-\u003eAtom()",
@@ -9977,6 +10825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrinting strings in C using printf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "printStrLn",
           "package": "atom",
@@ -9987,6 +10836,7 @@
         "index": {
           "description": "Printing strings in using printf",
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "printStrLn",
           "normalized": "String-\u003eAtom()",
@@ -10002,6 +10852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "random",
           "package": "atom",
@@ -10011,6 +10862,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "random",
           "package": "atom",
@@ -10024,6 +10876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRunning TestList\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "runTests",
           "package": "atom",
@@ -10034,6 +10887,7 @@
         "index": {
           "description": "Running TestList",
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "runTests",
           "normalized": "Int-\u003e[IO Test]-\u003eIO()",
@@ -10049,6 +10903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom.Unit",
           "name": "testbench",
           "package": "atom",
@@ -10058,6 +10913,7 @@
         },
         "index": {
           "hierarchy": "Language Atom Unit",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom.Unit",
           "name": "testbench",
           "normalized": "Atom()",
@@ -10073,6 +10929,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAtom is a Haskell DSL for designing hard realtime embedded software.\n  Based on guarded atomic actions (similar to STM), Atom enables highly\n  concurrent programming without the need for mutex locking.\n  In addition, Atom performs compile-time task scheduling and generates code\n  with deterministic execution time and constant memory use, simplifying the\n  process of timing verification and memory consumption in hard realtime\n  applications. Without mutex locking and run-time task scheduling,\n  Atom eliminates the need and overhead of RTOSs for many embedded applications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:10 UTC 2014",
           "module": "Language.Atom",
           "name": "Atom",
           "package": "atom",
@@ -10082,6 +10939,7 @@
         "index": {
           "description": "Atom is Haskell DSL for designing hard realtime embedded software Based on guarded atomic actions similar to STM Atom enables highly concurrent programming without the need for mutex locking In addition Atom performs compile-time task scheduling and generates code with deterministic execution time and constant memory use simplifying the process of timing verification and memory consumption in hard realtime applications Without mutex locking and run-time task scheduling Atom eliminates the need and overhead of RTOSs for many embedded applications",
           "hierarchy": "Language Atom",
+          "indexed": "2014-03-11T17:14:10",
           "module": "Language.Atom",
           "name": "Atom",
           "package": "atom",

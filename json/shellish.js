@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shellish"
+        "phrase": "shellish",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for shell-like / perl-like programming in Haskell. The stuff in\n here is not pretty, but it does get job done. The functionality provided by\n this module is (unlike standard Haskell filesystem functionality)\n thread-safe: each ShIO maintains its own environment and its own working\n directory.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "Shellish",
           "package": "shellish",
@@ -28,6 +29,7 @@
         "index": {
           "description": "module for shell-like perl-like programming in Haskell The stuff in here is not pretty but it does get job done The functionality provided by this module is unlike standard Haskell filesystem functionality thread-safe each ShIO maintains its own environment and its own working directory",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "Shellish",
           "package": "shellish",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "MemTime",
           "package": "shellish",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "MemTime",
           "package": "shellish",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "RunFailed",
           "package": "shellish",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "RunFailed",
           "package": "shellish",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "ShIO",
           "package": "shellish",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "ShIO",
           "package": "shellish",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix shorthand for \u003ca\u003erun\u003c/a\u003e. Write \u003ccode\u003e\"command\" # [ \"argument\" ... ]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "(#)",
           "package": "shellish",
@@ -115,6 +124,7 @@
         "index": {
           "description": "An infix shorthand for run Write command argument",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "(#) #",
           "normalized": "String-\u003e[String]-\u003eShIO String",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA functor-lifting function composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "(\u003c$$\u003e)",
           "package": "shellish",
@@ -140,6 +151,7 @@
         "index": {
           "description": "functor-lifting function composition",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "(\u003c$$\u003e) \u003c$$\u003e",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed a)-\u003ec-\u003ed b",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "(\u003c$\u003e)",
           "package": "shellish",
@@ -164,6 +177,7 @@
         "index": {
           "description": "An infix synonym for fmap",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA nice alias for \u003ccode\u003e\u003ca\u003ecombine\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "(\u003c/\u003e)",
           "package": "shellish",
@@ -188,6 +203,7 @@
         "index": {
           "description": "nice alias for combine",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias to \u003ccode\u003e\u003ca\u003eaddExtension\u003c/a\u003e\u003c/code\u003e, for people who like that sort of thing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "(\u003c.\u003e)",
           "package": "shellish",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Alias to addExtension for people who like that sort of thing",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "FilePath-\u003eString-\u003eFilePath",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "MemTime",
           "package": "shellish",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "MemTime",
           "package": "shellish",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "RunFailed",
           "package": "shellish",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "RunFailed",
           "package": "shellish",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend a String to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "appendfile",
           "package": "shellish",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Append String to file",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "appendfile",
           "normalized": "FilePath-\u003eString-\u003eShIO()",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain a (reasonably) canonic file path to a filesystem object. Based on\n \u003ca\u003ecanonicalizePath\u003c/a\u003e in System.FilePath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "canonic",
           "package": "shellish",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Obtain reasonably canonic file path to filesystem object Based on canonicalizePath in System.FilePath",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "canonic",
           "normalized": "FilePath-\u003eShIO FilePath",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch an exception in the ShIO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "catch_sh",
           "package": "shellish",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Catch an exception in the ShIO monad",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "catch_sh",
           "normalized": "ShIO a-\u003e(b-\u003eShIO a)-\u003eShIO a",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA helper to catch any exception (same as\n \u003ccode\u003e... \u003ccode\u003e\u003ca\u003ecatch\u003c/a\u003e\u003c/code\u003e (e :: SomeException) -\u003e ...\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "catchany",
           "package": "shellish",
@@ -356,6 +385,7 @@
         "index": {
           "description": "helper to catch any exception same as catch SomeException",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "catchany",
           "normalized": "IO a-\u003e(SomeException-\u003eIO a)-\u003eIO a",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange current working directory of ShIO. This does *not* change the\n working directory of the process we are running it. Instead, ShIO keeps\n track of its own workking directory and builds absolute paths internally\n instead of passing down relative paths. This may have performance\n repercussions if you are doing hundreds of thousands of filesystem\n operations. You will want to handle these issues differently in those cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "cd",
           "package": "shellish",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Change current working directory of ShIO This does not change the working directory of the process we are running it Instead ShIO keeps track of its own workking directory and builds absolute paths internally instead of passing down relative paths This may have performance repercussions if you are doing hundreds of thousands of filesystem operations You will want to handle these issues differently in those cases",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "cd",
           "normalized": "FilePath-\u003eShIO()",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a file. The second path could be a directory, in which case the\n original file name is used, in that directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "cp",
           "package": "shellish",
@@ -406,6 +439,7 @@
         "index": {
           "description": "Copy file The second path could be directory in which case the original file name is used in that directory",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "cp",
           "normalized": "FilePath-\u003eFilePath-\u003eShIO()",
@@ -421,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a file, or a directory recursively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "cp_r",
           "package": "shellish",
@@ -431,6 +466,7 @@
         "index": {
           "description": "Copy file or directory recursively",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "cp_r",
           "normalized": "FilePath-\u003eFilePath-\u003eShIO()",
@@ -445,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "echo",
           "package": "shellish",
@@ -454,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "echo",
           "normalized": "String-\u003eShIO()",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "echo_err",
           "package": "shellish",
@@ -477,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "echo_err",
           "normalized": "String-\u003eShIO()",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEcho string to standard (error, when using _err variants) output. The _n\n variants do not print a final newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "echo_n",
           "package": "shellish",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Echo string to standard error when using err variants output The variants do not print final newline",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "echo_n",
           "normalized": "String-\u003eShIO()",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "echo_n_err",
           "package": "shellish",
@@ -525,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "echo_n_err",
           "normalized": "String-\u003eShIO()",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList directory recursively (like the POSIX utility \u003ca\u003efind\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "find",
           "package": "shellish",
@@ -550,6 +595,7 @@
         "index": {
           "description": "List directory recursively like the POSIX utility find",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "find",
           "normalized": "FilePath-\u003eShIO[String]",
@@ -565,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch the current value of an environment variable. Both empty and\n non-existent variables give empty string as a result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "getenv",
           "package": "shellish",
@@ -575,6 +622,7 @@
         "index": {
           "description": "Fetch the current value of an environment variable Both empty and non-existent variables give empty string as result",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "getenv",
           "normalized": "String-\u003eShIO String",
@@ -590,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike filter, but more conveniently used with String lists, where a\n substring match (TODO: also provide regexps, and maybe globs) is expressed as\n  \u003ccode\u003egrep \"needle\" [ \"the\", \"stack\", \"of\", \"hay\" ]\u003c/code\u003e. Boolean\n predicates just like with \u003ca\u003efilter\u003c/a\u003e are supported too:\n \u003ccode\u003egrep (\"fun\" \u003ccode\u003eisPrefixOf\u003c/code\u003e) [...]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "grep",
           "package": "shellish",
@@ -600,6 +649,7 @@
         "index": {
           "description": "Like filter but more conveniently used with String lists where substring match TODO also provide regexps and maybe globs is expressed as grep needle the stack of hay Boolean predicates just like with filter are supported too grep fun isPrefixOf",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "grep",
           "normalized": "a-\u003e[b]-\u003e[b]",
@@ -614,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "lastOutput",
           "package": "shellish",
@@ -623,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "lastOutput",
           "package": "shellish",
@@ -637,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe output of last external command. See \u003ca\u003erun\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "lastStderr",
           "package": "shellish",
@@ -647,6 +700,7 @@
         "index": {
           "description": "The output of last external command See run",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "lastStderr",
           "package": "shellish",
@@ -660,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "lastStdout",
           "package": "shellish",
@@ -669,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "lastStdout",
           "package": "shellish",
@@ -683,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "liftIO",
           "package": "shellish",
@@ -692,6 +749,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -708,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList directory contents. Does *not* include \".\" and \"..\", but it does\n include (other) hidden files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "ls",
           "package": "shellish",
@@ -718,6 +777,7 @@
         "index": {
           "description": "List directory contents Does not include and but it does include other hidden files",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "ls",
           "normalized": "FilePath-\u003eShIO[String]",
@@ -733,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new directory (fails if the directory exists).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "mkdir",
           "package": "shellish",
@@ -743,6 +804,7 @@
         "index": {
           "description": "Create new directory fails if the directory exists",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "mkdir",
           "normalized": "FilePath-\u003eShIO()",
@@ -758,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new directory, including parents (succeeds if the directory\n already exists).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "mkdir_p",
           "package": "shellish",
@@ -768,6 +831,7 @@
         "index": {
           "description": "Create new directory including parents succeeds if the directory already exists",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "mkdir_p",
           "normalized": "FilePath-\u003eShIO()",
@@ -783,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrently a \u003ca\u003erenameFile\u003c/a\u003e wrapper. TODO: Support cross-filesystem\n move. TODO: Support directory paths in the second parameter, like in \u003ca\u003ecp\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "mv",
           "package": "shellish",
@@ -793,6 +858,7 @@
         "index": {
           "description": "Currently renameFile wrapper TODO Support cross-filesystem move TODO Support directory paths in the second parameter like in cp",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "mv",
           "normalized": "FilePath-\u003eFilePath-\u003eShIO()",
@@ -808,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the current (ShIO) working directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "pwd",
           "package": "shellish",
@@ -818,6 +885,7 @@
         "index": {
           "description": "Obtain the current ShIO working directory",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "pwd",
           "package": "shellish",
@@ -831,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Strictly) read file into a String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "readfile",
           "package": "shellish",
@@ -841,6 +910,7 @@
         "index": {
           "description": "Strictly read file into String",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "readfile",
           "normalized": "FilePath-\u003eShIO String",
@@ -856,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a file. Does not fail if the file already is not there. Does fail\n if the file is not a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "rm_f",
           "package": "shellish",
@@ -866,6 +937,7 @@
         "index": {
           "description": "Remove file Does not fail if the file already is not there Does fail if the file is not file",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "rm_f",
           "normalized": "FilePath-\u003eShIO()",
@@ -881,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA swiss army cannon for removing things. Actually this goes farther than a\n normal rm -rf, as it will circumvent permission problems for the files we\n own. Use carefully.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "rm_rf",
           "package": "shellish",
@@ -891,6 +964,7 @@
         "index": {
           "description": "swiss army cannon for removing things Actually this goes farther than normal rm rf as it will circumvent permission problems for the files we own Use carefully",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "rm_rf",
           "normalized": "FilePath-\u003eShIO()",
@@ -906,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an external command. Takes the command name (no shell allowed,\n just a name of something that can be found via \u003ccode\u003ePATH\u003c/code\u003e; FIXME: setenv'd\n \u003ccode\u003ePATH\u003c/code\u003e is not taken into account, only the one inherited from the actual\n outside environment). Nothing is provided on \u003ca\u003estdin\u003c/a\u003e of the process, and\n \u003ca\u003estdout\u003c/a\u003e and \u003ca\u003estderr\u003c/a\u003e are collected and stored. The \u003ca\u003estdout\u003c/a\u003e is returned as\n a result of \u003ca\u003erun\u003c/a\u003e, and complete outputs are available after the fact using\n \u003ca\u003elastStdout\u003c/a\u003e, \u003ca\u003elastStderr\u003c/a\u003e and \u003ca\u003elastOutput\u003c/a\u003e with the last giving an\n interleaving of both, approximately reflecting the times of their arrival --\n basically what \u003ccode\u003e2\u003e&1\u003c/code\u003e would give you in a shell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "run",
           "package": "shellish",
@@ -916,6 +991,7 @@
         "index": {
           "description": "Execute an external command Takes the command name no shell allowed just name of something that can be found via PATH FIXME setenv PATH is not taken into account only the one inherited from the actual outside environment Nothing is provided on stdin of the process and stdout and stderr are collected and stored The stdout is returned as result of run and complete outputs are available after the fact using lastStdout lastStderr and lastOutput with the last giving an interleaving of both approximately reflecting the times of their arrival basically what would give you in shell",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "run",
           "normalized": "String-\u003e[String]-\u003eShIO String",
@@ -931,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet an environment variable. The environment is maintained in ShIO\n internally, and is passed to any external commands to be executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "setenv",
           "package": "shellish",
@@ -941,6 +1018,7 @@
         "index": {
           "description": "Set an environment variable The environment is maintained in ShIO internally and is passed to any external commands to be executed",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "setenv",
           "normalized": "String-\u003eString-\u003eShIO()",
@@ -956,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnter a ShIO from (Monad)IO. The environment and working directories are\n inherited from the current process-wide values. Any subsequent changes in\n processwide working directory or environment are not reflected in the\n running ShIO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "shellish",
           "package": "shellish",
@@ -966,6 +1045,7 @@
         "index": {
           "description": "Enter ShIO from Monad IO The environment and working directories are inherited from the current process-wide values Any subsequent changes in processwide working directory or environment are not reflected in the running ShIO",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "shellish",
           "normalized": "ShIO a-\u003eb a",
@@ -981,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sub-ShIO in which external command outputs are not echoed. See \u003ca\u003esub\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "silently",
           "package": "shellish",
@@ -991,6 +1072,7 @@
         "index": {
           "description": "Create sub-ShIO in which external command outputs are not echoed See sub",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "silently",
           "normalized": "ShIO a-\u003eShIO a",
@@ -1006,6 +1088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnter a sub-ShIO. The new ShIO inherits the environment and working\n directory from the current one, but the sub-ShIO cannot affect the current\n one. Exceptions are propagated normally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "sub",
           "package": "shellish",
@@ -1016,6 +1099,7 @@
         "index": {
           "description": "Enter sub-ShIO The new ShIO inherits the environment and working directory from the current one but the sub-ShIO cannot affect the current one Exceptions are propagated normally",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "sub",
           "normalized": "ShIO a-\u003eShIO a",
@@ -1031,6 +1115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a path point to an existing directory?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "test_d",
           "package": "shellish",
@@ -1041,6 +1126,7 @@
         "index": {
           "description": "Does path point to an existing directory",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "test_d",
           "normalized": "FilePath-\u003eShIO Bool",
@@ -1056,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a path point to an existing filesystem object?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "test_e",
           "package": "shellish",
@@ -1066,6 +1153,7 @@
         "index": {
           "description": "Does path point to an existing filesystem object",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "test_e",
           "normalized": "FilePath-\u003eShIO Bool",
@@ -1081,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a path point to an existing file?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "test_f",
           "package": "shellish",
@@ -1091,6 +1180,7 @@
         "index": {
           "description": "Does path point to an existing file",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "test_f",
           "normalized": "FilePath-\u003eShIO Bool",
@@ -1106,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a path point to a symlink?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "test_s",
           "package": "shellish",
@@ -1116,6 +1207,7 @@
         "index": {
           "description": "Does path point to symlink",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "test_s",
           "normalized": "FilePath-\u003eShIO Bool",
@@ -1131,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a ShIO computation and collect timing (TODO: and memory) information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "time",
           "package": "shellish",
@@ -1141,6 +1234,7 @@
         "index": {
           "description": "Run ShIO computation and collect timing TODO and memory information",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "time",
           "normalized": "ShIO a-\u003eShIO(MemTime,a)",
@@ -1156,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sub-ShIO in which external command outputs are echoed. See \u003ca\u003esub\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "verbosely",
           "package": "shellish",
@@ -1166,6 +1261,7 @@
         "index": {
           "description": "Create sub-ShIO in which external command outputs are echoed See sub",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "verbosely",
           "normalized": "ShIO a-\u003eShIO a",
@@ -1181,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monadic-conditional version of the \u003ca\u003ewhen\u003c/a\u003e guard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "whenM",
           "package": "shellish",
@@ -1191,6 +1288,7 @@
         "index": {
           "description": "monadic-conditional version of the when guard",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "whenM",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -1206,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a full path to an executable on \u003ccode\u003ePATH\u003c/code\u003e, if exists. FIXME does not\n respect setenv'd environment and uses \u003ccode\u003ePATH\u003c/code\u003e inherited from the process\n environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "which",
           "package": "shellish",
@@ -1216,6 +1315,7 @@
         "index": {
           "description": "Get full path to an executable on PATH if exists FIXME does not respect setenv environment and uses PATH inherited from the process environment",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "which",
           "normalized": "String-\u003eShIO(Maybe FilePath)",
@@ -1231,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a temporary directory and pass it as a parameter to a ShIO\n computation. The directory is nuked afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "withTmpDir",
           "package": "shellish",
@@ -1241,6 +1342,7 @@
         "index": {
           "description": "Create temporary directory and pass it as parameter to ShIO computation The directory is nuked afterwards",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "withTmpDir",
           "normalized": "(FilePath-\u003eShIO a)-\u003eShIO a",
@@ -1257,6 +1359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a String to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:31 UTC 2014",
           "module": "Shellish",
           "name": "writefile",
           "package": "shellish",
@@ -1267,6 +1370,7 @@
         "index": {
           "description": "Write String to file",
           "hierarchy": "Shellish",
+          "indexed": "2014-03-11T20:01:31",
           "module": "Shellish",
           "name": "writefile",
           "normalized": "FilePath-\u003eString-\u003eShIO()",

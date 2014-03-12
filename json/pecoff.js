@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pecoff"
+        "phrase": "pecoff",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParses a ByteString into a Pecoff record. Parsing of section data currently\n left as a todo.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "Pecoff",
           "package": "pecoff",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parses ByteString into Pecoff record Parsing of section data currently left as todo",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "Pecoff",
           "package": "pecoff",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS",
           "package": "pecoff",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS",
           "package": "pecoff",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_CHARACTERISTICS",
           "package": "pecoff",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_CHARACTERISTICS",
           "package": "pecoff",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE",
           "package": "pecoff",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE",
           "package": "pecoff",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_CHARACTERISTICS",
           "package": "pecoff",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_CHARACTERISTICS",
           "package": "pecoff",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM",
           "package": "pecoff",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM",
           "package": "pecoff",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "Pecoff",
           "package": "pecoff",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "Pecoff",
           "package": "pecoff",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "PecoffSection",
           "package": "pecoff",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "PecoffSection",
           "package": "pecoff",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_DYNAMIC_BASE",
           "package": "pecoff",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_DYNAMIC_BASE",
           "package": "pecoff",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_FORCE_INTEGRITY",
           "package": "pecoff",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_FORCE_INTEGRITY",
           "package": "pecoff",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_NO_BIND",
           "package": "pecoff",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_NO_BIND",
           "package": "pecoff",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_NO_ISOLATION",
           "package": "pecoff",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_NO_ISOLATION",
           "package": "pecoff",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_NO_SEH",
           "package": "pecoff",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_NO_SEH",
           "package": "pecoff",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_NX_COMPAT",
           "package": "pecoff",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_NX_COMPAT",
           "package": "pecoff",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_TERMINAL_SERVER_AWARE",
           "package": "pecoff",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_TERMINAL_SERVER_AWARE",
           "package": "pecoff",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_WDM_DRIVER",
           "package": "pecoff",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_DLL_CHARACTERISTICS_WDM_DRIVER",
           "package": "pecoff",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_32BIT_MACHINE",
           "package": "pecoff",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_32BIT_MACHINE",
           "package": "pecoff",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_AGGRESSIVE_WS_TRIM",
           "package": "pecoff",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_AGGRESSIVE_WS_TRIM",
           "package": "pecoff",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_BYTES_REVERSED_HI",
           "package": "pecoff",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_BYTES_REVERSED_HI",
           "package": "pecoff",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_BYTES_REVERSED_LO",
           "package": "pecoff",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_BYTES_REVERSED_LO",
           "package": "pecoff",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_DEBUG_STRIPPED",
           "package": "pecoff",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_DEBUG_STRIPPED",
           "package": "pecoff",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_DLL",
           "package": "pecoff",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_DLL",
           "package": "pecoff",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_EXECUTABLE_IMAGE",
           "package": "pecoff",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_EXECUTABLE_IMAGE",
           "package": "pecoff",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_LARGE_ADDRESS_AWARE",
           "package": "pecoff",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_LARGE_ADDRESS_AWARE",
           "package": "pecoff",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_LINE_NUMS_STRIPPED",
           "package": "pecoff",
@@ -549,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_LINE_NUMS_STRIPPED",
           "package": "pecoff",
@@ -562,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_LOCAL_SYMS_STIRPPED",
           "package": "pecoff",
@@ -571,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_LOCAL_SYMS_STIRPPED",
           "package": "pecoff",
@@ -584,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_AM33",
           "package": "pecoff",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_AM33",
           "package": "pecoff",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_AMD64",
           "package": "pecoff",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_AMD64",
           "package": "pecoff",
@@ -628,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_ARM",
           "package": "pecoff",
@@ -637,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_ARM",
           "package": "pecoff",
@@ -650,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_EBC",
           "package": "pecoff",
@@ -659,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_EBC",
           "package": "pecoff",
@@ -672,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_I386",
           "package": "pecoff",
@@ -681,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_I386",
           "package": "pecoff",
@@ -694,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_IA64",
           "package": "pecoff",
@@ -703,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_IA64",
           "package": "pecoff",
@@ -716,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_M32R",
           "package": "pecoff",
@@ -725,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_M32R",
           "package": "pecoff",
@@ -738,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_MIPS16",
           "package": "pecoff",
@@ -747,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_MIPS16",
           "package": "pecoff",
@@ -760,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_MIPSFPU",
           "package": "pecoff",
@@ -769,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_MIPSFPU",
           "package": "pecoff",
@@ -782,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_MIPSFPU16",
           "package": "pecoff",
@@ -791,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_MIPSFPU16",
           "package": "pecoff",
@@ -804,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_POWERPC",
           "package": "pecoff",
@@ -813,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_POWERPC",
           "package": "pecoff",
@@ -826,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_POWERPCFP",
           "package": "pecoff",
@@ -835,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_POWERPCFP",
           "package": "pecoff",
@@ -848,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_R4000",
           "package": "pecoff",
@@ -857,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_R4000",
           "package": "pecoff",
@@ -870,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_SH3",
           "package": "pecoff",
@@ -879,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_SH3",
           "package": "pecoff",
@@ -892,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_SH3DSP",
           "package": "pecoff",
@@ -901,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_SH3DSP",
           "package": "pecoff",
@@ -914,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_SH4",
           "package": "pecoff",
@@ -923,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_SH4",
           "package": "pecoff",
@@ -936,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_SH5",
           "package": "pecoff",
@@ -945,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_SH5",
           "package": "pecoff",
@@ -958,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_THUMB",
           "package": "pecoff",
@@ -967,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_THUMB",
           "package": "pecoff",
@@ -980,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_UNKNOWN",
           "package": "pecoff",
@@ -989,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_UNKNOWN",
           "package": "pecoff",
@@ -1002,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_WCEMIPSV2",
           "package": "pecoff",
@@ -1011,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_MACHINE_WCEMIPSV2",
           "package": "pecoff",
@@ -1024,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_NET_RUN_FROM_SWAP",
           "package": "pecoff",
@@ -1033,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_NET_RUN_FROM_SWAP",
           "package": "pecoff",
@@ -1046,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_RELOCS_STRIPPED",
           "package": "pecoff",
@@ -1055,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_RELOCS_STRIPPED",
           "package": "pecoff",
@@ -1068,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP",
           "package": "pecoff",
@@ -1077,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP",
           "package": "pecoff",
@@ -1090,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_SYSTEM",
           "package": "pecoff",
@@ -1099,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_SYSTEM",
           "package": "pecoff",
@@ -1112,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_UP_SYSTEM_ONLY",
           "package": "pecoff",
@@ -1121,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_FILE_UP_SYSTEM_ONLY",
           "package": "pecoff",
@@ -1134,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_1024BYTES",
           "package": "pecoff",
@@ -1143,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_1024BYTES",
           "package": "pecoff",
@@ -1156,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_128BYTES",
           "package": "pecoff",
@@ -1165,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_128BYTES",
           "package": "pecoff",
@@ -1178,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_16BYTES",
           "package": "pecoff",
@@ -1187,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_16BYTES",
           "package": "pecoff",
@@ -1200,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_1BYTES",
           "package": "pecoff",
@@ -1209,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_1BYTES",
           "package": "pecoff",
@@ -1222,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_2048BYTES",
           "package": "pecoff",
@@ -1231,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_2048BYTES",
           "package": "pecoff",
@@ -1244,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_256BYTES",
           "package": "pecoff",
@@ -1253,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_256BYTES",
           "package": "pecoff",
@@ -1266,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_2BYTES",
           "package": "pecoff",
@@ -1275,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_2BYTES",
           "package": "pecoff",
@@ -1288,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_32BYTES",
           "package": "pecoff",
@@ -1297,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_32BYTES",
           "package": "pecoff",
@@ -1310,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_4096BYTES",
           "package": "pecoff",
@@ -1319,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_4096BYTES",
           "package": "pecoff",
@@ -1332,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_4BYTES",
           "package": "pecoff",
@@ -1341,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_4BYTES",
           "package": "pecoff",
@@ -1354,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_512BYTES",
           "package": "pecoff",
@@ -1363,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_512BYTES",
           "package": "pecoff",
@@ -1376,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_64BYTES",
           "package": "pecoff",
@@ -1385,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_64BYTES",
           "package": "pecoff",
@@ -1398,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_8192BYTES",
           "package": "pecoff",
@@ -1407,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_8192BYTES",
           "package": "pecoff",
@@ -1420,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_8BYTES",
           "package": "pecoff",
@@ -1429,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_ALIGN_8BYTES",
           "package": "pecoff",
@@ -1442,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_CNT_CODE",
           "package": "pecoff",
@@ -1451,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_CNT_CODE",
           "package": "pecoff",
@@ -1464,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_CNT_INITIALIZED_DATA",
           "package": "pecoff",
@@ -1473,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_CNT_INITIALIZED_DATA",
           "package": "pecoff",
@@ -1486,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_CNT_UNINITIALIZED_DATA",
           "package": "pecoff",
@@ -1495,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_CNT_UNINITIALIZED_DATA",
           "package": "pecoff",
@@ -1508,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_GPREL",
           "package": "pecoff",
@@ -1517,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_GPREL",
           "package": "pecoff",
@@ -1530,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_LNK_COMDAT",
           "package": "pecoff",
@@ -1539,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_LNK_COMDAT",
           "package": "pecoff",
@@ -1552,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_LNK_INFO",
           "package": "pecoff",
@@ -1561,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_LNK_INFO",
           "package": "pecoff",
@@ -1574,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_LNK_NRELOC_OVFL",
           "package": "pecoff",
@@ -1583,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_LNK_NRELOC_OVFL",
           "package": "pecoff",
@@ -1596,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_LNK_OTHER",
           "package": "pecoff",
@@ -1605,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_LNK_OTHER",
           "package": "pecoff",
@@ -1618,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_LNK_REMOVE",
           "package": "pecoff",
@@ -1627,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_LNK_REMOVE",
           "package": "pecoff",
@@ -1640,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_16BIT",
           "package": "pecoff",
@@ -1649,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_16BIT",
           "package": "pecoff",
@@ -1662,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_DISCARDABLE",
           "package": "pecoff",
@@ -1671,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_DISCARDABLE",
           "package": "pecoff",
@@ -1684,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_EXECUTE",
           "package": "pecoff",
@@ -1693,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_EXECUTE",
           "package": "pecoff",
@@ -1706,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_LOCKED",
           "package": "pecoff",
@@ -1715,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_LOCKED",
           "package": "pecoff",
@@ -1728,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_NOT_CACHED",
           "package": "pecoff",
@@ -1737,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_NOT_CACHED",
           "package": "pecoff",
@@ -1750,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_NOT_PAGED",
           "package": "pecoff",
@@ -1759,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_NOT_PAGED",
           "package": "pecoff",
@@ -1772,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_PRELOAD",
           "package": "pecoff",
@@ -1781,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_PRELOAD",
           "package": "pecoff",
@@ -1794,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_PURGEABLE",
           "package": "pecoff",
@@ -1803,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_PURGEABLE",
           "package": "pecoff",
@@ -1816,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_READ",
           "package": "pecoff",
@@ -1825,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_READ",
           "package": "pecoff",
@@ -1838,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_SHARED",
           "package": "pecoff",
@@ -1847,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_SHARED",
           "package": "pecoff",
@@ -1860,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_WRITE",
           "package": "pecoff",
@@ -1869,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_MEM_WRITE",
           "package": "pecoff",
@@ -1882,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_TYPE_NO_PAD",
           "package": "pecoff",
@@ -1891,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SCN_TYPE_NO_PAD",
           "package": "pecoff",
@@ -1904,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_EFI_APPLICATION",
           "package": "pecoff",
@@ -1913,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_EFI_APPLICATION",
           "package": "pecoff",
@@ -1926,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER",
           "package": "pecoff",
@@ -1935,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER",
           "package": "pecoff",
@@ -1948,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_EFI_ROM",
           "package": "pecoff",
@@ -1957,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_EFI_ROM",
           "package": "pecoff",
@@ -1970,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER",
           "package": "pecoff",
@@ -1979,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER",
           "package": "pecoff",
@@ -1992,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_NATIVE",
           "package": "pecoff",
@@ -2001,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_NATIVE",
           "package": "pecoff",
@@ -2014,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_NATIVE_WINDOWS",
           "package": "pecoff",
@@ -2023,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_NATIVE_WINDOWS",
           "package": "pecoff",
@@ -2036,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_OS2_CUI",
           "package": "pecoff",
@@ -2045,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_OS2_CUI",
           "package": "pecoff",
@@ -2058,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_POSIX_CUI",
           "package": "pecoff",
@@ -2067,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_POSIX_CUI",
           "package": "pecoff",
@@ -2080,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_UNKNOWN",
           "package": "pecoff",
@@ -2089,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_UNKNOWN",
           "package": "pecoff",
@@ -2102,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_WINDOWS_CE_GUI",
           "package": "pecoff",
@@ -2111,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_WINDOWS_CE_GUI",
           "package": "pecoff",
@@ -2124,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_WINDOWS_CUI",
           "package": "pecoff",
@@ -2133,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_WINDOWS_CUI",
           "package": "pecoff",
@@ -2146,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_WINDOWS_GUI",
           "package": "pecoff",
@@ -2155,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_WINDOWS_GUI",
           "package": "pecoff",
@@ -2168,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_XBOX",
           "package": "pecoff",
@@ -2177,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "IMAGE_SUBSYSTEM_XBOX",
           "package": "pecoff",
@@ -2190,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "Pecoff",
           "package": "pecoff",
@@ -2199,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "Pecoff",
           "package": "pecoff",
@@ -2212,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "PecoffSection",
           "package": "pecoff",
@@ -2221,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "PecoffSection",
           "package": "pecoff",
@@ -2235,6 +2437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDLL flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "pDllCharacteristics",
           "package": "pecoff",
@@ -2245,6 +2448,7 @@
         "index": {
           "description": "DLL flags",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "pDllCharacteristics",
           "normalized": "[IMAGE_DLL_CHARACTERISTICS]",
@@ -2261,6 +2465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry point address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "pEntryPointAddress",
           "package": "pecoff",
@@ -2271,6 +2476,7 @@
         "index": {
           "description": "Entry point address",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "pEntryPointAddress",
           "package": "pecoff",
@@ -2285,6 +2491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "pFileCharacteristics",
           "package": "pecoff",
@@ -2295,6 +2502,7 @@
         "index": {
           "description": "File flags",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "pFileCharacteristics",
           "normalized": "[IMAGE_FILE_CHARACTERISTICS]",
@@ -2311,6 +2519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault load base for image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "pImageBase",
           "package": "pecoff",
@@ -2321,6 +2530,7 @@
         "index": {
           "description": "Default load base for image",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "pImageBase",
           "package": "pecoff",
@@ -2335,6 +2545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMachine type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "pMachine",
           "package": "pecoff",
@@ -2345,6 +2556,7 @@
         "index": {
           "description": "Machine type",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "pMachine",
           "package": "pecoff",
@@ -2359,6 +2571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSections contained in this PE/COFF object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "pSections",
           "package": "pecoff",
@@ -2369,6 +2582,7 @@
         "index": {
           "description": "Sections contained in this PE COFF object",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "pSections",
           "normalized": "[PecoffSection]",
@@ -2385,6 +2599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubsystem required to run this image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "pSubsystem",
           "package": "pecoff",
@@ -2395,6 +2610,7 @@
         "index": {
           "description": "Subsystem required to run this image",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "pSubsystem",
           "package": "pecoff",
@@ -2409,6 +2625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the ByteString of a PE/COFF file into a Pecoff record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "parsePecoff",
           "package": "pecoff",
@@ -2419,6 +2636,7 @@
         "index": {
           "description": "Parse the ByteString of PE COFF file into Pecoff record",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "parsePecoff",
           "normalized": "ByteString-\u003ePecoff",
@@ -2435,6 +2653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "psectCharacteristics",
           "package": "pecoff",
@@ -2445,6 +2664,7 @@
         "index": {
           "description": "Flags",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "psectCharacteristics",
           "normalized": "[IMAGE_SCN_CHARACTERISTICS]",
@@ -2461,6 +2681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw data for linenumbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "psectLinenumbers",
           "package": "pecoff",
@@ -2471,6 +2692,7 @@
         "index": {
           "description": "Raw data for linenumbers",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "psectLinenumbers",
           "package": "pecoff",
@@ -2485,6 +2707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "psectName",
           "package": "pecoff",
@@ -2495,6 +2718,7 @@
         "index": {
           "description": "Name of section",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "psectName",
           "package": "pecoff",
@@ -2509,6 +2733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw data for section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "psectRawData",
           "package": "pecoff",
@@ -2519,6 +2744,7 @@
         "index": {
           "description": "Raw data for section",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "psectRawData",
           "package": "pecoff",
@@ -2533,6 +2759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw data for relocations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "psectRelocations",
           "package": "pecoff",
@@ -2543,6 +2770,7 @@
         "index": {
           "description": "Raw data for relocations",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "psectRelocations",
           "package": "pecoff",
@@ -2557,6 +2785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVirtual memory address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "psectVirtualAddress",
           "package": "pecoff",
@@ -2567,6 +2796,7 @@
         "index": {
           "description": "Virtual memory address",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "psectVirtualAddress",
           "package": "pecoff",
@@ -2581,6 +2811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVirtual memory size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:55 UTC 2014",
           "module": "Data.Pecoff",
           "name": "psectVirtualSize",
           "package": "pecoff",
@@ -2591,6 +2822,7 @@
         "index": {
           "description": "Virtual memory size",
           "hierarchy": "Data Pecoff",
+          "indexed": "2014-03-11T19:36:55",
           "module": "Data.Pecoff",
           "name": "psectVirtualSize",
           "package": "pecoff",

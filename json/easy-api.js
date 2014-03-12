@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "easy-api"
+        "phrase": "easy-api",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "API",
           "package": "easy-api",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "API",
           "package": "easy-api",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "APIClient",
           "package": "easy-api",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "APIClient",
           "package": "easy-api",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "APIError",
           "package": "easy-api",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "APIError",
           "package": "easy-api",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "ClientSettings",
           "package": "easy-api",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "ClientSettings",
           "package": "easy-api",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "RequestMiddleware",
           "package": "easy-api",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "RequestMiddleware",
           "package": "easy-api",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "APIClient",
           "package": "easy-api",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "APIClient",
           "package": "easy-api",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "ClientSettings",
           "package": "easy-api",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "ClientSettings",
           "package": "easy-api",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "ExceptionalStatusCodeError",
           "package": "easy-api",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "ExceptionalStatusCodeError",
           "package": "easy-api",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "InvalidJSON",
           "package": "easy-api",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "InvalidJSON",
           "package": "easy-api",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "baseRequest",
           "package": "easy-api",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "baseRequest",
           "package": "easy-api",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "clientManager",
           "package": "easy-api",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "clientManager",
           "package": "easy-api",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "delete",
           "package": "easy-api",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "delete",
           "normalized": "ByteString-\u003ea-\u003eAPIClient(Response b)",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "fromAPIClient",
           "package": "easy-api",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "fromAPIClient",
           "package": "easy-api",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "get",
           "package": "easy-api",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "get",
           "normalized": "ByteString-\u003eAPIClient(Response a)",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "jsonize",
           "package": "easy-api",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "jsonize",
           "normalized": "Response ByteString-\u003eAPIClient(Response a)",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "patch",
           "package": "easy-api",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "patch",
           "normalized": "ByteString-\u003ea-\u003eAPIClient(Response b)",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "post",
           "package": "easy-api",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "post",
           "normalized": "ByteString-\u003ea-\u003eAPIClient(Response b)",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "put",
           "package": "easy-api",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "put",
           "normalized": "ByteString-\u003ea-\u003eAPIClient(Response b)",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "requestMiddleware",
           "package": "easy-api",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "requestMiddleware",
           "package": "easy-api",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:15 UTC 2014",
           "module": "Network.HTTP.API",
           "name": "runAPIClient",
           "package": "easy-api",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP API",
+          "indexed": "2014-03-11T18:00:15",
           "module": "Network.HTTP.API",
           "name": "runAPIClient",
           "normalized": "String-\u003eRequestMiddleware-\u003eAPIClient a-\u003eIO(Either APIError a)",

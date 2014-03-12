@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zoom"
+        "phrase": "zoom",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Interpreter",
           "name": "Interpreter",
           "package": "zoom",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Zoom Interpreter",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Interpreter",
           "name": "Interpreter",
           "package": "zoom",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Interpreter",
           "name": "availableTasks",
           "package": "zoom",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Zoom Interpreter",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Interpreter",
           "name": "availableTasks",
           "normalized": "[String]-\u003eInterpreter[String]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Interpreter",
           "name": "filterTaskFuns",
           "package": "zoom",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Zoom Interpreter",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Interpreter",
           "name": "filterTaskFuns",
           "normalized": "[String]-\u003eInterpreter[String]",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Interpreter",
           "name": "getAvailableModules",
           "package": "zoom",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Zoom Interpreter",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Interpreter",
           "name": "getAvailableModules",
           "normalized": "a[ModuleName]",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Interpreter",
           "name": "getFunctionsFromImports",
           "package": "zoom",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Zoom Interpreter",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Interpreter",
           "name": "getFunctionsFromImports",
           "normalized": "[ModuleName]-\u003eInterpreter[(ModuleName,[String])]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Interpreter",
           "name": "ghcGetAvailableModules",
           "package": "zoom",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Zoom Interpreter",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Interpreter",
           "name": "ghcGetAvailableModules",
           "normalized": "a[ModuleName]",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Interpreter",
           "name": "ifM",
           "package": "zoom",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Zoom Interpreter",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Interpreter",
           "name": "ifM",
           "normalized": "a Bool-\u003eb-\u003ea b",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimports both local and global Zoom.Task.* modules. \n   returns the qualified module names of all Zoom.Task.* modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Interpreter",
           "name": "importZoomTasks",
           "package": "zoom",
@@ -193,6 +208,7 @@
         "index": {
           "description": "imports both local and global Zoom.Task modules returns the qualified module names of all Zoom.Task modules",
           "hierarchy": "Zoom Interpreter",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Interpreter",
           "name": "importZoomTasks",
           "normalized": "Interpreter[ModuleName]",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eentry point for the standard zoom interpreter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Interpreter",
           "name": "interpreterMain",
           "package": "zoom",
@@ -219,6 +236,7 @@
         "index": {
           "description": "entry point for the standard zoom interpreter",
           "hierarchy": "Zoom Interpreter",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Interpreter",
           "name": "interpreterMain",
           "normalized": "[Args]-\u003eInterpreter()",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eloads up modules located in the task subdirectory of the current directory.\n   note that this currently needs to be run before loading global tasks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Interpreter",
           "name": "loadLocalTaskModules",
           "package": "zoom",
@@ -245,6 +264,7 @@
         "index": {
           "description": "loads up modules located in the task subdirectory of the current directory note that this currently needs to be run before loading global tasks",
           "hierarchy": "Zoom Interpreter",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Interpreter",
           "name": "loadLocalTaskModules",
           "normalized": "Interpreter()",
@@ -260,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Interpreter",
           "name": "runZoomInterpreter",
           "package": "zoom",
@@ -269,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Zoom Interpreter",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Interpreter",
           "name": "runZoomInterpreter",
           "normalized": "[Args]-\u003eIO(Either InterpreterError())",
@@ -284,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Task.Demo",
           "name": "Demo",
           "package": "zoom",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Zoom Task Demo",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Task.Demo",
           "name": "Demo",
           "package": "zoom",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Task",
           "name": "Task",
           "package": "zoom",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Zoom Task",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Task",
           "name": "Task",
           "package": "zoom",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Task",
           "name": "Args",
           "package": "zoom",
@@ -334,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Zoom Task",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Task",
           "name": "Args",
           "package": "zoom",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Task",
           "name": "ZoomTask",
           "package": "zoom",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Zoom Task",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Task",
           "name": "ZoomTask",
           "package": "zoom",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Task",
           "name": "Args",
           "package": "zoom",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Zoom Task",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Task",
           "name": "Args",
           "package": "zoom",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Task",
           "name": "Task",
           "package": "zoom",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Zoom Task",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Task",
           "name": "Task",
           "package": "zoom",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Task",
           "name": "desc",
           "package": "zoom",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Zoom Task",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Task",
           "name": "desc",
           "package": "zoom",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Task",
           "name": "fromTask",
           "package": "zoom",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Zoom Task",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Task",
           "name": "fromTask",
           "normalized": "[Args]-\u003eIO a",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Template",
           "name": "Template",
           "package": "zoom",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Zoom Template",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Template",
           "name": "Template",
           "package": "zoom",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Template",
           "name": "render",
           "package": "zoom",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Zoom Template",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Template",
           "name": "render",
           "normalized": "(a-\u003eb)-\u003eb",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Template",
           "name": "zoom",
           "package": "zoom",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Zoom Template",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Template",
           "name": "zoom",
           "package": "zoom",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:38 UTC 2014",
           "module": "Zoom.Template",
           "name": "zoomFile",
           "package": "zoom",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Zoom Template",
+          "indexed": "2014-03-11T20:48:38",
           "module": "Zoom.Template",
           "name": "zoomFile",
           "normalized": "FilePath-\u003eQ Exp",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cipher-rc4"
+        "phrase": "cipher-rc4",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple implementation of the RC4 stream cipher.\n http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eRC4\n\u003c/p\u003e\u003cp\u003eInitial FFI implementation by Peter White \u003ca\u003epeter@janrain.com\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eReorganized and simplified to have an opaque context.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:52 UTC 2014",
           "module": "Crypto.Cipher.RC4",
           "name": "RC4",
           "package": "cipher-rc4",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple implementation of the RC4 stream cipher http en.wikipedia.org wiki RC4 Initial FFI implementation by Peter White peter@janrain.com Reorganized and simplified to have an opaque context",
           "hierarchy": "Crypto Cipher RC4",
+          "indexed": "2014-03-11T17:32:52",
           "module": "Crypto.Cipher.RC4",
           "name": "RC4",
           "package": "cipher-rc4",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe encryption context for RC4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:52 UTC 2014",
           "module": "Crypto.Cipher.RC4",
           "name": "Ctx",
           "package": "cipher-rc4",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The encryption context for RC4",
           "hierarchy": "Crypto Cipher RC4",
+          "indexed": "2014-03-11T17:32:52",
           "module": "Crypto.Cipher.RC4",
           "name": "Ctx",
           "package": "cipher-rc4",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRC4 Stream cipher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:52 UTC 2014",
           "module": "Crypto.Cipher.RC4",
           "name": "RC4",
           "package": "cipher-rc4",
@@ -74,6 +79,7 @@
         "index": {
           "description": "RC4 Stream cipher",
           "hierarchy": "Crypto Cipher RC4",
+          "indexed": "2014-03-11T17:32:52",
           "module": "Crypto.Cipher.RC4",
           "name": "RC4",
           "package": "cipher-rc4",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:52 UTC 2014",
           "module": "Crypto.Cipher.RC4",
           "name": "Ctx",
           "package": "cipher-rc4",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher RC4",
+          "indexed": "2014-03-11T17:32:52",
           "module": "Crypto.Cipher.RC4",
           "name": "Ctx",
           "package": "cipher-rc4",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRC4 xor combination of the rc4 stream with an input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:52 UTC 2014",
           "module": "Crypto.Cipher.RC4",
           "name": "combine",
           "package": "cipher-rc4",
@@ -119,6 +128,7 @@
         "index": {
           "description": "RC4 xor combination of the rc4 stream with an input",
           "hierarchy": "Crypto Cipher RC4",
+          "indexed": "2014-03-11T17:32:52",
           "module": "Crypto.Cipher.RC4",
           "name": "combine",
           "normalized": "Ctx-\u003eByteString-\u003e(Ctx,ByteString)",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use combine instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:52 UTC 2014",
           "module": "Crypto.Cipher.RC4",
           "name": "decrypt",
           "package": "cipher-rc4",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Deprecated use combine instead",
           "hierarchy": "Crypto Cipher RC4",
+          "indexed": "2014-03-11T17:32:52",
           "module": "Crypto.Cipher.RC4",
           "name": "decrypt",
           "normalized": "Ctx-\u003eByteString-\u003e(Ctx,ByteString)",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use combine instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:52 UTC 2014",
           "module": "Crypto.Cipher.RC4",
           "name": "encrypt",
           "package": "cipher-rc4",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Deprecated use combine instead",
           "hierarchy": "Crypto Cipher RC4",
+          "indexed": "2014-03-11T17:32:52",
           "module": "Crypto.Cipher.RC4",
           "name": "encrypt",
           "normalized": "Ctx-\u003eByteString-\u003e(Ctx,ByteString)",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate the next len bytes of the rc4 stream without combining\n it to anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:52 UTC 2014",
           "module": "Crypto.Cipher.RC4",
           "name": "generate",
           "package": "cipher-rc4",
@@ -194,6 +209,7 @@
         "index": {
           "description": "generate the next len bytes of the rc4 stream without combining it to anything",
           "hierarchy": "Crypto Cipher RC4",
+          "indexed": "2014-03-11T17:32:52",
           "module": "Crypto.Cipher.RC4",
           "name": "generate",
           "normalized": "Ctx-\u003eInt-\u003e(Ctx,ByteString)",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRC4 context initialization.\n\u003c/p\u003e\u003cp\u003eseed the context with an initial key. the key size need to be\n adequate otherwise security takes a hit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:52 UTC 2014",
           "module": "Crypto.Cipher.RC4",
           "name": "initCtx",
           "package": "cipher-rc4",
@@ -218,6 +235,7 @@
         "index": {
           "description": "RC4 context initialization seed the context with an initial key the key size need to be adequate otherwise security takes hit",
           "hierarchy": "Crypto Cipher RC4",
+          "indexed": "2014-03-11T17:32:52",
           "module": "Crypto.Cipher.RC4",
           "name": "initCtx",
           "normalized": "ByteString-\u003eCtx",

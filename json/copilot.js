@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "copilot"
+        "phrase": "copilot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:01 UTC 2014",
           "module": "Language.Copilot",
           "name": "Copilot",
           "package": "copilot",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Copilot",
+          "indexed": "2014-03-11T17:41:01",
           "module": "Language.Copilot",
           "name": "Copilot",
           "package": "copilot",

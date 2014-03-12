@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "metricsd-client"
+        "phrase": "metricsd-client",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:18 UTC 2014",
           "module": "Network.Metricsd.Client",
           "name": "Client",
           "package": "metricsd-client",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Metricsd Client",
+          "indexed": "2014-03-11T19:17:18",
           "module": "Network.Metricsd.Client",
           "name": "Client",
           "package": "metricsd-client",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:18 UTC 2014",
           "module": "Network.Metricsd.Client",
           "name": "MetricsdClientHandle",
           "package": "metricsd-client",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Metricsd Client",
+          "indexed": "2014-03-11T19:17:18",
           "module": "Network.Metricsd.Client",
           "name": "MetricsdClientHandle",
           "package": "metricsd-client",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize metricsd client with default hostname and port (127.0.0.1:8125).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:18 UTC 2014",
           "module": "Network.Metricsd.Client",
           "name": "initMetricsdClient",
           "package": "metricsd-client",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Initialize metricsd client with default hostname and port",
           "hierarchy": "Network Metricsd Client",
+          "indexed": "2014-03-11T19:17:18",
           "module": "Network.Metricsd.Client",
           "name": "initMetricsdClient",
           "package": "metricsd-client",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize metricsd client with the given hostname and port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:18 UTC 2014",
           "module": "Network.Metricsd.Client",
           "name": "initMetricsdClient'",
           "package": "metricsd-client",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Initialize metricsd client with the given hostname and port",
           "hierarchy": "Network Metricsd Client",
+          "indexed": "2014-03-11T19:17:18",
           "module": "Network.Metricsd.Client",
           "name": "initMetricsdClient'",
           "normalized": "String-\u003ePortNumber-\u003eIO MetricsdClientHandle",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:18 UTC 2014",
           "module": "Network.Metricsd.Client",
           "name": "sendCounter",
           "package": "metricsd-client",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Network Metricsd Client",
+          "indexed": "2014-03-11T19:17:18",
           "module": "Network.Metricsd.Client",
           "name": "sendCounter",
           "normalized": "MetricsdClientHandle-\u003eString-\u003eInteger-\u003eIO()",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:18 UTC 2014",
           "module": "Network.Metricsd.Client",
           "name": "sendGauge",
           "package": "metricsd-client",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Network Metricsd Client",
+          "indexed": "2014-03-11T19:17:18",
           "module": "Network.Metricsd.Client",
           "name": "sendGauge",
           "normalized": "MetricsdClientHandle-\u003eString-\u003eInteger-\u003eIO()",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:18 UTC 2014",
           "module": "Network.Metricsd.Client",
           "name": "sendHistogram",
           "package": "metricsd-client",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Network Metricsd Client",
+          "indexed": "2014-03-11T19:17:18",
           "module": "Network.Metricsd.Client",
           "name": "sendHistogram",
           "normalized": "MetricsdClientHandle-\u003eString-\u003eInteger-\u003eIO()",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:18 UTC 2014",
           "module": "Network.Metricsd.Client",
           "name": "sendMeter",
           "package": "metricsd-client",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Network Metricsd Client",
+          "indexed": "2014-03-11T19:17:18",
           "module": "Network.Metricsd.Client",
           "name": "sendMeter",
           "normalized": "MetricsdClientHandle-\u003eString-\u003eIO()",

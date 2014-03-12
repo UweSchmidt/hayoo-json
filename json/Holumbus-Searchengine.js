@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Holumbus-Searchengine"
+        "phrase": "Holumbus-Searchengine",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA map-fold function for performing list folds in parallel.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Control.Concurrent.MapFold",
           "name": "MapFold",
           "package": "Holumbus-Searchengine",
@@ -28,6 +29,7 @@
         "index": {
           "description": "map-fold function for performing list folds in parallel",
           "hierarchy": "Control Concurrent MapFold",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Control.Concurrent.MapFold",
           "name": "MapFold",
           "package": "Holumbus-Searchengine",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Control.Concurrent.MapFold",
           "name": "mapFold",
           "package": "Holumbus-Searchengine",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MapFold",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Control.Concurrent.MapFold",
           "name": "mapFold",
           "normalized": "Int-\u003e(a-\u003eIO b)-\u003e(b-\u003eb-\u003eIO b)-\u003e[a]-\u003eIO b",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Control.Monad.ReaderStateIO",
           "name": "ReaderStateIO",
           "package": "Holumbus-Searchengine",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ReaderStateIO",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Control.Monad.ReaderStateIO",
           "name": "ReaderStateIO",
           "package": "Holumbus-Searchengine",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereader state io monad implemented directly without any monad transformers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Control.Monad.ReaderStateIO",
           "name": "ReaderStateIO",
           "package": "Holumbus-Searchengine",
@@ -96,6 +103,7 @@
         "index": {
           "description": "reader state io monad implemented directly without any monad transformers",
           "hierarchy": "Control Monad ReaderStateIO",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Control.Monad.ReaderStateIO",
           "name": "ReaderStateIO",
           "package": "Holumbus-Searchengine",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Control.Monad.ReaderStateIO",
           "name": "RSIO",
           "package": "Holumbus-Searchengine",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ReaderStateIO",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Control.Monad.ReaderStateIO",
           "name": "RSIO",
           "normalized": "RSIO(a-\u003eb-\u003eIO(c,b))",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Control.Monad.ReaderStateIO",
           "name": "modifyIO",
           "package": "Holumbus-Searchengine",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ReaderStateIO",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Control.Monad.ReaderStateIO",
           "name": "modifyIO",
           "normalized": "(a-\u003eIO a)-\u003eReaderStateIO b a()",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Control.Monad.ReaderStateIO",
           "name": "runReaderStateIO",
           "package": "Holumbus-Searchengine",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ReaderStateIO",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Control.Monad.ReaderStateIO",
           "name": "runReaderStateIO",
           "normalized": "ReaderStateIO a b c-\u003ea-\u003eb-\u003eIO(c,b)",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA map-fold function for interleaved map and fold.\n   The elements of a list are processed like in a binary tree.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Control.Sequential.MapFoldBinary",
           "name": "MapFoldBinary",
           "package": "Holumbus-Searchengine",
@@ -191,6 +206,7 @@
         "index": {
           "description": "map-fold function for interleaved map and fold The elements of list are processed like in binary tree",
           "hierarchy": "Control Sequential MapFoldBinary",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Control.Sequential.MapFoldBinary",
           "name": "MapFoldBinary",
           "package": "Holumbus-Searchengine",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure version of binary map fold\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003emapFoldBinary id (+) [1..8]\u003c/code\u003e adds the elements of a list in the following order:\n \u003ccode\u003e(((1+2)+(3+4))+((5+6)+(7+8)))\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Control.Sequential.MapFoldBinary",
           "name": "mapFoldBinary",
           "package": "Holumbus-Searchengine",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Pure version of binary map fold mapFoldBinary id adds the elements of list in the following order",
           "hierarchy": "Control Sequential MapFoldBinary",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Control.Sequential.MapFoldBinary",
           "name": "mapFoldBinary",
           "normalized": "(a-\u003eb)-\u003e(b-\u003eb-\u003eb)-\u003e[a]-\u003eb",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of a binary map fold\n\u003c/p\u003e\u003cp\u003eThe elements of a list are mapped and folded in the same way as in the pure version.\n The map and fold operations are interleaved. In the above example the expressions are evaluated\n from left to right, folding is performed, as early as possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Control.Sequential.MapFoldBinary",
           "name": "mapFoldBinaryM",
           "package": "Holumbus-Searchengine",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Monadic version of binary map fold The elements of list are mapped and folded in the same way as in the pure version The map and fold operations are interleaved In the above example the expressions are evaluated from left to right folding is performed as early as possible",
           "hierarchy": "Control Sequential MapFoldBinary",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Control.Sequential.MapFoldBinary",
           "name": "mapFoldBinaryM",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003ec-\u003eb c)-\u003e[a]-\u003eb c",
@@ -256,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "CacheCore",
           "package": "Holumbus-Searchengine",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler CacheCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "CacheCore",
           "package": "Holumbus-Searchengine",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "CacheCrawlerConfig",
           "package": "Holumbus-Searchengine",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler CacheCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "CacheCrawlerConfig",
           "package": "Holumbus-Searchengine",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "CacheCrawlerState",
           "package": "Holumbus-Searchengine",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler CacheCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "CacheCrawlerState",
           "package": "Holumbus-Searchengine",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "CacheState",
           "package": "Holumbus-Searchengine",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler CacheCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "CacheState",
           "package": "Holumbus-Searchengine",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "CS",
           "package": "Holumbus-Searchengine",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler CacheCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "CS",
           "normalized": "CS()",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "cacheCrawlerConfig",
           "package": "Holumbus-Searchengine",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler CacheCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "cacheCrawlerConfig",
           "normalized": "SysConfig-\u003e(URI-\u003eBool)-\u003eCacheCrawlerConfig",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "emptyCacheState",
           "package": "Holumbus-Searchengine",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler CacheCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "emptyCacheState",
           "package": "Holumbus-Searchengine",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "insertCacheM",
           "package": "Holumbus-Searchengine",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler CacheCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "insertCacheM",
           "normalized": "(URI,())-\u003eCacheState-\u003ea CacheState",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "stdCacher",
           "package": "Holumbus-Searchengine",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler CacheCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "stdCacher",
           "normalized": "(Int,Int,Int)-\u003e(Int,String)-\u003e(Priority,Priority)-\u003eSysConfig-\u003e(CacheCrawlerConfig-\u003eCacheCrawlerConfig)-\u003eMaybe String-\u003e[URI]-\u003e(URI-\u003eBool)-\u003eIO CacheCrawlerState",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "unionCacheStatesM",
           "package": "Holumbus-Searchengine",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler CacheCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.CacheCore",
           "name": "unionCacheStatesM",
           "normalized": "CacheState-\u003eCacheState-\u003ea CacheState",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Constants",
           "name": "Constants",
           "package": "Holumbus-Searchengine",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Constants",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Constants",
           "name": "Constants",
           "package": "Holumbus-Searchengine",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Constants",
           "name": "curl_connect_timeout",
           "package": "Holumbus-Searchengine",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Constants",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Constants",
           "name": "curl_connect_timeout",
           "package": "Holumbus-Searchengine",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Constants",
           "name": "curl_location",
           "package": "Holumbus-Searchengine",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Constants",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Constants",
           "name": "curl_location",
           "package": "Holumbus-Searchengine",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Constants",
           "name": "curl_max_filesize",
           "package": "Holumbus-Searchengine",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Constants",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Constants",
           "name": "curl_max_filesize",
           "package": "Holumbus-Searchengine",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Constants",
           "name": "curl_max_redirects",
           "package": "Holumbus-Searchengine",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Constants",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Constants",
           "name": "curl_max_redirects",
           "package": "Holumbus-Searchengine",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Constants",
           "name": "curl_max_time",
           "package": "Holumbus-Searchengine",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Constants",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Constants",
           "name": "curl_max_time",
           "package": "Holumbus-Searchengine",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Constants",
           "name": "curl_user_agent",
           "package": "Holumbus-Searchengine",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Constants",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Constants",
           "name": "curl_user_agent",
           "package": "Holumbus-Searchengine",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Constants",
           "name": "defaultCrawlerName",
           "package": "Holumbus-Searchengine",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Constants",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Constants",
           "name": "defaultCrawlerName",
           "package": "Holumbus-Searchengine",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Constants",
           "name": "http_last_modified",
           "package": "Holumbus-Searchengine",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Constants",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Constants",
           "name": "http_last_modified",
           "package": "Holumbus-Searchengine",
@@ -670,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Constants",
           "name": "http_location",
           "package": "Holumbus-Searchengine",
@@ -679,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Constants",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Constants",
           "name": "http_location",
           "package": "Holumbus-Searchengine",
@@ -691,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "Core",
           "package": "Holumbus-Searchengine",
@@ -699,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "Core",
           "package": "Holumbus-Searchengine",
@@ -712,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "MapFold",
           "package": "Holumbus-Searchengine",
@@ -720,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "MapFold",
           "package": "Holumbus-Searchengine",
@@ -733,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "accumulateRes",
           "package": "Holumbus-Searchengine",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "accumulateRes",
           "normalized": "(URI,a)-\u003eCrawlerAction a b()",
@@ -757,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "combineDocResults'",
           "package": "Holumbus-Searchengine",
@@ -766,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "combineDocResults'",
           "normalized": "MergeDocResults a-\u003e(URIs,URIsWithLevel,a)-\u003e(URIs,URIsWithLevel,a)-\u003eIO(URIs,URIsWithLevel,a)",
@@ -781,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlDocs",
           "package": "Holumbus-Searchengine",
@@ -790,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlDocs",
           "normalized": "[URI]-\u003eCrawlerAction a b()",
@@ -806,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecrawl a single doc, mark doc as processed, collect new hrefs and combine doc result with accumulator in state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlNextDoc",
           "package": "Holumbus-Searchengine",
@@ -816,6 +887,7 @@
         "index": {
           "description": "crawl single doc mark doc as processed collect new hrefs and combine doc result with accumulator in state",
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlNextDoc",
           "normalized": "CrawlerAction a b()",
@@ -831,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlNextDocs",
           "package": "Holumbus-Searchengine",
@@ -840,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlNextDocs",
           "normalized": "MapFold URIWithLevel(URIs,URIsWithLevel,a)-\u003eCrawlerAction b a()",
@@ -855,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlerCheckSaveState",
           "package": "Holumbus-Searchengine",
@@ -864,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlerCheckSaveState",
           "normalized": "CrawlerAction a b()",
@@ -879,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlerLoop",
           "package": "Holumbus-Searchengine",
@@ -888,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlerLoop",
           "normalized": "CrawlerAction a b()",
@@ -903,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlerResume",
           "package": "Holumbus-Searchengine",
@@ -912,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlerResume",
           "normalized": "String-\u003eCrawlerAction a b()",
@@ -927,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlerSaveState",
           "package": "Holumbus-Searchengine",
@@ -936,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "crawlerSaveState",
           "normalized": "CrawlerAction a b()",
@@ -951,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "execCrawler",
           "package": "Holumbus-Searchengine",
@@ -960,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "execCrawler",
           "normalized": "CrawlerAction a b c-\u003eCrawlerConfig a b-\u003eCrawlerState b-\u003eIO(CrawlerState b)",
@@ -976,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompute the real URI in case of a 301 or 302 response (moved permanently or temporary),\n else the arrow will fail\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "getLocationReference",
           "package": "Holumbus-Searchengine",
@@ -986,6 +1071,7 @@
         "index": {
           "description": "compute the real URI in case of or response moved permanently or temporary else the arrow will fail",
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "getLocationReference",
           "package": "Holumbus-Searchengine",
@@ -1000,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompute the real URI of the document, in case of a move response\n this is contained in the \"http-location\" attribute, else it's the\n tranferURI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "getRealDocURI",
           "package": "Holumbus-Searchengine",
@@ -1010,6 +1097,7 @@
         "index": {
           "description": "compute the real URI of the document in case of move response this is contained in the http-location attribute else it the tranferURI",
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "getRealDocURI",
           "package": "Holumbus-Searchengine",
@@ -1023,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "initCrawler",
           "package": "Holumbus-Searchengine",
@@ -1032,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "initCrawler",
           "normalized": "CrawlerAction a b()",
@@ -1048,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efilter uris rejected by robots.txt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "isAllowedByRobots",
           "package": "Holumbus-Searchengine",
@@ -1058,6 +1149,7 @@
         "index": {
           "description": "filter uris rejected by robots.txt",
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "isAllowedByRobots",
           "normalized": "URI-\u003eCrawlerAction a b Bool",
@@ -1073,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "loadCrawlerState",
           "package": "Holumbus-Searchengine",
@@ -1082,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "loadCrawlerState",
           "normalized": "FilePath-\u003eCrawlerAction a b()",
@@ -1098,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the process document arrow and prepare results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "processDoc",
           "package": "Holumbus-Searchengine",
@@ -1108,6 +1203,7 @@
         "index": {
           "description": "Run the process document arrow and prepare results",
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "processDoc",
           "normalized": "URIWithLevel-\u003eCrawlerAction a b(URI,[URIWithLevel],[(URI,a)])",
@@ -1123,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "processDoc'",
           "package": "Holumbus-Searchengine",
@@ -1132,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "processDoc'",
           "normalized": "URIWithLevel-\u003eCrawlerAction a b(URIs,URIsWithLevel,[(URI,a)])",
@@ -1148,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom a document two results are computed, 1. the list of all hrefs in the contents,\n and 2. the collected info contained in the page. This result is augmented with the transfer uri\n such that following functions know the source of this contents. The transfer-URI may be another one\n as the input uri, there could happen a redirect in the http request.\n\u003c/p\u003e\u003cp\u003eThe two listA arrows make the whole arrow deterministic, so it never fails\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "processDocArrow",
           "package": "Holumbus-Searchengine",
@@ -1158,6 +1257,7 @@
         "index": {
           "description": "From document two results are computed the list of all hrefs in the contents and the collected info contained in the page This result is augmented with the transfer uri such that following functions know the source of this contents The transfer-URI may be another one as the input uri there could happen redirect in the http request The two listA arrows make the whole arrow deterministic so it never fails",
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "processDocArrow",
           "normalized": "CrawlerConfig a b-\u003eURI-\u003eIOSArrow c(URI,([URI],[(URI,a)]))",
@@ -1173,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "runCrawler",
           "package": "Holumbus-Searchengine",
@@ -1182,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "runCrawler",
           "normalized": "CrawlerAction a b c-\u003eCrawlerConfig a b-\u003eCrawlerState b-\u003eIO(c,CrawlerState b)",
@@ -1197,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "saveCrawlerState",
           "package": "Holumbus-Searchengine",
@@ -1206,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "saveCrawlerState",
           "normalized": "FilePath-\u003eCrawlerAction a b()",
@@ -1221,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "uriAddToRobotsTxt",
           "package": "Holumbus-Searchengine",
@@ -1230,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "uriAddToRobotsTxt",
           "normalized": "URI-\u003eCrawlerAction a b()",
@@ -1245,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "uriProcessed",
           "package": "Holumbus-Searchengine",
@@ -1254,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "uriProcessed",
           "normalized": "URI-\u003eCrawlerAction a b()",
@@ -1269,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "uriToBeProcessed",
           "package": "Holumbus-Searchengine",
@@ -1278,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "uriToBeProcessed",
           "normalized": "URI-\u003eInt-\u003eCrawlerAction a b()",
@@ -1293,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "urisProcessed",
           "package": "Holumbus-Searchengine",
@@ -1302,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "urisProcessed",
           "normalized": "URIs-\u003eCrawlerAction a b()",
@@ -1317,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Core",
           "name": "urisToBeProcessed",
           "package": "Holumbus-Searchengine",
@@ -1326,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Core",
           "name": "urisToBeProcessed",
           "normalized": "URIsWithLevel-\u003eCrawlerAction a b()",
@@ -1341,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "Html",
           "package": "Holumbus-Searchengine",
@@ -1349,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "Html",
           "package": "Holumbus-Searchengine",
@@ -1362,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "application_pdf",
           "package": "Holumbus-Searchengine",
@@ -1371,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "application_pdf",
           "package": "Holumbus-Searchengine",
@@ -1384,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the base URI of a HTML page with respect to a possibly\n   given base element in the head element of a html page.\n\u003c/p\u003e\u003cp\u003eStolen from Uwe Schmidt, http://www.haskell.org/haskellwiki/HXT\n   and then stolen back again by Uwe from Holumbus.Utility\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "computeDocBase",
           "package": "Holumbus-Searchengine",
@@ -1394,6 +1513,7 @@
         "index": {
           "description": "Compute the base URI of HTML page with respect to possibly given base element in the head element of html page Stolen from Uwe Schmidt http www.haskell.org haskellwiki HXT and then stolen back again by Uwe from Holumbus.Utility",
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "computeDocBase",
           "package": "Holumbus-Searchengine",
@@ -1407,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "defaultHtmlCrawlerConfig",
           "package": "Holumbus-Searchengine",
@@ -1416,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "defaultHtmlCrawlerConfig",
           "normalized": "AccumulateDocResult a b-\u003eMergeDocResults b-\u003eCrawlerConfig a b",
@@ -1431,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "getAllText",
           "package": "Holumbus-Searchengine",
@@ -1440,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "getAllText",
           "normalized": "a XmlTree XmlTree-\u003ea XmlTree String",
@@ -1455,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "getByPath",
           "package": "Holumbus-Searchengine",
@@ -1464,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "getByPath",
           "normalized": "[String]-\u003ea XmlTree XmlTree",
@@ -1479,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "getDocReferences",
           "package": "Holumbus-Searchengine",
@@ -1488,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "getDocReferences",
           "package": "Holumbus-Searchengine",
@@ -1501,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "getHtmlPlainText",
           "package": "Holumbus-Searchengine",
@@ -1510,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "getHtmlPlainText",
           "package": "Holumbus-Searchengine",
@@ -1524,6 +1654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect all HTML references to other documents within a, frame and iframe elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "getHtmlReferences",
           "package": "Holumbus-Searchengine",
@@ -1534,6 +1665,7 @@
         "index": {
           "description": "Collect all HTML references to other documents within frame and iframe elements",
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "getHtmlReferences",
           "package": "Holumbus-Searchengine",
@@ -1547,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "getHtmlTitle",
           "package": "Holumbus-Searchengine",
@@ -1556,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "getHtmlTitle",
           "package": "Holumbus-Searchengine",
@@ -1569,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "getTitleOrDocName",
           "package": "Holumbus-Searchengine",
@@ -1578,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "getTitleOrDocName",
           "package": "Holumbus-Searchengine",
@@ -1591,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "isElemWithAttr",
           "package": "Holumbus-Searchengine",
@@ -1600,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "isElemWithAttr",
           "normalized": "String-\u003eString-\u003e(String-\u003eBool)-\u003ea XmlTree XmlTree",
@@ -1615,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "isHtmlContents",
           "package": "Holumbus-Searchengine",
@@ -1624,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "isHtmlContents",
           "package": "Holumbus-Searchengine",
@@ -1637,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "isPdfContents",
           "package": "Holumbus-Searchengine",
@@ -1646,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "isPdfContents",
           "package": "Holumbus-Searchengine",
@@ -1660,6 +1802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etake the first n chars of a string, if the input\n   is too long the cut off is indicated by \"...\" at the end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "limitLength",
           "package": "Holumbus-Searchengine",
@@ -1670,6 +1813,7 @@
         "index": {
           "description": "take the first chars of string if the input is too long the cut off is indicated by at the end",
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "limitLength",
           "normalized": "Int-\u003eString-\u003eString",
@@ -1686,6 +1830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enormalize whitespace by splitting a text into words and joining this together with unwords\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "normalizeWS",
           "package": "Holumbus-Searchengine",
@@ -1696,6 +1841,7 @@
         "index": {
           "description": "normalize whitespace by splitting text into words and joining this together with unwords",
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "normalizeWS",
           "normalized": "String-\u003eString",
@@ -1712,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct an absolute URI by a base URI and a possibly relative URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Html",
           "name": "toAbsRef",
           "package": "Holumbus-Searchengine",
@@ -1722,6 +1869,7 @@
         "index": {
           "description": "construct an absolute URI by base URI and possibly relative URI",
           "hierarchy": "Holumbus Crawler Html",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Html",
           "name": "toAbsRef",
           "normalized": "URI-\u003eURI-\u003eURI",
@@ -1737,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "IndexerCore",
           "package": "Holumbus-Searchengine",
@@ -1745,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "IndexerCore",
           "package": "Holumbus-Searchengine",
@@ -1758,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "IndexContextConfig",
           "package": "Holumbus-Searchengine",
@@ -1766,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "IndexContextConfig",
           "package": "Holumbus-Searchengine",
@@ -1779,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "IndexCrawlerConfig",
           "package": "Holumbus-Searchengine",
@@ -1787,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "IndexCrawlerConfig",
           "package": "Holumbus-Searchengine",
@@ -1800,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "IndexerState",
           "package": "Holumbus-Searchengine",
@@ -1808,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "IndexerState",
           "package": "Holumbus-Searchengine",
@@ -1821,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "RawContext",
           "package": "Holumbus-Searchengine",
@@ -1829,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "RawContext",
           "package": "Holumbus-Searchengine",
@@ -1842,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "RawContexts",
           "package": "Holumbus-Searchengine",
@@ -1850,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "RawContexts",
           "package": "Holumbus-Searchengine",
@@ -1863,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "RawDoc",
           "package": "Holumbus-Searchengine",
@@ -1871,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "RawDoc",
           "package": "Holumbus-Searchengine",
@@ -1884,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "RawTitle",
           "package": "Holumbus-Searchengine",
@@ -1892,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "RawTitle",
           "package": "Holumbus-Searchengine",
@@ -1905,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "RawWord",
           "package": "Holumbus-Searchengine",
@@ -1913,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "RawWord",
           "package": "Holumbus-Searchengine",
@@ -1926,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "RawWords",
           "package": "Holumbus-Searchengine",
@@ -1934,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "RawWords",
           "package": "Holumbus-Searchengine",
@@ -1947,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "IndexContextConfig",
           "package": "Holumbus-Searchengine",
@@ -1956,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "IndexContextConfig",
           "package": "Holumbus-Searchengine",
@@ -1969,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "IndexerState",
           "package": "Holumbus-Searchengine",
@@ -1978,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "IndexerState",
           "package": "Holumbus-Searchengine",
@@ -2016,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "indexCrawlerConfig",
           "package": "Holumbus-Searchengine",
@@ -2024,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "indexCrawlerConfig",
           "normalized": "SysConfig-\u003e(URI-\u003eBool)-\u003eMaybe(IOSArrow XmlTree String)-\u003eMaybe(IOSArrow XmlTree XmlTree)-\u003eMaybe(IOSArrow XmlTree String)-\u003eMaybe(IOSArrow XmlTree a)-\u003e[IndexContextConfig]-\u003eIndexCrawlerConfig b c a",
@@ -2039,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "insertRawDocM",
           "package": "Holumbus-Searchengine",
@@ -2047,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "insertRawDocM",
           "normalized": "(URI,RawDoc a)-\u003eIndexerState b c a-\u003ed(IndexerState b c a)",
@@ -2062,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "ixc_boringWord",
           "package": "Holumbus-Searchengine",
@@ -2071,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "ixc_boringWord",
           "normalized": "String-\u003eBool",
@@ -2086,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "ixc_collectText",
           "package": "Holumbus-Searchengine",
@@ -2095,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "ixc_collectText",
           "package": "Holumbus-Searchengine",
@@ -2108,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "ixc_name",
           "package": "Holumbus-Searchengine",
@@ -2117,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "ixc_name",
           "package": "Holumbus-Searchengine",
@@ -2129,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "ixc_textToWords",
           "package": "Holumbus-Searchengine",
@@ -2138,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "ixc_textToWords",
           "normalized": "String-\u003e[String]",
@@ -2153,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "ixs_documents",
           "package": "Holumbus-Searchengine",
@@ -2162,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "ixs_documents",
           "package": "Holumbus-Searchengine",
@@ -2174,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "ixs_index",
           "package": "Holumbus-Searchengine",
@@ -2183,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "ixs_index",
           "package": "Holumbus-Searchengine",
@@ -2195,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "stdIndexer",
           "package": "Holumbus-Searchengine",
@@ -2203,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "stdIndexer",
           "normalized": "IndexCrawlerConfig a b c-\u003eMaybe String-\u003e[URI]-\u003eIndexerState a b c-\u003eIO(IndexCrawlerState a b c)",
@@ -2218,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "unionIndexerStatesM",
           "package": "Holumbus-Searchengine",
@@ -2227,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler IndexerCore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.IndexerCore",
           "name": "unionIndexerStatesM",
           "normalized": "IndexerState a b c-\u003eIndexerState a b c-\u003ed(IndexerState a b c)",
@@ -2242,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Logger",
           "name": "Logger",
           "package": "Holumbus-Searchengine",
@@ -2250,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Logger",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Logger",
           "name": "Logger",
           "package": "Holumbus-Searchengine",
@@ -2263,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Logger",
           "name": "debugC",
           "package": "Holumbus-Searchengine",
@@ -2272,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Logger",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Logger",
           "name": "debugC",
           "normalized": "String-\u003e[String]-\u003ea()",
@@ -2286,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Logger",
           "name": "errC",
           "package": "Holumbus-Searchengine",
@@ -2295,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Logger",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Logger",
           "name": "errC",
           "normalized": "String-\u003e[String]-\u003ea()",
@@ -2309,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Logger",
           "name": "hxtLoggerName",
           "package": "Holumbus-Searchengine",
@@ -2318,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Logger",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Logger",
           "name": "hxtLoggerName",
           "package": "Holumbus-Searchengine",
@@ -2331,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Logger",
           "name": "hxtSetErrorLog",
           "package": "Holumbus-Searchengine",
@@ -2340,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Logger",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Logger",
           "name": "hxtSetErrorLog",
           "package": "Holumbus-Searchengine",
@@ -2353,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Logger",
           "name": "hxtSetLogLevel",
           "package": "Holumbus-Searchengine",
@@ -2362,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Logger",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Logger",
           "name": "hxtSetLogLevel",
           "normalized": "Priority-\u003eIOStateArrow a b b",
@@ -2377,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Logger",
           "name": "hxtSetTraceAndErrorLogger",
           "package": "Holumbus-Searchengine",
@@ -2386,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Logger",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Logger",
           "name": "hxtSetTraceAndErrorLogger",
           "normalized": "Priority-\u003eIOStateArrow a b b",
@@ -2401,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Logger",
           "name": "infoC",
           "package": "Holumbus-Searchengine",
@@ -2410,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Logger",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Logger",
           "name": "infoC",
           "normalized": "String-\u003e[String]-\u003ea()",
@@ -2425,6 +2633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet trace level in config\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Logger",
           "name": "logC",
           "package": "Holumbus-Searchengine",
@@ -2435,6 +2644,7 @@
         "index": {
           "description": "Set trace level in config",
           "hierarchy": "Holumbus Crawler Logger",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Logger",
           "name": "logC",
           "normalized": "String-\u003ePriority-\u003e[String]-\u003ea()",
@@ -2449,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Logger",
           "name": "noticeC",
           "package": "Holumbus-Searchengine",
@@ -2458,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Logger",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Logger",
           "name": "noticeC",
           "normalized": "String-\u003e[String]-\u003ea()",
@@ -2472,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Logger",
           "name": "setLogLevel",
           "package": "Holumbus-Searchengine",
@@ -2481,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Logger",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Logger",
           "name": "setLogLevel",
           "normalized": "String-\u003ePriority-\u003ea()",
@@ -2496,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Logger",
           "name": "warnC",
           "package": "Holumbus-Searchengine",
@@ -2505,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Logger",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Logger",
           "name": "warnC",
           "normalized": "String-\u003e[String]-\u003ea()",
@@ -2519,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "PdfToText",
           "package": "Holumbus-Searchengine",
@@ -2527,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler PdfToText",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "PdfToText",
           "package": "Holumbus-Searchengine",
@@ -2540,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "pdfResource",
           "package": "Holumbus-Searchengine",
@@ -2549,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler PdfToText",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "pdfResource",
           "normalized": "MVar(FilePath,FilePath)",
@@ -2565,6 +2785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion of pdf data into plain text. The conversion is done\n by calling an external program \u003ccode\u003epdftotext\u003c/code\u003e (contained in linux packages \u003ccode\u003expdf\u003c/code\u003e).\n IO is done via the ByteString API.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "pdfToText",
           "package": "Holumbus-Searchengine",
@@ -2575,6 +2796,7 @@
         "index": {
           "description": "Conversion of pdf data into plain text The conversion is done by calling an external program pdftotext contained in linux packages xpdf IO is done via the ByteString API",
           "hierarchy": "Holumbus Crawler PdfToText",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "pdfToText",
           "normalized": "String-\u003eIO String",
@@ -2590,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "pdfToTextA",
           "package": "Holumbus-Searchengine",
@@ -2599,6 +2822,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler PdfToText",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "pdfToTextA",
           "package": "Holumbus-Searchengine",
@@ -2612,6 +2836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "pdfToTextBS",
           "package": "Holumbus-Searchengine",
@@ -2621,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler PdfToText",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "pdfToTextBS",
           "normalized": "ByteString-\u003eIO String",
@@ -2636,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "releasePdf",
           "package": "Holumbus-Searchengine",
@@ -2645,6 +2872,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler PdfToText",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "releasePdf",
           "normalized": "(FilePath,FilePath)-\u003eIO()",
@@ -2660,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "requestPdf",
           "package": "Holumbus-Searchengine",
@@ -2669,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler PdfToText",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.PdfToText",
           "name": "requestPdf",
           "normalized": "IO(FilePath,FilePath)",
@@ -2684,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "RobotTypes",
           "package": "Holumbus-Searchengine",
@@ -2692,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "RobotTypes",
           "package": "Holumbus-Searchengine",
@@ -2705,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "AddRobotsAction",
           "package": "Holumbus-Searchengine",
@@ -2713,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "AddRobotsAction",
           "package": "Holumbus-Searchengine",
@@ -2726,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "RobotAction",
           "package": "Holumbus-Searchengine",
@@ -2734,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "RobotAction",
           "package": "Holumbus-Searchengine",
@@ -2747,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "RobotRestriction",
           "package": "Holumbus-Searchengine",
@@ -2755,6 +2992,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "RobotRestriction",
           "package": "Holumbus-Searchengine",
@@ -2768,6 +3006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "RobotSpec",
           "package": "Holumbus-Searchengine",
@@ -2776,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "RobotSpec",
           "package": "Holumbus-Searchengine",
@@ -2789,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "Robots",
           "package": "Holumbus-Searchengine",
@@ -2797,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "Robots",
           "package": "Holumbus-Searchengine",
@@ -2810,6 +3052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "Allow",
           "package": "Holumbus-Searchengine",
@@ -2819,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "Allow",
           "package": "Holumbus-Searchengine",
@@ -2832,6 +3076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "Disallow",
           "package": "Holumbus-Searchengine",
@@ -2841,6 +3086,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "Disallow",
           "package": "Holumbus-Searchengine",
@@ -2854,6 +3100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "emptyRobots",
           "package": "Holumbus-Searchengine",
@@ -2863,6 +3110,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "emptyRobots",
           "package": "Holumbus-Searchengine",
@@ -2876,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "robotsExtend",
           "package": "Holumbus-Searchengine",
@@ -2885,6 +3134,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "robotsExtend",
           "normalized": "String-\u003eAddRobotsAction",
@@ -2900,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "robotsFollow",
           "package": "Holumbus-Searchengine",
@@ -2909,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "robotsFollow",
           "normalized": "URI-\u003eRobots-\u003eBool",
@@ -2924,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "robotsIndex",
           "package": "Holumbus-Searchengine",
@@ -2933,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "robotsIndex",
           "normalized": "URI-\u003eRobots-\u003eBool",
@@ -2948,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "robotsNo",
           "package": "Holumbus-Searchengine",
@@ -2957,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "robotsNo",
           "normalized": "String-\u003eLA XmlTree XmlTree",
@@ -2973,6 +3229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erobots no follow filter. This filter checks HTML documents\n for a \u003cmeta name=\"robots\" content=\"nofollow\"\u003e in the head of the document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "robotsNoFollow",
           "package": "Holumbus-Searchengine",
@@ -2983,6 +3240,7 @@
         "index": {
           "description": "robots no follow filter This filter checks HTML documents for meta name robots content nofollow in the head of the document",
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "robotsNoFollow",
           "package": "Holumbus-Searchengine",
@@ -2997,6 +3255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erobots no index filter. This filter checks HTML documents\n for a \u003cmeta name=\"robots\" content=\"noindex\"\u003e in the head of the document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "robotsNoIndex",
           "package": "Holumbus-Searchengine",
@@ -3007,6 +3266,7 @@
         "index": {
           "description": "robots no index filter This filter checks HTML documents for meta name robots content noindex in the head of the document",
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "robotsNoIndex",
           "package": "Holumbus-Searchengine",
@@ -3020,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "xpRobotRestriction",
           "package": "Holumbus-Searchengine",
@@ -3029,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "xpRobotRestriction",
           "package": "Holumbus-Searchengine",
@@ -3042,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "xpRobots",
           "package": "Holumbus-Searchengine",
@@ -3051,6 +3314,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler RobotTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.RobotTypes",
           "name": "xpRobots",
           "package": "Holumbus-Searchengine",
@@ -3064,6 +3328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Robots",
           "name": "Robots",
           "package": "Holumbus-Searchengine",
@@ -3072,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Robots",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Robots",
           "name": "Robots",
           "package": "Holumbus-Searchengine",
@@ -3086,6 +3352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisable the evaluation of robots.txt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Robots",
           "name": "disableRobotsTxt",
           "package": "Holumbus-Searchengine",
@@ -3096,6 +3363,7 @@
         "index": {
           "description": "Disable the evaluation of robots.txt",
           "hierarchy": "Holumbus Crawler Robots",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Robots",
           "name": "disableRobotsTxt",
           "normalized": "CrawlerConfig a b-\u003eCrawlerConfig a b",
@@ -3112,6 +3380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable the evaluation of robots.txt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Robots",
           "name": "enableRobotsTxt",
           "package": "Holumbus-Searchengine",
@@ -3122,6 +3391,7 @@
         "index": {
           "description": "Enable the evaluation of robots.txt",
           "hierarchy": "Holumbus Crawler Robots",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Robots",
           "name": "enableRobotsTxt",
           "normalized": "CrawlerConfig a b-\u003eCrawlerConfig a b",
@@ -3138,6 +3408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the robots.txt, select the crawler specific parts and build a robots restriction value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Robots",
           "name": "evalRobotsTxt",
           "package": "Holumbus-Searchengine",
@@ -3148,6 +3419,7 @@
         "index": {
           "description": "Parse the robots.txt select the crawler specific parts and build robots restriction value",
           "hierarchy": "Holumbus Crawler Robots",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Robots",
           "name": "evalRobotsTxt",
           "normalized": "String-\u003eString-\u003eRobotRestriction",
@@ -3164,6 +3436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the protocol-host-port part of an URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Robots",
           "name": "getHost",
           "package": "Holumbus-Searchengine",
@@ -3174,6 +3447,7 @@
         "index": {
           "description": "Get the protocol-host-port part of an URI",
           "hierarchy": "Holumbus Crawler Robots",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Robots",
           "name": "getHost",
           "normalized": "URI-\u003eURI",
@@ -3190,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to get the robots.txt file for a given host.\n If it's not there or any errors occur during access, the empty string is returned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Robots",
           "name": "getRobotsTxt",
           "package": "Holumbus-Searchengine",
@@ -3200,6 +3475,7 @@
         "index": {
           "description": "Try to get the robots.txt file for given host If it not there or any errors occur during access the empty string is returned",
           "hierarchy": "Holumbus Crawler Robots",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Robots",
           "name": "getRobotsTxt",
           "normalized": "CrawlerConfig a b-\u003eURI-\u003eIO String",
@@ -3215,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Robots",
           "name": "getURIPart",
           "package": "Holumbus-Searchengine",
@@ -3224,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Robots",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Robots",
           "name": "getURIPart",
           "normalized": "(URI-\u003eString)-\u003eURI-\u003eString",
@@ -3239,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Robots",
           "name": "isRobotsScheme",
           "package": "Holumbus-Searchengine",
@@ -3248,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Robots",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Robots",
           "name": "isRobotsScheme",
           "normalized": "URI-\u003eBool",
@@ -3264,6 +3544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a robots.txt description for a given URI, if it's not already there.\n The 1. main function of this module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Robots",
           "name": "robotsAddHost",
           "package": "Holumbus-Searchengine",
@@ -3274,6 +3555,7 @@
         "index": {
           "description": "Add robots.txt description for given URI if it not already there The main function of this module",
           "hierarchy": "Holumbus Crawler Robots",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Robots",
           "name": "robotsAddHost",
           "normalized": "CrawlerConfig a b-\u003eAddRobotsAction",
@@ -3290,6 +3572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a robot is not allowed to access a page.\n The 2. main function of this module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Robots",
           "name": "robotsDisallow",
           "package": "Holumbus-Searchengine",
@@ -3300,6 +3583,7 @@
         "index": {
           "description": "Check whether robot is not allowed to access page The main function of this module",
           "hierarchy": "Holumbus Crawler Robots",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Robots",
           "name": "robotsDisallow",
           "normalized": "Robots-\u003eURI-\u003eBool",
@@ -3315,6 +3599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Robots",
           "name": "robotsDontAddHost",
           "package": "Holumbus-Searchengine",
@@ -3324,6 +3609,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Robots",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Robots",
           "name": "robotsDontAddHost",
           "normalized": "CrawlerConfig a b-\u003eAddRobotsAction",
@@ -3340,6 +3626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess, parse and evaluate a robots.txt file for a given URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Robots",
           "name": "robotsGetSpec",
           "package": "Holumbus-Searchengine",
@@ -3350,6 +3637,7 @@
         "index": {
           "description": "Access parse and evaluate robots.txt file for given URI",
           "hierarchy": "Holumbus Crawler Robots",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Robots",
           "name": "robotsGetSpec",
           "normalized": "CrawlerConfig a b-\u003eURI-\u003eIO(URI,RobotRestriction)",
@@ -3365,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "Types",
           "package": "Holumbus-Searchengine",
@@ -3373,6 +3662,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "Types",
           "package": "Holumbus-Searchengine",
@@ -3387,6 +3677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe action to combine the result of a single document with the accumulator for the overall crawler result.\n This combining function runs in the IO monad to enable storing parts of the result externally\n but it is not a CrawlerAction, else parallel crawling with forkIO is not longer applicable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "AccumulateDocResult",
           "package": "Holumbus-Searchengine",
@@ -3396,6 +3687,7 @@
         "index": {
           "description": "The action to combine the result of single document with the accumulator for the overall crawler result This combining function runs in the IO monad to enable storing parts of the result externally but it is not CrawlerAction else parallel crawling with forkIO is not longer applicable",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "AccumulateDocResult",
           "package": "Holumbus-Searchengine",
@@ -3410,6 +3702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe crawler action monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "CrawlerAction",
           "package": "Holumbus-Searchengine",
@@ -3419,6 +3712,7 @@
         "index": {
           "description": "The crawler action monad",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "CrawlerAction",
           "package": "Holumbus-Searchengine",
@@ -3433,6 +3727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe crawler configuration record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "CrawlerConfig",
           "package": "Holumbus-Searchengine",
@@ -3442,6 +3737,7 @@
         "index": {
           "description": "The crawler configuration record",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "CrawlerConfig",
           "package": "Holumbus-Searchengine",
@@ -3456,6 +3752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe crawler state record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "CrawlerState",
           "package": "Holumbus-Searchengine",
@@ -3465,6 +3762,7 @@
         "index": {
           "description": "The crawler state record",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "CrawlerState",
           "package": "Holumbus-Searchengine",
@@ -3479,6 +3777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe folding operator for merging partial results when working with mapFold and parallel crawling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "MergeDocResults",
           "package": "Holumbus-Searchengine",
@@ -3488,6 +3787,7 @@
         "index": {
           "description": "The folding operator for merging partial results when working with mapFold and parallel crawling",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "MergeDocResults",
           "package": "Holumbus-Searchengine",
@@ -3502,6 +3802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe extractor function for a single document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "ProcessDocument",
           "package": "Holumbus-Searchengine",
@@ -3511,6 +3812,7 @@
         "index": {
           "description": "The extractor function for single document",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "ProcessDocument",
           "package": "Holumbus-Searchengine",
@@ -3525,6 +3827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operator for saving intermediate results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "SavePartialResults",
           "package": "Holumbus-Searchengine",
@@ -3534,6 +3837,7 @@
         "index": {
           "description": "The operator for saving intermediate results",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "SavePartialResults",
           "package": "Holumbus-Searchengine",
@@ -3547,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "CrawlerConfig",
           "package": "Holumbus-Searchengine",
@@ -3556,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "CrawlerConfig",
           "package": "Holumbus-Searchengine",
@@ -3569,6 +3875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "CrawlerState",
           "package": "Holumbus-Searchengine",
@@ -3578,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "CrawlerState",
           "package": "Holumbus-Searchengine",
@@ -3592,6 +3900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a robots no follow filter before thePreRefsFilter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "addRobotsNoFollow",
           "package": "Holumbus-Searchengine",
@@ -3602,6 +3911,7 @@
         "index": {
           "description": "Insert robots no follow filter before thePreRefsFilter",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "addRobotsNoFollow",
           "normalized": "CrawlerConfig a b-\u003eCrawlerConfig a b",
@@ -3618,6 +3928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a robots no follow filter before thePreRefsFilter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "addRobotsNoIndex",
           "package": "Holumbus-Searchengine",
@@ -3628,6 +3939,7 @@
         "index": {
           "description": "Insert robots no follow filter before thePreRefsFilter",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "addRobotsNoIndex",
           "normalized": "CrawlerConfig a b-\u003eCrawlerConfig a b",
@@ -3644,6 +3956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd attributes for accessing documents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "addSysConfig",
           "package": "Holumbus-Searchengine",
@@ -3654,6 +3967,7 @@
         "index": {
           "description": "Add attributes for accessing documents",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "addSysConfig",
           "normalized": "SysConfig-\u003eCrawlerConfig a b-\u003eCrawlerConfig a b",
@@ -3669,6 +3983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_accumulate",
           "package": "Holumbus-Searchengine",
@@ -3678,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_accumulate",
           "package": "Holumbus-Searchengine",
@@ -3690,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_addRobotsTxt",
           "package": "Holumbus-Searchengine",
@@ -3699,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_addRobotsTxt",
           "normalized": "CrawlerConfig a b-\u003eAddRobotsAction",
@@ -3714,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_clickLevel",
           "package": "Holumbus-Searchengine",
@@ -3723,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_clickLevel",
           "package": "Holumbus-Searchengine",
@@ -3736,6 +4056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_fold",
           "package": "Holumbus-Searchengine",
@@ -3745,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_fold",
           "package": "Holumbus-Searchengine",
@@ -3757,6 +4079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_followRef",
           "package": "Holumbus-Searchengine",
@@ -3766,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_followRef",
           "normalized": "URI-\u003eBool",
@@ -3781,6 +4105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_maxNoOfDocs",
           "package": "Holumbus-Searchengine",
@@ -3790,6 +4115,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_maxNoOfDocs",
           "package": "Holumbus-Searchengine",
@@ -3803,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_maxParDocs",
           "package": "Holumbus-Searchengine",
@@ -3812,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_maxParDocs",
           "package": "Holumbus-Searchengine",
@@ -3825,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_maxParThreads",
           "package": "Holumbus-Searchengine",
@@ -3834,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_maxParThreads",
           "package": "Holumbus-Searchengine",
@@ -3847,6 +4177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_preDocFilter",
           "package": "Holumbus-Searchengine",
@@ -3856,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_preDocFilter",
           "package": "Holumbus-Searchengine",
@@ -3869,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_preRefsFilter",
           "package": "Holumbus-Searchengine",
@@ -3878,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_preRefsFilter",
           "package": "Holumbus-Searchengine",
@@ -3891,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_processDoc",
           "package": "Holumbus-Searchengine",
@@ -3900,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_processDoc",
           "package": "Holumbus-Searchengine",
@@ -3913,6 +4249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_processRefs",
           "package": "Holumbus-Searchengine",
@@ -3922,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_processRefs",
           "package": "Holumbus-Searchengine",
@@ -3935,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_saveIntervall",
           "package": "Holumbus-Searchengine",
@@ -3944,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_saveIntervall",
           "package": "Holumbus-Searchengine",
@@ -3957,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_savePathPrefix",
           "package": "Holumbus-Searchengine",
@@ -3966,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_savePathPrefix",
           "package": "Holumbus-Searchengine",
@@ -3979,6 +4321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_savePreAction",
           "package": "Holumbus-Searchengine",
@@ -3988,6 +4331,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_savePreAction",
           "normalized": "FilePath-\u003eCrawlerAction a b()",
@@ -4003,6 +4347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_sysConfig",
           "package": "Holumbus-Searchengine",
@@ -4012,6 +4357,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_sysConfig",
           "package": "Holumbus-Searchengine",
@@ -4025,6 +4371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_traceLevel",
           "package": "Holumbus-Searchengine",
@@ -4034,6 +4381,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_traceLevel",
           "package": "Holumbus-Searchengine",
@@ -4047,6 +4395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_traceLevelHxt",
           "package": "Holumbus-Searchengine",
@@ -4056,6 +4405,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cc_traceLevelHxt",
           "package": "Holumbus-Searchengine",
@@ -4069,6 +4419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_alreadyProcessed",
           "package": "Holumbus-Searchengine",
@@ -4078,6 +4429,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_alreadyProcessed",
           "package": "Holumbus-Searchengine",
@@ -4091,6 +4443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_listOfDocsSaved",
           "package": "Holumbus-Searchengine",
@@ -4100,6 +4453,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_listOfDocsSaved",
           "normalized": "[Int]",
@@ -4115,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_noOfDocs",
           "package": "Holumbus-Searchengine",
@@ -4124,6 +4479,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_noOfDocs",
           "package": "Holumbus-Searchengine",
@@ -4137,6 +4493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_noOfDocsSaved",
           "package": "Holumbus-Searchengine",
@@ -4146,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_noOfDocsSaved",
           "package": "Holumbus-Searchengine",
@@ -4159,6 +4517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_resultAccu",
           "package": "Holumbus-Searchengine",
@@ -4168,6 +4527,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_resultAccu",
           "package": "Holumbus-Searchengine",
@@ -4181,6 +4541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_resultInit",
           "package": "Holumbus-Searchengine",
@@ -4190,6 +4551,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_resultInit",
           "package": "Holumbus-Searchengine",
@@ -4203,6 +4565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_robots",
           "package": "Holumbus-Searchengine",
@@ -4212,6 +4575,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_robots",
           "package": "Holumbus-Searchengine",
@@ -4224,6 +4588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_toBeProcessed",
           "package": "Holumbus-Searchengine",
@@ -4233,6 +4598,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "cs_toBeProcessed",
           "package": "Holumbus-Searchengine",
@@ -4246,6 +4612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "defaultCrawlerConfig",
           "package": "Holumbus-Searchengine",
@@ -4255,6 +4622,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "defaultCrawlerConfig",
           "normalized": "AccumulateDocResult a b-\u003eMergeDocResults b-\u003eCrawlerConfig a b",
@@ -4271,6 +4639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a component from the crawler configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "getConf",
           "package": "Holumbus-Searchengine",
@@ -4281,6 +4650,7 @@
         "index": {
           "description": "Load component from the crawler configuration",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "getConf",
           "normalized": "Selector(CrawlerConfig a b)c-\u003eCrawlerAction a b c",
@@ -4296,6 +4666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "getCrawlerState",
           "package": "Holumbus-Searchengine",
@@ -4305,6 +4676,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "getCrawlerState",
           "package": "Holumbus-Searchengine",
@@ -4318,6 +4690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "getState",
           "package": "Holumbus-Searchengine",
@@ -4327,6 +4700,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "getState",
           "normalized": "Selector(CrawlerState a)b-\u003eCrawlerAction c a b",
@@ -4342,6 +4716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "initCrawlerState",
           "package": "Holumbus-Searchengine",
@@ -4351,6 +4726,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "initCrawlerState",
           "normalized": "a-\u003eCrawlerState a",
@@ -4366,6 +4742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "modifyState",
           "package": "Holumbus-Searchengine",
@@ -4375,6 +4752,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "modifyState",
           "normalized": "Selector(CrawlerState a)b-\u003e(b-\u003eb)-\u003eCrawlerAction c a()",
@@ -4390,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "modifyStateIO",
           "package": "Holumbus-Searchengine",
@@ -4399,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "modifyStateIO",
           "normalized": "Selector(CrawlerState a)b-\u003e(b-\u003eIO b)-\u003eCrawlerAction c a()",
@@ -4414,6 +4794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "putCrawlerState",
           "package": "Holumbus-Searchengine",
@@ -4423,6 +4804,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "putCrawlerState",
           "normalized": "CrawlerState a-\u003ePut",
@@ -4438,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "putState",
           "package": "Holumbus-Searchengine",
@@ -4447,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "putState",
           "normalized": "Selector(CrawlerState a)b-\u003eb-\u003eCrawlerAction c a()",
@@ -4463,6 +4847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet max # of steps (clicks) to reach a document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "setCrawlerClickLevel",
           "package": "Holumbus-Searchengine",
@@ -4473,6 +4858,7 @@
         "index": {
           "description": "Set max of steps clicks to reach document",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "setCrawlerClickLevel",
           "normalized": "Int-\u003eCrawlerConfig a b-\u003eCrawlerConfig a b",
@@ -4489,6 +4875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet max # of documents to be crawled\n and max # of documents crawled in parallel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "setCrawlerMaxDocs",
           "package": "Holumbus-Searchengine",
@@ -4499,6 +4886,7 @@
         "index": {
           "description": "Set max of documents to be crawled and max of documents crawled in parallel",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "setCrawlerMaxDocs",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eCrawlerConfig a b-\u003eCrawlerConfig a b",
@@ -4515,6 +4903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the pre hook filter executed before the hrefs are collected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "setCrawlerPreRefsFilter",
           "package": "Holumbus-Searchengine",
@@ -4525,6 +4914,7 @@
         "index": {
           "description": "Set the pre hook filter executed before the hrefs are collected",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "setCrawlerPreRefsFilter",
           "normalized": "IOSArrow XmlTree XmlTree-\u003eCrawlerConfig a b-\u003eCrawlerConfig a b",
@@ -4541,6 +4931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet action performed before saving crawler state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "setCrawlerSaveAction",
           "package": "Holumbus-Searchengine",
@@ -4551,6 +4942,7 @@
         "index": {
           "description": "Set action performed before saving crawler state",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "setCrawlerSaveAction",
           "normalized": "(FilePath-\u003eCrawlerAction a b())-\u003eCrawlerConfig a b-\u003eCrawlerConfig a b",
@@ -4567,6 +4959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet save intervall in config\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "setCrawlerSaveConf",
           "package": "Holumbus-Searchengine",
@@ -4577,6 +4970,7 @@
         "index": {
           "description": "Set save intervall in config",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "setCrawlerSaveConf",
           "normalized": "Int-\u003eString-\u003eCrawlerConfig a b-\u003eCrawlerConfig a b",
@@ -4593,6 +4987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the log level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "setCrawlerTraceLevel",
           "package": "Holumbus-Searchengine",
@@ -4603,6 +4998,7 @@
         "index": {
           "description": "Set the log level",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "setCrawlerTraceLevel",
           "normalized": "Priority-\u003ePriority-\u003eCrawlerConfig a b-\u003eCrawlerConfig a b",
@@ -4618,6 +5014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theAccumulateOp",
           "package": "Holumbus-Searchengine",
@@ -4627,6 +5024,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theAccumulateOp",
           "package": "Holumbus-Searchengine",
@@ -4640,6 +5038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theAddRobotsAction",
           "package": "Holumbus-Searchengine",
@@ -4649,6 +5048,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theAddRobotsAction",
           "normalized": "Selector(CrawlerConfig a b)(CrawlerConfig a b-\u003eAddRobotsAction)",
@@ -4664,6 +5064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theAlreadyProcessed",
           "package": "Holumbus-Searchengine",
@@ -4673,6 +5074,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theAlreadyProcessed",
           "package": "Holumbus-Searchengine",
@@ -4686,6 +5088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theClickLevel",
           "package": "Holumbus-Searchengine",
@@ -4695,6 +5098,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theClickLevel",
           "package": "Holumbus-Searchengine",
@@ -4708,6 +5112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theConnectTimeout",
           "package": "Holumbus-Searchengine",
@@ -4717,6 +5122,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theConnectTimeout",
           "package": "Holumbus-Searchengine",
@@ -4730,6 +5136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theCrawlerName",
           "package": "Holumbus-Searchengine",
@@ -4739,6 +5146,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theCrawlerName",
           "package": "Holumbus-Searchengine",
@@ -4752,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theFoldOp",
           "package": "Holumbus-Searchengine",
@@ -4761,6 +5170,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theFoldOp",
           "package": "Holumbus-Searchengine",
@@ -4774,6 +5184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theFollowRef",
           "package": "Holumbus-Searchengine",
@@ -4783,6 +5194,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theFollowRef",
           "normalized": "Selector(CrawlerConfig a b)(URI-\u003eBool)",
@@ -4798,6 +5210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theInputOptions",
           "package": "Holumbus-Searchengine",
@@ -4807,6 +5220,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theInputOptions",
           "package": "Holumbus-Searchengine",
@@ -4820,6 +5234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theListOfDocsSaved",
           "package": "Holumbus-Searchengine",
@@ -4829,6 +5244,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theListOfDocsSaved",
           "normalized": "Selector(CrawlerState a)[Int]",
@@ -4844,6 +5260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theMaxNoOfDocs",
           "package": "Holumbus-Searchengine",
@@ -4853,6 +5270,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theMaxNoOfDocs",
           "package": "Holumbus-Searchengine",
@@ -4866,6 +5284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theMaxParDocs",
           "package": "Holumbus-Searchengine",
@@ -4875,6 +5294,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theMaxParDocs",
           "package": "Holumbus-Searchengine",
@@ -4888,6 +5308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theMaxParThreads",
           "package": "Holumbus-Searchengine",
@@ -4897,6 +5318,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theMaxParThreads",
           "package": "Holumbus-Searchengine",
@@ -4910,6 +5332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theMaxTime",
           "package": "Holumbus-Searchengine",
@@ -4919,6 +5342,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theMaxTime",
           "package": "Holumbus-Searchengine",
@@ -4932,6 +5356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theNoOfDocs",
           "package": "Holumbus-Searchengine",
@@ -4941,6 +5366,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theNoOfDocs",
           "package": "Holumbus-Searchengine",
@@ -4954,6 +5380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theNoOfDocsSaved",
           "package": "Holumbus-Searchengine",
@@ -4963,6 +5390,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theNoOfDocsSaved",
           "package": "Holumbus-Searchengine",
@@ -4976,6 +5404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "thePreDocFilter",
           "package": "Holumbus-Searchengine",
@@ -4985,6 +5414,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "thePreDocFilter",
           "package": "Holumbus-Searchengine",
@@ -4998,6 +5428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "thePreRefsFilter",
           "package": "Holumbus-Searchengine",
@@ -5007,6 +5438,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "thePreRefsFilter",
           "package": "Holumbus-Searchengine",
@@ -5020,6 +5452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theProcessDoc",
           "package": "Holumbus-Searchengine",
@@ -5029,6 +5462,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theProcessDoc",
           "package": "Holumbus-Searchengine",
@@ -5042,6 +5476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theProcessRefs",
           "package": "Holumbus-Searchengine",
@@ -5051,6 +5486,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theProcessRefs",
           "package": "Holumbus-Searchengine",
@@ -5064,6 +5500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theResultAccu",
           "package": "Holumbus-Searchengine",
@@ -5073,6 +5510,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theResultAccu",
           "package": "Holumbus-Searchengine",
@@ -5086,6 +5524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theResultInit",
           "package": "Holumbus-Searchengine",
@@ -5095,6 +5534,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theResultInit",
           "package": "Holumbus-Searchengine",
@@ -5108,6 +5548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theRobots",
           "package": "Holumbus-Searchengine",
@@ -5117,6 +5558,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theRobots",
           "package": "Holumbus-Searchengine",
@@ -5130,6 +5572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theSaveIntervall",
           "package": "Holumbus-Searchengine",
@@ -5139,6 +5582,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theSaveIntervall",
           "package": "Holumbus-Searchengine",
@@ -5152,6 +5596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theSavePathPrefix",
           "package": "Holumbus-Searchengine",
@@ -5161,6 +5606,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theSavePathPrefix",
           "package": "Holumbus-Searchengine",
@@ -5174,6 +5620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theSavePreAction",
           "package": "Holumbus-Searchengine",
@@ -5183,6 +5630,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theSavePreAction",
           "normalized": "Selector(CrawlerConfig a b)(FilePath-\u003eCrawlerAction a b())",
@@ -5199,6 +5647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselector functions for CrawlerConfig\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theSysConfig",
           "package": "Holumbus-Searchengine",
@@ -5209,6 +5658,7 @@
         "index": {
           "description": "selector functions for CrawlerConfig",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theSysConfig",
           "package": "Holumbus-Searchengine",
@@ -5223,6 +5673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselector functions for CrawlerState\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theToBeProcessed",
           "package": "Holumbus-Searchengine",
@@ -5233,6 +5684,7 @@
         "index": {
           "description": "selector functions for CrawlerState",
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theToBeProcessed",
           "package": "Holumbus-Searchengine",
@@ -5246,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theTraceLevel",
           "package": "Holumbus-Searchengine",
@@ -5255,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theTraceLevel",
           "package": "Holumbus-Searchengine",
@@ -5268,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Types",
           "name": "theTraceLevelHxt",
           "package": "Holumbus-Searchengine",
@@ -5277,6 +5732,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Types",
           "name": "theTraceLevelHxt",
           "package": "Holumbus-Searchengine",
@@ -5290,6 +5746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "URIs",
           "package": "Holumbus-Searchengine",
@@ -5298,6 +5755,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "URIs",
           "package": "Holumbus-Searchengine",
@@ -5312,6 +5770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn URI is represented as a String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "URI",
           "package": "Holumbus-Searchengine",
@@ -5321,6 +5780,7 @@
         "index": {
           "description": "An URI is represented as String",
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "URI",
           "package": "Holumbus-Searchengine",
@@ -5334,6 +5794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "URIWithLevel",
           "package": "Holumbus-Searchengine",
@@ -5342,6 +5803,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "URIWithLevel",
           "package": "Holumbus-Searchengine",
@@ -5356,6 +5818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of URIs implemeted as a prefix tree. This implementation\n is space efficient, because of many equal prefixes in the crawled set of URIs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "URIs",
           "package": "Holumbus-Searchengine",
@@ -5365,6 +5828,7 @@
         "index": {
           "description": "set of URIs implemeted as prefix tree This implementation is space efficient because of many equal prefixes in the crawled set of URIs",
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "URIs",
           "package": "Holumbus-Searchengine",
@@ -5378,6 +5842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "URIs'",
           "package": "Holumbus-Searchengine",
@@ -5386,6 +5851,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "URIs'",
           "package": "Holumbus-Searchengine",
@@ -5399,6 +5865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "URIsWithLevel",
           "package": "Holumbus-Searchengine",
@@ -5407,6 +5874,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "URIsWithLevel",
           "package": "Holumbus-Searchengine",
@@ -5420,6 +5888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "cardURIs",
           "package": "Holumbus-Searchengine",
@@ -5429,6 +5898,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "cardURIs",
           "normalized": "URIs' a-\u003eInt",
@@ -5444,6 +5914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "deleteURI",
           "package": "Holumbus-Searchengine",
@@ -5453,6 +5924,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "deleteURI",
           "normalized": "URI-\u003eURIs' a-\u003eURIs' a",
@@ -5468,6 +5940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "deleteURIs",
           "package": "Holumbus-Searchengine",
@@ -5477,6 +5950,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "deleteURIs",
           "normalized": "URIs' a-\u003eURIs' b-\u003eURIs' b",
@@ -5492,6 +5966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "diffURIs",
           "package": "Holumbus-Searchengine",
@@ -5501,6 +5976,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "diffURIs",
           "normalized": "URIs' a-\u003eURIs' a-\u003eURIs' a",
@@ -5516,6 +5992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "emptyURIs",
           "package": "Holumbus-Searchengine",
@@ -5525,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "emptyURIs",
           "package": "Holumbus-Searchengine",
@@ -5538,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "foldURIs",
           "package": "Holumbus-Searchengine",
@@ -5547,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "foldURIs",
           "normalized": "(URI-\u003ea-\u003ea)-\u003ea-\u003eURIs-\u003ea",
@@ -5562,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "foldURIs'",
           "package": "Holumbus-Searchengine",
@@ -5571,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "foldURIs'",
           "normalized": "(URI-\u003ea-\u003eb-\u003eb)-\u003eb-\u003eURIs' a-\u003eb",
@@ -5586,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "fromListURIs",
           "package": "Holumbus-Searchengine",
@@ -5595,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "fromListURIs",
           "normalized": "[URI]-\u003eURIs",
@@ -5610,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "fromListURIs'",
           "package": "Holumbus-Searchengine",
@@ -5619,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "fromListURIs'",
           "normalized": "[(URI,a)]-\u003eURIs' a",
@@ -5634,6 +6120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "insertURI",
           "package": "Holumbus-Searchengine",
@@ -5643,6 +6130,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "insertURI",
           "normalized": "URI-\u003eURIs-\u003eURIs",
@@ -5658,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "insertURI'",
           "package": "Holumbus-Searchengine",
@@ -5667,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "insertURI'",
           "normalized": "URI-\u003ea-\u003eURIs' a-\u003eURIs' a",
@@ -5682,6 +6172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "memberURIs",
           "package": "Holumbus-Searchengine",
@@ -5691,6 +6182,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "memberURIs",
           "normalized": "URI-\u003eURIs' a-\u003eBool",
@@ -5706,6 +6198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "nextURI",
           "package": "Holumbus-Searchengine",
@@ -5715,6 +6208,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "nextURI",
           "normalized": "URIs' a-\u003e(URI,a)",
@@ -5730,6 +6224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "nextURIs",
           "package": "Holumbus-Searchengine",
@@ -5739,6 +6234,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "nextURIs",
           "normalized": "Int-\u003eURIs' a-\u003e[(URI,a)]",
@@ -5754,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "nullURIs",
           "package": "Holumbus-Searchengine",
@@ -5763,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "nullURIs",
           "normalized": "URIs' a-\u003eBool",
@@ -5778,6 +6276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "singletonURIs",
           "package": "Holumbus-Searchengine",
@@ -5787,6 +6286,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "singletonURIs",
           "normalized": "URI-\u003eURIs",
@@ -5802,6 +6302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "singletonURIs'",
           "package": "Holumbus-Searchengine",
@@ -5811,6 +6312,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "singletonURIs'",
           "normalized": "URI-\u003ea-\u003eURIs' a",
@@ -5826,6 +6328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "toListURIs",
           "package": "Holumbus-Searchengine",
@@ -5835,6 +6338,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "toListURIs",
           "normalized": "URIs' a-\u003e[URI]",
@@ -5850,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "toListURIs'",
           "package": "Holumbus-Searchengine",
@@ -5859,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "toListURIs'",
           "normalized": "URIs' a-\u003e[(URI,a)]",
@@ -5874,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "unionURIs",
           "package": "Holumbus-Searchengine",
@@ -5883,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "unionURIs",
           "normalized": "URIs-\u003eURIs-\u003eURIs",
@@ -5898,6 +6406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.URIs",
           "name": "unionURIs'",
           "package": "Holumbus-Searchengine",
@@ -5907,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler URIs",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.URIs",
           "name": "unionURIs'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eURIs' a-\u003eURIs' a-\u003eURIs' a",
@@ -5922,6 +6432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Util",
           "name": "Util",
           "package": "Holumbus-Searchengine",
@@ -5930,6 +6441,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Util",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Util",
           "name": "Util",
           "package": "Holumbus-Searchengine",
@@ -5943,6 +6455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Util",
           "name": "match",
           "package": "Holumbus-Searchengine",
@@ -5952,6 +6465,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Util",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Util",
           "name": "match",
           "normalized": "String-\u003eString-\u003eBool",
@@ -5967,6 +6481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate temp file name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Util",
           "name": "mkTmpFile",
           "package": "Holumbus-Searchengine",
@@ -5977,6 +6492,7 @@
         "index": {
           "description": "create temp file name",
           "hierarchy": "Holumbus Crawler Util",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Util",
           "name": "mkTmpFile",
           "normalized": "Int-\u003eString-\u003eInt-\u003eString",
@@ -5992,6 +6508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Util",
           "name": "parseRE",
           "package": "Holumbus-Searchengine",
@@ -6001,6 +6518,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Util",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Util",
           "name": "parseRE",
           "normalized": "String-\u003eRegex",
@@ -6016,6 +6534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Util",
           "name": "sed",
           "package": "Holumbus-Searchengine",
@@ -6025,6 +6544,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Util",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Util",
           "name": "sed",
           "normalized": "(String-\u003eString)-\u003eString-\u003eString-\u003eString",
@@ -6040,6 +6560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple predicate genertor for filtering of URIs\n If the first predicate (isAllowed) holds and the second (isDenied) does not hold\n the predicate holds. This can be used for constructing simple URL filters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Util",
           "name": "simpleFollowRef",
           "package": "Holumbus-Searchengine",
@@ -6050,6 +6571,7 @@
         "index": {
           "description": "Simple predicate genertor for filtering of URIs If the first predicate isAllowed holds and the second isDenied does not hold the predicate holds This can be used for constructing simple URL filters",
           "hierarchy": "Holumbus Crawler Util",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Util",
           "name": "simpleFollowRef",
           "normalized": "(String-\u003eBool)-\u003e(String-\u003eBool)-\u003eString-\u003eBool",
@@ -6066,6 +6588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenient function, that takes two lists of strings in regexp syntax,\n The first list are the patterns for the allowed strings,\n the second one for the patterns to deny the string.\n Two regular expressions are build from these lists of strings,\n and the string to be tested is matched against both regexes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Util",
           "name": "simpleFollowRef'",
           "package": "Holumbus-Searchengine",
@@ -6076,6 +6599,7 @@
         "index": {
           "description": "convenient function that takes two lists of strings in regexp syntax The first list are the patterns for the allowed strings the second one for the patterns to deny the string Two regular expressions are build from these lists of strings and the string to be tested is matched against both regexes",
           "hierarchy": "Holumbus Crawler Util",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Util",
           "name": "simpleFollowRef'",
           "normalized": "[String]-\u003e[String]-\u003eString-\u003eBool",
@@ -6091,6 +6615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Util",
           "name": "split",
           "package": "Holumbus-Searchengine",
@@ -6100,6 +6625,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Util",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Util",
           "name": "split",
           "normalized": "String-\u003eString-\u003e(String,String)",
@@ -6114,6 +6640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.Util",
           "name": "tokenize",
           "package": "Holumbus-Searchengine",
@@ -6123,6 +6650,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler Util",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.Util",
           "name": "tokenize",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -6137,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.XmlArrows",
           "name": "XmlArrows",
           "package": "Holumbus-Searchengine",
@@ -6145,6 +6674,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler XmlArrows",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.XmlArrows",
           "name": "XmlArrows",
           "package": "Holumbus-Searchengine",
@@ -6159,6 +6689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove contents, when document status isn't ok, but remain meta info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler.XmlArrows",
           "name": "checkDocumentStatus",
           "package": "Holumbus-Searchengine",
@@ -6169,6 +6700,7 @@
         "index": {
           "description": "Remove contents when document status isn ok but remain meta info",
           "hierarchy": "Holumbus Crawler XmlArrows",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler.XmlArrows",
           "name": "checkDocumentStatus",
           "package": "Holumbus-Searchengine",
@@ -6182,6 +6714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Crawler",
           "name": "Crawler",
           "package": "Holumbus-Searchengine",
@@ -6190,6 +6723,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Crawler",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Crawler",
           "name": "Crawler",
           "package": "Holumbus-Searchengine",
@@ -6204,6 +6738,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003cp\u003eThis module provides compression for streams of 32-bit words. Because of \n  some internal restriction in GHC, which makes all fixed integer size equal\n  in terms of bit-width, the algorithm tries to crunch as much numbers as\n  possible into a single 64-bit word.\n\u003c/p\u003e\u003cp\u003eBased on the Simple9 encoding scheme from this article:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Vo N. Anh, Alstair Moffat,\n      \"\u003cem\u003eInverted Index Compression Using Word-Aligned Binary Codes\u003c/em\u003e\",\n      Information Retrieval, 8 (1), 2005, pages 151-166\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.Crunch",
           "name": "Crunch",
           "package": "Holumbus-Searchengine",
@@ -6213,6 +6748,7 @@
         "index": {
           "description": "Version This module provides compression for streams of bit words Because of some internal restriction in GHC which makes all fixed integer size equal in terms of bit-width the algorithm tries to crunch as much numbers as possible into single bit word Based on the Simple9 encoding scheme from this article Vo Anh Alstair Moffat Inverted Index Compression Using Word-Aligned Binary Codes Information Retrieval pages",
           "hierarchy": "Holumbus Data Crunch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.Crunch",
           "name": "Crunch",
           "package": "Holumbus-Searchengine",
@@ -6227,6 +6763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCrunching \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e values, defined in terms of \u003ccode\u003e\u003ca\u003ecrunch64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.Crunch",
           "name": "crunch16",
           "package": "Holumbus-Searchengine",
@@ -6237,6 +6774,7 @@
         "index": {
           "description": "Crunching Word16 values defined in terms of crunch64",
           "hierarchy": "Holumbus Data Crunch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.Crunch",
           "name": "crunch16",
           "normalized": "[Word]-\u003e[Word]",
@@ -6252,6 +6790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCrunching \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e values, defined in terms of \u003ccode\u003e\u003ca\u003ecrunch64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.Crunch",
           "name": "crunch32",
           "package": "Holumbus-Searchengine",
@@ -6262,6 +6801,7 @@
         "index": {
           "description": "Crunching Word32 values defined in terms of crunch64",
           "hierarchy": "Holumbus Data Crunch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.Crunch",
           "name": "crunch32",
           "normalized": "[Word]-\u003e[Word]",
@@ -6277,6 +6817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCrunch some values by encoding several values into one \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e. The values may not exceed\n the upper limit of \u003ccode\u003e(2 ^ 60) - 1\u003c/code\u003e. This precondition is not checked! The compression works\n best on small values, therefore a difference encoding (like the one in \n \u003ca\u003eHolumbus.Data.DiffList\u003c/a\u003e) prior to compression pays off well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.Crunch",
           "name": "crunch64",
           "package": "Holumbus-Searchengine",
@@ -6287,6 +6828,7 @@
         "index": {
           "description": "Crunch some values by encoding several values into one Word64 The values may not exceed the upper limit of This precondition is not checked The compression works best on small values therefore difference encoding like the one in Holumbus.Data.DiffList prior to compression pays off well",
           "hierarchy": "Holumbus Data Crunch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.Crunch",
           "name": "crunch64",
           "normalized": "[Word]-\u003e[Word]",
@@ -6302,6 +6844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCrunching \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e values, defined in terms of \u003ccode\u003e\u003ca\u003ecrunch64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.Crunch",
           "name": "crunch8",
           "package": "Holumbus-Searchengine",
@@ -6312,6 +6855,7 @@
         "index": {
           "description": "Crunching Word8 values defined in terms of crunch64",
           "hierarchy": "Holumbus Data Crunch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.Crunch",
           "name": "crunch8",
           "normalized": "[Word]-\u003e[Word]",
@@ -6327,6 +6871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrunching to \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e values, defined in terms of \u003ccode\u003e\u003ca\u003edecrunch64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.Crunch",
           "name": "decrunch16",
           "package": "Holumbus-Searchengine",
@@ -6337,6 +6882,7 @@
         "index": {
           "description": "Decrunching to Word16 values defined in terms of decrunch64",
           "hierarchy": "Holumbus Data Crunch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.Crunch",
           "name": "decrunch16",
           "normalized": "[Word]-\u003e[Word]",
@@ -6352,6 +6898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrunching to \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e values, defined in terms of \u003ccode\u003e\u003ca\u003edecrunch64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.Crunch",
           "name": "decrunch32",
           "package": "Holumbus-Searchengine",
@@ -6362,6 +6909,7 @@
         "index": {
           "description": "Decrunching to Word32 values defined in terms of decrunch64",
           "hierarchy": "Holumbus Data Crunch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.Crunch",
           "name": "decrunch32",
           "normalized": "[Word]-\u003e[Word]",
@@ -6377,6 +6925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrunch a list of crunched values. No checking for properly encoded values is done, weird\n results have to be expected if calling this function on a list of arbitrary values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.Crunch",
           "name": "decrunch64",
           "package": "Holumbus-Searchengine",
@@ -6387,6 +6936,7 @@
         "index": {
           "description": "Decrunch list of crunched values No checking for properly encoded values is done weird results have to be expected if calling this function on list of arbitrary values",
           "hierarchy": "Holumbus Data Crunch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.Crunch",
           "name": "decrunch64",
           "normalized": "[Word]-\u003e[Word]",
@@ -6402,6 +6952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrunching to \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e values, defined in terms of \u003ccode\u003e\u003ca\u003edecrunch64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.Crunch",
           "name": "decrunch8",
           "package": "Holumbus-Searchengine",
@@ -6412,6 +6963,7 @@
         "index": {
           "description": "Decrunching to Word8 values defined in terms of decrunch64",
           "hierarchy": "Holumbus Data Crunch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.Crunch",
           "name": "decrunch8",
           "normalized": "[Word]-\u003e[Word]",
@@ -6427,6 +6979,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn efficient implementation of maps from strings to arbitrary values.\n\u003c/p\u003e\u003cp\u003eValues can associated with an arbitrary byte key. Searching for keys is very fast, but\n  the prefix tree probably consumes more memory than \u003ca\u003eData.Map\u003c/a\u003e. The main differences are the special\n  \u003ccode\u003e\u003ca\u003eprefixFind\u003c/a\u003e\u003c/code\u003e functions, which can be used to perform prefix queries. The interface is\n  heavily borrowed from \u003ca\u003eData.Map\u003c/a\u003e and \u003ca\u003eData.IntMap\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eMost other function names clash with \u003ca\u003ePrelude\u003c/a\u003e names, therefore this module is usually\n  imported \u003ccode\u003equalified\u003c/code\u003e, e.g.\n\u003c/p\u003e\u003cpre\u003e import Holumbus.Data.PrefixTree (PrefixTree)\n import qualified Holumbus.Data.PrefixTree as T\n\u003c/pre\u003e\u003cp\u003eMany functions have a worst-case complexity of \u003cem\u003eO(min(n,L))\u003c/em\u003e. This means that the operation\n  can become linear with the number of elements with a maximum of \u003cem\u003eL\u003c/em\u003e, the length of the\n  key (the number of bytes in the list). The functions for searching a prefix have a worst-case\n  complexity of \u003cem\u003eO(max(L,R))\u003c/em\u003e. This means that the operation can become linear with\n  \u003cem\u003eR\u003c/em\u003e, the number of elements found for the prefix, with a minimum of \u003cem\u003eL\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe module exports include the internal data types, their constructors and access\n  functions for ultimate flexibility. Derived modules should not export these \n  (as shown in \u003ca\u003eHolumbus.Data.StrMap\u003c/a\u003e) to provide only a restricted interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "Core",
           "package": "Holumbus-Searchengine",
@@ -6436,6 +6989,7 @@
         "index": {
           "description": "An efficient implementation of maps from strings to arbitrary values Values can associated with an arbitrary byte key Searching for keys is very fast but the prefix tree probably consumes more memory than Data.Map The main differences are the special prefixFind functions which can be used to perform prefix queries The interface is heavily borrowed from Data.Map and Data.IntMap Most other function names clash with Prelude names therefore this module is usually imported qualified e.g import Holumbus.Data.PrefixTree PrefixTree import qualified Holumbus.Data.PrefixTree as Many functions have worst-case complexity of min This means that the operation can become linear with the number of elements with maximum of the length of the key the number of bytes in the list The functions for searching prefix have worst-case complexity of max This means that the operation can become linear with the number of elements found for the prefix with minimum of The module exports include the internal data types their constructors and access functions for ultimate flexibility Derived modules should not export these as shown in Holumbus.Data.StrMap to provide only restricted interface",
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "Core",
           "package": "Holumbus-Searchengine",
@@ -6450,6 +7004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estrict list of chars with unpacked fields\n\u003c/p\u003e\u003cp\u003efor internal use in prefix tree to optimize space efficiency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "Key1",
           "package": "Holumbus-Searchengine",
@@ -6459,6 +7014,7 @@
         "index": {
           "description": "strict list of chars with unpacked fields for internal use in prefix tree to optimize space efficiency",
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "Key1",
           "package": "Holumbus-Searchengine",
@@ -6472,6 +7028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "PrefixTree",
           "package": "Holumbus-Searchengine",
@@ -6480,6 +7037,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "PrefixTree",
           "package": "Holumbus-Searchengine",
@@ -6493,6 +7051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "PrefixTreeVisitor",
           "package": "Holumbus-Searchengine",
@@ -6501,6 +7060,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "PrefixTreeVisitor",
           "package": "Holumbus-Searchengine",
@@ -6540,6 +7100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "(.++.)",
           "package": "Holumbus-Searchengine",
@@ -6549,6 +7110,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "(.++.) .++.",
           "normalized": "Key-\u003eKey-\u003eKey",
@@ -6655,6 +7217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "Cons",
           "package": "Holumbus-Searchengine",
@@ -6664,6 +7227,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "Cons",
           "package": "Holumbus-Searchengine",
@@ -6815,6 +7379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "Nil",
           "package": "Holumbus-Searchengine",
@@ -6824,6 +7389,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "Nil",
           "package": "Holumbus-Searchengine",
@@ -6837,6 +7403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "PTV",
           "package": "Holumbus-Searchengine",
@@ -6846,6 +7413,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "PTV",
           "package": "Holumbus-Searchengine",
@@ -6882,6 +7450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "branch",
           "package": "Holumbus-Searchengine",
@@ -6891,6 +7460,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "branch",
           "normalized": "Sym-\u003ePrefixTree a-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -6905,6 +7475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "brseq",
           "package": "Holumbus-Searchengine",
@@ -6914,6 +7485,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "brseq",
           "normalized": "Key-\u003ePrefixTree a-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -6950,6 +7522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "cutAllPx'",
           "package": "Holumbus-Searchengine",
@@ -6959,6 +7532,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "cutAllPx'",
           "normalized": "PrefixSet-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -6974,6 +7548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "cutPx'",
           "package": "Holumbus-Searchengine",
@@ -6983,6 +7558,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "cutPx'",
           "normalized": "PrefixSet-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -6999,6 +7575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecut off all branches from a tree \u003ccode\u003et2\u003c/code\u003e that are not part of set \u003ccode\u003et1\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003ethe following laws must holds\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003elookup' k' . cutPx' (singlePS k) $ t == lookup' k t\u003c/code\u003e for every \u003ccode\u003ek'\u003c/code\u003e with \u003ccode\u003ek\u003c/code\u003e prefix of \u003ccode\u003ek'\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003elookup' k' . cutPx' (singlePS k) $ t == Nothing\u003c/code\u003e for every \u003ccode\u003ek'\u003c/code\u003e with \u003ccode\u003ek\u003c/code\u003e not being a prefix of \u003ccode\u003ek'\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "cutPx''",
           "package": "Holumbus-Searchengine",
@@ -7009,6 +7586,7 @@
         "index": {
           "description": "cut off all branches from tree t2 that are not part of set t1 the following laws must holds lookup cutPx singlePS lookup for every with prefix of lookup cutPx singlePS Nothing for every with not being prefix of",
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "cutPx''",
           "normalized": "(PrefixTree a-\u003ePrefixTree a)-\u003ePrefixSet-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -7024,6 +7602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "deepNorm",
           "package": "Holumbus-Searchengine",
@@ -7033,6 +7612,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "deepNorm",
           "normalized": "PrefixTree a-\u003ePrefixTree a",
@@ -7074,6 +7654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "diff''",
           "package": "Holumbus-Searchengine",
@@ -7083,6 +7664,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "diff''",
           "normalized": "(Key-\u003ea-\u003eb-\u003eMaybe a)-\u003e(Key-\u003eKey)-\u003ePrefixTree a-\u003ePrefixTree b-\u003ePrefixTree a",
@@ -7278,6 +7860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "fold'",
           "package": "Holumbus-Searchengine",
@@ -7287,6 +7870,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "fold'",
           "normalized": "(Key-\u003ea-\u003eb-\u003eb)-\u003eb-\u003e(Key-\u003eKey)-\u003ePrefixTree a-\u003eb",
@@ -7328,6 +7912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "fromKey",
           "package": "Holumbus-Searchengine",
@@ -7337,6 +7922,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "fromKey",
           "normalized": "Key-\u003eKey",
@@ -7432,6 +8018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "insert'",
           "package": "Holumbus-Searchengine",
@@ -7441,6 +8028,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "insert'",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eKey-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -7560,6 +8148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "length1",
           "package": "Holumbus-Searchengine",
@@ -7569,6 +8158,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "length1",
           "normalized": "Key-\u003eInt",
@@ -7609,6 +8199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "lookup'",
           "package": "Holumbus-Searchengine",
@@ -7618,6 +8209,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "lookup'",
           "normalized": "Key-\u003ePrefixTree a-\u003eMaybe a",
@@ -7632,6 +8224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "lookupPx'",
           "package": "Holumbus-Searchengine",
@@ -7641,6 +8234,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "lookupPx'",
           "normalized": "Key-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -7656,6 +8250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "lsseq",
           "package": "Holumbus-Searchengine",
@@ -7665,6 +8260,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "lsseq",
           "normalized": "Key-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -7705,6 +8301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "map'",
           "package": "Holumbus-Searchengine",
@@ -7714,6 +8311,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "map'",
           "normalized": "(Key-\u003ea-\u003eb)-\u003e(Key-\u003eKey)-\u003ePrefixTree a-\u003ePrefixTree b",
@@ -7728,6 +8326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "map''",
           "package": "Holumbus-Searchengine",
@@ -7737,6 +8336,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "map''",
           "normalized": "(Key-\u003ea-\u003eb)-\u003e(Key-\u003eKey)-\u003ePrefixTree a-\u003ePrefixTree b",
@@ -7777,6 +8377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "mapM''",
           "package": "Holumbus-Searchengine",
@@ -7786,6 +8387,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "mapM''",
           "normalized": "(Key-\u003ea-\u003eb c)-\u003e(Key-\u003eKey)-\u003ePrefixTree a-\u003eb(PrefixTree c)",
@@ -7802,6 +8404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of map that works on normalized trees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "mapN",
           "package": "Holumbus-Searchengine",
@@ -7812,6 +8415,7 @@
         "index": {
           "description": "Variant of map that works on normalized trees",
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "mapN",
           "normalized": "(a-\u003eb)-\u003ePrefixTree a-\u003ePrefixTree b",
@@ -7878,6 +8482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "mapWithKeyN",
           "package": "Holumbus-Searchengine",
@@ -7887,6 +8492,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "mapWithKeyN",
           "normalized": "(Key-\u003ea-\u003eb)-\u003ePrefixTree a-\u003ePrefixTree b",
@@ -7950,6 +8556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "norm",
           "package": "Holumbus-Searchengine",
@@ -7959,6 +8566,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "norm",
           "normalized": "PrefixTree a-\u003ePrefixTree a",
@@ -7973,6 +8581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "normError",
           "package": "Holumbus-Searchengine",
@@ -7982,6 +8591,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "normError",
           "normalized": "String-\u003ea",
@@ -8104,6 +8714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "rootLabel",
           "package": "Holumbus-Searchengine",
@@ -8113,6 +8724,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "rootLabel",
           "normalized": "(Key-\u003eKey)-\u003ePrefixTree a-\u003e[(Key,a)]",
@@ -8154,6 +8766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "siseq",
           "package": "Holumbus-Searchengine",
@@ -8163,6 +8776,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "siseq",
           "normalized": "Key-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -8230,6 +8844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatistics about the # of different nodes in an optimized prefix tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "stat",
           "package": "Holumbus-Searchengine",
@@ -8240,6 +8855,7 @@
         "index": {
           "description": "statistics about the of different nodes in an optimized prefix tree",
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "stat",
           "normalized": "PrefixTree a-\u003ePrefixTree Int",
@@ -8254,6 +8870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "subForest",
           "package": "Holumbus-Searchengine",
@@ -8263,6 +8880,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "subForest",
           "normalized": "(Key-\u003eKey)-\u003ePrefixTree a-\u003e[(Key-\u003eKey,PrefixTree a)]",
@@ -8279,6 +8897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Extract the successors of a node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "succ",
           "package": "Holumbus-Searchengine",
@@ -8289,6 +8908,7 @@
         "index": {
           "description": "Extract the successors of node",
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "succ",
           "normalized": "PrefixTree a-\u003ePrefixTree a",
@@ -8347,6 +8967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "toKey",
           "package": "Holumbus-Searchengine",
@@ -8356,6 +8977,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "toKey",
           "normalized": "Key-\u003eKey",
@@ -8500,6 +9122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "union'",
           "package": "Holumbus-Searchengine",
@@ -8509,6 +9132,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "union'",
           "normalized": "(a-\u003ea-\u003ea)-\u003ePrefixTree a-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -8523,6 +9147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "union''",
           "package": "Holumbus-Searchengine",
@@ -8532,6 +9157,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "union''",
           "normalized": "(Key-\u003ea-\u003ea-\u003ea)-\u003e(Key-\u003eKey)-\u003ePrefixTree a-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -8626,6 +9252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "update'",
           "package": "Holumbus-Searchengine",
@@ -8635,6 +9262,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "update'",
           "normalized": "(a-\u003eMaybe a)-\u003eKey-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -8676,6 +9304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_branch",
           "package": "Holumbus-Searchengine",
@@ -8685,6 +9314,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_branch",
           "normalized": "Sym-\u003ea-\u003ea-\u003ea",
@@ -8699,6 +9329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_brsel",
           "package": "Holumbus-Searchengine",
@@ -8708,6 +9339,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_brsel",
           "normalized": "Key-\u003ea-\u003eb-\u003eb",
@@ -8722,6 +9354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_brseq",
           "package": "Holumbus-Searchengine",
@@ -8731,6 +9364,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_brseq",
           "normalized": "Key-\u003ea-\u003ea-\u003ea",
@@ -8745,6 +9379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_brval",
           "package": "Holumbus-Searchengine",
@@ -8754,6 +9389,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_brval",
           "normalized": "Sym-\u003ea-\u003eb-\u003eb",
@@ -8768,6 +9404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_empty",
           "package": "Holumbus-Searchengine",
@@ -8777,6 +9414,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_empty",
           "package": "Holumbus-Searchengine",
@@ -8789,6 +9427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_last",
           "package": "Holumbus-Searchengine",
@@ -8798,6 +9437,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_last",
           "normalized": "Sym-\u003ea-\u003ea",
@@ -8812,6 +9452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_leaf",
           "package": "Holumbus-Searchengine",
@@ -8821,6 +9462,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_leaf",
           "normalized": "a-\u003eb",
@@ -8835,6 +9477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_lssel",
           "package": "Holumbus-Searchengine",
@@ -8844,6 +9487,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_lssel",
           "normalized": "Key-\u003ea-\u003eb",
@@ -8858,6 +9502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_lsseq",
           "package": "Holumbus-Searchengine",
@@ -8867,6 +9512,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_lsseq",
           "normalized": "Key-\u003ea-\u003ea",
@@ -8881,6 +9527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_lsval",
           "package": "Holumbus-Searchengine",
@@ -8890,6 +9537,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_lsval",
           "normalized": "Sym-\u003ea-\u003eb",
@@ -8904,6 +9552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_val",
           "package": "Holumbus-Searchengine",
@@ -8913,6 +9562,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "v_val",
           "normalized": "a-\u003eb-\u003eb",
@@ -8927,6 +9577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "val",
           "package": "Holumbus-Searchengine",
@@ -8936,6 +9587,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "val",
           "normalized": "a-\u003ePrefixTree a-\u003ePrefixTree a",
@@ -9025,6 +9677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "visit",
           "package": "Holumbus-Searchengine",
@@ -9034,6 +9687,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Core",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Core",
           "name": "visit",
           "normalized": "PrefixTreeVisitor a b-\u003ePrefixTree a-\u003eb",
@@ -9049,6 +9703,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for fuzzy search in a prefix tree\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.FuzzySearch",
           "name": "FuzzySearch",
           "package": "Holumbus-Searchengine",
@@ -9058,6 +9713,7 @@
         "index": {
           "description": "Functions for fuzzy search in prefix tree",
           "hierarchy": "Holumbus Data PrefixTree FuzzySearch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.FuzzySearch",
           "name": "FuzzySearch",
           "package": "Holumbus-Searchengine",
@@ -9121,6 +9777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.FuzzySearch",
           "name": "noCaseKeys",
           "package": "Holumbus-Searchengine",
@@ -9130,6 +9787,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree FuzzySearch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.FuzzySearch",
           "name": "noCaseKeys",
           "normalized": "Key-\u003ePrefixSet",
@@ -9145,6 +9803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.FuzzySearch",
           "name": "noCasePS",
           "package": "Holumbus-Searchengine",
@@ -9154,6 +9813,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree FuzzySearch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.FuzzySearch",
           "name": "noCasePS",
           "normalized": "PrefixSet-\u003ePrefixSet",
@@ -9169,6 +9829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.FuzzySearch",
           "name": "noLowerCaseKeys",
           "package": "Holumbus-Searchengine",
@@ -9178,6 +9839,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree FuzzySearch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.FuzzySearch",
           "name": "noLowerCaseKeys",
           "normalized": "Key-\u003ePrefixSet",
@@ -9193,6 +9855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.FuzzySearch",
           "name": "noLowerCasePS",
           "package": "Holumbus-Searchengine",
@@ -9202,6 +9865,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree FuzzySearch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.FuzzySearch",
           "name": "noLowerCasePS",
           "normalized": "PrefixSet-\u003ePrefixSet",
@@ -9217,6 +9881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.FuzzySearch",
           "name": "noUmlautPS",
           "package": "Holumbus-Searchengine",
@@ -9226,6 +9891,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree FuzzySearch",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.FuzzySearch",
           "name": "noUmlautPS",
           "normalized": "PrefixSet-\u003ePrefixSet",
@@ -9371,6 +10037,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simplified version of PrefixTree for implementing sets.\n\u003c/p\u003e\u003cp\u003eThere is one important difference to the PrefixTree implementation:\n  The fields are not marked to be strict. This enables building the\n  set on the fly.\n\u003c/p\u003e\u003cp\u003eThis feature is used in fuzzy search, when an index tree is restricted\n  to a set of keys, e.g. the set of all none case significant keys\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "PrefixSet",
           "package": "Holumbus-Searchengine",
@@ -9380,6 +10047,7 @@
         "index": {
           "description": "simplified version of PrefixTree for implementing sets There is one important difference to the PrefixTree implementation The fields are not marked to be strict This enables building the set on the fly This feature is used in fuzzy search when an index tree is restricted to set of keys e.g the set of all none case significant keys",
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "PrefixSet",
           "package": "Holumbus-Searchengine",
@@ -9394,6 +10062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of strings implemented as lazy prefix tree.\n \u003ccode\u003etype PrefixSet = PrefixTree ()\u003c/code\u003e is not feasable because of the strict fields in the PrefixTree definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "PrefixSet",
           "package": "Holumbus-Searchengine",
@@ -9403,6 +10072,7 @@
         "index": {
           "description": "Set of strings implemented as lazy prefix tree type PrefixSet PrefixTree is not feasable because of the strict fields in the PrefixTree definition",
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "PrefixSet",
           "package": "Holumbus-Searchengine",
@@ -9416,6 +10086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "PSelem",
           "package": "Holumbus-Searchengine",
@@ -9425,6 +10096,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "PSelem",
           "package": "Holumbus-Searchengine",
@@ -9438,6 +10110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "PSempty",
           "package": "Holumbus-Searchengine",
@@ -9447,6 +10120,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "PSempty",
           "package": "Holumbus-Searchengine",
@@ -9460,6 +10134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "PSnext",
           "package": "Holumbus-Searchengine",
@@ -9469,6 +10144,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "PSnext",
           "package": "Holumbus-Searchengine",
@@ -9482,6 +10158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "elem0PS",
           "package": "Holumbus-Searchengine",
@@ -9491,6 +10168,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "elem0PS",
           "package": "Holumbus-Searchengine",
@@ -9504,6 +10182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "elemPS",
           "package": "Holumbus-Searchengine",
@@ -9513,6 +10192,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "elemPS",
           "normalized": "PrefixSet-\u003ePrefixSet",
@@ -9528,6 +10208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "elemsPS",
           "package": "Holumbus-Searchengine",
@@ -9537,6 +10218,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "elemsPS",
           "normalized": "PrefixSet-\u003e[Key]",
@@ -9552,6 +10234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "emptyPS",
           "package": "Holumbus-Searchengine",
@@ -9561,6 +10244,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "emptyPS",
           "package": "Holumbus-Searchengine",
@@ -9574,6 +10258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "foldPS",
           "package": "Holumbus-Searchengine",
@@ -9583,6 +10268,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "foldPS",
           "normalized": "(Key-\u003ea-\u003ea)-\u003ea-\u003e(Key-\u003eKey)-\u003ePrefixSet-\u003ea",
@@ -9598,6 +10284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "foldWithKeyPS",
           "package": "Holumbus-Searchengine",
@@ -9607,6 +10294,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "foldWithKeyPS",
           "normalized": "(Key-\u003ea-\u003ea)-\u003ea-\u003ePrefixSet-\u003ea",
@@ -9622,6 +10310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "fuzzyCharPS",
           "package": "Holumbus-Searchengine",
@@ -9631,6 +10320,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "fuzzyCharPS",
           "normalized": "(Sym-\u003e[Sym])-\u003ePrefixSet-\u003ePrefixSet",
@@ -9646,6 +10336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "fuzzyCharsPS",
           "package": "Holumbus-Searchengine",
@@ -9655,6 +10346,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "fuzzyCharsPS",
           "normalized": "(Sym-\u003e[Key])-\u003ePrefixSet-\u003ePrefixSet",
@@ -9670,6 +10362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "lastPS",
           "package": "Holumbus-Searchengine",
@@ -9679,6 +10372,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "lastPS",
           "normalized": "Sym-\u003ePrefixSet-\u003ePrefixSet",
@@ -9694,6 +10388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "nextPS",
           "package": "Holumbus-Searchengine",
@@ -9703,6 +10398,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "nextPS",
           "normalized": "Sym-\u003ePrefixSet-\u003ePrefixSet-\u003ePrefixSet",
@@ -9718,6 +10414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "nullPS",
           "package": "Holumbus-Searchengine",
@@ -9727,6 +10424,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "nullPS",
           "normalized": "PrefixSet-\u003eBool",
@@ -9742,6 +10440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "prefixPS",
           "package": "Holumbus-Searchengine",
@@ -9751,6 +10450,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "prefixPS",
           "normalized": "Key-\u003ePrefixSet",
@@ -9766,6 +10466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "singlePS",
           "package": "Holumbus-Searchengine",
@@ -9775,6 +10476,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "singlePS",
           "normalized": "Key-\u003ePrefixSet",
@@ -9790,6 +10492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "unionPS",
           "package": "Holumbus-Searchengine",
@@ -9799,6 +10502,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree PrefixSet",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.PrefixSet",
           "name": "unionPS",
           "normalized": "PrefixSet-\u003ePrefixSet-\u003ePrefixSet",
@@ -9815,6 +10519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types used in all PrefixTree modules\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Types",
           "name": "Types",
           "package": "Holumbus-Searchengine",
@@ -9824,6 +10529,7 @@
         "index": {
           "description": "Data types used in all PrefixTree modules",
           "hierarchy": "Holumbus Data PrefixTree Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Types",
           "name": "Types",
           "package": "Holumbus-Searchengine",
@@ -9837,6 +10543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Types",
           "name": "Key",
           "package": "Holumbus-Searchengine",
@@ -9845,6 +10552,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Types",
           "name": "Key",
           "package": "Holumbus-Searchengine",
@@ -9858,6 +10566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree.Types",
           "name": "Sym",
           "package": "Holumbus-Searchengine",
@@ -9866,6 +10575,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree Types",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree.Types",
           "name": "Sym",
           "package": "Holumbus-Searchengine",
@@ -9880,6 +10590,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFacade for prefix tree implementation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree",
           "name": "PrefixTree",
           "package": "Holumbus-Searchengine",
@@ -9889,6 +10600,7 @@
         "index": {
           "description": "Facade for prefix tree implementation",
           "hierarchy": "Holumbus Data PrefixTree",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree",
           "name": "PrefixTree",
           "package": "Holumbus-Searchengine",
@@ -9902,6 +10614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree",
           "name": "Key",
           "package": "Holumbus-Searchengine",
@@ -9910,6 +10623,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree",
           "name": "Key",
           "package": "Holumbus-Searchengine",
@@ -9923,6 +10637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Data.PrefixTree",
           "name": "PrefixTree",
           "package": "Holumbus-Searchengine",
@@ -9931,6 +10646,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Data PrefixTree",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Data.PrefixTree",
           "name": "PrefixTree",
           "package": "Holumbus-Searchengine",
@@ -9945,6 +10661,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic data types for index\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "BasicTypes",
           "package": "Holumbus-Searchengine",
@@ -9954,6 +10671,7 @@
         "index": {
           "description": "Basic data types for index",
           "hierarchy": "Holumbus Index Common BasicTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "BasicTypes",
           "package": "Holumbus-Searchengine",
@@ -9968,6 +10686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe content of a document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "Content",
           "package": "Holumbus-Searchengine",
@@ -9977,6 +10696,7 @@
         "index": {
           "description": "The content of document",
           "hierarchy": "Holumbus Index Common BasicTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "Content",
           "package": "Holumbus-Searchengine",
@@ -9991,6 +10711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "Context",
           "package": "Holumbus-Searchengine",
@@ -10000,6 +10721,7 @@
         "index": {
           "description": "The name of context",
           "hierarchy": "Holumbus Index Common BasicTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "Context",
           "package": "Holumbus-Searchengine",
@@ -10014,6 +10736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe position of a word in the document.\ntype Position                 = Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "Position",
           "package": "Holumbus-Searchengine",
@@ -10023,6 +10746,7 @@
         "index": {
           "description": "The position of word in the document type Position Int",
           "hierarchy": "Holumbus Index Common BasicTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "Position",
           "package": "Holumbus-Searchengine",
@@ -10037,6 +10761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe title of a document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "Title",
           "package": "Holumbus-Searchengine",
@@ -10046,6 +10771,7 @@
         "index": {
           "description": "The title of document",
           "hierarchy": "Holumbus Index Common BasicTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "Title",
           "package": "Holumbus-Searchengine",
@@ -10060,6 +10786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe URI describing the location of the original document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "URI",
           "package": "Holumbus-Searchengine",
@@ -10069,6 +10796,7 @@
         "index": {
           "description": "The URI describing the location of the original document",
           "hierarchy": "Holumbus Index Common BasicTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "URI",
           "package": "Holumbus-Searchengine",
@@ -10083,6 +10811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "Word",
           "package": "Holumbus-Searchengine",
@@ -10092,6 +10821,7 @@
         "index": {
           "description": "single word",
           "hierarchy": "Holumbus Index Common BasicTypes",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.BasicTypes",
           "name": "Word",
           "package": "Holumbus-Searchengine",
@@ -10106,6 +10836,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003cp\u003eProviding space efficient difference encoding for lists of integers. The encoded\n  lists are compressed using \u003ca\u003eHolumbus.Data.Crunch\u003c/a\u003e to save even more space. For\n  convenience, conversion functions for \u003ca\u003eData.IntSet\u003c/a\u003e are provided. Only works\n  for non-negative integers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "DiffList",
           "package": "Holumbus-Searchengine",
@@ -10115,6 +10846,7 @@
         "index": {
           "description": "Version Providing space efficient difference encoding for lists of integers The encoded lists are compressed using Holumbus.Data.Crunch to save even more space For convenience conversion functions for Data.IntSet are provided Only works for non-negative integers",
           "hierarchy": "Holumbus Index Common DiffList",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "DiffList",
           "package": "Holumbus-Searchengine",
@@ -10129,6 +10861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of differences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "DiffList",
           "package": "Holumbus-Searchengine",
@@ -10138,6 +10871,7 @@
         "index": {
           "description": "list of differences",
           "hierarchy": "Holumbus Index Common DiffList",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "DiffList",
           "package": "Holumbus-Searchengine",
@@ -10152,6 +10886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all differences. Used for debugging purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "diffs",
           "package": "Holumbus-Searchengine",
@@ -10162,6 +10897,7 @@
         "index": {
           "description": "Returns all differences Used for debugging purposes",
           "hierarchy": "Holumbus Index Common DiffList",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "diffs",
           "normalized": "DiffList-\u003e[Word]",
@@ -10177,6 +10913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of positions into a list of difference encoded values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "fromList",
           "package": "Holumbus-Searchengine",
@@ -10187,6 +10924,7 @@
         "index": {
           "description": "Convert list of positions into list of difference encoded values",
           "hierarchy": "Holumbus Index Common DiffList",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "fromList",
           "normalized": "[Position]-\u003eDiffList",
@@ -10203,6 +10941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a set of integers into a list of difference encoded values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "fromPositions",
           "package": "Holumbus-Searchengine",
@@ -10213,6 +10952,7 @@
         "index": {
           "description": "Convert set of integers into list of difference encoded values",
           "hierarchy": "Holumbus Index Common DiffList",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "fromPositions",
           "normalized": "Positions-\u003eDiffList",
@@ -10229,6 +10969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the difference encoded values to a list of integers.\n The resulting list will be\n sorted in ascending order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "toList",
           "package": "Holumbus-Searchengine",
@@ -10239,6 +10980,7 @@
         "index": {
           "description": "Convert the difference encoded values to list of integers The resulting list will be sorted in ascending order",
           "hierarchy": "Holumbus Index Common DiffList",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "toList",
           "normalized": "DiffList-\u003e[Position]",
@@ -10255,6 +10997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the difference encoded values to a list of integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "toPositions",
           "package": "Holumbus-Searchengine",
@@ -10265,6 +11008,7 @@
         "index": {
           "description": "Convert the difference encoded values to list of integers",
           "hierarchy": "Holumbus Index Common DiffList",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DiffList",
           "name": "toPositions",
           "normalized": "DiffList-\u003ePositions",
@@ -10281,6 +11025,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe document identifier type DocId\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocId",
           "name": "DocId",
           "package": "Holumbus-Searchengine",
@@ -10290,6 +11035,7 @@
         "index": {
           "description": "The document identifier type DocId",
           "hierarchy": "Holumbus Index Common DocId",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocId",
           "name": "DocId",
           "package": "Holumbus-Searchengine",
@@ -10304,6 +11050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unique identifier of a document\n (created upon insertion into the document table).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocId",
           "name": "DocId",
           "package": "Holumbus-Searchengine",
@@ -10313,6 +11060,7 @@
         "index": {
           "description": "The unique identifier of document created upon insertion into the document table",
           "hierarchy": "Holumbus Index Common DocId",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocId",
           "name": "DocId",
           "package": "Holumbus-Searchengine",
@@ -10326,6 +11074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocId",
           "name": "DocId",
           "package": "Holumbus-Searchengine",
@@ -10335,6 +11084,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocId",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocId",
           "name": "DocId",
           "package": "Holumbus-Searchengine",
@@ -10348,6 +11098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocId",
           "name": "addDocId",
           "package": "Holumbus-Searchengine",
@@ -10357,6 +11108,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocId",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocId",
           "name": "addDocId",
           "normalized": "DocId-\u003eDocId-\u003eDocId",
@@ -10372,6 +11124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocId",
           "name": "firstDocId",
           "package": "Holumbus-Searchengine",
@@ -10381,6 +11134,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocId",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocId",
           "name": "firstDocId",
           "package": "Holumbus-Searchengine",
@@ -10394,6 +11148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocId",
           "name": "incrDocId",
           "package": "Holumbus-Searchengine",
@@ -10403,6 +11158,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocId",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocId",
           "name": "incrDocId",
           "normalized": "DocId-\u003eDocId",
@@ -10418,6 +11174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocId",
           "name": "mkDocId",
           "package": "Holumbus-Searchengine",
@@ -10427,6 +11184,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocId",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocId",
           "name": "mkDocId",
           "normalized": "Integer-\u003eDocId",
@@ -10442,6 +11200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocId",
           "name": "nullDocId",
           "package": "Holumbus-Searchengine",
@@ -10451,6 +11210,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocId",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocId",
           "name": "nullDocId",
           "package": "Holumbus-Searchengine",
@@ -10464,6 +11224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocId",
           "name": "subDocId",
           "package": "Holumbus-Searchengine",
@@ -10473,6 +11234,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocId",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocId",
           "name": "subDocId",
           "normalized": "DocId-\u003eDocId-\u003eDocId",
@@ -10488,6 +11250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocId",
           "name": "theDocId",
           "package": "Holumbus-Searchengine",
@@ -10497,6 +11260,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocId",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocId",
           "name": "theDocId",
           "package": "Holumbus-Searchengine",
@@ -10510,6 +11274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocId",
           "name": "xpDocId",
           "package": "Holumbus-Searchengine",
@@ -10519,6 +11284,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocId",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocId",
           "name": "xpDocId",
           "package": "Holumbus-Searchengine",
@@ -10533,6 +11299,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDocId maps\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "DocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10542,6 +11309,7 @@
         "index": {
           "description": "DocId maps",
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "DocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10555,6 +11323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "DocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10563,6 +11332,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "DocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10576,6 +11346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "deleteDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10585,6 +11356,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "deleteDocIdMap",
           "normalized": "DocId-\u003eDocIdMap a-\u003eDocIdMap a",
@@ -10600,6 +11372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "differenceDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10609,6 +11382,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "differenceDocIdMap",
           "normalized": "DocIdMap a-\u003eDocIdMap a-\u003eDocIdMap a",
@@ -10624,6 +11398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "differenceWithDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10633,6 +11408,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "differenceWithDocIdMap",
           "normalized": "(a-\u003ea-\u003eMaybe a)-\u003eDocIdMap a-\u003eDocIdMap a-\u003eDocIdMap a",
@@ -10648,6 +11424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "elemsDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10657,6 +11434,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "elemsDocIdMap",
           "normalized": "DocIdMap a-\u003e[a]",
@@ -10672,6 +11450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "emptyDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10681,6 +11460,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "emptyDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10694,6 +11474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "filterDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10703,6 +11484,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "filterDocIdMap",
           "normalized": "(a-\u003eBool)-\u003eDocIdMap a-\u003eDocIdMap a",
@@ -10718,6 +11500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "filterWithKeyDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10727,6 +11510,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "filterWithKeyDocIdMap",
           "normalized": "(DocId-\u003ea-\u003eBool)-\u003eDocIdMap a-\u003eDocIdMap a",
@@ -10742,6 +11526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "foldDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10751,6 +11536,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "foldDocIdMap",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eDocIdMap a-\u003eb",
@@ -10766,6 +11552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "foldWithKeyDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10775,6 +11562,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "foldWithKeyDocIdMap",
           "normalized": "(DocId-\u003ea-\u003eb-\u003eb)-\u003eb-\u003eDocIdMap a-\u003eb",
@@ -10790,6 +11578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "fromListDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10799,6 +11588,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "fromListDocIdMap",
           "normalized": "[(DocId,a)]-\u003eDocIdMap a",
@@ -10814,6 +11604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "insertDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10823,6 +11614,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "insertDocIdMap",
           "normalized": "DocId-\u003ea-\u003eDocIdMap a-\u003eDocIdMap a",
@@ -10838,6 +11630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "insertWithDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10847,6 +11640,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "insertWithDocIdMap",
           "normalized": "(a-\u003ea-\u003ea)-\u003eDocId-\u003ea-\u003eDocIdMap a-\u003eDocIdMap a",
@@ -10862,6 +11656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "intersectionDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10871,6 +11666,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "intersectionDocIdMap",
           "normalized": "DocIdMap a-\u003eDocIdMap a-\u003eDocIdMap a",
@@ -10886,6 +11682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "intersectionWithDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10895,6 +11692,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "intersectionWithDocIdMap",
           "normalized": "(a-\u003ea-\u003ea)-\u003eDocIdMap a-\u003eDocIdMap a-\u003eDocIdMap a",
@@ -10910,6 +11708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "isIntervallDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10919,6 +11718,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "isIntervallDocIdMap",
           "normalized": "DocIdMap a-\u003eBool",
@@ -10934,6 +11734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "keysDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10943,6 +11744,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "keysDocIdMap",
           "normalized": "DocIdMap a-\u003e[DocId]",
@@ -10958,6 +11760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "lookupDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10967,6 +11770,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "lookupDocIdMap",
           "normalized": "DocId-\u003eDocIdMap a-\u003eMaybe a",
@@ -10982,6 +11786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "mapDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -10991,6 +11796,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "mapDocIdMap",
           "normalized": "(a-\u003eb)-\u003eDocIdMap a-\u003eDocIdMap b",
@@ -11006,6 +11812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "mapWithKeyDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -11015,6 +11822,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "mapWithKeyDocIdMap",
           "normalized": "(DocId-\u003ea-\u003eb)-\u003eDocIdMap a-\u003eDocIdMap b",
@@ -11030,6 +11838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "maxKeyDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -11039,6 +11848,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "maxKeyDocIdMap",
           "normalized": "DocIdMap a-\u003eDocId",
@@ -11054,6 +11864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "memberDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -11063,6 +11874,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "memberDocIdMap",
           "normalized": "DocId-\u003eDocIdMap a-\u003eBool",
@@ -11078,6 +11890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "minKeyDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -11087,6 +11900,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "minKeyDocIdMap",
           "normalized": "DocIdMap a-\u003eDocId",
@@ -11102,6 +11916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "nullDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -11111,6 +11926,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "nullDocIdMap",
           "normalized": "DocIdMap a-\u003eBool",
@@ -11126,6 +11942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "singletonDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -11135,6 +11952,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "singletonDocIdMap",
           "normalized": "DocId-\u003ea-\u003eDocIdMap a",
@@ -11150,6 +11968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "sizeDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -11159,6 +11978,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "sizeDocIdMap",
           "normalized": "DocIdMap a-\u003eInt",
@@ -11174,6 +11994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "toListDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -11183,6 +12004,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "toListDocIdMap",
           "normalized": "DocIdMap a-\u003e[(DocId,a)]",
@@ -11198,6 +12020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "unionDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -11207,6 +12030,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "unionDocIdMap",
           "normalized": "DocIdMap a-\u003eDocIdMap a-\u003eDocIdMap a",
@@ -11222,6 +12046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "unionWithDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -11231,6 +12056,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "unionWithDocIdMap",
           "normalized": "(a-\u003ea-\u003ea)-\u003eDocIdMap a-\u003eDocIdMap a-\u003eDocIdMap a",
@@ -11246,6 +12072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "unionsWithDocIdMap",
           "package": "Holumbus-Searchengine",
@@ -11255,6 +12082,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common DocIdMap",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.DocIdMap",
           "name": "unionsWithDocIdMap",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[DocIdMap a]-\u003eDocIdMap a",
@@ -11271,6 +12099,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Document datatype\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Document",
           "name": "Document",
           "package": "Holumbus-Searchengine",
@@ -11280,6 +12109,7 @@
         "index": {
           "description": "The Document datatype",
           "hierarchy": "Holumbus Index Common Document",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Document",
           "name": "Document",
           "package": "Holumbus-Searchengine",
@@ -11294,6 +12124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA document consists of a title and its unique identifier (URI)\n and a customizable component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Document",
           "name": "Document",
           "package": "Holumbus-Searchengine",
@@ -11303,6 +12134,7 @@
         "index": {
           "description": "document consists of title and its unique identifier URI and customizable component",
           "hierarchy": "Holumbus Index Common Document",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Document",
           "name": "Document",
           "package": "Holumbus-Searchengine",
@@ -11316,6 +12148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Document",
           "name": "Document",
           "package": "Holumbus-Searchengine",
@@ -11325,6 +12158,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Document",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Document",
           "name": "Document",
           "package": "Holumbus-Searchengine",
@@ -11338,6 +12172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Document",
           "name": "custom",
           "package": "Holumbus-Searchengine",
@@ -11347,6 +12182,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Document",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Document",
           "name": "custom",
           "package": "Holumbus-Searchengine",
@@ -11359,6 +12195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Document",
           "name": "title",
           "package": "Holumbus-Searchengine",
@@ -11368,6 +12205,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Document",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Document",
           "name": "title",
           "package": "Holumbus-Searchengine",
@@ -11380,6 +12218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Document",
           "name": "uri",
           "package": "Holumbus-Searchengine",
@@ -11389,6 +12228,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Document",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Document",
           "name": "uri",
           "package": "Holumbus-Searchengine",
@@ -11402,6 +12242,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLoad and store indexes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.LoadStore",
           "name": "LoadStore",
           "package": "Holumbus-Searchengine",
@@ -11411,6 +12252,7 @@
         "index": {
           "description": "Load and store indexes",
           "hierarchy": "Holumbus Index Common LoadStore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.LoadStore",
           "name": "LoadStore",
           "package": "Holumbus-Searchengine",
@@ -11425,6 +12267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad from a binary file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.LoadStore",
           "name": "loadFromBinFile",
           "package": "Holumbus-Searchengine",
@@ -11435,6 +12278,7 @@
         "index": {
           "description": "Load from binary file",
           "hierarchy": "Holumbus Index Common LoadStore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.LoadStore",
           "name": "loadFromBinFile",
           "normalized": "FilePath-\u003eIO a",
@@ -11451,6 +12295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to determine the file type automatically. The file is loaded as XML if the filename\n ends with \".xml\" and otherwise is loaded as binary file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.LoadStore",
           "name": "loadFromFile",
           "package": "Holumbus-Searchengine",
@@ -11461,6 +12306,7 @@
         "index": {
           "description": "Try to determine the file type automatically The file is loaded as XML if the filename ends with xml and otherwise is loaded as binary file",
           "hierarchy": "Holumbus Index Common LoadStore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.LoadStore",
           "name": "loadFromFile",
           "normalized": "FilePath-\u003eIO a",
@@ -11477,6 +12323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad from XML file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.LoadStore",
           "name": "loadFromXmlFile",
           "package": "Holumbus-Searchengine",
@@ -11487,6 +12334,7 @@
         "index": {
           "description": "Load from XML file",
           "hierarchy": "Holumbus Index Common LoadStore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.LoadStore",
           "name": "loadFromXmlFile",
           "normalized": "FilePath-\u003eIO a",
@@ -11503,6 +12351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to a binary file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.LoadStore",
           "name": "writeToBinFile",
           "package": "Holumbus-Searchengine",
@@ -11513,6 +12362,7 @@
         "index": {
           "description": "Write to binary file",
           "hierarchy": "Holumbus Index Common LoadStore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.LoadStore",
           "name": "writeToBinFile",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -11529,6 +12379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to XML file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.LoadStore",
           "name": "writeToXmlFile",
           "package": "Holumbus-Searchengine",
@@ -11539,6 +12390,7 @@
         "index": {
           "description": "Write to XML file",
           "hierarchy": "Holumbus Index Common LoadStore",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.LoadStore",
           "name": "writeToXmlFile",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -11555,6 +12407,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Occurences data type\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "Occurences",
           "package": "Holumbus-Searchengine",
@@ -11564,6 +12417,7 @@
         "index": {
           "description": "The Occurences data type",
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "Occurences",
           "package": "Holumbus-Searchengine",
@@ -11578,6 +12432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe occurrences in a number of documents.\n A mapping from document ids to the positions in the document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "Occurrences",
           "package": "Holumbus-Searchengine",
@@ -11587,6 +12442,7 @@
         "index": {
           "description": "The occurrences in number of documents mapping from document ids to the positions in the document",
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "Occurrences",
           "package": "Holumbus-Searchengine",
@@ -11601,6 +12457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe positions of the word in the document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "Positions",
           "package": "Holumbus-Searchengine",
@@ -11610,6 +12467,7 @@
         "index": {
           "description": "The positions of the word in the document",
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "Positions",
           "package": "Holumbus-Searchengine",
@@ -11623,6 +12481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "deleteOccurrence",
           "package": "Holumbus-Searchengine",
@@ -11632,6 +12491,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "deleteOccurrence",
           "normalized": "DocId-\u003ePosition-\u003eOccurrences-\u003eOccurrences",
@@ -11647,6 +12507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "diffOccurrences",
           "package": "Holumbus-Searchengine",
@@ -11656,6 +12517,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "diffOccurrences",
           "normalized": "Occurrences-\u003eOccurrences-\u003eOccurrences",
@@ -11672,6 +12534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty set of positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "emptyOccurrences",
           "package": "Holumbus-Searchengine",
@@ -11682,6 +12545,7 @@
         "index": {
           "description": "Create an empty set of positions",
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "emptyOccurrences",
           "package": "Holumbus-Searchengine",
@@ -11695,6 +12559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "emptyPos",
           "package": "Holumbus-Searchengine",
@@ -11704,6 +12569,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "emptyPos",
           "package": "Holumbus-Searchengine",
@@ -11717,6 +12583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "foldPos",
           "package": "Holumbus-Searchengine",
@@ -11726,6 +12593,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "foldPos",
           "normalized": "(Position-\u003ea-\u003ea)-\u003ea-\u003ePositions-\u003ea",
@@ -11741,6 +12609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "fromListPos",
           "package": "Holumbus-Searchengine",
@@ -11750,6 +12619,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "fromListPos",
           "normalized": "[Position]-\u003ePositions",
@@ -11765,6 +12635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "insertOccurrence",
           "package": "Holumbus-Searchengine",
@@ -11774,6 +12645,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "insertOccurrence",
           "normalized": "DocId-\u003ePosition-\u003eOccurrences-\u003eOccurrences",
@@ -11789,6 +12661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "memberPos",
           "package": "Holumbus-Searchengine",
@@ -11798,6 +12671,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "memberPos",
           "normalized": "Position-\u003ePositions-\u003eBool",
@@ -11814,6 +12688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two occurrences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "mergeOccurrences",
           "package": "Holumbus-Searchengine",
@@ -11824,6 +12699,7 @@
         "index": {
           "description": "Merge two occurrences",
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "mergeOccurrences",
           "normalized": "Occurrences-\u003eOccurrences-\u003eOccurrences",
@@ -11840,6 +12716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest on empty set of positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "nullOccurrences",
           "package": "Holumbus-Searchengine",
@@ -11850,6 +12727,7 @@
         "index": {
           "description": "Test on empty set of positions",
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "nullOccurrences",
           "normalized": "Occurrences-\u003eBool",
@@ -11866,6 +12744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty set of positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "singletonOccurrence",
           "package": "Holumbus-Searchengine",
@@ -11876,6 +12755,7 @@
         "index": {
           "description": "Create an empty set of positions",
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "singletonOccurrence",
           "normalized": "DocId-\u003ePosition-\u003eOccurrences",
@@ -11891,6 +12771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "singletonPos",
           "package": "Holumbus-Searchengine",
@@ -11900,6 +12781,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "singletonPos",
           "normalized": "Position-\u003ePositions",
@@ -11916,6 +12798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the number of positions in a set of occurrences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "sizeOccurrences",
           "package": "Holumbus-Searchengine",
@@ -11926,6 +12809,7 @@
         "index": {
           "description": "Determine the number of positions in set of occurrences",
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "sizeOccurrences",
           "normalized": "Occurrences-\u003eInt",
@@ -11941,6 +12825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "sizePos",
           "package": "Holumbus-Searchengine",
@@ -11950,6 +12835,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "sizePos",
           "normalized": "Positions-\u003eInt",
@@ -11966,6 +12852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstract occurrences from some other occurrences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "substractOccurrences",
           "package": "Holumbus-Searchengine",
@@ -11976,6 +12863,7 @@
         "index": {
           "description": "Substract occurrences from some other occurrences",
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "substractOccurrences",
           "normalized": "Occurrences-\u003eOccurrences-\u003eOccurrences",
@@ -11991,6 +12879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "toAscListPos",
           "package": "Holumbus-Searchengine",
@@ -12000,6 +12889,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "toAscListPos",
           "normalized": "Positions-\u003e[Position]",
@@ -12015,6 +12905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "unionPos",
           "package": "Holumbus-Searchengine",
@@ -12024,6 +12915,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "unionPos",
           "normalized": "Positions-\u003ePositions-\u003ePositions",
@@ -12039,6 +12931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "updateOccurrences",
           "package": "Holumbus-Searchengine",
@@ -12048,6 +12941,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "updateOccurrences",
           "normalized": "(DocId-\u003eDocId)-\u003eOccurrences-\u003eOccurrences",
@@ -12064,6 +12958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe XML pickler for the occurrences of a word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "xpOccurrences",
           "package": "Holumbus-Searchengine",
@@ -12074,6 +12969,7 @@
         "index": {
           "description": "The XML pickler for the occurrences of word",
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "xpOccurrences",
           "package": "Holumbus-Searchengine",
@@ -12088,6 +12984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe XML pickler for a set of positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "xpPositions",
           "package": "Holumbus-Searchengine",
@@ -12098,6 +12995,7 @@
         "index": {
           "description": "The XML pickler for set of positions",
           "hierarchy": "Holumbus Index Common Occurences",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.Occurences",
           "name": "xpPositions",
           "package": "Holumbus-Searchengine",
@@ -12112,6 +13010,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe RawResult data type\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.RawResult",
           "name": "RawResult",
           "package": "Holumbus-Searchengine",
@@ -12121,6 +13020,7 @@
         "index": {
           "description": "The RawResult data type",
           "hierarchy": "Holumbus Index Common RawResult",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.RawResult",
           "name": "RawResult",
           "package": "Holumbus-Searchengine",
@@ -12135,6 +13035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe raw result returned when searching the index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.RawResult",
           "name": "RawResult",
           "package": "Holumbus-Searchengine",
@@ -12144,6 +13045,7 @@
         "index": {
           "description": "The raw result returned when searching the index",
           "hierarchy": "Holumbus Index Common RawResult",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.RawResult",
           "name": "RawResult",
           "package": "Holumbus-Searchengine",
@@ -12158,6 +13060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the raw result into a tree structure ordered by document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.RawResult",
           "name": "resultByDocument",
           "package": "Holumbus-Searchengine",
@@ -12168,6 +13071,7 @@
         "index": {
           "description": "Transform the raw result into tree structure ordered by document",
           "hierarchy": "Holumbus Index Common RawResult",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.RawResult",
           "name": "resultByDocument",
           "normalized": "Context-\u003eRawResult-\u003eDocIdMap(Map Context(Map Word Positions))",
@@ -12184,6 +13088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the raw result into a tree structure ordered by word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common.RawResult",
           "name": "resultByWord",
           "package": "Holumbus-Searchengine",
@@ -12194,6 +13099,7 @@
         "index": {
           "description": "Transform the raw result into tree structure ordered by word",
           "hierarchy": "Holumbus Index Common RawResult",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common.RawResult",
           "name": "resultByWord",
           "normalized": "Context-\u003eRawResult-\u003eMap Word(Map Context Occurrences)",
@@ -12210,6 +13116,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon data types shared by all index types and a unified interface for\n  all different index types. This module defines the common interfaces of\n  indexes and their document tables as well as full-text caches.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "Common",
           "package": "Holumbus-Searchengine",
@@ -12219,6 +13126,7 @@
         "index": {
           "description": "Common data types shared by all index types and unified interface for all different index types This module defines the common interfaces of indexes and their document tables as well as full-text caches",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "Common",
           "package": "Holumbus-Searchengine",
@@ -12232,6 +13140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "HolCache",
           "package": "Holumbus-Searchengine",
@@ -12240,6 +13149,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "HolCache",
           "package": "Holumbus-Searchengine",
@@ -12253,6 +13163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "HolDocIndex",
           "package": "Holumbus-Searchengine",
@@ -12261,6 +13172,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "HolDocIndex",
           "package": "Holumbus-Searchengine",
@@ -12274,6 +13186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "HolDocuments",
           "package": "Holumbus-Searchengine",
@@ -12282,6 +13195,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "HolDocuments",
           "package": "Holumbus-Searchengine",
@@ -12296,6 +13210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class provides a generic interface to different types of index implementations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "HolIndex",
           "package": "Holumbus-Searchengine",
@@ -12305,6 +13220,7 @@
         "index": {
           "description": "This class provides generic interface to different types of index implementations",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "HolIndex",
           "package": "Holumbus-Searchengine",
@@ -12319,6 +13235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class provides a generic interface to different monadic types of index implementations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "HolIndexM",
           "package": "Holumbus-Searchengine",
@@ -12328,6 +13245,7 @@
         "index": {
           "description": "This class provides generic interface to different monadic types of index implementations",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "HolIndexM",
           "package": "Holumbus-Searchengine",
@@ -12342,6 +13260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the occurrences for every word. A potentially expensive operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "allWords",
           "package": "Holumbus-Searchengine",
@@ -12352,6 +13271,7 @@
         "index": {
           "description": "Returns the occurrences for every word potentially expensive operation",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "allWords",
           "normalized": "a-\u003eContext-\u003eRawResult",
@@ -12368,6 +13288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the occurrences for every word. A potentially expensive operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "allWordsM",
           "package": "Holumbus-Searchengine",
@@ -12378,6 +13299,7 @@
         "index": {
           "description": "Returns the occurrences for every word potentially expensive operation",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "allWordsM",
           "normalized": "a-\u003eContext-\u003eb RawResult",
@@ -12394,6 +13316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all contexts avaliable in the index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "contexts",
           "package": "Holumbus-Searchengine",
@@ -12404,6 +13327,7 @@
         "index": {
           "description": "Returns list of all contexts avaliable in the index",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "contexts",
           "normalized": "a-\u003e[Context]",
@@ -12419,6 +13343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all contexts avaliable in the index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "contextsM",
           "package": "Holumbus-Searchengine",
@@ -12429,6 +13354,7 @@
         "index": {
           "description": "Returns list of all contexts avaliable in the index",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "contextsM",
           "normalized": "a-\u003eb[Context]",
@@ -12444,6 +13370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefragment a doctable and index, useful when the doc ids are\n organized as an intervall of ints.\n\u003c/p\u003e\u003cp\u003eDefault implementation is the identity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "defragmentDocIndex",
           "package": "Holumbus-Searchengine",
@@ -12454,6 +13381,7 @@
         "index": {
           "description": "Defragment doctable and index useful when the doc ids are organized as an intervall of ints Default implementation is the identity",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "defragmentDocIndex",
           "normalized": "a b-\u003ec-\u003e(a b,c)",
@@ -12470,6 +13398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete occurrences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "deleteOccurrences",
           "package": "Holumbus-Searchengine",
@@ -12480,6 +13409,7 @@
         "index": {
           "description": "Delete occurrences",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "deleteOccurrences",
           "normalized": "Context-\u003eWord-\u003eOccurrences-\u003ea-\u003ea",
@@ -12496,6 +13426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete occurrences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "deleteOccurrencesM",
           "package": "Holumbus-Searchengine",
@@ -12506,6 +13437,7 @@
         "index": {
           "description": "Delete occurrences",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "deleteOccurrencesM",
           "normalized": "Context-\u003eWord-\u003eOccurrences-\u003ea-\u003eb a",
@@ -12522,6 +13454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a position for a single document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "deletePosition",
           "package": "Holumbus-Searchengine",
@@ -12532,6 +13465,7 @@
         "index": {
           "description": "Delete position for single document",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "deletePosition",
           "normalized": "Context-\u003eWord-\u003eDocId-\u003ePosition-\u003ea-\u003ea",
@@ -12548,6 +13482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a position for a single document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "deletePositionM",
           "package": "Holumbus-Searchengine",
@@ -12558,6 +13493,7 @@
         "index": {
           "description": "Delete position for single document",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "deletePositionM",
           "normalized": "Context-\u003eWord-\u003eDocId-\u003ePosition-\u003ea-\u003eb a",
@@ -12574,6 +13510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether the doc ids of both tables are disjoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "disjointDocs",
           "package": "Holumbus-Searchengine",
@@ -12584,6 +13521,7 @@
         "index": {
           "description": "Test whether the doc ids of both tables are disjoint",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "disjointDocs",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -12600,6 +13538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdit document ids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "editDocIds",
           "package": "Holumbus-Searchengine",
@@ -12610,6 +13549,7 @@
         "index": {
           "description": "Edit document ids",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "editDocIds",
           "normalized": "(DocId-\u003eDocId)-\u003ea b-\u003ea b",
@@ -12625,6 +13565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "filterDocuments",
           "package": "Holumbus-Searchengine",
@@ -12634,6 +13575,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "filterDocuments",
           "normalized": "(Document a-\u003eBool)-\u003eb a-\u003eb a",
@@ -12649,6 +13591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "fromList",
           "package": "Holumbus-Searchengine",
@@ -12658,6 +13601,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "fromList",
           "normalized": "a-\u003e[(Context,Word,Occurrences)]-\u003ea",
@@ -12673,6 +13617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "fromListM",
           "package": "Holumbus-Searchengine",
@@ -12682,6 +13627,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "fromListM",
           "normalized": "a-\u003e[(Context,Word,Occurrences)]-\u003eb a",
@@ -12698,6 +13644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a document table from a single map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "fromMap",
           "package": "Holumbus-Searchengine",
@@ -12708,6 +13655,7 @@
         "index": {
           "description": "Create document table from single map",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "fromMap",
           "normalized": "DocIdMap(Document a)-\u003eb a",
@@ -12724,6 +13672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the full text of a document for a given context. Will never throw any exception,\n upon failure or if no text found for the document, \u003ccode\u003eNothing\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "getDocText",
           "package": "Holumbus-Searchengine",
@@ -12734,6 +13683,7 @@
         "index": {
           "description": "Retrieves the full text of document for given context Will never throw any exception upon failure or if no text found for the document Nothing is returned",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "getDocText",
           "normalized": "a-\u003eContext-\u003eDocId-\u003eIO(Maybe Content)",
@@ -12750,6 +13700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a document into the table. Returns a tuple of the id for that document and the \n new table. If a document with the same URI is already present, its id will be returned \n and the table is returned unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "insertDoc",
           "package": "Holumbus-Searchengine",
@@ -12760,6 +13711,7 @@
         "index": {
           "description": "Insert document into the table Returns tuple of the id for that document and the new table If document with the same URI is already present its id will be returned and the table is returned unchanged",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "insertDoc",
           "normalized": "a b-\u003eDocument b-\u003e(DocId,a b)",
@@ -12776,6 +13728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert occurrences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "insertOccurrences",
           "package": "Holumbus-Searchengine",
@@ -12786,6 +13739,7 @@
         "index": {
           "description": "Insert occurrences",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "insertOccurrences",
           "normalized": "Context-\u003eWord-\u003eOccurrences-\u003ea-\u003ea",
@@ -12802,6 +13756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert occurrences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "insertOccurrencesM",
           "package": "Holumbus-Searchengine",
@@ -12812,6 +13767,7 @@
         "index": {
           "description": "Insert occurrences",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "insertOccurrencesM",
           "normalized": "Context-\u003eWord-\u003eOccurrences-\u003ea-\u003eb a",
@@ -12828,6 +13784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a position for a single document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "insertPosition",
           "package": "Holumbus-Searchengine",
@@ -12838,6 +13795,7 @@
         "index": {
           "description": "Insert position for single document",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "insertPosition",
           "normalized": "Context-\u003eWord-\u003eDocId-\u003ePosition-\u003ea-\u003ea",
@@ -12854,6 +13812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a position for a single document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "insertPositionM",
           "package": "Holumbus-Searchengine",
@@ -12864,6 +13823,7 @@
         "index": {
           "description": "Insert position for single document",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "insertPositionM",
           "normalized": "Context-\u003eWord-\u003eDocId-\u003ePosition-\u003ea-\u003eb a",
@@ -12880,6 +13840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a document by its id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "lookupById",
           "package": "Holumbus-Searchengine",
@@ -12890,6 +13851,7 @@
         "index": {
           "description": "Lookup document by its id",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "lookupById",
           "normalized": "a b-\u003eDocId-\u003ec(Document b)",
@@ -12906,6 +13868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the id of a document by an URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "lookupByURI",
           "package": "Holumbus-Searchengine",
@@ -12916,6 +13879,7 @@
         "index": {
           "description": "Lookup the id of document by an URI",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "lookupByURI",
           "normalized": "a b-\u003eURI-\u003ec DocId",
@@ -12932,6 +13896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches for and exact word in a given context (case-sensitive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "lookupCase",
           "package": "Holumbus-Searchengine",
@@ -12942,6 +13907,7 @@
         "index": {
           "description": "Searches for and exact word in given context case-sensitive",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "lookupCase",
           "normalized": "a-\u003eContext-\u003eString-\u003eRawResult",
@@ -12958,6 +13924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches for and exact word in a given context (case-sensitive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "lookupCaseM",
           "package": "Holumbus-Searchengine",
@@ -12968,6 +13935,7 @@
         "index": {
           "description": "Searches for and exact word in given context case-sensitive",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "lookupCaseM",
           "normalized": "a-\u003eContext-\u003eString-\u003eb RawResult",
@@ -12984,6 +13952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches for and exact word in a given context (case-insensitive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "lookupNoCase",
           "package": "Holumbus-Searchengine",
@@ -12994,6 +13963,7 @@
         "index": {
           "description": "Searches for and exact word in given context case-insensitive",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "lookupNoCase",
           "normalized": "a-\u003eContext-\u003eString-\u003eRawResult",
@@ -13010,6 +13980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches for and exact word in a given context (case-insensitive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "lookupNoCaseM",
           "package": "Holumbus-Searchengine",
@@ -13020,6 +13991,7 @@
         "index": {
           "description": "Searches for and exact word in given context case-insensitive",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "lookupNoCaseM",
           "normalized": "a-\u003eContext-\u003eString-\u003eb RawResult",
@@ -13036,6 +14008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an empty document table. The input parameter is taken to identify the typeclass\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "makeEmpty",
           "package": "Holumbus-Searchengine",
@@ -13046,6 +14019,7 @@
         "index": {
           "description": "Return an empty document table The input parameter is taken to identify the typeclass",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "makeEmpty",
           "normalized": "a b-\u003ea b",
@@ -13062,6 +14036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two caches in the way that everything that is in the second cache is inserted into the\n   first one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "mergeCaches",
           "package": "Holumbus-Searchengine",
@@ -13072,6 +14047,7 @@
         "index": {
           "description": "Merge two caches in the way that everything that is in the second cache is inserted into the first one",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "mergeCaches",
           "normalized": "a-\u003ea-\u003eIO a",
@@ -13088,6 +14064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges two indexes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "mergeIndexes",
           "package": "Holumbus-Searchengine",
@@ -13098,6 +14075,7 @@
         "index": {
           "description": "Merges two indexes",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "mergeIndexes",
           "normalized": "a-\u003ea-\u003ea",
@@ -13114,6 +14092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges two indexes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "mergeIndexesM",
           "package": "Holumbus-Searchengine",
@@ -13124,6 +14103,7 @@
         "index": {
           "description": "Merges two indexes",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "mergeIndexesM",
           "normalized": "a-\u003ea-\u003eb a",
@@ -13140,6 +14120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoctable empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "nullDocs",
           "package": "Holumbus-Searchengine",
@@ -13150,6 +14131,7 @@
         "index": {
           "description": "doctable empty",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "nullDocs",
           "normalized": "a b-\u003eBool",
@@ -13166,6 +14148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches for words beginning with the prefix in a given context (case-sensitive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "prefixCase",
           "package": "Holumbus-Searchengine",
@@ -13176,6 +14159,7 @@
         "index": {
           "description": "Searches for words beginning with the prefix in given context case-sensitive",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "prefixCase",
           "normalized": "a-\u003eContext-\u003eString-\u003eRawResult",
@@ -13192,6 +14176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches for words beginning with the prefix in a given context (case-sensitive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "prefixCaseM",
           "package": "Holumbus-Searchengine",
@@ -13202,6 +14187,7 @@
         "index": {
           "description": "Searches for words beginning with the prefix in given context case-sensitive",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "prefixCaseM",
           "normalized": "a-\u003eContext-\u003eString-\u003eb RawResult",
@@ -13218,6 +14204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches for words beginning with the prefix in a given context (case-insensitive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "prefixNoCase",
           "package": "Holumbus-Searchengine",
@@ -13228,6 +14215,7 @@
         "index": {
           "description": "Searches for words beginning with the prefix in given context case-insensitive",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "prefixNoCase",
           "normalized": "a-\u003eContext-\u003eString-\u003eRawResult",
@@ -13244,6 +14232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches for words beginning with the prefix in a given context (case-insensitive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "prefixNoCaseM",
           "package": "Holumbus-Searchengine",
@@ -13254,6 +14243,7 @@
         "index": {
           "description": "Searches for words beginning with the prefix in given context case-insensitive",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "prefixNoCaseM",
           "normalized": "a-\u003eContext-\u003eString-\u003eb RawResult",
@@ -13270,6 +14260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore the full text of a document for a given context. May throw an exception if the \n storage of the text failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "putDocText",
           "package": "Holumbus-Searchengine",
@@ -13280,6 +14271,7 @@
         "index": {
           "description": "Store the full text of document for given context May throw an exception if the storage of the text failed",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "putDocText",
           "normalized": "a-\u003eContext-\u003eDocId-\u003eContent-\u003eIO()",
@@ -13296,6 +14288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the document with the specified id from the table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "removeById",
           "package": "Holumbus-Searchengine",
@@ -13306,6 +14299,7 @@
         "index": {
           "description": "Removes the document with the specified id from the table",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "removeById",
           "normalized": "a b-\u003eDocId-\u003ea b",
@@ -13322,6 +14316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the document with the specified URI from the table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "removeByURI",
           "package": "Holumbus-Searchengine",
@@ -13332,6 +14327,7 @@
         "index": {
           "description": "Removes the document with the specified URI from the table",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "removeByURI",
           "normalized": "a b-\u003eURI-\u003ea b",
@@ -13348,6 +14344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of unique documents in the table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "sizeDocs",
           "package": "Holumbus-Searchengine",
@@ -13358,6 +14355,7 @@
         "index": {
           "description": "Returns the number of unique documents in the table",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "sizeDocs",
           "normalized": "a b-\u003eInt",
@@ -13374,6 +14372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of unique words in the index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "sizeWords",
           "package": "Holumbus-Searchengine",
@@ -13384,6 +14383,7 @@
         "index": {
           "description": "Returns the number of unique words in the index",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "sizeWords",
           "normalized": "a-\u003eInt",
@@ -13400,6 +14400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of unique words in the index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "sizeWordsM",
           "package": "Holumbus-Searchengine",
@@ -13410,6 +14411,7 @@
         "index": {
           "description": "Returns the number of unique words in the index",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "sizeWordsM",
           "normalized": "a-\u003eb Int",
@@ -13426,6 +14428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplitting an index by its contexts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "splitByContexts",
           "package": "Holumbus-Searchengine",
@@ -13436,6 +14439,7 @@
         "index": {
           "description": "Splitting an index by its contexts",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "splitByContexts",
           "normalized": "a-\u003eInt-\u003e[a]",
@@ -13452,6 +14456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplitting an index by its documents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "splitByDocuments",
           "package": "Holumbus-Searchengine",
@@ -13462,6 +14467,7 @@
         "index": {
           "description": "Splitting an index by its documents",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "splitByDocuments",
           "normalized": "a-\u003eInt-\u003e[a]",
@@ -13478,6 +14484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplitting an index by its words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "splitByWords",
           "package": "Holumbus-Searchengine",
@@ -13488,6 +14495,7 @@
         "index": {
           "description": "Splitting an index by its words",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "splitByWords",
           "normalized": "a-\u003eInt-\u003e[a]",
@@ -13504,6 +14512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstract one index from another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "substractIndexes",
           "package": "Holumbus-Searchengine",
@@ -13514,6 +14523,7 @@
         "index": {
           "description": "Substract one index from another",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "substractIndexes",
           "normalized": "a-\u003ea-\u003ea",
@@ -13529,6 +14539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "toList",
           "package": "Holumbus-Searchengine",
@@ -13538,6 +14549,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "toList",
           "normalized": "a-\u003e[(Context,Word,Occurrences)]",
@@ -13553,6 +14565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "toListM",
           "package": "Holumbus-Searchengine",
@@ -13562,6 +14575,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "toListM",
           "normalized": "a-\u003eb[(Context,Word,Occurrences)]",
@@ -13578,6 +14592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert document table to a single map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "toMap",
           "package": "Holumbus-Searchengine",
@@ -13588,6 +14603,7 @@
         "index": {
           "description": "Convert document table to single map",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "toMap",
           "normalized": "a b-\u003eDocIdMap(Document b)",
@@ -13604,6 +14620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two doctables and indexes together into a single doctable and index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "unionDocIndex",
           "package": "Holumbus-Searchengine",
@@ -13614,6 +14631,7 @@
         "index": {
           "description": "Merge two doctables and indexes together into single doctable and index",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "unionDocIndex",
           "normalized": "a b-\u003ec-\u003ea b-\u003ec-\u003e(a b,c)",
@@ -13630,6 +14648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion of two disjoint document tables. It is assumed, that the DocIds and the document uris\n of both indexes are disjoint. If only the sets of uris are disjoint, the DocIds can be made\n disjoint by adding maxDocId of one to the DocIds of the second, e.g. with editDocIds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "unionDocs",
           "package": "Holumbus-Searchengine",
@@ -13640,6 +14659,7 @@
         "index": {
           "description": "Union of two disjoint document tables It is assumed that the DocIds and the document uris of both indexes are disjoint If only the sets of uris are disjoint the DocIds can be made disjoint by adding maxDocId of one to the DocIds of the second e.g with editDocIds",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "unionDocs",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -13656,6 +14676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate a document with a certain DocId. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "updateDoc",
           "package": "Holumbus-Searchengine",
@@ -13666,6 +14687,7 @@
         "index": {
           "description": "Update document with certain DocId",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "updateDoc",
           "normalized": "a b-\u003eDocId-\u003eDocument b-\u003ea b",
@@ -13682,6 +14704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate document id's (e.g. for renaming documents). If the function maps two different id's\n to the same new id, the two sets of word positions will be merged if both old id's are present\n in the occurrences for a word in a specific context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "updateDocIds",
           "package": "Holumbus-Searchengine",
@@ -13692,6 +14715,7 @@
         "index": {
           "description": "Update document id e.g for renaming documents If the function maps two different id to the same new id the two sets of word positions will be merged if both old id are present in the occurrences for word in specific context",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "updateDocIds",
           "normalized": "(Context-\u003eWord-\u003eDocId-\u003eDocId)-\u003ea-\u003ea",
@@ -13708,6 +14732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate document id's with a simple injective editing function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "updateDocIds'",
           "package": "Holumbus-Searchengine",
@@ -13718,6 +14743,7 @@
         "index": {
           "description": "Update document id with simple injective editing function",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "updateDocIds'",
           "normalized": "(DocId-\u003eDocId)-\u003ea-\u003ea",
@@ -13734,6 +14760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate document id's (e.g. for renaming documents). If the function maps two different id's\n to the same new id, the two sets of word positions will be merged if both old id's are present\n in the occurrences for a word in a specific context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "updateDocIdsM",
           "package": "Holumbus-Searchengine",
@@ -13744,6 +14771,7 @@
         "index": {
           "description": "Update document id e.g for renaming documents If the function maps two different id to the same new id the two sets of word positions will be merged if both old id are present in the occurrences for word in specific context",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "updateDocIdsM",
           "normalized": "(Context-\u003eWord-\u003eDocId-\u003eDocId)-\u003ea-\u003eb a",
@@ -13760,6 +14788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate document id's with an simple injective editing function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "updateDocIdsM'",
           "package": "Holumbus-Searchengine",
@@ -13770,6 +14799,7 @@
         "index": {
           "description": "Update document id with an simple injective editing function",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "updateDocIdsM'",
           "normalized": "(DocId-\u003eDocId)-\u003ea-\u003eb a",
@@ -13786,6 +14816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate documents (through mapping over all documents).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Common",
           "name": "updateDocuments",
           "package": "Holumbus-Searchengine",
@@ -13796,6 +14827,7 @@
         "index": {
           "description": "Update documents through mapping over all documents",
           "hierarchy": "Holumbus Index Common",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Common",
           "name": "updateDocuments",
           "normalized": "(Document a-\u003eDocument a)-\u003eb a-\u003eb a",
@@ -13812,6 +14844,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA more space efficient substitute for Holumbus.Index.Documents\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "CompactDocuments",
           "package": "Holumbus-Searchengine",
@@ -13821,6 +14854,7 @@
         "index": {
           "description": "more space efficient substitute for Holumbus.Index.Documents",
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "CompactDocuments",
           "package": "Holumbus-Searchengine",
@@ -13834,6 +14868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "CompressedDoc",
           "package": "Holumbus-Searchengine",
@@ -13842,6 +14877,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "CompressedDoc",
           "package": "Holumbus-Searchengine",
@@ -13855,6 +14891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "DocMap",
           "package": "Holumbus-Searchengine",
@@ -13863,6 +14900,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "DocMap",
           "package": "Holumbus-Searchengine",
@@ -13876,6 +14914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "Documents",
           "package": "Holumbus-Searchengine",
@@ -13884,6 +14923,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "Documents",
           "package": "Holumbus-Searchengine",
@@ -13898,6 +14938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe table which is used to map a document to an artificial id and vice versa.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "URIMap",
           "package": "Holumbus-Searchengine",
@@ -13907,6 +14948,7 @@
         "index": {
           "description": "The table which is used to map document to an artificial id and vice versa",
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "URIMap",
           "package": "Holumbus-Searchengine",
@@ -13920,6 +14962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "CDoc",
           "package": "Holumbus-Searchengine",
@@ -13929,6 +14972,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "CDoc",
           "package": "Holumbus-Searchengine",
@@ -13942,6 +14986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "Documents",
           "package": "Holumbus-Searchengine",
@@ -13951,6 +14996,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "Documents",
           "package": "Holumbus-Searchengine",
@@ -13965,6 +15011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space efficient mapping from\n   the URI of a document to its id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "docToId",
           "package": "Holumbus-Searchengine",
@@ -13975,6 +15022,7 @@
         "index": {
           "description": "space efficient mapping from the URI of document to its id",
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "docToId",
           "package": "Holumbus-Searchengine",
@@ -14013,6 +15061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "fromDocMap",
           "package": "Holumbus-Searchengine",
@@ -14022,6 +15071,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "fromDocMap",
           "normalized": "DocMap a-\u003eDocIdMap(Document a)",
@@ -14037,6 +15087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "fromDocument",
           "package": "Holumbus-Searchengine",
@@ -14046,6 +15097,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "fromDocument",
           "normalized": "Document a-\u003eCompressedDoc a",
@@ -14062,6 +15114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from a document id to\n   the document itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "idToDoc",
           "package": "Holumbus-Searchengine",
@@ -14072,6 +15125,7 @@
         "index": {
           "description": "mapping from document id to the document itself",
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "idToDoc",
           "package": "Holumbus-Searchengine",
@@ -14086,6 +15140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe last used document id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "lastDocId",
           "package": "Holumbus-Searchengine",
@@ -14096,6 +15151,7 @@
         "index": {
           "description": "The last used document id",
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "lastDocId",
           "package": "Holumbus-Searchengine",
@@ -14110,6 +15166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplify a document table by transforming the custom information into a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "simplify",
           "package": "Holumbus-Searchengine",
@@ -14120,6 +15177,7 @@
         "index": {
           "description": "Simplify document table by transforming the custom information into string",
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "simplify",
           "normalized": "Documents a-\u003eDocuments String",
@@ -14135,6 +15193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a document table containing a single document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "singleton",
           "package": "Holumbus-Searchengine",
@@ -14145,6 +15204,7 @@
         "index": {
           "description": "Create document table containing single document",
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "singleton",
           "normalized": "Document a-\u003eDocuments a",
@@ -14159,6 +15219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "toDocMap",
           "package": "Holumbus-Searchengine",
@@ -14168,6 +15229,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "toDocMap",
           "normalized": "DocIdMap(Document a)-\u003eDocMap a",
@@ -14183,6 +15245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "toDocument",
           "package": "Holumbus-Searchengine",
@@ -14192,6 +15255,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "toDocument",
           "normalized": "CompressedDoc a-\u003eDocument a",
@@ -14207,6 +15271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "unCDoc",
           "package": "Holumbus-Searchengine",
@@ -14216,6 +15281,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactDocuments",
           "name": "unCDoc",
           "package": "Holumbus-Searchengine",
@@ -14229,6 +15295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "CompactIndex",
           "package": "Holumbus-Searchengine",
@@ -14237,6 +15304,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "CompactIndex",
           "package": "Holumbus-Searchengine",
@@ -14250,6 +15318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "CompactInverted",
           "package": "Holumbus-Searchengine",
@@ -14258,6 +15327,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "CompactInverted",
           "package": "Holumbus-Searchengine",
@@ -14272,6 +15342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA document consists of a title and its unique identifier (URI)\n and a customizable component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "Document",
           "package": "Holumbus-Searchengine",
@@ -14281,6 +15352,7 @@
         "index": {
           "description": "document consists of title and its unique identifier URI and customizable component",
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "Document",
           "package": "Holumbus-Searchengine",
@@ -14294,6 +15366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "Documents",
           "package": "Holumbus-Searchengine",
@@ -14302,6 +15375,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "Documents",
           "package": "Holumbus-Searchengine",
@@ -14315,6 +15389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "HolumbusConfig",
           "package": "Holumbus-Searchengine",
@@ -14323,6 +15398,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "HolumbusConfig",
           "package": "Holumbus-Searchengine",
@@ -14336,6 +15412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "HolumbusState",
           "package": "Holumbus-Searchengine",
@@ -14344,6 +15421,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "HolumbusState",
           "package": "Holumbus-Searchengine",
@@ -14357,6 +15435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "Inverted",
           "package": "Holumbus-Searchengine",
@@ -14365,6 +15444,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "Inverted",
           "package": "Holumbus-Searchengine",
@@ -14379,6 +15459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe table to store the document descriptions\n\u003c/p\u003e\u003cp\u003eThis table does not contain the reverse map from URIs do DocIds,\n this reverse map is only needed when crawling, not for searching the index.\n As a consequence, most of the indes operations are not implemented\n\u003c/p\u003e\u003cp\u003esee also \u003ccode\u003e\u003ca\u003eDocuments\u003c/a\u003e\u003c/code\u003e data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "SmallDocuments",
           "package": "Holumbus-Searchengine",
@@ -14388,6 +15469,7 @@
         "index": {
           "description": "The table to store the document descriptions This table does not contain the reverse map from URIs do DocIds this reverse map is only needed when crawling not for searching the index As consequence most of the indes operations are not implemented see also Documents data type",
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "SmallDocuments",
           "package": "Holumbus-Searchengine",
@@ -14401,6 +15483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "defragmentHolumbusState",
           "package": "Holumbus-Searchengine",
@@ -14410,6 +15493,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "defragmentHolumbusState",
           "normalized": "HolumbusState a-\u003eHolumbusState a",
@@ -14425,6 +15509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "emptyCompactInverted",
           "package": "Holumbus-Searchengine",
@@ -14434,6 +15519,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "emptyCompactInverted",
           "package": "Holumbus-Searchengine",
@@ -14447,6 +15533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "emptyHolumbusState",
           "package": "Holumbus-Searchengine",
@@ -14456,6 +15543,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "emptyHolumbusState",
           "package": "Holumbus-Searchengine",
@@ -14469,6 +15557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "emptyInverted",
           "package": "Holumbus-Searchengine",
@@ -14478,6 +15567,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "emptyInverted",
           "package": "Holumbus-Searchengine",
@@ -14491,6 +15581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "inverted2compactInverted",
           "package": "Holumbus-Searchengine",
@@ -14500,6 +15591,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "inverted2compactInverted",
           "normalized": "Inverted-\u003eCompactInverted",
@@ -14515,6 +15607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "mergeAndWritePartialRes'",
           "package": "Holumbus-Searchengine",
@@ -14524,6 +15617,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "mergeAndWritePartialRes'",
           "normalized": "(SmallDocuments a-\u003eSmallDocuments a)-\u003e[String]-\u003eString-\u003eb()",
@@ -14539,6 +15633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "removeDocIdsInverted",
           "package": "Holumbus-Searchengine",
@@ -14548,6 +15643,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "removeDocIdsInverted",
           "normalized": "Occurrences-\u003eInverted-\u003eInverted",
@@ -14563,6 +15659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "writeBin",
           "package": "Holumbus-Searchengine",
@@ -14572,6 +15669,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "writeBin",
           "normalized": "FilePath-\u003ea-\u003eb()",
@@ -14587,6 +15685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "writePartialIndex",
           "package": "Holumbus-Searchengine",
@@ -14596,6 +15695,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "writePartialIndex",
           "normalized": "Bool-\u003eFilePath-\u003eCrawlerAction a(HolumbusState b)()",
@@ -14611,6 +15711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "writeSearchBin",
           "package": "Holumbus-Searchengine",
@@ -14620,6 +15721,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "writeSearchBin",
           "normalized": "FilePath-\u003eHolumbusState a-\u003eb()",
@@ -14635,6 +15737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactIndex",
           "name": "writeXml",
           "package": "Holumbus-Searchengine",
@@ -14644,6 +15747,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactIndex",
           "name": "writeXml",
           "normalized": "FilePath-\u003ea-\u003eb()",
@@ -14660,6 +15764,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple version of Holumbus.Index.Documents.\n  This implementation is only for reading a document table in the search part of an application.\n  The mapping of URIs to DocIds is only required during index building, not when accessing the index.\n  So this 2. mapping is removed in this implementation for saving space\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "CompactSmallDocuments",
           "package": "Holumbus-Searchengine",
@@ -14669,6 +15774,7 @@
         "index": {
           "description": "simple version of Holumbus.Index.Documents This implementation is only for reading document table in the search part of an application The mapping of URIs to DocIds is only required during index building not when accessing the index So this mapping is removed in this implementation for saving space",
           "hierarchy": "Holumbus Index CompactSmallDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "CompactSmallDocuments",
           "package": "Holumbus-Searchengine",
@@ -14683,6 +15789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe table to store the document descriptions\n\u003c/p\u003e\u003cp\u003eThis table does not contain the reverse map from URIs do DocIds,\n this reverse map is only needed when crawling, not for searching the index.\n As a consequence, most of the indes operations are not implemented\n\u003c/p\u003e\u003cp\u003esee also \u003ccode\u003e\u003ca\u003eDocuments\u003c/a\u003e\u003c/code\u003e data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "SmallDocuments",
           "package": "Holumbus-Searchengine",
@@ -14692,6 +15799,7 @@
         "index": {
           "description": "The table to store the document descriptions This table does not contain the reverse map from URIs do DocIds this reverse map is only needed when crawling not for searching the index As consequence most of the indes operations are not implemented see also Documents data type",
           "hierarchy": "Holumbus Index CompactSmallDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "SmallDocuments",
           "package": "Holumbus-Searchengine",
@@ -14705,6 +15813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "SmallDocuments",
           "package": "Holumbus-Searchengine",
@@ -14714,6 +15823,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index CompactSmallDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "SmallDocuments",
           "package": "Holumbus-Searchengine",
@@ -14728,6 +15838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Compact document table into a small compact document table.\n Called at the end of building an index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "docTable2smallDocTable",
           "package": "Holumbus-Searchengine",
@@ -14738,6 +15849,7 @@
         "index": {
           "description": "Convert Compact document table into small compact document table Called at the end of building an index",
           "hierarchy": "Holumbus Index CompactSmallDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "docTable2smallDocTable",
           "normalized": "Documents a-\u003eSmallDocuments a",
@@ -14754,6 +15866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "emptyDocuments",
           "package": "Holumbus-Searchengine",
@@ -14764,6 +15877,7 @@
         "index": {
           "description": "Create an empty table",
           "hierarchy": "Holumbus Index CompactSmallDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "emptyDocuments",
           "package": "Holumbus-Searchengine",
@@ -14778,6 +15892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from a doc id\n   to the document itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "idToSmallDoc",
           "package": "Holumbus-Searchengine",
@@ -14788,6 +15903,7 @@
         "index": {
           "description": "mapping from doc id to the document itself",
           "hierarchy": "Holumbus Index CompactSmallDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "idToSmallDoc",
           "package": "Holumbus-Searchengine",
@@ -14802,6 +15918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a document table containing a single document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "singleton",
           "package": "Holumbus-Searchengine",
@@ -14812,6 +15929,7 @@
         "index": {
           "description": "Create document table containing single document",
           "hierarchy": "Holumbus Index CompactSmallDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.CompactSmallDocuments",
           "name": "singleton",
           "normalized": "Document a-\u003eSmallDocuments a",
@@ -14827,6 +15945,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003cp\u003eThis module provides several specific compression mechanisms for different\n  parts of indexes. Right now, just a general compression scheme for \n  the \u003ccode\u003e\u003ca\u003eOccurrences\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePositions\u003c/a\u003e\u003c/code\u003e are provided.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Compression",
           "name": "Compression",
           "package": "Holumbus-Searchengine",
@@ -14836,6 +15955,7 @@
         "index": {
           "description": "Version This module provides several specific compression mechanisms for different parts of indexes Right now just general compression scheme for the Occurrences and Positions are provided",
           "hierarchy": "Holumbus Index Compression",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Compression",
           "name": "Compression",
           "package": "Holumbus-Searchengine",
@@ -14849,6 +15969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Compression",
           "name": "CompressedOccurrences",
           "package": "Holumbus-Searchengine",
@@ -14857,6 +15978,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Compression",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Compression",
           "name": "CompressedOccurrences",
           "package": "Holumbus-Searchengine",
@@ -14870,6 +15992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Compression",
           "name": "CompressedPositions",
           "package": "Holumbus-Searchengine",
@@ -14878,6 +16001,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Compression",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Compression",
           "name": "CompressedPositions",
           "package": "Holumbus-Searchengine",
@@ -14892,6 +16016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompress the occurrences by just compressing all contained positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Compression",
           "name": "deflateOcc",
           "package": "Holumbus-Searchengine",
@@ -14902,6 +16027,7 @@
         "index": {
           "description": "Compress the occurrences by just compressing all contained positions",
           "hierarchy": "Holumbus Index Compression",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Compression",
           "name": "deflateOcc",
           "normalized": "Occurrences-\u003eCompressedOccurrences",
@@ -14918,6 +16044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave some memory on the positions by just saving their differences and compressing these.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Compression",
           "name": "deflatePos",
           "package": "Holumbus-Searchengine",
@@ -14928,6 +16055,7 @@
         "index": {
           "description": "Save some memory on the positions by just saving their differences and compressing these",
           "hierarchy": "Holumbus Index Compression",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Compression",
           "name": "deflatePos",
           "normalized": "Positions-\u003eCompressedPositions",
@@ -14944,6 +16072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompressing the occurrences by just decompressing all contained positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Compression",
           "name": "inflateOcc",
           "package": "Holumbus-Searchengine",
@@ -14954,6 +16083,7 @@
         "index": {
           "description": "Decompressing the occurrences by just decompressing all contained positions",
           "hierarchy": "Holumbus Index Compression",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Compression",
           "name": "inflateOcc",
           "normalized": "CompressedOccurrences-\u003eOccurrences",
@@ -14970,6 +16100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the compressed differences back to a set of integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Compression",
           "name": "inflatePos",
           "package": "Holumbus-Searchengine",
@@ -14980,6 +16111,7 @@
         "index": {
           "description": "Convert the compressed differences back to set of integers",
           "hierarchy": "Holumbus Index Compression",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Compression",
           "name": "inflatePos",
           "normalized": "CompressedPositions-\u003ePositions",
@@ -14996,6 +16128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA more space efficient substitute for Holumbus.Index.Documents\n  and a more flexible implementation than Holumbus.Index.CompactDocuments.\n\u003c/p\u003e\u003cp\u003eDocIds are computed by a hash function, so the inverse map from URIs to DocIds\n  is substituted by the hash function\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "HashedDocuments",
           "package": "Holumbus-Searchengine",
@@ -15005,6 +16138,7 @@
         "index": {
           "description": "more space efficient substitute for Holumbus.Index.Documents and more flexible implementation than Holumbus.Index.CompactDocuments DocIds are computed by hash function so the inverse map from URIs to DocIds is substituted by the hash function",
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "HashedDocuments",
           "package": "Holumbus-Searchengine",
@@ -15018,6 +16152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "CompressedDoc",
           "package": "Holumbus-Searchengine",
@@ -15026,6 +16161,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "CompressedDoc",
           "package": "Holumbus-Searchengine",
@@ -15040,6 +16176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe table which is used to map a document to an artificial id and vice versa.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "DocMap",
           "package": "Holumbus-Searchengine",
@@ -15049,6 +16186,7 @@
         "index": {
           "description": "The table which is used to map document to an artificial id and vice versa",
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "DocMap",
           "package": "Holumbus-Searchengine",
@@ -15062,6 +16200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "Documents",
           "package": "Holumbus-Searchengine",
@@ -15070,6 +16209,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "Documents",
           "package": "Holumbus-Searchengine",
@@ -15083,6 +16223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "CDoc",
           "package": "Holumbus-Searchengine",
@@ -15092,6 +16233,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "CDoc",
           "package": "Holumbus-Searchengine",
@@ -15106,6 +16248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from a document id to\n   the document itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "Documents",
           "package": "Holumbus-Searchengine",
@@ -15116,6 +16259,7 @@
         "index": {
           "description": "mapping from document id to the document itself",
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "Documents",
           "package": "Holumbus-Searchengine",
@@ -15154,6 +16298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "fromDocMap",
           "package": "Holumbus-Searchengine",
@@ -15163,6 +16308,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "fromDocMap",
           "normalized": "DocMap a-\u003eDocIdMap(Document a)",
@@ -15178,6 +16324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "fromDocument",
           "package": "Holumbus-Searchengine",
@@ -15187,6 +16334,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "fromDocument",
           "normalized": "Document a-\u003eCompressedDoc a",
@@ -15202,6 +16350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "idToDoc",
           "package": "Holumbus-Searchengine",
@@ -15211,6 +16360,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "idToDoc",
           "package": "Holumbus-Searchengine",
@@ -15225,6 +16375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a document table containing a single document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "singleton",
           "package": "Holumbus-Searchengine",
@@ -15235,6 +16386,7 @@
         "index": {
           "description": "Create document table containing single document",
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "singleton",
           "normalized": "Document a-\u003eDocuments a",
@@ -15249,6 +16401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "toDocMap",
           "package": "Holumbus-Searchengine",
@@ -15258,6 +16411,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "toDocMap",
           "normalized": "DocIdMap(Document a)-\u003eDocMap a",
@@ -15273,6 +16427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "toDocument",
           "package": "Holumbus-Searchengine",
@@ -15282,6 +16437,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "toDocument",
           "normalized": "CompressedDoc a-\u003eDocument a",
@@ -15297,6 +16453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "unCDoc",
           "package": "Holumbus-Searchengine",
@@ -15306,6 +16463,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedDocuments",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedDocuments",
           "name": "unCDoc",
           "package": "Holumbus-Searchengine",
@@ -15319,6 +16477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "HashedIndex",
           "package": "Holumbus-Searchengine",
@@ -15327,6 +16486,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "HashedIndex",
           "package": "Holumbus-Searchengine",
@@ -15340,6 +16500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "CompactInverted",
           "package": "Holumbus-Searchengine",
@@ -15348,6 +16509,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "CompactInverted",
           "package": "Holumbus-Searchengine",
@@ -15362,6 +16524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA document consists of a title and its unique identifier (URI)\n and a customizable component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "Document",
           "package": "Holumbus-Searchengine",
@@ -15371,6 +16534,7 @@
         "index": {
           "description": "document consists of title and its unique identifier URI and customizable component",
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "Document",
           "package": "Holumbus-Searchengine",
@@ -15384,6 +16548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "Documents",
           "package": "Holumbus-Searchengine",
@@ -15392,6 +16557,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "Documents",
           "package": "Holumbus-Searchengine",
@@ -15405,6 +16571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "HolumbusConfig",
           "package": "Holumbus-Searchengine",
@@ -15413,6 +16580,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "HolumbusConfig",
           "package": "Holumbus-Searchengine",
@@ -15426,6 +16594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "HolumbusState",
           "package": "Holumbus-Searchengine",
@@ -15434,6 +16603,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "HolumbusState",
           "package": "Holumbus-Searchengine",
@@ -15447,6 +16617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "Inverted",
           "package": "Holumbus-Searchengine",
@@ -15455,6 +16626,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "Inverted",
           "package": "Holumbus-Searchengine",
@@ -15468,6 +16640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "SmallDocuments",
           "package": "Holumbus-Searchengine",
@@ -15476,6 +16649,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "SmallDocuments",
           "package": "Holumbus-Searchengine",
@@ -15489,6 +16663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "defragmentHolumbusState",
           "package": "Holumbus-Searchengine",
@@ -15498,6 +16673,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "defragmentHolumbusState",
           "normalized": "HolumbusState a-\u003eHolumbusState a",
@@ -15513,6 +16689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "emptyCompactInverted",
           "package": "Holumbus-Searchengine",
@@ -15522,6 +16699,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "emptyCompactInverted",
           "package": "Holumbus-Searchengine",
@@ -15535,6 +16713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "emptyHolumbusState",
           "package": "Holumbus-Searchengine",
@@ -15544,6 +16723,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "emptyHolumbusState",
           "package": "Holumbus-Searchengine",
@@ -15557,6 +16737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "emptyInverted",
           "package": "Holumbus-Searchengine",
@@ -15566,6 +16747,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "emptyInverted",
           "package": "Holumbus-Searchengine",
@@ -15579,6 +16761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "inverted2compactInverted",
           "package": "Holumbus-Searchengine",
@@ -15588,6 +16771,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "inverted2compactInverted",
           "normalized": "Inverted-\u003eCompactInverted",
@@ -15603,6 +16787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "mergeAndWritePartialRes'",
           "package": "Holumbus-Searchengine",
@@ -15612,6 +16797,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "mergeAndWritePartialRes'",
           "normalized": "(SmallDocuments a-\u003eSmallDocuments a)-\u003e[String]-\u003eString-\u003eb()",
@@ -15627,6 +16813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "removeDocIdsInverted",
           "package": "Holumbus-Searchengine",
@@ -15636,6 +16823,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "removeDocIdsInverted",
           "normalized": "Occurrences-\u003eInverted-\u003eInverted",
@@ -15651,6 +16839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "writeBin",
           "package": "Holumbus-Searchengine",
@@ -15660,6 +16849,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "writeBin",
           "normalized": "FilePath-\u003ea-\u003eb()",
@@ -15675,6 +16865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "writePartialIndex",
           "package": "Holumbus-Searchengine",
@@ -15684,6 +16875,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "writePartialIndex",
           "normalized": "Bool-\u003eFilePath-\u003eCrawlerAction a(HolumbusState b)()",
@@ -15699,6 +16891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "writeSearchBin",
           "package": "Holumbus-Searchengine",
@@ -15708,6 +16901,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "writeSearchBin",
           "normalized": "FilePath-\u003eHolumbusState a-\u003eb()",
@@ -15723,6 +16917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.HashedIndex",
           "name": "writeXml",
           "package": "Holumbus-Searchengine",
@@ -15732,6 +16927,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index HashedIndex",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.HashedIndex",
           "name": "writeXml",
           "normalized": "FilePath-\u003ea-\u003eb()",
@@ -15747,6 +16943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "CompressedPrefixMem",
           "package": "Holumbus-Searchengine",
@@ -15755,6 +16952,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "CompressedPrefixMem",
           "package": "Holumbus-Searchengine",
@@ -15768,6 +16966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "ComprOccurrences",
           "package": "Holumbus-Searchengine",
@@ -15776,6 +16975,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "ComprOccurrences",
           "package": "Holumbus-Searchengine",
@@ -15790,6 +16990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe index consists of a table which maps documents to ids and a number of index parts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "Inverted",
           "package": "Holumbus-Searchengine",
@@ -15799,6 +17000,7 @@
         "index": {
           "description": "The index consists of table which maps documents to ids and number of index parts",
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "Inverted",
           "package": "Holumbus-Searchengine",
@@ -15813,6 +17015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe pure inverted index implemented as a prefix tree without any space optimizations.\n This may be taken as a reference for space and time measurements for the other index structures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "Inverted0",
           "package": "Holumbus-Searchengine",
@@ -15822,6 +17025,7 @@
         "index": {
           "description": "The pure inverted index implemented as prefix tree without any space optimizations This may be taken as reference for space and time measurements for the other index structures",
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "Inverted0",
           "package": "Holumbus-Searchengine",
@@ -15836,6 +17040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverted index with serialized occurence maps with simple-9 encoded sets\n and with the serialized bytestrings compressed with bzip2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "InvertedCSerialized",
           "package": "Holumbus-Searchengine",
@@ -15845,6 +17050,7 @@
         "index": {
           "description": "The inverted index with serialized occurence maps with simple-9 encoded sets and with the serialized bytestrings compressed with bzip2",
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "InvertedCSerialized",
           "package": "Holumbus-Searchengine",
@@ -15859,6 +17065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverted index with simple-9 encoding of the occurence sets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "InvertedCompressed",
           "package": "Holumbus-Searchengine",
@@ -15868,6 +17075,7 @@
         "index": {
           "description": "The inverted index with simple-9 encoding of the occurence sets",
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "InvertedCompressed",
           "package": "Holumbus-Searchengine",
@@ -15882,6 +17090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe pure inverted index with serialized occurence maps\n and with the serialized bytestrings compressed with bzip2, no simple-9 encoding.\n This is the most space efficient index of the 5 variants, even a few percent smaller\n then InvertedCSerialized, and a few percent faster in lookup\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "InvertedOSerialized",
           "package": "Holumbus-Searchengine",
@@ -15891,6 +17100,7 @@
         "index": {
           "description": "The pure inverted index with serialized occurence maps and with the serialized bytestrings compressed with bzip2 no simple-9 encoding This is the most space efficient index of the variants even few percent smaller then InvertedCSerialized and few percent faster in lookup",
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "InvertedOSerialized",
           "package": "Holumbus-Searchengine",
@@ -15905,6 +17115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverted index with serialized occurence maps with simple-9 encoded sets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "InvertedSerialized",
           "package": "Holumbus-Searchengine",
@@ -15914,6 +17125,7 @@
         "index": {
           "description": "The inverted index with serialized occurence maps with simple-9 encoded sets",
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "InvertedSerialized",
           "package": "Holumbus-Searchengine",
@@ -15928,6 +17140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe index part is the real inverted index. Words are mapped to their occurrences.\n The part is implemented as a prefix tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "Part",
           "package": "Holumbus-Searchengine",
@@ -15937,6 +17150,7 @@
         "index": {
           "description": "The index part is the real inverted index Words are mapped to their occurrences The part is implemented as prefix tree",
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "Part",
           "package": "Holumbus-Searchengine",
@@ -15951,6 +17165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe index parts are identified by a name, which should denote the context of the words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "Parts",
           "package": "Holumbus-Searchengine",
@@ -15960,6 +17175,7 @@
         "index": {
           "description": "The index parts are identified by name which should denote the context of the words",
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "Parts",
           "package": "Holumbus-Searchengine",
@@ -15973,6 +17189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "Sizeof",
           "package": "Holumbus-Searchengine",
@@ -15981,6 +17198,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "Sizeof",
           "package": "Holumbus-Searchengine",
@@ -15994,6 +17212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "Inverted",
           "package": "Holumbus-Searchengine",
@@ -16003,6 +17222,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "Inverted",
           "package": "Holumbus-Searchengine",
@@ -16016,6 +17236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "deleteDocIds",
           "package": "Holumbus-Searchengine",
@@ -16025,6 +17246,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "deleteDocIds",
           "normalized": "Occurrences-\u003ea-\u003ea",
@@ -16040,6 +17262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "deletePosOcc",
           "package": "Holumbus-Searchengine",
@@ -16049,6 +17272,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "deletePosOcc",
           "normalized": "DocId-\u003ePosition-\u003ea-\u003ea",
@@ -16064,6 +17288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "diffOcc",
           "package": "Holumbus-Searchengine",
@@ -16073,6 +17298,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "diffOcc",
           "normalized": "Occurrences-\u003ea-\u003ea",
@@ -16088,6 +17314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "emptyInverted0",
           "package": "Holumbus-Searchengine",
@@ -16097,6 +17324,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "emptyInverted0",
           "package": "Holumbus-Searchengine",
@@ -16110,6 +17338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "emptyInvertedCSerialized",
           "package": "Holumbus-Searchengine",
@@ -16119,6 +17348,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "emptyInvertedCSerialized",
           "package": "Holumbus-Searchengine",
@@ -16132,6 +17362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "emptyInvertedCompressed",
           "package": "Holumbus-Searchengine",
@@ -16141,6 +17372,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "emptyInvertedCompressed",
           "package": "Holumbus-Searchengine",
@@ -16154,6 +17386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "emptyInvertedOSerialized",
           "package": "Holumbus-Searchengine",
@@ -16163,6 +17396,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "emptyInvertedOSerialized",
           "package": "Holumbus-Searchengine",
@@ -16176,6 +17410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "emptyInvertedSerialized",
           "package": "Holumbus-Searchengine",
@@ -16185,6 +17420,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "emptyInvertedSerialized",
           "package": "Holumbus-Searchengine",
@@ -16198,6 +17434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "emptyOcc",
           "package": "Holumbus-Searchengine",
@@ -16207,6 +17444,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "emptyOcc",
           "package": "Holumbus-Searchengine",
@@ -16220,6 +17458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "fromOccurrences",
           "package": "Holumbus-Searchengine",
@@ -16229,6 +17468,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "fromOccurrences",
           "normalized": "Occurrences-\u003ea",
@@ -16244,6 +17484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "insertPosOcc",
           "package": "Holumbus-Searchengine",
@@ -16253,6 +17494,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "insertPosOcc",
           "normalized": "DocId-\u003ePosition-\u003ea-\u003ea",
@@ -16268,6 +17510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "mapOcc",
           "package": "Holumbus-Searchengine",
@@ -16277,6 +17520,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "mapOcc",
           "normalized": "(Occurrences-\u003eOccurrences)-\u003ea-\u003ea",
@@ -16292,6 +17536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "nullOcc",
           "package": "Holumbus-Searchengine",
@@ -16301,6 +17546,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "nullOcc",
           "normalized": "a-\u003eBool",
@@ -16317,6 +17563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove DocIds from index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "removeDocIdsInverted",
           "package": "Holumbus-Searchengine",
@@ -16327,6 +17574,7 @@
         "index": {
           "description": "Remove DocIds from index",
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "removeDocIdsInverted",
           "normalized": "Occurrences-\u003eInverted a-\u003eInverted a",
@@ -16342,6 +17590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "sizeof",
           "package": "Holumbus-Searchengine",
@@ -16351,6 +17600,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "sizeof",
           "normalized": "a-\u003eInt",
@@ -16365,6 +17615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "sizeofAttrsInverted",
           "package": "Holumbus-Searchengine",
@@ -16374,6 +17625,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "sizeofAttrsInverted",
           "normalized": "Inverted a-\u003eInt",
@@ -16389,6 +17641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "theOcc",
           "package": "Holumbus-Searchengine",
@@ -16398,6 +17651,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "theOcc",
           "normalized": "a-\u003eOccurrences",
@@ -16413,6 +17667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "toOccurrences",
           "package": "Holumbus-Searchengine",
@@ -16422,6 +17677,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "toOccurrences",
           "normalized": "a-\u003eOccurrences",
@@ -16438,6 +17694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parts of the index, each representing one context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "unInverted",
           "package": "Holumbus-Searchengine",
@@ -16448,6 +17705,7 @@
         "index": {
           "description": "The parts of the index each representing one context",
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "unInverted",
           "package": "Holumbus-Searchengine",
@@ -16461,6 +17719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "unionOcc",
           "package": "Holumbus-Searchengine",
@@ -16470,6 +17729,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "unionOcc",
           "normalized": "Occurrences-\u003ea-\u003ea",
@@ -16485,6 +17745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "updateDocIdOcc",
           "package": "Holumbus-Searchengine",
@@ -16494,6 +17755,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "updateDocIdOcc",
           "normalized": "(DocId-\u003eDocId)-\u003ea-\u003ea",
@@ -16509,6 +17771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "zipOcc",
           "package": "Holumbus-Searchengine",
@@ -16518,6 +17781,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted CompressedPrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.CompressedPrefixMem",
           "name": "zipOcc",
           "normalized": "(Occurrences-\u003eOccurrences-\u003eOccurrences)-\u003ea-\u003ea-\u003ea",
@@ -16534,6 +17798,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA variant of the Inverted.Memory index with an optimized prefix tree\n  instead of a trie as central data structure. This version should be\n  more space efficient as the trie and more runtime efficient when combining\n  whole indexes.\n\u003c/p\u003e\u003cp\u003eFor switching from Memory to this module, only the import has to be modified\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "PrefixMem",
           "package": "Holumbus-Searchengine",
@@ -16543,6 +17808,7 @@
         "index": {
           "description": "variant of the Inverted.Memory index with an optimized prefix tree instead of trie as central data structure This version should be more space efficient as the trie and more runtime efficient when combining whole indexes For switching from Memory to this module only the import has to be modified",
           "hierarchy": "Holumbus Index Inverted PrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "PrefixMem",
           "package": "Holumbus-Searchengine",
@@ -16557,6 +17823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe index consists of a table which maps documents to ids and a number of index parts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "Inverted",
           "package": "Holumbus-Searchengine",
@@ -16566,6 +17833,7 @@
         "index": {
           "description": "The index consists of table which maps documents to ids and number of index parts",
           "hierarchy": "Holumbus Index Inverted PrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "Inverted",
           "package": "Holumbus-Searchengine",
@@ -16580,6 +17848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe index part is the real inverted index. Words are mapped to their occurrences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "Part",
           "package": "Holumbus-Searchengine",
@@ -16589,6 +17858,7 @@
         "index": {
           "description": "The index part is the real inverted index Words are mapped to their occurrences",
           "hierarchy": "Holumbus Index Inverted PrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "Part",
           "package": "Holumbus-Searchengine",
@@ -16603,6 +17873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe index parts are identified by a name, which should denote the context of the words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "Parts",
           "package": "Holumbus-Searchengine",
@@ -16612,6 +17883,7 @@
         "index": {
           "description": "The index parts are identified by name which should denote the context of the words",
           "hierarchy": "Holumbus Index Inverted PrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "Parts",
           "package": "Holumbus-Searchengine",
@@ -16625,6 +17897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "Inverted",
           "package": "Holumbus-Searchengine",
@@ -16634,6 +17907,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted PrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "Inverted",
           "package": "Holumbus-Searchengine",
@@ -16648,6 +17922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "emptyInverted",
           "package": "Holumbus-Searchengine",
@@ -16658,6 +17933,7 @@
         "index": {
           "description": "Create an empty index",
           "hierarchy": "Holumbus Index Inverted PrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "emptyInverted",
           "package": "Holumbus-Searchengine",
@@ -16671,6 +17947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "indexParts",
           "package": "Holumbus-Searchengine",
@@ -16680,6 +17957,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Index Inverted PrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "indexParts",
           "package": "Holumbus-Searchengine",
@@ -16694,6 +17972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an index with just one word in one context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "singleton",
           "package": "Holumbus-Searchengine",
@@ -16704,6 +17983,7 @@
         "index": {
           "description": "Create an index with just one word in one context",
           "hierarchy": "Holumbus Index Inverted PrefixMem",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Index.Inverted.PrefixMem",
           "name": "singleton",
           "normalized": "Context-\u003eString-\u003eOccurrences-\u003eInverted",
@@ -16719,6 +17999,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.2\n\u003c/p\u003e\u003cp\u003eThe unique Holumbus mechanism for generating fuzzy sets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "Fuzzy",
           "package": "Holumbus-Searchengine",
@@ -16728,6 +18009,7 @@
         "index": {
           "description": "Version The unique Holumbus mechanism for generating fuzzy sets",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "Fuzzy",
           "package": "Holumbus-Searchengine",
@@ -16742,6 +18024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe configuration of a fuzzy query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "FuzzyConfig",
           "package": "Holumbus-Searchengine",
@@ -16751,6 +18034,7 @@
         "index": {
           "description": "The configuration of fuzzy query",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "FuzzyConfig",
           "package": "Holumbus-Searchengine",
@@ -16765,6 +18049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe score indicating an amount of fuzziness. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "FuzzyScore",
           "package": "Holumbus-Searchengine",
@@ -16774,6 +18059,7 @@
         "index": {
           "description": "The score indicating an amount of fuzziness",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "FuzzyScore",
           "package": "Holumbus-Searchengine",
@@ -16788,6 +18074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of string which have been \u003ca\u003efuzzed\u003c/a\u003e with an associated score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "FuzzySet",
           "package": "Holumbus-Searchengine",
@@ -16797,6 +18084,7 @@
         "index": {
           "description": "set of string which have been fuzzed with an associated score",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "FuzzySet",
           "package": "Holumbus-Searchengine",
@@ -16811,6 +18099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single replacements, where the first will be replaced by the second and vice versa in\n the target string. The score indicates the amount of fuzzines that one single application\n of this replacement in just one direction will cause on the target string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "Replacement",
           "package": "Holumbus-Searchengine",
@@ -16820,6 +18109,7 @@
         "index": {
           "description": "single replacements where the first will be replaced by the second and vice versa in the target string The score indicates the amount of fuzzines that one single application of this replacement in just one direction will cause on the target string",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "Replacement",
           "package": "Holumbus-Searchengine",
@@ -16834,6 +18124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome replacements which can be applied to a string to generate a \u003ccode\u003e\u003ca\u003eFuzzySet\u003c/a\u003e\u003c/code\u003e. The scores of\n the replacements will be normalized to a maximum of 1.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "Replacements",
           "package": "Holumbus-Searchengine",
@@ -16843,6 +18134,7 @@
         "index": {
           "description": "Some replacements which can be applied to string to generate FuzzySet The scores of the replacements will be normalized to maximum of",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "Replacements",
           "package": "Holumbus-Searchengine",
@@ -16856,6 +18148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "FuzzyConfig",
           "package": "Holumbus-Searchengine",
@@ -16865,6 +18158,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "FuzzyConfig",
           "package": "Holumbus-Searchengine",
@@ -16879,6 +18173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether the replacements should be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "applyReplacements",
           "package": "Holumbus-Searchengine",
@@ -16889,6 +18184,7 @@
         "index": {
           "description": "Indicates whether the replacements should be applied",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "applyReplacements",
           "package": "Holumbus-Searchengine",
@@ -16903,6 +18199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether the swapping of adjacent characters should be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "applySwappings",
           "package": "Holumbus-Searchengine",
@@ -16913,6 +18210,7 @@
         "index": {
           "description": "Indicates whether the swapping of adjacent characters should be applied",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "applySwappings",
           "package": "Holumbus-Searchengine",
@@ -16927,6 +18225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe replacements that should be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "customReplacements",
           "package": "Holumbus-Searchengine",
@@ -16937,6 +18236,7 @@
         "index": {
           "description": "The replacements that should be applied",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "customReplacements",
           "package": "Holumbus-Searchengine",
@@ -16951,6 +18251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome default replacements for the english language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "englishReplacements",
           "package": "Holumbus-Searchengine",
@@ -16961,6 +18262,7 @@
         "index": {
           "description": "Some default replacements for the english language",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "englishReplacements",
           "package": "Holumbus-Searchengine",
@@ -16975,6 +18277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContinue fuzzing a string with the an explicitly specified list of replacements until \n a given score threshold is reached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "fuzz",
           "package": "Holumbus-Searchengine",
@@ -16985,6 +18288,7 @@
         "index": {
           "description": "Continue fuzzing string with the an explicitly specified list of replacements until given score threshold is reached",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "fuzz",
           "normalized": "FuzzyConfig-\u003eString-\u003eFuzzySet",
@@ -17000,6 +18304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome default replacements for the german language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "germanReplacements",
           "package": "Holumbus-Searchengine",
@@ -17010,6 +18315,7 @@
         "index": {
           "description": "Some default replacements for the german language",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "germanReplacements",
           "package": "Holumbus-Searchengine",
@@ -17024,6 +18330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum allowed fuzziness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "maxFuzziness",
           "package": "Holumbus-Searchengine",
@@ -17034,6 +18341,7 @@
         "index": {
           "description": "The maximum allowed fuzziness",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "maxFuzziness",
           "package": "Holumbus-Searchengine",
@@ -17048,6 +18356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a fuzzy set into a list (ordered by score).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Fuzzy",
           "name": "toList",
           "package": "Holumbus-Searchengine",
@@ -17058,6 +18367,7 @@
         "index": {
           "description": "Transform fuzzy set into list ordered by score",
           "hierarchy": "Holumbus Query Fuzzy",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Fuzzy",
           "name": "toList",
           "normalized": "FuzzySet-\u003e[(String,FuzzyScore)]",
@@ -17074,6 +18384,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.3\n\u003c/p\u003e\u003cp\u003eThe data type for intermediate results occuring during query processing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Intermediate",
           "name": "Intermediate",
           "package": "Holumbus-Searchengine",
@@ -17083,6 +18394,7 @@
         "index": {
           "description": "Version The data type for intermediate results occuring during query processing",
           "hierarchy": "Holumbus Query Intermediate",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Intermediate",
           "name": "Intermediate",
           "package": "Holumbus-Searchengine",
@@ -17097,6 +18409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe intermediate result used during query processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Intermediate",
           "name": "Intermediate",
           "package": "Holumbus-Searchengine",
@@ -17106,6 +18419,7 @@
         "index": {
           "description": "The intermediate result used during query processing",
           "hierarchy": "Holumbus Query Intermediate",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Intermediate",
           "name": "Intermediate",
           "package": "Holumbus-Searchengine",
@@ -17120,6 +18434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstract two sets of intermediate results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Intermediate",
           "name": "difference",
           "package": "Holumbus-Searchengine",
@@ -17130,6 +18445,7 @@
         "index": {
           "description": "Substract two sets of intermediate results",
           "hierarchy": "Holumbus Query Intermediate",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Intermediate",
           "name": "difference",
           "normalized": "Intermediate-\u003eIntermediate-\u003eIntermediate",
@@ -17145,6 +18461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty intermediate result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Intermediate",
           "name": "emptyIntermediate",
           "package": "Holumbus-Searchengine",
@@ -17155,6 +18472,7 @@
         "index": {
           "description": "Create an empty intermediate result",
           "hierarchy": "Holumbus Query Intermediate",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Intermediate",
           "name": "emptyIntermediate",
           "package": "Holumbus-Searchengine",
@@ -17169,6 +18487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an intermediate result from a list of words and their occurrences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Intermediate",
           "name": "fromList",
           "package": "Holumbus-Searchengine",
@@ -17179,6 +18498,7 @@
         "index": {
           "description": "Create an intermediate result from list of words and their occurrences",
           "hierarchy": "Holumbus Query Intermediate",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Intermediate",
           "name": "fromList",
           "normalized": "Word-\u003eContext-\u003eRawResult-\u003eIntermediate",
@@ -17195,6 +18515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersect two sets of intermediate results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Intermediate",
           "name": "intersection",
           "package": "Holumbus-Searchengine",
@@ -17205,6 +18526,7 @@
         "index": {
           "description": "Intersect two sets of intermediate results",
           "hierarchy": "Holumbus Query Intermediate",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Intermediate",
           "name": "intersection",
           "normalized": "Intermediate-\u003eIntermediate-\u003eIntermediate",
@@ -17220,6 +18542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the intermediate result is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Intermediate",
           "name": "null",
           "package": "Holumbus-Searchengine",
@@ -17230,6 +18553,7 @@
         "index": {
           "description": "Check if the intermediate result is empty",
           "hierarchy": "Holumbus Query Intermediate",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Intermediate",
           "name": "null",
           "normalized": "Intermediate-\u003eBool",
@@ -17245,6 +18569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of documents in the intermediate result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Intermediate",
           "name": "sizeIntermediate",
           "package": "Holumbus-Searchengine",
@@ -17255,6 +18580,7 @@
         "index": {
           "description": "Returns the number of documents in the intermediate result",
           "hierarchy": "Holumbus Query Intermediate",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Intermediate",
           "name": "sizeIntermediate",
           "normalized": "Intermediate-\u003eInt",
@@ -17271,6 +18597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a \u003ccode\u003eResult\u003c/code\u003e by generating the \u003ccode\u003e\u003ca\u003eWordHits\u003c/a\u003e\u003c/code\u003e structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Intermediate",
           "name": "toResult",
           "package": "Holumbus-Searchengine",
@@ -17281,6 +18608,7 @@
         "index": {
           "description": "Convert to Result by generating the WordHits structure",
           "hierarchy": "Holumbus Query Intermediate",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Intermediate",
           "name": "toResult",
           "normalized": "a b-\u003eIntermediate-\u003eResult b",
@@ -17297,6 +18625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion two sets of intermediate results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Intermediate",
           "name": "union",
           "package": "Holumbus-Searchengine",
@@ -17307,6 +18636,7 @@
         "index": {
           "description": "Union two sets of intermediate results",
           "hierarchy": "Holumbus Query Intermediate",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Intermediate",
           "name": "union",
           "normalized": "Intermediate-\u003eIntermediate-\u003eIntermediate",
@@ -17322,6 +18652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges a bunch of intermediate results into one intermediate result by unioning them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Intermediate",
           "name": "unions",
           "package": "Holumbus-Searchengine",
@@ -17332,6 +18663,7 @@
         "index": {
           "description": "Merges bunch of intermediate results into one intermediate result by unioning them",
           "hierarchy": "Holumbus Query Intermediate",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Intermediate",
           "name": "unions",
           "normalized": "[Intermediate]-\u003eIntermediate",
@@ -17347,6 +18679,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.2\n\u003c/p\u003e\u003cp\u003eThe Holumbus query language definition. \n\u003c/p\u003e\u003cp\u003eThe specific syntax of any query language can be designed independently \n  by creating appropriate parsers. Also see \u003ca\u003eHolumbus.Query.Language.Parser\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Grammar",
           "package": "Holumbus-Searchengine",
@@ -17356,6 +18689,7 @@
         "index": {
           "description": "Version The Holumbus query language definition The specific syntax of any query language can be designed independently by creating appropriate parsers Also see Holumbus.Query.Language.Parser",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Grammar",
           "package": "Holumbus-Searchengine",
@@ -17370,6 +18704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binary operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "BinOp",
           "package": "Holumbus-Searchengine",
@@ -17379,6 +18714,7 @@
         "index": {
           "description": "binary operation",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "BinOp",
           "package": "Holumbus-Searchengine",
@@ -17393,6 +18729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe query language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Query",
           "package": "Holumbus-Searchengine",
@@ -17402,6 +18739,7 @@
         "index": {
           "description": "The query language",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Query",
           "package": "Holumbus-Searchengine",
@@ -17416,6 +18754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersect two queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "And",
           "package": "Holumbus-Searchengine",
@@ -17426,6 +18765,7 @@
         "index": {
           "description": "Intersect two queries",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "And",
           "package": "Holumbus-Searchengine",
@@ -17440,6 +18780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two queries through a binary operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "BinQuery",
           "package": "Holumbus-Searchengine",
@@ -17450,6 +18791,7 @@
         "index": {
           "description": "Combine two queries through binary operation",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "BinQuery",
           "package": "Holumbus-Searchengine",
@@ -17464,6 +18806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter a query by another, \u003ccode\u003eq1 BUT q2\u003c/code\u003e is equivalent to \u003ccode\u003eq1 AND NOT q2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "But",
           "package": "Holumbus-Searchengine",
@@ -17474,6 +18817,7 @@
         "index": {
           "description": "Filter query by another q1 BUT q2 is equivalent to q1 AND NOT q2",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "But",
           "package": "Holumbus-Searchengine",
@@ -17488,6 +18832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle case-sensitive phrase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "CasePhrase",
           "package": "Holumbus-Searchengine",
@@ -17498,6 +18843,7 @@
         "index": {
           "description": "Single case-sensitive phrase",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "CasePhrase",
           "package": "Holumbus-Searchengine",
@@ -17512,6 +18858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle case-sensitive word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "CaseWord",
           "package": "Holumbus-Searchengine",
@@ -17522,6 +18869,7 @@
         "index": {
           "description": "Single case-sensitive word",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "CaseWord",
           "package": "Holumbus-Searchengine",
@@ -17536,6 +18884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle fuzzy word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "FuzzyWord",
           "package": "Holumbus-Searchengine",
@@ -17546,6 +18895,7 @@
         "index": {
           "description": "Single fuzzy word",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "FuzzyWord",
           "package": "Holumbus-Searchengine",
@@ -17560,6 +18910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Negation",
           "package": "Holumbus-Searchengine",
@@ -17570,6 +18921,7 @@
         "index": {
           "description": "Negate the query",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Negation",
           "package": "Holumbus-Searchengine",
@@ -17584,6 +18936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion two queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Or",
           "package": "Holumbus-Searchengine",
@@ -17594,6 +18947,7 @@
         "index": {
           "description": "Union two queries",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Or",
           "package": "Holumbus-Searchengine",
@@ -17608,6 +18962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle case-insensitive phrase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Phrase",
           "package": "Holumbus-Searchengine",
@@ -17618,6 +18973,7 @@
         "index": {
           "description": "Single case-insensitive phrase",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Phrase",
           "package": "Holumbus-Searchengine",
@@ -17632,6 +18988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrict query to a list of contexts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Specifier",
           "package": "Holumbus-Searchengine",
@@ -17642,6 +18999,7 @@
         "index": {
           "description": "Restrict query to list of contexts",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Specifier",
           "normalized": "Specifier[Context]Query",
@@ -17658,6 +19016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle case-insensitive word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Word",
           "package": "Holumbus-Searchengine",
@@ -17668,6 +19027,7 @@
         "index": {
           "description": "Single case-insensitive word",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "Word",
           "package": "Holumbus-Searchengine",
@@ -17682,6 +19042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the query arguments comply with some custom predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "checkWith",
           "package": "Holumbus-Searchengine",
@@ -17692,6 +19053,7 @@
         "index": {
           "description": "Check if the query arguments comply with some custom predicate",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "checkWith",
           "normalized": "(String-\u003eBool)-\u003eQuery-\u003eBool",
@@ -17708,6 +19070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all terms in the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "extractTerms",
           "package": "Holumbus-Searchengine",
@@ -17718,6 +19081,7 @@
         "index": {
           "description": "Returns list of all terms in the query",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "extractTerms",
           "normalized": "Query-\u003e[String]",
@@ -17734,6 +19098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms all \u003ccode\u003e(BinQuery And q1 q2)\u003c/code\u003e where one of \u003ccode\u003eq1\u003c/code\u003e or \u003ccode\u003eq2\u003c/code\u003e is a \u003ccode\u003eNegation\u003c/code\u003e into\n \u003ccode\u003eBinQuery Filter q1 q2\u003c/code\u003e or \u003ccode\u003eBinQuery Filter q2 q1\u003c/code\u003e respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "optimize",
           "package": "Holumbus-Searchengine",
@@ -17744,6 +19109,7 @@
         "index": {
           "description": "Transforms all BinQuery And q1 q2 where one of q1 or q2 is Negation into BinQuery Filter q1 q2 or BinQuery Filter q2 q1 respectively",
           "hierarchy": "Holumbus Query Language Grammar",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Grammar",
           "name": "optimize",
           "normalized": "Query-\u003eQuery",
@@ -17759,6 +19125,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.2\n\u003c/p\u003e\u003cp\u003eThe Holumbus query parser, based on the famous Parsec library.\n\u003c/p\u003e\u003cp\u003eThe parser implements a default syntax for the query grammar which exposes\n  all possible query types and operators to the user.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Parser",
           "name": "Parser",
           "package": "Holumbus-Searchengine",
@@ -17768,6 +19135,7 @@
         "index": {
           "description": "Version The Holumbus query parser based on the famous Parsec library The parser implements default syntax for the query grammar which exposes all possible query types and operators to the user",
           "hierarchy": "Holumbus Query Language Parser",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Parser",
           "name": "Parser",
           "package": "Holumbus-Searchengine",
@@ -17782,6 +19150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a query using the default syntax provided by the Holumbus framework.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Language.Parser",
           "name": "parseQuery",
           "package": "Holumbus-Searchengine",
@@ -17792,6 +19161,7 @@
         "index": {
           "description": "Parse query using the default syntax provided by the Holumbus framework",
           "hierarchy": "Holumbus Query Language Parser",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Language.Parser",
           "name": "parseQuery",
           "normalized": "String-\u003eEither String Query",
@@ -17808,6 +19178,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Holumbus query processor. Supports exact word or phrase queries as well\n  as fuzzy word and case-insensitive word and phrase queries. Boolean\n  operators like AND, OR and NOT are supported. Context specifiers and\n  priorities are supported, too.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Processor",
           "name": "Processor",
           "package": "Holumbus-Searchengine",
@@ -17817,6 +19188,7 @@
         "index": {
           "description": "The Holumbus query processor Supports exact word or phrase queries as well as fuzzy word and case-insensitive word and phrase queries Boolean operators like AND OR and NOT are supported Context specifiers and priorities are supported too",
           "hierarchy": "Holumbus Query Processor",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Processor",
           "name": "Processor",
           "package": "Holumbus-Searchengine",
@@ -17831,6 +19203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe configuration for the query processor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Processor",
           "name": "ProcessConfig",
           "package": "Holumbus-Searchengine",
@@ -17840,6 +19213,7 @@
         "index": {
           "description": "The configuration for the query processor",
           "hierarchy": "Holumbus Query Processor",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Processor",
           "name": "ProcessConfig",
           "package": "Holumbus-Searchengine",
@@ -17853,6 +19227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Processor",
           "name": "ProcessConfig",
           "package": "Holumbus-Searchengine",
@@ -17862,6 +19237,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Query Processor",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Processor",
           "name": "ProcessConfig",
           "package": "Holumbus-Searchengine",
@@ -17876,6 +19252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum number of documents taken into account. Zero switches off limiting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Processor",
           "name": "docLimit",
           "package": "Holumbus-Searchengine",
@@ -17886,6 +19263,7 @@
         "index": {
           "description": "The maximum number of documents taken into account Zero switches off limiting",
           "hierarchy": "Holumbus Query Processor",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Processor",
           "name": "docLimit",
           "package": "Holumbus-Searchengine",
@@ -17900,6 +19278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe configuration for fuzzy queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Processor",
           "name": "fuzzyConfig",
           "package": "Holumbus-Searchengine",
@@ -17910,6 +19289,7 @@
         "index": {
           "description": "The configuration for fuzzy queries",
           "hierarchy": "Holumbus Query Processor",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Processor",
           "name": "fuzzyConfig",
           "package": "Holumbus-Searchengine",
@@ -17924,6 +19304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimize the query before processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Processor",
           "name": "optimizeQuery",
           "package": "Holumbus-Searchengine",
@@ -17934,6 +19315,7 @@
         "index": {
           "description": "Optimize the query before processing",
           "hierarchy": "Holumbus Query Processor",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Processor",
           "name": "optimizeQuery",
           "package": "Holumbus-Searchengine",
@@ -17948,6 +19330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a query only partially in terms of a distributed index. Only the intermediate \n result will be returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Processor",
           "name": "processPartial",
           "package": "Holumbus-Searchengine",
@@ -17958,6 +19341,7 @@
         "index": {
           "description": "Process query only partially in terms of distributed index Only the intermediate result will be returned",
           "hierarchy": "Holumbus Query Processor",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Processor",
           "name": "processPartial",
           "normalized": "ProcessConfig-\u003ea-\u003eInt-\u003eQuery-\u003eIntermediate",
@@ -17974,6 +19358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003eprocessPartial\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Processor",
           "name": "processPartialM",
           "package": "Holumbus-Searchengine",
@@ -17984,6 +19369,7 @@
         "index": {
           "description": "Monadic version of processPartial",
           "hierarchy": "Holumbus Query Processor",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Processor",
           "name": "processPartialM",
           "normalized": "ProcessConfig-\u003ea-\u003eInt-\u003eQuery-\u003eb Intermediate",
@@ -18000,6 +19386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a query on a specific index with regard to the configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Processor",
           "name": "processQuery",
           "package": "Holumbus-Searchengine",
@@ -18010,6 +19397,7 @@
         "index": {
           "description": "Process query on specific index with regard to the configuration",
           "hierarchy": "Holumbus Query Processor",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Processor",
           "name": "processQuery",
           "normalized": "ProcessConfig-\u003ea-\u003eb c-\u003eQuery-\u003eResult c",
@@ -18026,6 +19414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003eprocessQuery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Processor",
           "name": "processQueryM",
           "package": "Holumbus-Searchengine",
@@ -18036,6 +19425,7 @@
         "index": {
           "description": "Monadic version of processQuery",
           "hierarchy": "Holumbus Query Processor",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Processor",
           "name": "processQueryM",
           "normalized": "ProcessConfig-\u003ea-\u003eb c-\u003eQuery-\u003ed(Result c)",
@@ -18052,6 +19442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum number of words used from a prefix. Zero switches off limiting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Processor",
           "name": "wordLimit",
           "package": "Holumbus-Searchengine",
@@ -18062,6 +19453,7 @@
         "index": {
           "description": "The maximum number of words used from prefix Zero switches off limiting",
           "hierarchy": "Holumbus Query Processor",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Processor",
           "name": "wordLimit",
           "package": "Holumbus-Searchengine",
@@ -18076,6 +19468,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.3\n\u003c/p\u003e\u003cp\u003eThe ranking mechanism for Holumbus. \n\u003c/p\u003e\u003cp\u003eCustomized ranking functions for both documents and suggested words can be \n  provided by the user. Some predefined ranking functions are avaliable, too.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Ranking",
           "name": "Ranking",
           "package": "Holumbus-Searchengine",
@@ -18085,6 +19478,7 @@
         "index": {
           "description": "Version The ranking mechanism for Holumbus Customized ranking functions for both documents and suggested words can be provided by the user Some predefined ranking functions are avaliable too",
           "hierarchy": "Holumbus Query Ranking",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Ranking",
           "name": "Ranking",
           "package": "Holumbus-Searchengine",
@@ -18099,6 +19493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signature of a function to determine the score of a document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Ranking",
           "name": "DocRanking",
           "package": "Holumbus-Searchengine",
@@ -18108,6 +19503,7 @@
         "index": {
           "description": "The signature of function to determine the score of document",
           "hierarchy": "Holumbus Query Ranking",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Ranking",
           "name": "DocRanking",
           "package": "Holumbus-Searchengine",
@@ -18122,6 +19518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe configuration of the ranking mechanism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Ranking",
           "name": "RankConfig",
           "package": "Holumbus-Searchengine",
@@ -18131,6 +19528,7 @@
         "index": {
           "description": "The configuration of the ranking mechanism",
           "hierarchy": "Holumbus Query Ranking",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Ranking",
           "name": "RankConfig",
           "package": "Holumbus-Searchengine",
@@ -18145,6 +19543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signature of a function to determine the score of a word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Ranking",
           "name": "WordRanking",
           "package": "Holumbus-Searchengine",
@@ -18154,6 +19553,7 @@
         "index": {
           "description": "The signature of function to determine the score of word",
           "hierarchy": "Holumbus Query Ranking",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Ranking",
           "name": "WordRanking",
           "package": "Holumbus-Searchengine",
@@ -18167,6 +19567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Ranking",
           "name": "RankConfig",
           "package": "Holumbus-Searchengine",
@@ -18176,6 +19577,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Query Ranking",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Ranking",
           "name": "RankConfig",
           "package": "Holumbus-Searchengine",
@@ -18190,6 +19592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRank documents by count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Ranking",
           "name": "docRankByCount",
           "package": "Holumbus-Searchengine",
@@ -18200,6 +19603,7 @@
         "index": {
           "description": "Rank documents by count",
           "hierarchy": "Holumbus Query Ranking",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Ranking",
           "name": "docRankByCount",
           "normalized": "DocId-\u003eDocInfo a-\u003eDocContextHits-\u003eScore",
@@ -18216,6 +19620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRank documents by context-weighted count. The weights will be normalized to a maximum of 1.0.\n Contexts with no weight (or a weight of zero) will be ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Ranking",
           "name": "docRankWeightedByCount",
           "package": "Holumbus-Searchengine",
@@ -18226,6 +19631,7 @@
         "index": {
           "description": "Rank documents by context-weighted count The weights will be normalized to maximum of Contexts with no weight or weight of zero will be ignored",
           "hierarchy": "Holumbus Query Ranking",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Ranking",
           "name": "docRankWeightedByCount",
           "normalized": "[(Context,Score)]-\u003eDocId-\u003eDocInfo a-\u003eDocContextHits-\u003eScore",
@@ -18242,6 +19648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to determine the score of a document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Ranking",
           "name": "docRanking",
           "package": "Holumbus-Searchengine",
@@ -18252,6 +19659,7 @@
         "index": {
           "description": "function to determine the score of document",
           "hierarchy": "Holumbus Query Ranking",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Ranking",
           "name": "docRanking",
           "package": "Holumbus-Searchengine",
@@ -18266,6 +19674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRank the result with custom ranking functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Ranking",
           "name": "rank",
           "package": "Holumbus-Searchengine",
@@ -18276,6 +19685,7 @@
         "index": {
           "description": "Rank the result with custom ranking functions",
           "hierarchy": "Holumbus Query Ranking",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Ranking",
           "name": "rank",
           "normalized": "RankConfig a-\u003eResult a-\u003eResult a",
@@ -18291,6 +19701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRank words by count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Ranking",
           "name": "wordRankByCount",
           "package": "Holumbus-Searchengine",
@@ -18301,6 +19712,7 @@
         "index": {
           "description": "Rank words by count",
           "hierarchy": "Holumbus Query Ranking",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Ranking",
           "name": "wordRankByCount",
           "normalized": "Word-\u003eWordInfo-\u003eWordContextHits-\u003eScore",
@@ -18317,6 +19729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRank words by context-weighted count. The weights will be normalized to a maximum of 1.0.\n Contexts with no weight (or a weight of zero) will be ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Ranking",
           "name": "wordRankWeightedByCount",
           "package": "Holumbus-Searchengine",
@@ -18327,6 +19740,7 @@
         "index": {
           "description": "Rank words by context-weighted count The weights will be normalized to maximum of Contexts with no weight or weight of zero will be ignored",
           "hierarchy": "Holumbus Query Ranking",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Ranking",
           "name": "wordRankWeightedByCount",
           "normalized": "[(Context,Score)]-\u003eWord-\u003eWordInfo-\u003eWordContextHits-\u003eScore",
@@ -18343,6 +19757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA funciton to determine the score of a word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Ranking",
           "name": "wordRanking",
           "package": "Holumbus-Searchengine",
@@ -18353,6 +19768,7 @@
         "index": {
           "description": "funciton to determine the score of word",
           "hierarchy": "Holumbus Query Ranking",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Ranking",
           "name": "wordRanking",
           "package": "Holumbus-Searchengine",
@@ -18367,6 +19783,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe data type for results of Holumbus queries.\n\u003c/p\u003e\u003cp\u003eThe result of a query is defined in terms of two partial results, \n  the documents containing the search terms and the words which \n  are possible completions of the serach terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "Result",
           "package": "Holumbus-Searchengine",
@@ -18376,6 +19793,7 @@
         "index": {
           "description": "The data type for results of Holumbus queries The result of query is defined in terms of two partial results the documents containing the search terms and the words which are possible completions of the serach terms",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "Result",
           "package": "Holumbus-Searchengine",
@@ -18390,6 +19808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from a context to the words of the document that were found in this context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "DocContextHits",
           "package": "Holumbus-Searchengine",
@@ -18399,6 +19818,7 @@
         "index": {
           "description": "mapping from context to the words of the document that were found in this context",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "DocContextHits",
           "package": "Holumbus-Searchengine",
@@ -18413,6 +19833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from a document to it's score and the contexts where it was found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "DocHits",
           "package": "Holumbus-Searchengine",
@@ -18422,6 +19843,7 @@
         "index": {
           "description": "mapping from document to it score and the contexts where it was found",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "DocHits",
           "package": "Holumbus-Searchengine",
@@ -18436,6 +19858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about an document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "DocInfo",
           "package": "Holumbus-Searchengine",
@@ -18445,6 +19868,7 @@
         "index": {
           "description": "Information about an document",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "DocInfo",
           "package": "Holumbus-Searchengine",
@@ -18459,6 +19883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from a word of the document in a specific context to it's positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "DocWordHits",
           "package": "Holumbus-Searchengine",
@@ -18468,6 +19893,7 @@
         "index": {
           "description": "mapping from word of the document in specific context to it positions",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "DocWordHits",
           "package": "Holumbus-Searchengine",
@@ -18482,6 +19908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe combined result type for Holumbus queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "Result",
           "package": "Holumbus-Searchengine",
@@ -18491,6 +19918,7 @@
         "index": {
           "description": "The combined result type for Holumbus queries",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "Result",
           "package": "Holumbus-Searchengine",
@@ -18505,6 +19933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe score of a hit (either a document hit or a word hit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "Score",
           "package": "Holumbus-Searchengine",
@@ -18514,6 +19943,7 @@
         "index": {
           "description": "The score of hit either document hit or word hit",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "Score",
           "package": "Holumbus-Searchengine",
@@ -18528,6 +19958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from a context to the documents that contain the word that were found in this context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "WordContextHits",
           "package": "Holumbus-Searchengine",
@@ -18537,6 +19968,7 @@
         "index": {
           "description": "mapping from context to the documents that contain the word that were found in this context",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "WordContextHits",
           "package": "Holumbus-Searchengine",
@@ -18551,6 +19983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from a document containing the word to the positions of the word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "WordDocHits",
           "package": "Holumbus-Searchengine",
@@ -18560,6 +19993,7 @@
         "index": {
           "description": "mapping from document containing the word to the positions of the word",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "WordDocHits",
           "package": "Holumbus-Searchengine",
@@ -18574,6 +20008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from a word to it's score and the contexts where it was found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "WordHits",
           "package": "Holumbus-Searchengine",
@@ -18583,6 +20018,7 @@
         "index": {
           "description": "mapping from word to it score and the contexts where it was found",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "WordHits",
           "package": "Holumbus-Searchengine",
@@ -18597,6 +20033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "WordInfo",
           "package": "Holumbus-Searchengine",
@@ -18606,6 +20043,7 @@
         "index": {
           "description": "Information about word",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "WordInfo",
           "package": "Holumbus-Searchengine",
@@ -18619,6 +20057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "DocInfo",
           "package": "Holumbus-Searchengine",
@@ -18628,6 +20067,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "DocInfo",
           "package": "Holumbus-Searchengine",
@@ -18641,6 +20081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "Result",
           "package": "Holumbus-Searchengine",
@@ -18650,6 +20091,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "Result",
           "package": "Holumbus-Searchengine",
@@ -18663,6 +20105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "WordInfo",
           "package": "Holumbus-Searchengine",
@@ -18672,6 +20115,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "WordInfo",
           "package": "Holumbus-Searchengine",
@@ -18686,6 +20130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe documents matching the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "docHits",
           "package": "Holumbus-Searchengine",
@@ -18696,6 +20141,7 @@
         "index": {
           "description": "The documents matching the query",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "docHits",
           "package": "Holumbus-Searchengine",
@@ -18710,6 +20156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe score for the document (initial score for all documents is \u003ccode\u003e0.0\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "docScore",
           "package": "Holumbus-Searchengine",
@@ -18720,6 +20167,7 @@
         "index": {
           "description": "The score for the document initial score for all documents is",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "docScore",
           "package": "Holumbus-Searchengine",
@@ -18734,6 +20182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe document itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "document",
           "package": "Holumbus-Searchengine",
@@ -18744,6 +20193,7 @@
         "index": {
           "description": "The document itself",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "document",
           "package": "Holumbus-Searchengine",
@@ -18757,6 +20207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "emptyResult",
           "package": "Holumbus-Searchengine",
@@ -18767,6 +20218,7 @@
         "index": {
           "description": "Create an empty result",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "emptyResult",
           "package": "Holumbus-Searchengine",
@@ -18781,6 +20233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract all documents from a result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "getDocuments",
           "package": "Holumbus-Searchengine",
@@ -18791,6 +20244,7 @@
         "index": {
           "description": "Extract all documents from result",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "getDocuments",
           "normalized": "Result a-\u003e[Document a]",
@@ -18807,6 +20261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the maximum score of the documents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "maxScoreDocHits",
           "package": "Holumbus-Searchengine",
@@ -18817,6 +20272,7 @@
         "index": {
           "description": "Query the maximum score of the documents",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "maxScoreDocHits",
           "normalized": "Result a-\u003eScore",
@@ -18833,6 +20289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the maximum score of the words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "maxScoreWordHits",
           "package": "Holumbus-Searchengine",
@@ -18843,6 +20300,7 @@
         "index": {
           "description": "Query the maximum score of the words",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "maxScoreWordHits",
           "normalized": "Result a-\u003eScore",
@@ -18859,6 +20317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the result contains anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "null",
           "package": "Holumbus-Searchengine",
@@ -18869,6 +20328,7 @@
         "index": {
           "description": "Test if the result contains anything",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "null",
           "normalized": "Result a-\u003eBool",
@@ -18884,6 +20344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the score in a document info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "setDocScore",
           "package": "Holumbus-Searchengine",
@@ -18894,6 +20355,7 @@
         "index": {
           "description": "Set the score in document info",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "setDocScore",
           "normalized": "Score-\u003eDocInfo a-\u003eDocInfo a",
@@ -18910,6 +20372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the score in a word info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "setWordScore",
           "package": "Holumbus-Searchengine",
@@ -18920,6 +20383,7 @@
         "index": {
           "description": "Set the score in word info",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "setWordScore",
           "normalized": "Score-\u003eWordInfo-\u003eWordInfo",
@@ -18936,6 +20400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the number of documents in a result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "sizeDocHits",
           "package": "Holumbus-Searchengine",
@@ -18946,6 +20411,7 @@
         "index": {
           "description": "Query the number of documents in result",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "sizeDocHits",
           "normalized": "Result a-\u003eInt",
@@ -18962,6 +20428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the number of documents in a result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "sizeWordHits",
           "package": "Holumbus-Searchengine",
@@ -18972,6 +20439,7 @@
         "index": {
           "description": "Query the number of documents in result",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "sizeWordHits",
           "normalized": "Result a-\u003eInt",
@@ -18988,6 +20456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe search terms that led to this very word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "terms",
           "package": "Holumbus-Searchengine",
@@ -18998,6 +20467,7 @@
         "index": {
           "description": "The search terms that led to this very word",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "terms",
           "package": "Holumbus-Searchengine",
@@ -19011,6 +20481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe words which are completions of the query terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "wordHits",
           "package": "Holumbus-Searchengine",
@@ -19021,6 +20492,7 @@
         "index": {
           "description": "The words which are completions of the query terms",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "wordHits",
           "package": "Holumbus-Searchengine",
@@ -19035,6 +20507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe frequency of the word in the document for a context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "wordScore",
           "package": "Holumbus-Searchengine",
@@ -19045,6 +20518,7 @@
         "index": {
           "description": "The frequency of the word in the document for context",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "wordScore",
           "package": "Holumbus-Searchengine",
@@ -19059,6 +20533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe XML pickler for the document hits. Will be sorted by score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "xpDocHits",
           "package": "Holumbus-Searchengine",
@@ -19069,6 +20544,7 @@
         "index": {
           "description": "The XML pickler for the document hits Will be sorted by score",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "xpDocHits",
           "package": "Holumbus-Searchengine",
@@ -19083,6 +20559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe XML pickler for the word hits. Will be sorted alphabetically by the words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Query.Result",
           "name": "xpWordHits",
           "package": "Holumbus-Searchengine",
@@ -19093,6 +20570,7 @@
         "index": {
           "description": "The XML pickler for the word hits Will be sorted alphabetically by the words",
           "hierarchy": "Holumbus Query Result",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Query.Result",
           "name": "xpWordHits",
           "package": "Holumbus-Searchengine",
@@ -19107,6 +20585,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003cp\u003eSmall utility functions which are probably useful somewhere else, too.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "Utility",
           "package": "Holumbus-Searchengine",
@@ -19116,6 +20595,7 @@
         "index": {
           "description": "Version Small utility functions which are probably useful somewhere else too",
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "Utility",
           "package": "Holumbus-Searchengine",
@@ -19130,6 +20610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the base of a webpage\n   stolen from Uwe Schmidt, http://www.haskell.org/haskellwiki/HXT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "computeDocBase",
           "package": "Holumbus-Searchengine",
@@ -19140,6 +20621,7 @@
         "index": {
           "description": "Compute the base of webpage stolen from Uwe Schmidt http www.haskell.org haskellwiki HXT",
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "computeDocBase",
           "package": "Holumbus-Searchengine",
@@ -19154,6 +20636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscapes non-alphanumeric or space characters in a String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "escape",
           "package": "Holumbus-Searchengine",
@@ -19164,6 +20647,7 @@
         "index": {
           "description": "Escapes non-alphanumeric or space characters in String",
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "escape",
           "normalized": "String-\u003eString",
@@ -19178,6 +20662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "getByPath",
           "package": "Holumbus-Searchengine",
@@ -19187,6 +20672,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "getByPath",
           "normalized": "[String]-\u003ea XmlTree XmlTree",
@@ -19203,6 +20689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin with a seperating character sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "join",
           "package": "Holumbus-Searchengine",
@@ -19213,6 +20700,7 @@
         "index": {
           "description": "Join with seperating character sequence",
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "join",
           "normalized": "[a]-\u003e[[a]]-\u003e[a]",
@@ -19228,6 +20716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epartition the list of input data into a list of a specified number of input data lists with \n   approximately the same length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "partitionListByCount",
           "package": "Holumbus-Searchengine",
@@ -19238,6 +20727,7 @@
         "index": {
           "description": "partition the list of input data into list of specified number of input data lists with approximately the same length",
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "partitionListByCount",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -19254,6 +20744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epartition the list of input data into a list of input data lists of\n   approximately the same specified length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "partitionListByLength",
           "package": "Holumbus-Searchengine",
@@ -19264,6 +20755,7 @@
         "index": {
           "description": "partition the list of input data into list of input data lists of approximately the same specified length",
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "partitionListByLength",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -19279,6 +20771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "robotsNo",
           "package": "Holumbus-Searchengine",
@@ -19288,6 +20781,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "robotsNo",
           "normalized": "String-\u003eLA XmlTree XmlTree",
@@ -19303,6 +20797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "robotsNoFollow",
           "package": "Holumbus-Searchengine",
@@ -19312,6 +20807,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "robotsNoFollow",
           "package": "Holumbus-Searchengine",
@@ -19325,6 +20821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "robotsNoIndex",
           "package": "Holumbus-Searchengine",
@@ -19334,6 +20831,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "robotsNoIndex",
           "package": "Holumbus-Searchengine",
@@ -19348,6 +20846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a string into seperate strings at a specific character sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "split",
           "package": "Holumbus-Searchengine",
@@ -19358,6 +20857,7 @@
         "index": {
           "description": "Split string into seperate strings at specific character sequence",
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "split",
           "normalized": "[a]-\u003e[a]-\u003e[[a]]",
@@ -19373,6 +20873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efound on the haskell cafe mailing list\n   (\u003ca\u003ehttp://www.haskell.org/pipermail/haskell-cafe/2008-April/041970.html\u003c/a\u003e).\n   Depends on bytestring \u003e= 0.9.0.4 (?) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "strictDecodeFile",
           "package": "Holumbus-Searchengine",
@@ -19383,6 +20884,7 @@
         "index": {
           "description": "found on the haskell cafe mailing list http www.haskell.org pipermail haskell-cafe April html Depends on bytestring",
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "strictDecodeFile",
           "normalized": "FilePath-\u003eIO a",
@@ -19399,6 +20901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves leading and trailing whitespace from a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "strip",
           "package": "Holumbus-Searchengine",
@@ -19409,6 +20912,7 @@
         "index": {
           "description": "Removes leading and trailing whitespace from string",
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "strip",
           "normalized": "String-\u003eString",
@@ -19424,6 +20928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip leading and trailing elements matching a predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "stripWith",
           "package": "Holumbus-Searchengine",
@@ -19434,6 +20939,7 @@
         "index": {
           "description": "Strip leading and trailing elements matching predicate",
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "stripWith",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -19450,6 +20956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves leading whitespace from a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "stripl",
           "package": "Holumbus-Searchengine",
@@ -19460,6 +20967,7 @@
         "index": {
           "description": "Removes leading whitespace from string",
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "stripl",
           "normalized": "String-\u003eString",
@@ -19475,6 +20983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves trailing whitespace from a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "stripr",
           "package": "Holumbus-Searchengine",
@@ -19485,6 +20994,7 @@
         "index": {
           "description": "Removes trailing whitespace from string",
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "stripr",
           "normalized": "String-\u003eString",
@@ -19499,6 +21009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "traceOffset",
           "package": "Holumbus-Searchengine",
@@ -19508,6 +21019,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "traceOffset",
           "package": "Holumbus-Searchengine",
@@ -19521,6 +21033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:46 UTC 2014",
           "module": "Holumbus.Utility",
           "name": "trcMsg",
           "package": "Holumbus-Searchengine",
@@ -19530,6 +21043,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Utility",
+          "indexed": "2014-03-11T16:48:46",
           "module": "Holumbus.Utility",
           "name": "trcMsg",
           "normalized": "String-\u003eIO()",

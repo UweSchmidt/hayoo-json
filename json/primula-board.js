@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "primula-board"
+        "phrase": "primula-board",
+        "type": "phrase"
       },
       "type": "context"
     }

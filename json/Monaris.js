@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Monaris"
+        "phrase": "Monaris",
+        "type": "phrase"
       },
       "type": "context"
     }

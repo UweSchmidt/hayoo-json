@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-binary-ieee754"
+        "phrase": "data-binary-ieee754",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "IEEE754",
           "package": "data-binary-ieee754",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "IEEE754",
           "package": "data-binary-ieee754",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "doubleToWord",
           "package": "data-binary-ieee754",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "doubleToWord",
           "normalized": "Double-\u003eWord",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "floatToWord",
           "package": "data-binary-ieee754",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "floatToWord",
           "normalized": "Float-\u003eWord",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "getFloat16be",
           "package": "data-binary-ieee754",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "getFloat16be",
           "package": "data-binary-ieee754",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "getFloat16le",
           "package": "data-binary-ieee754",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "getFloat16le",
           "package": "data-binary-ieee754",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "getFloat32be",
           "package": "data-binary-ieee754",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "getFloat32be",
           "package": "data-binary-ieee754",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "getFloat32le",
           "package": "data-binary-ieee754",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "getFloat32le",
           "package": "data-binary-ieee754",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "getFloat64be",
           "package": "data-binary-ieee754",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "getFloat64be",
           "package": "data-binary-ieee754",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "getFloat64le",
           "package": "data-binary-ieee754",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "getFloat64le",
           "package": "data-binary-ieee754",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "putFloat32be",
           "package": "data-binary-ieee754",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "putFloat32be",
           "normalized": "Float-\u003ePut",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "putFloat32le",
           "package": "data-binary-ieee754",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "putFloat32le",
           "normalized": "Float-\u003ePut",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "putFloat64be",
           "package": "data-binary-ieee754",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "putFloat64be",
           "normalized": "Double-\u003ePut",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "putFloat64le",
           "package": "data-binary-ieee754",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "putFloat64le",
           "normalized": "Double-\u003ePut",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "wordToDouble",
           "package": "data-binary-ieee754",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "wordToDouble",
           "normalized": "Word-\u003eDouble",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:34 UTC 2014",
           "module": "Data.Binary.IEEE754",
           "name": "wordToFloat",
           "package": "data-binary-ieee754",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Data Binary IEEE754",
+          "indexed": "2014-03-11T17:47:34",
           "module": "Data.Binary.IEEE754",
           "name": "wordToFloat",
           "normalized": "Word-\u003eFloat",

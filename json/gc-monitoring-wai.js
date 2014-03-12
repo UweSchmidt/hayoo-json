@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gc-monitoring-wai"
+        "phrase": "gc-monitoring-wai",
+        "type": "phrase"
       },
       "type": "context"
     }

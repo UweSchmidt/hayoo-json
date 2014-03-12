@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "svm"
+        "phrase": "svm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module performs support vector regression on a set of training points in order to determine\n   the generating function.  Currently least squares support vector regression is implemented.  The\n   optimal solution to the Langrangian is found by a conjugate gradient algorithm (CGA).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "SVM",
           "package": "svm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module performs support vector regression on set of training points in order to determine the generating function Currently least squares support vector regression is implemented The optimal solution to the Langrangian is found by conjugate gradient algorithm CGA",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "SVM",
           "package": "svm",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach data set is a list of vectors and values which are training points of the form\n f(x) = y forall {x,y}.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "DataSet",
           "package": "svm",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Each data set is list of vectors and values which are training points of the form forall",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "DataSet",
           "package": "svm",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery kernel function represents an inner product in feature space.  The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A list of kernel parameters that can be interpreted differently by each kernel function.\n\u003c/li\u003e\u003cli\u003e The first point in the inner product.\n\u003c/li\u003e\u003cli\u003e The second point in the inner product.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "KernelFunction",
           "package": "svm",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Every kernel function represents an inner product in feature space The parameters are list of kernel parameters that can be interpreted differently by each kernel function The first point in the inner product The second point in the inner product",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "KernelFunction",
           "package": "svm",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kernel matrix has been implemented as an unboxed array for performance reasons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "KernelMatrix",
           "package": "svm",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The kernel matrix has been implemented as an unboxed array for performance reasons",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "KernelMatrix",
           "package": "svm",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA least squares support vector machine.  The cost represents the relative expense of missing a\n      training versus a more complicated generating function.  The higher this number the better the fit\n      of the training set, but at a cost of poorer generalization.  The LSSVM uses every training point\n      in the solution and performs least squares regression on the dual of the problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "LSSVM",
           "package": "svm",
@@ -120,6 +129,7 @@
         "index": {
           "description": "least squares support vector machine The cost represents the relative expense of missing training versus more complicated generating function The higher this number the better the fit of the training set but at cost of poorer generalization The LSSVM uses every training point in the solution and performs least squares regression on the dual of the problem",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "LSSVM",
           "package": "svm",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA support vector machine (SVM) can estimate a function based upon some training data.\n      Instances of this class need only implement the dual cost and the kernel function.  Default\n      implementations are given for finding the SVM solution, for simulating a function and for\n      creating a kernel matrix from a set of training points.  All SVMs should return a solution\n      which contains a list of the support vectors and their dual weigths.  dcost represents the\n      coefficient of the dual cost function.  This term gets added to the diagonal elements of the\n      kernel matrix and may be different for each type of SVM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "SVM",
           "package": "svm",
@@ -143,6 +154,7 @@
         "index": {
           "description": "support vector machine SVM can estimate function based upon some training data Instances of this class need only implement the dual cost and the kernel function Default implementations are given for finding the SVM solution for simulating function and for creating kernel matrix from set of training points All SVMs should return solution which contains list of the support vectors and their dual weigths dcost represents the coefficient of the dual cost function This term gets added to the diagonal elements of the kernel matrix and may be different for each type of SVM",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "SVM",
           "package": "svm",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe solution contains the dual weights, the support vectors and the bias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "SVMSolution",
           "package": "svm",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The solution contains the dual weights the support vectors and the bias",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "SVMSolution",
           "package": "svm",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "DataSet",
           "package": "svm",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "DataSet",
           "package": "svm",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "KernelFunction",
           "package": "svm",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "KernelFunction",
           "normalized": "KernelFunction([Double]-\u003e[Double]-\u003e[Double]-\u003eDouble)",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "KernelMatrix",
           "package": "svm",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "KernelMatrix",
           "package": "svm",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "LSSVM",
           "package": "svm",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "LSSVM",
           "package": "svm",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "SVMSolution",
           "package": "svm",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "SVMSolution",
           "package": "svm",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "alpha",
           "package": "svm",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "alpha",
           "package": "svm",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "bias",
           "package": "svm",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "bias",
           "package": "svm",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cost coefficient in the Lagrangian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "cost",
           "package": "svm",
@@ -344,6 +373,7 @@
         "index": {
           "description": "The cost coefficient in the Lagrangian",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "cost",
           "package": "svm",
@@ -357,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eKernelMatrix\u003c/a\u003e\u003c/code\u003e from the training points in the \u003ccode\u003e\u003ca\u003eDataSet\u003c/a\u003e\u003c/code\u003e.  If \u003ccode\u003ekf\u003c/code\u003e is the\n         \u003ccode\u003e\u003ca\u003eKernelFunction\u003c/a\u003e\u003c/code\u003e then the elements of the kernel matrix are given by \u003ccode\u003eK[i,j] = kf x[i] x[j]\u003c/code\u003e,\n         where the \u003ccode\u003ex[i]\u003c/code\u003e are taken from the training points.  The kernel matrix is symmetric and\n         positive semi-definite.Only the bottom half of the kernel matrix is stored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "createKernelMatrix",
           "package": "svm",
@@ -367,6 +398,7 @@
         "index": {
           "description": "Creates KernelMatrix from the training points in the DataSet If kf is the KernelFunction then the elements of the kernel matrix are given by kf where the are taken from the training points The kernel matrix is symmetric and positive semi-definite.Only the bottom half of the kernel matrix is stored",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "createKernelMatrix",
           "normalized": "a-\u003eArray Int[Double]-\u003eKernelMatrix",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe derivative of the cost function is added to the diagonal elements of the kernel\n         matrix.  This places a cost on the norm of the solution, which helps prevent overfitting\n         of the training data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "dcost",
           "package": "svm",
@@ -393,6 +426,7 @@
         "index": {
           "description": "The derivative of the cost function is added to the diagonal elements of the kernel matrix This places cost on the norm of the solution which helps prevent overfitting of the training data",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "dcost",
           "normalized": "a-\u003eDouble",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function provides access to the \u003ccode\u003e\u003ca\u003eKernelFunction\u003c/a\u003e\u003c/code\u003e used by the \u003ccode\u003e\u003ca\u003eSVM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "evalKernel",
           "package": "svm",
@@ -418,6 +453,7 @@
         "index": {
           "description": "This function provides access to the KernelFunction used by the SVM",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "evalKernel",
           "normalized": "a-\u003e[Double]-\u003e[Double]-\u003eDouble",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kernel function defines the feature space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "kf",
           "package": "svm",
@@ -444,6 +481,7 @@
         "index": {
           "description": "The kernel function defines the feature space",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "kf",
           "package": "svm",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a simple dot product between the two data points, corresponding to a featureless space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "linearKernelFunction",
           "package": "svm",
@@ -467,6 +506,7 @@
         "index": {
           "description": "This is simple dot product between the two data points corresponding to featureless space",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "linearKernelFunction",
           "normalized": "[Double]-\u003e[Double]-\u003e[Double]-\u003eDouble",
@@ -483,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides a solution similar to neural net.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "mlpKernelFunction",
           "package": "svm",
@@ -493,6 +534,7 @@
         "index": {
           "description": "Provides solution similar to neural net",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "mlpKernelFunction",
           "normalized": "[Double]-\u003e[Double]-\u003e[Double]-\u003eDouble",
@@ -509,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny parameters needed by the \u003ccode\u003e\u003ca\u003eKernelFunction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "params",
           "package": "svm",
@@ -519,6 +562,7 @@
         "index": {
           "description": "Any parameters needed by the KernelFunction",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "params",
           "normalized": "[Double]",
@@ -533,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "points",
           "package": "svm",
@@ -542,6 +587,7 @@
         },
         "index": {
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "points",
           "normalized": "Array Int[Double]",
@@ -556,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "polyKernelFunction",
           "package": "svm",
@@ -565,6 +612,7 @@
         },
         "index": {
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "polyKernelFunction",
           "normalized": "[Double]-\u003e[Double]-\u003e[Double]-\u003eDouble",
@@ -581,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the kernel when radial basis functions are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "radialKernelFunction",
           "package": "svm",
@@ -591,6 +640,7 @@
         "index": {
           "description": "This is the kernel when radial basis functions are used",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "radialKernelFunction",
           "normalized": "[Double]-\u003e[Double]-\u003e[Double]-\u003eDouble",
@@ -607,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reciprocal kernel is the result of exponential basis functions, exp(-k*(x+a)).  The inner\n product is an integral over all k \u003e= 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "reciprocalKernelFunction",
           "package": "svm",
@@ -617,6 +668,7 @@
         "index": {
           "description": "The reciprocal kernel is the result of exponential basis functions exp The inner product is an integral over all",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "reciprocalKernelFunction",
           "normalized": "[Double]-\u003e[Double]-\u003e[Double]-\u003eDouble",
@@ -633,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function takes an \u003ccode\u003e\u003ca\u003eSVMSolution\u003c/a\u003e\u003c/code\u003e produced by the \u003ccode\u003e\u003ca\u003eSVM\u003c/a\u003e\u003c/code\u003e passed in, and a list of points\n         in the space, and it returns a list of valuues y = f(x), where f is the generating function\n         represented by the support vector solution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "simulate",
           "package": "svm",
@@ -643,6 +696,7 @@
         "index": {
           "description": "This function takes an SVMSolution produced by the SVM passed in and list of points in the space and it returns list of valuues where is the generating function represented by the support vector solution",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "simulate",
           "normalized": "a-\u003eSVMSolution-\u003eArray Int[Double]-\u003e[Double]",
@@ -658,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function takes a \u003ccode\u003e\u003ca\u003eDataSet\u003c/a\u003e\u003c/code\u003e and feeds it to the \u003ccode\u003e\u003ca\u003eSVM\u003c/a\u003e\u003c/code\u003e.  Then it returns the\n         \u003ccode\u003e\u003ca\u003eSVMSolution\u003c/a\u003e\u003c/code\u003e which is the support vector solution for the function which generated the\n         points in the training set.  The function also takes values for epsilon and the max\n         iterations, which are used as stopping criteria in the conjugate gradient algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "solve",
           "package": "svm",
@@ -668,6 +723,7 @@
         "index": {
           "description": "This function takes DataSet and feeds it to the SVM Then it returns the SVMSolution which is the support vector solution for the function which generated the points in the training set The function also takes values for epsilon and the max iterations which are used as stopping criteria in the conjugate gradient algorithm",
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "solve",
           "normalized": "a-\u003eDataSet-\u003eDouble-\u003eInt-\u003eSVMSolution",
@@ -682,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "splineKernelFunction",
           "package": "svm",
@@ -691,6 +748,7 @@
         },
         "index": {
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "splineKernelFunction",
           "normalized": "[Double]-\u003e[Double]-\u003e[Double]-\u003eDouble",
@@ -706,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "sv",
           "package": "svm",
@@ -715,6 +774,7 @@
         },
         "index": {
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "sv",
           "normalized": "Array Int[Double]",
@@ -729,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:14 UTC 2014",
           "module": "SVM",
           "name": "values",
           "package": "svm",
@@ -738,6 +799,7 @@
         },
         "index": {
           "hierarchy": "SVM",
+          "indexed": "2014-03-11T20:14:14",
           "module": "SVM",
           "name": "values",
           "package": "svm",

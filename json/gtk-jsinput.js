@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk-jsinput"
+        "phrase": "gtk-jsinput",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:37 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.JSInput",
           "name": "JSInput",
           "package": "gtk-jsinput",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom JSInput",
+          "indexed": "2014-03-11T18:22:37",
           "module": "Graphics.UI.Gtk.Custom.JSInput",
           "name": "JSInput",
           "package": "gtk-jsinput",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:37 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.JSInput",
           "name": "jsInputNew",
           "package": "gtk-jsinput",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom JSInput",
+          "indexed": "2014-03-11T18:22:37",
           "module": "Graphics.UI.Gtk.Custom.JSInput",
           "name": "jsInputNew",
           "normalized": "[(String,JSValue)]-\u003e(Result[(String,JSValue)]-\u003eIO())-\u003eIO Widget",

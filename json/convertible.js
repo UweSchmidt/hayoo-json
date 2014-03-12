@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "convertible"
+        "phrase": "convertible",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "Base",
           "package": "convertible",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "Base",
           "package": "convertible",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow we indicate that there was an error. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "ConvertError",
           "package": "convertible",
@@ -49,6 +52,7 @@
         "index": {
           "description": "How we indicate that there was an error",
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "ConvertError",
           "package": "convertible",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a safe conversion via \u003ccode\u003e\u003ca\u003esafeConvert\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "ConvertResult",
           "package": "convertible",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The result of safe conversion via safeConvert",
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "ConvertResult",
           "package": "convertible",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typeclass that represents something that can be converted.\nA \u003ccode\u003eConvertible a b\u003c/code\u003e instance represents an \u003ccode\u003ea\u003c/code\u003e that can be converted to a \u003ccode\u003eb\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "Convertible",
           "package": "convertible",
@@ -95,6 +102,7 @@
         "index": {
           "description": "typeclass that represents something that can be converted Convertible instance represents an that can be converted to",
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "Convertible",
           "package": "convertible",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "ConvertError",
           "package": "convertible",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "ConvertError",
           "package": "convertible",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "convDestType",
           "package": "convertible",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "convDestType",
           "package": "convertible",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "convError",
           "package": "convertible",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "convError",
           "normalized": "String-\u003ea-\u003eConvertResult b",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "convErrorMessage",
           "package": "convertible",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "convErrorMessage",
           "package": "convertible",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "convSourceType",
           "package": "convertible",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "convSourceType",
           "package": "convertible",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "convSourceValue",
           "package": "convertible",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "convSourceValue",
           "package": "convertible",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from one type of data to another.  Raises an exception if there is\nan error with the conversion.  For a function that does not raise an exception\nin that case, see \u003ccode\u003e\u003ca\u003esafeConvert\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "convert",
           "package": "convertible",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Convert from one type of data to another Raises an exception if there is an error with the conversion For function that does not raise an exception in that case see safeConvert",
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "convert",
           "normalized": "a-\u003eb",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "prettyConvertError",
           "package": "convertible",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "prettyConvertError",
           "normalized": "ConvertError-\u003eString",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003ea\u003c/code\u003e to \u003ccode\u003eb\u003c/code\u003e, returning Right on success and Left on error.\n       For a simpler interface, see \u003ccode\u003e\u003ca\u003econvert\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Base",
           "name": "safeConvert",
           "package": "convertible",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Convert to returning Right on success and Left on error For simpler interface see convert",
           "hierarchy": "Data Convertible Base",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Base",
           "name": "safeConvert",
           "normalized": "a-\u003eConvertResult b",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumeric instances for Convertible for C types.  See comments in\n\u003ca\u003eData.Convertible.Instances.Num\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eCopyright (C) 2009-2011 John Goerzen \u003ca\u003ejgoerzen@complete.org\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eAll rights reserved.\n\u003c/p\u003e\u003cp\u003eFor license and copyright information, see the file LICENSE\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Instances.C",
           "name": "C",
           "package": "convertible",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Numeric instances for Convertible for types See comments in Data.Convertible.Instances.Num Copyright John Goerzen jgoerzen@complete.org All rights reserved For license and copyright information see the file LICENSE",
           "hierarchy": "Data Convertible Instances C",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Instances.C",
           "name": "C",
           "package": "convertible",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInstances to convert between Map and association list.\n\u003c/p\u003e\u003cp\u003eCopyright (C) 2009-2011 John Goerzen \u003ca\u003ejgoerzen@complete.org\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eAll rights reserved.\n\u003c/p\u003e\u003cp\u003eFor license and copyright information, see the file LICENSE\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Instances.Map",
           "name": "Map",
           "package": "convertible",
@@ -349,6 +378,7 @@
         "index": {
           "description": "Instances to convert between Map and association list Copyright John Goerzen jgoerzen@complete.org All rights reserved For license and copyright information see the file LICENSE",
           "hierarchy": "Data Convertible Instances Map",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Instances.Map",
           "name": "Map",
           "package": "convertible",
@@ -363,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumeric instances for Convertible.\n\u003c/p\u003e\u003cp\u003eCopyright (C) 2009-2011 John Goerzen \u003ca\u003ejgoerzen@complete.org\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eAll rights reserved.\n\u003c/p\u003e\u003cp\u003eFor license and copyright information, see the file LICENSE\n\u003c/p\u003e\u003cp\u003eThese instances perform conversion between numeric types such as Double, Int, Integer,\nRational, and the like.  Here are some notes about the conversion process:\n\u003c/p\u003e\u003cp\u003eConversions from floating-point types such as Double to integral types are done via the\n\u003ccode\u003e\u003ca\u003etruncate\u003c/a\u003e\u003c/code\u003e function.  This is a somewhat arbitrary decision; if you need different\nbehavior, you will have to write your own instance or manually perform the conversion.\n\u003c/p\u003e\u003cp\u003eAll conversions perform bounds checking.  If a value is too large for its destination\ntype, you will get a \u003ccode\u003e\u003ca\u003eConvertError\u003c/a\u003e\u003c/code\u003e informing you of this.  Note that this behavior\ndiffers from functions in the Haskell standard libraries, which will perform the\nconversion without error, but give you garbage in the end.\n\u003c/p\u003e\u003cp\u003eConversions do not perform precision checking; loss of precision is implied with certain\nconversions (for instance, Double to Float) and this is not an error.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Instances.Num",
           "name": "Num",
           "package": "convertible",
@@ -372,6 +403,7 @@
         "index": {
           "description": "Numeric instances for Convertible Copyright John Goerzen jgoerzen@complete.org All rights reserved For license and copyright information see the file LICENSE These instances perform conversion between numeric types such as Double Int Integer Rational and the like Here are some notes about the conversion process Conversions from floating-point types such as Double to integral types are done via the truncate function This is somewhat arbitrary decision if you need different behavior you will have to write your own instance or manually perform the conversion All conversions perform bounds checking If value is too large for its destination type you will get ConvertError informing you of this Note that this behavior differs from functions in the Haskell standard libraries which will perform the conversion without error but give you garbage in the end Conversions do not perform precision checking loss of precision is implied with certain conversions for instance Double to Float and this is not an error",
           "hierarchy": "Data Convertible Instances Num",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Instances.Num",
           "name": "Num",
           "package": "convertible",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eText instances for Convertible.\n\u003c/p\u003e\u003cp\u003eCopyright (C) 2011 MailRank, Inc. \u003ca\u003ebos@mailrank.com\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eAll rights reserved.\n\u003c/p\u003e\u003cp\u003eFor license and copyright information, see the file COPYRIGHT\n\u003c/p\u003e\u003cp\u003eThese instances perform conversion between text-like types such as\nText, ByteString, and the like.\n\u003c/p\u003e\u003cp\u003eThe instances do \u003cem\u003enot\u003c/em\u003e include conversions between ByteString and\nText or String, since such conversions cannot safely be performed\nwithout knowing the encoding of the ByteString.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Instances.Text",
           "name": "Text",
           "package": "convertible",
@@ -395,6 +428,7 @@
         "index": {
           "description": "Text instances for Convertible Copyright MailRank Inc bos@mailrank.com All rights reserved For license and copyright information see the file COPYRIGHT These instances perform conversion between text-like types such as Text ByteString and the like The instances do not include conversions between ByteString and Text or String since such conversions cannot safely be performed without knowing the encoding of the ByteString",
           "hierarchy": "Data Convertible Instances Text",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Instances.Text",
           "name": "Text",
           "package": "convertible",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInstances to convert between various time structures, both old- and new-style.\n\u003c/p\u003e\u003cp\u003eAt present, this module does not do full input validation.  That is, it is possible\nto get an exception rather than a Left result from these functions if your input is\ninvalid, particularly when converting from the old-style System.Time structures.\n\u003c/p\u003e\u003cp\u003eCopyright (C) 2009-2011 John Goerzen \u003ca\u003ejgoerzen@complete.org\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eAll rights reserved.\n\u003c/p\u003e\u003cp\u003eFor license and copyright information, see the file LICENSE\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Instances.Time",
           "name": "Time",
           "package": "convertible",
@@ -418,6 +453,7 @@
         "index": {
           "description": "Instances to convert between various time structures both old and new-style At present this module does not do full input validation That is it is possible to get an exception rather than Left result from these functions if your input is invalid particularly when converting from the old-style System.Time structures Copyright John Goerzen jgoerzen@complete.org All rights reserved For license and copyright information see the file LICENSE",
           "hierarchy": "Data Convertible Instances Time",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Instances.Time",
           "name": "Time",
           "package": "convertible",
@@ -432,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCollection of ready-made \u003ccode\u003e\u003ca\u003eConvertible\u003c/a\u003e\u003c/code\u003e instances.  See\neach individual module for more docs:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eData.Convertible.Instances.C\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eData.Convertible.Instances.Map\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eData.Convertible.Instances.Num\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eData.Convertible.Instances.Time\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eYou can find a list of these instances at \u003ccode\u003e\u003ca\u003eConvertible\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Instances",
           "name": "Instances",
           "package": "convertible",
@@ -441,6 +478,7 @@
         "index": {
           "description": "Collection of ready-made Convertible instances See each individual module for more docs Data.Convertible.Instances.C Data.Convertible.Instances.Map Data.Convertible.Instances.Num Data.Convertible.Instances.Time You can find list of these instances at Convertible",
           "hierarchy": "Data Convertible Instances",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Instances",
           "name": "Instances",
           "package": "convertible",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Utils",
           "name": "Utils",
           "package": "convertible",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Data Convertible Utils",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Utils",
           "name": "Utils",
           "package": "convertible",
@@ -476,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility function to perform bounds checking as part of a conversion.\n\u003c/p\u003e\u003cp\u003eDoes this be examining the bounds of the destination type, converting to the type of\nthe source via \u003ccode\u003e\u003ca\u003esafeConvert\u003c/a\u003e\u003c/code\u003e, comparing to the source value.  Results in an error\nif the conversion is out of bounds. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Utils",
           "name": "boundedConversion",
           "package": "convertible",
@@ -485,6 +526,7 @@
         "index": {
           "description": "Utility function to perform bounds checking as part of conversion Does this be examining the bounds of the destination type converting to the type of the source via safeConvert comparing to the source value Results in an error if the conversion is out of bounds",
           "hierarchy": "Data Convertible Utils",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Utils",
           "name": "boundedConversion",
           "normalized": "(a-\u003eConvertResult b)-\u003ea-\u003eConvertResult b",
@@ -501,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUseful for defining conversions that are implemented in terms of other\nconversions via an intermediary type. Instead of:\n\u003c/p\u003e\u003cpre\u003einstance Convertible CalendarTime POSIXTime where\n    safeConvert a = do r \u003c- safeConvert a\n                       safeConvert (r :: ClockTime)\n\u003c/pre\u003e\u003cp\u003ewe can now write:\n\u003c/p\u003e\u003cpre\u003einstance Convertible CalendarTime POSIXTime where\n    safeConvert = convertVia (undefined::ClockTime)\n\u003c/pre\u003e\u003cp\u003ewhich does the same thing -- converts a CalendarTime to a ClockTime, then a\nClockTime to a POSIXTime, both using existing \u003ccode\u003e\u003ca\u003eConvertible\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Utils",
           "name": "convertVia",
           "package": "convertible",
@@ -510,6 +553,7 @@
         "index": {
           "description": "Useful for defining conversions that are implemented in terms of other conversions via an intermediary type Instead of instance Convertible CalendarTime POSIXTime where safeConvert do safeConvert safeConvert ClockTime we can now write instance Convertible CalendarTime POSIXTime where safeConvert convertVia undefined ClockTime which does the same thing converts CalendarTime to ClockTime then ClockTime to POSIXTime both using existing Convertible instances",
           "hierarchy": "Data Convertible Utils",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Utils",
           "name": "convertVia",
           "normalized": "a-\u003eb-\u003eConvertResult c",
@@ -526,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUseful for defining \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e instances.  Example:\n\u003c/p\u003e\u003cpre\u003einstance Typeable TimeOfDay where\n    typeOf _ = mkTypeName \"TimeOfDay\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible.Utils",
           "name": "mkTypeName",
           "package": "convertible",
@@ -536,6 +581,7 @@
         "index": {
           "description": "Useful for defining Typeable instances Example instance Typeable TimeOfDay where typeOf mkTypeName TimeOfDay",
           "hierarchy": "Data Convertible Utils",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible.Utils",
           "name": "mkTypeName",
           "normalized": "String-\u003eTypeRep",
@@ -552,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a library to provide a uniform interface for safe conversions between\ndifferent types of data.  To get started reading about it, consult:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eData.Convertible.Base\u003c/a\u003e for information about the conversions themselves\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eData.Convertible.Utils\u003c/a\u003e for helpful tools for people writing \u003ccode\u003e\u003ca\u003eConvertible\u003c/a\u003e\u003c/code\u003e instances\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eData.Convertible.Instances\u003c/a\u003e for a large collection of ready-built \u003ccode\u003e\u003ca\u003eConvertible\u003c/a\u003e\u003c/code\u003e instances\n\u003c/p\u003e\u003cp\u003eYou can import these modules individually, or this module will export the entire library\nfor you.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:45 UTC 2014",
           "module": "Data.Convertible",
           "name": "Convertible",
           "package": "convertible",
@@ -561,6 +608,7 @@
         "index": {
           "description": "This is library to provide uniform interface for safe conversions between different types of data To get started reading about it consult Data.Convertible.Base for information about the conversions themselves Data.Convertible.Utils for helpful tools for people writing Convertible instances Data.Convertible.Instances for large collection of ready-built Convertible instances You can import these modules individually or this module will export the entire library for you",
           "hierarchy": "Data Convertible",
+          "indexed": "2014-03-11T17:40:45",
           "module": "Data.Convertible",
           "name": "Convertible",
           "package": "convertible",

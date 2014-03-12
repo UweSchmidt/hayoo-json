@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "darcs-fastconvert"
+        "phrase": "darcs-fastconvert",
+        "type": "phrase"
       },
       "type": "context"
     }

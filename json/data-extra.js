@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-extra"
+        "phrase": "data-extra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra functions for dealing with Bool.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Bool.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Extra functions for dealing with Bool",
           "hierarchy": "Data Bool Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Bool.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebool false true p = if p then true else false\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Bool.Extra",
           "name": "bool",
           "package": "data-extra",
@@ -52,6 +55,7 @@
         "index": {
           "description": "bool false true if then true else false",
           "hierarchy": "Data Bool Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Bool.Extra",
           "name": "bool",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econd false true p v = if p v then true v else false v\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Bool.Extra",
           "name": "cond",
           "package": "data-extra",
@@ -77,6 +82,7 @@
         "index": {
           "description": "cond false true if then true else false",
           "hierarchy": "Data Bool Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Bool.Extra",
           "name": "cond",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eBool)-\u003ea-\u003eb",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra functions for dealing with Either.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Either.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Extra functions for dealing with Either",
           "hierarchy": "Data Either Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Either.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the left value or a default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Either.Extra",
           "name": "fromLeft",
           "package": "data-extra",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Extract the left value or default",
           "hierarchy": "Data Either Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Either.Extra",
           "name": "fromLeft",
           "normalized": "a-\u003eEither a b-\u003ea",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the right value or a default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Either.Extra",
           "name": "fromRight",
           "package": "data-extra",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Extract the right value or default",
           "hierarchy": "Data Either Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Either.Extra",
           "name": "fromRight",
           "normalized": "a-\u003eEither b a-\u003ea",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a value Left?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Either.Extra",
           "name": "isLeft",
           "package": "data-extra",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Is value Left",
           "hierarchy": "Data Either Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Either.Extra",
           "name": "isLeft",
           "normalized": "Either a b-\u003eBool",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a value Right?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Either.Extra",
           "name": "isRight",
           "package": "data-extra",
@@ -203,6 +218,7 @@
         "index": {
           "description": "Is value Right",
           "hierarchy": "Data Either Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Either.Extra",
           "name": "isRight",
           "normalized": "Either a b-\u003eBool",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe get the left side of an Either.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Either.Extra",
           "name": "leftToMaybe",
           "package": "data-extra",
@@ -229,6 +246,7 @@
         "index": {
           "description": "Maybe get the left side of an Either",
           "hierarchy": "Data Either Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Either.Extra",
           "name": "leftToMaybe",
           "normalized": "Either a b-\u003eMaybe a",
@@ -245,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map for Either values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Either.Extra",
           "name": "mapEither",
           "package": "data-extra",
@@ -255,6 +274,7 @@
         "index": {
           "description": "map for Either values",
           "hierarchy": "Data Either Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Either.Extra",
           "name": "mapEither",
           "normalized": "(a-\u003eb)-\u003e(b-\u003eb)-\u003eEither a b-\u003eEither b b",
@@ -271,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe get the right side of an Either.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Either.Extra",
           "name": "rightToMaybe",
           "package": "data-extra",
@@ -281,6 +302,7 @@
         "index": {
           "description": "Maybe get the right side of an Either",
           "hierarchy": "Data Either Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Either.Extra",
           "name": "rightToMaybe",
           "normalized": "Either a b-\u003eMaybe b",
@@ -297,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a value is Left, do something with it, monadically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Either.Extra",
           "name": "whenLeft",
           "package": "data-extra",
@@ -307,6 +330,7 @@
         "index": {
           "description": "When value is Left do something with it monadically",
           "hierarchy": "Data Either Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Either.Extra",
           "name": "whenLeft",
           "normalized": "Either a b-\u003e(a-\u003ec d)-\u003ec()",
@@ -323,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a value is Right, do something with it, monadically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Either.Extra",
           "name": "whenRight",
           "package": "data-extra",
@@ -333,6 +358,7 @@
         "index": {
           "description": "When value is Right do something with it monadically",
           "hierarchy": "Data Either Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Either.Extra",
           "name": "whenRight",
           "normalized": "Either a b-\u003e(b-\u003ec d)-\u003ec()",
@@ -349,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra utilities for equality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Eq.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -358,6 +385,7 @@
         "index": {
           "description": "Extra utilities for equality",
           "hierarchy": "Data Eq Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Eq.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -372,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function before passing it to equality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Eq.Extra",
           "name": "equating",
           "package": "data-extra",
@@ -382,6 +411,7 @@
         "index": {
           "description": "Apply function before passing it to equality",
           "hierarchy": "Data Eq Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Eq.Extra",
           "name": "equating",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eBool",
@@ -397,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra Data.* functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -406,6 +437,7 @@
         "index": {
           "description": "Extra Data functions",
           "hierarchy": "Data Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -420,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra functions for dealing with lists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.List.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -429,6 +462,7 @@
         "index": {
           "description": "Extra functions for dealing with lists",
           "hierarchy": "Data List Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.List.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -443,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first item of a list or something else.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.List.Extra",
           "name": "firstOr",
           "package": "data-extra",
@@ -453,6 +488,7 @@
         "index": {
           "description": "Return the first item of list or something else",
           "hierarchy": "Data List Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.List.Extra",
           "name": "firstOr",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -469,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpposite of map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.List.Extra",
           "name": "for",
           "package": "data-extra",
@@ -479,6 +516,7 @@
         "index": {
           "description": "Opposite of map",
           "hierarchy": "Data List Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.List.Extra",
           "name": "for",
           "normalized": "[a]-\u003e(a-\u003eb)-\u003e[b]",
@@ -494,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe get the last element in the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.List.Extra",
           "name": "lastToMaybe",
           "package": "data-extra",
@@ -504,6 +543,7 @@
         "index": {
           "description": "Maybe get the last element in the list",
           "hierarchy": "Data List Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.List.Extra",
           "name": "lastToMaybe",
           "normalized": "[a]-\u003eMaybe a",
@@ -520,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a list is non-null, pass it to a function, otherwise use the\n default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.List.Extra",
           "name": "list",
           "package": "data-extra",
@@ -530,6 +571,7 @@
         "index": {
           "description": "When list is non-null pass it to function otherwise use the default",
           "hierarchy": "Data List Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.List.Extra",
           "name": "list",
           "normalized": "a-\u003e([b]-\u003ea)-\u003e[b]-\u003ea",
@@ -545,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the maximum of a list or return zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.List.Extra",
           "name": "maxList",
           "package": "data-extra",
@@ -555,6 +598,7 @@
         "index": {
           "description": "Get the maximum of list or return zero",
           "hierarchy": "Data List Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.List.Extra",
           "name": "maxList",
           "normalized": "[a]-\u003ea",
@@ -571,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the union of the given lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.List.Extra",
           "name": "unionOf",
           "package": "data-extra",
@@ -581,6 +626,7 @@
         "index": {
           "description": "Get the union of the given lists",
           "hierarchy": "Data List Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.List.Extra",
           "name": "unionOf",
           "normalized": "[[a]]-\u003e[a]",
@@ -597,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra functions for dealing with Maybe.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Maybe.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -606,6 +653,7 @@
         "index": {
           "description": "Extra functions for dealing with Maybe",
           "hierarchy": "Data Maybe Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Maybe.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -620,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the sole element of the list or nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Maybe.Extra",
           "name": "sole",
           "package": "data-extra",
@@ -630,6 +679,7 @@
         "index": {
           "description": "Return the sole element of the list or nothing",
           "hierarchy": "Data Maybe Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Maybe.Extra",
           "name": "sole",
           "normalized": "[a]-\u003eMaybe a",
@@ -645,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a value is Just, do something with it, monadically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Maybe.Extra",
           "name": "whenJust",
           "package": "data-extra",
@@ -655,6 +706,7 @@
         "index": {
           "description": "When value is Just do something with it monadically",
           "hierarchy": "Data Maybe Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Maybe.Extra",
           "name": "whenJust",
           "normalized": "Maybe a-\u003e(a-\u003eb c)-\u003eb()",
@@ -671,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the predicate is true, return maybe the action's return value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Maybe.Extra",
           "name": "whenMaybe",
           "package": "data-extra",
@@ -681,6 +734,7 @@
         "index": {
           "description": "When the predicate is true return maybe the action return value",
           "hierarchy": "Data Maybe Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Maybe.Extra",
           "name": "whenMaybe",
           "normalized": "Bool-\u003ea b-\u003ea(Maybe b)",
@@ -697,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra functions for numbers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -706,6 +761,7 @@
         "index": {
           "description": "Extra functions for numbers",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -720,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRound away from zero (ceiling if positive, floor otherwise).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "awayFromZero",
           "package": "data-extra",
@@ -730,6 +787,7 @@
         "index": {
           "description": "Round away from zero ceiling if positive floor otherwise",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "awayFromZero",
           "normalized": "a-\u003eb",
@@ -746,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand for fromIntegral.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "fi",
           "package": "data-extra",
@@ -756,6 +815,7 @@
         "index": {
           "description": "Short-hand for fromIntegral",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "fi",
           "normalized": "a-\u003eb",
@@ -771,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand for fromIntegral. Deprecated in favour of the more popular fi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "int",
           "package": "data-extra",
@@ -781,6 +842,7 @@
         "index": {
           "description": "Short-hand for fromIntegral Deprecated in favour of the more popular fi",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "int",
           "normalized": "a-\u003eb",
@@ -796,6 +858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a number rounded down 0.5?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "isHalf",
           "package": "data-extra",
@@ -806,6 +869,7 @@
         "index": {
           "description": "Is number rounded down",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "isHalf",
           "normalized": "a-\u003eBool",
@@ -822,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ca\u003enearestTowardZero\u003c/a\u003e but rounds away from zero (by positive or negative).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "nearestAwayFromZero",
           "package": "data-extra",
@@ -832,6 +897,7 @@
         "index": {
           "description": "Same as nearestTowardZero but rounds away from zero by positive or negative",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "nearestAwayFromZero",
           "normalized": "a-\u003eb",
@@ -848,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRound up (round).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "nearestBanker",
           "package": "data-extra",
@@ -858,6 +925,7 @@
         "index": {
           "description": "Round up round",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "nearestBanker",
           "normalized": "a-\u003eb",
@@ -874,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ca\u003enearestTowardZero\u003c/a\u003e but to infinity instead of zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "nearestTowardInf",
           "package": "data-extra",
@@ -884,6 +953,7 @@
         "index": {
           "description": "Same as nearestTowardZero but to infinity instead of zero",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "nearestTowardInf",
           "normalized": "a-\u003eb",
@@ -900,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ca\u003enearestTowardZero\u003c/a\u003e but towards negative instead of zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "nearestTowardNegInf",
           "package": "data-extra",
@@ -910,6 +981,7 @@
         "index": {
           "description": "Same as nearestTowardZero but towards negative instead of zero",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "nearestTowardNegInf",
           "normalized": "a-\u003eb",
@@ -926,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRound torwards zero (if half go towards zero, otherwise up to 1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "nearestTowardZero",
           "package": "data-extra",
@@ -936,6 +1009,7 @@
         "index": {
           "description": "Round torwards zero if half go towards zero otherwise up to",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "nearestTowardZero",
           "normalized": "a-\u003eb",
@@ -952,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRound upwards (ceiling).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "towardInf",
           "package": "data-extra",
@@ -962,6 +1037,7 @@
         "index": {
           "description": "Round upwards ceiling",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "towardInf",
           "normalized": "a-\u003eb",
@@ -978,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRound backwards (floor).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "towardNegInf",
           "package": "data-extra",
@@ -988,6 +1065,7 @@
         "index": {
           "description": "Round backwards floor",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "towardNegInf",
           "normalized": "a-\u003eb",
@@ -1004,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRound toward zero (truncate).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Number.Extra",
           "name": "towardZero",
           "package": "data-extra",
@@ -1014,6 +1093,7 @@
         "index": {
           "description": "Round toward zero truncate",
           "hierarchy": "Data Number Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Number.Extra",
           "name": "towardZero",
           "normalized": "a-\u003eb",
@@ -1030,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra functions and classes for dealing with Strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.String.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -1039,6 +1120,7 @@
         "index": {
           "description": "Extra functions and classes for dealing with Strings",
           "hierarchy": "Data String Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.String.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -1053,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for converting to strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.String.Extra",
           "name": "ToString",
           "package": "data-extra",
@@ -1062,6 +1145,7 @@
         "index": {
           "description": "class for converting to strings",
           "hierarchy": "Data String Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.String.Extra",
           "name": "ToString",
           "package": "data-extra",
@@ -1076,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower case a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.String.Extra",
           "name": "lower",
           "package": "data-extra",
@@ -1086,6 +1171,7 @@
         "index": {
           "description": "Lower case string",
           "hierarchy": "Data String Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.String.Extra",
           "name": "lower",
           "normalized": "String-\u003eString",
@@ -1100,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.String.Extra",
           "name": "toString",
           "package": "data-extra",
@@ -1109,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Data String Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.String.Extra",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -1125,6 +1213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrim a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.String.Extra",
           "name": "trim",
           "package": "data-extra",
@@ -1135,6 +1224,7 @@
         "index": {
           "description": "Trim string",
           "hierarchy": "Data String Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.String.Extra",
           "name": "trim",
           "normalized": "[Char]-\u003e[Char]",
@@ -1150,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpper case a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.String.Extra",
           "name": "upper",
           "package": "data-extra",
@@ -1160,6 +1251,7 @@
         "index": {
           "description": "Upper case string",
           "hierarchy": "Data String Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.String.Extra",
           "name": "upper",
           "normalized": "String-\u003eString",
@@ -1175,6 +1267,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra functions and classes for dealing with Text.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Text.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -1184,6 +1277,7 @@
         "index": {
           "description": "Extra functions and classes for dealing with Text",
           "hierarchy": "Data Text Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Text.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -1198,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for converting from Text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Text.Extra",
           "name": "FromText",
           "package": "data-extra",
@@ -1207,6 +1302,7 @@
         "index": {
           "description": "class for converting from Text",
           "hierarchy": "Data Text Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Text.Extra",
           "name": "FromText",
           "package": "data-extra",
@@ -1221,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for converting to Text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Text.Extra",
           "name": "ToText",
           "package": "data-extra",
@@ -1230,6 +1327,7 @@
         "index": {
           "description": "class for converting to Text",
           "hierarchy": "Data Text Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Text.Extra",
           "name": "ToText",
           "package": "data-extra",
@@ -1244,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBig 'em up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Text.Extra",
           "name": "bigUp",
           "package": "data-extra",
@@ -1254,6 +1353,7 @@
         "index": {
           "description": "Big em up",
           "hierarchy": "Data Text Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Text.Extra",
           "name": "bigUp",
           "normalized": "a-\u003eText",
@@ -1269,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Text.Extra",
           "name": "fromLazyText",
           "package": "data-extra",
@@ -1278,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Data Text Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Text.Extra",
           "name": "fromLazyText",
           "normalized": "Text-\u003eMaybe a",
@@ -1293,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Text.Extra",
           "name": "fromText",
           "package": "data-extra",
@@ -1302,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Data Text Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Text.Extra",
           "name": "fromText",
           "normalized": "Text-\u003eMaybe a",
@@ -1317,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Text.Extra",
           "name": "toLazyText",
           "package": "data-extra",
@@ -1326,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Data Text Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Text.Extra",
           "name": "toLazyText",
           "normalized": "a-\u003eText",
@@ -1341,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Text.Extra",
           "name": "toText",
           "package": "data-extra",
@@ -1350,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Data Text Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Text.Extra",
           "name": "toText",
           "normalized": "a-\u003eText",
@@ -1366,6 +1474,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra date functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Time.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -1375,6 +1484,7 @@
         "index": {
           "description": "Extra date functions",
           "hierarchy": "Data Time Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Time.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -1389,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrivial benchmark for some monadic action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Time.Extra",
           "name": "bench",
           "package": "data-extra",
@@ -1399,6 +1510,7 @@
         "index": {
           "description": "Trivial benchmark for some monadic action",
           "hierarchy": "Data Time Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Time.Extra",
           "name": "bench",
           "normalized": "Integer-\u003ea b-\u003ea(b,NominalDiffTime)",
@@ -1414,6 +1526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current day.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Time.Extra",
           "name": "getDay",
           "package": "data-extra",
@@ -1424,6 +1537,7 @@
         "index": {
           "description": "Get the current day",
           "hierarchy": "Data Time Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Time.Extra",
           "name": "getDay",
           "normalized": "a-\u003eInteger",
@@ -1440,6 +1554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current month.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Time.Extra",
           "name": "getMonth",
           "package": "data-extra",
@@ -1450,6 +1565,7 @@
         "index": {
           "description": "Get the current month",
           "hierarchy": "Data Time Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Time.Extra",
           "name": "getMonth",
           "normalized": "a-\u003eInteger",
@@ -1466,6 +1582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current year.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Time.Extra",
           "name": "getYear",
           "package": "data-extra",
@@ -1476,6 +1593,7 @@
         "index": {
           "description": "Get the current year",
           "hierarchy": "Data Time Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Time.Extra",
           "name": "getYear",
           "normalized": "a-\u003eInteger",
@@ -1492,6 +1610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a time span as one time relative to another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Time.Extra",
           "name": "relative",
           "package": "data-extra",
@@ -1501,6 +1620,7 @@
         "index": {
           "description": "Display time span as one time relative to another",
           "hierarchy": "Data Time Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Time.Extra",
           "name": "relative",
           "normalized": "UTCTime-\u003eUTCTime-\u003eBool-\u003eText",
@@ -1516,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a stop-watch at the start and end of a computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Time.Extra",
           "name": "stopwatch",
           "package": "data-extra",
@@ -1526,6 +1647,7 @@
         "index": {
           "description": "Run stop-watch at the start and end of computation",
           "hierarchy": "Data Time Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Time.Extra",
           "name": "stopwatch",
           "normalized": "a b-\u003ea(b,NominalDiffTime)",
@@ -1541,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTuple utilities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Tuple.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -1550,6 +1673,7 @@
         "index": {
           "description": "Tuple utilities",
           "hierarchy": "Data Tuple Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Tuple.Extra",
           "name": "Extra",
           "package": "data-extra",
@@ -1564,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap tuple's elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:16 UTC 2014",
           "module": "Data.Tuple.Extra",
           "name": "swap",
           "package": "data-extra",
@@ -1574,6 +1699,7 @@
         "index": {
           "description": "Swap tuple elements",
           "hierarchy": "Data Tuple Extra",
+          "indexed": "2014-03-11T17:48:16",
           "module": "Data.Tuple.Extra",
           "name": "swap",
           "normalized": "(a,a)-\u003e(a,a)",

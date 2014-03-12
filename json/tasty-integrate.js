@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tasty-integrate"
+        "phrase": "tasty-integrate",
+        "type": "phrase"
       },
       "type": "context"
     }

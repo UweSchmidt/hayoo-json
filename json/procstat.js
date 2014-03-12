@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "procstat"
+        "phrase": "procstat",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "ProcStat",
           "package": "procstat",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "ProcStat",
           "package": "procstat",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "Pid",
           "package": "procstat",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "Pid",
           "package": "procstat",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "ProcFlag",
           "package": "procstat",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "ProcFlag",
           "package": "procstat",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "ProcInfo",
           "package": "procstat",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "ProcInfo",
           "package": "procstat",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "ProcState",
           "package": "procstat",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "ProcState",
           "package": "procstat",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "DiskSleeping",
           "package": "procstat",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "DiskSleeping",
           "package": "procstat",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "DumpCore",
           "package": "procstat",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "DumpCore",
           "package": "procstat",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "ExitPidDone",
           "package": "procstat",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "ExitPidDone",
           "package": "procstat",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "Exiting",
           "package": "procstat",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "Exiting",
           "package": "procstat",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "ForkNoExec",
           "package": "procstat",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "ForkNoExec",
           "package": "procstat",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "FreezerNoSig",
           "package": "procstat",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "FreezerNoSig",
           "package": "procstat",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "FreezerSkip",
           "package": "procstat",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "FreezerSkip",
           "package": "procstat",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "Freezing",
           "package": "procstat",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "Freezing",
           "package": "procstat",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "Frozen",
           "package": "procstat",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "Frozen",
           "package": "procstat",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "FsTrans",
           "package": "procstat",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "FsTrans",
           "package": "procstat",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "KSoftIrqD",
           "package": "procstat",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "KSoftIrqD",
           "package": "procstat",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "KSwapD",
           "package": "procstat",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "KSwapD",
           "package": "procstat",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "KThread",
           "package": "procstat",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "KThread",
           "package": "procstat",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "LessThrottle",
           "package": "procstat",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "LessThrottle",
           "package": "procstat",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "MceEarly",
           "package": "procstat",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "MceEarly",
           "package": "procstat",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "MceProcess",
           "package": "procstat",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "MceProcess",
           "package": "procstat",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "MemAlloc",
           "package": "procstat",
@@ -484,6 +527,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "MemAlloc",
           "package": "procstat",
@@ -497,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "MemPolicy",
           "package": "procstat",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "MemPolicy",
           "package": "procstat",
@@ -519,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "MutexTester",
           "package": "procstat",
@@ -528,6 +575,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "MutexTester",
           "package": "procstat",
@@ -541,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "NoFreeze",
           "package": "procstat",
@@ -550,6 +599,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "NoFreeze",
           "package": "procstat",
@@ -563,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "OomOrigin",
           "package": "procstat",
@@ -572,6 +623,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "OomOrigin",
           "package": "procstat",
@@ -585,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "Paging",
           "package": "procstat",
@@ -594,6 +647,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "Paging",
           "package": "procstat",
@@ -607,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "ProcInfo",
           "package": "procstat",
@@ -616,6 +671,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "ProcInfo",
           "package": "procstat",
@@ -629,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "Randomize",
           "package": "procstat",
@@ -638,6 +695,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "Randomize",
           "package": "procstat",
@@ -651,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "Running",
           "package": "procstat",
@@ -660,6 +719,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "Running",
           "package": "procstat",
@@ -673,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "Signaled",
           "package": "procstat",
@@ -682,6 +743,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "Signaled",
           "package": "procstat",
@@ -695,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "Sleeping",
           "package": "procstat",
@@ -704,6 +767,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "Sleeping",
           "package": "procstat",
@@ -717,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "SpreadPage",
           "package": "procstat",
@@ -726,6 +791,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "SpreadPage",
           "package": "procstat",
@@ -739,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "SpreadSlab",
           "package": "procstat",
@@ -748,6 +815,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "SpreadSlab",
           "package": "procstat",
@@ -761,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "Starting",
           "package": "procstat",
@@ -770,6 +839,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "Starting",
           "package": "procstat",
@@ -783,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "SuperPriv",
           "package": "procstat",
@@ -792,6 +863,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "SuperPriv",
           "package": "procstat",
@@ -805,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "SwapWrite",
           "package": "procstat",
@@ -814,6 +887,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "SwapWrite",
           "package": "procstat",
@@ -827,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "ThreadBound",
           "package": "procstat",
@@ -836,6 +911,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "ThreadBound",
           "package": "procstat",
@@ -849,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "Traced",
           "package": "procstat",
@@ -858,6 +935,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "Traced",
           "package": "procstat",
@@ -871,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "UsedMath",
           "package": "procstat",
@@ -880,6 +959,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "UsedMath",
           "package": "procstat",
@@ -893,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "VCpu",
           "package": "procstat",
@@ -902,6 +983,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "VCpu",
           "package": "procstat",
@@ -915,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "WqWorker",
           "package": "procstat",
@@ -924,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "WqWorker",
           "package": "procstat",
@@ -937,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "Zombie",
           "package": "procstat",
@@ -946,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "Zombie",
           "package": "procstat",
@@ -959,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procBlkIoTicks",
           "package": "procstat",
@@ -968,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procBlkIoTicks",
           "package": "procstat",
@@ -981,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procBlocked",
           "package": "procstat",
@@ -990,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procBlocked",
           "package": "procstat",
@@ -1003,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procCGuestTime",
           "package": "procstat",
@@ -1012,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procCGuestTime",
           "package": "procstat",
@@ -1025,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procCMajFlt",
           "package": "procstat",
@@ -1034,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procCMajFlt",
           "package": "procstat",
@@ -1047,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procCMinFlt",
           "package": "procstat",
@@ -1056,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procCMinFlt",
           "package": "procstat",
@@ -1069,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procCNSwap",
           "package": "procstat",
@@ -1078,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procCNSwap",
           "package": "procstat",
@@ -1091,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procCSTime",
           "package": "procstat",
@@ -1100,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procCSTime",
           "package": "procstat",
@@ -1113,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procCUTime",
           "package": "procstat",
@@ -1122,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procCUTime",
           "package": "procstat",
@@ -1135,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procCpuNum",
           "package": "procstat",
@@ -1144,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procCpuNum",
           "package": "procstat",
@@ -1157,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procEip",
           "package": "procstat",
@@ -1166,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procEip",
           "package": "procstat",
@@ -1179,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procEndCode",
           "package": "procstat",
@@ -1188,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procEndCode",
           "package": "procstat",
@@ -1201,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procEsp",
           "package": "procstat",
@@ -1210,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procEsp",
           "package": "procstat",
@@ -1223,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procExitSignal",
           "package": "procstat",
@@ -1232,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procExitSignal",
           "package": "procstat",
@@ -1245,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procFlags",
           "package": "procstat",
@@ -1254,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procFlags",
           "normalized": "[ProcFlag]",
@@ -1269,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procGId",
           "package": "procstat",
@@ -1278,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procGId",
           "package": "procstat",
@@ -1291,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procGuestTime",
           "package": "procstat",
@@ -1300,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procGuestTime",
           "package": "procstat",
@@ -1313,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procMajFlt",
           "package": "procstat",
@@ -1322,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procMajFlt",
           "package": "procstat",
@@ -1335,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procMinFlt",
           "package": "procstat",
@@ -1344,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procMinFlt",
           "package": "procstat",
@@ -1357,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procNSwap",
           "package": "procstat",
@@ -1366,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procNSwap",
           "package": "procstat",
@@ -1379,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procName",
           "package": "procstat",
@@ -1388,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procName",
           "package": "procstat",
@@ -1401,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procNice",
           "package": "procstat",
@@ -1410,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procNice",
           "package": "procstat",
@@ -1423,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procNumThreads",
           "package": "procstat",
@@ -1432,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procNumThreads",
           "package": "procstat",
@@ -1445,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procPPid",
           "package": "procstat",
@@ -1454,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procPPid",
           "package": "procstat",
@@ -1467,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procPid",
           "package": "procstat",
@@ -1476,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procPid",
           "package": "procstat",
@@ -1489,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procPolicy",
           "package": "procstat",
@@ -1498,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procPolicy",
           "package": "procstat",
@@ -1511,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procPriority",
           "package": "procstat",
@@ -1520,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procPriority",
           "package": "procstat",
@@ -1533,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procRss",
           "package": "procstat",
@@ -1542,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procRss",
           "package": "procstat",
@@ -1555,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procRssLim",
           "package": "procstat",
@@ -1564,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procRssLim",
           "package": "procstat",
@@ -1577,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procRtPriority",
           "package": "procstat",
@@ -1586,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procRtPriority",
           "package": "procstat",
@@ -1599,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procSId",
           "package": "procstat",
@@ -1608,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procSId",
           "package": "procstat",
@@ -1621,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procSTime",
           "package": "procstat",
@@ -1630,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procSTime",
           "package": "procstat",
@@ -1643,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procSigCatch",
           "package": "procstat",
@@ -1652,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procSigCatch",
           "package": "procstat",
@@ -1665,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procSigIgnore",
           "package": "procstat",
@@ -1674,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procSigIgnore",
           "package": "procstat",
@@ -1687,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procSignal",
           "package": "procstat",
@@ -1696,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procSignal",
           "package": "procstat",
@@ -1709,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procStartCode",
           "package": "procstat",
@@ -1718,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procStartCode",
           "package": "procstat",
@@ -1731,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procStartStack",
           "package": "procstat",
@@ -1740,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procStartStack",
           "package": "procstat",
@@ -1753,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procStartTime",
           "package": "procstat",
@@ -1762,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procStartTime",
           "package": "procstat",
@@ -1775,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procStat",
           "package": "procstat",
@@ -1784,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procStat",
           "normalized": "Pid-\u003eIO(Maybe ProcInfo)",
@@ -1799,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procState",
           "package": "procstat",
@@ -1808,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procState",
           "package": "procstat",
@@ -1821,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procTty",
           "package": "procstat",
@@ -1830,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procTty",
           "package": "procstat",
@@ -1843,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procTtyGid",
           "package": "procstat",
@@ -1852,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procTtyGid",
           "package": "procstat",
@@ -1865,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procUTime",
           "package": "procstat",
@@ -1874,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procUTime",
           "package": "procstat",
@@ -1887,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procVSize",
           "package": "procstat",
@@ -1896,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procVSize",
           "package": "procstat",
@@ -1909,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:45 UTC 2014",
           "module": "System.Linux.ProcStat",
           "name": "procWChan",
           "package": "procstat",
@@ -1918,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "System Linux ProcStat",
+          "indexed": "2014-03-11T19:44:45",
           "module": "System.Linux.ProcStat",
           "name": "procWChan",
           "package": "procstat",

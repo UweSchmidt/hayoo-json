@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-firewire"
+        "phrase": "simple-firewire",
+        "type": "phrase"
       },
       "type": "context"
     }

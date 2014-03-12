@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-primitive"
+        "phrase": "monad-primitive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:28 UTC 2014",
           "module": "Control.Monad.Primitive.Class",
           "name": "Class",
           "package": "monad-primitive",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Primitive Class",
+          "indexed": "2014-03-11T19:20:28",
           "module": "Control.Monad.Primitive.Class",
           "name": "Class",
           "package": "monad-primitive",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads in which computation based on primitive monad (instance of\n   \u003ccode\u003e\u003ca\u003ePrimMonad\u003c/a\u003e\u003c/code\u003e) could be embedded. Instances must obey following laws:\n\u003c/p\u003e\u003cpre\u003e liftPrim . return  = return\n liftPrim (m \u003e\u003e= f) = liftPrim m \u003e\u003e= liftPrim f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:20:28 UTC 2014",
           "module": "Control.Monad.Primitive.Class",
           "name": "MonadPrim",
           "package": "monad-primitive",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Monads in which computation based on primitive monad instance of PrimMonad could be embedded Instances must obey following laws liftPrim return return liftPrim liftPrim liftPrim",
           "hierarchy": "Control Monad Primitive Class",
+          "indexed": "2014-03-11T19:20:28",
           "module": "Control.Monad.Primitive.Class",
           "name": "MonadPrim",
           "package": "monad-primitive",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:28 UTC 2014",
           "module": "Control.Monad.Primitive.Class",
           "name": "liftPrim",
           "package": "monad-primitive",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Primitive Class",
+          "indexed": "2014-03-11T19:20:28",
           "module": "Control.Monad.Primitive.Class",
           "name": "liftPrim",
           "normalized": "BasePrimMonad a b-\u003ea b",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMutable references in monads which are instances of \u003ccode\u003eMonadPrim\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:28 UTC 2014",
           "module": "Data.PrimRef",
           "name": "PrimRef",
           "package": "monad-primitive",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Mutable references in monads which are instances of MonadPrim",
           "hierarchy": "Data PrimRef",
+          "indexed": "2014-03-11T19:20:28",
           "module": "Data.PrimRef",
           "name": "PrimRef",
           "package": "monad-primitive",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable variable which full analog of \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e or\n   \u003ccode\u003e\u003ca\u003eSTRef\u003c/a\u003e\u003c/code\u003e but could use either of the monads.\n   Unfortunately there's no way to convert \u003ccode\u003ePrimRef\u003c/code\u003e to \u003ccode\u003eSTRef\u003c/code\u003e or\n   \u003ccode\u003eIORef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:28 UTC 2014",
           "module": "Data.PrimRef",
           "name": "PrimRef",
           "package": "monad-primitive",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Mutable variable which full analog of IORef or STRef but could use either of the monads Unfortunately there no way to convert PrimRef to STRef or IORef",
           "hierarchy": "Data PrimRef",
+          "indexed": "2014-03-11T19:20:28",
           "module": "Data.PrimRef",
           "name": "PrimRef",
           "package": "monad-primitive",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify content of \u003ccode\u003ePrimRef\u003c/code\u003e using function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:28 UTC 2014",
           "module": "Data.PrimRef",
           "name": "modifyPrimRef",
           "package": "monad-primitive",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Modify content of PrimRef using function",
           "hierarchy": "Data PrimRef",
+          "indexed": "2014-03-11T19:20:28",
           "module": "Data.PrimRef",
           "name": "modifyPrimRef",
           "normalized": "PrimRef a b-\u003e(b-\u003eb)-\u003ea()",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify content of \u003ccode\u003ePrimRef\u003c/code\u003e using function and evaluate result of\n   function application to WHNF before storing it in the variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:28 UTC 2014",
           "module": "Data.PrimRef",
           "name": "modifyPrimRef'",
           "package": "monad-primitive",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Modify content of PrimRef using function and evaluate result of function application to WHNF before storing it in the variable",
           "hierarchy": "Data PrimRef",
+          "indexed": "2014-03-11T19:20:28",
           "module": "Data.PrimRef",
           "name": "modifyPrimRef'",
           "normalized": "PrimRef a b-\u003e(b-\u003eb)-\u003ea()",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new mutable variable with initial value \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:28 UTC 2014",
           "module": "Data.PrimRef",
           "name": "newPrimRef",
           "package": "monad-primitive",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Create new mutable variable with initial value",
           "hierarchy": "Data PrimRef",
+          "indexed": "2014-03-11T19:20:28",
           "module": "Data.PrimRef",
           "name": "newPrimRef",
           "normalized": "a-\u003eb(PrimRef b a)",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead value of \u003ccode\u003ePrimRef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:28 UTC 2014",
           "module": "Data.PrimRef",
           "name": "readPrimRef",
           "package": "monad-primitive",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Read value of PrimRef",
           "hierarchy": "Data PrimRef",
+          "indexed": "2014-03-11T19:20:28",
           "module": "Data.PrimRef",
           "name": "readPrimRef",
           "normalized": "PrimRef a b-\u003ea b",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite value to \u003ccode\u003ePrimRef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:28 UTC 2014",
           "module": "Data.PrimRef",
           "name": "writePrimRef",
           "package": "monad-primitive",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Write value to PrimRef",
           "hierarchy": "Data PrimRef",
+          "indexed": "2014-03-11T19:20:28",
           "module": "Data.PrimRef",
           "name": "writePrimRef",
           "normalized": "PrimRef a b-\u003eb-\u003ea()",

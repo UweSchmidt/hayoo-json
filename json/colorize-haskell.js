@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "colorize-haskell"
+        "phrase": "colorize-haskell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "Colorize",
           "package": "colorize-haskell",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "Colorize",
           "package": "colorize-haskell",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of functions that specify how to render a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "Style",
           "package": "colorize-haskell",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The type of functions that specify how to render value",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "Style",
           "package": "colorize-haskell",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different types of that we recognize.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "Token",
           "package": "colorize-haskell",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The different types of that we recognize",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "Token",
           "package": "colorize-haskell",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter literals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "CharLit",
           "package": "colorize-haskell",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Character literals",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "CharLit",
           "package": "colorize-haskell",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "Comment",
           "package": "colorize-haskell",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Comment",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "Comment",
           "package": "colorize-haskell",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "Con",
           "package": "colorize-haskell",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Constructors",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "Con",
           "package": "colorize-haskell",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor operators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "ConOp",
           "package": "colorize-haskell",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Constructor operators",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "ConOp",
           "package": "colorize-haskell",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating point literals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "FloatLit",
           "package": "colorize-haskell",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Floating point literals",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "FloatLit",
           "package": "colorize-haskell",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger lieterals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "IntLit",
           "package": "colorize-haskell",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Integer lieterals",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "IntLit",
           "package": "colorize-haskell",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "Reserved",
           "package": "colorize-haskell",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Reserved word",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "Reserved",
           "package": "colorize-haskell",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "ReservedOp",
           "package": "colorize-haskell",
@@ -264,6 +285,7 @@
         "index": {
           "description": "Reserved operator",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "ReservedOp",
           "package": "colorize-haskell",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial syntax  (e.g., parens,brackets)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "Special",
           "package": "colorize-haskell",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Special syntax e.g parens brackets",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "Special",
           "package": "colorize-haskell",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString literals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "StringLit",
           "package": "colorize-haskell",
@@ -312,6 +337,7 @@
         "index": {
           "description": "String literals",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "StringLit",
           "package": "colorize-haskell",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "Var",
           "package": "colorize-haskell",
@@ -336,6 +363,7 @@
         "index": {
           "description": "Variables",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "Var",
           "package": "colorize-haskell",
@@ -350,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable operatros\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "VarOp",
           "package": "colorize-haskell",
@@ -360,6 +389,7 @@
         "index": {
           "description": "Variable operatros",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "VarOp",
           "package": "colorize-haskell",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotates tokens with ANSI escape sequences, suitable for a dark termianl\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "ansiDark",
           "package": "colorize-haskell",
@@ -384,6 +415,7 @@
         "index": {
           "description": "Annotates tokens with ANSI escape sequences suitable for dark termianl",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "ansiDark",
           "package": "colorize-haskell",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotates tokens with ANSI escape sequences, suitable for a dark termianl\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "ansiLight",
           "package": "colorize-haskell",
@@ -408,6 +441,7 @@
         "index": {
           "description": "Annotates tokens with ANSI escape sequences suitable for dark termianl",
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "ansiLight",
           "package": "colorize-haskell",
@@ -421,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:02 UTC 2014",
           "module": "Language.Haskell.Colorize",
           "name": "render",
           "package": "colorize-haskell",
@@ -430,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Colorize",
+          "indexed": "2014-03-11T17:36:02",
           "module": "Language.Haskell.Colorize",
           "name": "render",
           "normalized": "Style-\u003eString-\u003eShowS",

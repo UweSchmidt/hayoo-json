@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "soxlib"
+        "phrase": "soxlib",
+        "type": "phrase"
       },
       "type": "context"
     }

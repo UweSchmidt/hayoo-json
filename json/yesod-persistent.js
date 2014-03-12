@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-persistent"
+        "phrase": "yesod-persistent",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines the core functionality of this package. This package is\n distinguished from Yesod.Persist in that the latter additionally exports the\n persistent modules themselves.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "Core",
           "package": "yesod-persistent",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Defines the core functionality of this package This package is distinguished from Yesod.Persist in that the latter additionally exports the persistent modules themselves",
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "Core",
           "package": "yesod-persistent",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "DBRunner",
           "package": "yesod-persistent",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "DBRunner",
           "package": "yesod-persistent",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "YesodDB",
           "package": "yesod-persistent",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "YesodDB",
           "package": "yesod-persistent",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "YesodPersist",
           "package": "yesod-persistent",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "YesodPersist",
           "package": "yesod-persistent",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "YesodPersistRunner",
           "package": "yesod-persistent",
@@ -114,6 +123,7 @@
         "index": {
           "description": "Since",
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "YesodPersistRunner",
           "package": "yesod-persistent",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "DBRunner",
           "package": "yesod-persistent",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "DBRunner",
           "package": "yesod-persistent",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for implementing \u003ccode\u003e\u003ca\u003egetDBRunner\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "defaultGetDBRunner",
           "package": "yesod-persistent",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Helper for implementing getDBRunner Since",
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "defaultGetDBRunner",
           "normalized": "(a-\u003ePool Connection)-\u003eHandlerT a IO(DBRunner a,HandlerT a IO())",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for creating \u003ccode\u003e\u003ca\u003erunDB\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "defaultRunDB",
           "package": "yesod-persistent",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Helper for creating runDB Since",
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "defaultRunDB",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ePersistConfigPool b)-\u003ePersistConfigBackend b(HandlerT a IO)c-\u003eHandlerT a IO c",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the given entity by ID, or return a 404 not found if it doesn't exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "get404",
           "package": "yesod-persistent",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Get the given entity by ID or return not found if it doesn exist",
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "get404",
           "normalized": "Key a-\u003eb c a",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the given entity by unique key, or return a 404 not found if it doesn't\n   exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "getBy404",
           "package": "yesod-persistent",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Get the given entity by unique key or return not found if it doesn exist",
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "getBy404",
           "normalized": "Unique a-\u003eb c(Entity a)",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function differs from \u003ccode\u003e\u003ca\u003erunDB\u003c/a\u003e\u003c/code\u003e in that it returns a database\n runner function, as opposed to simply running a single action. This will\n usually mean that a connection is taken from a pool and then reused for\n each invocation. This can be useful for creating streaming responses;\n see \u003ccode\u003e\u003ca\u003erunDBSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt additionally returns a cleanup function to free the connection.  If\n your code finishes successfully, you \u003cem\u003emust\u003c/em\u003e call this cleanup to\n indicate changes should be committed. Otherwise, for SQL backends at\n least, a rollback will be used instead.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "getDBRunner",
           "package": "yesod-persistent",
@@ -263,6 +284,7 @@
         "index": {
           "description": "This function differs from runDB in that it returns database runner function as opposed to simply running single action This will usually mean that connection is taken from pool and then reused for each invocation This can be useful for creating streaming responses see runDBSource It additionally returns cleanup function to free the connection If your code finishes successfully you must call this cleanup to indicate changes should be committed Otherwise for SQL backends at least rollback will be used instead Since",
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "getDBRunner",
           "normalized": "HandlerT a IO(DBRunner a,HandlerT a IO())",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtends \u003ccode\u003e\u003ca\u003erespondSource\u003c/a\u003e\u003c/code\u003e to create a streaming database response body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "respondSourceDB",
           "package": "yesod-persistent",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Extends respondSource to create streaming database response body",
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "respondSourceDB",
           "normalized": "ContentType-\u003eSource(YesodDB a)(Flush Builder)-\u003eHandlerT a IO TypedContent",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "runDB",
           "package": "yesod-persistent",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "runDB",
           "normalized": "YesodDB a b-\u003eHandlerT a IO b",
@@ -328,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "runDBRunner",
           "package": "yesod-persistent",
@@ -337,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "runDBRunner",
           "normalized": "a b YesodDB c d-\u003eHandlerT c IO d",
@@ -353,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erunDB\u003c/a\u003e\u003c/code\u003e, but transforms a \u003ccode\u003eSource\u003c/code\u003e. See \u003ccode\u003e\u003ca\u003erespondSourceDB\u003c/a\u003e\u003c/code\u003e for an\n example, practical use case.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist.Core",
           "name": "runDBSource",
           "package": "yesod-persistent",
@@ -363,6 +392,7 @@
         "index": {
           "description": "Like runDB but transforms Source See respondSourceDB for an example practical use case Since",
           "hierarchy": "Yesod Persist Core",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist.Core",
           "name": "runDBSource",
           "normalized": "Source(YesodDB a)b-\u003eSource(HandlerT a IO)b",
@@ -378,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:13 UTC 2014",
           "module": "Yesod.Persist",
           "name": "Persist",
           "package": "yesod-persistent",
@@ -386,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Yesod Persist",
+          "indexed": "2014-03-11T20:46:13",
           "module": "Yesod.Persist",
           "name": "Persist",
           "package": "yesod-persistent",

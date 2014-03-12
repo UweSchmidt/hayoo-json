@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "billeksah-main"
+        "phrase": "billeksah-main",
+        "type": "phrase"
       },
       "type": "context"
     }

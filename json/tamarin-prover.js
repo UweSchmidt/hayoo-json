@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tamarin-prover"
+        "phrase": "tamarin-prover",
+        "type": "phrase"
       },
       "type": "context"
     }

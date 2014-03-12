@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-hash"
+        "phrase": "data-hash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficient implementation of a rolling hash, i.e., the computation of a hash through\n a moving window of a fixed size \u003ccode\u003en\u003c/code\u003e over some stream. All operations are O(1) (in\n particular, they do not depend on the size of the window).\n\u003c/p\u003e\u003cp\u003eSome laws that this type satisfies:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003ecurrentHash rh == foldl1 combine (lastHashes rh)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003elength (lastHashes rh) \u003c= windowSize rh\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003elength (lastHashes $ addAndRoll rh a) == windowSize rh -- whenever length (lastHashes rh) == windowSize rh\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003elast (lastHashes $ addAndRoll rh x) == hash a\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003einit (lastHashes $ addAndRoll rh a) \u003ccode\u003eisSuffixOf\u003c/code\u003e (lastHashes rh)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash.Rolling",
           "name": "Rolling",
           "package": "data-hash",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Efficient implementation of rolling hash i.e the computation of hash through moving window of fixed size over some stream All operations are in particular they do not depend on the size of the window Some laws that this type satisfies currentHash rh foldl1 combine lastHashes rh length lastHashes rh windowSize rh length lastHashes addAndRoll rh windowSize rh whenever length lastHashes rh windowSize rh last lastHashes addAndRoll rh hash init lastHashes addAndRoll rh isSuffixOf lastHashes rh",
           "hierarchy": "Data Hash Rolling",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash.Rolling",
           "name": "Rolling",
           "package": "data-hash",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash.Rolling",
           "name": "RollingHash",
           "package": "data-hash",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Hash Rolling",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash.Rolling",
           "name": "RollingHash",
           "package": "data-hash",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaddAndRoll x rh\u003c/code\u003e adds a new input element and rolls the window\n   one place through the input (if at least \u003ccode\u003en\u003c/code\u003e elements were\n   already consumed).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash.Rolling",
           "name": "addAndRoll",
           "package": "data-hash",
@@ -73,6 +78,7 @@
         "index": {
           "description": "addAndRoll rh adds new input element and rolls the window one place through the input if at least elements were already consumed",
           "hierarchy": "Data Hash Rolling",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash.Rolling",
           "name": "addAndRoll",
           "normalized": "RollingHash a-\u003ea-\u003eRollingHash a",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash.Rolling",
           "name": "currentHash",
           "package": "data-hash",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Data Hash Rolling",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash.Rolling",
           "name": "currentHash",
           "normalized": "RollingHash a-\u003eHash",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elastHashes rh\u003c/code\u003e returns the last \u003ccode\u003en\u003c/code\u003e hashes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash.Rolling",
           "name": "lastHashes",
           "package": "data-hash",
@@ -123,6 +132,7 @@
         "index": {
           "description": "lastHashes rh returns the last hashes",
           "hierarchy": "Data Hash Rolling",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash.Rolling",
           "name": "lastHashes",
           "normalized": "RollingHash a-\u003e[Hash]",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erollingHash n\u003c/code\u003e creates a \u003ccode\u003eRollingHash\u003c/code\u003e of window\n   size \u003ccode\u003en\u003c/code\u003e (for \u003ccode\u003en \u003e 0\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash.Rolling",
           "name": "rollingHash",
           "package": "data-hash",
@@ -149,6 +160,7 @@
         "index": {
           "description": "rollingHash creates RollingHash of window size for",
           "hierarchy": "Data Hash Rolling",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash.Rolling",
           "name": "rollingHash",
           "normalized": "Int-\u003eRollingHash a",
@@ -164,6 +176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash.Rolling",
           "name": "windowSize",
           "package": "data-hash",
@@ -173,6 +186,7 @@
         },
         "index": {
           "hierarchy": "Data Hash Rolling",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash.Rolling",
           "name": "windowSize",
           "normalized": "RollingHash a-\u003eInt",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCombinators for building fast hashing functions.\n\u003c/p\u003e\u003cp\u003eBased on the BuzHash algorithm by Robert Uzgalis\n (see, e.g. \"Hashing concepts and the Java programming language\" at\n  \u003ca\u003ehttp://www.serve.net/buz/hash.adt/java.000.html\u003c/a\u003e)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "Hash",
           "package": "data-hash",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Combinators for building fast hashing functions Based on the BuzHash algorithm by Robert Uzgalis see e.g Hashing concepts and the Java programming language at http www.serve.net buz hash.adt java.000.html",
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "Hash",
           "package": "data-hash",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 64-bit hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "Hash",
           "package": "data-hash",
@@ -221,6 +238,7 @@
         "index": {
           "description": "bit hash",
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "Hash",
           "package": "data-hash",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "Hashable",
           "package": "data-hash",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "Hashable",
           "package": "data-hash",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "asWord64",
           "package": "data-hash",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "asWord64",
           "normalized": "Hash-\u003eWord",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eh1 `combine` h2\u003c/code\u003e combines hashes \u003ccode\u003eh1\u003c/code\u003e and \u003ccode\u003eh2\u003c/code\u003e into a new hash.\n\u003c/p\u003e\u003cp\u003eIt is used to generate hash functions for complex types. For example:\n\u003c/p\u003e\u003cpre\u003e\n hashPair :: (Hashable a, Hashable b) =\u003e (a,b) -\u003e Hash\n hashPair (a,b) = hash a `combine` hash b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "combine",
           "package": "data-hash",
@@ -290,6 +313,7 @@
         "index": {
           "description": "h1 combine h2 combines hashes h1 and h2 into new hash It is used to generate hash functions for complex types For example hashPair Hashable Hashable Hash hashPair hash combine hash",
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "combine",
           "normalized": "Hash-\u003eHash-\u003eHash",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "hash",
           "package": "data-hash",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "hash",
           "normalized": "a-\u003eHash",
@@ -327,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "hashFoldable",
           "package": "data-hash",
@@ -336,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "hashFoldable",
           "normalized": "a b-\u003eHash",
@@ -351,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "hashInt",
           "package": "data-hash",
@@ -360,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "hashInt",
           "normalized": "Int-\u003eHash",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObserve that, unlike the other functions in this module,\n \u003ccode\u003ehashStorable\u003c/code\u003e is machine-dependent (the computed hash depends\n on endianness, etc.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "hashStorable",
           "package": "data-hash",
@@ -386,6 +417,7 @@
         "index": {
           "description": "Observe that unlike the other functions in this module hashStorable is machine-dependent the computed hash depends on endianness etc",
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "hashStorable",
           "normalized": "a-\u003eHash",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "hashWord16",
           "package": "data-hash",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "hashWord16",
           "normalized": "Word-\u003eHash",
@@ -425,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "hashWord32",
           "package": "data-hash",
@@ -434,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "hashWord32",
           "normalized": "Word-\u003eHash",
@@ -449,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "hashWord64",
           "package": "data-hash",
@@ -458,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "hashWord64",
           "normalized": "Word-\u003eHash",
@@ -473,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:37 UTC 2014",
           "module": "Data.Hash",
           "name": "hashWord8",
           "package": "data-hash",
@@ -482,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Data Hash",
+          "indexed": "2014-03-11T17:48:37",
           "module": "Data.Hash",
           "name": "hashWord8",
           "normalized": "Word-\u003eHash",

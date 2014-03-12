@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "safeint"
+        "phrase": "safeint",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines a variant of Haskell's Int type that is overflow-checked. If\n an overflow or arithmetic error occurs, a run-time exception is thrown.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:31 UTC 2014",
           "module": "Data.SafeInt",
           "name": "SafeInt",
           "package": "safeint",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Defines variant of Haskell Int type that is overflow-checked If an overflow or arithmetic error occurs run-time exception is thrown",
           "hierarchy": "Data SafeInt",
+          "indexed": "2014-03-11T19:56:31",
           "module": "Data.SafeInt",
           "name": "SafeInt",
           "package": "safeint",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:31 UTC 2014",
           "module": "Data.SafeInt",
           "name": "SafeInt",
           "package": "safeint",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data SafeInt",
+          "indexed": "2014-03-11T19:56:31",
           "module": "Data.SafeInt",
           "name": "SafeInt",
           "package": "safeint",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:31 UTC 2014",
           "module": "Data.SafeInt",
           "name": "SI",
           "package": "safeint",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data SafeInt",
+          "indexed": "2014-03-11T19:56:31",
           "module": "Data.SafeInt",
           "name": "SI",
           "package": "safeint",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:31 UTC 2014",
           "module": "Data.SafeInt",
           "name": "fromSafe",
           "package": "safeint",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data SafeInt",
+          "indexed": "2014-03-11T19:56:31",
           "module": "Data.SafeInt",
           "name": "fromSafe",
           "normalized": "SafeInt-\u003eInt",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:31 UTC 2014",
           "module": "Data.SafeInt",
           "name": "toSafe",
           "package": "safeint",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data SafeInt",
+          "indexed": "2014-03-11T19:56:31",
           "module": "Data.SafeInt",
           "name": "toSafe",
           "normalized": "Int-\u003eSafeInt",

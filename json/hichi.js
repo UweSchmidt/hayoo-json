@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hichi"
+        "phrase": "hichi",
+        "type": "phrase"
       },
       "type": "context"
     }

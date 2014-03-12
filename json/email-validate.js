@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "email-validate"
+        "phrase": "email-validate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:14 UTC 2014",
           "module": "Text.Email.Parser",
           "name": "Parser",
           "package": "email-validate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Email Parser",
+          "indexed": "2014-03-11T18:02:14",
           "module": "Text.Email.Parser",
           "name": "Parser",
           "package": "email-validate",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an email address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:14 UTC 2014",
           "module": "Text.Email.Parser",
           "name": "EmailAddress",
           "package": "email-validate",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Represents an email address",
           "hierarchy": "Text Email Parser",
+          "indexed": "2014-03-11T18:02:14",
           "module": "Text.Email.Parser",
           "name": "EmailAddress",
           "package": "email-validate",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser for email addresses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:14 UTC 2014",
           "module": "Text.Email.Parser",
           "name": "addrSpec",
           "package": "email-validate",
@@ -73,6 +78,7 @@
         "index": {
           "description": "parser for email addresses",
           "hierarchy": "Text Email Parser",
+          "indexed": "2014-03-11T18:02:14",
           "module": "Text.Email.Parser",
           "name": "addrSpec",
           "package": "email-validate",
@@ -167,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:14 UTC 2014",
           "module": "Text.Email.Validate",
           "name": "Validate",
           "package": "email-validate",
@@ -175,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Text Email Validate",
+          "indexed": "2014-03-11T18:02:14",
           "module": "Text.Email.Validate",
           "name": "Validate",
           "package": "email-validate",
@@ -189,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an email address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:14 UTC 2014",
           "module": "Text.Email.Validate",
           "name": "EmailAddress",
           "package": "email-validate",
@@ -198,6 +207,7 @@
         "index": {
           "description": "Represents an email address",
           "hierarchy": "Text Email Validate",
+          "indexed": "2014-03-11T18:02:14",
           "module": "Text.Email.Validate",
           "name": "EmailAddress",
           "package": "email-validate",
@@ -212,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks that an email is valid and returns a version of it\n   where comments and whitespace have been removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:14 UTC 2014",
           "module": "Text.Email.Validate",
           "name": "canonicalizeEmail",
           "package": "email-validate",
@@ -222,6 +233,7 @@
         "index": {
           "description": "Checks that an email is valid and returns version of it where comments and whitespace have been removed",
           "hierarchy": "Text Email Validate",
+          "indexed": "2014-03-11T18:02:14",
           "module": "Text.Email.Validate",
           "name": "canonicalizeEmail",
           "normalized": "ByteString-\u003eMaybe ByteString",
@@ -238,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for an email address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:14 UTC 2014",
           "module": "Text.Email.Validate",
           "name": "emailAddress",
           "package": "email-validate",
@@ -248,6 +261,7 @@
         "index": {
           "description": "Smart constructor for an email address",
           "hierarchy": "Text Email Validate",
+          "indexed": "2014-03-11T18:02:14",
           "module": "Text.Email.Validate",
           "name": "emailAddress",
           "normalized": "ByteString-\u003eMaybe EmailAddress",
@@ -264,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidates whether a particular string is an email address\n   according to RFC5322.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:14 UTC 2014",
           "module": "Text.Email.Validate",
           "name": "isValid",
           "package": "email-validate",
@@ -274,6 +289,7 @@
         "index": {
           "description": "Validates whether particular string is an email address according to RFC5322",
           "hierarchy": "Text Email Validate",
+          "indexed": "2014-03-11T18:02:14",
           "module": "Text.Email.Validate",
           "name": "isValid",
           "normalized": "ByteString-\u003eBool",
@@ -290,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf you want to find out *why* a particular string is not\n   an email address, use this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:14 UTC 2014",
           "module": "Text.Email.Validate",
           "name": "validate",
           "package": "email-validate",
@@ -300,6 +317,7 @@
         "index": {
           "description": "If you want to find out why particular string is not an email address use this",
           "hierarchy": "Text Email Validate",
+          "indexed": "2014-03-11T18:02:14",
           "module": "Text.Email.Validate",
           "name": "validate",
           "normalized": "ByteString-\u003eEither String EmailAddress",

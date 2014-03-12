@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GPipe"
+        "phrase": "GPipe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the various formats that are used by \u003ccode\u003eFrameBuffer\u003c/code\u003es and textures, both\n on the GPU and the CPU.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Format",
           "package": "GPipe",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines the various formats that are used by FrameBuffer and textures both on the GPU and the CPU",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Format",
           "package": "GPipe",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GPU format with only an alpha value.\n These are the associated types in \u003ccode\u003e\u003ca\u003eGPUFormat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eColorFormat\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eCPUFormat AlphaFormat\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eCPUFormat1Comp\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eColor AlphaFormat a\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003eAlpha a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "AlphaFormat",
           "package": "GPipe",
@@ -51,6 +54,7 @@
         "index": {
           "description": "GPU format with only an alpha value These are the associated types in GPUFormat and ColorFormat CPUFormat AlphaFormat CPUFormat1Comp Color AlphaFormat Alpha",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "AlphaFormat",
           "package": "GPipe",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CPU format for 1 component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "CPUFormat1Comp",
           "package": "GPipe",
@@ -74,6 +79,7 @@
         "index": {
           "description": "CPU format for component",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "CPUFormat1Comp",
           "package": "GPipe",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CPU format for 2 components (i.e. a LuminanceAlpha color).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "CPUFormat2Comp",
           "package": "GPipe",
@@ -97,6 +104,7 @@
         "index": {
           "description": "CPU format for components i.e LuminanceAlpha color",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "CPUFormat2Comp",
           "package": "GPipe",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CPU format for 3 components (i.e. a RGB color).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "CPUFormat3Comp",
           "package": "GPipe",
@@ -120,6 +129,7 @@
         "index": {
           "description": "CPU format for components i.e RGB color",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "CPUFormat3Comp",
           "package": "GPipe",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CPU format for 4 components (i.e. a RGBA color).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "CPUFormat4Comp",
           "package": "GPipe",
@@ -143,6 +154,7 @@
         "index": {
           "description": "CPU format for components i.e RGBA color",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "CPUFormat4Comp",
           "package": "GPipe",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis context is used to select which types can be used in a frame buffers color buffer, and also\n to restrict the type of a texture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "ColorFormat",
           "package": "GPipe",
@@ -166,6 +179,7 @@
         "index": {
           "description": "This context is used to select which types can be used in frame buffers color buffer and also to restrict the type of texture",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "ColorFormat",
           "package": "GPipe",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Depth",
           "package": "GPipe",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Depth",
           "package": "GPipe",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GPU format for a depth buffer value.\n This is the associated type in \u003ccode\u003e\u003ca\u003eGPUFormat\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eCPUFormat DepthFormat\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eCPUFormat1Comp\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "DepthFormat",
           "package": "GPipe",
@@ -210,6 +227,7 @@
         "index": {
           "description": "GPU format for depth buffer value This is the associated type in GPUFormat CPUFormat DepthFormat CPUFormat1Comp",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "DepthFormat",
           "package": "GPipe",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "GPUFormat",
           "package": "GPipe",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "GPUFormat",
           "package": "GPipe",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GPU format with a single color component and an alpha value.\n These are the associated types in \u003ccode\u003e\u003ca\u003eGPUFormat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eColorFormat\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eCPUFormat LuminanceAlphaFormat\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eCPUFormat2Comp\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eColor LuminanceAlphaFormat a\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003eLuminanceAlpha a a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "LuminanceAlphaFormat",
           "package": "GPipe",
@@ -254,6 +275,7 @@
         "index": {
           "description": "GPU format with single color component and an alpha value These are the associated types in GPUFormat and ColorFormat CPUFormat LuminanceAlphaFormat CPUFormat2Comp Color LuminanceAlphaFormat LuminanceAlpha",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "LuminanceAlphaFormat",
           "package": "GPipe",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GPU format with a single color component.\n These are the associated types in \u003ccode\u003e\u003ca\u003eGPUFormat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eColorFormat\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eCPUFormat LuminanceFormat\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eCPUFormat1Comp\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eColor LuminanceFormat a\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003eLuminance a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "LuminanceFormat",
           "package": "GPipe",
@@ -277,6 +300,7 @@
         "index": {
           "description": "GPU format with single color component These are the associated types in GPUFormat and ColorFormat CPUFormat LuminanceFormat CPUFormat1Comp Color LuminanceFormat Luminance",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "LuminanceFormat",
           "package": "GPipe",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GPU format with color components for red, green and blue, and an alpha value.\n These are the associated types in \u003ccode\u003e\u003ca\u003eGPUFormat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eColorFormat\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eCPUFormat RGBAFormat\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eCPUFormat4Comp\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eColor RGBAFormat a\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003eRGBA (\u003c/code\u003e\u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e\u003ccode\u003e a) a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGBAFormat",
           "package": "GPipe",
@@ -300,6 +325,7 @@
         "index": {
           "description": "GPU format with color components for red green and blue and an alpha value These are the associated types in GPUFormat and ColorFormat CPUFormat RGBAFormat CPUFormat4Comp Color RGBAFormat RGBA Vec3",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGBAFormat",
           "package": "GPipe",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GPU format with color components for red, green and blue.\n These are the associated types in \u003ccode\u003e\u003ca\u003eGPUFormat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eColorFormat\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eCPUFormat RGBFormat\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eCPUFormat3Comp\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eColor RGBFormat a\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003eRGB (\u003c/code\u003e\u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e\u003ccode\u003e a)\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGBFormat",
           "package": "GPipe",
@@ -323,6 +350,7 @@
         "index": {
           "description": "GPU format with color components for red green and blue These are the associated types in GPUFormat and ColorFormat CPUFormat RGBFormat CPUFormat3Comp Color RGBFormat RGB Vec3",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGBFormat",
           "package": "GPipe",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Stencil",
           "package": "GPipe",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Stencil",
           "package": "GPipe",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GPU format for a stencil buffer value.\n This is the associated type in \u003ccode\u003e\u003ca\u003eGPUFormat\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eCPUFormat StencilFormat\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eCPUFormat1Comp\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "StencilFormat",
           "package": "GPipe",
@@ -367,6 +398,7 @@
         "index": {
           "description": "GPU format for stencil buffer value This is the associated type in GPUFormat CPUFormat StencilFormat CPUFormat1Comp",
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "StencilFormat",
           "package": "GPipe",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "StorableCPUFormat",
           "package": "GPipe",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "StorableCPUFormat",
           "package": "GPipe",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Alpha12",
           "package": "GPipe",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Alpha12",
           "package": "GPipe",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Alpha16",
           "package": "GPipe",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Alpha16",
           "package": "GPipe",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Alpha4",
           "package": "GPipe",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Alpha4",
           "package": "GPipe",
@@ -467,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Alpha8",
           "package": "GPipe",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Alpha8",
           "package": "GPipe",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "BitmapFormat",
           "package": "GPipe",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "BitmapFormat",
           "package": "GPipe",
@@ -511,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "ByteFormat",
           "package": "GPipe",
@@ -520,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "ByteFormat",
           "package": "GPipe",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Depth16",
           "package": "GPipe",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Depth16",
           "package": "GPipe",
@@ -555,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Depth24",
           "package": "GPipe",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Depth24",
           "package": "GPipe",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Depth32",
           "package": "GPipe",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Depth32",
           "package": "GPipe",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "FloatFormat",
           "package": "GPipe",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "FloatFormat",
           "package": "GPipe",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "IntFormat",
           "package": "GPipe",
@@ -630,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "IntFormat",
           "package": "GPipe",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance12",
           "package": "GPipe",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance12",
           "package": "GPipe",
@@ -665,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance12Alpha12",
           "package": "GPipe",
@@ -674,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance12Alpha12",
           "package": "GPipe",
@@ -687,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance12Alpha4",
           "package": "GPipe",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance12Alpha4",
           "package": "GPipe",
@@ -709,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance16",
           "package": "GPipe",
@@ -718,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance16",
           "package": "GPipe",
@@ -731,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance16Alpha16",
           "package": "GPipe",
@@ -740,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance16Alpha16",
           "package": "GPipe",
@@ -753,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance4",
           "package": "GPipe",
@@ -762,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance4",
           "package": "GPipe",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance4Alpha4",
           "package": "GPipe",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance4Alpha4",
           "package": "GPipe",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance6Alpha2",
           "package": "GPipe",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance6Alpha2",
           "package": "GPipe",
@@ -819,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance8",
           "package": "GPipe",
@@ -828,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance8",
           "package": "GPipe",
@@ -841,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance8Alpha8",
           "package": "GPipe",
@@ -850,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "Luminance8Alpha8",
           "package": "GPipe",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "PerComp2",
           "package": "GPipe",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "PerComp2",
           "package": "GPipe",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "PerComp3",
           "package": "GPipe",
@@ -894,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "PerComp3",
           "package": "GPipe",
@@ -907,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "PerComp4",
           "package": "GPipe",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "PerComp4",
           "package": "GPipe",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "R3G3B2",
           "package": "GPipe",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "R3G3B2",
           "package": "GPipe",
@@ -950,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGB10",
           "package": "GPipe",
@@ -959,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGB10",
           "package": "GPipe",
@@ -972,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGB10A2",
           "package": "GPipe",
@@ -981,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGB10A2",
           "package": "GPipe",
@@ -994,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGB12",
           "package": "GPipe",
@@ -1003,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGB12",
           "package": "GPipe",
@@ -1016,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGB16",
           "package": "GPipe",
@@ -1025,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGB16",
           "package": "GPipe",
@@ -1038,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGB4",
           "package": "GPipe",
@@ -1047,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGB4",
           "package": "GPipe",
@@ -1060,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGB5",
           "package": "GPipe",
@@ -1069,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGB5",
           "package": "GPipe",
@@ -1082,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGB5A1",
           "package": "GPipe",
@@ -1091,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGB5A1",
           "package": "GPipe",
@@ -1104,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGB8",
           "package": "GPipe",
@@ -1113,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGB8",
           "package": "GPipe",
@@ -1126,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGBA12",
           "package": "GPipe",
@@ -1135,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGBA12",
           "package": "GPipe",
@@ -1148,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGBA16",
           "package": "GPipe",
@@ -1157,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGBA16",
           "package": "GPipe",
@@ -1170,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGBA2",
           "package": "GPipe",
@@ -1179,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGBA2",
           "package": "GPipe",
@@ -1192,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGBA4",
           "package": "GPipe",
@@ -1201,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGBA4",
           "package": "GPipe",
@@ -1214,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "RGBA8",
           "package": "GPipe",
@@ -1223,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "RGBA8",
           "package": "GPipe",
@@ -1236,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "SLuminance8",
           "package": "GPipe",
@@ -1245,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "SLuminance8",
           "package": "GPipe",
@@ -1258,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "SLuminance8Alpha8",
           "package": "GPipe",
@@ -1267,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "SLuminance8Alpha8",
           "package": "GPipe",
@@ -1280,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "SRGB8",
           "package": "GPipe",
@@ -1289,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "SRGB8",
           "package": "GPipe",
@@ -1302,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "SRGBA8",
           "package": "GPipe",
@@ -1311,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "SRGBA8",
           "package": "GPipe",
@@ -1324,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "ShortFormat",
           "package": "GPipe",
@@ -1333,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "ShortFormat",
           "package": "GPipe",
@@ -1346,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "StencilFormat",
           "package": "GPipe",
@@ -1355,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "StencilFormat",
           "package": "GPipe",
@@ -1368,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedByte2_3_3_Rev",
           "package": "GPipe",
@@ -1377,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedByte2_3_3_Rev",
           "package": "GPipe",
@@ -1390,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedByte3_3_2",
           "package": "GPipe",
@@ -1399,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedByte3_3_2",
           "package": "GPipe",
@@ -1412,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedByteFormat",
           "package": "GPipe",
@@ -1421,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedByteFormat",
           "package": "GPipe",
@@ -1434,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedInt10_10_10_2",
           "package": "GPipe",
@@ -1443,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedInt10_10_10_2",
           "package": "GPipe",
@@ -1456,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedInt2_10_10_10_Rev",
           "package": "GPipe",
@@ -1465,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedInt2_10_10_10_Rev",
           "package": "GPipe",
@@ -1478,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedInt8_8_8_8",
           "package": "GPipe",
@@ -1487,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedInt8_8_8_8",
           "package": "GPipe",
@@ -1500,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedInt8_8_8_8_Rev",
           "package": "GPipe",
@@ -1509,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedInt8_8_8_8_Rev",
           "package": "GPipe",
@@ -1522,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedIntFormat",
           "package": "GPipe",
@@ -1531,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedIntFormat",
           "package": "GPipe",
@@ -1544,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShort1_5_5_5_Rev",
           "package": "GPipe",
@@ -1553,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShort1_5_5_5_Rev",
           "package": "GPipe",
@@ -1566,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShort4_4_4_4",
           "package": "GPipe",
@@ -1575,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShort4_4_4_4",
           "package": "GPipe",
@@ -1588,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShort4_4_4_4_Rev",
           "package": "GPipe",
@@ -1597,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShort4_4_4_4_Rev",
           "package": "GPipe",
@@ -1610,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShort5_5_5_1",
           "package": "GPipe",
@@ -1619,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShort5_5_5_1",
           "package": "GPipe",
@@ -1632,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShort5_6_5",
           "package": "GPipe",
@@ -1641,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShort5_6_5",
           "package": "GPipe",
@@ -1654,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShort5_6_5_Rev",
           "package": "GPipe",
@@ -1663,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShort5_6_5_Rev",
           "package": "GPipe",
@@ -1676,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShortFormat",
           "package": "GPipe",
@@ -1685,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Format",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Format",
           "name": "UnsignedShortFormat",
           "package": "GPipe",
@@ -1699,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003es are 2D images in which fragments from \u003ccode\u003eFragmentStream\u003c/code\u003es are painted. A \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003e\n may contain any combination of a color buffer, a depth buffer and a stencil buffer.\n \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003es may be shown in windows, saved to memory or converted to textures.\n \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003es have no size, but takes the size of the window when shown, or are given a size when\n saved to memory or converted to a texture.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "FrameBuffer",
           "package": "GPipe",
@@ -1708,6 +1861,7 @@
         "index": {
           "description": "FrameBuffer are images in which fragments from FragmentStream are painted FrameBuffer may contain any combination of color buffer depth buffer and stencil buffer FrameBuffer may be shown in windows saved to memory or converted to textures FrameBuffer have no size but takes the size of the window when shown or are given size when saved to memory or converted to texture",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "FrameBuffer",
           "package": "GPipe",
@@ -1721,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "BlendEquation",
           "package": "GPipe",
@@ -1728,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "BlendEquation",
           "package": "GPipe",
@@ -1742,6 +1898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets how the painted colors are blended with the \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003es previous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Blending",
           "package": "GPipe",
@@ -1751,6 +1908,7 @@
         "index": {
           "description": "Sets how the painted colors are blended with the FrameBuffer previous value",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Blending",
           "package": "GPipe",
@@ -1764,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "BlendingFactor",
           "package": "GPipe",
@@ -1771,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "BlendingFactor",
           "package": "GPipe",
@@ -1785,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e for each color component that should be written to the \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "ColorMask",
           "package": "GPipe",
@@ -1794,6 +1955,7 @@
         "index": {
           "description": "True for each color component that should be written to the FrameBuffer",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "ColorMask",
           "package": "GPipe",
@@ -1807,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "ComparisonFunction",
           "package": "GPipe",
@@ -1814,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "ComparisonFunction",
           "package": "GPipe",
@@ -1828,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function used to compare the fragment's depth and the depth buffers depth with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "DepthFunction",
           "package": "GPipe",
@@ -1837,6 +2002,7 @@
         "index": {
           "description": "The function used to compare the fragment depth and the depth buffers depth with",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "DepthFunction",
           "package": "GPipe",
@@ -1851,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the depth component should be written to the \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "DepthMask",
           "package": "GPipe",
@@ -1860,6 +2027,7 @@
         "index": {
           "description": "True if the depth component should be written to the FrameBuffer",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "DepthMask",
           "package": "GPipe",
@@ -1873,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "FragmentDepth",
           "package": "GPipe",
@@ -1881,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "FragmentDepth",
           "package": "GPipe",
@@ -1895,6 +2065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polymorphic frame buffer. It is parameterized on the type of color buffer, depth buffer and stencil buffer.\n Any instances of \u003ccode\u003e\u003ca\u003eColorFormat\u003c/a\u003e\u003c/code\u003e can be used for color buffer, or '()' to denote \u003ca\u003eno color buffer\u003c/a\u003e.\n For depth and stencil buffers, \u003ccode\u003e\u003ca\u003eDepthFormat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eStencilFormat\u003c/a\u003e\u003c/code\u003e marks the existance of buffer, while '()'\n marks the inexistance.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "FrameBuffer",
           "package": "GPipe",
@@ -1904,6 +2075,7 @@
         "index": {
           "description": "polymorphic frame buffer It is parameterized on the type of color buffer depth buffer and stencil buffer Any instances of ColorFormat can be used for color buffer or to denote no color buffer For depth and stencil buffers DepthFormat and StencilFormat marks the existance of buffer while marks the inexistance",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "FrameBuffer",
           "package": "GPipe",
@@ -1917,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "LogicOp",
           "package": "GPipe",
@@ -1924,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "LogicOp",
           "package": "GPipe",
@@ -1937,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilOp",
           "package": "GPipe",
@@ -1944,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilOp",
           "package": "GPipe",
@@ -1958,6 +2134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the operations that should be performed on the \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003es stencil value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilOps",
           "package": "GPipe",
@@ -1967,6 +2144,7 @@
         "index": {
           "description": "Sets the operations that should be performed on the FrameBuffer stencil value",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilOps",
           "package": "GPipe",
@@ -1981,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a test that should be performed on the stencil value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilTest",
           "package": "GPipe",
@@ -1990,6 +2169,7 @@
         "index": {
           "description": "Sets test that should be performed on the stencil value",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilTest",
           "package": "GPipe",
@@ -2004,6 +2184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the tests that should be performed on the stencil value, first for front facing triangles and other primitives, then for back facing triangles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilTests",
           "package": "GPipe",
@@ -2013,6 +2194,7 @@
         "index": {
           "description": "Sets the tests that should be performed on the stencil value first for front facing triangles and other primitives then for back facing triangles",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilTests",
           "package": "GPipe",
@@ -2026,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Always",
           "package": "GPipe",
@@ -2034,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Always",
           "package": "GPipe",
@@ -2047,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "And",
           "package": "GPipe",
@@ -2055,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "And",
           "package": "GPipe",
@@ -2068,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "AndInverted",
           "package": "GPipe",
@@ -2076,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "AndInverted",
           "package": "GPipe",
@@ -2089,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "AndReverse",
           "package": "GPipe",
@@ -2097,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "AndReverse",
           "package": "GPipe",
@@ -2111,6 +2301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse blending equations to combine the fragment with the previous value.\n The first \u003ccode\u003e\u003ca\u003eBlendEquation\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eBlendingFactor\u003c/a\u003e\u003c/code\u003es is used for front faced triangles and other primitives,\n and the second for back faced triangles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Blend",
           "package": "GPipe",
@@ -2121,6 +2312,7 @@
         "index": {
           "description": "Use blending equations to combine the fragment with the previous value The first BlendEquation and BlendingFactor is used for front faced triangles and other primitives and the second for back faced triangles",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Blend",
           "normalized": "Blend(BlendEquation,BlendEquation)((BlendingFactor,BlendingFactor),(BlendingFactor,BlendingFactor))(Color RGBAFormat Float)",
@@ -2137,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a \u003ccode\u003e\u003ca\u003eLogicOp\u003c/a\u003e\u003c/code\u003e to combine the fragment with the previous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "BlendLogicOp",
           "package": "GPipe",
@@ -2147,6 +2340,7 @@
         "index": {
           "description": "Use LogicOp to combine the fragment with the previous value",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "BlendLogicOp",
           "package": "GPipe",
@@ -2160,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Clear",
           "package": "GPipe",
@@ -2168,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Clear",
           "package": "GPipe",
@@ -2181,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "ConstantAlpha",
           "package": "GPipe",
@@ -2189,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "ConstantAlpha",
           "package": "GPipe",
@@ -2202,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "ConstantColor",
           "package": "GPipe",
@@ -2210,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "ConstantColor",
           "package": "GPipe",
@@ -2223,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Copy",
           "package": "GPipe",
@@ -2231,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Copy",
           "package": "GPipe",
@@ -2244,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "CopyInverted",
           "package": "GPipe",
@@ -2252,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "CopyInverted",
           "package": "GPipe",
@@ -2265,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "DstAlpha",
           "package": "GPipe",
@@ -2273,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "DstAlpha",
           "package": "GPipe",
@@ -2286,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "DstColor",
           "package": "GPipe",
@@ -2294,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "DstColor",
           "package": "GPipe",
@@ -2307,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Equal",
           "package": "GPipe",
@@ -2315,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Equal",
           "package": "GPipe",
@@ -2328,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Equiv",
           "package": "GPipe",
@@ -2336,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Equiv",
           "package": "GPipe",
@@ -2349,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "FuncAdd",
           "package": "GPipe",
@@ -2357,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "FuncAdd",
           "package": "GPipe",
@@ -2370,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "FuncReverseSubtract",
           "package": "GPipe",
@@ -2378,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "FuncReverseSubtract",
           "package": "GPipe",
@@ -2391,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "FuncSubtract",
           "package": "GPipe",
@@ -2399,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "FuncSubtract",
           "package": "GPipe",
@@ -2412,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Gequal",
           "package": "GPipe",
@@ -2420,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Gequal",
           "package": "GPipe",
@@ -2433,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Greater",
           "package": "GPipe",
@@ -2441,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Greater",
           "package": "GPipe",
@@ -2454,6 +2676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Invert",
           "package": "GPipe",
@@ -2462,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Invert",
           "package": "GPipe",
@@ -2475,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Lequal",
           "package": "GPipe",
@@ -2483,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Lequal",
           "package": "GPipe",
@@ -2496,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Less",
           "package": "GPipe",
@@ -2504,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Less",
           "package": "GPipe",
@@ -2517,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "LogicOp",
           "package": "GPipe",
@@ -2525,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "LogicOp",
           "package": "GPipe",
@@ -2538,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Max",
           "package": "GPipe",
@@ -2546,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Max",
           "package": "GPipe",
@@ -2559,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Min",
           "package": "GPipe",
@@ -2567,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Min",
           "package": "GPipe",
@@ -2580,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Nand",
           "package": "GPipe",
@@ -2588,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Nand",
           "package": "GPipe",
@@ -2601,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Never",
           "package": "GPipe",
@@ -2609,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Never",
           "package": "GPipe",
@@ -2623,6 +2861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe painted fragment completely overwrites the previous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "NoBlending",
           "package": "GPipe",
@@ -2633,6 +2872,7 @@
         "index": {
           "description": "The painted fragment completely overwrites the previous value",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "NoBlending",
           "package": "GPipe",
@@ -2646,6 +2886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Noop",
           "package": "GPipe",
@@ -2654,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Noop",
           "package": "GPipe",
@@ -2667,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Nor",
           "package": "GPipe",
@@ -2675,6 +2918,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Nor",
           "package": "GPipe",
@@ -2688,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Notequal",
           "package": "GPipe",
@@ -2696,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Notequal",
           "package": "GPipe",
@@ -2709,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "One",
           "package": "GPipe",
@@ -2717,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "One",
           "package": "GPipe",
@@ -2730,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OneMinusConstantAlpha",
           "package": "GPipe",
@@ -2738,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OneMinusConstantAlpha",
           "package": "GPipe",
@@ -2751,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OneMinusConstantColor",
           "package": "GPipe",
@@ -2759,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OneMinusConstantColor",
           "package": "GPipe",
@@ -2772,6 +3024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OneMinusDstAlpha",
           "package": "GPipe",
@@ -2780,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OneMinusDstAlpha",
           "package": "GPipe",
@@ -2793,6 +3047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OneMinusDstColor",
           "package": "GPipe",
@@ -2801,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OneMinusDstColor",
           "package": "GPipe",
@@ -2814,6 +3070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OneMinusSrcAlpha",
           "package": "GPipe",
@@ -2822,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OneMinusSrcAlpha",
           "package": "GPipe",
@@ -2835,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OneMinusSrcColor",
           "package": "GPipe",
@@ -2843,6 +3102,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OneMinusSrcColor",
           "package": "GPipe",
@@ -2856,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpDecr",
           "package": "GPipe",
@@ -2864,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpDecr",
           "package": "GPipe",
@@ -2877,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpDecrWrap",
           "package": "GPipe",
@@ -2885,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpDecrWrap",
           "package": "GPipe",
@@ -2898,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpIncr",
           "package": "GPipe",
@@ -2906,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpIncr",
           "package": "GPipe",
@@ -2919,6 +3185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpIncrWrap",
           "package": "GPipe",
@@ -2927,6 +3194,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpIncrWrap",
           "package": "GPipe",
@@ -2940,6 +3208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpInvert",
           "package": "GPipe",
@@ -2948,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpInvert",
           "package": "GPipe",
@@ -2961,6 +3231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpKeep",
           "package": "GPipe",
@@ -2969,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpKeep",
           "package": "GPipe",
@@ -2982,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpReplace",
           "package": "GPipe",
@@ -2990,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpReplace",
           "package": "GPipe",
@@ -3003,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpZero",
           "package": "GPipe",
@@ -3011,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OpZero",
           "package": "GPipe",
@@ -3024,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Or",
           "package": "GPipe",
@@ -3032,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Or",
           "package": "GPipe",
@@ -3045,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OrInverted",
           "package": "GPipe",
@@ -3053,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OrInverted",
           "package": "GPipe",
@@ -3066,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OrReverse",
           "package": "GPipe",
@@ -3074,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "OrReverse",
           "package": "GPipe",
@@ -3087,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Set",
           "package": "GPipe",
@@ -3095,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Set",
           "package": "GPipe",
@@ -3108,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "SrcAlpha",
           "package": "GPipe",
@@ -3116,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "SrcAlpha",
           "package": "GPipe",
@@ -3129,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "SrcAlphaSaturate",
           "package": "GPipe",
@@ -3137,6 +3424,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "SrcAlphaSaturate",
           "package": "GPipe",
@@ -3150,6 +3438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "SrcColor",
           "package": "GPipe",
@@ -3158,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "SrcColor",
           "package": "GPipe",
@@ -3171,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilOps",
           "package": "GPipe",
@@ -3180,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilOps",
           "package": "GPipe",
@@ -3193,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilTest",
           "package": "GPipe",
@@ -3202,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilTest",
           "package": "GPipe",
@@ -3215,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilTests",
           "package": "GPipe",
@@ -3224,6 +3519,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "StencilTests",
           "package": "GPipe",
@@ -3237,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Xor",
           "package": "GPipe",
@@ -3245,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Xor",
           "package": "GPipe",
@@ -3258,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Zero",
           "package": "GPipe",
@@ -3266,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "Zero",
           "package": "GPipe",
@@ -3280,6 +3580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for back faced triangles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "backStencilOp",
           "package": "GPipe",
@@ -3290,6 +3591,7 @@
         "index": {
           "description": "Used for back faced triangles",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "backStencilOp",
           "package": "GPipe",
@@ -3304,6 +3606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for front faced triangles and other primitives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "frontStencilOp",
           "package": "GPipe",
@@ -3314,6 +3617,7 @@
         "index": {
           "description": "Used for front faced triangles and other primitives",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "frontStencilOp",
           "package": "GPipe",
@@ -3328,6 +3632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the byte size needed to store a certain format and size of a framebuffer. Use this to\n allocate memory before using \u003ccode\u003e\u003ca\u003egetFrameBufferColor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egetFrameBufferDepth\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003egetFrameBufferStencil\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "getFrameBufferCPUFormatByteSize",
           "package": "GPipe",
@@ -3337,6 +3642,7 @@
         "index": {
           "description": "Returns the byte size needed to store certain format and size of framebuffer Use this to allocate memory before using getFrameBufferColor getFrameBufferDepth or getFrameBufferStencil",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "getFrameBufferCPUFormatByteSize",
           "normalized": "a-\u003eVec Int-\u003eInt",
@@ -3353,6 +3659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves a \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003es color buffer to main memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "getFrameBufferColor",
           "package": "GPipe",
@@ -3362,6 +3669,7 @@
         "index": {
           "description": "Saves FrameBuffer color buffer to main memory",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "getFrameBufferColor",
           "normalized": "CPUFormat a-\u003eVec Int-\u003eFrameBuffer a b c-\u003ePtr d-\u003eIO()",
@@ -3378,6 +3686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves a \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003es depth buffer to main memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "getFrameBufferDepth",
           "package": "GPipe",
@@ -3387,6 +3696,7 @@
         "index": {
           "description": "Saves FrameBuffer depth buffer to main memory",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "getFrameBufferDepth",
           "normalized": "CPUFormat DepthFormat-\u003eVec Int-\u003eFrameBuffer a DepthFormat b-\u003ePtr c-\u003eIO()",
@@ -3403,6 +3713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves a \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003es stencil buffer to main memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "getFrameBufferStencil",
           "package": "GPipe",
@@ -3412,6 +3723,7 @@
         "index": {
           "description": "Saves FrameBuffer stencil buffer to main memory",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "getFrameBufferStencil",
           "normalized": "CPUFormat StencilFormat-\u003eVec Int-\u003eFrameBuffer a b StencilFormat-\u003ePtr c-\u003eIO()",
@@ -3427,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferColor",
           "package": "GPipe",
@@ -3436,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferColor",
           "normalized": "Color a Float-\u003eFrameBuffer a()()",
@@ -3451,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferColorDepth",
           "package": "GPipe",
@@ -3460,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferColorDepth",
           "normalized": "Color a Float-\u003eDepth-\u003eFrameBuffer a DepthFormat()",
@@ -3475,6 +3791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferColorDepthStencil",
           "package": "GPipe",
@@ -3484,6 +3801,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferColorDepthStencil",
           "normalized": "Color a Float-\u003eDepth-\u003eStencil-\u003eFrameBuffer a DepthFormat StencilFormat",
@@ -3499,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferColorStencil",
           "package": "GPipe",
@@ -3508,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferColorStencil",
           "normalized": "Color a Float-\u003eStencil-\u003eFrameBuffer a()StencilFormat",
@@ -3523,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferDepth",
           "package": "GPipe",
@@ -3532,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferDepth",
           "normalized": "Depth-\u003eFrameBuffer()DepthFormat()",
@@ -3547,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferDepthStencil",
           "package": "GPipe",
@@ -3556,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferDepthStencil",
           "normalized": "Depth-\u003eStencil-\u003eFrameBuffer()DepthFormat StencilFormat",
@@ -3571,6 +3895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferStencil",
           "package": "GPipe",
@@ -3580,6 +3905,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newFrameBufferStencil",
           "normalized": "Stencil-\u003eFrameBuffer()()StencilFormat",
@@ -3596,6 +3922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCretes and shows a new GPipe window. Use the last parameter to add extra GLUT callbacks to the window. Note that you can't register your own \u003ccode\u003e\u003ca\u003edisplayCallback\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ereshapeCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newWindow",
           "package": "GPipe",
@@ -3605,6 +3932,7 @@
         "index": {
           "description": "Cretes and shows new GPipe window Use the last parameter to add extra GLUT callbacks to the window Note that you can register your own displayCallback and reshapeCallback",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "newWindow",
           "normalized": "String-\u003eVec Int-\u003eVec Int-\u003e(Vec Int-\u003eIO(FrameBuffer a b c))-\u003e(Window-\u003eIO())-\u003eIO()",
@@ -3620,6 +3948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintColor",
           "package": "GPipe",
@@ -3629,6 +3958,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintColor",
           "normalized": "Blending-\u003eColorMask a-\u003eFragmentStream(Color a(Fragment Float))-\u003eFrameBuffer a b c-\u003eFrameBuffer a b c",
@@ -3644,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintColorDepth",
           "package": "GPipe",
@@ -3653,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintColorDepth",
           "normalized": "DepthFunction-\u003eDepthMask-\u003eBlending-\u003eColorMask a-\u003eFragmentStream(Color a(Fragment Float),FragmentDepth)-\u003eFrameBuffer a DepthFormat b-\u003eFrameBuffer a DepthFormat b",
@@ -3668,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintColorDepthStencil",
           "package": "GPipe",
@@ -3677,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintColorDepthStencil",
           "normalized": "StencilTests-\u003eStencilOps-\u003eDepthFunction-\u003eDepthMask-\u003eStencilOps-\u003eStencilOps-\u003eBlending-\u003eColorMask a-\u003eFragmentStream(Color a(Fragment Float),FragmentDepth)-\u003eFrameBuffer a DepthFormat StencilFormat-\u003eFrameBuffer a DepthFormat StencilFormat",
@@ -3692,6 +4026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintColorRastDepth",
           "package": "GPipe",
@@ -3701,6 +4036,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintColorRastDepth",
           "normalized": "DepthFunction-\u003eDepthMask-\u003eBlending-\u003eColorMask a-\u003eFragmentStream(Color a(Fragment Float))-\u003eFrameBuffer a DepthFormat b-\u003eFrameBuffer a DepthFormat b",
@@ -3716,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintColorRastDepthStencil",
           "package": "GPipe",
@@ -3725,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintColorRastDepthStencil",
           "normalized": "StencilTests-\u003eStencilOps-\u003eDepthFunction-\u003eDepthMask-\u003eStencilOps-\u003eStencilOps-\u003eBlending-\u003eColorMask a-\u003eFragmentStream(Color a(Fragment Float))-\u003eFrameBuffer a DepthFormat StencilFormat-\u003eFrameBuffer a DepthFormat StencilFormat",
@@ -3740,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintColorStencil",
           "package": "GPipe",
@@ -3749,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintColorStencil",
           "normalized": "StencilTests-\u003eStencilOps-\u003eStencilOps-\u003eBlending-\u003eColorMask a-\u003eFragmentStream(Color a(Fragment Float))-\u003eFrameBuffer a b StencilFormat-\u003eFrameBuffer a b StencilFormat",
@@ -3764,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintDepth",
           "package": "GPipe",
@@ -3773,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintDepth",
           "normalized": "DepthFunction-\u003eDepthMask-\u003eFragmentStream FragmentDepth-\u003eFrameBuffer a DepthFormat b-\u003eFrameBuffer a DepthFormat b",
@@ -3788,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintDepthStencil",
           "package": "GPipe",
@@ -3797,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintDepthStencil",
           "normalized": "StencilTests-\u003eStencilOps-\u003eDepthFunction-\u003eDepthMask-\u003eStencilOps-\u003eStencilOps-\u003eFragmentStream FragmentDepth-\u003eFrameBuffer a DepthFormat StencilFormat-\u003eFrameBuffer a DepthFormat StencilFormat",
@@ -3812,6 +4156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintRastDepth",
           "package": "GPipe",
@@ -3821,6 +4166,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintRastDepth",
           "normalized": "DepthFunction-\u003eDepthMask-\u003eFragmentStream(Fragment a)-\u003eFrameBuffer b DepthFormat c-\u003eFrameBuffer b DepthFormat c",
@@ -3836,6 +4182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintRastDepthStencil",
           "package": "GPipe",
@@ -3845,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintRastDepthStencil",
           "normalized": "StencilTests-\u003eStencilOps-\u003eDepthFunction-\u003eDepthMask-\u003eStencilOps-\u003eStencilOps-\u003eFragmentStream(Fragment a)-\u003eFrameBuffer b DepthFormat StencilFormat-\u003eFrameBuffer b DepthFormat StencilFormat",
@@ -3860,6 +4208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintStencil",
           "package": "GPipe",
@@ -3869,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "paintStencil",
           "normalized": "StencilTests-\u003eStencilOps-\u003eStencilOps-\u003eFragmentStream(Fragment a)-\u003eFrameBuffer b c StencilFormat-\u003eFrameBuffer b c StencilFormat",
@@ -3885,6 +4235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function used to compare the \u003ccode\u003estencilReference\u003c/code\u003e and the stencil buffers value with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "stencilComparision",
           "package": "GPipe",
@@ -3895,6 +4246,7 @@
         "index": {
           "description": "The function used to compare the stencilReference and the stencil buffers value with",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "stencilComparision",
           "package": "GPipe",
@@ -3909,6 +4261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bit mask with ones in each position that should be compared and written to the stencil buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "stencilMask",
           "package": "GPipe",
@@ -3919,6 +4272,7 @@
         "index": {
           "description": "bit mask with ones in each position that should be compared and written to the stencil buffer",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "stencilMask",
           "package": "GPipe",
@@ -3933,6 +4287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value to compare with the stencil buffer's value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "stencilReference",
           "package": "GPipe",
@@ -3943,6 +4298,7 @@
         "index": {
           "description": "The value to compare with the stencil buffer value",
           "hierarchy": "Graphics GPipe FrameBuffer",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.FrameBuffer",
           "name": "stencilReference",
           "package": "GPipe",
@@ -3957,6 +4313,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eFragmentStream\u003c/a\u003e\u003c/code\u003es implement the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e class, which provides the\n \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e method that you can use to manipulate those streams. This corresponds to writing and using\n fragment shaders, but in a much more modular way. You may for instance apply \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e\n several times in a sequence, effectively creating complex shaders.\n\u003c/p\u003e\u003cp\u003eInstances are also provided for the \u003ccode\u003eMonoid\u003c/code\u003e class, so several streams (of the same type) can be\n concatenated. The order is preserved, meaning that the fragments in stream \u003ccode\u003ea\u003c/code\u003e in \u003ccode\u003ea \u003ccode\u003emappend\u003c/code\u003e b\u003c/code\u003e will be\n drawn before the fragments in \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAll atomic values except textures in fragment streams uses the \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e type constructor.\n Composite types are created by composing the atomic \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e types, rather than wrapping the\n composite type in the \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e type constructors.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e instances for are provided for most of Prelude's numerical classes. Since \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e are prerequisites for these classes, instances are provided for them too, even though\n their methods all will generate errors if used (except \u003ccode\u003e\u003ca\u003emin\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e). Use the instances of\n \u003ccode\u003e\u003ca\u003eEqB\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOrdB\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIfB\u003c/a\u003e\u003c/code\u003e from the Boolean package if you want to compare \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e values.\n Hyperbolic trigonometrical functions aren't provided either.\n\u003c/p\u003e\u003cp\u003eRewrite rule specializations are provided for the Vec package functions \u003ccode\u003enorm\u003c/code\u003e, \u003ccode\u003enormalize\u003c/code\u003e,\n \u003ccode\u003edot\u003c/code\u003e and \u003ccode\u003ecross\u003c/code\u003e on vectors of \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e, so the use of these functions (and others\n from that package that is defined in terms of them) are highly encouraged.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "Fragment",
           "package": "GPipe",
@@ -3966,6 +4323,7 @@
         "index": {
           "description": "FragmentStream implement the Functor class which provides the fmap method that you can use to manipulate those streams This corresponds to writing and using fragment shaders but in much more modular way You may for instance apply fmap several times in sequence effectively creating complex shaders Instances are also provided for the Monoid class so several streams of the same type can be concatenated The order is preserved meaning that the fragments in stream in mappend will be drawn before the fragments in All atomic values except textures in fragment streams uses the Fragment type constructor Composite types are created by composing the atomic Fragment types rather than wrapping the composite type in the Fragment type constructors Fragment instances for are provided for most of Prelude numerical classes Since Eq Ord and Show are prerequisites for these classes instances are provided for them too even though their methods all will generate errors if used except min and max Use the instances of EqB OrdB and IfB from the Boolean package if you want to compare Fragment values Hyperbolic trigonometrical functions aren provided either Rewrite rule specializations are provided for the Vec package functions norm normalize dot and cross on vectors of Fragment Float so the use of these functions and others from that package that is defined in terms of them are highly encouraged",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "Fragment",
           "package": "GPipe",
@@ -3980,6 +4338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to denote a fragment context in the first parameter to \u003ccode\u003e\u003ca\u003eShader\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "F",
           "package": "GPipe",
@@ -3989,6 +4348,7 @@
         "index": {
           "description": "Used to denote fragment context in the first parameter to Shader",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "F",
           "package": "GPipe",
@@ -4002,6 +4362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonyme for atomic values in a fragment on the GPU, e.g. \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "Fragment",
           "package": "GPipe",
@@ -4011,6 +4372,7 @@
         "index": {
           "description": "type synonyme for atomic values in fragment on the GPU e.g Fragment Float",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "Fragment",
           "package": "GPipe",
@@ -4025,6 +4387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stream of fragments on the GPU, parameterized on the fragments type\n (built up of atoms of type \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "FragmentStream",
           "package": "GPipe",
@@ -4034,6 +4397,7 @@
         "index": {
           "description": "stream of fragments on the GPU parameterized on the fragments type built up of atoms of type Fragment",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "FragmentStream",
           "package": "GPipe",
@@ -4048,6 +4412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow by which vertex data gets converted to fragment data.\n   Use \u003ccode\u003e\u003ca\u003etoFragment\u003c/a\u003e\u003c/code\u003e in the existing instances of \u003ccode\u003e\u003ca\u003eVertexOutput\u003c/a\u003e\u003c/code\u003e to operate in this arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "Rasterizer",
           "package": "GPipe",
@@ -4057,6 +4422,7 @@
         "index": {
           "description": "An arrow by which vertex data gets converted to fragment data Use toFragment in the existing instances of VertexOutput to operate in this arrow",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "Rasterizer",
           "package": "GPipe",
@@ -4071,6 +4437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe context of types that can be rasterized from vertices in \u003ccode\u003e\u003ca\u003ePrimitiveStream\u003c/a\u003e\u003c/code\u003es to fragments in \u003ccode\u003e\u003ca\u003eFragmentStream\u003c/a\u003e\u003c/code\u003es.\n   Create your own instances in terms of the existing ones, e.g. convert your vertex data to \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003es,\n   turn them into \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003es with \u003ccode\u003e\u003ca\u003etoFragment\u003c/a\u003e\u003c/code\u003e and then convert them to your fragment data representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "VertexOutput",
           "package": "GPipe",
@@ -4080,6 +4447,7 @@
         "index": {
           "description": "The context of types that can be rasterized from vertices in PrimitiveStream to fragments in FragmentStream Create your own instances in terms of the existing ones e.g convert your vertex data to Vertex Float turn them into Fragment Float with toFragment and then convert them to your fragment data representation",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "VertexOutput",
           "package": "GPipe",
@@ -4093,6 +4461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "VertexPosition",
           "package": "GPipe",
@@ -4101,6 +4470,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "VertexPosition",
           "package": "GPipe",
@@ -4115,6 +4485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe derivative in x using local differencing of the rasterized value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "dFdx",
           "package": "GPipe",
@@ -4125,6 +4496,7 @@
         "index": {
           "description": "The derivative in using local differencing of the rasterized value",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "dFdx",
           "normalized": "Fragment Float-\u003eFragment Float",
@@ -4141,6 +4513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe derivative in y using local differencing of the rasterized value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "dFdy",
           "package": "GPipe",
@@ -4151,6 +4524,7 @@
         "index": {
           "description": "The derivative in using local differencing of the rasterized value",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "dFdy",
           "normalized": "Fragment Float-\u003eFragment Float",
@@ -4167,6 +4541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters out fragments in a stream where the provided function returns \u003ccode\u003e\u003ca\u003etrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "filterFragments",
           "package": "GPipe",
@@ -4177,6 +4552,7 @@
         "index": {
           "description": "Filters out fragments in stream where the provided function returns true",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "filterFragments",
           "normalized": "(a-\u003eFragment Bool)-\u003eFragmentStream a-\u003eFragmentStream a",
@@ -4193,6 +4569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sum of the absolute derivative in x and y using local differencing of the rasterized value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "fwidth",
           "package": "GPipe",
@@ -4203,6 +4580,7 @@
         "index": {
           "description": "The sum of the absolute derivative in and using local differencing of the rasterized value",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "fwidth",
           "normalized": "Fragment Float-\u003eFragment Float",
@@ -4218,6 +4596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRasterize back side of triangles with vertices containing canonical view coordinates into fragments.    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "rasterizeBack",
           "package": "GPipe",
@@ -4227,6 +4606,7 @@
         "index": {
           "description": "Rasterize back side of triangles with vertices containing canonical view coordinates into fragments",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "rasterizeBack",
           "normalized": "PrimitiveStream Triangle(VertexPosition,a)-\u003eFragmentStream(FragmentInput a)",
@@ -4243,6 +4623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRasterize front side of all types of primitives with vertices containing canonical view coordinates into fragments.    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "rasterizeFront",
           "package": "GPipe",
@@ -4252,6 +4633,7 @@
         "index": {
           "description": "Rasterize front side of all types of primitives with vertices containing canonical view coordinates into fragments",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "rasterizeFront",
           "normalized": "PrimitiveStream a(VertexPosition,b)-\u003eFragmentStream(FragmentInput b)",
@@ -4268,6 +4650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRasterize both sides of triangles with vertices containing canonical view coordinates into fragments, also returning the primitives side in the fragments.    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "rasterizeFrontAndBack",
           "package": "GPipe",
@@ -4277,6 +4660,7 @@
         "index": {
           "description": "Rasterize both sides of triangles with vertices containing canonical view coordinates into fragments also returning the primitives side in the fragments",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "rasterizeFrontAndBack",
           "normalized": "PrimitiveStream Triangle(VertexPosition,a)-\u003eFragmentStream(Fragment Bool,FragmentInput a)",
@@ -4293,6 +4677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns a vertex value into a fragment value in the \u003ccode\u003e\u003ca\u003eRasterizer\u003c/a\u003e\u003c/code\u003e arrow. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "toFragment",
           "package": "GPipe",
@@ -4303,6 +4688,7 @@
         "index": {
           "description": "Turns vertex value into fragment value in the Rasterizer arrow",
           "hierarchy": "Graphics GPipe Stream Fragment",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Fragment",
           "name": "toFragment",
           "package": "GPipe",
@@ -4317,6 +4703,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ePrimitiveStream\u003c/a\u003e\u003c/code\u003es implement the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e class, which provides the\n \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e method that you can use to manipulate those streams. This corresponds to writing and using\n vertex shaders, but in a much more modular way. You may for instance apply \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e\n several times in a sequence, effectively creating complex shaders.\n\u003c/p\u003e\u003cp\u003eInstances are also provided for the \u003ccode\u003eMonoid\u003c/code\u003e class, so several streams (of the same type) can be\n concatenated. The order is preserved, meaning that the primitives in stream \u003ccode\u003ea\u003c/code\u003e in \u003ccode\u003ea \u003ccode\u003emappend\u003c/code\u003e b\u003c/code\u003e will be\n drawn before the primitives in \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAll atomic values except textures in vertex streams uses the \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e type constructor.\n Composite types are created by composing the atomic \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e types, rather than wrapping the\n composite type in the \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e type constructors.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e instances for are provided for most of Prelude's numerical classes. Since \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e are prerequisites for these classes, instances are provided for them too, even though\n their methods all will generate errors if used (except \u003ccode\u003e\u003ca\u003emin\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e). Use the instances of\n \u003ccode\u003e\u003ca\u003eEqB\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOrdB\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIfB\u003c/a\u003e\u003c/code\u003e from the Boolean package if you want to compare \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e values.\n Hyperbolic trigonometrical functions aren't provided either.\n\u003c/p\u003e\u003cp\u003eRewrite rule specializations are provided for the Vec package functions \u003ccode\u003enorm\u003c/code\u003e, \u003ccode\u003enormalize\u003c/code\u003e,\n \u003ccode\u003edot\u003c/code\u003e and \u003ccode\u003ecross\u003c/code\u003e on vectors of \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e, so the use of these functions (and others\n from that package that is defined in terms of them) are highly encouraged.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "Primitive",
           "package": "GPipe",
@@ -4326,6 +4713,7 @@
         "index": {
           "description": "PrimitiveStream implement the Functor class which provides the fmap method that you can use to manipulate those streams This corresponds to writing and using vertex shaders but in much more modular way You may for instance apply fmap several times in sequence effectively creating complex shaders Instances are also provided for the Monoid class so several streams of the same type can be concatenated The order is preserved meaning that the primitives in stream in mappend will be drawn before the primitives in All atomic values except textures in vertex streams uses the Vertex type constructor Composite types are created by composing the atomic Vertex types rather than wrapping the composite type in the Vertex type constructors Vertex instances for are provided for most of Prelude numerical classes Since Eq Ord and Show are prerequisites for these classes instances are provided for them too even though their methods all will generate errors if used except min and max Use the instances of EqB OrdB and IfB from the Boolean package if you want to compare Vertex values Hyperbolic trigonometrical functions aren provided either Rewrite rule specializations are provided for the Vec package functions norm normalize dot and cross on vectors of Vertex Float so the use of these functions and others from that package that is defined in terms of them are highly encouraged",
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "Primitive",
           "package": "GPipe",
@@ -4340,6 +4728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow by which CPU data gets converted to vertex data.\n   Use \u003ccode\u003e\u003ca\u003etoVertex\u003c/a\u003e\u003c/code\u003e in the existing instances of \u003ccode\u003e\u003ca\u003eVertexInput\u003c/a\u003e\u003c/code\u003e to operate in this arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "InputAssembler",
           "package": "GPipe",
@@ -4349,6 +4738,7 @@
         "index": {
           "description": "An arrow by which CPU data gets converted to vertex data Use toVertex in the existing instances of VertexInput to operate in this arrow",
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "InputAssembler",
           "package": "GPipe",
@@ -4362,6 +4752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "Line",
           "package": "GPipe",
@@ -4370,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "Line",
           "package": "GPipe",
@@ -4383,6 +4775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "Point",
           "package": "GPipe",
@@ -4391,6 +4784,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "Point",
           "package": "GPipe",
@@ -4404,6 +4798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "Primitive",
           "package": "GPipe",
@@ -4412,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "Primitive",
           "package": "GPipe",
@@ -4426,6 +4822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stream of primitives built by vertices on the GPU. The first parameter is the primitive type (currently \u003ccode\u003e\u003ca\u003eTriangle\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eLine\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003e) and the second the\n the type of each primitives' vertices' type (built up of atoms of type \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "PrimitiveStream",
           "package": "GPipe",
@@ -4435,6 +4832,7 @@
         "index": {
           "description": "stream of primitives built by vertices on the GPU The first parameter is the primitive type currently Triangle Line or Point and the second the the type of each primitives vertices type built up of atoms of type Vertex",
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "PrimitiveStream",
           "package": "GPipe",
@@ -4448,6 +4846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "Triangle",
           "package": "GPipe",
@@ -4456,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "Triangle",
           "package": "GPipe",
@@ -4470,6 +4870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to denote a vertex context in the first parameter to \u003ccode\u003e\u003ca\u003eShader\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "V",
           "package": "GPipe",
@@ -4479,6 +4880,7 @@
         "index": {
           "description": "Used to denote vertex context in the first parameter to Shader",
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "V",
           "package": "GPipe",
@@ -4492,6 +4894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonyme for atomic values in a vertex on the GPU, e.g. \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "Vertex",
           "package": "GPipe",
@@ -4501,6 +4904,7 @@
         "index": {
           "description": "type synonyme for atomic values in vertex on the GPU e.g Vertex Float",
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "Vertex",
           "package": "GPipe",
@@ -4515,6 +4919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe context of types that can be converted into vertices in \u003ccode\u003e\u003ca\u003ePrimitiveStream\u003c/a\u003e\u003c/code\u003es.\n   Create your own instances in terms of the existing ones, e.g. convert your vertex data to \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003es,\n   turn them into \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003es with \u003ccode\u003e\u003ca\u003etoVertex\u003c/a\u003e\u003c/code\u003e and then convert them to your vertex data representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "VertexInput",
           "package": "GPipe",
@@ -4524,6 +4929,7 @@
         "index": {
           "description": "The context of types that can be converted into vertices in PrimitiveStream Create your own instances in terms of the existing ones e.g convert your vertex data to Float turn them into Vertex Float with toVertex and then convert them to your vertex data representation",
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "VertexInput",
           "package": "GPipe",
@@ -4537,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "LineList",
           "package": "GPipe",
@@ -4546,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "LineList",
           "package": "GPipe",
@@ -4559,6 +4967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "LineStrip",
           "package": "GPipe",
@@ -4568,6 +4977,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "LineStrip",
           "package": "GPipe",
@@ -4581,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "PointList",
           "package": "GPipe",
@@ -4590,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "PointList",
           "package": "GPipe",
@@ -4603,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "TriangleFan",
           "package": "GPipe",
@@ -4612,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "TriangleFan",
           "package": "GPipe",
@@ -4625,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "TriangleList",
           "package": "GPipe",
@@ -4634,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "TriangleList",
           "package": "GPipe",
@@ -4647,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "TriangleStrip",
           "package": "GPipe",
@@ -4656,6 +5073,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "TriangleStrip",
           "package": "GPipe",
@@ -4670,6 +5088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a list of values to a \u003ccode\u003e\u003ca\u003ePrimitiveStream\u003c/a\u003e\u003c/code\u003e, using a specified \u003ccode\u003e\u003ca\u003ePrimitive\u003c/a\u003e\u003c/code\u003e type.\n This function is lazy in the aspect that if parts of the values aren't used on the GPU, they won't\n get evaluated and transferred there either.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "toGPUStream",
           "package": "GPipe",
@@ -4679,6 +5098,7 @@
         "index": {
           "description": "Converts list of values to PrimitiveStream using specified Primitive type This function is lazy in the aspect that if parts of the values aren used on the GPU they won get evaluated and transferred there either",
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "toGPUStream",
           "normalized": "a-\u003e[CPU b]-\u003ePrimitiveStream a b",
@@ -4695,6 +5115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a list of values to a \u003ccode\u003e\u003ca\u003ePrimitiveStream\u003c/a\u003e\u003c/code\u003e, using a specified \u003ccode\u003e\u003ca\u003ePrimitive\u003c/a\u003e\u003c/code\u003e type and an index list.\n This will use index buffer objects on the GPU, and is recommended if several primitives share vertices.\n This function is lazy in the aspect that if parts of the values aren't used on the GPU, they won't\n get evaluated and transferred there either.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "toIndexedGPUStream",
           "package": "GPipe",
@@ -4704,6 +5125,7 @@
         "index": {
           "description": "Converts list of values to PrimitiveStream using specified Primitive type and an index list This will use index buffer objects on the GPU and is recommended if several primitives share vertices This function is lazy in the aspect that if parts of the values aren used on the GPU they won get evaluated and transferred there either",
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "toIndexedGPUStream",
           "normalized": "a-\u003e[CPU b]-\u003e[Int]-\u003ePrimitiveStream a b",
@@ -4720,6 +5142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns an ordinary value into a vertex value in the \u003ccode\u003e\u003ca\u003eInputAssembler\u003c/a\u003e\u003c/code\u003e arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "toVertex",
           "package": "GPipe",
@@ -4730,6 +5153,7 @@
         "index": {
           "description": "Turns an ordinary value into vertex value in the InputAssembler arrow",
           "hierarchy": "Graphics GPipe Stream Primitive",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream.Primitive",
           "name": "toVertex",
           "package": "GPipe",
@@ -4744,6 +5168,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA GPipe program mainly consits of creating and manipulating streams of primitives and fragments.\n The modules \u003ca\u003eGraphics.GPipe.Stream.Primitive\u003c/a\u003e and \u003ca\u003eGraphics.GPipe.Stream.Fragment\u003c/a\u003e defines those streams.\n\u003c/p\u003e\u003cp\u003eAll atomic values except textures in streams uses the \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e type constructors.\n Composite types are created by composing the atomic \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e types, rather than wrapping the\n composite type in any of those type constructors. This module provides the common classes for those atomic types,\n as well as reexports of imported common types and modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "Stream",
           "package": "GPipe",
@@ -4753,6 +5178,7 @@
         "index": {
           "description": "GPipe program mainly consits of creating and manipulating streams of primitives and fragments The modules Graphics.GPipe.Stream.Primitive and Graphics.GPipe.Stream.Fragment defines those streams All atomic values except textures in streams uses the Vertex or Fragment type constructors Composite types are created by composing the atomic Vertex or Fragment types rather than wrapping the composite type in any of those type constructors This module provides the common classes for those atomic types as well as reexports of imported common types and modules",
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "Stream",
           "package": "GPipe",
@@ -4767,6 +5193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe vector constructor. \u003ccode\u003e(:.)\u003c/code\u003e for vectors is like \u003ccode\u003e(:)\u003c/code\u003e for lists, and\n \u003ccode\u003e()\u003c/code\u003e takes the place of \u003ccode\u003e[]\u003c/code\u003e. (The list of instances here is not meant to be\n readable.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": ":.",
           "package": "GPipe",
@@ -4775,6 +5202,7 @@
         "index": {
           "description": "The vector constructor for vectors is like for lists and takes the place of The list of instances here is not meant to be readable",
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": ":.",
           "package": "GPipe",
@@ -4788,6 +5216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides a common way to convert numeric types to integer and floating point representations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "Convert",
           "package": "GPipe",
@@ -4797,6 +5226,7 @@
         "index": {
           "description": "Provides common way to convert numeric types to integer and floating point representations",
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "Convert",
           "package": "GPipe",
@@ -4811,6 +5241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenotes a type on the GPU, that can be moved there from the CPU (through the internal use of uniforms).\n   Use the existing instances of this class to create new ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "GPU",
           "package": "GPipe",
@@ -4820,6 +5251,7 @@
         "index": {
           "description": "Denotes type on the GPU that can be moved there from the CPU through the internal use of uniforms Use the existing instances of this class to create new ones",
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "GPU",
           "package": "GPipe",
@@ -4834,6 +5266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class provides the GPU functions either not found in Prelude's numerical classes, or that has wrong types.\n   Instances are also provided for normal \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003es.\n   Minimal complete definition: \u003ccode\u003e\u003ca\u003efloor'\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eceiling'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "Real'",
           "package": "GPipe",
@@ -4843,6 +5276,7 @@
         "index": {
           "description": "This class provides the GPU functions either not found in Prelude numerical classes or that has wrong types Instances are also provided for normal Float and Double Minimal complete definition floor and ceiling",
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "Real'",
           "package": "GPipe",
@@ -4857,6 +5291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque type constructor for atomic values in a specific GPU context (i.e. \u003ccode\u003e\u003ca\u003eV\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eF\u003c/a\u003e\u003c/code\u003e), e.g. \u003ccode\u003e\u003ca\u003eShader\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eV\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "Shader",
           "package": "GPipe",
@@ -4866,6 +5301,7 @@
         "index": {
           "description": "An opaque type constructor for atomic values in specific GPU context i.e or e.g Shader Float",
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "Shader",
           "package": "GPipe",
@@ -4879,6 +5315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "Vec2",
           "package": "GPipe",
@@ -4886,6 +5323,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "Vec2",
           "package": "GPipe",
@@ -4899,6 +5337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "Vec3",
           "package": "GPipe",
@@ -4906,6 +5345,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "Vec3",
           "package": "GPipe",
@@ -4919,6 +5359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "Vec4",
           "package": "GPipe",
@@ -4926,6 +5367,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "Vec4",
           "package": "GPipe",
@@ -4939,6 +5381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": ":.",
           "package": "GPipe",
@@ -4947,6 +5390,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": ":.",
           "package": "GPipe",
@@ -4959,6 +5403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "ceiling'",
           "package": "GPipe",
@@ -4968,6 +5413,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "ceiling'",
           "normalized": "a-\u003ea",
@@ -4982,6 +5428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "clamp",
           "package": "GPipe",
@@ -4991,6 +5438,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "clamp",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -5005,6 +5453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "exp2",
           "package": "GPipe",
@@ -5014,6 +5463,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "exp2",
           "normalized": "a-\u003ea",
@@ -5028,6 +5478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "floor'",
           "package": "GPipe",
@@ -5037,6 +5488,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "floor'",
           "normalized": "a-\u003ea",
@@ -5051,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "fract'",
           "package": "GPipe",
@@ -5060,6 +5513,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "fract'",
           "normalized": "a-\u003ea",
@@ -5074,6 +5528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "log2",
           "package": "GPipe",
@@ -5083,6 +5538,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "log2",
           "normalized": "a-\u003ea",
@@ -5097,6 +5553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "mix",
           "package": "GPipe",
@@ -5106,6 +5563,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "mix",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -5120,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "mod'",
           "package": "GPipe",
@@ -5129,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "mod'",
           "normalized": "a-\u003ea-\u003ea",
@@ -5143,6 +5603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "rsqrt",
           "package": "GPipe",
@@ -5152,6 +5613,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "rsqrt",
           "normalized": "a-\u003ea",
@@ -5166,6 +5628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "saturate",
           "package": "GPipe",
@@ -5175,6 +5638,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "saturate",
           "normalized": "a-\u003ea",
@@ -5189,6 +5653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "smoothstep",
           "package": "GPipe",
@@ -5198,6 +5663,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "smoothstep",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -5212,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "step",
           "package": "GPipe",
@@ -5221,6 +5688,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "step",
           "normalized": "a-\u003ea-\u003ea",
@@ -5236,6 +5704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a floating point number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "toFloat",
           "package": "GPipe",
@@ -5246,6 +5715,7 @@
         "index": {
           "description": "Convert to floating point number",
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "toFloat",
           "normalized": "a-\u003eConvertFloat a",
@@ -5262,6 +5732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a value from the CPU to the GPU.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "toGPU",
           "package": "GPipe",
@@ -5272,6 +5743,7 @@
         "index": {
           "description": "Converts value from the CPU to the GPU",
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "toGPU",
           "normalized": "CPU a-\u003ea",
@@ -5288,6 +5760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to an integral number, using truncation if necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Stream",
           "name": "toInt",
           "package": "GPipe",
@@ -5298,6 +5771,7 @@
         "index": {
           "description": "Convert to an integral number using truncation if necessary",
           "hierarchy": "Graphics GPipe Stream",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Stream",
           "name": "toInt",
           "normalized": "a-\u003eConvertInt a",
@@ -5314,6 +5788,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTextures are type safe in GPipe, e.g. when you sample a \u003ccode\u003eRGBFormat\u003c/code\u003e texture, you get an \u003ccode\u003eRGB\u003c/code\u003e value.\n\u003c/p\u003e\u003cp\u003eTextures are either created directly from memory, or by giving a framebuffer a concrete size (which\n it otherwise don't have). The latter is however not possible for 3D textures.\n\u003c/p\u003e\u003cp\u003eDepth textures are textures that contains depth component data (of type \u003ccode\u003eDepthFormat\u003c/code\u003e) but takes the type\n of \u003ccode\u003eLuminanceFormat\u003c/code\u003e or \u003ccode\u003eAlphaFormat\u003c/code\u003e textures, and are sampled as such.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Texture",
           "package": "GPipe",
@@ -5323,6 +5798,7 @@
         "index": {
           "description": "Textures are type safe in GPipe e.g when you sample RGBFormat texture you get an RGB value Textures are either created directly from memory or by giving framebuffer concrete size which it otherwise don have The latter is however not possible for textures Depth textures are textures that contains depth component data of type DepthFormat but takes the type of LuminanceFormat or AlphaFormat textures and are sampled as such",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Texture",
           "package": "GPipe",
@@ -5337,6 +5813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe formats that is instances of this class may be used as depth textures, i.e. created with\n   \u003ccode\u003e\u003ca\u003enewDepthTexture\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efromFrameBufferDepth\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efromFrameBufferCubeDepth\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "DepthColorFormat",
           "package": "GPipe",
@@ -5346,6 +5823,7 @@
         "index": {
           "description": "The formats that is instances of this class may be used as depth textures i.e created with newDepthTexture fromFrameBufferDepth and fromFrameBufferCubeDepth",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "DepthColorFormat",
           "package": "GPipe",
@@ -5360,6 +5838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdge mode used in sampler state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "EdgeMode",
           "package": "GPipe",
@@ -5369,6 +5848,7 @@
         "index": {
           "description": "Edge mode used in sampler state",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "EdgeMode",
           "package": "GPipe",
@@ -5383,6 +5863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter mode used in sampler state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Filter",
           "package": "GPipe",
@@ -5392,6 +5873,7 @@
         "index": {
           "description": "Filter mode used in sampler state",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Filter",
           "package": "GPipe",
@@ -5406,6 +5888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe textures that is instances of this class may be created from a \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003es color buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "FromFrameBufferColor",
           "package": "GPipe",
@@ -5415,6 +5898,7 @@
         "index": {
           "description": "The textures that is instances of this class may be created from FrameBuffer color buffer",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "FromFrameBufferColor",
           "package": "GPipe",
@@ -5429,6 +5913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe textures that is instances of this class may be created from a \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003es depth buffer.\n The texture will have the type of a color format and is sampled as such, but contains depth\n component information internally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "FromFrameBufferDepth",
           "package": "GPipe",
@@ -5438,6 +5923,7 @@
         "index": {
           "description": "The textures that is instances of this class may be created from FrameBuffer depth buffer The texture will have the type of color format and is sampled as such but contains depth component information internally",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "FromFrameBufferDepth",
           "package": "GPipe",
@@ -5452,6 +5938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure describing how a texture is sampled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Sampler",
           "package": "GPipe",
@@ -5461,6 +5948,7 @@
         "index": {
           "description": "structure describing how texture is sampled",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Sampler",
           "package": "GPipe",
@@ -5474,6 +5962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Texture",
           "package": "GPipe",
@@ -5482,6 +5971,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Texture",
           "package": "GPipe",
@@ -5496,6 +5986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 1D texture. Assumes a frame buffer of height 1 when created from such.\n \u003ccode\u003e\u003ca\u003eTexture1D\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e has the following associated types in its \u003ccode\u003e\u003ca\u003eTexture\u003c/a\u003e\u003c/code\u003e instance:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eTextureFormat (Texture1D f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003ef\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eTextureSize (Texture1D f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eTextureVertexCoord (Texture1D f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eTextureFragmentCoord (Texture1D f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Texture1D",
           "package": "GPipe",
@@ -5505,6 +5996,7 @@
         "index": {
           "description": "texture Assumes frame buffer of height when created from such Texture1D has the following associated types in its Texture instance TextureFormat Texture1D TextureSize Texture1D Int TextureVertexCoord Texture1D Vertex Float TextureFragmentCoord Texture1D Fragment Float",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Texture1D",
           "package": "GPipe",
@@ -5519,6 +6011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D texture.\n \u003ccode\u003e\u003ca\u003eTexture2D\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e has the following associated types in its \u003ccode\u003e\u003ca\u003eTexture\u003c/a\u003e\u003c/code\u003e instance:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eTextureFormat (Texture2D f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003ef\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eTextureSize (Texture2D f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eVec2\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eTextureVertexCoord (Texture2D f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eVec2\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003c/code\u003e\u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003ccode\u003e)\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eTextureFragmentCoord (Texture2D f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eVec2\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003c/code\u003e\u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003ccode\u003e)\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Texture2D",
           "package": "GPipe",
@@ -5528,6 +6021,7 @@
         "index": {
           "description": "texture Texture2D has the following associated types in its Texture instance TextureFormat Texture2D TextureSize Texture2D Vec2 Int TextureVertexCoord Texture2D Vec2 Vertex Float TextureFragmentCoord Texture2D Vec2 Fragment Float",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Texture2D",
           "package": "GPipe",
@@ -5542,6 +6036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 3D texture. May only be created from main memory in GPipe.\n \u003ccode\u003e\u003ca\u003eTexture3D\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e has the following associated types in its \u003ccode\u003e\u003ca\u003eTexture\u003c/a\u003e\u003c/code\u003e instance:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eTextureFormat (Texture3D f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003ef\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eTextureSize (Texture3D f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eTextureVertexCoord (Texture3D f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003c/code\u003e\u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003ccode\u003e)\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eTextureFragmentCoord (Texture3D f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003c/code\u003e\u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003ccode\u003e)\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Texture3D",
           "package": "GPipe",
@@ -5551,6 +6046,7 @@
         "index": {
           "description": "texture May only be created from main memory in GPipe Texture3D has the following associated types in its Texture instance TextureFormat Texture3D TextureSize Texture3D Vec3 Int TextureVertexCoord Texture3D Vec3 Vertex Float TextureFragmentCoord Texture3D Vec3 Fragment Float",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Texture3D",
           "package": "GPipe",
@@ -5565,6 +6061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cube texture. The sides of the cube are always specified in this order: Positive X, negative X,\n positive Y, negative Y, positive Z, negative Z.\n \u003ccode\u003e\u003ca\u003eTextureCube\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e has the following associated types in its \u003ccode\u003e\u003ca\u003eTexture\u003c/a\u003e\u003c/code\u003e instance:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eTextureFormat (TextureCube f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003ef\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eTextureSize (TextureCube f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eVec2\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e (The size of each side)\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eTextureVertexCoord (TextureCube f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003c/code\u003e\u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003ccode\u003e)\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eTextureFragmentCoord (TextureCube f)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003c/code\u003e\u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003ccode\u003e)\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "TextureCube",
           "package": "GPipe",
@@ -5574,6 +6071,7 @@
         "index": {
           "description": "cube texture The sides of the cube are always specified in this order Positive negative positive negative positive negative TextureCube has the following associated types in its Texture instance TextureFormat TextureCube TextureSize TextureCube Vec2 Int The size of each side TextureVertexCoord TextureCube Vec3 Vertex Float TextureFragmentCoord TextureCube Vec3 Fragment Float",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "TextureCube",
           "package": "GPipe",
@@ -5587,6 +6085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Clamp",
           "package": "GPipe",
@@ -5596,6 +6095,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Clamp",
           "package": "GPipe",
@@ -5609,6 +6109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Linear",
           "package": "GPipe",
@@ -5618,6 +6119,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Linear",
           "package": "GPipe",
@@ -5631,6 +6133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Mirror",
           "package": "GPipe",
@@ -5640,6 +6143,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Mirror",
           "package": "GPipe",
@@ -5653,6 +6157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Point",
           "package": "GPipe",
@@ -5662,6 +6167,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Point",
           "package": "GPipe",
@@ -5675,6 +6181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Sampler",
           "package": "GPipe",
@@ -5684,6 +6191,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Sampler",
           "package": "GPipe",
@@ -5697,6 +6205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "Wrap",
           "package": "GPipe",
@@ -5706,6 +6215,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "Wrap",
           "package": "GPipe",
@@ -5720,6 +6230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a texture of a specific format from a \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003e and a size. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "fromFrameBufferColor",
           "package": "GPipe",
@@ -5730,6 +6241,7 @@
         "index": {
           "description": "Create texture of specific format from FrameBuffer and size",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "fromFrameBufferColor",
           "normalized": "TextureFormat a-\u003eTextureSize a-\u003eFrameBuffer b c d-\u003ea",
@@ -5746,6 +6258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eTextureCube\u003c/a\u003e\u003c/code\u003e of a specific format and size from the the color buffers of six framebuffers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "fromFrameBufferCubeColor",
           "package": "GPipe",
@@ -5756,6 +6269,7 @@
         "index": {
           "description": "Create TextureCube of specific format and size from the the color buffers of six framebuffers",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "fromFrameBufferCubeColor",
           "normalized": "a-\u003eVec Int-\u003eFrameBuffer a b c-\u003eFrameBuffer a b c-\u003eFrameBuffer a b c-\u003eFrameBuffer a b c-\u003eFrameBuffer a b c-\u003eFrameBuffer a b c-\u003eTextureCube a",
@@ -5772,6 +6286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eTextureCube\u003c/a\u003e\u003c/code\u003e of a specific depth format and size from the the depth buffers of six framebuffers.\n The texture will have the type of a color format and is sampled as such, but contains depth\n component information internally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "fromFrameBufferCubeDepth",
           "package": "GPipe",
@@ -5782,6 +6297,7 @@
         "index": {
           "description": "Create TextureCube of specific depth format and size from the the depth buffers of six framebuffers The texture will have the type of color format and is sampled as such but contains depth component information internally",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "fromFrameBufferCubeDepth",
           "normalized": "DepthFormat-\u003eVec Int-\u003eFrameBuffer a DepthFormat b-\u003eFrameBuffer a DepthFormat b-\u003eFrameBuffer a DepthFormat b-\u003eFrameBuffer a DepthFormat b-\u003eFrameBuffer a DepthFormat b-\u003eFrameBuffer a DepthFormat b-\u003eTextureCube c",
@@ -5798,6 +6314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a texture of a specific depth format from a \u003ccode\u003e\u003ca\u003eFrameBuffer\u003c/a\u003e\u003c/code\u003e and a size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "fromFrameBufferDepth",
           "package": "GPipe",
@@ -5808,6 +6325,7 @@
         "index": {
           "description": "Create texture of specific depth format from FrameBuffer and size",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "fromFrameBufferDepth",
           "normalized": "DepthFormat-\u003eTextureSize a-\u003eFrameBuffer b DepthFormat c-\u003ea",
@@ -5824,6 +6342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a depth texture from data in main memory. The texture will have the type of a color format and is sampled as such, but contains depth\n component information internally. It lives in the IO monad for the sake of the Ptr's, and could otherwise safely be wrapped in \u003ccode\u003eunsafePerformIO\u003c/code\u003e calls.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "newDepthTexture",
           "package": "GPipe",
@@ -5833,6 +6352,7 @@
         "index": {
           "description": "Creates depth texture from data in main memory The texture will have the type of color format and is sampled as such but contains depth component information internally It lives in the IO monad for the sake of the Ptr and could otherwise safely be wrapped in unsafePerformIO calls",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "newDepthTexture",
           "normalized": "CPUFormat(TextureFormat a)-\u003eDepthFormat-\u003eTextureSize a-\u003e[Ptr b]-\u003eIO a",
@@ -5849,6 +6369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a texture from color data in main memory. It lives in the IO monad for the sake of the Ptr's, and could otherwise safely be wrapped in \u003ccode\u003eunsafePerformIO\u003c/code\u003e calls.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "newTexture",
           "package": "GPipe",
@@ -5858,6 +6379,7 @@
         "index": {
           "description": "Creates texture from color data in main memory It lives in the IO monad for the sake of the Ptr and could otherwise safely be wrapped in unsafePerformIO calls",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "newTexture",
           "normalized": "CPUFormat(TextureFormat a)-\u003eTextureFormat a-\u003eTextureSize a-\u003e[Ptr b]-\u003eIO a",
@@ -5874,6 +6396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSamples the texture using mipmaps in a \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "sample",
           "package": "GPipe",
@@ -5884,6 +6407,7 @@
         "index": {
           "description": "Samples the texture using mipmaps in Fragment",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "sample",
           "normalized": "Sampler-\u003ea-\u003eTextureFragmentCoord a-\u003eColor(TextureFormat a)(Fragment Float)",
@@ -5899,6 +6423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSamples the texture using mipmaps in a \u003ccode\u003e\u003ca\u003eFragment\u003c/a\u003e\u003c/code\u003e, with a bias to add to the mipmap level. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "sampleBias",
           "package": "GPipe",
@@ -5909,6 +6434,7 @@
         "index": {
           "description": "Samples the texture using mipmaps in Fragment with bias to add to the mipmap level",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "sampleBias",
           "normalized": "Sampler-\u003ea-\u003eTextureFragmentCoord a-\u003eFragment Float-\u003eColor(TextureFormat a)(Fragment Float)",
@@ -5925,6 +6451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSamples the texture using a specific mipmap in a \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "sampleLod",
           "package": "GPipe",
@@ -5935,6 +6462,7 @@
         "index": {
           "description": "Samples the texture using specific mipmap in Vertex",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "sampleLod",
           "normalized": "Sampler-\u003ea-\u003eTextureVertexCoord a-\u003eVertex Float-\u003eColor(TextureFormat a)(Vertex Float)",
@@ -5951,6 +6479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the byte size of all mipmaps for a specific format and size, which eases the useage of\n \u003ccode\u003e\u003ca\u003enewTexture\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003enewDepthTexture\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe.Texture",
           "name": "textureCPUFormatByteSize",
           "package": "GPipe",
@@ -5961,6 +6490,7 @@
         "index": {
           "description": "Calculates the byte size of all mipmaps for specific format and size which eases the useage of newTexture and newDepthTexture",
           "hierarchy": "Graphics GPipe Texture",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe.Texture",
           "name": "textureCPUFormatByteSize",
           "normalized": "CPUFormat(TextureFormat a)-\u003eTextureSize a-\u003e[Int]",
@@ -5977,6 +6507,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGPipe models the entire graphics pipeline in a purely functional, immutable and typesafe way. It is built on top of the programmable pipeline (i.e. non-fixed function) of\n OpenGL 2.1 and uses features such as vertex buffer objects (VBO's), texture objects and GLSL shader code synthetisation to create fast graphics programs. Buffers,\n textures and shaders are cached internally to ensure fast framerate, and GPipe is also capable of managing multiple windows and contexts. By creating your own\n instances of GPipes classes, it's possible to use additional datatypes on the GPU.\n\u003c/p\u003e\u003cp\u003eYou'll need full OpenGL 2.1 support, including GLSL 1.20 to use GPipe. Thanks to OpenGLRaw, you may still build GPipe programs on machines lacking this support.\n\u003c/p\u003e\u003cp\u003eThis is a conveniance module, combining GPipes all other modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:36 UTC 2014",
           "module": "Graphics.GPipe",
           "name": "GPipe",
           "package": "GPipe",
@@ -5986,6 +6517,7 @@
         "index": {
           "description": "GPipe models the entire graphics pipeline in purely functional immutable and typesafe way It is built on top of the programmable pipeline i.e non-fixed function of OpenGL and uses features such as vertex buffer objects VBO texture objects and GLSL shader code synthetisation to create fast graphics programs Buffers textures and shaders are cached internally to ensure fast framerate and GPipe is also capable of managing multiple windows and contexts By creating your own instances of GPipes classes it possible to use additional datatypes on the GPU You ll need full OpenGL support including GLSL to use GPipe Thanks to OpenGLRaw you may still build GPipe programs on machines lacking this support This is conveniance module combining GPipes all other modules",
           "hierarchy": "Graphics GPipe",
+          "indexed": "2014-03-11T16:42:36",
           "module": "Graphics.GPipe",
           "name": "GPipe",
           "package": "GPipe",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-in-space"
+        "phrase": "haskell-in-space",
+        "type": "phrase"
       },
       "type": "context"
     }

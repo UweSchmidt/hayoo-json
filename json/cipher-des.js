@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cipher-des"
+        "phrase": "cipher-des",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:49 UTC 2014",
           "module": "Crypto.Cipher.DES",
           "name": "DES",
           "package": "cipher-des",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher DES",
+          "indexed": "2014-03-11T17:32:49",
           "module": "Crypto.Cipher.DES",
           "name": "DES",
           "package": "cipher-des",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDES Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:49 UTC 2014",
           "module": "Crypto.Cipher.DES",
           "name": "DES",
           "package": "cipher-des",
@@ -49,6 +52,7 @@
         "index": {
           "description": "DES Context",
           "hierarchy": "Crypto Cipher DES",
+          "indexed": "2014-03-11T17:32:49",
           "module": "Crypto.Cipher.DES",
           "name": "DES",
           "package": "cipher-des",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:49 UTC 2014",
           "module": "Crypto.Cipher.TripleDES",
           "name": "TripleDES",
           "package": "cipher-des",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher TripleDES",
+          "indexed": "2014-03-11T17:32:49",
           "module": "Crypto.Cipher.TripleDES",
           "name": "TripleDES",
           "package": "cipher-des",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3DES where the first and third keys are equal, used in alternative direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:49 UTC 2014",
           "module": "Crypto.Cipher.TripleDES",
           "name": "DES_EDE2",
           "package": "cipher-des",
@@ -93,6 +100,7 @@
         "index": {
           "description": "DES where the first and third keys are equal used in alternative direction",
           "hierarchy": "Crypto Cipher TripleDES",
+          "indexed": "2014-03-11T17:32:49",
           "module": "Crypto.Cipher.TripleDES",
           "name": "DES_EDE2",
           "package": "cipher-des",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3DES with 3 different keys used in alternative direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:49 UTC 2014",
           "module": "Crypto.Cipher.TripleDES",
           "name": "DES_EDE3",
           "package": "cipher-des",
@@ -116,6 +125,7 @@
         "index": {
           "description": "DES with different keys used in alternative direction",
           "hierarchy": "Crypto Cipher TripleDES",
+          "indexed": "2014-03-11T17:32:49",
           "module": "Crypto.Cipher.TripleDES",
           "name": "DES_EDE3",
           "package": "cipher-des",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3DES where the first and third keys are equal, used in the same direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:49 UTC 2014",
           "module": "Crypto.Cipher.TripleDES",
           "name": "DES_EEE2",
           "package": "cipher-des",
@@ -139,6 +150,7 @@
         "index": {
           "description": "DES where the first and third keys are equal used in the same direction",
           "hierarchy": "Crypto Cipher TripleDES",
+          "indexed": "2014-03-11T17:32:49",
           "module": "Crypto.Cipher.TripleDES",
           "name": "DES_EEE2",
           "package": "cipher-des",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3DES with 3 different keys used all in the same direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:49 UTC 2014",
           "module": "Crypto.Cipher.TripleDES",
           "name": "DES_EEE3",
           "package": "cipher-des",
@@ -162,6 +175,7 @@
         "index": {
           "description": "DES with different keys used all in the same direction",
           "hierarchy": "Crypto Cipher TripleDES",
+          "indexed": "2014-03-11T17:32:49",
           "module": "Crypto.Cipher.TripleDES",
           "name": "DES_EEE3",
           "package": "cipher-des",

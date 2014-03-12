@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmeap-utils"
+        "phrase": "hmeap-utils",
+        "type": "phrase"
       },
       "type": "context"
     }

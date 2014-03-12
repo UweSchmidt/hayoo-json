@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ixset"
+        "phrase": "ixset",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e indexes and convenience functions. Should\nprobably be considered private to \u003ca\u003eData.IxSet\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet.Ix",
           "name": "Ix",
           "package": "ixset",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines Typeable indexes and convenience functions Should probably be considered private to Data.IxSet",
           "hierarchy": "Data IxSet Ix",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet.Ix",
           "name": "Ix",
           "package": "ixset",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIx\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e from some \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e key to a \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e of values for\n that key.  \u003ccode\u003e\u003ca\u003eIx\u003c/a\u003e\u003c/code\u003e carries type information inside.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet.Ix",
           "name": "Ix",
           "package": "ixset",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Ix is Map from some Typeable key to Set of values for that key Ix carries type information inside",
           "hierarchy": "Data IxSet Ix",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet.Ix",
           "name": "Ix",
           "package": "ixset",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet.Ix",
           "name": "Ix",
           "package": "ixset",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data IxSet Ix",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet.Ix",
           "name": "Ix",
           "normalized": "Ix(Map a(Set b))(b-\u003e[a])",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function for deleting from \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003es of \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003es. If the\n resulting \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e is empty, then the entry is removed from the \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet.Ix",
           "name": "delete",
           "package": "ixset",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Convenience function for deleting from Map of Set If the resulting Set is empty then the entry is removed from the Map",
           "hierarchy": "Data IxSet Ix",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet.Ix",
           "name": "delete",
           "normalized": "a-\u003eb-\u003eMap a(Set b)-\u003eMap a(Set b)",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e a list of elements from a set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet.Ix",
           "name": "deleteList",
           "package": "ixset",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Helper function to delete list of elements from set",
           "hierarchy": "Data IxSet Ix",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet.Ix",
           "name": "deleteList",
           "normalized": "[(a,b)]-\u003eMap a(Set b)-\u003eMap a(Set b)",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function for inserting into \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003es of \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003es as in\n the case of an \u003ccode\u003e\u003ca\u003eIx\u003c/a\u003e\u003c/code\u003e.  If they key did not already exist in the\n \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e, then a new \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e is added transparently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet.Ix",
           "name": "insert",
           "package": "ixset",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Convenience function for inserting into Map of Set as in the case of an Ix If they key did not already exist in the Map then new Set is added transparently",
           "hierarchy": "Data IxSet Ix",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet.Ix",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eMap a(Set b)-\u003eMap a(Set b)",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e a list of elements into a set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet.Ix",
           "name": "insertList",
           "package": "ixset",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Helper function to insert list of elements into set",
           "hierarchy": "Data IxSet Ix",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet.Ix",
           "name": "insertList",
           "normalized": "[(a,b)]-\u003eMap a(Set b)-\u003eMap a(Set b)",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the intersection of two sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet.Ix",
           "name": "intersection",
           "package": "ixset",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Takes the intersection of two sets",
           "hierarchy": "Data IxSet Ix",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet.Ix",
           "name": "intersection",
           "normalized": "Map a(Set b)-\u003eMap a(Set b)-\u003eMap a(Set b)",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the union of two sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet.Ix",
           "name": "union",
           "package": "ixset",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Takes the union of two sets",
           "hierarchy": "Data IxSet Ix",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet.Ix",
           "name": "union",
           "normalized": "Map a(Set b)-\u003eMap a(Set b)-\u003eMap a(Set b)",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn efficient implementation of queryable sets.\n\u003c/p\u003e\u003cp\u003eAssume you have a type like:\n\u003c/p\u003e\u003cpre\u003e data Entry = Entry Author [Author] Updated Id Content\n newtype Updated = Updated EpochTime\n newtype Id = Id Int64\n newtype Content = Content String\n newtype Author = Author Email\n type Email = String\n\u003c/pre\u003e\u003col\u003e\u003cli\u003e Decide what parts of your type you want indexed and make your type\nan instance of \u003ccode\u003e\u003ca\u003eIndexable\u003c/a\u003e\u003c/code\u003e. Use \u003ccode\u003e\u003ca\u003eixFun\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eixGen\u003c/a\u003e\u003c/code\u003e to build indexes:\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e instance Indexable Entry where\n     empty = ixSet\n               [ ixGen (Proxy :: Proxy Author)        -- out of order\n               , ixGen (Proxy :: Proxy Id)\n               , ixGen (Proxy :: Proxy Updated)\n               , ixGen (Proxy :: Proxy Test)          -- bogus index\n               ]\n\u003c/pre\u003e\u003col\u003e\u003cli\u003e Use \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eupdateIx\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edeleteIx\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e to build\n   up an \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e collection:\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e entries = foldr insert empty [e1,e2,e3,e4]\n entries' = foldr delete entries [e1,e3]\n entries'' = update e4 e5 entries\n\u003c/pre\u003e\u003col\u003e\u003cli\u003e Use the query functions below to grab data from it:\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e entries @= (Author \"john@doe.com\") @\u003c (Updated t1)\n\u003c/pre\u003e\u003cp\u003eStatement above will find all items in entries updated earlier than\n\u003ccode\u003et1\u003c/code\u003e by \u003ccode\u003ejohn@doe.com\u003c/code\u003e.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Text index\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eIf you want to do add a text index create a calculated index.  Then if you want\nall entries with either \u003ccode\u003eword1\u003c/code\u003e or \u003ccode\u003eword2\u003c/code\u003e, you change the instance\nto:\n\u003c/p\u003e\u003cpre\u003e getWords (Entry _ _ _ _ (Content s)) = map Word $ words s\n\n instance Indexable Entry where\n     empty = ixSet [ ...\n                     ixFun getWords\n                   ]\n\u003c/pre\u003e\u003cp\u003eNow you can do this query to find entries with any of the words:\n\u003c/p\u003e\u003cpre\u003e entries @+ [Word \"word1\", Word \"word2\"]\n\u003c/pre\u003e\u003cp\u003eAnd if you want all entries with both:\n\u003c/p\u003e\u003cpre\u003e entries @* [Word \"word1\", Word \"word2\"]\n\u003c/pre\u003e\u003col\u003e\u003cli\u003e Find only the first author\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eIf an \u003ccode\u003eEntry\u003c/code\u003e has multiple authors and you want to be able to query on\nthe first author only, define a \u003ccode\u003eFirstAuthor\u003c/code\u003e datatype and create an\nindex with this type.  Now you can do:\n\u003c/p\u003e\u003cpre\u003e newtype FirstAuthor = FirstAuthor Email\n\n getFirstAuthor (Entry author _ _ _ _) = [FirstAuthor author]\n\n instance Indexable Entry where\n     ...\n     empty = ixSet [ ...\n                     ixFun getFirstAuthor\n                   ]\n\n     entries @= (FirstAuthor \"john@doe.com\")  -- guess what this does\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "IxSet",
           "package": "ixset",
@@ -250,6 +269,7 @@
         "index": {
           "description": "An efficient implementation of queryable sets Assume you have type like data Entry Entry Author Author Updated Id Content newtype Updated Updated EpochTime newtype Id Id Int64 newtype Content Content String newtype Author Author Email type Email String Decide what parts of your type you want indexed and make your type an instance of Indexable Use ixFun and ixGen to build indexes instance Indexable Entry where empty ixSet ixGen Proxy Proxy Author out of order ixGen Proxy Proxy Id ixGen Proxy Proxy Updated ixGen Proxy Proxy Test bogus index Use insert delete updateIx deleteIx and empty to build up an IxSet collection entries foldr insert empty e1 e2 e3 e4 entries foldr delete entries e1 e3 entries update e4 e5 entries Use the query functions below to grab data from it entries Author john@doe.com Updated t1 Statement above will find all items in entries updated earlier than t1 by john@doe.com Text index If you want to do add text index create calculated index Then if you want all entries with either word1 or word2 you change the instance to getWords Entry Content map Word words instance Indexable Entry where empty ixSet ixFun getWords Now you can do this query to find entries with any of the words entries Word word1 Word word2 And if you want all entries with both entries Word word1 Word word2 Find only the first author If an Entry has multiple authors and you want to be able to query on the first author only define FirstAuthor datatype and create an index with this type Now you can do newtype FirstAuthor FirstAuthor Email getFirstAuthor Entry author FirstAuthor author instance Indexable Entry where empty ixSet ixFun getFirstAuthor entries FirstAuthor john@doe.com guess what this does",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "IxSet",
           "package": "ixset",
@@ -263,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "IndexOp",
           "package": "ixset",
@@ -271,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "IndexOp",
           "package": "ixset",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines objects that can be members of \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "Indexable",
           "package": "ixset",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Defines objects that can be members of IxSet",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "Indexable",
           "package": "ixset",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet with associated indexes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "IxSet",
           "package": "ixset",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Set with associated indexes",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "IxSet",
           "package": "ixset",
@@ -330,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "Proxy",
           "package": "ixset",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "Proxy",
           "package": "ixset",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(|||)",
           "package": "ixset",
@@ -362,6 +391,7 @@
         "index": {
           "description": "An infix union operation",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(|||) |||",
           "normalized": "IxSet a-\u003eIxSet a-\u003eIxSet a",
@@ -377,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix \u003ccode\u003e\u003ca\u003eintersection\u003c/a\u003e\u003c/code\u003e operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(&&&)",
           "package": "ixset",
@@ -387,6 +418,7 @@
         "index": {
           "description": "An infix intersection operation",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(&&&) &&&",
           "normalized": "IxSet a-\u003eIxSet a-\u003eIxSet a",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates the subset that matches all the provided indexes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(@*)",
           "package": "ixset",
@@ -412,6 +445,7 @@
         "index": {
           "description": "Creates the subset that matches all the provided indexes",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(@*) @*",
           "normalized": "IxSet a-\u003e[b]-\u003eIxSet a",
@@ -427,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates the subset that has an index in the provided list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(@+)",
           "package": "ixset",
@@ -437,6 +472,7 @@
         "index": {
           "description": "Creates the subset that has an index in the provided list",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(@+) @+",
           "normalized": "IxSet a-\u003e[b]-\u003eIxSet a",
@@ -452,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix version of \u003ccode\u003e\u003ca\u003egetLT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(@\u003c)",
           "package": "ixset",
@@ -462,6 +499,7 @@
         "index": {
           "description": "Infix version of getLT",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(@\u003c) @\u003c",
           "normalized": "IxSet a-\u003eb-\u003eIxSet a",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix version of \u003ccode\u003e\u003ca\u003egetLTE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(@\u003c=)",
           "package": "ixset",
@@ -487,6 +526,7 @@
         "index": {
           "description": "Infix version of getLTE",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(@\u003c=) @\u003c=",
           "normalized": "IxSet a-\u003eb-\u003eIxSet a",
@@ -502,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix version of \u003ccode\u003e\u003ca\u003egetEQ\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(@=)",
           "package": "ixset",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Infix version of getEQ",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(@=) @=",
           "normalized": "IxSet a-\u003eb-\u003eIxSet a",
@@ -527,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix version of \u003ccode\u003e\u003ca\u003egetGT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(@\u003e)",
           "package": "ixset",
@@ -537,6 +580,7 @@
         "index": {
           "description": "Infix version of getGT",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(@\u003e) @\u003e",
           "normalized": "IxSet a-\u003eb-\u003eIxSet a",
@@ -552,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the subset with indexes in the open interval (k,k).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(@\u003e\u003c)",
           "package": "ixset",
@@ -562,6 +607,7 @@
         "index": {
           "description": "Returns the subset with indexes in the open interval",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(@\u003e\u003c) @\u003e\u003c",
           "normalized": "IxSet a-\u003e(b,b)-\u003eIxSet a",
@@ -577,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the subset with indexes in (k,k].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(@\u003e\u003c=)",
           "package": "ixset",
@@ -587,6 +634,7 @@
         "index": {
           "description": "Returns the subset with indexes in",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(@\u003e\u003c=) @\u003e\u003c=",
           "normalized": "IxSet a-\u003e(b,b)-\u003eIxSet a",
@@ -602,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix version of \u003ccode\u003e\u003ca\u003egetGTE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(@\u003e=)",
           "package": "ixset",
@@ -612,6 +661,7 @@
         "index": {
           "description": "Infix version of getGTE",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(@\u003e=) @\u003e=",
           "normalized": "IxSet a-\u003eb-\u003eIxSet a",
@@ -627,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the subset with indexes in [k,k).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(@\u003e=\u003c)",
           "package": "ixset",
@@ -637,6 +688,7 @@
         "index": {
           "description": "Returns the subset with indexes in",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(@\u003e=\u003c) @\u003e=\u003c",
           "normalized": "IxSet a-\u003e(b,b)-\u003eIxSet a",
@@ -652,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the subset with indexes in [k,k].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "(@\u003e=\u003c=)",
           "package": "ixset",
@@ -662,6 +715,7 @@
         "index": {
           "description": "Returns the subset with indexes in",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "(@\u003e=\u003c=) @\u003e=\u003c=",
           "normalized": "IxSet a-\u003e(b,b)-\u003eIxSet a",
@@ -676,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "Proxy",
           "package": "ixset",
@@ -685,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "Proxy",
           "package": "ixset",
@@ -699,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigher order operator for modifying \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003es.  Use this when your\n final function should have the form \u003ccode\u003ea -\u003e \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e a -\u003e \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e,\n e.g. \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "change",
           "package": "ixset",
@@ -709,6 +766,7 @@
         "index": {
           "description": "Higher order operator for modifying IxSet Use this when your final function should have the form IxSet IxSet e.g insert or delete",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "change",
           "normalized": "IndexOp-\u003ea-\u003eIxSet a-\u003eIxSet a",
@@ -724,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves an item from the \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "delete",
           "package": "ixset",
@@ -734,6 +793,7 @@
         "index": {
           "description": "Removes an item from the IxSet",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "delete",
           "normalized": "a-\u003eIxSet a-\u003eIxSet a",
@@ -749,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWill delete the item with index k.  Only works if there is at\n most one item with that index in the \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e. Will not change\n \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e if you have more then 1 item with given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "deleteIx",
           "package": "ixset",
@@ -759,6 +820,7 @@
         "index": {
           "description": "Will delete the item with index Only works if there is at most one item with that index in the IxSet Will not change IxSet if you have more then item with given index",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "deleteIx",
           "normalized": "a-\u003eIxSet b-\u003eIxSet b",
@@ -775,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines what an empty \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e for this particular type should look\n like.  It should have all necessary indexes. Use the \u003ccode\u003e\u003ca\u003eixSet\u003c/a\u003e\u003c/code\u003e\n function to create the set and fill it in with \u003ccode\u003e\u003ca\u003eixFun\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eixGen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "empty",
           "package": "ixset",
@@ -785,6 +848,7 @@
         "index": {
           "description": "Defines what an empty IxSet for this particular type should look like It should have all necessary indexes Use the ixSet function to create the set and fill it in with ixFun and ixGen",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "empty",
           "package": "ixset",
@@ -798,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerically traverses the argument to find all occurences of\n values of type \u003ccode\u003eb\u003c/code\u003e and returns them as a list.\n\u003c/p\u003e\u003cp\u003eThis function properly handles \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e not as \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "flatten",
           "package": "ixset",
@@ -808,6 +873,7 @@
         "index": {
           "description": "Generically traverses the argument to find all occurences of values of type and returns them as list This function properly handles String as String not as Char",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "flatten",
           "normalized": "a-\u003e[b]",
@@ -823,6 +889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerically traverses the argument and calculated values to find\n all occurences of values of type \u003ccode\u003eb\u003c/code\u003e and returns them as a\n list. Equivalent to:\n\u003c/p\u003e\u003cpre\u003e flatten (x,calcs x)\n\u003c/pre\u003e\u003cp\u003eThis function properly handles \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e not as \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "flattenWithCalcs",
           "package": "ixset",
@@ -833,6 +900,7 @@
         "index": {
           "description": "Generically traverses the argument and calculated values to find all occurences of values of type and returns them as list Equivalent to flatten calcs This function properly handles String as String not as Char",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "flattenWithCalcs",
           "normalized": "(a-\u003eb)-\u003ea-\u003e[c]",
@@ -849,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a list to an \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "fromList",
           "package": "ixset",
@@ -859,6 +928,7 @@
         "index": {
           "description": "Converts list to an IxSet",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "fromList",
           "normalized": "[a]-\u003eIxSet a",
@@ -875,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "fromSet",
           "package": "ixset",
@@ -885,6 +956,7 @@
         "index": {
           "description": "Converts Set to an IxSet",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "fromSet",
           "normalized": "Set a-\u003eIxSet a",
@@ -901,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the subset with an index equal to the provided key.  The\n set must be indexed over key type, doing otherwise results in\n runtime error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "getEQ",
           "package": "ixset",
@@ -911,6 +984,7 @@
         "index": {
           "description": "Returns the subset with an index equal to the provided key The set must be indexed over key type doing otherwise results in runtime error",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "getEQ",
           "normalized": "a-\u003eIxSet b-\u003eIxSet b",
@@ -927,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the subset with an index greater than the provided key.\n The set must be indexed over key type, doing otherwise results in\n runtime error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "getGT",
           "package": "ixset",
@@ -937,6 +1012,7 @@
         "index": {
           "description": "Returns the subset with an index greater than the provided key The set must be indexed over key type doing otherwise results in runtime error",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "getGT",
           "normalized": "a-\u003eIxSet b-\u003eIxSet b",
@@ -953,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the subset with an index greater than or equal to the\n provided key.  The set must be indexed over key type, doing\n otherwise results in runtime error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "getGTE",
           "package": "ixset",
@@ -963,6 +1040,7 @@
         "index": {
           "description": "Returns the subset with an index greater than or equal to the provided key The set must be indexed over key type doing otherwise results in runtime error",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "getGTE",
           "normalized": "a-\u003eIxSet b-\u003eIxSet b",
@@ -979,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the subset with an index less than the provided key.  The\n set must be indexed over key type, doing otherwise results in\n runtime error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "getLT",
           "package": "ixset",
@@ -989,6 +1068,7 @@
         "index": {
           "description": "Returns the subset with an index less than the provided key The set must be indexed over key type doing otherwise results in runtime error",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "getLT",
           "normalized": "a-\u003eIxSet b-\u003eIxSet b",
@@ -1005,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the subset with an index less than or equal to the\n provided key.  The set must be indexed over key type, doing\n otherwise results in runtime error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "getLTE",
           "package": "ixset",
@@ -1015,6 +1096,7 @@
         "index": {
           "description": "Returns the subset with an index less than or equal to the provided key The set must be indexed over key type doing otherwise results in runtime error",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "getLTE",
           "normalized": "a-\u003eIxSet b-\u003eIxSet b",
@@ -1031,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e is a singleton it will return the one item stored in it.\n If \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e is empty or has many elements this function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "getOne",
           "package": "ixset",
@@ -1041,6 +1124,7 @@
         "index": {
           "description": "If the IxSet is singleton it will return the one item stored in it If IxSet is empty or has many elements this function returns Nothing",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "getOne",
           "normalized": "IxSet a-\u003eMaybe a",
@@ -1057,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003egetOne\u003c/a\u003e\u003c/code\u003e with a user-provided default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "getOneOr",
           "package": "ixset",
@@ -1067,6 +1152,7 @@
         "index": {
           "description": "Like getOne with user-provided default",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "getOneOr",
           "normalized": "a-\u003eIxSet a-\u003ea",
@@ -1083,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the subset with an index within the interval provided.\n The bottom of the interval is closed and the top is open,\n i. e. [k1;k2).  The set must be indexed over key type, doing\n otherwise results in runtime error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "getRange",
           "package": "ixset",
@@ -1093,6 +1180,7 @@
         "index": {
           "description": "Returns the subset with an index within the interval provided The bottom of the interval is closed and the top is open k1 k2 The set must be indexed over key type doing otherwise results in runtime error",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "getRange",
           "normalized": "a-\u003ea-\u003eIxSet b-\u003eIxSet b",
@@ -1109,6 +1197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns lists of elements paired with the indexes determined by\n type inference.\n\u003c/p\u003e\u003cp\u003eThe resulting list will be sorted in ascending order by \u003ccode\u003ek\u003c/code\u003e.\n The values in '[t]' will be sorted in ascending order as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "groupAscBy",
           "package": "ixset",
@@ -1119,6 +1208,7 @@
         "index": {
           "description": "Returns lists of elements paired with the indexes determined by type inference The resulting list will be sorted in ascending order by The values in will be sorted in ascending order as well",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "groupAscBy",
           "normalized": "IxSet a-\u003e[(b,[a])]",
@@ -1135,6 +1225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns lists of elements paired with the indexes determined by\n type inference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "groupBy",
           "package": "ixset",
@@ -1145,6 +1236,7 @@
         "index": {
           "description": "Returns lists of elements paired with the indexes determined by type inference",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "groupBy",
           "normalized": "IxSet a-\u003e[(b,[a])]",
@@ -1161,6 +1253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns lists of elements paired with the indexes determined by\n type inference.\n\u003c/p\u003e\u003cp\u003eThe resulting list will be sorted in descending order by \u003ccode\u003ek\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNOTE: The values in '[t]' are currently sorted in ascending\n order. But this may change if someone bothers to add\n \u003ccode\u003e\u003ca\u003etoDescList\u003c/a\u003e\u003c/code\u003e. So do not rely on the sort order of '[t]'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "groupDescBy",
           "package": "ixset",
@@ -1171,6 +1264,7 @@
         "index": {
           "description": "Returns lists of elements paired with the indexes determined by type inference The resulting list will be sorted in descending order by NOTE The values in are currently sorted in ascending order But this may change if someone bothers to add toDescList So do not rely on the sort order of",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "groupDescBy",
           "normalized": "IxSet a-\u003e[(b,[a])]",
@@ -1187,6 +1281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemplate Haskell helper function for automatically building an\n\u003ccode\u003e\u003ca\u003eIndexable\u003c/a\u003e\u003c/code\u003e instance from a data type, e.g.\n\u003c/p\u003e\u003cpre\u003e data Foo = Foo Int String\n\u003c/pre\u003e\u003cp\u003eand\n\u003c/p\u003e\u003cpre\u003e $(inferIxSet \"FooDB\" ''Foo 'noCalcs [''Int,''String])\n\u003c/pre\u003e\u003cp\u003ewill build a type synonym\n\u003c/p\u003e\u003cpre\u003e type FooDB = IxSet Foo\n\u003c/pre\u003e\u003cp\u003ewith \u003ccode\u003eInt\u003c/code\u003e and \u003ccode\u003eString\u003c/code\u003e as indexes.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWARNING\u003c/em\u003e: The type specified as the first index must be a type which\nappears in all values in the \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003etoList\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etoSet\u003c/a\u003e\u003c/code\u003e and\nserialization will not function properly.  You will be warned not to do\nthis with a runtime error.  You can always use the element type\nitself. For example:\n\u003c/p\u003e\u003cpre\u003e $(inferIxSet \"FooDB\" ''Foo 'noCalcs [''Foo, ''Int, ''String])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "inferIxSet",
           "package": "ixset",
@@ -1197,6 +1292,7 @@
         "index": {
           "description": "Template Haskell helper function for automatically building an Indexable instance from data type e.g data Foo Foo Int String and inferIxSet FooDB Foo noCalcs Int String will build type synonym type FooDB IxSet Foo with Int and String as indexes WARNING The type specified as the first index must be type which appears in all values in the IxSet or toList toSet and serialization will not function properly You will be warned not to do this with runtime error You can always use the element type itself For example inferIxSet FooDB Foo noCalcs Foo Int String",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "inferIxSet",
           "normalized": "String-\u003eName-\u003eName-\u003e[Name]-\u003eQ[Dec]",
@@ -1213,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts an item into the \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e. If your data happens to have\n a primary key this function might not be what you want. See\n \u003ccode\u003e\u003ca\u003eupdateIx\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "insert",
           "package": "ixset",
@@ -1223,6 +1320,7 @@
         "index": {
           "description": "Inserts an item into the IxSet If your data happens to have primary key this function might not be what you want See updateIx",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "insert",
           "normalized": "a-\u003eIxSet a-\u003eIxSet a",
@@ -1238,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the intersection of the two \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "intersection",
           "package": "ixset",
@@ -1248,6 +1347,7 @@
         "index": {
           "description": "Takes the intersection of the two IxSet",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "intersection",
           "normalized": "IxSet a-\u003eIxSet a-\u003eIxSet a",
@@ -1263,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a functional index. Provided function should return a list\n of indexes where the value should be found.\n\u003c/p\u003e\u003cpre\u003e getIndexes value = [...indexes...]\n\u003c/pre\u003e\u003cpre\u003e instance Indexable Type where\n     empty = ixSet [ ixFun getIndexes ]\n\u003c/pre\u003e\u003cp\u003eThis is the recommended way to create indexes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "ixFun",
           "package": "ixset",
@@ -1273,6 +1374,7 @@
         "index": {
           "description": "Create functional index Provided function should return list of indexes where the value should be found getIndexes value indexes instance Indexable Type where empty ixSet ixFun getIndexes This is the recommended way to create indexes",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "ixFun",
           "normalized": "(a-\u003e[b])-\u003eIx a",
@@ -1289,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a generic index. Provided example is used only as type source\n so you may use a \u003ccode\u003e\u003ca\u003eProxy\u003c/a\u003e\u003c/code\u003e. This uses flatten to traverse values using\n their \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e\u003cpre\u003e instance Indexable Type where\n     empty = ixSet [ ixGen (Proxy :: Proxy Type) ]\n\u003c/pre\u003e\u003cp\u003eIn production systems consider using \u003ccode\u003e\u003ca\u003eixFun\u003c/a\u003e\u003c/code\u003e in place of \u003ccode\u003e\u003ca\u003eixGen\u003c/a\u003e\u003c/code\u003e as\n the former one is much faster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "ixGen",
           "package": "ixset",
@@ -1299,6 +1402,7 @@
         "index": {
           "description": "Create generic index Provided example is used only as type source so you may use Proxy This uses flatten to traverse values using their Data instances instance Indexable Type where empty ixSet ixGen Proxy Proxy Type In production systems consider using ixFun in place of ixGen as the former one is much faster",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "ixGen",
           "normalized": "Proxy a-\u003eIx b",
@@ -1315,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e using a list of indexes. Useful in the \u003ccode\u003e\u003ca\u003eIndexable\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e method. Use \u003ccode\u003e\u003ca\u003eixFun\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eixGen\u003c/a\u003e\u003c/code\u003e as list elements.\n\u003c/p\u003e\u003cpre\u003e instance Indexable Type where\n     empty = ixSet [ ...\n                     ixFun getIndex1\n                     ixGen (Proxy :: Proxy Index2Type)\n                   ]\n\u003c/pre\u003e\u003cp\u003eEvery value in the \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e must be reachable by the first index in this\n list, or you'll get a runtime error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "ixSet",
           "package": "ixset",
@@ -1325,6 +1430,7 @@
         "index": {
           "description": "Create an IxSet using list of indexes Useful in the Indexable empty method Use ixFun and ixGen as list elements instance Indexable Type where empty ixSet ixFun getIndex1 ixGen Proxy Proxy Index2Type Every value in the IxSet must be reachable by the first index in this list or you ll get runtime error",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "ixSet",
           "normalized": "[Ix a]-\u003eIxSet a",
@@ -1341,6 +1447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to be used for \u003ccode\u003ecalcs\u003c/code\u003e in \u003ccode\u003e\u003ca\u003einferIxSet\u003c/a\u003e\u003c/code\u003e when you don't\n want any calculated values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "noCalcs",
           "package": "ixset",
@@ -1351,6 +1458,7 @@
         "index": {
           "description": "Function to be used for calcs in inferIxSet when you don want any calculated values",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "noCalcs",
           "normalized": "a-\u003e()",
@@ -1367,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e is empty, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "null",
           "package": "ixset",
@@ -1377,6 +1486,7 @@
         "index": {
           "description": "Return True if the IxSet is empty False otherwise",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "null",
           "normalized": "IxSet a-\u003eBool",
@@ -1392,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of unique items in the \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "size",
           "package": "ixset",
@@ -1402,6 +1513,7 @@
         "index": {
           "description": "Returns the number of unique items in the IxSet",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "size",
           "normalized": "IxSet a-\u003eInt",
@@ -1417,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatistics about \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e. This function returns quadruple\n consisting of 1. total number of elements in the set 2. number of\n declared indexes 3. number of keys in all indexes 4. number of\n values in all keys in all indexes. This can aid you in debugging\n and optimisation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "stats",
           "package": "ixset",
@@ -1427,6 +1540,7 @@
         "index": {
           "description": "Statistics about IxSet This function returns quadruple consisting of total number of elements in the set number of declared indexes number of keys in all indexes number of values in all keys in all indexes This can aid you in debugging and optimisation",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "stats",
           "normalized": "IxSet a-\u003e(Int,Int,Int,Int)",
@@ -1442,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e to its list of elements.\n\u003c/p\u003e\u003cp\u003eList will be sorted in ascending order by the index \u003ccode\u003ek\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe list may contain duplicate entries if a single value produces multiple keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "toAscList",
           "package": "ixset",
@@ -1452,6 +1567,7 @@
         "index": {
           "description": "Converts an IxSet to its list of elements List will be sorted in ascending order by the index The list may contain duplicate entries if single value produces multiple keys",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "toAscList",
           "normalized": "Proxy a-\u003eIxSet b-\u003e[b]",
@@ -1468,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e to its list of elements.\n\u003c/p\u003e\u003cp\u003eList will be sorted in descending order by the index \u003ccode\u003ek\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe list may contain duplicate entries if a single value produces multiple keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "toDescList",
           "package": "ixset",
@@ -1478,6 +1595,7 @@
         "index": {
           "description": "Converts an IxSet to its list of elements List will be sorted in descending order by the index The list may contain duplicate entries if single value produces multiple keys",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "toDescList",
           "normalized": "Proxy a-\u003eIxSet b-\u003e[b]",
@@ -1494,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e to its list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "toList",
           "package": "ixset",
@@ -1504,6 +1623,7 @@
         "index": {
           "description": "Converts an IxSet to its list of elements",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "toList",
           "normalized": "IxSet a-\u003e[a]",
@@ -1520,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e of its elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "toSet",
           "package": "ixset",
@@ -1530,6 +1651,7 @@
         "index": {
           "description": "Converts an IxSet to Set of its elements",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "toSet",
           "normalized": "IxSet a-\u003eSet a",
@@ -1546,6 +1668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the union of the two \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "union",
           "package": "ixset",
@@ -1556,6 +1679,7 @@
         "index": {
           "description": "Takes the union of the two IxSet",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "union",
           "normalized": "IxSet a-\u003eIxSet a-\u003eIxSet a",
@@ -1571,6 +1695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWill replace the item with index k.  Only works if there is at\n most one item with that index in the \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e. Will not change\n \u003ccode\u003e\u003ca\u003eIxSet\u003c/a\u003e\u003c/code\u003e if you have more then 1 item with given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:42 UTC 2014",
           "module": "Data.IxSet",
           "name": "updateIx",
           "package": "ixset",
@@ -1581,6 +1706,7 @@
         "index": {
           "description": "Will replace the item with index Only works if there is at most one item with that index in the IxSet Will not change IxSet if you have more then item with given index",
           "hierarchy": "Data IxSet",
+          "indexed": "2014-03-11T19:00:42",
           "module": "Data.IxSet",
           "name": "updateIx",
           "normalized": "a-\u003eb-\u003eIxSet b-\u003eIxSet b",

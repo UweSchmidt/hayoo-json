@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ctrie"
+        "phrase": "ctrie",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA non-blocking concurrent map from hashable keys to values.\n\u003c/p\u003e\u003cp\u003eThe implementation is based on \u003cem\u003elock-free concurrent hash tries\u003c/em\u003e\n (aka \u003cem\u003eCtries\u003c/em\u003e) as described by:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Aleksander Prokopec, Phil Bagwell, Martin Odersky,\n      \"\u003cem\u003eCache-Aware Lock-Free Concurent Hash Tries\u003c/em\u003e\"\n\u003c/li\u003e\u003cli\u003e Aleksander Prokopec, Nathan G. Bronson, Phil Bagwell,\n      Martin Odersky \"/Concurrent Tries with Efficient Non-Blocking\n      Snapshots/\"\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eOperations have a worst-case complexity of \u003cem\u003eO(log n)\u003c/em\u003e, with a base\n equal to the size of the native \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:09 UTC 2014",
           "module": "Control.Concurrent.Map",
           "name": "Map",
           "package": "ctrie",
@@ -28,6 +29,7 @@
         "index": {
           "description": "non-blocking concurrent map from hashable keys to values The implementation is based on lock-free concurrent hash tries aka Ctries as described by Aleksander Prokopec Phil Bagwell Martin Odersky Cache-Aware Lock-Free Concurent Hash Tries Aleksander Prokopec Nathan Bronson Phil Bagwell Martin Odersky Concurrent Tries with Efficient Non-Blocking Snapshots Operations have worst-case complexity of log with base equal to the size of the native Word",
           "hierarchy": "Control Concurrent Map",
+          "indexed": "2014-03-11T17:45:09",
           "module": "Control.Concurrent.Map",
           "name": "Map",
           "package": "ctrie",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from keys \u003ccode\u003ek\u003c/code\u003e to values \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:09 UTC 2014",
           "module": "Control.Concurrent.Map",
           "name": "Map",
           "package": "ctrie",
@@ -51,6 +54,7 @@
         "index": {
           "description": "map from keys to values",
           "hierarchy": "Control Concurrent Map",
+          "indexed": "2014-03-11T17:45:09",
           "module": "Control.Concurrent.Map",
           "name": "Map",
           "package": "ctrie",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Remove the given key and its associated value from the map,\n if present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:09 UTC 2014",
           "module": "Control.Concurrent.Map",
           "name": "delete",
           "package": "ctrie",
@@ -75,6 +80,7 @@
         "index": {
           "description": "log Remove the given key and its associated value from the map if present",
           "hierarchy": "Control Concurrent Map",
+          "indexed": "2014-03-11T17:45:09",
           "module": "Control.Concurrent.Map",
           "name": "delete",
           "normalized": "a-\u003eMap a b-\u003eIO()",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Construct an empty map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:09 UTC 2014",
           "module": "Control.Concurrent.Map",
           "name": "empty",
           "package": "ctrie",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Construct an empty map",
           "hierarchy": "Control Concurrent Map",
+          "indexed": "2014-03-11T17:45:09",
           "module": "Control.Concurrent.Map",
           "name": "empty",
           "package": "ctrie",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n * log n)\u003c/em\u003e. Construct a map from a list of key/value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:09 UTC 2014",
           "module": "Control.Concurrent.Map",
           "name": "fromList",
           "package": "ctrie",
@@ -123,6 +132,7 @@
         "index": {
           "description": "log Construct map from list of key value pairs",
           "hierarchy": "Control Concurrent Map",
+          "indexed": "2014-03-11T17:45:09",
           "module": "Control.Concurrent.Map",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eIO(Map a b)",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Associate the given value with the given key.\n If the key is already present in the map, the old value is replaced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:09 UTC 2014",
           "module": "Control.Concurrent.Map",
           "name": "insert",
           "package": "ctrie",
@@ -149,6 +160,7 @@
         "index": {
           "description": "log Associate the given value with the given key If the key is already present in the map the old value is replaced",
           "hierarchy": "Control Concurrent Map",
+          "indexed": "2014-03-11T17:45:09",
           "module": "Control.Concurrent.Map",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eMap a b-\u003eIO()",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Return the value associated with the given key, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:09 UTC 2014",
           "module": "Control.Concurrent.Map",
           "name": "lookup",
           "package": "ctrie",
@@ -174,6 +187,7 @@
         "index": {
           "description": "log Return the value associated with the given key or Nothing",
           "hierarchy": "Control Concurrent Map",
+          "indexed": "2014-03-11T17:45:09",
           "module": "Control.Concurrent.Map",
           "name": "lookup",
           "normalized": "a-\u003eMap a b-\u003eIO(Maybe b)",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Unsafely convert the map to a list of key/value pairs.\n\u003c/p\u003e\u003cp\u003eWARNING: \u003ccode\u003e\u003ca\u003eunsafeToList\u003c/a\u003e\u003c/code\u003e makes no atomicity guarantees. Concurrent\n changes to the map will lead to inconsistent results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:09 UTC 2014",
           "module": "Control.Concurrent.Map",
           "name": "unsafeToList",
           "package": "ctrie",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Unsafely convert the map to list of key value pairs WARNING unsafeToList makes no atomicity guarantees Concurrent changes to the map will lead to inconsistent results",
           "hierarchy": "Control Concurrent Map",
+          "indexed": "2014-03-11T17:45:09",
           "module": "Control.Concurrent.Map",
           "name": "unsafeToList",
           "normalized": "Map a b-\u003eIO[(a,b)]",

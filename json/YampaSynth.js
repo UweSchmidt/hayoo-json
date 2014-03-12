@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "YampaSynth"
+        "phrase": "YampaSynth",
+        "type": "phrase"
       },
       "type": "context"
     }

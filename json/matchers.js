@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "matchers"
+        "phrase": "matchers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "Base",
           "package": "matchers",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "Base",
           "package": "matchers",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "Caseless",
           "package": "matchers",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "Caseless",
           "package": "matchers",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "PCRE",
           "package": "matchers",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "PCRE",
           "package": "matchers",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "PCRE_Extra",
           "package": "matchers",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "PCRE_Extra",
           "package": "matchers",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "Regex",
           "package": "matchers",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "Regex",
           "package": "matchers",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "c_free",
           "package": "matchers",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "c_free",
           "normalized": "FunPtr(Ptr a-\u003eIO())",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "c_pcre_compile",
           "package": "matchers",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "c_pcre_compile",
           "normalized": "CString-\u003eCInt-\u003ePtr CString-\u003ePtr CInt-\u003ePtr CUChar-\u003eIO(Ptr PCRE)",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "c_pcre_exec",
           "package": "matchers",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "c_pcre_exec",
           "normalized": "Ptr PCRE-\u003ePtr PCRE_Extra-\u003eCString-\u003eCInt-\u003eCInt-\u003eCInt-\u003ePtr CInt-\u003eCInt-\u003eIO CInt",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "caseless",
           "package": "matchers",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "caseless",
           "package": "matchers",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "compile",
           "package": "matchers",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "compile",
           "normalized": "Caseless-\u003eText-\u003eIO(Either String Regex)",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "exec",
           "package": "matchers",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "exec",
           "normalized": "Regex-\u003eText-\u003eIO(Maybe Bool)",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "pcre_compile",
           "package": "matchers",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "pcre_compile",
           "normalized": "Caseless-\u003eText-\u003eIO(Either String(Ptr PCRE))",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre.Base",
           "name": "pcre_exec",
           "package": "matchers",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre Base",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre.Base",
           "name": "pcre_exec",
           "normalized": "Ptr PCRE-\u003eText-\u003eIO(Maybe Bool)",
@@ -352,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre",
           "name": "Pcre",
           "package": "matchers",
@@ -360,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre",
           "name": "Pcre",
           "package": "matchers",
@@ -373,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre",
           "name": "Caseless",
           "package": "matchers",
@@ -381,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre",
           "name": "Caseless",
           "package": "matchers",
@@ -394,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre",
           "name": "Regex",
           "package": "matchers",
@@ -402,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre",
           "name": "Regex",
           "package": "matchers",
@@ -415,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre",
           "name": "compile",
           "package": "matchers",
@@ -424,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre",
           "name": "compile",
           "normalized": "Caseless-\u003eText-\u003eEither String Regex",
@@ -438,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Pcre",
           "name": "exec",
           "package": "matchers",
@@ -447,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Pcre",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Pcre",
           "name": "exec",
           "normalized": "Regex-\u003eText-\u003eMaybe Bool",
@@ -462,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTime parsers.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eText.Matchers\u003c/a\u003e allows you to perform matching based on times.\n Times are parsed using the parsers in this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "Times",
           "package": "matchers",
@@ -471,6 +508,7 @@
         "index": {
           "description": "Time parsers Text.Matchers allows you to perform matching based on times Times are parsed using the parsers in this module",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "Times",
           "package": "matchers",
@@ -484,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "colon",
           "package": "matchers",
@@ -493,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "colon",
           "normalized": "Char-\u003eBool",
@@ -508,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate separator (slash or hyphen).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "dateSep",
           "package": "matchers",
@@ -518,6 +559,7 @@
         "index": {
           "description": "Date separator slash or hyphen",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "dateSep",
           "normalized": "Char-\u003eBool",
@@ -534,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay, followed by optional whitespace, followed by optional time\n with zone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "dateTime",
           "package": "matchers",
@@ -544,6 +587,7 @@
         "index": {
           "description": "Day followed by optional whitespace followed by optional time with zone",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "dateTime",
           "package": "matchers",
@@ -558,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA two-digit day (exactly 2 digits.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "day",
           "package": "matchers",
@@ -568,6 +613,7 @@
         "index": {
           "description": "two-digit day exactly digits",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "day",
           "package": "matchers",
@@ -580,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "digit",
           "package": "matchers",
@@ -589,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "digit",
           "normalized": "Char-\u003eBool",
@@ -604,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo digits for the hour (exactly two digits).  Must be between\n 0 and 23.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "hours",
           "package": "matchers",
@@ -614,6 +663,7 @@
         "index": {
           "description": "Two digits for the hour exactly two digits Must be between and",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "hours",
           "package": "matchers",
@@ -627,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo digits for the minutes (exactly two digits).  Must be\n between 0 and 59.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "minutes",
           "package": "matchers",
@@ -637,6 +688,7 @@
         "index": {
           "description": "Two digits for the minutes exactly two digits Must be between and",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "minutes",
           "package": "matchers",
@@ -650,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA two-digit month (exactly 2 digits.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "month",
           "package": "matchers",
@@ -660,6 +713,7 @@
         "index": {
           "description": "two-digit month exactly digits",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "month",
           "package": "matchers",
@@ -673,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA valid Gregorian day, in YYYY-MM-DD format.  Each separator\n may be a hyphen or a slash.  Fails if the day is not valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "pDate",
           "package": "matchers",
@@ -683,6 +738,7 @@
         "index": {
           "description": "valid Gregorian day in YYYY-MM-DD format Each separator may be hyphen or slash Fails if the day is not valid",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "pDate",
           "package": "matchers",
@@ -697,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo digits for seconds (exactly two digits).  Must be between 0\n and 59; there are no leap seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "seconds",
           "package": "matchers",
@@ -707,6 +764,7 @@
         "index": {
           "description": "Two digits for seconds exactly two digits Must be between and there are no leap seconds",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "seconds",
           "package": "matchers",
@@ -720,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHours and minutes, separated by colons, with optional seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "time",
           "package": "matchers",
@@ -730,6 +789,7 @@
         "index": {
           "description": "Hours and minutes separated by colons with optional seconds",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "time",
           "package": "matchers",
@@ -743,6 +803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime of day, with optional time zone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "timeWithZone",
           "package": "matchers",
@@ -753,6 +814,7 @@
         "index": {
           "description": "Time of day with optional time zone",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "timeWithZone",
           "normalized": "Parser(TimeOfDay,Maybe TimeZone)",
@@ -769,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime zone; that is, sign and offset.  Both the sign and offset\n are required.  The number of minutes may not exceed 840.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "timeZone",
           "package": "matchers",
@@ -779,6 +842,7 @@
         "index": {
           "description": "Time zone that is sign and offset Both the sign and offset are required The number of minutes may not exceed",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "timeZone",
           "package": "matchers",
@@ -793,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime zone offset, exactly 4 digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "tzNumber",
           "package": "matchers",
@@ -803,6 +868,7 @@
         "index": {
           "description": "Time zone offset exactly digits",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "tzNumber",
           "package": "matchers",
@@ -817,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime zone sign, plus or minus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "tzSign",
           "package": "matchers",
@@ -827,6 +894,7 @@
         "index": {
           "description": "Time zone sign plus or minus",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "tzSign",
           "normalized": "Parser(Int-\u003eInt)",
@@ -843,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpace or tab.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "white",
           "package": "matchers",
@@ -853,6 +922,7 @@
         "index": {
           "description": "Space or tab",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "white",
           "normalized": "Char-\u003eBool",
@@ -868,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA four-digit year.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers.Times",
           "name": "year",
           "package": "matchers",
@@ -878,6 +949,7 @@
         "index": {
           "description": "four-digit year",
           "hierarchy": "Text Matchers Times",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers.Times",
           "name": "year",
           "package": "matchers",
@@ -890,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers",
           "name": "Matchers",
           "package": "matchers",
@@ -898,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers",
           "name": "Matchers",
           "package": "matchers",
@@ -911,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers",
           "name": "CaseSensitive",
           "package": "matchers",
@@ -919,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers",
           "name": "CaseSensitive",
           "package": "matchers",
@@ -932,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers",
           "name": "Insensitive",
           "package": "matchers",
@@ -941,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers",
           "name": "Insensitive",
           "package": "matchers",
@@ -954,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers",
           "name": "Sensitive",
           "package": "matchers",
@@ -963,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Text Matchers",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers",
           "name": "Sensitive",
           "package": "matchers",
@@ -977,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches any valid time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers",
           "name": "anyTime",
           "package": "matchers",
@@ -987,6 +1068,7 @@
         "index": {
           "description": "Matches any valid time",
           "hierarchy": "Text Matchers",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers",
           "name": "anyTime",
           "package": "matchers",
@@ -1001,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatcher that succeeds if the pattern text exactly matches the\n subject (with case sensitivity as appropriate.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers",
           "name": "exact",
           "package": "matchers",
@@ -1011,6 +1094,7 @@
         "index": {
           "description": "Matcher that succeeds if the pattern text exactly matches the subject with case sensitivity as appropriate",
           "hierarchy": "Text Matchers",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers",
           "name": "exact",
           "normalized": "CaseSensitive-\u003eText-\u003ePredbox Text",
@@ -1026,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses the PCRE regular expression engine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers",
           "name": "pcre",
           "package": "matchers",
@@ -1035,6 +1120,7 @@
         "index": {
           "description": "Uses the PCRE regular expression engine",
           "hierarchy": "Text Matchers",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers",
           "name": "pcre",
           "normalized": "CaseSensitive-\u003eText-\u003eEither Text(Predbox Text)",
@@ -1050,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the given ordering is \u003ccode\u003er\u003c/code\u003e, the given time is \u003ccode\u003et\u003c/code\u003e, and the\n time of the subject is \u003ccode\u003es\u003c/code\u003e, the Predbox returns \u003ccode\u003ecompare s t == r\u003c/code\u003e.\n Always returns False if the subject is not a valid time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers",
           "name": "time",
           "package": "matchers",
@@ -1059,6 +1146,7 @@
         "index": {
           "description": "If the given ordering is the given time is and the time of the subject is the Predbox returns compare Always returns False if the subject is not valid time",
           "hierarchy": "Text Matchers",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers",
           "name": "time",
           "normalized": "Ordering-\u003eUTCTime-\u003ePredbox Text",
@@ -1074,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatcher that succeeds if the pattern text is found anywhere\n within the subject.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:04 UTC 2014",
           "module": "Text.Matchers",
           "name": "within",
           "package": "matchers",
@@ -1083,6 +1172,7 @@
         "index": {
           "description": "Matcher that succeeds if the pattern text is found anywhere within the subject",
           "hierarchy": "Text Matchers",
+          "indexed": "2014-03-11T19:15:04",
           "module": "Text.Matchers",
           "name": "within",
           "normalized": "CaseSensitive-\u003eText-\u003ePredbox Text",

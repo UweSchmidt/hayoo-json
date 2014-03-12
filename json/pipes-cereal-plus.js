@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pipes-cereal-plus"
+        "phrase": "pipes-cereal-plus",
+        "type": "phrase"
       },
       "type": "context"
     }

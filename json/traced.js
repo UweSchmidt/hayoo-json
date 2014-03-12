@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "traced"
+        "phrase": "traced",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ca\u003eTraced\u003c/a\u003e module provides a simple way of tracing expression evaluation.\n A value of type \u003ccode\u003eTraced a\u003c/code\u003e has both a value of type \u003ccode\u003ea\u003c/code\u003e and an expression tree\n that describes how the value was computed.\n\u003c/p\u003e\u003cp\u003eThere are instances for the \u003ccode\u003e\u003ca\u003eTraced\u003c/a\u003e\u003c/code\u003e type for all numeric classes to make\n it simple to trace numeric expressions.\n\u003c/p\u003e\u003cp\u003eThe expression tree associated with a traced value is exactly that: a tree.\n But evaluation of expressions in Haskell typically has sharing to avoid recomputation.\n This sharing can be recovered by the (impure) \u003ccode\u003e\u003ca\u003ereShare\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003cp\u003e$examples\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "Traced",
           "package": "traced",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Traced module provides simple way of tracing expression evaluation value of type Traced has both value of type and an expression tree that describes how the value was computed There are instances for the Traced type for all numeric classes to make it simple to trace numeric expressions The expression tree associated with traced value is exactly that tree But evaluation of expressions in Haskell typically has sharing to avoid recomputation This sharing can be recovered by the impure reShare function examples",
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "Traced",
           "package": "traced",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "Liftable",
           "package": "traced",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "Liftable",
           "package": "traced",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "Traceable",
           "package": "traced",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "Traceable",
           "package": "traced",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraced values of some type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "Traced",
           "package": "traced",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Traced values of some type",
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "Traced",
           "package": "traced",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression tree for a traced value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "TracedD",
           "package": "traced",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Expression tree for traced value",
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "TracedD",
           "package": "traced",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for \u003ccode\u003e\u003ca\u003eTraced\u003c/a\u003e\u003c/code\u003e to show it with full details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "TracedExp",
           "package": "traced",
@@ -139,6 +150,7 @@
         "index": {
           "description": "wrapper for Traced to show it with full details",
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "TracedExp",
           "package": "traced",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "(%||)",
           "package": "traced",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "(%||) %||",
           "normalized": "Traced Bool-\u003eTraced Bool-\u003eTraced Bool",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "(%&&)",
           "package": "traced",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "(%&&) %&&",
           "normalized": "Traced Bool-\u003eTraced Bool-\u003eTraced Bool",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComparisons generating traced booleans.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "(%/=)",
           "package": "traced",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Comparisons generating traced booleans",
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "(%/=) %/=",
           "normalized": "Traced a-\u003eTraced a-\u003eTraced Bool",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "(%\u003c)",
           "package": "traced",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "(%\u003c) %\u003c",
           "normalized": "Traced a-\u003eTraced a-\u003eTraced Bool",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "(%\u003c=)",
           "package": "traced",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "(%\u003c=) %\u003c=",
           "normalized": "Traced a-\u003eTraced a-\u003eTraced Bool",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "(%==)",
           "package": "traced",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "(%==) %==",
           "normalized": "Traced a-\u003eTraced a-\u003eTraced Bool",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "(%\u003e)",
           "package": "traced",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "(%\u003e) %\u003e",
           "normalized": "Traced a-\u003eTraced a-\u003eTraced Bool",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "(%\u003e=)",
           "package": "traced",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "(%\u003e=) %\u003e=",
           "normalized": "Traced a-\u003eTraced a-\u003eTraced Bool",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraced version of \u003cem\u003eif\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "ifT",
           "package": "traced",
@@ -349,6 +378,7 @@
         "index": {
           "description": "Traced version of if",
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "ifT",
           "normalized": "Traced Bool-\u003eTraced a-\u003eTraced a-\u003eTraced a",
@@ -465,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "namedExp",
           "package": "traced",
@@ -474,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "namedExp",
           "normalized": "String-\u003ea-\u003eTracedExp a",
@@ -594,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "tnot",
           "package": "traced",
@@ -603,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "tnot",
           "normalized": "Traced Bool-\u003eTraced Bool",
@@ -669,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.Traced",
           "name": "tracedExp",
           "package": "traced",
@@ -678,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Debug Traced",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.Traced",
           "name": "tracedExp",
           "normalized": "a-\u003eTracedExp a",
@@ -773,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "TracedInternal",
           "package": "traced",
@@ -781,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "TracedInternal",
           "package": "traced",
@@ -795,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixity for identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "Fixity",
           "package": "traced",
@@ -804,6 +843,7 @@
         "index": {
           "description": "Fixity for identifier",
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "Fixity",
           "package": "traced",
@@ -817,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "Liftable",
           "package": "traced",
@@ -825,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "Liftable",
           "package": "traced",
@@ -838,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "TraceLevel",
           "package": "traced",
@@ -846,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "TraceLevel",
           "package": "traced",
@@ -859,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "Traceable",
           "package": "traced",
@@ -867,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "Traceable",
           "package": "traced",
@@ -881,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraced values of some type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "Traced",
           "package": "traced",
@@ -890,6 +937,7 @@
         "index": {
           "description": "Traced values of some type",
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "Traced",
           "package": "traced",
@@ -904,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression tree for a traced value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "TracedD",
           "package": "traced",
@@ -913,6 +962,7 @@
         "index": {
           "description": "Expression tree for traced value",
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "TracedD",
           "package": "traced",
@@ -927,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "Apply",
           "package": "traced",
@@ -937,6 +988,7 @@
         "index": {
           "description": "application",
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "Apply",
           "normalized": "Apply a Name Fixity[TracedD]",
@@ -953,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "Con",
           "package": "traced",
@@ -963,6 +1016,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "Con",
           "package": "traced",
@@ -976,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "Infix",
           "package": "traced",
@@ -985,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "Infix",
           "package": "traced",
@@ -998,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "InfixL",
           "package": "traced",
@@ -1007,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "InfixL",
           "package": "traced",
@@ -1020,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "InfixR",
           "package": "traced",
@@ -1029,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "InfixR",
           "package": "traced",
@@ -1043,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(recovered) let expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "Let",
           "package": "traced",
@@ -1053,6 +1114,7 @@
         "index": {
           "description": "recovered let expression",
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "Let",
           "normalized": "a b Let[(Name,TracedD)]TracedD",
@@ -1069,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue with a name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "Name",
           "package": "traced",
@@ -1079,6 +1142,7 @@
         "index": {
           "description": "value with name",
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "Name",
           "package": "traced",
@@ -1093,6 +1157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunknown value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "NoValue",
           "package": "traced",
@@ -1103,6 +1168,7 @@
         "index": {
           "description": "unknown value",
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "NoValue",
           "package": "traced",
@@ -1116,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "Nonfix",
           "package": "traced",
@@ -1125,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "Nonfix",
           "package": "traced",
@@ -1138,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "TLExp",
           "package": "traced",
@@ -1147,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "TLExp",
           "package": "traced",
@@ -1160,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "TLFullExp",
           "package": "traced",
@@ -1169,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "TLFullExp",
           "package": "traced",
@@ -1182,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "TLValue",
           "package": "traced",
@@ -1191,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "TLValue",
           "package": "traced",
@@ -1205,6 +1279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a traced value with an \u003ccode\u003e\u003ca\u003eApply\u003c/a\u003e\u003c/code\u003e expression tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "apply",
           "package": "traced",
@@ -1215,6 +1290,7 @@
         "index": {
           "description": "Create traced value with an Apply expression tree",
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "apply",
           "normalized": "a-\u003eName-\u003eFixity-\u003e[TracedD]-\u003eTraced a",
@@ -1229,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "baseLiftT",
           "package": "traced",
@@ -1238,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "baseLiftT",
           "normalized": "Name-\u003eFixity-\u003e[TracedD]-\u003ea-\u003eTraced a",
@@ -1253,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "binOp",
           "package": "traced",
@@ -1262,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "binOp",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(String,Fixity)-\u003eTraced a-\u003eTraced b-\u003eTraced c",
@@ -1277,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "liftT'",
           "package": "traced",
@@ -1286,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "liftT'",
           "normalized": "Name-\u003eFixity-\u003e[TracedD]-\u003ea-\u003eb",
@@ -1301,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "pPrintTraced",
           "package": "traced",
@@ -1310,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "pPrintTraced",
           "normalized": "TraceLevel-\u003eInt-\u003eTraced a-\u003eDoc",
@@ -1325,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "trPPrint",
           "package": "traced",
@@ -1334,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "trPPrint",
           "normalized": "TraceLevel-\u003eInt-\u003ea-\u003eDoc",
@@ -1349,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:34 UTC 2014",
           "module": "Debug.TracedInternal",
           "name": "unOp",
           "package": "traced",
@@ -1358,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Debug TracedInternal",
+          "indexed": "2014-03-11T20:24:34",
           "module": "Debug.TracedInternal",
           "name": "unOp",
           "normalized": "(a-\u003eb)-\u003eString-\u003eTraced a-\u003eTraced b",

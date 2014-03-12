@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HsASA"
+        "phrase": "HsASA",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003einterface to the Adaptive Simulated Annealing algorithm.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "ASA",
           "package": "HsASA",
@@ -28,6 +29,7 @@
         "index": {
           "description": "interface to the Adaptive Simulated Annealing algorithm",
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "ASA",
           "package": "HsASA",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "CostFunction",
           "package": "HsASA",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "CostFunction",
           "package": "HsASA",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "Doubles",
           "package": "HsASA",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "Doubles",
           "package": "HsASA",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "ExitCode",
           "package": "HsASA",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "ExitCode",
           "package": "HsASA",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "Results",
           "package": "HsASA",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "Results",
           "package": "HsASA",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "UserOptions",
           "package": "HsASA",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "UserOptions",
           "package": "HsASA",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "CTempTooSmall",
           "package": "HsASA",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "CTempTooSmall",
           "package": "HsASA",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "CostRepeating",
           "package": "HsASA",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "CostRepeating",
           "package": "HsASA",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "ImmediateExit",
           "package": "HsASA",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "ImmediateExit",
           "package": "HsASA",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "InvalidCostFunction",
           "package": "HsASA",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "InvalidCostFunction",
           "package": "HsASA",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "InvalidCostFunctionDeriv",
           "package": "HsASA",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "InvalidCostFunctionDeriv",
           "package": "HsASA",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "InvalidUserInput",
           "package": "HsASA",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "InvalidUserInput",
           "package": "HsASA",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "NormalExit",
           "package": "HsASA",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "NormalExit",
           "package": "HsASA",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "PTempTooSmall",
           "package": "HsASA",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "PTempTooSmall",
           "package": "HsASA",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "Results",
           "package": "HsASA",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "Results",
           "package": "HsASA",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "TooManyInvalidStates",
           "package": "HsASA",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "TooManyInvalidStates",
           "package": "HsASA",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "UserOptions",
           "package": "HsASA",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "UserOptions",
           "package": "HsASA",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "asa",
           "package": "HsASA",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "asa",
           "normalized": "UserOptions-\u003e(Doubles-\u003eIO(Maybe Double))-\u003eInt-\u003eMaybe Doubles-\u003eDoubles-\u003eDoubles-\u003eUArray Int Bool-\u003eIO(ExitCode,Doubles)",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "asa_main",
           "package": "HsASA",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "asa_main",
           "normalized": "FunPtr CostFunction-\u003eCInt-\u003ePtr Double-\u003ePtr Double-\u003ePtr CInt-\u003ePtr Double-\u003ePtr Double-\u003ePtr CInt-\u003eCInt-\u003eIO CInt",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "exitCode",
           "package": "HsASA",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "exitCode",
           "package": "HsASA",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "minimize",
           "package": "HsASA",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "minimize",
           "normalized": "a-\u003e(b-\u003eDouble)-\u003eIO b",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "mkCostFunction",
           "package": "HsASA",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "mkCostFunction",
           "normalized": "CostFunction-\u003eIO(FunPtr CostFunction)",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "optimalParam",
           "package": "HsASA",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "optimalParam",
           "package": "HsASA",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "optimalValue",
           "package": "HsASA",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "optimalValue",
           "package": "HsASA",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.ASA",
           "name": "toBasicCostFunction",
           "package": "HsASA",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Optimize ASA",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.ASA",
           "name": "toBasicCostFunction",
           "normalized": "a-\u003e(b-\u003eDouble)-\u003eCostFunction",
@@ -572,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines the mapping between haskell types and a set of optimization\n parameters used to represent said type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "Parameter",
           "package": "HsASA",
@@ -581,6 +632,7 @@
         "index": {
           "description": "Defines the mapping between haskell types and set of optimization parameters used to represent said type",
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "Parameter",
           "package": "HsASA",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "Empty",
           "package": "HsASA",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "Empty",
           "package": "HsASA",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "Limit",
           "package": "HsASA",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "Limit",
           "package": "HsASA",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "ParamInfo",
           "package": "HsASA",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "ParamInfo",
           "package": "HsASA",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "Parameter",
           "package": "HsASA",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "Parameter",
           "package": "HsASA",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "Limit",
           "package": "HsASA",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "Limit",
           "package": "HsASA",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "ParamInfo",
           "package": "HsASA",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "ParamInfo",
           "package": "HsASA",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "advancePtr",
           "package": "HsASA",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "advancePtr",
           "normalized": "Ptr a-\u003eInt-\u003ePtr a",
@@ -746,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "empty",
           "package": "HsASA",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "empty",
           "package": "HsASA",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "isIntegral",
           "package": "HsASA",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "isIntegral",
           "package": "HsASA",
@@ -789,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "limitHigh",
           "package": "HsASA",
@@ -798,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "limitHigh",
           "package": "HsASA",
@@ -811,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "limitLow",
           "package": "HsASA",
@@ -820,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "limitLow",
           "package": "HsASA",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "limitNegative",
           "package": "HsASA",
@@ -842,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "limitNegative",
           "package": "HsASA",
@@ -855,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "limitPositive",
           "package": "HsASA",
@@ -864,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "limitPositive",
           "package": "HsASA",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "limitUnit",
           "package": "HsASA",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "limitUnit",
           "package": "HsASA",
@@ -899,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "maxLimit",
           "package": "HsASA",
@@ -908,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "maxLimit",
           "package": "HsASA",
@@ -921,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "minLimit",
           "package": "HsASA",
@@ -930,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "minLimit",
           "package": "HsASA",
@@ -943,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "numParams",
           "package": "HsASA",
@@ -952,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "numParams",
           "normalized": "a-\u003eb-\u003eInt",
@@ -967,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "paramInfo",
           "package": "HsASA",
@@ -976,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "paramInfo",
           "normalized": "a-\u003eb-\u003e[ParamInfo]-\u003e[ParamInfo]",
@@ -991,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "peekParam",
           "package": "HsASA",
@@ -1000,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "peekParam",
           "normalized": "a-\u003ePtr Double-\u003eIO b",
@@ -1015,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "pokeParam",
           "package": "HsASA",
@@ -1024,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "pokeParam",
           "normalized": "a-\u003eb-\u003ePtr Double-\u003eIO()",
@@ -1039,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:00 UTC 2014",
           "module": "Optimize.Parameter",
           "name": "smallDouble",
           "package": "HsASA",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Optimize Parameter",
+          "indexed": "2014-03-11T16:49:00",
           "module": "Optimize.Parameter",
           "name": "smallDouble",
           "package": "HsASA",

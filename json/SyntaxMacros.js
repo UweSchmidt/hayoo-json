@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SyntaxMacros"
+        "phrase": "SyntaxMacros",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Grammar",
           "package": "SyntaxMacros",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Grammar",
           "package": "SyntaxMacros",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Column",
           "package": "SyntaxMacros",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Column",
           "package": "SyntaxMacros",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "DTerm",
           "package": "SyntaxMacros",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "DTerm",
           "package": "SyntaxMacros",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "FL",
           "package": "SyntaxMacros",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "FL",
           "package": "SyntaxMacros",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Filename",
           "package": "SyntaxMacros",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Filename",
           "package": "SyntaxMacros",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "GramEnv",
           "package": "SyntaxMacros",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "GramEnv",
           "package": "SyntaxMacros",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Grammar",
           "package": "SyntaxMacros",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Grammar",
           "package": "SyntaxMacros",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Idiomatic",
           "package": "SyntaxMacros",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Idiomatic",
           "package": "SyntaxMacros",
@@ -187,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe  \u003ccode\u003e\u003ca\u003eIi\u003c/a\u003e\u003c/code\u003e is to be pronounced as \u003ccode\u003estop\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Ii",
           "package": "SyntaxMacros",
@@ -196,6 +213,7 @@
         "index": {
           "description": "The Ii is to be pronounced as stop",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Ii",
           "package": "SyntaxMacros",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "LSPair",
           "package": "SyntaxMacros",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "LSPair",
           "package": "SyntaxMacros",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "LabelSymbol",
           "package": "SyntaxMacros",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "LabelSymbol",
           "package": "SyntaxMacros",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Line",
           "package": "SyntaxMacros",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Line",
           "package": "SyntaxMacros",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "NF",
           "package": "SyntaxMacros",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "NF",
           "package": "SyntaxMacros",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Pos",
           "package": "SyntaxMacros",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Pos",
           "package": "SyntaxMacros",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "PreGramEnv",
           "package": "SyntaxMacros",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "PreGramEnv",
           "package": "SyntaxMacros",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "PreProductions",
           "package": "SyntaxMacros",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "PreProductions",
           "package": "SyntaxMacros",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Prod",
           "package": "SyntaxMacros",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Prod",
           "package": "SyntaxMacros",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Productions",
           "package": "SyntaxMacros",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Productions",
           "package": "SyntaxMacros",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Symbol",
           "package": "SyntaxMacros",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Symbol",
           "package": "SyntaxMacros",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TAttT",
           "package": "SyntaxMacros",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "TAttT",
           "package": "SyntaxMacros",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TL",
           "package": "SyntaxMacros",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "TL",
           "package": "SyntaxMacros",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TNonT",
           "package": "SyntaxMacros",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "TNonT",
           "package": "SyntaxMacros",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TTerm",
           "package": "SyntaxMacros",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "TTerm",
           "package": "SyntaxMacros",
@@ -503,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "(\u003c=\u003e)",
           "package": "SyntaxMacros",
@@ -512,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "(\u003c=\u003e) \u003c=\u003e",
           "normalized": "a-\u003eSymbol b c d-\u003ePreProductions e d(LVPair a f)",
@@ -526,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "(^=)",
           "package": "SyntaxMacros",
@@ -535,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "(^=) ^=",
           "normalized": "a-\u003eSymbol b c d-\u003eLSPair a b c d",
@@ -549,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "DTerm",
           "package": "SyntaxMacros",
@@ -558,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "DTerm",
           "package": "SyntaxMacros",
@@ -571,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Fix",
           "package": "SyntaxMacros",
@@ -580,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Fix",
           "normalized": "Productions(FL a)a b-\u003eProd TL a b",
@@ -595,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "FlipStar",
           "package": "SyntaxMacros",
@@ -604,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "FlipStar",
           "normalized": "Prod NF a b-\u003eProd NF(a-\u003ec)b-\u003eProd NF c b",
@@ -619,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Grammar",
           "package": "SyntaxMacros",
@@ -628,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Grammar",
           "package": "SyntaxMacros",
@@ -641,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Ii",
           "package": "SyntaxMacros",
@@ -650,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Ii",
           "package": "SyntaxMacros",
@@ -663,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "LSPair",
           "package": "SyntaxMacros",
@@ -672,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "LSPair",
           "package": "SyntaxMacros",
@@ -685,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Nont",
           "package": "SyntaxMacros",
@@ -694,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Nont",
           "normalized": "Ref a b-\u003eSymbol a TNonT b",
@@ -709,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "PP",
           "package": "SyntaxMacros",
@@ -718,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "PP",
           "package": "SyntaxMacros",
@@ -731,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "PS",
           "package": "SyntaxMacros",
@@ -740,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "PS",
           "package": "SyntaxMacros",
@@ -753,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Pos",
           "package": "SyntaxMacros",
@@ -762,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Pos",
           "package": "SyntaxMacros",
@@ -775,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "PosFile",
           "package": "SyntaxMacros",
@@ -784,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "PosFile",
           "package": "SyntaxMacros",
@@ -797,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Pure",
           "package": "SyntaxMacros",
@@ -806,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Pure",
           "normalized": "a-\u003eProd b a c",
@@ -821,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Star",
           "package": "SyntaxMacros",
@@ -830,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Star",
           "normalized": "Prod a(b-\u003ec)d-\u003eProd a b d-\u003eProd a c d",
@@ -845,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Sym",
           "package": "SyntaxMacros",
@@ -854,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Sym",
           "normalized": "Symbol a b c-\u003eProd d a c",
@@ -869,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Term",
           "package": "SyntaxMacros",
@@ -878,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Term",
           "normalized": "String-\u003eSymbol(DTerm String)TTerm a",
@@ -893,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TermChar",
           "package": "SyntaxMacros",
@@ -902,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "TermChar",
           "package": "SyntaxMacros",
@@ -915,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TermConid",
           "package": "SyntaxMacros",
@@ -924,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "TermConid",
           "package": "SyntaxMacros",
@@ -937,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TermInt",
           "package": "SyntaxMacros",
@@ -946,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "TermInt",
           "package": "SyntaxMacros",
@@ -959,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TermOp",
           "package": "SyntaxMacros",
@@ -968,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "TermOp",
           "package": "SyntaxMacros",
@@ -981,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TermVarid",
           "package": "SyntaxMacros",
@@ -990,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "TermVarid",
           "package": "SyntaxMacros",
@@ -1003,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Var",
           "package": "SyntaxMacros",
@@ -1012,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "Var",
           "package": "SyntaxMacros",
@@ -1025,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "char",
           "package": "SyntaxMacros",
@@ -1034,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "char",
           "package": "SyntaxMacros",
@@ -1046,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "con",
           "package": "SyntaxMacros",
@@ -1055,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "con",
           "package": "SyntaxMacros",
@@ -1067,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "fixPrd",
           "package": "SyntaxMacros",
@@ -1076,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "fixPrd",
           "normalized": "PreProductions(FL a)b a-\u003ePreProductions TL b a",
@@ -1091,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "getRefNT",
           "package": "SyntaxMacros",
@@ -1100,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "getRefNT",
           "normalized": "Symbol a TNonT b-\u003eRef a b",
@@ -1116,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003eiI\u003c/a\u003e\u003c/code\u003e is to be pronounced as \u003ccode\u003estart\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "iI",
           "package": "SyntaxMacros",
@@ -1126,6 +1227,7 @@
         "index": {
           "description": "The function iI is to be pronounced as start",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "iI",
           "package": "SyntaxMacros",
@@ -1138,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "idiomatic",
           "package": "SyntaxMacros",
@@ -1147,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "idiomatic",
           "normalized": "PreProductions a b c-\u003ed",
@@ -1161,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "int",
           "package": "SyntaxMacros",
@@ -1170,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "int",
           "package": "SyntaxMacros",
@@ -1182,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "labelLSPair",
           "package": "SyntaxMacros",
@@ -1191,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "labelLSPair",
           "normalized": "LSPair a b c d-\u003ea",
@@ -1206,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "matchSym",
           "package": "SyntaxMacros",
@@ -1215,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "matchSym",
           "normalized": "Symbol a b c-\u003eSymbol d b c-\u003eMaybe(Equal(a,b)(d,b))",
@@ -1230,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "nt",
           "package": "SyntaxMacros",
@@ -1239,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "nt",
           "normalized": "Symbol a TNonT b-\u003ePreProductions c b a",
@@ -1253,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "ntPrd",
           "package": "SyntaxMacros",
@@ -1262,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "ntPrd",
           "normalized": "Symbol a TNonT b-\u003ePreProductions c b a",
@@ -1277,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "op",
           "package": "SyntaxMacros",
@@ -1286,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "op",
           "package": "SyntaxMacros",
@@ -1298,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "opt",
           "package": "SyntaxMacros",
@@ -1307,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "opt",
           "normalized": "PreProductions a b c-\u003ec-\u003ePreProductions a b c",
@@ -1321,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "pFoldr",
           "package": "SyntaxMacros",
@@ -1330,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "pFoldr",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ePreProductions(FL b)c a-\u003ePreProductions TL c b",
@@ -1345,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "pMany",
           "package": "SyntaxMacros",
@@ -1354,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "pMany",
           "normalized": "PreProductions(FL[a])b a-\u003ePreProductions TL b[a]",
@@ -1369,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "pMaybe",
           "package": "SyntaxMacros",
@@ -1378,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "pMaybe",
           "normalized": "(a,b-\u003ea)-\u003ePreProductions TL c b-\u003ePreProductions TL c a",
@@ -1393,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "pSome",
           "package": "SyntaxMacros",
@@ -1402,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "pSome",
           "normalized": "PreProductions(FL[a])b a-\u003ePreProductions TL b[a]",
@@ -1417,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "pairEq",
           "package": "SyntaxMacros",
@@ -1426,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "pairEq",
           "normalized": "Maybe(Equal a b)-\u003eMaybe(Equal(a,c)(b,c))",
@@ -1441,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "pos",
           "package": "SyntaxMacros",
@@ -1450,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "pos",
           "package": "SyntaxMacros",
@@ -1462,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "prod",
           "package": "SyntaxMacros",
@@ -1471,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "prod",
           "normalized": "PreProductions a b c-\u003eProductions a c b",
@@ -1485,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "sym",
           "package": "SyntaxMacros",
@@ -1494,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "sym",
           "normalized": "Symbol a b c-\u003ePreProductions d c a",
@@ -1508,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "symLSPair",
           "package": "SyntaxMacros",
@@ -1517,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "symLSPair",
           "package": "SyntaxMacros",
@@ -1530,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "tr",
           "package": "SyntaxMacros",
@@ -1539,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "tr",
           "normalized": "String-\u003ePreProductions a b(DTerm String)",
@@ -1553,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "unPP",
           "package": "SyntaxMacros",
@@ -1562,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "unPP",
           "normalized": "[Prod a b c]",
@@ -1577,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "unPS",
           "package": "SyntaxMacros",
@@ -1586,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "unPS",
           "normalized": "[Prod a b c]",
@@ -1601,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "value",
           "package": "SyntaxMacros",
@@ -1610,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "value",
           "package": "SyntaxMacros",
@@ -1622,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "var",
           "package": "SyntaxMacros",
@@ -1631,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "var",
           "package": "SyntaxMacros",
@@ -1643,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "varPrd",
           "package": "SyntaxMacros",
@@ -1652,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.Grammar",
           "name": "varPrd",
           "package": "SyntaxMacros",
@@ -1665,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "Scanner",
           "package": "SyntaxMacros",
@@ -1673,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "Scanner",
           "package": "SyntaxMacros",
@@ -1686,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "EnumValToken",
           "package": "SyntaxMacros",
@@ -1694,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "EnumValToken",
           "package": "SyntaxMacros",
@@ -1707,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "InFilePos",
           "package": "SyntaxMacros",
@@ -1715,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "InFilePos",
           "package": "SyntaxMacros",
@@ -1728,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "ScanOpts",
           "package": "SyntaxMacros",
@@ -1736,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "ScanOpts",
           "package": "SyntaxMacros",
@@ -1749,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "Token",
           "package": "SyntaxMacros",
@@ -1757,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "Token",
           "package": "SyntaxMacros",
@@ -1770,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "InFilePos",
           "package": "SyntaxMacros",
@@ -1779,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "InFilePos",
           "package": "SyntaxMacros",
@@ -1792,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "ScanOpts",
           "package": "SyntaxMacros",
@@ -1801,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "ScanOpts",
           "package": "SyntaxMacros",
@@ -1814,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkChar",
           "package": "SyntaxMacros",
@@ -1823,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkChar",
           "package": "SyntaxMacros",
@@ -1836,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkConOp",
           "package": "SyntaxMacros",
@@ -1845,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkConOp",
           "package": "SyntaxMacros",
@@ -1858,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkConid",
           "package": "SyntaxMacros",
@@ -1867,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkConid",
           "package": "SyntaxMacros",
@@ -1880,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkError",
           "package": "SyntaxMacros",
@@ -1889,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkError",
           "package": "SyntaxMacros",
@@ -1902,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkFraction",
           "package": "SyntaxMacros",
@@ -1911,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkFraction",
           "package": "SyntaxMacros",
@@ -1924,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkInteger10",
           "package": "SyntaxMacros",
@@ -1933,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkInteger10",
           "package": "SyntaxMacros",
@@ -1946,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkInteger16",
           "package": "SyntaxMacros",
@@ -1955,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkInteger16",
           "package": "SyntaxMacros",
@@ -1968,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkInteger8",
           "package": "SyntaxMacros",
@@ -1977,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkInteger8",
           "package": "SyntaxMacros",
@@ -1990,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkOp",
           "package": "SyntaxMacros",
@@ -1999,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkOp",
           "package": "SyntaxMacros",
@@ -2012,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkQConOp",
           "package": "SyntaxMacros",
@@ -2021,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkQConOp",
           "package": "SyntaxMacros",
@@ -2034,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkQConid",
           "package": "SyntaxMacros",
@@ -2043,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkQConid",
           "package": "SyntaxMacros",
@@ -2056,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkQOp",
           "package": "SyntaxMacros",
@@ -2065,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkQOp",
           "package": "SyntaxMacros",
@@ -2078,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkQVarid",
           "package": "SyntaxMacros",
@@ -2087,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkQVarid",
           "package": "SyntaxMacros",
@@ -2100,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkString",
           "package": "SyntaxMacros",
@@ -2109,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkString",
           "package": "SyntaxMacros",
@@ -2122,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkTextln",
           "package": "SyntaxMacros",
@@ -2131,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkTextln",
           "package": "SyntaxMacros",
@@ -2144,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkTextnm",
           "package": "SyntaxMacros",
@@ -2153,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkTextnm",
           "package": "SyntaxMacros",
@@ -2166,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkVarid",
           "package": "SyntaxMacros",
@@ -2175,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "TkVarid",
           "package": "SyntaxMacros",
@@ -2188,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "defaultScanOpts",
           "package": "SyntaxMacros",
@@ -2197,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "defaultScanOpts",
           "package": "SyntaxMacros",
@@ -2210,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "errToken",
           "package": "SyntaxMacros",
@@ -2219,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "errToken",
           "normalized": "String-\u003ePos-\u003eToken",
@@ -2234,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "genTokMap",
           "package": "SyntaxMacros",
@@ -2243,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "genTokMap",
           "normalized": "(a-\u003eb)-\u003eGenToken a c a-\u003eGenToken b c b",
@@ -2258,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "genTokTp",
           "package": "SyntaxMacros",
@@ -2267,6 +2470,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "genTokTp",
           "normalized": "GenToken a b c-\u003eMaybe b",
@@ -2282,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "genTokVal",
           "package": "SyntaxMacros",
@@ -2291,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "genTokVal",
           "normalized": "GenToken a b a-\u003ea",
@@ -2306,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "getBaseNumber",
           "package": "SyntaxMacros",
@@ -2315,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "getBaseNumber",
           "normalized": "Integer-\u003e[Char]-\u003eInteger",
@@ -2330,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "getRational",
           "package": "SyntaxMacros",
@@ -2339,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "getRational",
           "normalized": "String-\u003e(String,Maybe String,Maybe(Maybe String,String))",
@@ -2354,6 +2564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpAdv1Line",
           "package": "SyntaxMacros",
@@ -2363,6 +2574,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpAdv1Line",
           "normalized": "InFilePos-\u003eInFilePos",
@@ -2378,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpAdvCol",
           "package": "SyntaxMacros",
@@ -2387,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpAdvCol",
           "normalized": "Int-\u003eInFilePos-\u003eInFilePos",
@@ -2402,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpAdvLine",
           "package": "SyntaxMacros",
@@ -2411,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpAdvLine",
           "normalized": "Int-\u003eInFilePos-\u003eInFilePos",
@@ -2426,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpAdvStr",
           "package": "SyntaxMacros",
@@ -2435,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpAdvStr",
           "normalized": "String-\u003eInFilePos-\u003eInFilePos",
@@ -2450,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpColumn",
           "package": "SyntaxMacros",
@@ -2459,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpColumn",
           "package": "SyntaxMacros",
@@ -2472,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpLine",
           "package": "SyntaxMacros",
@@ -2481,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpLine",
           "package": "SyntaxMacros",
@@ -2494,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpNone",
           "package": "SyntaxMacros",
@@ -2503,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpNone",
           "package": "SyntaxMacros",
@@ -2516,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpStart",
           "package": "SyntaxMacros",
@@ -2525,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "infpStart",
           "package": "SyntaxMacros",
@@ -2538,6 +2764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isBlack",
           "package": "SyntaxMacros",
@@ -2547,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isBlack",
           "normalized": "Char-\u003eBool",
@@ -2562,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isLF",
           "package": "SyntaxMacros",
@@ -2571,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isLF",
           "normalized": "Char-\u003eBool",
@@ -2586,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isNoPos",
           "package": "SyntaxMacros",
@@ -2595,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isNoPos",
           "normalized": "Pos-\u003eBool",
@@ -2610,6 +2842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isStr",
           "package": "SyntaxMacros",
@@ -2619,6 +2852,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isStr",
           "normalized": "Char-\u003eBool",
@@ -2634,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isStrQuote",
           "package": "SyntaxMacros",
@@ -2643,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isStrQuote",
           "normalized": "Char-\u003eBool",
@@ -2658,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isVarRest",
           "package": "SyntaxMacros",
@@ -2667,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isVarRest",
           "normalized": "Char-\u003eBool",
@@ -2682,6 +2920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isVarStart",
           "package": "SyntaxMacros",
@@ -2691,6 +2930,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isVarStart",
           "normalized": "Char-\u003eBool",
@@ -2706,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isWhite",
           "package": "SyntaxMacros",
@@ -2715,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "isWhite",
           "normalized": "Char-\u003eBool",
@@ -2730,6 +2972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pBracks",
           "package": "SyntaxMacros",
@@ -2739,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pBracks",
           "normalized": "a b-\u003ea b",
@@ -2754,6 +2998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pBracks_pCommas",
           "package": "SyntaxMacros",
@@ -2763,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pBracks_pCommas",
           "normalized": "a b-\u003ea[b]",
@@ -2778,6 +3024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCBrack",
           "package": "SyntaxMacros",
@@ -2787,6 +3034,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCBrack",
           "package": "SyntaxMacros",
@@ -2800,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCBrackPos",
           "package": "SyntaxMacros",
@@ -2809,6 +3058,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCBrackPos",
           "package": "SyntaxMacros",
@@ -2822,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCCurly",
           "package": "SyntaxMacros",
@@ -2831,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCCurly",
           "package": "SyntaxMacros",
@@ -2844,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCCurlyPos",
           "package": "SyntaxMacros",
@@ -2853,6 +3106,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCCurlyPos",
           "package": "SyntaxMacros",
@@ -2866,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCParen",
           "package": "SyntaxMacros",
@@ -2875,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCParen",
           "package": "SyntaxMacros",
@@ -2888,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCParenPos",
           "package": "SyntaxMacros",
@@ -2897,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCParenPos",
           "package": "SyntaxMacros",
@@ -2910,6 +3168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pChar",
           "package": "SyntaxMacros",
@@ -2919,6 +3178,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pChar",
           "package": "SyntaxMacros",
@@ -2932,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCharPos",
           "package": "SyntaxMacros",
@@ -2941,6 +3202,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCharPos",
           "normalized": "a(String,Pos)",
@@ -2956,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pComma",
           "package": "SyntaxMacros",
@@ -2965,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pComma",
           "package": "SyntaxMacros",
@@ -2978,6 +3242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCommaPos",
           "package": "SyntaxMacros",
@@ -2987,6 +3252,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCommaPos",
           "package": "SyntaxMacros",
@@ -3000,6 +3266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCommas",
           "package": "SyntaxMacros",
@@ -3009,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCommas",
           "normalized": "a b-\u003ea[b]",
@@ -3024,6 +3292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pConid",
           "package": "SyntaxMacros",
@@ -3033,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pConid",
           "package": "SyntaxMacros",
@@ -3046,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pConidPos",
           "package": "SyntaxMacros",
@@ -3055,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pConidPos",
           "normalized": "a(String,Pos)",
@@ -3070,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pConsym",
           "package": "SyntaxMacros",
@@ -3079,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pConsym",
           "package": "SyntaxMacros",
@@ -3092,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pConsymPos",
           "package": "SyntaxMacros",
@@ -3101,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pConsymPos",
           "normalized": "a(String,Pos)",
@@ -3116,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCurly",
           "package": "SyntaxMacros",
@@ -3125,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCurly",
           "normalized": "a b-\u003ea b",
@@ -3140,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCurly_pSemics",
           "package": "SyntaxMacros",
@@ -3149,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pCurly_pSemics",
           "normalized": "a b-\u003ea[b]",
@@ -3164,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pFraction",
           "package": "SyntaxMacros",
@@ -3173,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pFraction",
           "package": "SyntaxMacros",
@@ -3186,6 +3468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pFractionPos",
           "package": "SyntaxMacros",
@@ -3195,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pFractionPos",
           "normalized": "a(String,Pos)",
@@ -3210,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger",
           "package": "SyntaxMacros",
@@ -3219,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger",
           "package": "SyntaxMacros",
@@ -3232,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger10",
           "package": "SyntaxMacros",
@@ -3241,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger10",
           "package": "SyntaxMacros",
@@ -3254,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger10Pos",
           "package": "SyntaxMacros",
@@ -3263,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger10Pos",
           "normalized": "a(String,Pos)",
@@ -3278,6 +3568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger16",
           "package": "SyntaxMacros",
@@ -3287,6 +3578,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger16",
           "package": "SyntaxMacros",
@@ -3300,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger16Pos",
           "package": "SyntaxMacros",
@@ -3309,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger16Pos",
           "normalized": "a(String,Pos)",
@@ -3324,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger8",
           "package": "SyntaxMacros",
@@ -3333,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger8",
           "package": "SyntaxMacros",
@@ -3346,6 +3642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger8Pos",
           "package": "SyntaxMacros",
@@ -3355,6 +3652,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pInteger8Pos",
           "normalized": "a(String,Pos)",
@@ -3370,6 +3668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pIntegerPos",
           "package": "SyntaxMacros",
@@ -3379,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pIntegerPos",
           "normalized": "a(String,Pos)",
@@ -3394,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pKey",
           "package": "SyntaxMacros",
@@ -3403,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pKey",
           "normalized": "String-\u003ea String",
@@ -3418,6 +3720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pKeyPos",
           "package": "SyntaxMacros",
@@ -3427,6 +3730,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pKeyPos",
           "normalized": "String-\u003ea Pos",
@@ -3442,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pOBrack",
           "package": "SyntaxMacros",
@@ -3451,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pOBrack",
           "package": "SyntaxMacros",
@@ -3464,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pOBrackPos",
           "package": "SyntaxMacros",
@@ -3473,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pOBrackPos",
           "package": "SyntaxMacros",
@@ -3486,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pOCurly",
           "package": "SyntaxMacros",
@@ -3495,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pOCurly",
           "package": "SyntaxMacros",
@@ -3508,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pOCurlyPos",
           "package": "SyntaxMacros",
@@ -3517,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pOCurlyPos",
           "package": "SyntaxMacros",
@@ -3530,6 +3842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pOParen",
           "package": "SyntaxMacros",
@@ -3539,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pOParen",
           "package": "SyntaxMacros",
@@ -3552,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pOParenPos",
           "package": "SyntaxMacros",
@@ -3561,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pOParenPos",
           "package": "SyntaxMacros",
@@ -3574,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pParens",
           "package": "SyntaxMacros",
@@ -3583,6 +3900,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pParens",
           "normalized": "a b-\u003ea b",
@@ -3598,6 +3916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pParens_pCommas",
           "package": "SyntaxMacros",
@@ -3607,6 +3926,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pParens_pCommas",
           "normalized": "a b-\u003ea[b]",
@@ -3622,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pSemi",
           "package": "SyntaxMacros",
@@ -3631,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pSemi",
           "package": "SyntaxMacros",
@@ -3644,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pSemiPos",
           "package": "SyntaxMacros",
@@ -3653,6 +3976,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pSemiPos",
           "package": "SyntaxMacros",
@@ -3666,6 +3990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pSemics",
           "package": "SyntaxMacros",
@@ -3675,6 +4000,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pSemics",
           "normalized": "a b-\u003ea[b]",
@@ -3690,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pSpec",
           "package": "SyntaxMacros",
@@ -3699,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pSpec",
           "normalized": "Char-\u003ea String",
@@ -3714,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pSpecPos",
           "package": "SyntaxMacros",
@@ -3723,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pSpecPos",
           "normalized": "Char-\u003ea Pos",
@@ -3738,6 +4068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pString",
           "package": "SyntaxMacros",
@@ -3747,6 +4078,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pString",
           "package": "SyntaxMacros",
@@ -3760,6 +4092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pStringPos",
           "package": "SyntaxMacros",
@@ -3769,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pStringPos",
           "normalized": "a(String,Pos)",
@@ -3784,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pTextln",
           "package": "SyntaxMacros",
@@ -3793,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pTextln",
           "package": "SyntaxMacros",
@@ -3806,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pTextlnPos",
           "package": "SyntaxMacros",
@@ -3815,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pTextlnPos",
           "normalized": "a(String,Pos)",
@@ -3830,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pTextnm",
           "package": "SyntaxMacros",
@@ -3839,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pTextnm",
           "package": "SyntaxMacros",
@@ -3852,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pTextnmPos",
           "package": "SyntaxMacros",
@@ -3861,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pTextnmPos",
           "normalized": "a(String,Pos)",
@@ -3876,6 +4218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pVarid",
           "package": "SyntaxMacros",
@@ -3885,6 +4228,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pVarid",
           "package": "SyntaxMacros",
@@ -3898,6 +4242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pVaridPos",
           "package": "SyntaxMacros",
@@ -3907,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pVaridPos",
           "normalized": "a(String,Pos)",
@@ -3922,6 +4268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pVarsym",
           "package": "SyntaxMacros",
@@ -3931,6 +4278,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pVarsym",
           "package": "SyntaxMacros",
@@ -3944,6 +4292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pVarsymPos",
           "package": "SyntaxMacros",
@@ -3953,6 +4302,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "pVarsymPos",
           "normalized": "a(String,Pos)",
@@ -3968,6 +4318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "posIs1stColumn",
           "package": "SyntaxMacros",
@@ -3977,6 +4328,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "posIs1stColumn",
           "normalized": "Pos-\u003eBool",
@@ -3992,6 +4344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "reserved",
           "package": "SyntaxMacros",
@@ -4001,6 +4354,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "reserved",
           "normalized": "String-\u003ePos-\u003eToken",
@@ -4015,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scan",
           "package": "SyntaxMacros",
@@ -4024,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scan",
           "normalized": "ScanOpts-\u003ePos-\u003eString-\u003e[Token]",
@@ -4038,6 +4394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scanFile",
           "package": "SyntaxMacros",
@@ -4047,6 +4404,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scanFile",
           "normalized": "ScanOpts-\u003eFilePath-\u003eIO[Token]",
@@ -4062,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scanHandle",
           "package": "SyntaxMacros",
@@ -4071,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scanHandle",
           "normalized": "ScanOpts-\u003eFilePath-\u003eHandle-\u003eIO[Token]",
@@ -4086,6 +4446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoAllowQualified",
           "package": "SyntaxMacros",
@@ -4095,6 +4456,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoAllowQualified",
           "package": "SyntaxMacros",
@@ -4108,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoCommandsTxt",
           "package": "SyntaxMacros",
@@ -4117,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoCommandsTxt",
           "package": "SyntaxMacros",
@@ -4130,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoDollarIdent",
           "package": "SyntaxMacros",
@@ -4139,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoDollarIdent",
           "package": "SyntaxMacros",
@@ -4152,6 +4518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoKeywordsOps",
           "package": "SyntaxMacros",
@@ -4161,6 +4528,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoKeywordsOps",
           "package": "SyntaxMacros",
@@ -4174,6 +4542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoKeywordsTxt",
           "package": "SyntaxMacros",
@@ -4183,6 +4552,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoKeywordsTxt",
           "package": "SyntaxMacros",
@@ -4196,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoLitmode",
           "package": "SyntaxMacros",
@@ -4205,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoLitmode",
           "package": "SyntaxMacros",
@@ -4218,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoOffsideClose",
           "package": "SyntaxMacros",
@@ -4227,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoOffsideClose",
           "package": "SyntaxMacros",
@@ -4240,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoOffsideModule",
           "package": "SyntaxMacros",
@@ -4249,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoOffsideModule",
           "package": "SyntaxMacros",
@@ -4262,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoOffsideOpen",
           "package": "SyntaxMacros",
@@ -4271,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoOffsideOpen",
           "package": "SyntaxMacros",
@@ -4284,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoOffsideTrigs",
           "package": "SyntaxMacros",
@@ -4293,6 +4672,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoOffsideTrigs",
           "normalized": "[String]",
@@ -4308,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoOpChars",
           "package": "SyntaxMacros",
@@ -4317,6 +4698,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoOpChars",
           "package": "SyntaxMacros",
@@ -4330,6 +4712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoSpecChars",
           "package": "SyntaxMacros",
@@ -4339,6 +4722,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoSpecChars",
           "package": "SyntaxMacros",
@@ -4352,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoSpecPairs",
           "package": "SyntaxMacros",
@@ -4361,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoSpecPairs",
           "package": "SyntaxMacros",
@@ -4374,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoVerbOpenClose",
           "package": "SyntaxMacros",
@@ -4383,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "scoVerbOpenClose",
           "normalized": "[(String,String)]",
@@ -4398,6 +4786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "tokTpIsId",
           "package": "SyntaxMacros",
@@ -4407,6 +4796,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "tokTpIsId",
           "normalized": "EnumValToken-\u003eBool",
@@ -4422,6 +4812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "tokTpIsInt",
           "package": "SyntaxMacros",
@@ -4431,6 +4822,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "tokTpIsInt",
           "normalized": "EnumValToken-\u003eBool",
@@ -4446,6 +4838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "tokTpQual",
           "package": "SyntaxMacros",
@@ -4455,6 +4848,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "tokTpQual",
           "normalized": "EnumValToken-\u003eEnumValToken",
@@ -4470,6 +4864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "valueToken",
           "package": "SyntaxMacros",
@@ -4479,6 +4874,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros Scanner",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.Scanner",
           "name": "valueToken",
           "normalized": "EnumValToken-\u003eString-\u003ePos-\u003eToken",
@@ -4494,6 +4890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "UULib",
           "package": "SyntaxMacros",
@@ -4502,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "UULib",
           "package": "SyntaxMacros",
@@ -4515,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "Const",
           "package": "SyntaxMacros",
@@ -4523,6 +4922,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "Const",
           "package": "SyntaxMacros",
@@ -4536,6 +4936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "ParseMsg",
           "package": "SyntaxMacros",
@@ -4544,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "ParseMsg",
           "package": "SyntaxMacros",
@@ -4557,6 +4959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "ParseResult",
           "package": "SyntaxMacros",
@@ -4565,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "ParseResult",
           "package": "SyntaxMacros",
@@ -4578,6 +4982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "C",
           "package": "SyntaxMacros",
@@ -4587,6 +4992,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "C",
           "package": "SyntaxMacros",
@@ -4599,6 +5005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "Ok",
           "package": "SyntaxMacros",
@@ -4608,6 +5015,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "Ok",
           "package": "SyntaxMacros",
@@ -4621,6 +5029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "Rep",
           "package": "SyntaxMacros",
@@ -4630,6 +5039,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "Rep",
           "normalized": "Rep a[ParseMsg]",
@@ -4645,6 +5055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "compile",
           "package": "SyntaxMacros",
@@ -4654,6 +5065,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "compile",
           "normalized": "Grammar a-\u003eParser Token a",
@@ -4668,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "mapEnv",
           "package": "SyntaxMacros",
@@ -4677,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "mapEnv",
           "normalized": "(a b c d e-\u003ef d e)-\u003eEnv c e g-\u003eEnv f e g",
@@ -4692,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "pChr",
           "package": "SyntaxMacros",
@@ -4701,6 +5116,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "pChr",
           "package": "SyntaxMacros",
@@ -4714,6 +5130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "pCon",
           "package": "SyntaxMacros",
@@ -4723,6 +5140,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "pCon",
           "package": "SyntaxMacros",
@@ -4736,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "pInt",
           "package": "SyntaxMacros",
@@ -4745,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "pInt",
           "package": "SyntaxMacros",
@@ -4758,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "pOp",
           "package": "SyntaxMacros",
@@ -4767,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "pOp",
           "package": "SyntaxMacros",
@@ -4780,6 +5202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "pTerm",
           "package": "SyntaxMacros",
@@ -4789,6 +5212,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "pTerm",
           "normalized": "String-\u003ea(DTerm String)",
@@ -4804,6 +5228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "pVar",
           "package": "SyntaxMacros",
@@ -4813,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "pVar",
           "package": "SyntaxMacros",
@@ -4826,6 +5252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "parse",
           "package": "SyntaxMacros",
@@ -4835,6 +5262,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "parse",
           "normalized": "Parser Token a-\u003e[Token]-\u003eParseResult a",
@@ -4849,6 +5277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "rparse",
           "package": "SyntaxMacros",
@@ -4858,6 +5287,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "rparse",
           "normalized": "Parser Token a-\u003e[Token]-\u003e(a,[ParseMsg])",
@@ -4872,6 +5302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "toDTerm",
           "package": "SyntaxMacros",
@@ -4881,6 +5312,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "toDTerm",
           "normalized": "(a-\u003eb)-\u003e(a,Pos)-\u003eDTerm b",
@@ -4896,6 +5328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "toPos",
           "package": "SyntaxMacros",
@@ -4905,6 +5338,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "toPos",
           "normalized": "Pos-\u003ePos",
@@ -4920,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "unC",
           "package": "SyntaxMacros",
@@ -4929,6 +5364,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UULib",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UULib",
           "name": "unC",
           "package": "SyntaxMacros",
@@ -4941,6 +5377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "UUParsing",
           "package": "SyntaxMacros",
@@ -4949,6 +5386,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "UUParsing",
           "package": "SyntaxMacros",
@@ -4962,6 +5400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "Const",
           "package": "SyntaxMacros",
@@ -4970,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "Const",
           "package": "SyntaxMacros",
@@ -4983,6 +5423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "ParseResult",
           "package": "SyntaxMacros",
@@ -4991,6 +5432,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "ParseResult",
           "package": "SyntaxMacros",
@@ -5004,6 +5446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "Parser",
           "package": "SyntaxMacros",
@@ -5012,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "Parser",
           "package": "SyntaxMacros",
@@ -5025,6 +5469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "C",
           "package": "SyntaxMacros",
@@ -5034,6 +5479,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "C",
           "package": "SyntaxMacros",
@@ -5046,6 +5492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "Ok",
           "package": "SyntaxMacros",
@@ -5055,6 +5502,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "Ok",
           "package": "SyntaxMacros",
@@ -5068,6 +5516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "Rep",
           "package": "SyntaxMacros",
@@ -5077,6 +5526,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "Rep",
           "normalized": "Rep a[Error LineCol]",
@@ -5093,6 +5543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e generates a parser out of a closed grammar \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "compile",
           "package": "SyntaxMacros",
@@ -5103,6 +5554,7 @@
         "index": {
           "description": "The function compile generates parser out of closed grammar",
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "compile",
           "normalized": "Grammar a-\u003eParser a",
@@ -5117,6 +5569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "lc2Pos",
           "package": "SyntaxMacros",
@@ -5126,6 +5579,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "lc2Pos",
           "normalized": "LineCol-\u003ePos",
@@ -5141,6 +5595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "mapEnv",
           "package": "SyntaxMacros",
@@ -5150,6 +5605,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "mapEnv",
           "normalized": "(a b c d e-\u003ef d e)-\u003eEnv c e g-\u003eEnv f e g",
@@ -5165,6 +5621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pChr",
           "package": "SyntaxMacros",
@@ -5174,6 +5631,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pChr",
           "package": "SyntaxMacros",
@@ -5187,6 +5645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pCon",
           "package": "SyntaxMacros",
@@ -5196,6 +5655,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pCon",
           "package": "SyntaxMacros",
@@ -5209,6 +5669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pIdChar",
           "package": "SyntaxMacros",
@@ -5218,6 +5679,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pIdChar",
           "package": "SyntaxMacros",
@@ -5231,6 +5693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pInt",
           "package": "SyntaxMacros",
@@ -5240,6 +5703,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pInt",
           "package": "SyntaxMacros",
@@ -5253,6 +5717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pOp",
           "package": "SyntaxMacros",
@@ -5262,6 +5727,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pOp",
           "package": "SyntaxMacros",
@@ -5275,6 +5741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pTerm",
           "package": "SyntaxMacros",
@@ -5284,6 +5751,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pTerm",
           "normalized": "String-\u003eParser String",
@@ -5299,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pVar",
           "package": "SyntaxMacros",
@@ -5308,6 +5777,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "pVar",
           "package": "SyntaxMacros",
@@ -5322,6 +5792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e runs the parser for an input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "parse",
           "package": "SyntaxMacros",
@@ -5332,6 +5803,7 @@
         "index": {
           "description": "The function parse runs the parser for an input",
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "parse",
           "normalized": "Parser a-\u003eString-\u003eParseResult a",
@@ -5346,6 +5818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "spaces",
           "package": "SyntaxMacros",
@@ -5355,6 +5828,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "spaces",
           "package": "SyntaxMacros",
@@ -5367,6 +5841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "unC",
           "package": "SyntaxMacros",
@@ -5376,6 +5851,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros UUParsing",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros.UUParsing",
           "name": "unC",
           "package": "SyntaxMacros",
@@ -5388,6 +5864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "SyntaxMacros",
           "package": "SyntaxMacros",
@@ -5396,6 +5873,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "SyntaxMacros",
           "package": "SyntaxMacros",
@@ -5409,6 +5887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "Duplicated",
           "package": "SyntaxMacros",
@@ -5417,6 +5896,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "Duplicated",
           "package": "SyntaxMacros",
@@ -5430,6 +5910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "Export",
           "package": "SyntaxMacros",
@@ -5438,6 +5919,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "Export",
           "package": "SyntaxMacros",
@@ -5451,6 +5933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "ExtGram",
           "package": "SyntaxMacros",
@@ -5459,6 +5942,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "ExtGram",
           "package": "SyntaxMacros",
@@ -5472,6 +5956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "Fail",
           "package": "SyntaxMacros",
@@ -5480,6 +5965,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "Fail",
           "package": "SyntaxMacros",
@@ -5493,6 +5979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "GetNT",
           "package": "SyntaxMacros",
@@ -5501,6 +5988,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "GetNT",
           "package": "SyntaxMacros",
@@ -5514,6 +6002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "GramTrafo",
           "package": "SyntaxMacros",
@@ -5522,6 +6011,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "GramTrafo",
           "package": "SyntaxMacros",
@@ -5535,6 +6025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NTCons",
           "package": "SyntaxMacros",
@@ -5543,6 +6034,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NTCons",
           "package": "SyntaxMacros",
@@ -5556,6 +6048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NTNil",
           "package": "SyntaxMacros",
@@ -5564,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NTNil",
           "package": "SyntaxMacros",
@@ -5577,6 +6071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NTRecord",
           "package": "SyntaxMacros",
@@ -5585,6 +6080,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NTRecord",
           "package": "SyntaxMacros",
@@ -5598,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NotDuplicated",
           "package": "SyntaxMacros",
@@ -5606,6 +6103,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NotDuplicated",
           "package": "SyntaxMacros",
@@ -5619,6 +6117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NotFound",
           "package": "SyntaxMacros",
@@ -5627,6 +6126,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NotFound",
           "package": "SyntaxMacros",
@@ -5640,6 +6140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "PreGramTrafo",
           "package": "SyntaxMacros",
@@ -5648,6 +6149,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "PreGramTrafo",
           "package": "SyntaxMacros",
@@ -5661,6 +6163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "SyntaxMacro",
           "package": "SyntaxMacros",
@@ -5669,6 +6172,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "SyntaxMacro",
           "package": "SyntaxMacros",
@@ -5682,6 +6186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "(+\u003e\u003e)",
           "package": "SyntaxMacros",
@@ -5691,6 +6196,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "(+\u003e\u003e) +\u003e\u003e",
           "normalized": "ExtGram a b c-\u003eSyntaxMacro a b c d e-\u003eExtGram a d e",
@@ -5705,6 +6211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "(^|)",
           "package": "SyntaxMacros",
@@ -5714,6 +6221,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "(^|) ^|",
           "normalized": "LSPair a b TNonT c-\u003ed c-\u003eNTCons a b d c",
@@ -5728,6 +6236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "Export",
           "package": "SyntaxMacros",
@@ -5737,6 +6246,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "Export",
           "package": "SyntaxMacros",
@@ -5750,6 +6260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NTCons",
           "package": "SyntaxMacros",
@@ -5759,6 +6270,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NTCons",
           "package": "SyntaxMacros",
@@ -5772,6 +6284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NTNil",
           "package": "SyntaxMacros",
@@ -5781,6 +6294,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "NTNil",
           "package": "SyntaxMacros",
@@ -5794,6 +6308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "addNT",
           "package": "SyntaxMacros",
@@ -5803,6 +6318,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "addNT",
           "package": "SyntaxMacros",
@@ -5816,6 +6332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "addProds",
           "package": "SyntaxMacros",
@@ -5825,6 +6342,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "addProds",
           "normalized": "PreGramTrafo a(Symbol b TNonT a,PreProductions TL a b)()",
@@ -5840,6 +6358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "closeGram",
           "package": "SyntaxMacros",
@@ -5849,6 +6368,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "closeGram",
           "normalized": "(a b ExtGram c d e)-\u003eGrammar d",
@@ -5864,6 +6384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "export",
           "package": "SyntaxMacros",
@@ -5873,6 +6394,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "export",
           "normalized": "a-\u003eSymbol b TNonT c-\u003ed c-\u003eNTCons a b d c",
@@ -5887,6 +6409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "exportList",
           "package": "SyntaxMacros",
@@ -5896,6 +6419,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "exportList",
           "normalized": "Symbol a TNonT b-\u003e(NTNil b-\u003ec b)-\u003eExport a c b",
@@ -5911,6 +6435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "exportNTs",
           "package": "SyntaxMacros",
@@ -5920,6 +6445,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "exportNTs",
           "package": "SyntaxMacros",
@@ -5933,6 +6459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "extendExport",
           "package": "SyntaxMacros",
@@ -5942,6 +6469,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "extendExport",
           "normalized": "Export a b c-\u003e(b c-\u003ed c)-\u003eExport a d c",
@@ -5957,6 +6485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "extendGram",
           "package": "SyntaxMacros",
@@ -5966,6 +6495,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "extendGram",
           "normalized": "ExtGram a b c-\u003eSyntaxMacro a b c d e-\u003eExtGram a d e",
@@ -5981,6 +6511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "getNT",
           "package": "SyntaxMacros",
@@ -5990,6 +6521,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "getNT",
           "normalized": "a-\u003eb-\u003ec",
@@ -6005,6 +6537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "getStart",
           "package": "SyntaxMacros",
@@ -6014,6 +6547,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "getStart",
           "normalized": "Export a b c-\u003eSymbol a TNonT c",
@@ -6029,6 +6563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:44 UTC 2014",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "ntNil",
           "package": "SyntaxMacros",
@@ -6038,6 +6573,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars SyntaxMacros",
+          "indexed": "2014-03-11T17:01:44",
           "module": "Language.Grammars.SyntaxMacros",
           "name": "ntNil",
           "package": "SyntaxMacros",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-fay"
+        "phrase": "snaplet-fay",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Internal",
           "package": "snaplet-fay",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Internal",
           "package": "snaplet-fay",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile on every request or when Snap starts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "CompileMode",
           "package": "snaplet-fay",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Compile on every request or when Snap starts",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "CompileMode",
           "package": "snaplet-fay",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by callers of compileFile to get the status of compilation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "CompileResult",
           "package": "snaplet-fay",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Used by callers of compileFile to get the status of compilation",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "CompileResult",
           "package": "snaplet-fay",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Fay",
           "package": "snaplet-fay",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Configuration",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Fay",
           "package": "snaplet-fay",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Development",
           "package": "snaplet-fay",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Development",
           "package": "snaplet-fay",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Error",
           "package": "snaplet-fay",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Error",
           "package": "snaplet-fay",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Fay",
           "package": "snaplet-fay",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Fay",
           "package": "snaplet-fay",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "NotFound",
           "package": "snaplet-fay",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "NotFound",
           "package": "snaplet-fay",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Production",
           "package": "snaplet-fay",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Production",
           "package": "snaplet-fay",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Success",
           "package": "snaplet-fay",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "Success",
           "package": "snaplet-fay",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "_includeDirs",
           "package": "snaplet-fay",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "_includeDirs",
           "normalized": "[FilePath]",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks the specified source folder and compiles all new and modified scripts.\n Also removes any js files whose Fay source has been deleted.\n All files are checked each request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "compileAll",
           "package": "snaplet-fay",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Checks the specified source folder and compiles all new and modified scripts Also removes any js files whose Fay source has been deleted All files are checked each request",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "compileAll",
           "normalized": "Fay-\u003eIO()",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a single file, print errors if they occur and return the\n | compiled source if successful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "compileFile",
           "package": "snaplet-fay",
@@ -301,6 +326,7 @@
         "index": {
           "description": "Compile single file print errors if they occur and return the compiled source if successful",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "compileFile",
           "normalized": "Fay-\u003eFilePath-\u003eIO CompileResult",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "compileMode",
           "package": "snaplet-fay",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "compileMode",
           "package": "snaplet-fay",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation of .js files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "destDir",
           "package": "snaplet-fay",
@@ -349,6 +378,7 @@
         "index": {
           "description": "Location of js files",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "destDir",
           "normalized": "Fay-\u003eFilePath",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the filepath of the files with the given file extension in a folder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "extFiles",
           "package": "snaplet-fay",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Gets the filepath of the files with the given file extension in folder",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "extFiles",
           "normalized": "String-\u003eFilePath-\u003eIO[FilePath]",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the filename from a filepath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "filename",
           "package": "snaplet-fay",
@@ -401,6 +434,7 @@
         "index": {
           "description": "Extract the filename from filepath",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "filename",
           "normalized": "FilePath-\u003eFilePath",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelpers\n\u003c/p\u003e\u003cp\u003eChecks if a string ends with another string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "hasSuffix",
           "package": "snaplet-fay",
@@ -426,6 +461,7 @@
         "index": {
           "description": "Helpers Checks if string ends with another string",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "hasSuffix",
           "normalized": "String-\u003eString-\u003eBool",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from the location of a hs file to the location of the destination js file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "hsPath",
           "package": "snaplet-fay",
@@ -452,6 +489,7 @@
         "index": {
           "description": "Convert from the location of hs file to the location of the destination js file",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "hsPath",
           "normalized": "Fay-\u003eFilePath-\u003eFilePath",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelative path to a hs file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "hsRelativePath",
           "package": "snaplet-fay",
@@ -478,6 +517,7 @@
         "index": {
           "description": "Relative path to hs file",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "hsRelativePath",
           "normalized": "FilePath-\u003eFilePath",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere to check for imports\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "includeDirs",
           "package": "snaplet-fay",
@@ -504,6 +545,7 @@
         "index": {
           "description": "Where to check for imports",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "includeDirs",
           "normalized": "Fay-\u003e[FilePath]",
@@ -520,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from the location of a js file to the location of its source hs file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "jsPath",
           "package": "snaplet-fay",
@@ -530,6 +573,7 @@
         "index": {
           "description": "Convert from the location of js file to the location of its source hs file",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "jsPath",
           "normalized": "Fay-\u003eFilePath-\u003eFilePath",
@@ -546,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelative path to a js file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "jsRelativePath",
           "package": "snaplet-fay",
@@ -556,6 +601,7 @@
         "index": {
           "description": "Relative path to js file",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "jsRelativePath",
           "normalized": "FilePath-\u003eFilePath",
@@ -571,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "packages",
           "package": "snaplet-fay",
@@ -580,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "packages",
           "normalized": "[String]",
@@ -594,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "prettyPrint",
           "package": "snaplet-fay",
@@ -603,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "prettyPrint",
           "package": "snaplet-fay",
@@ -616,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "snapletFilePath",
           "package": "snaplet-fay",
@@ -625,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "snapletFilePath",
           "package": "snaplet-fay",
@@ -639,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation of .hs files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "srcDir",
           "package": "snaplet-fay",
@@ -649,6 +702,7 @@
         "index": {
           "description": "Location of hs files",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "srcDir",
           "normalized": "Fay-\u003eFilePath",
@@ -665,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a JS filename to a Haskell filename.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "toHsName",
           "package": "snaplet-fay",
@@ -675,6 +730,7 @@
         "index": {
           "description": "Convert JS filename to Haskell filename",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "toHsName",
           "normalized": "String-\u003eString",
@@ -690,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "verbose",
           "package": "snaplet-fay",
@@ -699,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "verbose",
           "package": "snaplet-fay",
@@ -712,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint log messages when the verbose flag is set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "verbosePut",
           "package": "snaplet-fay",
@@ -722,6 +781,7 @@
         "index": {
           "description": "Print log messages when the verbose flag is set",
           "hierarchy": "Snap Snaplet Fay Internal",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay.Internal",
           "name": "verbosePut",
           "normalized": "Fay-\u003eString-\u003eIO()",
@@ -737,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay",
           "name": "Fay",
           "package": "snaplet-fay",
@@ -745,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Fay",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay",
           "name": "Fay",
           "package": "snaplet-fay",
@@ -759,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay",
           "name": "Fay",
           "package": "snaplet-fay",
@@ -768,6 +831,7 @@
         "index": {
           "description": "Configuration",
           "hierarchy": "Snap Snaplet Fay",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay",
           "name": "Fay",
           "package": "snaplet-fay",
@@ -782,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServes the compiled Fay scripts using the chosen compile mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay",
           "name": "fayServe",
           "package": "snaplet-fay",
@@ -792,6 +857,7 @@
         "index": {
           "description": "Serves the compiled Fay scripts using the chosen compile mode",
           "hierarchy": "Snap Snaplet Fay",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay",
           "name": "fayServe",
           "normalized": "Handler a Fay()",
@@ -808,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend and receive JSON.\n | Automatically decodes a JSON request into a Fay record which is\n | passed to \u003ccode\u003eg\u003c/code\u003e. The handler \u003ccode\u003eg\u003c/code\u003e should then return a Fay record (of\n | a possibly separate type) which is encoded and passed back as a\n | JSON response.\n | If you only want to send JSON and handle input manually, use toFayax.\n | If you want to receive JSON and handle the response manually, use fromFayax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay",
           "name": "fayax",
           "package": "snaplet-fay",
@@ -818,6 +885,7 @@
         "index": {
           "description": "Send and receive JSON Automatically decodes JSON request into Fay record which is passed to The handler should then return Fay record of possibly separate type which is encoded and passed back as JSON response If you only want to send JSON and handle input manually use toFayax If you want to receive JSON and handle the response manually use fromFayax",
           "hierarchy": "Snap Snaplet Fay",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay",
           "name": "fayax",
           "normalized": "(a-\u003eHandler b b a)-\u003eHandler b b()",
@@ -833,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efayax only recieving JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay",
           "name": "fromFayax",
           "package": "snaplet-fay",
@@ -843,6 +912,7 @@
         "index": {
           "description": "fayax only recieving JSON",
           "hierarchy": "Snap Snaplet Fay",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay",
           "name": "fromFayax",
           "normalized": "(a-\u003eHandler b b())-\u003eHandler b b()",
@@ -859,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSnaplet initialization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay",
           "name": "initFay",
           "package": "snaplet-fay",
@@ -869,6 +940,7 @@
         "index": {
           "description": "Snaplet initialization",
           "hierarchy": "Snap Snaplet Fay",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay",
           "name": "initFay",
           "package": "snaplet-fay",
@@ -883,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efayax only sending JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:39 UTC 2014",
           "module": "Snap.Snaplet.Fay",
           "name": "toFayax",
           "package": "snaplet-fay",
@@ -893,6 +966,7 @@
         "index": {
           "description": "fayax only sending JSON",
           "hierarchy": "Snap Snaplet Fay",
+          "indexed": "2014-03-11T20:05:39",
           "module": "Snap.Snaplet.Fay",
           "name": "toFayax",
           "normalized": "Handler a a b-\u003eHandler a a()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-type-exts"
+        "phrase": "haskell-type-exts",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "TypeCheck",
           "package": "haskell-type-exts",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "TypeCheck",
           "package": "haskell-type-exts",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "Q",
           "package": "haskell-type-exts",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "Q",
           "package": "haskell-type-exts",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "VarEnv",
           "package": "haskell-type-exts",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "VarEnv",
           "package": "haskell-type-exts",
@@ -80,6 +86,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "boolType",
           "package": "haskell-type-exts",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "boolType",
           "package": "haskell-type-exts",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "charType",
           "package": "haskell-type-exts",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "charType",
           "package": "haskell-type-exts",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkAlt",
           "package": "haskell-type-exts",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkAlt",
           "normalized": "Alt-\u003eRho-\u003eTc Q",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkAltMatch",
           "package": "haskell-type-exts",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkAltMatch",
           "normalized": "[Pat]-\u003eGuardedAlts-\u003eBinds-\u003eRho-\u003eTc Q",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkGuard",
           "package": "haskell-type-exts",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkGuard",
           "normalized": "Stmt-\u003eTc(VarEnv,Q,Q)",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkGuardedAlt",
           "package": "haskell-type-exts",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkGuardedAlt",
           "normalized": "GuardedAlt-\u003eQ-\u003eRho-\u003eTc Q",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkGuardedAlts",
           "package": "haskell-type-exts",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkGuardedAlts",
           "normalized": "GuardedAlts-\u003eQ-\u003eRho-\u003eTc Q",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkGuards",
           "package": "haskell-type-exts",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkGuards",
           "normalized": "[Stmt]-\u003eTc(VarEnv,Q,Q)",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkMatch",
           "package": "haskell-type-exts",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkMatch",
           "normalized": "Match-\u003eRho-\u003eTc Q",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkPat",
           "package": "haskell-type-exts",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkPat",
           "normalized": "Pat-\u003eSigma-\u003eTc(VarEnv,Q,Q)",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkPats",
           "package": "haskell-type-exts",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkPats",
           "normalized": "[Pat]-\u003e[Sigma]-\u003eTc(VarEnv,Q,Q)",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkRho",
           "package": "haskell-type-exts",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkRho",
           "normalized": "Exp-\u003eRho-\u003eTc Q",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkSigma",
           "package": "haskell-type-exts",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkSigma",
           "normalized": "Exp-\u003eSigma-\u003eTc Q",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkStmt",
           "package": "haskell-type-exts",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkStmt",
           "normalized": "Stmt-\u003eTc(VarEnv,Q,Q)",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkStmts",
           "package": "haskell-type-exts",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "checkStmts",
           "normalized": "[Stmt]-\u003eExpected Rho-\u003eTc Q",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "fracType",
           "package": "haskell-type-exts",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "fracType",
           "package": "haskell-type-exts",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "grhsToGalt",
           "package": "haskell-type-exts",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "grhsToGalt",
           "normalized": "GuardedRhs-\u003eGuardedAlt",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferAlt",
           "package": "haskell-type-exts",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferAlt",
           "normalized": "Alt-\u003eTc(Rho,Q)",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferAltMatch",
           "package": "haskell-type-exts",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferAltMatch",
           "normalized": "[Pat]-\u003eGuardedAlts-\u003eBinds-\u003eTc(Rho,Q)",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferGuardedAlt",
           "package": "haskell-type-exts",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferGuardedAlt",
           "normalized": "GuardedAlt-\u003eQ-\u003eTc(Rho,Q)",
@@ -554,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferGuardedAlts",
           "package": "haskell-type-exts",
@@ -563,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferGuardedAlts",
           "normalized": "GuardedAlts-\u003eQ-\u003eTc(Rho,Q)",
@@ -578,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferMatch",
           "package": "haskell-type-exts",
@@ -587,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferMatch",
           "normalized": "Match-\u003eTc(Rho,Q)",
@@ -602,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferPat",
           "package": "haskell-type-exts",
@@ -611,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferPat",
           "normalized": "Pat-\u003eTc(Sigma,VarEnv,Q,Q)",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferPats",
           "package": "haskell-type-exts",
@@ -635,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferPats",
           "normalized": "[Pat]-\u003eTc([Sigma],VarEnv,Q,Q)",
@@ -650,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferRho",
           "package": "haskell-type-exts",
@@ -659,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferRho",
           "normalized": "Exp-\u003eTc(Rho,Q)",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferRhsWhere",
           "package": "haskell-type-exts",
@@ -683,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferRhsWhere",
           "normalized": "Rhs-\u003eBinds-\u003eTc(Sigma,Q)",
@@ -698,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferSigma",
           "package": "haskell-type-exts",
@@ -707,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "inferSigma",
           "normalized": "Exp-\u003eTc Sigma",
@@ -722,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "instPatSigma",
           "package": "haskell-type-exts",
@@ -731,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "instPatSigma",
           "normalized": "Sigma-\u003eExpected Sigma-\u003eTc()",
@@ -746,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "instSigma",
           "package": "haskell-type-exts",
@@ -755,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "instSigma",
           "normalized": "Sigma-\u003eExpected Rho-\u003eTc Q",
@@ -770,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "isExplTyped",
           "package": "haskell-type-exts",
@@ -779,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "isExplTyped",
           "normalized": "[Name]-\u003eDecl-\u003eBool",
@@ -794,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "isImplTyped",
           "package": "haskell-type-exts",
@@ -803,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "isImplTyped",
           "normalized": "Decl-\u003eBool",
@@ -818,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "listCon",
           "package": "haskell-type-exts",
@@ -827,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "listCon",
           "package": "haskell-type-exts",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "listType",
           "package": "haskell-type-exts",
@@ -849,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "listType",
           "normalized": "Sigma-\u003eSigma",
@@ -864,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "litType",
           "package": "haskell-type-exts",
@@ -873,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "litType",
           "normalized": "Literal-\u003eTc Sigma",
@@ -888,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "mkPredType",
           "package": "haskell-type-exts",
@@ -897,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "mkPredType",
           "normalized": "QName-\u003eTc Sigma",
@@ -912,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "numType",
           "package": "haskell-type-exts",
@@ -921,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "numType",
           "package": "haskell-type-exts",
@@ -934,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "rhsToGalts",
           "package": "haskell-type-exts",
@@ -943,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "rhsToGalts",
           "normalized": "Rhs-\u003eGuardedAlts",
@@ -958,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "stringType",
           "package": "haskell-type-exts",
@@ -967,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "stringType",
           "package": "haskell-type-exts",
@@ -980,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "subsCheck",
           "package": "haskell-type-exts",
@@ -989,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "subsCheck",
           "normalized": "Sigma-\u003eSigma-\u003eTc Q",
@@ -1004,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "subsCheckAll",
           "package": "haskell-type-exts",
@@ -1013,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "subsCheckAll",
           "normalized": "[Sigma]-\u003eTc Q",
@@ -1028,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "subsCheckFun",
           "package": "haskell-type-exts",
@@ -1037,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "subsCheckFun",
           "normalized": "Sigma-\u003eRho-\u003eSigma-\u003eRho-\u003eTc Q",
@@ -1052,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "subsCheckRho",
           "package": "haskell-type-exts",
@@ -1061,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "subsCheckRho",
           "normalized": "Sigma-\u003eRho-\u003eTc Q",
@@ -1076,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcAlt",
           "package": "haskell-type-exts",
@@ -1085,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcAlt",
           "normalized": "Alt-\u003eExpected Rho-\u003eTc Q",
@@ -1100,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcAltMatch",
           "package": "haskell-type-exts",
@@ -1109,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcAltMatch",
           "normalized": "[Pat]-\u003eGuardedAlts-\u003eBinds-\u003eExpected Rho-\u003eTc Q",
@@ -1124,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcBindGroup",
           "package": "haskell-type-exts",
@@ -1133,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcBindGroup",
           "normalized": "[Decl]-\u003eTc(VarEnv,Q,Q)",
@@ -1148,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcBinds",
           "package": "haskell-type-exts",
@@ -1157,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcBinds",
           "normalized": "Binds-\u003eTc(VarEnv,Q,Q)",
@@ -1172,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcGuardedAlt",
           "package": "haskell-type-exts",
@@ -1181,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcGuardedAlt",
           "normalized": "GuardedAlt-\u003eQ-\u003eExpected Rho-\u003eTc Q",
@@ -1196,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcGuardedAlts",
           "package": "haskell-type-exts",
@@ -1205,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcGuardedAlts",
           "normalized": "GuardedAlts-\u003eQ-\u003eExpected Rho-\u003eTc Q",
@@ -1220,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcMatch",
           "package": "haskell-type-exts",
@@ -1229,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcMatch",
           "normalized": "Match-\u003eExpected Rho-\u003eTc Q",
@@ -1244,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcMatches",
           "package": "haskell-type-exts",
@@ -1253,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcMatches",
           "normalized": "[Match]-\u003eTc Q",
@@ -1268,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcPat",
           "package": "haskell-type-exts",
@@ -1277,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcPat",
           "normalized": "Pat-\u003eExpected Sigma-\u003eTc(VarEnv,Q,Q)",
@@ -1292,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcPatBinds",
           "package": "haskell-type-exts",
@@ -1301,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcPatBinds",
           "normalized": "[Decl]-\u003eTc(VarEnv,Q,Q)",
@@ -1316,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcPats",
           "package": "haskell-type-exts",
@@ -1325,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcPats",
           "normalized": "[Pat]-\u003e[Expected Sigma]-\u003eTc(VarEnv,Q,Q)",
@@ -1340,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcRho",
           "package": "haskell-type-exts",
@@ -1349,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcRho",
           "normalized": "Exp-\u003eExpected Rho-\u003eTc Q",
@@ -1364,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcRhs",
           "package": "haskell-type-exts",
@@ -1373,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcRhs",
           "normalized": "Rhs-\u003eQ-\u003eExpected Rho-\u003eTc Q",
@@ -1388,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcRhsWhere",
           "package": "haskell-type-exts",
@@ -1397,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcRhsWhere",
           "normalized": "Rhs-\u003eBinds-\u003eExpected Sigma-\u003eTc Q",
@@ -1412,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcVarBind",
           "package": "haskell-type-exts",
@@ -1421,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "tcVarBind",
           "normalized": "Decl-\u003eTc Q",
@@ -1436,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "typecheckExp",
           "package": "haskell-type-exts",
@@ -1445,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "typecheckExp",
           "normalized": "Exp-\u003eTc Sigma",
@@ -1460,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "typecheckModule",
           "package": "haskell-type-exts",
@@ -1469,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "typecheckModule",
           "normalized": "Module-\u003eTc VarEnv",
@@ -1484,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "unifyFunPats",
           "package": "haskell-type-exts",
@@ -1493,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck.TypeCheck",
           "name": "unifyFunPats",
           "normalized": "Rho-\u003e[Pat]-\u003eTc(Tau,VarEnv,Q,Q)",
@@ -1508,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck",
           "name": "TypeCheck",
           "package": "haskell-type-exts",
@@ -1516,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck",
           "name": "TypeCheck",
           "package": "haskell-type-exts",
@@ -1529,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:40 UTC 2014",
           "module": "Language.Haskell.TypeCheck",
           "name": "typeCheck",
           "package": "haskell-type-exts",
@@ -1538,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TypeCheck",
+          "indexed": "2014-03-11T18:31:40",
           "module": "Language.Haskell.TypeCheck",
           "name": "typeCheck",
           "normalized": "IO()",

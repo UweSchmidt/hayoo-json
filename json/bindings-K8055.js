@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-K8055"
+        "phrase": "bindings-K8055",
+        "type": "phrase"
       },
       "type": "context"
     }

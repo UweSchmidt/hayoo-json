@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "accelerate"
+        "phrase": "accelerate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis interpreter is meant to be a reference implementation of the semantics\n of the embedded array language.  The emphasis is on defining the semantics\n clearly, not on performance.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSurface types versus representation types\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eAs a general rule, we perform all computations on representation types and we store all data\n as values of representation types.  To guarantee the type safety of the interpreter, this\n currently implies a lot of conversions between surface and representation types.  Optimising\n the code by eliminating back and forth conversions is fine, but only where it doesn't\n negatively affects clarity &#8212; after all, the main purpose of the interpreter is to serve as an\n executable specification.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate.Interpreter",
           "name": "Interpreter",
           "package": "accelerate",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This interpreter is meant to be reference implementation of the semantics of the embedded array language The emphasis is on defining the semantics clearly not on performance Surface types versus representation types As general rule we perform all computations on representation types and we store all data as values of representation types To guarantee the type safety of the interpreter this currently implies lot of conversions between surface and representation types Optimising the code by eliminating back and forth conversions is fine but only where it doesn negatively affects clarity after all the main purpose of the interpreter is to serve as an executable specification",
           "hierarchy": "Data Array Accelerate Interpreter",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate.Interpreter",
           "name": "Interpreter",
           "package": "accelerate",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a complete embedded array program using the reference interpreter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate.Interpreter",
           "name": "run",
           "package": "accelerate",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Run complete embedded array program using the reference interpreter",
           "hierarchy": "Data Array Accelerate Interpreter",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate.Interpreter",
           "name": "run",
           "normalized": "Acc a-\u003ea",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare and run an embedded array program of one argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate.Interpreter",
           "name": "run1",
           "package": "accelerate",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Prepare and run an embedded array program of one argument",
           "hierarchy": "Data Array Accelerate Interpreter",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate.Interpreter",
           "name": "run1",
           "normalized": "(Acc a-\u003eAcc b)-\u003ea-\u003eb",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream a lazily read list of input arrays through the given program,\n collecting results as we go\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate.Interpreter",
           "name": "stream",
           "package": "accelerate",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Stream lazily read list of input arrays through the given program collecting results as we go",
           "hierarchy": "Data Array Accelerate Interpreter",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate.Interpreter",
           "name": "stream",
           "normalized": "(Acc a-\u003eAcc b)-\u003e[a]-\u003e[b]",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines an embedded language of array computations for\n high-performance computing. Computations on multi-dimensional, regular\n arrays are expressed in the form of parameterised collective operations\n (such as maps, reductions, and permutations). These computations are online\n compiled and executed on a range of architectures.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003cem\u003eAbstract interface:\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe types representing array computations are only exported abstractly &#8212;\n i.e., client code can generate array computations and submit them for\n execution, but it cannot inspect these computations. This is to allow for\n more flexibility for future extensions of this library.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003cem\u003eCode execution:\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eAccess to the various backends is via a \u003ccode\u003erun\u003c/code\u003e function in backend-specific\n top level modules. Currently, we have the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eData.Array.Accelerate.Interpreter\u003c/a\u003e: simple interpreter in Haskell as a\n   reference implementation defining the semantics of the Accelerate language\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.Array.Accelerate.CUDA\u003c/a\u003e: an implementation supporting parallel\n   execution on CUDA-capable NVIDIA GPUs\n\u003c/li\u003e\u003c/ul\u003e\u003cdl\u003e\u003cdt\u003e\u003cem\u003eExamples and documentation:\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cul\u003e\u003cli\u003e A (draft) tutorial is available on the GitHub wiki:\n   \u003ca\u003ehttps://github.com/AccelerateHS/accelerate/wiki\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e The \u003ccode\u003eaccelerate-examples\u003c/code\u003e package demonstrates a range of computational\n   kernels and several complete applications:\n   \u003ca\u003ehttp://hackage.haskell.org/package/accelerate-examples\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Accelerate",
           "package": "accelerate",
@@ -126,6 +135,7 @@
         "index": {
           "description": "This module defines an embedded language of array computations for high-performance computing Computations on multi-dimensional regular arrays are expressed in the form of parameterised collective operations such as maps reductions and permutations These computations are online compiled and executed on range of architectures Abstract interface The types representing array computations are only exported abstractly i.e client code can generate array computations and submit them for execution but it cannot inspect these computations This is to allow for more flexibility for future extensions of this library Code execution Access to the various backends is via run function in backend-specific top level modules Currently we have the following Data.Array.Accelerate.Interpreter simple interpreter in Haskell as reference implementation defining the semantics of the Accelerate language Data.Array.Accelerate.CUDA an implementation supporting parallel execution on CUDA-capable NVIDIA GPUs Examples and documentation draft tutorial is available on the GitHub wiki https github.com AccelerateHS accelerate wiki The accelerate-examples package demonstrates range of computational kernels and several complete applications http hackage.haskell.org package accelerate-examples",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Accelerate",
           "package": "accelerate",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrease an index rank by one dimension.  The \u003ccode\u003e\u003ca\u003e:.\u003c/a\u003e\u003c/code\u003e operator is\n  used to construct both values and types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": ":.",
           "package": "accelerate",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Increase an index rank by one dimension The operator is used to construct both values and types",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": ":.",
           "package": "accelerate",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArray-valued collective computations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Acc",
           "package": "accelerate",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Array-valued collective computations",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Acc",
           "package": "accelerate",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarker for entire dimensions in slice descriptors.\n\u003c/p\u003e\u003cp\u003eFor example, when used in slices passed to \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e, the\n occurrences of \u003ccode\u003e\u003ca\u003eAll\u003c/a\u003e\u003c/code\u003e indicate the dimensions into which the array's\n existing extent will be placed, rather than the new dimensions\n introduced by replication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "All",
           "package": "accelerate",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Marker for entire dimensions in slice descriptors For example when used in slices passed to replicate the occurrences of All indicate the dimensions into which the array existing extent will be placed rather than the new dimensions introduced by replication",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "All",
           "package": "accelerate",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarker for arbitrary shapes in slice descriptors.  Such arbitrary\n  shapes may include an unknown number of dimensions.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eAny\u003c/a\u003e\u003c/code\u003e can be used in the leftmost position of a slice instead of\n  \u003ccode\u003e\u003ca\u003eZ\u003c/a\u003e\u003c/code\u003e, for example \u003ccode\u003e(Any :. _ :. _)\u003c/code\u003e.  In the following definition\n  \u003ccode\u003e\u003ca\u003eAny\u003c/a\u003e\u003c/code\u003e is used to match against whatever shape the type variable\n  \u003ccode\u003esh\u003c/code\u003e takes:\n\u003c/p\u003e\u003cpre\u003e repN :: (Shape sh, Elt e) =\u003e Int -\u003e Acc (Array sh e) -\u003e Acc (Array (sh:.Int) e)\n repN n a = replicate (constant $ Any :. n) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Any",
           "package": "accelerate",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Marker for arbitrary shapes in slice descriptors Such arbitrary shapes may include an unknown number of dimensions Any can be used in the leftmost position of slice instead of for example Any In the following definition Any is used to match against whatever shape the type variable sh takes repN Shape sh Elt Int Acc Array sh Acc Array sh Int repN replicate constant Any",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Any",
           "package": "accelerate",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMulti-dimensional arrays for array processing.\n\u003c/p\u003e\u003cp\u003eIf device and host memory are separate, arrays will be transferred to the\n device when necessary (if possible asynchronously and in parallel with other\n tasks) and cached on the device if sufficient memory is available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Array",
           "package": "accelerate",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Multi-dimensional arrays for array processing If device and host memory are separate arrays will be transferred to the device when necessary if possible asynchronously and in parallel with other tasks and cached on the device if sufficient memory is available",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Array",
           "package": "accelerate",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Arrays",
           "package": "accelerate",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Arrays",
           "package": "accelerate",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Bool",
           "package": "accelerate",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Bool",
           "package": "accelerate",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoundary condition specification for stencil operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Boundary",
           "package": "accelerate",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Boundary condition specification for stencil operations",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Boundary",
           "package": "accelerate",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003echar\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CChar",
           "package": "accelerate",
@@ -326,6 +353,7 @@
         "index": {
           "description": "Haskell type representing the char type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CChar",
           "package": "accelerate",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003edouble\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CDouble",
           "package": "accelerate",
@@ -348,6 +377,7 @@
         "index": {
           "description": "Haskell type representing the double type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CDouble",
           "package": "accelerate",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003efloat\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CFloat",
           "package": "accelerate",
@@ -370,6 +401,7 @@
         "index": {
           "description": "Haskell type representing the float type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CFloat",
           "package": "accelerate",
@@ -384,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003eint\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CInt",
           "package": "accelerate",
@@ -392,6 +425,7 @@
         "index": {
           "description": "Haskell type representing the int type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CInt",
           "package": "accelerate",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003elong long\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CLLong",
           "package": "accelerate",
@@ -414,6 +449,7 @@
         "index": {
           "description": "Haskell type representing the long long type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CLLong",
           "package": "accelerate",
@@ -428,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003elong\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CLong",
           "package": "accelerate",
@@ -436,6 +473,7 @@
         "index": {
           "description": "Haskell type representing the long type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CLong",
           "package": "accelerate",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003esigned char\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CSChar",
           "package": "accelerate",
@@ -458,6 +497,7 @@
         "index": {
           "description": "Haskell type representing the signed char type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CSChar",
           "package": "accelerate",
@@ -472,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003eshort\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CShort",
           "package": "accelerate",
@@ -480,6 +521,7 @@
         "index": {
           "description": "Haskell type representing the short type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CShort",
           "package": "accelerate",
@@ -494,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003eunsigned char\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CUChar",
           "package": "accelerate",
@@ -502,6 +545,7 @@
         "index": {
           "description": "Haskell type representing the unsigned char type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CUChar",
           "package": "accelerate",
@@ -516,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003eunsigned int\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CUInt",
           "package": "accelerate",
@@ -524,6 +569,7 @@
         "index": {
           "description": "Haskell type representing the unsigned int type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CUInt",
           "package": "accelerate",
@@ -538,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003eunsigned long long\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CULLong",
           "package": "accelerate",
@@ -546,6 +593,7 @@
         "index": {
           "description": "Haskell type representing the unsigned long long type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CULLong",
           "package": "accelerate",
@@ -560,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003eunsigned long\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CULong",
           "package": "accelerate",
@@ -568,6 +617,7 @@
         "index": {
           "description": "Haskell type representing the unsigned long type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CULong",
           "package": "accelerate",
@@ -582,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003eunsigned short\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "CUShort",
           "package": "accelerate",
@@ -590,6 +641,7 @@
         "index": {
           "description": "Haskell type representing the unsigned short type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "CUShort",
           "package": "accelerate",
@@ -604,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe character type \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e is an enumeration whose values represent\nUnicode (or equivalently ISO/IEC 10646) characters (see\n\u003ca\u003ehttp://www.unicode.org/\u003c/a\u003e for details).  This set extends the ISO 8859-1\n(Latin-1) character set (the first 256 characters), which is itself an extension\nof the ASCII character set (the first 128 characters).  A character literal in\nHaskell has type \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo convert a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e to or from the corresponding \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e value defined\nby Unicode, use \u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e from the\n\u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e class respectively (or equivalently \u003ccode\u003eord\u003c/code\u003e and \u003ccode\u003echr\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Char",
           "package": "accelerate",
@@ -612,6 +665,7 @@
         "index": {
           "description": "The character type Char is an enumeration whose values represent Unicode or equivalently ISO IEC characters see http www.unicode.org for details This set extends the ISO Latin-1 character set the first characters which is itself an extension of the ASCII character set the first characters character literal in Haskell has type Char To convert Char to or from the corresponding Int value defined by Unicode use toEnum and fromEnum from the Enum class respectively or equivalently ord and chr",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Char",
           "package": "accelerate",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "DIM0",
           "package": "accelerate",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "DIM0",
           "package": "accelerate",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "DIM1",
           "package": "accelerate",
@@ -654,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "DIM1",
           "package": "accelerate",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "DIM2",
           "package": "accelerate",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "DIM2",
           "package": "accelerate",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "DIM3",
           "package": "accelerate",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "DIM3",
           "package": "accelerate",
@@ -709,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "DIM4",
           "package": "accelerate",
@@ -717,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "DIM4",
           "package": "accelerate",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "DIM5",
           "package": "accelerate",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "DIM5",
           "package": "accelerate",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "DIM6",
           "package": "accelerate",
@@ -759,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "DIM6",
           "package": "accelerate",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "DIM7",
           "package": "accelerate",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "DIM7",
           "package": "accelerate",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "DIM8",
           "package": "accelerate",
@@ -801,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "DIM8",
           "package": "accelerate",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "DIM9",
           "package": "accelerate",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "DIM9",
           "package": "accelerate",
@@ -836,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDouble-precision floating point numbers.\n It is desirable that this type be at least equal in range and precision\n to the IEEE double-precision type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Double",
           "package": "accelerate",
@@ -844,6 +919,7 @@
         "index": {
           "description": "Double-precision floating point numbers It is desirable that this type be at least equal in range and precision to the IEEE double-precision type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Double",
           "package": "accelerate",
@@ -858,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccelerate supports as array elements only simple atomic types, and tuples\n thereof. These element types are stored efficiently in memory, unpacked as\n consecutive elements without pointers.\n\u003c/p\u003e\u003cp\u003eThis class characterises the types of values that can be array elements, and\n hence, appear in scalar Accelerate expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Elt",
           "package": "accelerate",
@@ -867,6 +944,7 @@
         "index": {
           "description": "Accelerate supports as array elements only simple atomic types and tuples thereof These element types are stored efficiently in memory unpacked as consecutive elements without pointers This class characterises the types of values that can be array elements and hence appear in scalar Accelerate expressions",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Elt",
           "package": "accelerate",
@@ -881,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar expressions for plain array computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Exp",
           "package": "accelerate",
@@ -890,6 +969,7 @@
         "index": {
           "description": "Scalar expressions for plain array computations",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Exp",
           "package": "accelerate",
@@ -904,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle-precision floating point numbers.\n It is desirable that this type be at least equal in range and precision\n to the IEEE single-precision type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Float",
           "package": "accelerate",
@@ -912,6 +993,7 @@
         "index": {
           "description": "Single-precision floating point numbers It is desirable that this type be at least equal in range and precision to the IEEE single-precision type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Float",
           "package": "accelerate",
@@ -926,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fixed-precision integer type with at least the range \u003ccode\u003e[-2^29 .. 2^29-1]\u003c/code\u003e.\n The exact range for a given implementation can be determined by using\n \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Int",
           "package": "accelerate",
@@ -934,6 +1017,7 @@
         "index": {
           "description": "fixed-precision integer type with at least the range The exact range for given implementation can be determined by using minBound and maxBound from the Bounded class",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Int",
           "package": "accelerate",
@@ -948,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16-bit signed integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Int16",
           "package": "accelerate",
@@ -956,6 +1041,7 @@
         "index": {
           "description": "bit signed integer type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Int16",
           "package": "accelerate",
@@ -970,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit signed integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Int32",
           "package": "accelerate",
@@ -978,6 +1065,7 @@
         "index": {
           "description": "bit signed integer type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Int32",
           "package": "accelerate",
@@ -992,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit signed integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Int64",
           "package": "accelerate",
@@ -1000,6 +1089,7 @@
         "index": {
           "description": "bit signed integer type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Int64",
           "package": "accelerate",
@@ -1014,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit signed integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Int8",
           "package": "accelerate",
@@ -1022,6 +1113,7 @@
         "index": {
           "description": "bit signed integer type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Int8",
           "package": "accelerate",
@@ -1036,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBounded types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "IsBounded",
           "package": "accelerate",
@@ -1045,6 +1138,7 @@
         "index": {
           "description": "Bounded types",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "IsBounded",
           "package": "accelerate",
@@ -1059,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "IsFloating",
           "package": "accelerate",
@@ -1068,6 +1163,7 @@
         "index": {
           "description": "Floating types",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "IsFloating",
           "package": "accelerate",
@@ -1082,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegral types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "IsIntegral",
           "package": "accelerate",
@@ -1091,6 +1188,7 @@
         "index": {
           "description": "Integral types",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "IsIntegral",
           "package": "accelerate",
@@ -1105,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-numeric types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "IsNonNum",
           "package": "accelerate",
@@ -1114,6 +1213,7 @@
         "index": {
           "description": "Non-numeric types",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "IsNonNum",
           "package": "accelerate",
@@ -1128,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumeric types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "IsNum",
           "package": "accelerate",
@@ -1137,6 +1238,7 @@
         "index": {
           "description": "Numeric types",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "IsNum",
           "package": "accelerate",
@@ -1151,6 +1253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll scalar type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "IsScalar",
           "package": "accelerate",
@@ -1160,6 +1263,7 @@
         "index": {
           "description": "All scalar type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "IsScalar",
           "package": "accelerate",
@@ -1174,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types \u003ccode\u003ee\u003c/code\u003e which can be lifted into \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Lift",
           "package": "accelerate",
@@ -1183,6 +1288,7 @@
         "index": {
           "description": "The class of types which can be lifted into",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Lift",
           "package": "accelerate",
@@ -1197,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalars arrays hold a single element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Scalar",
           "package": "accelerate",
@@ -1206,6 +1313,7 @@
         "index": {
           "description": "Scalars arrays hold single element",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Scalar",
           "package": "accelerate",
@@ -1220,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment descriptor (vector of segment lengths).\n\u003c/p\u003e\u003cp\u003eTo represent nested one-dimensional arrays, we use a flat array of data\n values in conjunction with a \u003cem\u003esegment descriptor\u003c/em\u003e, which stores the lengths\n of the subarrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Segments",
           "package": "accelerate",
@@ -1229,6 +1338,7 @@
         "index": {
           "description": "Segment descriptor vector of segment lengths To represent nested one-dimensional arrays we use flat array of data values in conjunction with segment descriptor which stores the lengths of the subarrays",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Segments",
           "package": "accelerate",
@@ -1243,6 +1353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShapes and indices of multi-dimensional arrays\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Shape",
           "package": "accelerate",
@@ -1252,6 +1363,7 @@
         "index": {
           "description": "Shapes and indices of multi-dimensional arrays",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Shape",
           "package": "accelerate",
@@ -1266,6 +1378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlices, aka generalised indices, as \u003cem\u003en\u003c/em\u003e-tuples and mappings of slice\n indices to slices, co-slices, and slice dimensions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Slice",
           "package": "accelerate",
@@ -1275,6 +1388,7 @@
         "index": {
           "description": "Slices aka generalised indices as tuples and mappings of slice indices to slices co-slices and slice dimensions",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Slice",
           "package": "accelerate",
@@ -1288,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil",
           "package": "accelerate",
@@ -1296,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil",
           "package": "accelerate",
@@ -1309,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3",
           "package": "accelerate",
@@ -1317,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3",
           "package": "accelerate",
@@ -1330,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3x3",
           "package": "accelerate",
@@ -1338,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3x3",
           "package": "accelerate",
@@ -1351,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3x3x3",
           "package": "accelerate",
@@ -1359,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3x3x3",
           "package": "accelerate",
@@ -1372,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3x3x5",
           "package": "accelerate",
@@ -1380,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3x3x5",
           "package": "accelerate",
@@ -1393,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3x5",
           "package": "accelerate",
@@ -1401,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3x5",
           "package": "accelerate",
@@ -1414,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3x5x3",
           "package": "accelerate",
@@ -1422,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3x5x3",
           "package": "accelerate",
@@ -1435,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3x5x5",
           "package": "accelerate",
@@ -1443,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil3x5x5",
           "package": "accelerate",
@@ -1456,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5",
           "package": "accelerate",
@@ -1464,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5",
           "package": "accelerate",
@@ -1477,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5x3",
           "package": "accelerate",
@@ -1485,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5x3",
           "package": "accelerate",
@@ -1498,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5x3x3",
           "package": "accelerate",
@@ -1506,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5x3x3",
           "package": "accelerate",
@@ -1519,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5x3x5",
           "package": "accelerate",
@@ -1527,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5x3x5",
           "package": "accelerate",
@@ -1540,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5x5",
           "package": "accelerate",
@@ -1548,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5x5",
           "package": "accelerate",
@@ -1561,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5x5x3",
           "package": "accelerate",
@@ -1569,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5x5x3",
           "package": "accelerate",
@@ -1582,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5x5x5",
           "package": "accelerate",
@@ -1590,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil5x5x5",
           "package": "accelerate",
@@ -1603,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil7",
           "package": "accelerate",
@@ -1611,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil7",
           "package": "accelerate",
@@ -1624,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Stencil9",
           "package": "accelerate",
@@ -1632,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Stencil9",
           "package": "accelerate",
@@ -1646,6 +1794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA limited subset of types which can be lifted, can also be unlifted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Unlift",
           "package": "accelerate",
@@ -1655,6 +1804,7 @@
         "index": {
           "description": "limited subset of types which can be lifted can also be unlifted",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Unlift",
           "package": "accelerate",
@@ -1669,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVectors are one-dimensional arrays\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Vector",
           "package": "accelerate",
@@ -1678,6 +1829,7 @@
         "index": {
           "description": "Vectors are one-dimensional arrays",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Vector",
           "package": "accelerate",
@@ -1692,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e is an unsigned integral type, with the same size as \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Word",
           "package": "accelerate",
@@ -1700,6 +1853,7 @@
         "index": {
           "description": "Word is an unsigned integral type with the same size as Int",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Word",
           "package": "accelerate",
@@ -1714,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Word16",
           "package": "accelerate",
@@ -1722,6 +1877,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Word16",
           "package": "accelerate",
@@ -1736,6 +1892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Word32",
           "package": "accelerate",
@@ -1744,6 +1901,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Word32",
           "package": "accelerate",
@@ -1758,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Word64",
           "package": "accelerate",
@@ -1766,6 +1925,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Word64",
           "package": "accelerate",
@@ -1780,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Word8",
           "package": "accelerate",
@@ -1788,6 +1949,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Word8",
           "package": "accelerate",
@@ -1802,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRank-0 index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Z",
           "package": "accelerate",
@@ -1811,6 +1974,7 @@
         "index": {
           "description": "Rank-0 index",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Z",
           "package": "accelerate",
@@ -1824,6 +1988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(||*)",
           "package": "accelerate",
@@ -1834,6 +1999,7 @@
         "index": {
           "description": "Disjunction",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(||*) ||*",
           "normalized": "Exp Bool-\u003eExp Bool-\u003eExp Bool",
@@ -1849,6 +2015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression form that extracts a scalar from an array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(!)",
           "package": "accelerate",
@@ -1859,6 +2026,7 @@
         "index": {
           "description": "Expression form that extracts scalar from an array",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(!) !",
           "normalized": "Acc(Array a b)-\u003eExp a-\u003eExp b",
@@ -1874,6 +2042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression form that extracts a scalar from an array at a linear index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(!!)",
           "package": "accelerate",
@@ -1884,6 +2053,7 @@
         "index": {
           "description": "Expression form that extracts scalar from an array at linear index",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(!!) !!",
           "normalized": "Acc(Array a b)-\u003eExp Int-\u003eExp b",
@@ -1899,6 +2069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(&&*)",
           "package": "accelerate",
@@ -1909,6 +2080,7 @@
         "index": {
           "description": "Conjunction",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(&&*) &&*",
           "normalized": "Exp Bool-\u003eExp Bool-\u003eExp Bool",
@@ -1924,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate outermost component of two arrays. The extent of the lower\n   dimensional component is the intersection of the two arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(++)",
           "package": "accelerate",
@@ -1934,6 +2107,7 @@
         "index": {
           "description": "Concatenate outermost component of two arrays The extent of the lower dimensional component is the intersection of the two arrays",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(++) ++",
           "normalized": "Acc(Array(a Int)b)-\u003eAcc(Array(a Int)b)-\u003eAcc(Array(a Int)b)",
@@ -1949,6 +2123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInequality lifted into Accelerate expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(/=*)",
           "package": "accelerate",
@@ -1959,6 +2134,7 @@
         "index": {
           "description": "Inequality lifted into Accelerate expressions",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(/=*) /=*",
           "normalized": "Exp a-\u003eExp a-\u003eExp Bool",
@@ -1974,6 +2150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmaller-than lifted into Accelerate expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(\u003c*)",
           "package": "accelerate",
@@ -1984,6 +2161,7 @@
         "index": {
           "description": "Smaller-than lifted into Accelerate expressions",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(\u003c*) \u003c*",
           "normalized": "Exp a-\u003eExp a-\u003eExp Bool",
@@ -1999,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmaller-or-equal lifted into Accelerate expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(\u003c=*)",
           "package": "accelerate",
@@ -2009,6 +2188,7 @@
         "index": {
           "description": "Smaller-or-equal lifted into Accelerate expressions",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(\u003c=*) \u003c=*",
           "normalized": "Exp a-\u003eExp a-\u003eExp Bool",
@@ -2024,6 +2204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality lifted into Accelerate expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(==*)",
           "package": "accelerate",
@@ -2034,6 +2215,7 @@
         "index": {
           "description": "Equality lifted into Accelerate expressions",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(==*) ==*",
           "normalized": "Exp a-\u003eExp a-\u003eExp Bool",
@@ -2049,6 +2231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater-than lifted into Accelerate expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(\u003e*)",
           "package": "accelerate",
@@ -2059,6 +2242,7 @@
         "index": {
           "description": "Greater-than lifted into Accelerate expressions",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(\u003e*) \u003e*",
           "normalized": "Exp a-\u003eExp a-\u003eExp Bool",
@@ -2074,6 +2258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePipelining of two array computations.\n\u003c/p\u003e\u003cp\u003eDenotationally, we have\n\u003c/p\u003e\u003cpre\u003e (acc1 \u003e-\u003e acc2) arrs = let tmp = acc1 arrs in acc2 tmp\n\u003c/pre\u003e\u003cp\u003eOperationally, the array computations \u003ccode\u003eacc1\u003c/code\u003e and \u003ccode\u003eacc2\u003c/code\u003e will not share any sub-computations,\n neither between each other nor with the environment.  This makes them truly independent stages\n that only communicate by way of the result of \u003ccode\u003eacc1\u003c/code\u003e which is being fed as an argument to \u003ccode\u003eacc2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(\u003e-\u003e)",
           "package": "accelerate",
@@ -2084,6 +2269,7 @@
         "index": {
           "description": "Pipelining of two array computations Denotationally we have acc1 acc2 arrs let tmp acc1 arrs in acc2 tmp Operationally the array computations acc1 and acc2 will not share any sub-computations neither between each other nor with the environment This makes them truly independent stages that only communicate by way of the result of acc1 which is being fed as an argument to acc2",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(\u003e-\u003e) \u003e-\u003e",
           "normalized": "(Acc a-\u003eAcc b)-\u003e(Acc b-\u003eAcc c)-\u003eAcc a-\u003eAcc c",
@@ -2099,6 +2285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater-or-equal lifted into Accelerate expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(\u003e=*)",
           "package": "accelerate",
@@ -2109,6 +2296,7 @@
         "index": {
           "description": "Greater-or-equal lifted into Accelerate expressions",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(\u003e=*) \u003e=*",
           "normalized": "Exp a-\u003eExp a-\u003eExp Bool",
@@ -2124,6 +2312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix version of \u003ccode\u003e\u003ca\u003econd\u003c/a\u003e\u003c/code\u003e. If the predicate evaluates to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the first\n component of the tuple is returned, else the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(?)",
           "package": "accelerate",
@@ -2134,6 +2323,7 @@
         "index": {
           "description": "An infix version of cond If the predicate evaluates to True the first component of the tuple is returned else the second",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(?) ?",
           "normalized": "Exp Bool-\u003e(Exp a,Exp a)-\u003eExp a",
@@ -2149,6 +2339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix version of \u003ccode\u003e\u003ca\u003eacond\u003c/a\u003e\u003c/code\u003e. If the predicate evaluates to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the first\n component of the tuple is returned, else the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "(?|)",
           "package": "accelerate",
@@ -2159,6 +2350,7 @@
         "index": {
           "description": "Infix version of acond If the predicate evaluates to True the first component of the tuple is returned else the second",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "(?|) ?|",
           "normalized": "Exp Bool-\u003e(Acc a,Acc a)-\u003eAcc a",
@@ -2173,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": ":.",
           "package": "accelerate",
@@ -2182,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": ":.",
           "package": "accelerate",
@@ -2194,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "All",
           "package": "accelerate",
@@ -2203,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "All",
           "package": "accelerate",
@@ -2216,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Any",
           "package": "accelerate",
@@ -2225,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Any",
           "package": "accelerate",
@@ -2239,6 +2437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclamp coordinates to the extent of the array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Clamp",
           "package": "accelerate",
@@ -2249,6 +2448,7 @@
         "index": {
           "description": "clamp coordinates to the extent of the array",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Clamp",
           "package": "accelerate",
@@ -2263,6 +2463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse a constant value for outlying coordinates \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Constant",
           "package": "accelerate",
@@ -2273,6 +2474,7 @@
         "index": {
           "description": "use constant value for outlying coordinates",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Constant",
           "package": "accelerate",
@@ -2287,6 +2489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emirror coordinates beyond the array extent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Mirror",
           "package": "accelerate",
@@ -2297,6 +2500,7 @@
         "index": {
           "description": "mirror coordinates beyond the array extent",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Mirror",
           "package": "accelerate",
@@ -2311,6 +2515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap coordinates around on each dimension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Wrap",
           "package": "accelerate",
@@ -2321,6 +2526,7 @@
         "index": {
           "description": "wrap coordinates around on each dimension",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Wrap",
           "package": "accelerate",
@@ -2334,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "Z",
           "package": "accelerate",
@@ -2343,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "Z",
           "package": "accelerate",
@@ -2356,6 +2564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn array-level if-then-else construct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "acond",
           "package": "accelerate",
@@ -2365,6 +2574,7 @@
         "index": {
           "description": "An array-level if-then-else construct",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "acond",
           "normalized": "Exp Bool-\u003eAcc a-\u003eAcc a-\u003eAcc a",
@@ -2380,6 +2590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if all elements satisfy a predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "all",
           "package": "accelerate",
@@ -2390,6 +2601,7 @@
         "index": {
           "description": "Check if all elements satisfy predicate",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "all",
           "normalized": "(Exp a-\u003eExp Bool)-\u003eAcc(Array b a)-\u003eAcc(Scalar Bool)",
@@ -2405,6 +2617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if all elements are \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "and",
           "package": "accelerate",
@@ -2415,6 +2628,7 @@
         "index": {
           "description": "Check if all elements are True",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "and",
           "normalized": "Acc(Array a Bool)-\u003eAcc(Scalar Bool)",
@@ -2430,6 +2644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if any element satisfies the predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "any",
           "package": "accelerate",
@@ -2440,6 +2655,7 @@
         "index": {
           "description": "Check if any element satisfies the predicate",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "any",
           "normalized": "(Exp a-\u003eExp Bool)-\u003eAcc(Array b a)-\u003eAcc(Scalar Bool)",
@@ -2455,6 +2671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRank of an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "arrayDim",
           "package": "accelerate",
@@ -2465,6 +2682,7 @@
         "index": {
           "description": "Rank of an array",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "arrayDim",
           "normalized": "a-\u003eInt",
@@ -2481,6 +2699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArray shape in plain Haskell code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "arrayShape",
           "package": "accelerate",
@@ -2491,6 +2710,7 @@
         "index": {
           "description": "Array shape in plain Haskell code",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "arrayShape",
           "normalized": "Array a b-\u003ea",
@@ -2507,6 +2727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal number of elements in an array of the given \u003ccode\u003eShape\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "arraySize",
           "package": "accelerate",
@@ -2517,6 +2738,7 @@
         "index": {
           "description": "Total number of elements in an array of the given Shape",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "arraySize",
           "normalized": "a-\u003eInt",
@@ -2533,6 +2755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn array-level while construct\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "awhile",
           "package": "accelerate",
@@ -2543,6 +2766,7 @@
         "index": {
           "description": "An array-level while construct",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "awhile",
           "normalized": "(Acc a-\u003eAcc(Scalar Bool))-\u003e(Acc a-\u003eAcc a)-\u003eAcc a-\u003eAcc a",
@@ -2558,6 +2782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackward permutation specified by an index mapping from the destination\n array specifying which element of the source array to read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "backpermute",
           "package": "accelerate",
@@ -2567,6 +2792,7 @@
         "index": {
           "description": "Backward permutation specified by an index mapping from the destination array specifying which element of the source array to read",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "backpermute",
           "normalized": "Exp a-\u003e(Exp a-\u003eExp b)-\u003eAcc(Array b c)-\u003eAcc(Array a c)",
@@ -2582,6 +2808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebit i\u003c/code\u003e is a value with the \u003ccode\u003ei\u003c/code\u003eth bit set and all other bits clear\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "bit",
           "package": "accelerate",
@@ -2592,6 +2819,7 @@
         "index": {
           "description": "bit is value with the th bit set and all other bits clear",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "bit",
           "normalized": "Exp Int-\u003eExp a",
@@ -2607,6 +2835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Boolean value to an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, where \u003ccode\u003eFalse\u003c/code\u003e turns into '0' and \u003ccode\u003eTrue\u003c/code\u003e\n into '1'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "boolToInt",
           "package": "accelerate",
@@ -2617,6 +2846,7 @@
         "index": {
           "description": "Convert Boolean value to an Int where False turns into and True into",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "boolToInt",
           "normalized": "Exp Bool-\u003eExp Int",
@@ -2633,6 +2863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eceiling x\u003c/code\u003e returns the least integer not less than \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "ceiling",
           "package": "accelerate",
@@ -2643,6 +2874,7 @@
         "index": {
           "description": "ceiling returns the least integer not less than",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "ceiling",
           "normalized": "Exp a-\u003eExp b",
@@ -2658,6 +2890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ex `clearBit` i\u003c/code\u003e is the same as \u003ccode\u003ex .&. complement (bit i)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "clearBit",
           "package": "accelerate",
@@ -2668,6 +2901,7 @@
         "index": {
           "description": "clearBit is the same as complement bit",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "clearBit",
           "normalized": "Exp a-\u003eExp Int-\u003eExp a",
@@ -2684,6 +2918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ex `complementBit` i\u003c/code\u003e is the same as \u003ccode\u003ex `xor` bit i\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "complementBit",
           "package": "accelerate",
@@ -2694,6 +2929,7 @@
         "index": {
           "description": "complementBit is the same as xor bit",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "complementBit",
           "normalized": "Exp a-\u003eExp Int-\u003eExp a",
@@ -2710,6 +2946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA scalar-level if-then-else construct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "cond",
           "package": "accelerate",
@@ -2719,6 +2956,7 @@
         "index": {
           "description": "scalar-level if-then-else construct",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "cond",
           "normalized": "Exp Bool-\u003eExp a-\u003eExp a-\u003eExp a",
@@ -2734,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar expression inlet: make a Haskell value available for processing in\n an Accelerate scalar expression.\n\u003c/p\u003e\u003cp\u003eNote that this embeds the value directly into the expression. Depending on\n the backend used to execute the computation, this might not always be\n desirable. For example, a backend that does external code generation may\n embed this constant directly into the generated code, which means new code\n will need to be generated and compiled every time the value changes. In such\n cases, consider instead lifting scalar values into (singleton) arrays so that\n they can be passed as an input to the computation and thus the value can\n change without the need to generate fresh code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "constant",
           "package": "accelerate",
@@ -2744,6 +2983,7 @@
         "index": {
           "description": "Scalar expression inlet make Haskell value available for processing in an Accelerate scalar expression Note that this embeds the value directly into the expression Depending on the backend used to execute the computation this might not always be desirable For example backend that does external code generation may embed this constant directly into the generated code which means new code will need to be generated and compiled every time the value changes In such cases consider instead lifting scalar values into singleton arrays so that they can be passed as an input to the computation and thus the value can change without the need to generate fresh code",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "constant",
           "normalized": "a-\u003eExp a",
@@ -2759,6 +2999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an uncurried function to a curried function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "curry",
           "package": "accelerate",
@@ -2769,6 +3010,7 @@
         "index": {
           "description": "Converts an uncurried function to curried function",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "curry",
           "normalized": "(a(Plain(a b),Plain(a c))-\u003ea d)-\u003ea b-\u003ea c-\u003ea d",
@@ -2784,6 +3026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield all but the first \u003ccode\u003en\u003c/code\u003e elements of the input vector. The vector must\n   contain no fewer than \u003ccode\u003en\u003c/code\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "drop",
           "package": "accelerate",
@@ -2794,6 +3037,7 @@
         "index": {
           "description": "Yield all but the first elements of the input vector The vector must contain no fewer than elements",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "drop",
           "normalized": "Exp Int-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -2809,6 +3053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an array of the given shape containing the values x, x+1, etc (in\n   row-major order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "enumFromN",
           "package": "accelerate",
@@ -2819,6 +3064,7 @@
         "index": {
           "description": "Create an array of the given shape containing the values etc in row-major order",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "enumFromN",
           "normalized": "Exp a-\u003eExp b-\u003eAcc(Array a b)",
@@ -2835,6 +3081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an array of the given shape containing the values \u003ccode\u003ex\u003c/code\u003e, \u003ccode\u003ex+y\u003c/code\u003e,\n \u003ccode\u003ex+y+y\u003c/code\u003e etc. (in row-major order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "enumFromStepN",
           "package": "accelerate",
@@ -2844,6 +3091,7 @@
         "index": {
           "description": "Create an array of the given shape containing the values etc in row-major order",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "enumFromStepN",
           "normalized": "Exp a-\u003eExp b-\u003eExp b-\u003eAcc(Array a b)",
@@ -2860,6 +3108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn if the integer is even\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "even",
           "package": "accelerate",
@@ -2870,6 +3119,7 @@
         "index": {
           "description": "return if the integer is even",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "even",
           "normalized": "Exp a-\u003eExp Bool",
@@ -2885,6 +3135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an array where all elements are the same value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "fill",
           "package": "accelerate",
@@ -2895,6 +3146,7 @@
         "index": {
           "description": "Create an array where all elements are the same value",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "fill",
           "normalized": "Exp a-\u003eExp b-\u003eAcc(Array a b)",
@@ -2910,6 +3162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop elements that do not satisfy the predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "filter",
           "package": "accelerate",
@@ -2920,6 +3173,7 @@
         "index": {
           "description": "Drop elements that do not satisfy the predicate",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "filter",
           "normalized": "(Exp a-\u003eExp Bool)-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -2935,6 +3189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlattens a given array of arbitrary dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "flatten",
           "package": "accelerate",
@@ -2945,6 +3200,7 @@
         "index": {
           "description": "Flattens given array of arbitrary dimension",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "flatten",
           "normalized": "Acc(Array a b)-\u003eAcc(Vector b)",
@@ -2960,6 +3216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efloor x\u003c/code\u003e returns the greatest integer not greater than \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "floor",
           "package": "accelerate",
@@ -2970,6 +3227,7 @@
         "index": {
           "description": "floor returns the greatest integer not greater than",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "floor",
           "normalized": "Exp a-\u003eExp b",
@@ -2985,6 +3243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduction of the innermost dimension of an array of arbitrary rank.  The\n first argument needs to be an \u003cem\u003eassociative\u003c/em\u003e function to enable an efficient\n parallel implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "fold",
           "package": "accelerate",
@@ -2995,6 +3254,7 @@
         "index": {
           "description": "Reduction of the innermost dimension of an array of arbitrary rank The first argument needs to be an associative function to enable an efficient parallel implementation",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "fold",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Array(b Int)a)-\u003eAcc(Array b a)",
@@ -3010,6 +3270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e that requires the reduced array to be non-empty and\n doesn't need an default value.  The first argument needs to be an\n \u003cem\u003eassociative\u003c/em\u003e function to enable an efficient parallel implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "fold1",
           "package": "accelerate",
@@ -3020,6 +3281,7 @@
         "index": {
           "description": "Variant of fold that requires the reduced array to be non-empty and doesn need an default value The first argument needs to be an associative function to enable an efficient parallel implementation",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "fold1",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eAcc(Array(b Int)a)-\u003eAcc(Array b a)",
@@ -3035,6 +3297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003efoldAll\u003c/a\u003e\u003c/code\u003e that requires the reduced array to be non-empty and\n doesn't need an default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "fold1All",
           "package": "accelerate",
@@ -3045,6 +3308,7 @@
         "index": {
           "description": "Variant of foldAll that requires the reduced array to be non-empty and doesn need an default value",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "fold1All",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eAcc(Array b a)-\u003eAcc(Scalar a)",
@@ -3061,6 +3325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003efoldSeg\u003c/a\u003e\u003c/code\u003e that requires \u003cem\u003eall\u003c/em\u003e segments of the reduced array to\n be non-empty and doesn't need a default value.\n\u003c/p\u003e\u003cp\u003eThe source array must have at least rank 1. The \u003ccode\u003e\u003ca\u003eSegments\u003c/a\u003e\u003c/code\u003e array determines\n the lengths of the logical sub-arrays, each of which is folded separately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "fold1Seg",
           "package": "accelerate",
@@ -3071,6 +3336,7 @@
         "index": {
           "description": "Variant of foldSeg that requires all segments of the reduced array to be non-empty and doesn need default value The source array must have at least rank The Segments array determines the lengths of the logical sub-arrays each of which is folded separately",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "fold1Seg",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eAcc(Array(b Int)a)-\u003eAcc(Segments c)-\u003eAcc(Array(b Int)a)",
@@ -3087,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduction of an array of arbitrary rank to a single scalar value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "foldAll",
           "package": "accelerate",
@@ -3097,6 +3364,7 @@
         "index": {
           "description": "Reduction of an array of arbitrary rank to single scalar value",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "foldAll",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Array b a)-\u003eAcc(Scalar a)",
@@ -3113,6 +3381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented reduction along the innermost dimension.  Performs one individual\n reduction per segment of the source array.  These reductions proceed in\n parallel.\n\u003c/p\u003e\u003cp\u003eThe source array must have at least rank 1.  The \u003ccode\u003e\u003ca\u003eSegments\u003c/a\u003e\u003c/code\u003e array determines\n the lengths of the logical sub-arrays, each of which is folded separately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "foldSeg",
           "package": "accelerate",
@@ -3123,6 +3392,7 @@
         "index": {
           "description": "Segmented reduction along the innermost dimension Performs one individual reduction per segment of the source array These reductions proceed in parallel The source array must have at least rank The Segments array determines the lengths of the logical sub-arrays each of which is folded separately",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "foldSeg",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Array(b Int)a)-\u003eAcc(Segments c)-\u003eAcc(Array(b Int)a)",
@@ -3139,6 +3409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a foreign function. The form the function takes is dependent on the backend being used.\n The arguments are passed as either a single array or as a tuple of arrays. In addition a pure\n Accelerate version of the function needs to be provided to support backends other than the one\n being targeted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "foreignAcc",
           "package": "accelerate",
@@ -3149,6 +3420,7 @@
         "index": {
           "description": "Call foreign function The form the function takes is dependent on the backend being used The arguments are passed as either single array or as tuple of arrays In addition pure Accelerate version of the function needs to be provided to support backends other than the one being targeted",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "foreignAcc",
           "normalized": "a b c-\u003e(Acc b-\u003eAcc c)-\u003eAcc b-\u003eAcc c",
@@ -3165,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a foreign function with foreign implementations for two different backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "foreignAcc2",
           "package": "accelerate",
@@ -3175,6 +3448,7 @@
         "index": {
           "description": "Call foreign function with foreign implementations for two different backends",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "foreignAcc2",
           "normalized": "a b c-\u003ea b c-\u003e(Acc b-\u003eAcc c)-\u003eAcc b-\u003eAcc c",
@@ -3191,6 +3465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a foreign function with foreign implementations for three different backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "foreignAcc3",
           "package": "accelerate",
@@ -3201,6 +3476,7 @@
         "index": {
           "description": "Call foreign function with foreign implementations for three different backends",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "foreignAcc3",
           "normalized": "a b c-\u003ea b c-\u003ea b c-\u003e(Acc b-\u003eAcc c)-\u003eAcc b-\u003eAcc c",
@@ -3217,6 +3493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a foreign expression function. The form the function takes is dependent on the\n backend being used. The arguments are passed as either a single scalar element or as a\n tuple of elements. In addition a pure Accelerate version of the function needs to be\n provided to support backends other than the one being targeted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "foreignExp",
           "package": "accelerate",
@@ -3227,6 +3504,7 @@
         "index": {
           "description": "Call foreign expression function The form the function takes is dependent on the backend being used The arguments are passed as either single scalar element or as tuple of elements In addition pure Accelerate version of the function needs to be provided to support backends other than the one being targeted",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "foreignExp",
           "normalized": "a b c-\u003e(Exp b-\u003eExp c)-\u003eExp b-\u003eExp c",
@@ -3243,6 +3521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a foreign function with foreign implementations for two different backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "foreignExp2",
           "package": "accelerate",
@@ -3253,6 +3532,7 @@
         "index": {
           "description": "Call foreign function with foreign implementations for two different backends",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "foreignExp2",
           "normalized": "a b c-\u003ea b c-\u003e(Exp b-\u003eExp c)-\u003eExp b-\u003eExp c",
@@ -3269,6 +3549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a foreign function with foreign implementations for three different backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "foreignExp3",
           "package": "accelerate",
@@ -3279,6 +3560,7 @@
         "index": {
           "description": "Call foreign function with foreign implementations for three different backends",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "foreignExp3",
           "normalized": "a b c-\u003ea b c-\u003ea b c-\u003e(Exp b-\u003eExp c)-\u003eExp b-\u003eExp c",
@@ -3295,6 +3577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an array from its representation function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "fromFunction",
           "package": "accelerate",
@@ -3305,6 +3588,7 @@
         "index": {
           "description": "Create an array from its representation function",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "fromFunction",
           "normalized": "a-\u003e(a-\u003eb)-\u003eArray a b",
@@ -3321,6 +3605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003e\u003ca\u003eIArray\u003c/a\u003e\u003c/code\u003e to an accelerated array.\n\u003c/p\u003e\u003cp\u003eWhile the type signature mentions Accelerate internals that are not exported,\n in practice satisfying the type equality is straight forward. The index type\n \u003ccode\u003eix\u003c/code\u003e must be the unit type \u003ccode\u003e()\u003c/code\u003e for singleton arrays, or an \u003ccode\u003eInt\u003c/code\u003e or tuple of\n \u003ccode\u003eInt\u003c/code\u003e's for multidimensional arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "fromIArray",
           "package": "accelerate",
@@ -3331,6 +3616,7 @@
         "index": {
           "description": "Convert an IArray to an accelerated array While the type signature mentions Accelerate internals that are not exported in practice satisfying the type equality is straight forward The index type ix must be the unit type for singleton arrays or an Int or tuple of Int for multidimensional arrays",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "fromIArray",
           "normalized": "a b c-\u003eArray d c",
@@ -3347,6 +3633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003efromIndex\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "fromIndex",
           "package": "accelerate",
@@ -3357,6 +3644,7 @@
         "index": {
           "description": "Inverse of fromIndex",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "fromIndex",
           "normalized": "Exp a-\u003eExp Int-\u003eExp a",
@@ -3373,6 +3661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral coercion from integral types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "fromIntegral",
           "package": "accelerate",
@@ -3383,6 +3672,7 @@
         "index": {
           "description": "General coercion from integral types",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "fromIntegral",
           "normalized": "Exp a-\u003eExp b",
@@ -3399,6 +3689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list, with elements in row-major order, into an accelerated array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "fromList",
           "package": "accelerate",
@@ -3409,6 +3700,7 @@
         "index": {
           "description": "Convert list with elements in row-major order into an accelerated array",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "fromList",
           "normalized": "a-\u003e[b]-\u003eArray a b",
@@ -3425,6 +3717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the first component of a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "fst",
           "package": "accelerate",
@@ -3435,6 +3728,7 @@
         "index": {
           "description": "Extract the first component of pair",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "fst",
           "normalized": "a(Plain(a b),Plain(a c))-\u003ea b",
@@ -3450,6 +3744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy elements from source array to destination array according to a map. This\n   is a backpermute operation where a \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e vector encodes the output to input\n   index mapping.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e input  = [1, 9, 6, 4, 4, 2, 0, 1, 2]\n map    = [1, 3, 7, 2, 5, 3]\n\n output = [9, 4, 1, 6, 2, 4]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "gather",
           "package": "accelerate",
@@ -3459,6 +3754,7 @@
         "index": {
           "description": "Copy elements from source array to destination array according to map This is backpermute operation where map vector encodes the output to input index mapping For example input map output",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "gather",
           "normalized": "Acc(Vector Int)-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -3474,6 +3770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditionally copy elements from source array to destination array according\n   to a map. This is a backpermute operation where a \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e vector encodes the\n   output to input index mapping. In addition, there is a \u003ccode\u003emask\u003c/code\u003e vector, and an\n   associated predication function, that specifies whether an element will be\n   copied. If not copied, the output array assumes the default vector's value.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e default = [6, 6, 6, 6, 6, 6]\n map     = [1, 3, 7, 2, 5, 3]\n mask    = [3, 4, 9, 2, 7, 5]\n pred    = (\u003e 4)\n input   = [1, 9, 6, 4, 4, 2, 0, 1, 2]\n\n output  = [6, 6, 1, 6, 2, 4]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "gatherIf",
           "package": "accelerate",
@@ -3483,6 +3780,7 @@
         "index": {
           "description": "Conditionally copy elements from source array to destination array according to map This is backpermute operation where map vector encodes the output to input index mapping In addition there is mask vector and an associated predication function that specifies whether an element will be copied If not copied the output array assumes the default vector value For example default map mask pred input output",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "gatherIf",
           "normalized": "Acc(Vector Int)-\u003eAcc(Vector a)-\u003e(Exp a-\u003eExp Bool)-\u003eAcc(Vector b)-\u003eAcc(Vector b)-\u003eAcc(Vector b)",
@@ -3499,6 +3797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new array by applying a function to each index.\n\u003c/p\u003e\u003cp\u003eFor example, the following will generate a one-dimensional array\n (\u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e) of three floating point numbers:\n\u003c/p\u003e\u003cpre\u003e generate (index1 3) (\\_ -\u003e 1.2)\n\u003c/pre\u003e\u003cp\u003eOr, equivalently:\n\u003c/p\u003e\u003cpre\u003e generate (constant (Z :. (3::Int))) (\\_ -\u003e 1.2)\n\u003c/pre\u003e\u003cp\u003eFinally, the following will create an array equivalent to '[1..10]':\n\u003c/p\u003e\u003cpre\u003e generate (index1 10) $ \\ ix -\u003e\n          let (Z :. i) = unlift ix\n          in fromIntegral i\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "generate",
           "package": "accelerate",
@@ -3509,6 +3808,7 @@
         "index": {
           "description": "Construct new array by applying function to each index For example the following will generate one-dimensional array Vector of three floating point numbers generate index1 Or equivalently generate constant Int Finally the following will create an array equivalent to generate index1 ix let unlift ix in fromIntegral",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "generate",
           "normalized": "Exp a-\u003e(Exp a-\u003eExp b)-\u003eAcc(Array a b)",
@@ -3524,6 +3824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMagic value identifying elements that are ignored in a forward permutation.\n Note that this currently does not work for singleton arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "ignore",
           "package": "accelerate",
@@ -3534,6 +3835,7 @@
         "index": {
           "description": "Magic value identifying elements that are ignored in forward permutation Note that this currently does not work for singleton arrays",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "ignore",
           "package": "accelerate",
@@ -3547,6 +3849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a unary function to a computation over rank-1 indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "ilift1",
           "package": "accelerate",
@@ -3557,6 +3860,7 @@
         "index": {
           "description": "Lift unary function to computation over rank-1 indices",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "ilift1",
           "normalized": "(Exp Int-\u003eExp Int)-\u003eExp DIM-\u003eExp DIM",
@@ -3572,6 +3876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a binary function to a computation over rank-1 indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "ilift2",
           "package": "accelerate",
@@ -3582,6 +3887,7 @@
         "index": {
           "description": "Lift binary function to computation over rank-1 indices",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "ilift2",
           "normalized": "(Exp Int-\u003eExp Int-\u003eExp Int)-\u003eExp DIM-\u003eExp DIM-\u003eExp DIM",
@@ -3597,6 +3903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe one index for a rank-0 array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "index0",
           "package": "accelerate",
@@ -3607,6 +3914,7 @@
         "index": {
           "description": "The one index for rank-0 array",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "index0",
           "package": "accelerate",
@@ -3620,6 +3928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e expression into a rank-1 indexing expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "index1",
           "package": "accelerate",
@@ -3630,6 +3939,7 @@
         "index": {
           "description": "Turn an Int expression into rank-1 indexing expression",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "index1",
           "normalized": "Exp a-\u003eExp(Z a)",
@@ -3645,6 +3955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a rank-2 index from two Exp Int`s\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "index2",
           "package": "accelerate",
@@ -3655,6 +3966,7 @@
         "index": {
           "description": "Creates rank-2 index from two Exp Int",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "index2",
           "normalized": "Exp a-\u003eExp a-\u003eExp((Z a)a)",
@@ -3670,6 +3982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArray indexing in plain Haskell code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "indexArray",
           "package": "accelerate",
@@ -3680,6 +3993,7 @@
         "index": {
           "description": "Array indexing in plain Haskell code",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "indexArray",
           "normalized": "Array a b-\u003ea-\u003eb",
@@ -3696,6 +4010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the outermost dimension of a shape\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "indexHead",
           "package": "accelerate",
@@ -3706,6 +4021,7 @@
         "index": {
           "description": "Get the outermost dimension of shape",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "indexHead",
           "normalized": "Exp(a Int)-\u003eExp Int",
@@ -3722,6 +4038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all but the outermost element of a shape\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "indexTail",
           "package": "accelerate",
@@ -3732,6 +4049,7 @@
         "index": {
           "description": "Get all but the outermost element of shape",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "indexTail",
           "normalized": "Exp(a Int)-\u003eExp a",
@@ -3748,6 +4066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield all but the last element of the input vector. The vector must not be\n   empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "init",
           "package": "accelerate",
@@ -3758,6 +4077,7 @@
         "index": {
           "description": "Yield all but the last element of the input vector The vector must not be empty",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "init",
           "normalized": "Acc(Vector a)-\u003eAcc(Vector a)",
@@ -3773,6 +4093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection of two shapes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "intersect",
           "package": "accelerate",
@@ -3783,6 +4104,7 @@
         "index": {
           "description": "Intersection of two shapes",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "intersect",
           "normalized": "Exp a-\u003eExp a-\u003eExp a",
@@ -3798,6 +4120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeatedly apply a function a fixed number of times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "iterate",
           "package": "accelerate",
@@ -3808,6 +4131,7 @@
         "index": {
           "description": "Repeatedly apply function fixed number of times",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "iterate",
           "normalized": "Exp Int-\u003e(Exp a-\u003eExp a)-\u003eExp a-\u003eExp a",
@@ -3823,6 +4147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift the given value into a surface type \u003ccode\u003ec\u003c/code\u003e --- either \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e for scalar\n expressions or \u003ccode\u003e\u003ca\u003eAcc\u003c/a\u003e\u003c/code\u003e for array computations. The value may already contain\n subexpressions in \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "lift",
           "package": "accelerate",
@@ -3833,6 +4158,7 @@
         "index": {
           "description": "Lift the given value into surface type either Exp for scalar expressions or Acc for array computations The value may already contain subexpressions in",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "lift",
           "normalized": "a-\u003eb(Plain a)",
@@ -3848,6 +4174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a unary function into \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "lift1",
           "package": "accelerate",
@@ -3858,6 +4185,7 @@
         "index": {
           "description": "Lift unary function into Exp",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "lift1",
           "normalized": "(a-\u003ea)-\u003eExp(Plain a)-\u003eExp(Plain a)",
@@ -3873,6 +4201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a binary function into \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "lift2",
           "package": "accelerate",
@@ -3883,6 +4212,7 @@
         "index": {
           "description": "Lift binary function into Exp",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "lift2",
           "normalized": "(a-\u003ea-\u003ea)-\u003eExp(Plain a)-\u003eExp(Plain a)-\u003eExp(Plain a)",
@@ -3898,6 +4228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the given function element-wise to the given array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "map",
           "package": "accelerate",
@@ -3908,6 +4239,7 @@
         "index": {
           "description": "Apply the given function element-wise to the given array",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "map",
           "normalized": "(Exp a-\u003eExp b)-\u003eAcc(Array c a)-\u003eAcc(Array c b)",
@@ -3923,6 +4255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the maximum element of an array. The array must not be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "maximum",
           "package": "accelerate",
@@ -3933,6 +4266,7 @@
         "index": {
           "description": "Yield the maximum element of an array The array must not be empty",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "maximum",
           "normalized": "Acc(Array a b)-\u003eAcc(Scalar b)",
@@ -3948,6 +4282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the minimum element of an array. The array must not be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "minimum",
           "package": "accelerate",
@@ -3958,6 +4293,7 @@
         "index": {
           "description": "Yield the minimum element of an array The array must not be empty",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "minimum",
           "normalized": "Acc(Array a b)-\u003eAcc(Scalar b)",
@@ -3973,6 +4309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "not",
           "package": "accelerate",
@@ -3983,6 +4320,7 @@
         "index": {
           "description": "Negation",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "not",
           "normalized": "Exp Bool-\u003eExp Bool",
@@ -3998,6 +4336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether an array is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "null",
           "package": "accelerate",
@@ -4008,6 +4347,7 @@
         "index": {
           "description": "Test whether an array is empty",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "null",
           "normalized": "Acc(Array a b)-\u003eExp Bool",
@@ -4023,6 +4363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn if the integer is odd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "odd",
           "package": "accelerate",
@@ -4033,6 +4374,7 @@
         "index": {
           "description": "return if the integer is odd",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "odd",
           "normalized": "Exp a-\u003eExp Bool",
@@ -4048,6 +4390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if any element is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "or",
           "package": "accelerate",
@@ -4058,6 +4401,7 @@
         "index": {
           "description": "Check if any element is True",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "or",
           "normalized": "Acc(Array a Bool)-\u003eAcc(Scalar Bool)",
@@ -4073,6 +4417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForward permutation specified by an index mapping. The result array is\n initialised with the given defaults and any further values that are permuted\n into the result array are added to the current value using the given\n combination function.\n\u003c/p\u003e\u003cp\u003eThe combination function must be \u003cem\u003eassociative\u003c/em\u003e and \u003cem\u003ecommutative\u003c/em\u003e. Elements\n that are mapped to the magic value \u003ccode\u003e\u003ca\u003eignore\u003c/a\u003e\u003c/code\u003e by the permutation function are\n dropped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "permute",
           "package": "accelerate",
@@ -4082,6 +4427,7 @@
         "index": {
           "description": "Forward permutation specified by an index mapping The result array is initialised with the given defaults and any further values that are permuted into the result array are added to the current value using the given combination function The combination function must be associative and commutative Elements that are mapped to the magic value ignore by the permutation function are dropped",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "permute",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eAcc(Array b a)-\u003e(Exp c-\u003eExp b)-\u003eAcc(Array c a)-\u003eAcc(Array b a)",
@@ -4097,6 +4443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-to-right postscan, a variant of \u003ccode\u003e\u003ca\u003escanl1\u003c/a\u003e\u003c/code\u003e with an initial value.  Denotationally, we have\n\u003c/p\u003e\u003cpre\u003e postscanl f e = map (e `f`) . scanl1 f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "postscanl",
           "package": "accelerate",
@@ -4107,6 +4454,7 @@
         "index": {
           "description": "Left-to-right postscan variant of scanl1 with an initial value Denotationally we have postscanl map scanl1",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "postscanl",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -4122,6 +4470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented version of \u003ccode\u003e\u003ca\u003epostscanl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "postscanlSeg",
           "package": "accelerate",
@@ -4132,6 +4481,7 @@
         "index": {
           "description": "Segmented version of postscanl",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "postscanlSeg",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Segments b)-\u003eAcc(Vector a)",
@@ -4148,6 +4498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-to-left postscan, a variant of \u003ccode\u003e\u003ca\u003escanr1\u003c/a\u003e\u003c/code\u003e with an initial value.  Denotationally, we have\n\u003c/p\u003e\u003cpre\u003e postscanr f e = map (e `f`) . scanr1 f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "postscanr",
           "package": "accelerate",
@@ -4158,6 +4509,7 @@
         "index": {
           "description": "Right-to-left postscan variant of scanr1 with an initial value Denotationally we have postscanr map scanr1",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "postscanr",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -4173,6 +4525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented version of \u003ccode\u003e\u003ca\u003epostscanr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "postscanrSeg",
           "package": "accelerate",
@@ -4183,6 +4536,7 @@
         "index": {
           "description": "Segmented version of postscanr",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "postscanrSeg",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Segments b)-\u003eAcc(Vector a)",
@@ -4199,6 +4553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-to-right prescan (aka exclusive scan).  As for \u003ccode\u003escan\u003c/code\u003e, the first argument must be an\n \u003cem\u003eassociative\u003c/em\u003e function.  Denotationally, we have\n\u003c/p\u003e\u003cpre\u003e prescanl f e = Prelude.fst . scanl' f e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "prescanl",
           "package": "accelerate",
@@ -4209,6 +4564,7 @@
         "index": {
           "description": "Left-to-right prescan aka exclusive scan As for scan the first argument must be an associative function Denotationally we have prescanl Prelude.fst scanl",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "prescanl",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -4224,6 +4580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented version of \u003ccode\u003e\u003ca\u003eprescanl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "prescanlSeg",
           "package": "accelerate",
@@ -4234,6 +4591,7 @@
         "index": {
           "description": "Segmented version of prescanl",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "prescanlSeg",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Segments b)-\u003eAcc(Vector a)",
@@ -4250,6 +4608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-to-left prescan (aka exclusive scan).  As for \u003ccode\u003escan\u003c/code\u003e, the first argument must be an\n \u003cem\u003eassociative\u003c/em\u003e function.  Denotationally, we have\n\u003c/p\u003e\u003cpre\u003e prescanr f e = Prelude.fst . scanr' f e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "prescanr",
           "package": "accelerate",
@@ -4260,6 +4619,7 @@
         "index": {
           "description": "Right-to-left prescan aka exclusive scan As for scan the first argument must be an associative function Denotationally we have prescanr Prelude.fst scanr",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "prescanr",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -4275,6 +4635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented version of \u003ccode\u003e\u003ca\u003eprescanr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "prescanrSeg",
           "package": "accelerate",
@@ -4285,6 +4646,7 @@
         "index": {
           "description": "Segmented version of prescanr",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "prescanrSeg",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Segments b)-\u003eAcc(Vector a)",
@@ -4301,6 +4663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the product of the elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "product",
           "package": "accelerate",
@@ -4311,6 +4674,7 @@
         "index": {
           "description": "Compute the product of the elements",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "product",
           "normalized": "Acc(Array a b)-\u003eAcc(Scalar b)",
@@ -4326,6 +4690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicate an array across one or more dimensions as specified by the\n \u003cem\u003egeneralised\u003c/em\u003e array index provided as the first argument.\n\u003c/p\u003e\u003cp\u003eFor example, assuming \u003ccode\u003earr\u003c/code\u003e is a vector (one-dimensional array),\n\u003c/p\u003e\u003cpre\u003e replicate (Z :.2 :.All :.3) arr\n\u003c/pre\u003e\u003cp\u003eyields a three dimensional array, where \u003ccode\u003earr\u003c/code\u003e is replicated twice across the\n first and three times across the third dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "replicate",
           "package": "accelerate",
@@ -4336,6 +4701,7 @@
         "index": {
           "description": "Replicate an array across one or more dimensions as specified by the generalised array index provided as the first argument For example assuming arr is vector one-dimensional array replicate All arr yields three dimensional array where arr is replicated twice across the first and three times across the third dimension",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "replicate",
           "normalized": "Exp a-\u003eAcc(Array(SliceShape a)b)-\u003eAcc(Array(FullShape a)b)",
@@ -4351,6 +4717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the shape of an array without altering its contents. The \u003ccode\u003e\u003ca\u003esize\u003c/a\u003e\u003c/code\u003e of\n the source and result arrays must be identical.\n\u003c/p\u003e\u003cpre\u003e precondition: size ix == size ix'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "reshape",
           "package": "accelerate",
@@ -4361,6 +4728,7 @@
         "index": {
           "description": "Change the shape of an array without altering its contents The size of the source and result arrays must be identical precondition size ix size ix",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "reshape",
           "normalized": "Exp a-\u003eAcc(Array b c)-\u003eAcc(Array a c)",
@@ -4376,6 +4744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse the elements of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "reverse",
           "package": "accelerate",
@@ -4386,6 +4755,7 @@
         "index": {
           "description": "Reverse the elements of vector",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "reverse",
           "normalized": "Acc(Vector a)-\u003eAcc(Vector a)",
@@ -4401,6 +4771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003erotate\u003c/a\u003e\u003c/code\u003e x i\u003c/code\u003e rotates \u003ccode\u003ex\u003c/code\u003e left by \u003ccode\u003ei\u003c/code\u003e bits if \u003ccode\u003ei\u003c/code\u003e is positive, or right by\n \u003ccode\u003e-i\u003c/code\u003e bits otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "rotate",
           "package": "accelerate",
@@ -4411,6 +4782,7 @@
         "index": {
           "description": "rotate rotates left by bits if is positive or right by bits otherwise",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "rotate",
           "normalized": "Exp a-\u003eExp Int-\u003eExp a",
@@ -4426,6 +4798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate the argument left by the specified number of bits\n (which must be non-negative).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "rotateL",
           "package": "accelerate",
@@ -4436,6 +4809,7 @@
         "index": {
           "description": "Rotate the argument left by the specified number of bits which must be non-negative",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "rotateL",
           "normalized": "Exp a-\u003eExp Int-\u003eExp a",
@@ -4451,6 +4825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate the argument right by the specified number of bits\n (which must be non-negative).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "rotateR",
           "package": "accelerate",
@@ -4461,6 +4836,7 @@
         "index": {
           "description": "Rotate the argument right by the specified number of bits which must be non-negative",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "rotateR",
           "normalized": "Exp a-\u003eExp Int-\u003eExp a",
@@ -4476,6 +4852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eround x\u003c/code\u003e returns the nearest integer to \u003ccode\u003ex\u003c/code\u003e, or the even integer if \u003ccode\u003ex\u003c/code\u003e is\n equidistant between two integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "round",
           "package": "accelerate",
@@ -4486,6 +4863,7 @@
         "index": {
           "description": "round returns the nearest integer to or the even integer if is equidistant between two integers",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "round",
           "normalized": "Exp a-\u003eExp b",
@@ -4501,6 +4879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData.List style left-to-right scan, but with the additional restriction\n that the first argument needs to be an \u003cem\u003eassociative\u003c/em\u003e function to enable an\n efficient parallel implementation. The initial value (second argument) may be\n arbitrary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scanl",
           "package": "accelerate",
@@ -4511,6 +4890,7 @@
         "index": {
           "description": "Data.List style left-to-right scan but with the additional restriction that the first argument needs to be an associative function to enable an efficient parallel implementation The initial value second argument may be arbitrary",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scanl",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -4526,6 +4906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e, where the final result of the reduction is returned\n separately. Denotationally, we have\n\u003c/p\u003e\u003cpre\u003e scanl' f e arr = (init res, unit (res!len))\n   where\n     len = shape arr\n     res = scanl f e arr\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scanl'",
           "package": "accelerate",
@@ -4536,6 +4917,7 @@
         "index": {
           "description": "Variant of scanl where the final result of the reduction is returned separately Denotationally we have scanl arr init res unit res len where len shape arr res scanl arr",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scanl'",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003e(Acc(Vector a),Acc(Scalar a))",
@@ -4551,6 +4933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented version of \u003ccode\u003e\u003ca\u003escanl'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe first element of the resulting tuple is a vector of scanned values. The\n second element is a vector of segment scan totals and has the same size as\n the segment vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scanl'Seg",
           "package": "accelerate",
@@ -4561,6 +4944,7 @@
         "index": {
           "description": "Segmented version of scanl The first element of the resulting tuple is vector of scanned values The second element is vector of segment scan totals and has the same size as the segment vector",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scanl'Seg",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Segments b)-\u003eAcc(Vector a,Vector a)",
@@ -4577,6 +4961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData.List style left-to-right scan without an initial value (aka inclusive\n scan).  Again, the first argument needs to be an \u003cem\u003eassociative\u003c/em\u003e function.\n Denotationally, we have\n\u003c/p\u003e\u003cpre\u003e scanl1 f e arr = tail (scanl f e arr)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scanl1",
           "package": "accelerate",
@@ -4587,6 +4972,7 @@
         "index": {
           "description": "Data.List style left-to-right scan without an initial value aka inclusive scan Again the first argument needs to be an associative function Denotationally we have scanl1 arr tail scanl arr",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scanl1",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -4602,6 +4988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented version of \u003ccode\u003e\u003ca\u003escanl1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scanl1Seg",
           "package": "accelerate",
@@ -4612,6 +4999,7 @@
         "index": {
           "description": "Segmented version of scanl1",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scanl1Seg",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eAcc(Vector a)-\u003eAcc(Segments b)-\u003eAcc(Vector a)",
@@ -4628,6 +5016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented version of \u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scanlSeg",
           "package": "accelerate",
@@ -4638,6 +5027,7 @@
         "index": {
           "description": "Segmented version of scanl",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scanlSeg",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Segments b)-\u003eAcc(Vector a)",
@@ -4654,6 +5044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-to-left variant of \u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scanr",
           "package": "accelerate",
@@ -4664,6 +5055,7 @@
         "index": {
           "description": "Right-to-left variant of scanl",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scanr",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -4679,6 +5071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-to-left variant of \u003ccode\u003e\u003ca\u003escanl'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scanr'",
           "package": "accelerate",
@@ -4689,6 +5082,7 @@
         "index": {
           "description": "Right-to-left variant of scanl",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scanr'",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003e(Acc(Vector a),Acc(Scalar a))",
@@ -4704,6 +5098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented version of \u003ccode\u003e\u003ca\u003escanr'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scanr'Seg",
           "package": "accelerate",
@@ -4714,6 +5109,7 @@
         "index": {
           "description": "Segmented version of scanr",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scanr'Seg",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Segments b)-\u003eAcc(Vector a,Vector a)",
@@ -4730,6 +5126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-to-left variant of \u003ccode\u003e\u003ca\u003escanl1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scanr1",
           "package": "accelerate",
@@ -4740,6 +5137,7 @@
         "index": {
           "description": "Right-to-left variant of scanl1",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scanr1",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -4755,6 +5153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented version of \u003ccode\u003e\u003ca\u003escanr1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scanr1Seg",
           "package": "accelerate",
@@ -4765,6 +5164,7 @@
         "index": {
           "description": "Segmented version of scanr1",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scanr1Seg",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eAcc(Vector a)-\u003eAcc(Segments b)-\u003eAcc(Vector a)",
@@ -4781,6 +5181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented version of \u003ccode\u003e\u003ca\u003escanr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scanrSeg",
           "package": "accelerate",
@@ -4791,6 +5192,7 @@
         "index": {
           "description": "Segmented version of scanr",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scanrSeg",
           "normalized": "(Exp a-\u003eExp a-\u003eExp a)-\u003eExp a-\u003eAcc(Vector a)-\u003eAcc(Segments b)-\u003eAcc(Vector a)",
@@ -4807,6 +5209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy elements from source array to destination array according to a map. This\n   is a forward-permute operation where a \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e vector encodes an input to output\n   index mapping. Output elements for indices that are not mapped assume the\n   default vector's value.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e default = [0, 0, 0, 0, 0, 0, 0, 0, 0]\n map     = [1, 3, 7, 2, 5, 8]\n input   = [1, 9, 6, 4, 4, 2, 5]\n\n output  = [0, 1, 4, 9, 0, 4, 0, 6, 2]\n\u003c/pre\u003e\u003cp\u003eNote if the same index appears in the map more than once, the result is\n   undefined. The map vector cannot be larger than the input vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scatter",
           "package": "accelerate",
@@ -4816,6 +5219,7 @@
         "index": {
           "description": "Copy elements from source array to destination array according to map This is forward-permute operation where map vector encodes an input to output index mapping Output elements for indices that are not mapped assume the default vector value For example default map input output Note if the same index appears in the map more than once the result is undefined The map vector cannot be larger than the input vector",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scatter",
           "normalized": "Acc(Vector Int)-\u003eAcc(Vector a)-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -4831,6 +5235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditionally copy elements from source array to destination array according\n   to a map. This is a forward-permute operation where a \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e vector encodes an\n   input to output index mapping. In addition, there is a \u003ccode\u003emask\u003c/code\u003e vector, and an\n   associated predicate function, that specifies whether an elements will be\n   copied. If not copied, the output array assumes the default vector's value.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e default = [0, 0, 0, 0, 0, 0, 0, 0, 0]\n map     = [1, 3, 7, 2, 5, 8]\n mask    = [3, 4, 9, 2, 7, 5]\n pred    = (\u003e 4)\n input   = [1, 9, 6, 4, 4, 2]\n\n output  = [0, 0, 0, 0, 0, 4, 0, 6, 2]\n\u003c/pre\u003e\u003cp\u003eNote if the same index appears in the map more than once, the result is\n   undefined. The map and input vector must be of the same length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "scatterIf",
           "package": "accelerate",
@@ -4840,6 +5245,7 @@
         "index": {
           "description": "Conditionally copy elements from source array to destination array according to map This is forward-permute operation where map vector encodes an input to output index mapping In addition there is mask vector and an associated predicate function that specifies whether an elements will be copied If not copied the output array assumes the default vector value For example default map mask pred input output Note if the same index appears in the map more than once the result is undefined The map and input vector must be of the same length",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "scatterIf",
           "normalized": "Acc(Vector Int)-\u003eAcc(Vector a)-\u003e(Exp a-\u003eExp Bool)-\u003eAcc(Vector b)-\u003eAcc(Vector b)-\u003eAcc(Vector b)",
@@ -4856,6 +5262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ex `setBit` i\u003c/code\u003e is the same as \u003ccode\u003ex .|. bit i\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "setBit",
           "package": "accelerate",
@@ -4866,6 +5273,7 @@
         "index": {
           "description": "setBit is the same as bit",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "setBit",
           "normalized": "Exp a-\u003eExp Int-\u003eExp a",
@@ -4882,6 +5290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce along an innermost slice of an array \u003cem\u003esequentially\u003c/em\u003e, by applying a\n binary operator to a starting value and the array from left to right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "sfoldl",
           "package": "accelerate",
@@ -4892,6 +5301,7 @@
         "index": {
           "description": "Reduce along an innermost slice of an array sequentially by applying binary operator to starting value and the array from left to right",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "sfoldl",
           "normalized": "(Exp a-\u003eExp b-\u003eExp a)-\u003eExp a-\u003eExp c-\u003eAcc(Array(c Int)b)-\u003eExp a",
@@ -4907,6 +5317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression form that yields the shape of an array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "shape",
           "package": "accelerate",
@@ -4917,6 +5328,7 @@
         "index": {
           "description": "Expression form that yields the shape of an array",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "shape",
           "normalized": "Acc(Array a b)-\u003eExp a",
@@ -4932,6 +5344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe total number of elements in an array of the given \u003ccode\u003e\u003ca\u003eShape\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "shapeSize",
           "package": "accelerate",
@@ -4942,6 +5355,7 @@
         "index": {
           "description": "The total number of elements in an array of the given Shape",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "shapeSize",
           "normalized": "Exp a-\u003eExp Int",
@@ -4958,6 +5372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eshift\u003c/a\u003e\u003c/code\u003e x i\u003c/code\u003e shifts \u003ccode\u003ex\u003c/code\u003e left by \u003ccode\u003ei\u003c/code\u003e bits if \u003ccode\u003ei\u003c/code\u003e is positive, or right by\n \u003ccode\u003e-i\u003c/code\u003e bits otherwise. Right shifts perform sign extension on signed number\n types; i.e. they fill the top bits with 1 if the \u003ccode\u003ex\u003c/code\u003e is negative and with 0\n otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "shift",
           "package": "accelerate",
@@ -4968,6 +5383,7 @@
         "index": {
           "description": "shift shifts left by bits if is positive or right by bits otherwise Right shifts perform sign extension on signed number types i.e they fill the top bits with if the is negative and with otherwise",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "shift",
           "normalized": "Exp a-\u003eExp Int-\u003eExp a",
@@ -4983,6 +5399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift the argument left by the specified number of bits\n (which must be non-negative).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "shiftL",
           "package": "accelerate",
@@ -4993,6 +5410,7 @@
         "index": {
           "description": "Shift the argument left by the specified number of bits which must be non-negative",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "shiftL",
           "normalized": "Exp a-\u003eExp Int-\u003eExp a",
@@ -5008,6 +5426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift the first argument right by the specified number of bits. The result\n is undefined for negative shift amounts and shift amounts greater or equal to\n the \u003ccode\u003ebitSize\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eRight shifts perform sign extension on signed number types; i.e. they fill\n the top bits with 1 if the \u003ccode\u003ex\u003c/code\u003e is negative and with 0 otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "shiftR",
           "package": "accelerate",
@@ -5018,6 +5437,7 @@
         "index": {
           "description": "Shift the first argument right by the specified number of bits The result is undefined for negative shift amounts and shift amounts greater or equal to the bitSize Right shifts perform sign extension on signed number types i.e they fill the top bits with if the is negative and with otherwise",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "shiftR",
           "normalized": "Exp a-\u003eExp Int-\u003eExp a",
@@ -5033,6 +5453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression form that yields the size of an array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "size",
           "package": "accelerate",
@@ -5043,6 +5464,7 @@
         "index": {
           "description": "Expression form that yields the size of an array",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "size",
           "normalized": "Acc(Array a b)-\u003eExp Int",
@@ -5058,6 +5480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex an array with a \u003cem\u003egeneralised\u003c/em\u003e array index, supplied as the\n second argument. The result is a new array (possibly a singleton)\n containing the selected dimensions (\u003ccode\u003e\u003ca\u003eAll\u003c/a\u003e\u003c/code\u003es) in their entirety.\n\u003c/p\u003e\u003cp\u003eThis can be used to \u003cem\u003ecut out\u003c/em\u003e entire dimensions.  The opposite of\n \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e.  For example, if \u003ccode\u003emat\u003c/code\u003e is a two dimensional array, the\n following will select a specific row and yield a one dimensional\n result:\n\u003c/p\u003e\u003cpre\u003e slice mat (constant (Z :. (2::Int) :. All))\n\u003c/pre\u003e\u003cp\u003eA fully specified index (with no \u003ccode\u003e\u003ca\u003eAll\u003c/a\u003e\u003c/code\u003es) would return a single\n element (zero dimensional array).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "slice",
           "package": "accelerate",
@@ -5068,6 +5491,7 @@
         "index": {
           "description": "Index an array with generalised array index supplied as the second argument The result is new array possibly singleton containing the selected dimensions All in their entirety This can be used to cut out entire dimensions The opposite of replicate For example if mat is two dimensional array the following will select specific row and yield one dimensional result slice mat constant Int All fully specified index with no All would return single element zero dimensional array",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "slice",
           "normalized": "Acc(Array(FullShape a)b)-\u003eExp a-\u003eAcc(Array(SliceShape a)b)",
@@ -5082,6 +5506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "sliceIndex",
           "package": "accelerate",
@@ -5091,6 +5516,7 @@
         },
         "index": {
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "sliceIndex",
           "normalized": "a-\u003eSliceIndex(EltRepr a)(EltRepr(SliceShape a))(EltRepr(CoSliceShape a))(EltRepr(FullShape a))",
@@ -5107,6 +5533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield a slit (slice) from the vector. The vector must contain at least\n   \u003ccode\u003ei + n\u003c/code\u003e elements. Denotationally, we have:\n\u003c/p\u003e\u003cpre\u003e slit i n = take n . drop i\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "slit",
           "package": "accelerate",
@@ -5117,6 +5544,7 @@
         "index": {
           "description": "Yield slit slice from the vector The vector must contain at least elements Denotationally we have slit take drop",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "slit",
           "normalized": "Exp Int-\u003eExp Int-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -5132,6 +5560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the second component of a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "snd",
           "package": "accelerate",
@@ -5142,6 +5571,7 @@
         "index": {
           "description": "Extract the second component of pair",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "snd",
           "normalized": "a(Plain(a b),Plain(a c))-\u003ea c",
@@ -5157,6 +5587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a stencil over an array.  In contrast to \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e, the domain of a stencil function is an\n  entire \u003cem\u003eneighbourhood\u003c/em\u003e of each array element.  Neighbourhoods are sub-arrays centred around a\n  focal point.  They are not necessarily rectangular, but they are symmetric in each dimension\n  and have an extent of at least three in each dimensions &#8212; due to the symmetry requirement, the\n  extent is necessarily odd.  The focal point is the array position that is determined by the\n  stencil.\n\u003c/p\u003e\u003cp\u003eFor those array positions where the neighbourhood extends past the boundaries of the source\n  array, a boundary condition determines the contents of the out-of-bounds neighbourhood\n  positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "stencil",
           "package": "accelerate",
@@ -5166,6 +5597,7 @@
         "index": {
           "description": "Map stencil over an array In contrast to map the domain of stencil function is an entire neighbourhood of each array element Neighbourhoods are sub-arrays centred around focal point They are not necessarily rectangular but they are symmetric in each dimension and have an extent of at least three in each dimensions due to the symmetry requirement the extent is necessarily odd The focal point is the array position that is determined by the stencil For those array positions where the neighbourhood extends past the boundaries of the source array boundary condition determines the contents of the out-of-bounds neighbourhood positions",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "stencil",
           "normalized": "(a-\u003eExp b)-\u003eBoundary c-\u003eAcc(Array d c)-\u003eAcc(Array d b)",
@@ -5181,6 +5613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a binary stencil of an array.  The extent of the resulting array is the\n intersection of the extents of the two source arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "stencil2",
           "package": "accelerate",
@@ -5190,6 +5623,7 @@
         "index": {
           "description": "Map binary stencil of an array The extent of the resulting array is the intersection of the extents of the two source arrays",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "stencil2",
           "normalized": "(a-\u003ea-\u003eExp b)-\u003eBoundary c-\u003eAcc(Array d c)-\u003eBoundary e-\u003eAcc(Array d e)-\u003eAcc(Array d b)",
@@ -5205,6 +5639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the sum of elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "sum",
           "package": "accelerate",
@@ -5215,6 +5650,7 @@
         "index": {
           "description": "Compute the sum of elements",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "sum",
           "normalized": "Acc(Array a b)-\u003eAcc(Scalar b)",
@@ -5230,6 +5666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield all but the first element of the input vector. The vector must not be\n   empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "tail",
           "package": "accelerate",
@@ -5240,6 +5677,7 @@
         "index": {
           "description": "Yield all but the first element of the input vector The vector must not be empty",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "tail",
           "normalized": "Acc(Vector a)-\u003eAcc(Vector a)",
@@ -5255,6 +5693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the first \u003ccode\u003en\u003c/code\u003e elements of the input vector. The vector must contain\n no more than \u003ccode\u003en\u003c/code\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "take",
           "package": "accelerate",
@@ -5265,6 +5704,7 @@
         "index": {
           "description": "Yield the first elements of the input vector The vector must contain no more than elements",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "take",
           "normalized": "Exp Int-\u003eAcc(Vector a)-\u003eAcc(Vector a)",
@@ -5280,6 +5720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003eTrue\u003c/code\u003e if the \u003ccode\u003en\u003c/code\u003eth bit of the argument is 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "testBit",
           "package": "accelerate",
@@ -5290,6 +5731,7 @@
         "index": {
           "description": "Return True if the th bit of the argument is",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "testBit",
           "normalized": "Exp a-\u003eExp Int-\u003eExp Bool",
@@ -5306,6 +5748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtraction of the element in a singleton array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "the",
           "package": "accelerate",
@@ -5316,6 +5759,7 @@
         "index": {
           "description": "Extraction of the element in singleton array",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "the",
           "normalized": "Acc(Scalar a)-\u003eExp a",
@@ -5331,6 +5775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an accelerated array to an \u003ccode\u003e\u003ca\u003eIArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "toIArray",
           "package": "accelerate",
@@ -5341,6 +5786,7 @@
         "index": {
           "description": "Convert an accelerated array to an IArray",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "toIArray",
           "normalized": "Array a b-\u003ec d b",
@@ -5357,6 +5803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a multi-dimensional index into a linear, row-major representation of an\n array. The first argument is the array shape, the second is the index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "toIndex",
           "package": "accelerate",
@@ -5367,6 +5814,7 @@
         "index": {
           "description": "Map multi-dimensional index into linear row-major representation of an array The first argument is the array shape the second is the index",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "toIndex",
           "normalized": "Exp a-\u003eExp a-\u003eExp Int",
@@ -5383,6 +5831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an accelerated array to a list in row-major order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "toList",
           "package": "accelerate",
@@ -5393,6 +5842,7 @@
         "index": {
           "description": "Convert an accelerated array to list in row-major order",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "toList",
           "normalized": "a b c Array b d-\u003e[d]",
@@ -5409,6 +5859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose the rows and columns of a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "transpose",
           "package": "accelerate",
@@ -5419,6 +5870,7 @@
         "index": {
           "description": "Transpose the rows and columns of matrix",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "transpose",
           "normalized": "Acc(Array DIM a)-\u003eAcc(Array DIM a)",
@@ -5434,6 +5886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etruncate x\u003c/code\u003e returns the integer nearest \u003ccode\u003ex\u003c/code\u003e between zero and \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "truncate",
           "package": "accelerate",
@@ -5444,6 +5897,7 @@
         "index": {
           "description": "truncate returns the integer nearest between zero and",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "truncate",
           "normalized": "Exp a-\u003eExp b",
@@ -5459,6 +5913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a curried function to a function on pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "uncurry",
           "package": "accelerate",
@@ -5469,6 +5924,7 @@
         "index": {
           "description": "Converts curried function to function on pairs",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "uncurry",
           "normalized": "(a b-\u003ea c-\u003ea d)-\u003ea(Plain(a b),Plain(a c))-\u003ea d",
@@ -5484,6 +5940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a rank-1 indexing expression into an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "unindex1",
           "package": "accelerate",
@@ -5494,6 +5951,7 @@
         "index": {
           "description": "Turn rank-1 indexing expression into an Int expression",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "unindex1",
           "normalized": "Exp(Z a)-\u003eExp a",
@@ -5509,6 +5967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestructs a rank-2 index to an Exp tuple of two Int`s.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "unindex2",
           "package": "accelerate",
@@ -5519,6 +5978,7 @@
         "index": {
           "description": "Destructs rank-2 index to an Exp tuple of two Int",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "unindex2",
           "normalized": "Exp((Z a)a)-\u003eExp(a,a)",
@@ -5534,6 +5994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar inlet: injects a scalar (or a tuple of scalars) into a singleton\n array for use in the Accelerate language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "unit",
           "package": "accelerate",
@@ -5544,6 +6005,7 @@
         "index": {
           "description": "Scalar inlet injects scalar or tuple of scalars into singleton array for use in the Accelerate language",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "unit",
           "normalized": "Exp a-\u003eAcc(Scalar a)",
@@ -5559,6 +6021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlift the outermost constructor through the surface type. This is only\n possible if the constructor is fully determined by its type - i.e., it is a\n singleton.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "unlift",
           "package": "accelerate",
@@ -5569,6 +6032,7 @@
         "index": {
           "description": "Unlift the outermost constructor through the surface type This is only possible if the constructor is fully determined by its type i.e it is singleton",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "unlift",
           "normalized": "a(Plain b)-\u003eb",
@@ -5584,6 +6048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe converse of \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e, but the shape of the two results is identical to the\n shape of the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "unzip",
           "package": "accelerate",
@@ -5594,6 +6059,7 @@
         "index": {
           "description": "The converse of zip but the shape of the two results is identical to the shape of the argument",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "unzip",
           "normalized": "Acc(Array a(b,c))-\u003e(Acc(Array a b),Acc(Array a c))",
@@ -5609,6 +6075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake an array of triples and return three arrays, analogous to unzip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "unzip3",
           "package": "accelerate",
@@ -5619,6 +6086,7 @@
         "index": {
           "description": "Take an array of triples and return three arrays analogous to unzip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "unzip3",
           "normalized": "Acc(Array a(b,c,d))-\u003e(Acc(Array a b),Acc(Array a c),Acc(Array a d))",
@@ -5634,6 +6102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake an array of quadruples and return four arrays, analogous to unzip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "unzip4",
           "package": "accelerate",
@@ -5644,6 +6113,7 @@
         "index": {
           "description": "Take an array of quadruples and return four arrays analogous to unzip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "unzip4",
           "normalized": "Acc(Array a(b,c,d,e))-\u003e(Acc(Array a b),Acc(Array a c),Acc(Array a d),Acc(Array a e))",
@@ -5659,6 +6129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake an array of 5-tuples and return five arrays, analogous to unzip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "unzip5",
           "package": "accelerate",
@@ -5669,6 +6140,7 @@
         "index": {
           "description": "Take an array of tuples and return five arrays analogous to unzip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "unzip5",
           "normalized": "Acc(Array a(b,c,d,e,f))-\u003e(Acc(Array a b),Acc(Array a c),Acc(Array a d),Acc(Array a e),Acc(Array a f))",
@@ -5684,6 +6156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake an array of 6-tuples and return six arrays, analogous to unzip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "unzip6",
           "package": "accelerate",
@@ -5694,6 +6167,7 @@
         "index": {
           "description": "Take an array of tuples and return six arrays analogous to unzip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "unzip6",
           "normalized": "Acc(Array a(b,c,d,e,f,g))-\u003e(Acc(Array a b),Acc(Array a c),Acc(Array a d),Acc(Array a e),Acc(Array a f),Acc(Array a g))",
@@ -5709,6 +6183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake an array of 7-tuples and return seven arrays, analogous to unzip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "unzip7",
           "package": "accelerate",
@@ -5719,6 +6194,7 @@
         "index": {
           "description": "Take an array of tuples and return seven arrays analogous to unzip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "unzip7",
           "normalized": "Acc(Array a(b,c,d,e,f,g,h))-\u003e(Acc(Array a b),Acc(Array a c),Acc(Array a d),Acc(Array a e),Acc(Array a f),Acc(Array a g),Acc(Array a h))",
@@ -5734,6 +6210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake an array of 8-tuples and return eight arrays, analogous to unzip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "unzip8",
           "package": "accelerate",
@@ -5744,6 +6221,7 @@
         "index": {
           "description": "Take an array of tuples and return eight arrays analogous to unzip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "unzip8",
           "normalized": "Acc(Array a(b,c,d,e,f,g,h,i))-\u003e(Acc(Array a b),Acc(Array a c),Acc(Array a d),Acc(Array a e),Acc(Array a f),Acc(Array a g),Acc(Array a h),Acc(Array a i))",
@@ -5759,6 +6237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake an array of 8-tuples and return eight arrays, analogous to unzip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "unzip9",
           "package": "accelerate",
@@ -5769,6 +6248,7 @@
         "index": {
           "description": "Take an array of tuples and return eight arrays analogous to unzip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "unzip9",
           "normalized": "Acc(Array a(b,c,d,e,f,g,h,i,j))-\u003e(Acc(Array a b),Acc(Array a c),Acc(Array a d),Acc(Array a e),Acc(Array a f),Acc(Array a g),Acc(Array a h),Acc(Array a i),Acc(Array a j))",
@@ -5784,6 +6264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArray inlet: makes an array available for processing using the Accelerate\n language.\n\u003c/p\u003e\u003cp\u003eDepending upon the backend used to execute array computations, this may\n trigger (asynchronous) data transfer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "use",
           "package": "accelerate",
@@ -5794,6 +6275,7 @@
         "index": {
           "description": "Array inlet makes an array available for processing using the Accelerate language Depending upon the backend used to execute array computations this may trigger asynchronous data transfer",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "use",
           "normalized": "a-\u003eAcc a",
@@ -5809,6 +6291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhile construct. Continue to apply the given function, starting with the\n initial value, until the test function evaluates to true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "while",
           "package": "accelerate",
@@ -5819,6 +6302,7 @@
         "index": {
           "description": "While construct Continue to apply the given function starting with the initial value until the test function evaluates to true",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "while",
           "normalized": "(Exp a-\u003eExp Bool)-\u003e(Exp a-\u003eExp a)-\u003eExp a-\u003eExp a",
@@ -5834,6 +6318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the elements of two arrays pairwise.  The shape of the result is\n the intersection of the two argument shapes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zip",
           "package": "accelerate",
@@ -5844,6 +6329,7 @@
         "index": {
           "description": "Combine the elements of two arrays pairwise The shape of the result is the intersection of the two argument shapes",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zip",
           "normalized": "Acc(Array a b)-\u003eAcc(Array a c)-\u003eAcc(Array a(b,c))",
@@ -5859,6 +6345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake three arrays and return an array of triples, analogous to zip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zip3",
           "package": "accelerate",
@@ -5869,6 +6356,7 @@
         "index": {
           "description": "Take three arrays and return an array of triples analogous to zip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zip3",
           "normalized": "Acc(Array a b)-\u003eAcc(Array a c)-\u003eAcc(Array a d)-\u003eAcc(Array a(b,c,d))",
@@ -5884,6 +6372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake four arrays and return an array of quadruples, analogous to zip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zip4",
           "package": "accelerate",
@@ -5894,6 +6383,7 @@
         "index": {
           "description": "Take four arrays and return an array of quadruples analogous to zip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zip4",
           "normalized": "Acc(Array a b)-\u003eAcc(Array a c)-\u003eAcc(Array a d)-\u003eAcc(Array a e)-\u003eAcc(Array a(b,c,d,e))",
@@ -5909,6 +6399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake five arrays and return an array of five-tuples, analogous to zip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zip5",
           "package": "accelerate",
@@ -5919,6 +6410,7 @@
         "index": {
           "description": "Take five arrays and return an array of five-tuples analogous to zip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zip5",
           "normalized": "Acc(Array a b)-\u003eAcc(Array a c)-\u003eAcc(Array a d)-\u003eAcc(Array a e)-\u003eAcc(Array a f)-\u003eAcc(Array a(b,c,d,e,f))",
@@ -5934,6 +6426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake six arrays and return an array of six-tuples, analogous to zip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zip6",
           "package": "accelerate",
@@ -5944,6 +6437,7 @@
         "index": {
           "description": "Take six arrays and return an array of six-tuples analogous to zip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zip6",
           "normalized": "Acc(Array a b)-\u003eAcc(Array a c)-\u003eAcc(Array a d)-\u003eAcc(Array a e)-\u003eAcc(Array a f)-\u003eAcc(Array a g)-\u003eAcc(Array a(b,c,d,e,f,g))",
@@ -5959,6 +6453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake seven arrays and return an array of seven-tuples, analogous to zip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zip7",
           "package": "accelerate",
@@ -5969,6 +6464,7 @@
         "index": {
           "description": "Take seven arrays and return an array of seven-tuples analogous to zip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zip7",
           "normalized": "Acc(Array a b)-\u003eAcc(Array a c)-\u003eAcc(Array a d)-\u003eAcc(Array a e)-\u003eAcc(Array a f)-\u003eAcc(Array a g)-\u003eAcc(Array a h)-\u003eAcc(Array a(b,c,d,e,f,g,h))",
@@ -5984,6 +6480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake seven arrays and return an array of seven-tuples, analogous to zip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zip8",
           "package": "accelerate",
@@ -5994,6 +6491,7 @@
         "index": {
           "description": "Take seven arrays and return an array of seven-tuples analogous to zip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zip8",
           "normalized": "Acc(Array a b)-\u003eAcc(Array a c)-\u003eAcc(Array a d)-\u003eAcc(Array a e)-\u003eAcc(Array a f)-\u003eAcc(Array a g)-\u003eAcc(Array a h)-\u003eAcc(Array a i)-\u003eAcc(Array a(b,c,d,e,f,g,h,i))",
@@ -6009,6 +6507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake seven arrays and return an array of seven-tuples, analogous to zip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zip9",
           "package": "accelerate",
@@ -6019,6 +6518,7 @@
         "index": {
           "description": "Take seven arrays and return an array of seven-tuples analogous to zip",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zip9",
           "normalized": "Acc(Array a b)-\u003eAcc(Array a c)-\u003eAcc(Array a d)-\u003eAcc(Array a e)-\u003eAcc(Array a f)-\u003eAcc(Array a g)-\u003eAcc(Array a h)-\u003eAcc(Array a i)-\u003eAcc(Array a j)-\u003eAcc(Array a(b,c,d,e,f,g,h,i,j))",
@@ -6034,6 +6534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the given binary function element-wise to the two arrays.  The extent of the resulting\n array is the intersection of the extents of the two source arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zipWith",
           "package": "accelerate",
@@ -6044,6 +6545,7 @@
         "index": {
           "description": "Apply the given binary function element-wise to the two arrays The extent of the resulting array is the intersection of the extents of the two source arrays",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zipWith",
           "normalized": "(Exp a-\u003eExp b-\u003eExp c)-\u003eAcc(Array d a)-\u003eAcc(Array d b)-\u003eAcc(Array d c)",
@@ -6060,6 +6562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip three arrays with the given function, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zipWith3",
           "package": "accelerate",
@@ -6070,6 +6573,7 @@
         "index": {
           "description": "Zip three arrays with the given function analogous to zipWith",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zipWith3",
           "normalized": "(Exp a-\u003eExp b-\u003eExp c-\u003eExp d)-\u003eAcc(Array e a)-\u003eAcc(Array e b)-\u003eAcc(Array e c)-\u003eAcc(Array e d)",
@@ -6086,6 +6590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip four arrays with the given function, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zipWith4",
           "package": "accelerate",
@@ -6096,6 +6601,7 @@
         "index": {
           "description": "Zip four arrays with the given function analogous to zipWith",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zipWith4",
           "normalized": "(Exp a-\u003eExp b-\u003eExp c-\u003eExp d-\u003eExp e)-\u003eAcc(Array f a)-\u003eAcc(Array f b)-\u003eAcc(Array f c)-\u003eAcc(Array f d)-\u003eAcc(Array f e)",
@@ -6112,6 +6618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip five arrays with the given function, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zipWith5",
           "package": "accelerate",
@@ -6122,6 +6629,7 @@
         "index": {
           "description": "Zip five arrays with the given function analogous to zipWith",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zipWith5",
           "normalized": "(Exp a-\u003eExp b-\u003eExp c-\u003eExp d-\u003eExp e-\u003eExp f)-\u003eAcc(Array g a)-\u003eAcc(Array g b)-\u003eAcc(Array g c)-\u003eAcc(Array g d)-\u003eAcc(Array g e)-\u003eAcc(Array g f)",
@@ -6138,6 +6646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip six arrays with the given function, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zipWith6",
           "package": "accelerate",
@@ -6148,6 +6657,7 @@
         "index": {
           "description": "Zip six arrays with the given function analogous to zipWith",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zipWith6",
           "normalized": "(Exp a-\u003eExp b-\u003eExp c-\u003eExp d-\u003eExp e-\u003eExp f-\u003eExp g)-\u003eAcc(Array h a)-\u003eAcc(Array h b)-\u003eAcc(Array h c)-\u003eAcc(Array h d)-\u003eAcc(Array h e)-\u003eAcc(Array h f)-\u003eAcc(Array h g)",
@@ -6164,6 +6674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip seven arrays with the given function, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zipWith7",
           "package": "accelerate",
@@ -6174,6 +6685,7 @@
         "index": {
           "description": "Zip seven arrays with the given function analogous to zipWith",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zipWith7",
           "normalized": "(Exp a-\u003eExp b-\u003eExp c-\u003eExp d-\u003eExp e-\u003eExp f-\u003eExp g-\u003eExp h)-\u003eAcc(Array i a)-\u003eAcc(Array i b)-\u003eAcc(Array i c)-\u003eAcc(Array i d)-\u003eAcc(Array i e)-\u003eAcc(Array i f)-\u003eAcc(Array i g)-\u003eAcc(Array i h)",
@@ -6190,6 +6702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip eight arrays with the given function, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zipWith8",
           "package": "accelerate",
@@ -6200,6 +6713,7 @@
         "index": {
           "description": "Zip eight arrays with the given function analogous to zipWith",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zipWith8",
           "normalized": "(Exp a-\u003eExp b-\u003eExp c-\u003eExp d-\u003eExp e-\u003eExp f-\u003eExp g-\u003eExp h-\u003eExp i)-\u003eAcc(Array j a)-\u003eAcc(Array j b)-\u003eAcc(Array j c)-\u003eAcc(Array j d)-\u003eAcc(Array j e)-\u003eAcc(Array j f)-\u003eAcc(Array j g)-\u003eAcc(Array j h)-\u003eAcc(Array j i)",
@@ -6216,6 +6730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip nine arrays with the given function, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:39 UTC 2014",
           "module": "Data.Array.Accelerate",
           "name": "zipWith9",
           "package": "accelerate",
@@ -6226,6 +6741,7 @@
         "index": {
           "description": "Zip nine arrays with the given function analogous to zipWith",
           "hierarchy": "Data Array Accelerate",
+          "indexed": "2014-03-11T17:06:39",
           "module": "Data.Array.Accelerate",
           "name": "zipWith9",
           "normalized": "(Exp a-\u003eExp b-\u003eExp c-\u003eExp d-\u003eExp e-\u003eExp f-\u003eExp g-\u003eExp h-\u003eExp i-\u003eExp j)-\u003eAcc(Array k a)-\u003eAcc(Array k b)-\u003eAcc(Array k c)-\u003eAcc(Array k d)-\u003eAcc(Array k e)-\u003eAcc(Array k f)-\u003eAcc(Array k g)-\u003eAcc(Array k h)-\u003eAcc(Array k i)-\u003eAcc(Array k j)",

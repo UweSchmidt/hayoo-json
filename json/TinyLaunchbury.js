@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "TinyLaunchbury"
+        "phrase": "TinyLaunchbury",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:30 UTC 2014",
           "module": "TinyLaunchbury",
           "name": "TinyLaunchbury",
           "package": "TinyLaunchbury",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "TinyLaunchbury",
+          "indexed": "2014-03-11T17:02:30",
           "module": "TinyLaunchbury",
           "name": "TinyLaunchbury",
           "package": "TinyLaunchbury",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:30 UTC 2014",
           "module": "TinyLaunchbury",
           "name": "Expr",
           "package": "TinyLaunchbury",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "TinyLaunchbury",
+          "indexed": "2014-03-11T17:02:30",
           "module": "TinyLaunchbury",
           "name": "Expr",
           "package": "TinyLaunchbury",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:30 UTC 2014",
           "module": "TinyLaunchbury",
           "name": "Apply",
           "package": "TinyLaunchbury",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "TinyLaunchbury",
+          "indexed": "2014-03-11T17:02:30",
           "module": "TinyLaunchbury",
           "name": "Apply",
           "package": "TinyLaunchbury",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:30 UTC 2014",
           "module": "TinyLaunchbury",
           "name": "Case",
           "package": "TinyLaunchbury",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "TinyLaunchbury",
+          "indexed": "2014-03-11T17:02:30",
           "module": "TinyLaunchbury",
           "name": "Case",
           "package": "TinyLaunchbury",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:30 UTC 2014",
           "module": "TinyLaunchbury",
           "name": "Ctor",
           "package": "TinyLaunchbury",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "TinyLaunchbury",
+          "indexed": "2014-03-11T17:02:30",
           "module": "TinyLaunchbury",
           "name": "Ctor",
           "normalized": "Ctor Int[Name]",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:30 UTC 2014",
           "module": "TinyLaunchbury",
           "name": "Lambda",
           "package": "TinyLaunchbury",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "TinyLaunchbury",
+          "indexed": "2014-03-11T17:02:30",
           "module": "TinyLaunchbury",
           "name": "Lambda",
           "package": "TinyLaunchbury",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:30 UTC 2014",
           "module": "TinyLaunchbury",
           "name": "Let",
           "package": "TinyLaunchbury",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "TinyLaunchbury",
+          "indexed": "2014-03-11T17:02:30",
           "module": "TinyLaunchbury",
           "name": "Let",
           "package": "TinyLaunchbury",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:30 UTC 2014",
           "module": "TinyLaunchbury",
           "name": "Prim",
           "package": "TinyLaunchbury",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "TinyLaunchbury",
+          "indexed": "2014-03-11T17:02:30",
           "module": "TinyLaunchbury",
           "name": "Prim",
           "package": "TinyLaunchbury",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:30 UTC 2014",
           "module": "TinyLaunchbury",
           "name": "Var",
           "package": "TinyLaunchbury",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "TinyLaunchbury",
+          "indexed": "2014-03-11T17:02:30",
           "module": "TinyLaunchbury",
           "name": "Var",
           "package": "TinyLaunchbury",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints the result of reduce to stdout.  The main reason for this function\n  is that the log contains newline Chars, and newlines don't format correctly\n  in ghci.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:30 UTC 2014",
           "module": "TinyLaunchbury",
           "name": "displayReduce",
           "package": "TinyLaunchbury",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Prints the result of reduce to stdout The main reason for this function is that the log contains newline Chars and newlines don format correctly in ghci",
           "hierarchy": "TinyLaunchbury",
+          "indexed": "2014-03-11T17:02:30",
           "module": "TinyLaunchbury",
           "name": "displayReduce",
           "normalized": "Expr-\u003eIO()",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduces an expression, and returns a string containing the log appended with\n the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:30 UTC 2014",
           "module": "TinyLaunchbury",
           "name": "reduce",
           "package": "TinyLaunchbury",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Reduces an expression and returns string containing the log appended with the result",
           "hierarchy": "TinyLaunchbury",
+          "indexed": "2014-03-11T17:02:30",
           "module": "TinyLaunchbury",
           "name": "reduce",
           "normalized": "Expr-\u003eString",

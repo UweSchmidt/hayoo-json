@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-handler-epoll"
+        "phrase": "hack-handler-epoll",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements Hack Handler interface using System.Linux.Epoll.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:16 UTC 2014",
           "module": "Hack.Handler.Epoll",
           "name": "Epoll",
           "package": "hack-handler-epoll",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implements Hack Handler interface using System.Linux.Epoll",
           "hierarchy": "Hack Handler Epoll",
+          "indexed": "2014-03-11T18:25:16",
           "module": "Hack.Handler.Epoll",
           "name": "Epoll",
           "package": "hack-handler-epoll",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:16 UTC 2014",
           "module": "Hack.Handler.Epoll",
           "name": "ServerConf",
           "package": "hack-handler-epoll",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Epoll",
+          "indexed": "2014-03-11T18:25:16",
           "module": "Hack.Handler.Epoll",
           "name": "ServerConf",
           "package": "hack-handler-epoll",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:16 UTC 2014",
           "module": "Hack.Handler.Epoll",
           "name": "ServerConf",
           "package": "hack-handler-epoll",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Epoll",
+          "indexed": "2014-03-11T18:25:16",
           "module": "Hack.Handler.Epoll",
           "name": "ServerConf",
           "package": "hack-handler-epoll",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:16 UTC 2014",
           "module": "Hack.Handler.Epoll",
           "name": "backlog",
           "package": "hack-handler-epoll",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Epoll",
+          "indexed": "2014-03-11T18:25:16",
           "module": "Hack.Handler.Epoll",
           "name": "backlog",
           "package": "hack-handler-epoll",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:16 UTC 2014",
           "module": "Hack.Handler.Epoll",
           "name": "epollSize",
           "package": "hack-handler-epoll",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Epoll",
+          "indexed": "2014-03-11T18:25:16",
           "module": "Hack.Handler.Epoll",
           "name": "epollSize",
           "package": "hack-handler-epoll",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:16 UTC 2014",
           "module": "Hack.Handler.Epoll",
           "name": "host",
           "package": "hack-handler-epoll",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Epoll",
+          "indexed": "2014-03-11T18:25:16",
           "module": "Hack.Handler.Epoll",
           "name": "host",
           "package": "hack-handler-epoll",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:16 UTC 2014",
           "module": "Hack.Handler.Epoll",
           "name": "port",
           "package": "hack-handler-epoll",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Epoll",
+          "indexed": "2014-03-11T18:25:16",
           "module": "Hack.Handler.Epoll",
           "name": "port",
           "package": "hack-handler-epoll",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:16 UTC 2014",
           "module": "Hack.Handler.Epoll",
           "name": "run",
           "package": "hack-handler-epoll",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Epoll",
+          "indexed": "2014-03-11T18:25:16",
           "module": "Hack.Handler.Epoll",
           "name": "run",
           "normalized": "Application-\u003eIO()",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:16 UTC 2014",
           "module": "Hack.Handler.Epoll",
           "name": "runWithConfig",
           "package": "hack-handler-epoll",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Epoll",
+          "indexed": "2014-03-11T18:25:16",
           "module": "Hack.Handler.Epoll",
           "name": "runWithConfig",
           "normalized": "ServerConf-\u003eApplication-\u003eIO()",

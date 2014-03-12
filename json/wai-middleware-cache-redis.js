@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-middleware-cache-redis"
+        "phrase": "wai-middleware-cache-redis",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRedis backend for \u003ca\u003eNetwork.Wai.Middleware.Cache\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis backend uses \u003ca\u003eDatabase.Redis.Pile\u003c/a\u003e for low-lewel operations. Main \n   drawback of this backend is the fact that whole response \n   will be consumed in memory.\n\u003c/p\u003e\u003cpre\u003e cache\n     (redisBackend \n         -- use defaults, DB 0 and \"myprefix\" \n         R.defaultConnectInfo 0 \n         \"myprefix\"         -- prefix for caching\n         Nothing            -- no expiration\n         [\"mytag\"]          -- one cache tag\n         (rawPathInfo)      -- URL path as key \n         lookupETag         -- And find \"If-None-Match\"\n     ) app -- our app\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:36:34 UTC 2014",
           "module": "Network.Wai.Middleware.Cache.Redis",
           "name": "Redis",
           "package": "wai-middleware-cache-redis",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Redis backend for Network.Wai.Middleware.Cache This backend uses Database.Redis.Pile for low-lewel operations Main drawback of this backend is the fact that whole response will be consumed in memory cache redisBackend use defaults DB and myprefix R.defaultConnectInfo myprefix prefix for caching Nothing no expiration mytag one cache tag rawPathInfo URL path as key lookupETag And find If-None-Match app our app",
           "hierarchy": "Network Wai Middleware Cache Redis",
+          "indexed": "2014-03-11T20:36:34",
           "module": "Network.Wai.Middleware.Cache.Redis",
           "name": "Redis",
           "package": "wai-middleware-cache-redis",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedis backend for \u003ca\u003eNetwork.Wai.Middleware.Cache\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:34 UTC 2014",
           "module": "Network.Wai.Middleware.Cache.Redis",
           "name": "redisBackend",
           "package": "wai-middleware-cache-redis",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Redis backend for Network.Wai.Middleware.Cache",
           "hierarchy": "Network Wai Middleware Cache Redis",
+          "indexed": "2014-03-11T20:36:34",
           "module": "Network.Wai.Middleware.Cache.Redis",
           "name": "redisBackend",
           "normalized": "ConnectInfo-\u003eInteger-\u003eByteString-\u003eInteger-\u003e[ByteString]-\u003e(Request-\u003eByteString)-\u003e(Request-\u003eMaybe ByteString)-\u003eCacheBackend",

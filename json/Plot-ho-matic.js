@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Plot-ho-matic"
+        "phrase": "Plot-ho-matic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:03 UTC 2014",
           "module": "Plotter",
           "name": "Plotter",
           "package": "Plot-ho-matic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Plotter",
+          "indexed": "2014-03-11T16:57:03",
           "module": "Plotter",
           "name": "Plotter",
           "package": "Plot-ho-matic",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:03 UTC 2014",
           "module": "Plotter",
           "name": "Channel",
           "package": "Plot-ho-matic",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Plotter",
+          "indexed": "2014-03-11T16:57:03",
           "module": "Plotter",
           "name": "Channel",
           "package": "Plot-ho-matic",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:03 UTC 2014",
           "module": "Plotter",
           "name": "makeAccessors",
           "package": "Plot-ho-matic",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Plotter",
+          "indexed": "2014-03-11T16:57:03",
           "module": "Plotter",
           "name": "makeAccessors",
           "normalized": "Name-\u003eQ Exp",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:03 UTC 2014",
           "module": "Plotter",
           "name": "newChannel",
           "package": "Plot-ho-matic",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Plotter",
+          "indexed": "2014-03-11T16:57:03",
           "module": "Plotter",
           "name": "newChannel",
           "normalized": "String-\u003ePbTree a-\u003eIO(Channel,a-\u003eIO())",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:03 UTC 2014",
           "module": "Plotter",
           "name": "runPlotter",
           "package": "Plot-ho-matic",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Plotter",
+          "indexed": "2014-03-11T16:57:03",
           "module": "Plotter",
           "name": "runPlotter",
           "normalized": "[Channel]-\u003e[ThreadId]-\u003eIO()",

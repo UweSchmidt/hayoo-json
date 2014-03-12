@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fmlist"
+        "phrase": "fmlist",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFoldMap lists: lists represented by their \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e -- A right-infinite list\n c = 1 `cons` c\n\u003c/pre\u003e\u003cpre\u003e -- A left-infinite list\n d = d `snoc` 2\n\u003c/pre\u003e\u003cpre\u003e -- A middle-infinite list ??\n e = c `append` d\n\u003c/pre\u003e\u003cpre\u003e *\u003e head e\n 1\n *\u003e last e\n 2\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "FMList",
           "package": "fmlist",
@@ -28,6 +29,7 @@
         "index": {
           "description": "FoldMap lists lists represented by their foldMap function Examples right-infinite list cons left-infinite list snoc middle-infinite list append head last",
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "FMList",
           "package": "fmlist",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFMList\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e function wrapped up in a newtype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "FMList",
           "package": "fmlist",
@@ -51,6 +54,7 @@
         "index": {
           "description": "FMList is foldMap function wrapped up in newtype",
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "FMList",
           "package": "fmlist",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "FM",
           "package": "fmlist",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "FM",
           "package": "fmlist",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "append",
           "package": "fmlist",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "append",
           "normalized": "FMList a-\u003eFMList a-\u003eFMList a",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "cons",
           "package": "fmlist",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "cons",
           "normalized": "a-\u003eFMList a-\u003eFMList a",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "drop",
           "package": "fmlist",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "drop",
           "normalized": "a-\u003eFMList b-\u003eFMList b",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "dropWhile",
           "package": "fmlist",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eFMList a-\u003eFMList a",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity of \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "empty",
           "package": "fmlist",
@@ -189,6 +204,7 @@
         "index": {
           "description": "The identity of",
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "empty",
           "package": "fmlist",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "filter",
           "package": "fmlist",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eFMList a-\u003eFMList a",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "flatten",
           "package": "fmlist",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "flatten",
           "normalized": "FMList(a b)-\u003eFMList b",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap each element of a structure to an action, evaluate these actions from left to right, \n and concat the monoid results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "foldMapA",
           "package": "fmlist",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Map each element of structure to an action evaluate these actions from left to right and concat the monoid results",
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "foldMapA",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb c",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "fromFoldable",
           "package": "fmlist",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "fromFoldable",
           "normalized": "a b-\u003eFMList b",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "fromList",
           "package": "fmlist",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "fromList",
           "normalized": "[a]-\u003eFMList a",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "genericLength",
           "package": "fmlist",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "genericLength",
           "normalized": "FMList a-\u003eb",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "head",
           "package": "fmlist",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "head",
           "normalized": "FMList a-\u003ea",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "init",
           "package": "fmlist",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "init",
           "normalized": "FMList a-\u003eFMList a",
@@ -391,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "iterate",
           "package": "fmlist",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "iterate",
           "normalized": "(a-\u003ea)-\u003ea-\u003eFMList a",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "last",
           "package": "fmlist",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "last",
           "normalized": "FMList a-\u003ea",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "length",
           "package": "fmlist",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "length",
           "normalized": "FMList a-\u003eInt",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "null",
           "package": "fmlist",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "null",
           "normalized": "FMList a-\u003eBool",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "pair",
           "package": "fmlist",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "pair",
           "normalized": "a-\u003ea-\u003eFMList a",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "repeat",
           "package": "fmlist",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "repeat",
           "normalized": "a-\u003eFMList a",
@@ -529,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "reverse",
           "package": "fmlist",
@@ -538,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "reverse",
           "normalized": "FMList a-\u003eFMList a",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "singleton",
           "package": "fmlist",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "singleton",
           "normalized": "a-\u003eFMList a",
@@ -575,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "snoc",
           "package": "fmlist",
@@ -584,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "snoc",
           "normalized": "FMList a-\u003ea-\u003eFMList a",
@@ -598,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "tail",
           "package": "fmlist",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "tail",
           "normalized": "FMList a-\u003eFMList a",
@@ -621,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "take",
           "package": "fmlist",
@@ -630,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "take",
           "normalized": "a-\u003eFMList b-\u003eFMList b",
@@ -644,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "takeWhile",
           "package": "fmlist",
@@ -653,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eFMList a-\u003eFMList a",
@@ -669,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of elements of a structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "toList",
           "package": "fmlist",
@@ -678,6 +735,7 @@
         "index": {
           "description": "List of elements of structure",
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "toList",
           "normalized": "a b-\u003e[b]",
@@ -694,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003etransform\u003c/a\u003e\u003c/code\u003e transforms a list by changing \n the map function that is passed to \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt has the following property:\n\u003c/p\u003e\u003cpre\u003etransform a . transform b = transform (b . a)\u003c/pre\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e  m \u003e\u003e= g\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e= flatten (fmap g m)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e= flatten . fmap g $ m\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e= transform foldMap . transform (. g) $ m\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e= transform ((. g) . foldMap) m\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e= transform (\\f -\u003e foldMap f . g) m\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "transform",
           "package": "fmlist",
@@ -704,6 +763,7 @@
         "index": {
           "description": "The function transform transforms list by changing the map function that is passed to foldMap It has the following property transform transform transform For example flatten fmap flatten fmap transform foldMap transform transform foldMap transform foldMap",
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "transform",
           "normalized": "(a-\u003eb)-\u003ec-\u003eb)-\u003eFMList c-\u003eFMList a",
@@ -718,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "unFM",
           "package": "fmlist",
@@ -727,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "unFM",
           "normalized": "(a-\u003eb)-\u003eb",
@@ -743,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eunfold\u003c/a\u003e\u003c/code\u003e builds a list from a seed value.\n The function takes the seed and returns an \u003ccode\u003e\u003ca\u003eFMList\u003c/a\u003e\u003c/code\u003e of values.\n If the value is \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e, then \u003ccode\u003ea\u003c/code\u003e is appended to the result, and if the\n value is \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eb\u003c/code\u003e, then \u003ccode\u003eb\u003c/code\u003e is used as seed value in a recursive call.\n\u003c/p\u003e\u003cp\u003eA simple use of \u003ccode\u003e\u003ca\u003eunfold\u003c/a\u003e\u003c/code\u003e (simulating unfoldl):\n\u003c/p\u003e\u003cpre\u003e *\u003e unfold (\\b -\u003e if b == 0 then empty else Left (b-1) `pair` Right b) 10\n fromList [1,2,3,4,5,6,7,8,9,10]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "unfold",
           "package": "fmlist",
@@ -753,6 +816,7 @@
         "index": {
           "description": "unfold builds list from seed value The function takes the seed and returns an FMList of values If the value is Right then is appended to the result and if the value is Left then is used as seed value in recursive call simple use of unfold simulating unfoldl unfold if then empty else Left b-1 pair Right fromList",
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "unfold",
           "normalized": "(a-\u003eFMList(Either a b))-\u003ea-\u003eFMList b",
@@ -768,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e builds an \u003ccode\u003e\u003ca\u003eFMList\u003c/a\u003e\u003c/code\u003e from a seed value from left to right.\n The function takes the element and returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n if it is done producing the list or returns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(a,b)\u003c/code\u003e, in which\n case, \u003ccode\u003ea\u003c/code\u003e is a appended to the result and \u003ccode\u003eb\u003c/code\u003e is used as the next\n seed value in a recursive call.\n\u003c/p\u003e\u003cp\u003eA simple use of \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e *\u003e unfoldr (\\b -\u003e if b == 0 then Nothing else Just (b, b-1)) 10\n fromList [10,9,8,7,6,5,4,3,2,1]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "unfoldr",
           "package": "fmlist",
@@ -778,6 +843,7 @@
         "index": {
           "description": "unfoldr builds an FMList from seed value from left to right The function takes the element and returns Nothing if it is done producing the list or returns Just in which case is appended to the result and is used as the next seed value in recursive call simple use of unfoldr unfoldr if then Nothing else Just b-1 fromList",
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(b,a))-\u003ea-\u003eFMList b",
@@ -792,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "zip",
           "package": "fmlist",
@@ -801,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "zip",
           "normalized": "FMList a-\u003eFMList b-\u003eFMList(a,b)",
@@ -815,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:01 UTC 2014",
           "module": "Data.FMList",
           "name": "zipWith",
           "package": "fmlist",
@@ -824,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Data FMList",
+          "indexed": "2014-03-11T18:11:01",
           "module": "Data.FMList",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eFMList a-\u003eFMList b-\u003eFMList c",

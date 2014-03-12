@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SNet"
+        "phrase": "SNet",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crf-chain2-generic"
+        "phrase": "crf-chain2-generic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "Codec",
           "package": "crf-chain2-generic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "Codec",
           "package": "crf-chain2-generic",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract codec representation with external observation type\n \u003ccode\u003ea\u003c/code\u003e, external label type \u003ccode\u003eb\u003c/code\u003e, codec data type \u003ccode\u003ec\u003c/code\u003e, internal\n observation type \u003ccode\u003eo\u003c/code\u003e and internal label type \u003ccode\u003ee\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "Codec",
           "package": "crf-chain2-generic",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An abstract codec representation with external observation type external label type codec data type internal observation type and internal label type",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "Codec",
           "package": "crf-chain2-generic",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA codec monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "CodecM",
           "package": "crf-chain2-generic",
@@ -72,6 +77,7 @@
         "index": {
           "description": "codec monad",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "CodecM",
           "package": "crf-chain2-generic",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "Codec",
           "package": "crf-chain2-generic",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "Codec",
           "package": "crf-chain2-generic",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "decodeLabel",
           "package": "crf-chain2-generic",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Decode the label",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "decodeLabel",
           "normalized": "Codec a b c d e-\u003ec-\u003ee-\u003eMaybe b",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the sequence of labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "decodeLabels",
           "package": "crf-chain2-generic",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Decode the sequence of labels",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "decodeLabels",
           "normalized": "Codec a b c d e-\u003ec-\u003e[e]-\u003e[Maybe b]",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the label within the codec monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "decodeLbC",
           "package": "crf-chain2-generic",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Decode the label within the codec monad",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "decodeLbC",
           "normalized": "a-\u003eCodecM b(Maybe c)",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "empty",
           "package": "crf-chain2-generic",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Empty codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "empty",
           "package": "crf-chain2-generic",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the dataset with the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeData",
           "package": "crf-chain2-generic",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Encode the dataset with the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeData",
           "normalized": "Codec a b c d e-\u003ec-\u003e[Sent a b]-\u003e[Xs d e]",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled dataset using the codec.  Substitute the default\n label for any label not present in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeDataL",
           "package": "crf-chain2-generic",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Encode the labeled dataset using the codec Substitute the default label for any label not present in the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeDataL",
           "normalized": "Codec a b c d e-\u003ec-\u003e[SentL a b]-\u003e[(Xs d e,Ys e)]",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the label and do *not* update the codec.\n In case the label is not a member of the codec,\n return the label code assigned to Nothing label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeLbN",
           "package": "crf-chain2-generic",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Encode the label and do not update the codec In case the label is not member of the codec return the label code assigned to Nothing label",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeLbN",
           "normalized": "a-\u003eCodecM b c",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the label and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeLbU",
           "package": "crf-chain2-generic",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Encode the label and update the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeLbU",
           "normalized": "a-\u003eCodecM b c",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the observation and do *not* update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeObN",
           "package": "crf-chain2-generic",
@@ -323,6 +348,7 @@
         "index": {
           "description": "Encode the observation and do not update the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeObN",
           "normalized": "a-\u003eCodecM b(Maybe c)",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the observation and update the codec\n (only in the encoding direction).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeObU",
           "package": "crf-chain2-generic",
@@ -349,6 +376,7 @@
         "index": {
           "description": "Encode the observation and update the codec only in the encoding direction",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeObU",
           "normalized": "a-\u003eCodecM b c",
@@ -365,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the sentence using the given codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeSent",
           "package": "crf-chain2-generic",
@@ -375,6 +404,7 @@
         "index": {
           "description": "Encode the sentence using the given codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeSent",
           "normalized": "Codec a b c d e-\u003ec-\u003eSent a b-\u003eXs d e",
@@ -391,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the sentence and do *not* update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeSent'Cn",
           "package": "crf-chain2-generic",
@@ -401,6 +432,7 @@
         "index": {
           "description": "Encode the sentence and do not update the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeSent'Cn",
           "normalized": "Codec a b c d e-\u003eSent a b-\u003eCodecM c(Xs d e)",
@@ -417,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the sentence and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeSent'Cu",
           "package": "crf-chain2-generic",
@@ -427,6 +460,7 @@
         "index": {
           "description": "Encode the sentence and update the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeSent'Cu",
           "normalized": "Codec a b c d e-\u003eSent a b-\u003eCodecM c(Xs d e)",
@@ -443,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled sentence with the given codec.  Substitute the\n default label for any label not present in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeSentL",
           "package": "crf-chain2-generic",
@@ -453,6 +488,7 @@
         "index": {
           "description": "Encode the labeled sentence with the given codec Substitute the default label for any label not present in the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeSentL",
           "normalized": "Codec a b c d e-\u003ec-\u003eSentL a b-\u003e(Xs d e,Ys e)",
@@ -469,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled sentence and do *not* update the codec.\n Substitute the default label for any label not present in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeSentL'Cn",
           "package": "crf-chain2-generic",
@@ -479,6 +516,7 @@
         "index": {
           "description": "Encode the labeled sentence and do not update the codec Substitute the default label for any label not present in the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeSentL'Cn",
           "normalized": "Codec a b c d e-\u003eSentL a b-\u003eCodecM c(Xs d e,Ys e)",
@@ -495,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled sentence and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeSentL'Cu",
           "package": "crf-chain2-generic",
@@ -505,6 +544,7 @@
         "index": {
           "description": "Encode the labeled sentence and update the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeSentL'Cu",
           "normalized": "Codec a b c d e-\u003eSentL a b-\u003eCodecM c(Xs d e,Ys e)",
@@ -521,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the word and do *not* update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeWord'Cn",
           "package": "crf-chain2-generic",
@@ -531,6 +572,7 @@
         "index": {
           "description": "Encode the word and do not update the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeWord'Cn",
           "normalized": "Codec a b c d e-\u003eWord a b-\u003eCodecM c(X d e)",
@@ -547,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the word and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeWord'Cu",
           "package": "crf-chain2-generic",
@@ -557,6 +600,7 @@
         "index": {
           "description": "Encode the word and update the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeWord'Cu",
           "normalized": "Codec a b c d e-\u003eWord a b-\u003eCodecM c(X d e)",
@@ -573,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodec the labeled word and do *not* update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeWordL'Cn",
           "package": "crf-chain2-generic",
@@ -583,6 +628,7 @@
         "index": {
           "description": "Encodec the labeled word and do not update the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeWordL'Cn",
           "normalized": "Codec a b c d e-\u003eWordL a b-\u003eCodecM c(X d e,Y e)",
@@ -599,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled word and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeWordL'Cu",
           "package": "crf-chain2-generic",
@@ -609,6 +656,7 @@
         "index": {
           "description": "Encode the labeled word and update the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "encodeWordL'Cu",
           "normalized": "Codec a b c d e-\u003eWordL a b-\u003eCodecM c(X d e,Y e)",
@@ -625,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs label a member of the codec?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "hasLabel",
           "package": "crf-chain2-generic",
@@ -635,6 +684,7 @@
         "index": {
           "description": "Is label member of the codec",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "hasLabel",
           "normalized": "a-\u003eb-\u003eBool",
@@ -651,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the codec on the basis of the labeled dataset, return the\n resultant codec and the encoded dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "mkCodec",
           "package": "crf-chain2-generic",
@@ -661,6 +712,7 @@
         "index": {
           "description": "Create the codec on the basis of the labeled dataset return the resultant codec and the encoded dataset",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "mkCodec",
           "normalized": "Codec a b c d e-\u003e[SentL a b]-\u003e(c,[(Xs d e,Ys e)])",
@@ -677,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the label when \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e or one of the unknown values\n when \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "unJust",
           "package": "crf-chain2-generic",
@@ -687,6 +740,7 @@
         "index": {
           "description": "Return the label when Just or one of the unknown values when Nothing",
           "hierarchy": "Data CRF Chain2 Generic Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Codec",
           "name": "unJust",
           "normalized": "Codec a b c d e-\u003ec-\u003eWord a b-\u003eMaybe b-\u003eb",
@@ -703,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExternal data representation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.External",
           "name": "External",
           "package": "crf-chain2-generic",
@@ -712,6 +767,7 @@
         "index": {
           "description": "External data representation",
           "hierarchy": "Data CRF Chain2 Generic External",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.External",
           "name": "External",
           "package": "crf-chain2-generic",
@@ -726,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA probability distribution defined over elements of type a.\n All elements not included in the map have probability equal\n to 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.External",
           "name": "Dist",
           "package": "crf-chain2-generic",
@@ -735,6 +792,7 @@
         "index": {
           "description": "probability distribution defined over elements of type All elements not included in the map have probability equal to",
           "hierarchy": "Data CRF Chain2 Generic External",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.External",
           "name": "Dist",
           "package": "crf-chain2-generic",
@@ -749,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence of words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.External",
           "name": "Sent",
           "package": "crf-chain2-generic",
@@ -758,6 +817,7 @@
         "index": {
           "description": "sentence of words",
           "hierarchy": "Data CRF Chain2 Generic External",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.External",
           "name": "Sent",
           "package": "crf-chain2-generic",
@@ -772,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence of labeled words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.External",
           "name": "SentL",
           "package": "crf-chain2-generic",
@@ -781,6 +842,7 @@
         "index": {
           "description": "sentence of labeled words",
           "hierarchy": "Data CRF Chain2 Generic External",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.External",
           "name": "SentL",
           "package": "crf-chain2-generic",
@@ -795,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA word consists of a set of observations and a set of potential labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.External",
           "name": "Word",
           "package": "crf-chain2-generic",
@@ -804,6 +867,7 @@
         "index": {
           "description": "word consists of set of observations and set of potential labels",
           "hierarchy": "Data CRF Chain2 Generic External",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.External",
           "name": "Word",
           "package": "crf-chain2-generic",
@@ -818,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA WordL is a labeled word, i.e. a word with probability distribution\n defined over labels.  We assume that every label from the distribution\n domain is a member of the set of potential labels corresponding to the\n word.  TODO: Ensure the assumption using the smart constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.External",
           "name": "WordL",
           "package": "crf-chain2-generic",
@@ -827,6 +892,7 @@
         "index": {
           "description": "WordL is labeled word i.e word with probability distribution defined over labels We assume that every label from the distribution domain is member of the set of potential labels corresponding to the word TODO Ensure the assumption using the smart constructor",
           "hierarchy": "Data CRF Chain2 Generic External",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.External",
           "name": "WordL",
           "package": "crf-chain2-generic",
@@ -894,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.FeatMap.Map",
           "name": "Map",
           "package": "crf-chain2-generic",
@@ -902,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic FeatMap Map",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.FeatMap.Map",
           "name": "Map",
           "package": "crf-chain2-generic",
@@ -915,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.FeatMap.Map",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -923,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic FeatMap Map",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.FeatMap.Map",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -936,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.FeatMap.Map",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -945,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic FeatMap Map",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.FeatMap.Map",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -958,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.FeatMap.Map",
           "name": "unFeatMap",
           "package": "crf-chain2-generic",
@@ -967,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic FeatMap Map",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.FeatMap.Map",
           "name": "unFeatMap",
           "package": "crf-chain2-generic",
@@ -980,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.FeatMap",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -988,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic FeatMap",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.FeatMap",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -1001,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.FeatMap",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -1009,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic FeatMap",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.FeatMap",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -1022,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.FeatMap",
           "name": "featIndex",
           "package": "crf-chain2-generic",
@@ -1031,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic FeatMap",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.FeatMap",
           "name": "featIndex",
           "normalized": "a-\u003eb a-\u003eMaybe FeatIx",
@@ -1046,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.FeatMap",
           "name": "mkFeatMap",
           "package": "crf-chain2-generic",
@@ -1055,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic FeatMap",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.FeatMap",
           "name": "mkFeatMap",
           "normalized": "[(a,FeatIx)]-\u003eb a",
@@ -1070,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "Inference",
           "package": "crf-chain2-generic",
@@ -1078,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Inference",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "Inference",
           "package": "crf-chain2-generic",
@@ -1092,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the accuracy of the model with respect to the labeled dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "accuracy",
           "package": "crf-chain2-generic",
@@ -1102,6 +1187,7 @@
         "index": {
           "description": "Compute the accuracy of the model with respect to the labeled dataset",
           "hierarchy": "Data CRF Chain2 Generic Inference",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "accuracy",
           "normalized": "Model a b c d-\u003e[(Xs b c,Ys c)]-\u003eDouble",
@@ -1116,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "expectedFeatures",
           "package": "crf-chain2-generic",
@@ -1125,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Inference",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "expectedFeatures",
           "normalized": "Model a b c d-\u003eXs b c-\u003e[(d,LogFloat)]",
@@ -1140,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "marginals",
           "package": "crf-chain2-generic",
@@ -1149,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Inference",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "marginals",
           "normalized": "Model a b c d-\u003eXs b c-\u003e[[LogFloat]]",
@@ -1163,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "probs",
           "package": "crf-chain2-generic",
@@ -1172,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Inference",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "probs",
           "normalized": "Model a b c d-\u003eXs b c-\u003e[[LogFloat]]",
@@ -1186,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "tag",
           "package": "crf-chain2-generic",
@@ -1195,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Inference",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "tag",
           "normalized": "Model a b c d-\u003eXs b c-\u003e[c]",
@@ -1209,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "zx",
           "package": "crf-chain2-generic",
@@ -1218,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Inference",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "zx",
           "normalized": "Model a b c d-\u003eXs b c-\u003eLogFloat",
@@ -1232,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "zx'",
           "package": "crf-chain2-generic",
@@ -1241,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Inference",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Inference",
           "name": "zx'",
           "normalized": "Model a b c d-\u003eXs b c-\u003eLogFloat",
@@ -1256,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal core data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "Internal",
           "package": "crf-chain2-generic",
@@ -1265,6 +1364,7 @@
         "index": {
           "description": "Internal core data types",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "Internal",
           "package": "crf-chain2-generic",
@@ -1279,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ascending vector of distinct elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "AVec",
           "package": "crf-chain2-generic",
@@ -1288,6 +1389,7 @@
         "index": {
           "description": "An ascending vector of distinct elements",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "AVec",
           "package": "crf-chain2-generic",
@@ -1302,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ascending vector of distinct elements with respect\n to \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "AVec2",
           "package": "crf-chain2-generic",
@@ -1311,6 +1414,7 @@
         "index": {
           "description": "An ascending vector of distinct elements with respect to fst values",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "AVec2",
           "package": "crf-chain2-generic",
@@ -1325,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA feature index.  To every model feature a unique index is assigned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "FeatIx",
           "package": "crf-chain2-generic",
@@ -1334,6 +1439,7 @@
         "index": {
           "description": "feature index To every model feature unique index is assigned",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "FeatIx",
           "package": "crf-chain2-generic",
@@ -1348,6 +1454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn index of the label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "LbIx",
           "package": "crf-chain2-generic",
@@ -1357,6 +1464,7 @@
         "index": {
           "description": "An index of the label",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "LbIx",
           "package": "crf-chain2-generic",
@@ -1371,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA word represented by a list of its observations\n and a list of its potential label interpretations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "X",
           "package": "crf-chain2-generic",
@@ -1380,6 +1489,7 @@
         "index": {
           "description": "word represented by list of its observations and list of its potential label interpretations",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "X",
           "package": "crf-chain2-generic",
@@ -1393,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSentence of words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "Xs",
           "package": "crf-chain2-generic",
@@ -1402,6 +1513,7 @@
         "index": {
           "description": "Sentence of words",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "Xs",
           "package": "crf-chain2-generic",
@@ -1416,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector of chosen labels together with\n corresponding probabilities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "Y",
           "package": "crf-chain2-generic",
@@ -1425,6 +1538,7 @@
         "index": {
           "description": "Vector of chosen labels together with corresponding probabilities",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "Y",
           "package": "crf-chain2-generic",
@@ -1438,6 +1552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSentence of Y (label choices).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "Ys",
           "package": "crf-chain2-generic",
@@ -1447,6 +1562,7 @@
         "index": {
           "description": "Sentence of label choices",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "Ys",
           "package": "crf-chain2-generic",
@@ -1460,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "FeatIx",
           "package": "crf-chain2-generic",
@@ -1469,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "FeatIx",
           "package": "crf-chain2-generic",
@@ -1483,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePotential label at the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "lbAt",
           "package": "crf-chain2-generic",
@@ -1493,6 +1612,7 @@
         "index": {
           "description": "Potential label at the given position",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "lbAt",
           "normalized": "X a b-\u003eLbIx-\u003eb",
@@ -1590,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart AVec constructor which ensures that the\n underlying vector is strictly ascending.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "mkAVec",
           "package": "crf-chain2-generic",
@@ -1600,6 +1721,7 @@
         "index": {
           "description": "Smart AVec constructor which ensures that the underlying vector is strictly ascending",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "mkAVec",
           "normalized": "[a]-\u003eAVec a",
@@ -1616,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart AVec constructor which ensures that the\n underlying vector is strictly ascending with respect\n to fst values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "mkAVec2",
           "package": "crf-chain2-generic",
@@ -1626,6 +1749,7 @@
         "index": {
           "description": "Smart AVec constructor which ensures that the underlying vector is strictly ascending with respect to fst values",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "mkAVec2",
           "normalized": "[(a,b)]-\u003eAVec a b",
@@ -1642,6 +1766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eX constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "mkX",
           "package": "crf-chain2-generic",
@@ -1652,6 +1777,7 @@
         "index": {
           "description": "constructor",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "mkX",
           "normalized": "[a]-\u003e[b]-\u003eX a b",
@@ -1667,6 +1793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eY constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "mkY",
           "package": "crf-chain2-generic",
@@ -1677,6 +1804,7 @@
         "index": {
           "description": "constructor",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "mkY",
           "normalized": "[(a,Double)]-\u003eY a",
@@ -1691,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "unFeatIx",
           "package": "crf-chain2-generic",
@@ -1700,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "unFeatIx",
           "package": "crf-chain2-generic",
@@ -1714,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of potential labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "unR",
           "package": "crf-chain2-generic",
@@ -1724,6 +1855,7 @@
         "index": {
           "description": "List of potential labels",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "unR",
           "normalized": "X a b-\u003e[b]",
@@ -1739,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of observations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "unX",
           "package": "crf-chain2-generic",
@@ -1749,6 +1882,7 @@
         "index": {
           "description": "List of observations",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "unX",
           "normalized": "X a b-\u003e[a]",
@@ -1764,6 +1898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eY deconstructor symetric to mkY.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "unY",
           "package": "crf-chain2-generic",
@@ -1774,6 +1909,7 @@
         "index": {
           "description": "deconstructor symetric to mkY",
           "hierarchy": "Data CRF Chain2 Generic Internal",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Internal",
           "name": "unY",
           "normalized": "Y a-\u003e[(a,Double)]",
@@ -1788,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "Model",
           "package": "crf-chain2-generic",
@@ -1796,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "Model",
           "package": "crf-chain2-generic",
@@ -1810,6 +1948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA core of the model with no feature generation function.\n Unlike the \u003ccode\u003e\u003ca\u003eModel\u003c/a\u003e\u003c/code\u003e, the core can be serialized. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "Core",
           "package": "crf-chain2-generic",
@@ -1819,6 +1958,7 @@
         "index": {
           "description": "core of the model with no feature generation function Unlike the Model the core can be serialized",
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "Core",
           "package": "crf-chain2-generic",
@@ -1833,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeature generation specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "FeatGen",
           "package": "crf-chain2-generic",
@@ -1842,6 +1983,7 @@
         "index": {
           "description": "Feature generation specification",
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "FeatGen",
           "package": "crf-chain2-generic",
@@ -1856,6 +1998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA feature selection function type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "FeatSel",
           "package": "crf-chain2-generic",
@@ -1865,6 +2008,7 @@
         "index": {
           "description": "feature selection function type",
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "FeatSel",
           "package": "crf-chain2-generic",
@@ -1879,6 +2023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA conditional random field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "Model",
           "package": "crf-chain2-generic",
@@ -1888,6 +2033,7 @@
         "index": {
           "description": "conditional random field",
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "Model",
           "package": "crf-chain2-generic",
@@ -1901,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "Core",
           "package": "crf-chain2-generic",
@@ -1910,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "Core",
           "package": "crf-chain2-generic",
@@ -1923,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "FeatGen",
           "package": "crf-chain2-generic",
@@ -1932,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "FeatGen",
           "package": "crf-chain2-generic",
@@ -1945,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "Model",
           "package": "crf-chain2-generic",
@@ -1954,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "Model",
           "package": "crf-chain2-generic",
@@ -1968,6 +2120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the model core.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "core",
           "package": "crf-chain2-generic",
@@ -1978,6 +2131,7 @@
         "index": {
           "description": "Extract the model core",
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "core",
           "normalized": "Model a b c d-\u003eCore a d",
@@ -1992,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "featGen",
           "package": "crf-chain2-generic",
@@ -2001,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "featGen",
           "package": "crf-chain2-generic",
@@ -2015,6 +2171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeatures hidden in the dataset element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "hiddenFeats",
           "package": "crf-chain2-generic",
@@ -2025,6 +2182,7 @@
         "index": {
           "description": "Features hidden in the dataset element",
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "hiddenFeats",
           "normalized": "FeatGen a b c-\u003eXs a b-\u003e[c]",
@@ -2041,6 +2199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of the feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "index",
           "package": "crf-chain2-generic",
@@ -2051,6 +2210,7 @@
         "index": {
           "description": "Index of the feature",
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "index",
           "normalized": "Model a b c d-\u003ed-\u003eMaybe FeatIx",
@@ -2065,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "ixMap",
           "package": "crf-chain2-generic",
@@ -2074,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "ixMap",
           "package": "crf-chain2-generic",
@@ -2087,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "ixMapC",
           "package": "crf-chain2-generic",
@@ -2096,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "ixMapC",
           "package": "crf-chain2-generic",
@@ -2109,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "mkModel",
           "package": "crf-chain2-generic",
@@ -2118,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "mkModel",
           "normalized": "FeatGen a b c-\u003eFeatSel a b c-\u003e[(Xs a b,Ys b)]-\u003eModel d a b c",
@@ -2133,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "obFeats",
           "package": "crf-chain2-generic",
@@ -2142,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "obFeats",
           "normalized": "a-\u003eb-\u003e[c]",
@@ -2157,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "obFeatsOn",
           "package": "crf-chain2-generic",
@@ -2166,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "obFeatsOn",
           "normalized": "FeatGen a b c-\u003eXs a b-\u003eInt-\u003eLbIx-\u003e[c]",
@@ -2181,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "onTransition",
           "package": "crf-chain2-generic",
@@ -2190,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "onTransition",
           "normalized": "Model a b c d-\u003eXs b c-\u003eInt-\u003eLbIx-\u003eLbIx-\u003eLbIx-\u003eLogFloat",
@@ -2205,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "onWord",
           "package": "crf-chain2-generic",
@@ -2214,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "onWord",
           "normalized": "Model a b c d-\u003eXs b c-\u003eInt-\u003eLbIx-\u003eLogFloat",
@@ -2230,6 +2404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePotential assigned to the feature -- exponential of the\n corresonding parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "phi",
           "package": "crf-chain2-generic",
@@ -2240,6 +2415,7 @@
         "index": {
           "description": "Potential assigned to the feature exponential of the corresonding parameter",
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "phi",
           "normalized": "Model a b c d-\u003ed-\u003eLogFloat",
@@ -2255,6 +2431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeatures present in the dataset element together with corresponding\n occurence probabilities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "presentFeats",
           "package": "crf-chain2-generic",
@@ -2265,6 +2442,7 @@
         "index": {
           "description": "Features present in the dataset element together with corresponding occurence probabilities",
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "presentFeats",
           "normalized": "FeatGen a b c-\u003eXs a b-\u003eYs b-\u003e[(c,LogFloat)]",
@@ -2330,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "trFeats1",
           "package": "crf-chain2-generic",
@@ -2339,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "trFeats1",
           "normalized": "a-\u003e[b]",
@@ -2354,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "trFeats2",
           "package": "crf-chain2-generic",
@@ -2363,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "trFeats2",
           "normalized": "a-\u003ea-\u003e[b]",
@@ -2378,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "trFeats3",
           "package": "crf-chain2-generic",
@@ -2387,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "trFeats3",
           "normalized": "a-\u003ea-\u003ea-\u003e[b]",
@@ -2402,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "trFeatsOn",
           "package": "crf-chain2-generic",
@@ -2411,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "trFeatsOn",
           "normalized": "FeatGen a b c-\u003eXs a b-\u003eInt-\u003eLbIx-\u003eLbIx-\u003eLbIx-\u003e[c]",
@@ -2426,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "values",
           "package": "crf-chain2-generic",
@@ -2435,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "values",
           "package": "crf-chain2-generic",
@@ -2447,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "valuesC",
           "package": "crf-chain2-generic",
@@ -2456,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "valuesC",
           "package": "crf-chain2-generic",
@@ -2469,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct model with the given core and feature generation function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "withCore",
           "package": "crf-chain2-generic",
@@ -2479,6 +2670,7 @@
         "index": {
           "description": "Construct model with the given core and feature generation function",
           "hierarchy": "Data CRF Chain2 Generic Model",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Model",
           "name": "withCore",
           "normalized": "Core a b-\u003eFeatGen c d b-\u003eModel a c d b",
@@ -2494,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Train",
           "name": "Train",
           "package": "crf-chain2-generic",
@@ -2502,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Train",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Train",
           "name": "Train",
           "package": "crf-chain2-generic",
@@ -2516,6 +2710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA codec specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Train",
           "name": "CodecSpec",
           "package": "crf-chain2-generic",
@@ -2525,6 +2720,7 @@
         "index": {
           "description": "codec specification",
           "hierarchy": "Data CRF Chain2 Generic Train",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Train",
           "name": "CodecSpec",
           "package": "crf-chain2-generic",
@@ -2538,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Train",
           "name": "CodecSpec",
           "package": "crf-chain2-generic",
@@ -2547,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Train",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Train",
           "name": "CodecSpec",
           "package": "crf-chain2-generic",
@@ -2560,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Train",
           "name": "encode",
           "package": "crf-chain2-generic",
@@ -2569,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Train",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Train",
           "name": "encode",
           "normalized": "a-\u003e[SentL b c]-\u003e[(Xs d e,Ys e)]",
@@ -2583,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Train",
           "name": "mkCodec",
           "package": "crf-chain2-generic",
@@ -2592,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Generic Train",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Train",
           "name": "mkCodec",
           "normalized": "[SentL a b]-\u003e(c,[(Xs d e,Ys e)])",
@@ -2608,6 +2810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrain the CRF using the stochastic gradient descent method.\n When the evaluation data \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action is \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e, the iterative\n training process will notify the user about the current accuracy\n on the evaluation part every full iteration over the training part.\n TODO: Add custom feature extraction function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Generic.Train",
           "name": "train",
           "package": "crf-chain2-generic",
@@ -2617,6 +2820,7 @@
         "index": {
           "description": "Train the CRF using the stochastic gradient descent method When the evaluation data IO action is Just the iterative training process will notify the user about the current accuracy on the evaluation part every full iteration over the training part TODO Add custom feature extraction function",
           "hierarchy": "Data CRF Chain2 Generic Train",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Generic.Train",
           "name": "train",
           "normalized": "SgdArgs-\u003eCodecSpec a b c d e-\u003eFeatGen d e f-\u003eFeatSel d e f-\u003eIO[SentL a b]-\u003eMaybe(IO[SentL a b])-\u003eIO(c,Model g d e f)",
@@ -2631,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "Base",
           "package": "crf-chain2-generic",
@@ -2639,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair Base",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "Base",
           "package": "crf-chain2-generic",
@@ -2652,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "Feat",
           "package": "crf-chain2-generic",
@@ -2660,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair Base",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "Feat",
           "package": "crf-chain2-generic",
@@ -2673,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "Lb",
           "package": "crf-chain2-generic",
@@ -2681,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair Base",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "Lb",
           "package": "crf-chain2-generic",
@@ -2694,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "Lb1",
           "package": "crf-chain2-generic",
@@ -2702,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair Base",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "Lb1",
           "package": "crf-chain2-generic",
@@ -2715,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "Lb2",
           "package": "crf-chain2-generic",
@@ -2723,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair Base",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "Lb2",
           "package": "crf-chain2-generic",
@@ -2736,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "Ob",
           "package": "crf-chain2-generic",
@@ -2744,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair Base",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "Ob",
           "package": "crf-chain2-generic",
@@ -3010,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "featGen",
           "package": "crf-chain2-generic",
@@ -3019,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair Base",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Base",
           "name": "featGen",
           "normalized": "FeatGen Ob(Lb,Lb)Feat",
@@ -3103,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Codec",
           "name": "Codec",
           "package": "crf-chain2-generic",
@@ -3111,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Codec",
           "name": "Codec",
           "package": "crf-chain2-generic",
@@ -3125,6 +3345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA codec.  The first component is used to encode observations\n of type a, the second one is used to encode labels of type b,\n third -- labels of type c from the third level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Codec",
           "name": "CodecData",
           "package": "crf-chain2-generic",
@@ -3134,6 +3355,7 @@
         "index": {
           "description": "codec The first component is used to encode observations of type the second one is used to encode labels of type third labels of type from the third level",
           "hierarchy": "Data CRF Chain2 Pair Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Codec",
           "name": "CodecData",
           "package": "crf-chain2-generic",
@@ -3147,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Codec",
           "name": "codec",
           "package": "crf-chain2-generic",
@@ -3156,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Codec",
           "name": "codec",
           "normalized": "Codec a(b,c)(CodecData a b c)Ob Lb",
@@ -3171,6 +3395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum internal label included in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Codec",
           "name": "lb1Max",
           "package": "crf-chain2-generic",
@@ -3181,6 +3406,7 @@
         "index": {
           "description": "The maximum internal label included in the codec",
           "hierarchy": "Data CRF Chain2 Pair Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Codec",
           "name": "lb1Max",
           "normalized": "CodecData a b c-\u003eLb",
@@ -3197,6 +3423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum internal label included in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Codec",
           "name": "lb2Max",
           "package": "crf-chain2-generic",
@@ -3207,6 +3434,7 @@
         "index": {
           "description": "The maximum internal label included in the codec",
           "hierarchy": "Data CRF Chain2 Pair Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Codec",
           "name": "lb2Max",
           "normalized": "CodecData a b c-\u003eLb",
@@ -3223,6 +3451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum internal observation included in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.Codec",
           "name": "obMax",
           "package": "crf-chain2-generic",
@@ -3233,6 +3462,7 @@
         "index": {
           "description": "The maximum internal observation included in the codec",
           "hierarchy": "Data CRF Chain2 Pair Codec",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.Codec",
           "name": "obMax",
           "normalized": "CodecData a b c-\u003eOb",
@@ -3248,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.FeatMap",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -3256,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair FeatMap",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.FeatMap",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -3269,6 +3501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.FeatMap",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -3277,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair FeatMap",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.FeatMap",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -3290,6 +3524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.FeatMap",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -3299,6 +3534,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair FeatMap",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.FeatMap",
           "name": "FeatMap",
           "package": "crf-chain2-generic",
@@ -3312,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.FeatMap",
           "name": "otherMap",
           "package": "crf-chain2-generic",
@@ -3321,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair FeatMap",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.FeatMap",
           "name": "otherMap",
           "package": "crf-chain2-generic",
@@ -3334,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.FeatMap",
           "name": "trMap3'1",
           "package": "crf-chain2-generic",
@@ -3343,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair FeatMap",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.FeatMap",
           "name": "trMap3'1",
           "normalized": "UArray(Lb,Lb,Lb)FeatIx",
@@ -3358,6 +3598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair.FeatMap",
           "name": "trMap3'2",
           "package": "crf-chain2-generic",
@@ -3367,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair FeatMap",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair.FeatMap",
           "name": "trMap3'2",
           "normalized": "UArray(Lb,Lb,Lb)FeatIx",
@@ -3382,6 +3624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Pair",
           "package": "crf-chain2-generic",
@@ -3390,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Pair",
           "package": "crf-chain2-generic",
@@ -3403,6 +3647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "CRF",
           "package": "crf-chain2-generic",
@@ -3411,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "CRF",
           "package": "crf-chain2-generic",
@@ -3425,6 +3671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA probability distribution defined over elements of type a.\n All elements not included in the map have probability equal\n to 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Dist",
           "package": "crf-chain2-generic",
@@ -3434,6 +3681,7 @@
         "index": {
           "description": "probability distribution defined over elements of type All elements not included in the map have probability equal to",
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Dist",
           "package": "crf-chain2-generic",
@@ -3447,6 +3695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Feat",
           "package": "crf-chain2-generic",
@@ -3455,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Feat",
           "package": "crf-chain2-generic",
@@ -3469,6 +3719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA feature selection function type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "FeatSel",
           "package": "crf-chain2-generic",
@@ -3478,6 +3729,7 @@
         "index": {
           "description": "feature selection function type",
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "FeatSel",
           "package": "crf-chain2-generic",
@@ -3491,6 +3743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Lb",
           "package": "crf-chain2-generic",
@@ -3499,6 +3752,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Lb",
           "package": "crf-chain2-generic",
@@ -3512,6 +3766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Lb1",
           "package": "crf-chain2-generic",
@@ -3520,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Lb1",
           "package": "crf-chain2-generic",
@@ -3533,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Lb2",
           "package": "crf-chain2-generic",
@@ -3541,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Lb2",
           "package": "crf-chain2-generic",
@@ -3554,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Ob",
           "package": "crf-chain2-generic",
@@ -3562,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Ob",
           "package": "crf-chain2-generic",
@@ -3576,6 +3836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence of words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Sent",
           "package": "crf-chain2-generic",
@@ -3585,6 +3846,7 @@
         "index": {
           "description": "sentence of words",
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Sent",
           "package": "crf-chain2-generic",
@@ -3599,6 +3861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence of labeled words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "SentL",
           "package": "crf-chain2-generic",
@@ -3608,6 +3871,7 @@
         "index": {
           "description": "sentence of labeled words",
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "SentL",
           "package": "crf-chain2-generic",
@@ -3622,6 +3886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA word consists of a set of observations and a set of potential labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Word",
           "package": "crf-chain2-generic",
@@ -3631,6 +3896,7 @@
         "index": {
           "description": "word consists of set of observations and set of potential labels",
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "Word",
           "package": "crf-chain2-generic",
@@ -3645,6 +3911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA WordL is a labeled word, i.e. a word with probability distribution\n defined over labels.  We assume that every label from the distribution\n domain is a member of the set of potential labels corresponding to the\n word.  TODO: Ensure the assumption using the smart constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "WordL",
           "package": "crf-chain2-generic",
@@ -3654,6 +3921,7 @@
         "index": {
           "description": "WordL is labeled word i.e word with probability distribution defined over labels We assume that every label from the distribution domain is member of the set of potential labels corresponding to the word TODO Ensure the assumption using the smart constructor",
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "WordL",
           "package": "crf-chain2-generic",
@@ -3667,6 +3935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "CRF",
           "package": "crf-chain2-generic",
@@ -3676,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "CRF",
           "package": "crf-chain2-generic",
@@ -3689,6 +3959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "codecData",
           "package": "crf-chain2-generic",
@@ -3698,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "codecData",
           "package": "crf-chain2-generic",
@@ -3711,6 +3983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "model",
           "package": "crf-chain2-generic",
@@ -3720,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "model",
           "package": "crf-chain2-generic",
@@ -3733,6 +4007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the most probable label sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "tag",
           "package": "crf-chain2-generic",
@@ -3743,6 +4018,7 @@
         "index": {
           "description": "Find the most probable label sequence",
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "tag",
           "normalized": "CRF a b c-\u003eSent a(b,c)-\u003e[(b,c)]",
@@ -3758,6 +4034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrain the CRF using the stochastic gradient descent method.\n When the evaluation data \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action is \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e, the iterative\n training process will notify the user about the current accuracy\n on the evaluation part every full iteration over the training part.\n Use the provided feature selection function to determine model\n features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:03 UTC 2014",
           "module": "Data.CRF.Chain2.Pair",
           "name": "train",
           "package": "crf-chain2-generic",
@@ -3767,6 +4044,7 @@
         "index": {
           "description": "Train the CRF using the stochastic gradient descent method When the evaluation data IO action is Just the iterative training process will notify the user about the current accuracy on the evaluation part every full iteration over the training part Use the provided feature selection function to determine model features",
           "hierarchy": "Data CRF Chain2 Pair",
+          "indexed": "2014-03-11T17:43:03",
           "module": "Data.CRF.Chain2.Pair",
           "name": "train",
           "normalized": "SgdArgs-\u003eFeatSel Ob Lb Feat-\u003eIO[SentL a(b,c)]-\u003eMaybe(IO[SentL a(b,c)])-\u003eIO(CRF a b c)",

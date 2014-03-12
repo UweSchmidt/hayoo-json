@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Zwaluw"
+        "phrase": "Zwaluw",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "Zwaluw",
           "package": "Zwaluw",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "Zwaluw",
           "package": "Zwaluw",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": ":-",
           "package": "Zwaluw",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": ":-",
           "package": "Zwaluw",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "Router",
           "package": "Zwaluw",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "Router",
           "package": "Zwaluw",
@@ -81,6 +87,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix operator for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "(\u003c\u003e)",
           "package": "Zwaluw",
@@ -91,6 +98,7 @@
         "index": {
           "description": "Infix operator for mappend",
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": ":-",
           "package": "Zwaluw",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": ":-",
           "package": "Zwaluw",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e nil :: Router r ([a] :- r)\n nil = constr0 [] $ \\x -\u003e do [] \u003c- x; Just ()\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "constr0",
           "package": "Zwaluw",
@@ -137,6 +148,7 @@
         "index": {
           "description": "For example nil Router nil constr0 do Just",
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "constr0",
           "normalized": "a-\u003e(Maybe a-\u003eMaybe())-\u003eRouter b(a b)",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e left :: Router (a :- r) (Either a b :- r)\n left = constr1 Left $ \\x -\u003e do Left a \u003c- x; return a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "constr1",
           "package": "Zwaluw",
@@ -162,6 +175,7 @@
         "index": {
           "description": "For example left Router Either left constr1 Left do Left return",
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "constr1",
           "normalized": "(a-\u003eb)-\u003e(Maybe b-\u003eMaybe a)-\u003eRouter(a c)(b c)",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e cons :: Router (a :- [a] :- r) ([a] :- r)\n cons = constr2 (:) $ \\x -\u003e do a:as \u003c- x; return (a, as)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "constr2",
           "package": "Zwaluw",
@@ -187,6 +202,7 @@
         "index": {
           "description": "For example cons Router cons constr2 do as return as",
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "constr2",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(Maybe c-\u003eMaybe(a,b))-\u003eRouter(a(b d))(c d)",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoutes any integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "int",
           "package": "Zwaluw",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Routes any integer",
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "int",
           "package": "Zwaluw",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoutes a constant string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "lit",
           "package": "Zwaluw",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Routes constant string",
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "lit",
           "normalized": "String-\u003eRouter a a",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "parse",
           "package": "Zwaluw",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "parse",
           "normalized": "Router()a-\u003eString-\u003e[a]",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "parse1",
           "package": "Zwaluw",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "parse1",
           "normalized": "Router()(a())-\u003eString-\u003e[a]",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoutes a slash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "slash",
           "package": "Zwaluw",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Routes slash",
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "slash",
           "package": "Zwaluw",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "unparse",
           "package": "Zwaluw",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "unparse",
           "normalized": "Router()a-\u003ea-\u003e[String]",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:16 UTC 2014",
           "module": "Web.Zwaluw",
           "name": "unparse1",
           "package": "Zwaluw",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Web Zwaluw",
+          "indexed": "2014-03-11T17:06:16",
           "module": "Web.Zwaluw",
           "name": "unparse1",
           "normalized": "Router()(a())-\u003ea-\u003e[String]",

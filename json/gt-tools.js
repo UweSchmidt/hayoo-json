@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gt-tools"
+        "phrase": "gt-tools",
+        "type": "phrase"
       },
       "type": "context"
     }

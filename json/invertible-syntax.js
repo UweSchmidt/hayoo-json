@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "invertible-syntax"
+        "phrase": "invertible-syntax",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Classes",
           "name": "Classes",
           "package": "invertible-syntax",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Classes",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Classes",
           "name": "Classes",
           "package": "invertible-syntax",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Classes",
           "name": "Alternative",
           "package": "invertible-syntax",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Classes",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Classes",
           "name": "Alternative",
           "package": "invertible-syntax",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Classes",
           "name": "ProductFunctor",
           "package": "invertible-syntax",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Classes",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Classes",
           "name": "ProductFunctor",
           "package": "invertible-syntax",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Classes",
           "name": "Syntax",
           "package": "invertible-syntax",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Classes",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Classes",
           "name": "Syntax",
           "package": "invertible-syntax",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Classes",
           "name": "(\u003c|\u003e)",
           "package": "invertible-syntax",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Classes",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Classes",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Classes",
           "name": "(\u003c*\u003e)",
           "package": "invertible-syntax",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Classes",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Classes",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Classes",
           "name": "empty",
           "package": "invertible-syntax",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Classes",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Classes",
           "name": "empty",
           "package": "invertible-syntax",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Classes",
           "name": "pure",
           "package": "invertible-syntax",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Classes",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Classes",
           "name": "pure",
           "normalized": "a-\u003eb a",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Classes",
           "name": "token",
           "package": "invertible-syntax",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Classes",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Classes",
           "name": "token",
           "package": "invertible-syntax",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "Combinators",
           "package": "invertible-syntax",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "Combinators",
           "package": "invertible-syntax",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis variant of \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e ignores its left result.\n In contrast to its counterpart derived from the \u003ccode\u003eApplicative\u003c/code\u003e class, the ignored\n parts have type `delta ()` rather than `delta beta` because otherwise information relevant\n for pretty-printing would be lost. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "(*\u003e)",
           "package": "invertible-syntax",
@@ -245,6 +266,7 @@
         "index": {
           "description": "This variant of ignores its left result In contrast to its counterpart derived from the Applicative class the ignored parts have type delta rather than delta beta because otherwise information relevant for pretty-printing would be lost",
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "(*\u003e) *\u003e",
           "normalized": "a()-\u003ea b-\u003ea b",
@@ -260,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis variant of \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e ignores its right result.\n In contrast to its counterpart derived from the \u003ccode\u003eApplicative\u003c/code\u003e class, the ignored\n parts have type `delta ()` rather than `delta beta` because otherwise information relevant\n for pretty-printing would be lost. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "(\u003c*)",
           "package": "invertible-syntax",
@@ -270,6 +293,7 @@
         "index": {
           "description": "This variant of ignores its right result In contrast to its counterpart derived from the Applicative class the ignored parts have type delta rather than delta beta because otherwise information relevant for pretty-printing would be lost",
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "(\u003c*) \u003c*",
           "normalized": "a b-\u003ea()-\u003ea b",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "(\u003c+\u003e)",
           "package": "invertible-syntax",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a b-\u003ea c-\u003ea(Either b c)",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ebetween\u003c/a\u003e\u003c/code\u003e function combines \u003ccode\u003e\u003ca\u003e*\u003e\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003c*\u003c/a\u003e\u003c/code\u003e in the obvious way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "between",
           "package": "invertible-syntax",
@@ -318,6 +345,7 @@
         "index": {
           "description": "The between function combines and in the obvious way",
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "between",
           "normalized": "a()-\u003ea()-\u003ea b-\u003ea b",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003echainl1\u003c/a\u003e\u003c/code\u003e combinator is used to parse a\n left-associative chain of infix operators. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "chainl1",
           "package": "invertible-syntax",
@@ -343,6 +372,7 @@
         "index": {
           "description": "The chainl1 combinator is used to parse left-associative chain of infix operators",
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "chainl1",
           "normalized": "a b-\u003ea c-\u003eIso(b,(c,b))b-\u003ea b",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "comma",
           "package": "invertible-syntax",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "comma",
           "normalized": "a()",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "dot",
           "package": "invertible-syntax",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "dot",
           "normalized": "a()",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "many",
           "package": "invertible-syntax",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "many",
           "normalized": "a b-\u003ea[b]",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "many1",
           "package": "invertible-syntax",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "many1",
           "normalized": "a b-\u003ea[b]",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eoptSpace\u003c/a\u003e\u003c/code\u003e marks a position where whitespace is desired to occur.\n It accepts arbitrary space while parsing, and produces a \n single space character while printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "optSpace",
           "package": "invertible-syntax",
@@ -460,6 +499,7 @@
         "index": {
           "description": "optSpace marks position where whitespace is desired to occur It accepts arbitrary space while parsing and produces single space character while printing",
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "optSpace",
           "normalized": "a()",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "optional",
           "package": "invertible-syntax",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "optional",
           "normalized": "a b-\u003ea(Maybe b)",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "sepBy",
           "package": "invertible-syntax",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "sepBy",
           "normalized": "a b-\u003ea()-\u003ea[b]",
@@ -523,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esepSpace\u003c/a\u003e\u003c/code\u003e marks a position where whitespace is required to\n occur. It requires one or more space characters while parsing, \n and produces a single space character while printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "sepSpace",
           "package": "invertible-syntax",
@@ -533,6 +578,7 @@
         "index": {
           "description": "sepSpace marks position where whitespace is required to occur It requires one or more space characters while parsing and produces single space character while printing",
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "sepSpace",
           "normalized": "a()",
@@ -549,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eskipSpace\u003c/a\u003e\u003c/code\u003e marks a position where whitespace is allowed to\n occur. It accepts arbitrary space while parsing, and produces\n no space while printing. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "skipSpace",
           "package": "invertible-syntax",
@@ -559,6 +606,7 @@
         "index": {
           "description": "skipSpace marks position where whitespace is allowed to occur It accepts arbitrary space while parsing and produces no space while printing",
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "skipSpace",
           "normalized": "a()",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e parses/prints a fixed text and consumes/produces a unit value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Combinators",
           "name": "text",
           "package": "invertible-syntax",
@@ -585,6 +634,7 @@
         "index": {
           "description": "text parses prints fixed text and consumes produces unit value",
           "hierarchy": "Text Syntax Combinators",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Combinators",
           "name": "text",
           "normalized": "String-\u003ea()",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Parser.Naive",
           "name": "Naive",
           "package": "invertible-syntax",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Parser Naive",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Parser.Naive",
           "name": "Naive",
           "package": "invertible-syntax",
@@ -620,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Parser.Naive",
           "name": "Parser",
           "package": "invertible-syntax",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Parser Naive",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Parser.Naive",
           "name": "Parser",
           "package": "invertible-syntax",
@@ -641,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Parser.Naive",
           "name": "Parser",
           "package": "invertible-syntax",
@@ -650,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Parser Naive",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Parser.Naive",
           "name": "Parser",
           "normalized": "Parser(String-\u003e[(a,String)])",
@@ -665,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Parser.Naive",
           "name": "parse",
           "package": "invertible-syntax",
@@ -674,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Parser Naive",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Parser.Naive",
           "name": "parse",
           "normalized": "Parser a-\u003eString-\u003e[a]",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Parser.Naive",
           "name": "parseM",
           "package": "invertible-syntax",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Parser Naive",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Parser.Naive",
           "name": "parseM",
           "normalized": "Parser a-\u003eString-\u003eb a",
@@ -711,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Printer.Naive",
           "name": "Naive",
           "package": "invertible-syntax",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Printer Naive",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Printer.Naive",
           "name": "Naive",
           "package": "invertible-syntax",
@@ -732,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Printer.Naive",
           "name": "Printer",
           "package": "invertible-syntax",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Printer Naive",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Printer.Naive",
           "name": "Printer",
           "package": "invertible-syntax",
@@ -753,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Printer.Naive",
           "name": "Printer",
           "package": "invertible-syntax",
@@ -762,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Printer Naive",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Printer.Naive",
           "name": "Printer",
           "normalized": "Printer(a-\u003eMaybe String)",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Printer.Naive",
           "name": "print",
           "package": "invertible-syntax",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Printer Naive",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Printer.Naive",
           "name": "print",
           "normalized": "Printer a-\u003ea-\u003eMaybe String",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax.Printer.Naive",
           "name": "printM",
           "package": "invertible-syntax",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax Printer Naive",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax.Printer.Naive",
           "name": "printM",
           "normalized": "Printer a-\u003ea-\u003eb String",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:55 UTC 2014",
           "module": "Text.Syntax",
           "name": "Syntax",
           "package": "invertible-syntax",
@@ -831,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Text Syntax",
+          "indexed": "2014-03-11T18:58:55",
           "module": "Text.Syntax",
           "name": "Syntax",
           "package": "invertible-syntax",

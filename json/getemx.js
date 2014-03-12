@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "getemx"
+        "phrase": "getemx",
+        "type": "phrase"
       },
       "type": "context"
     }

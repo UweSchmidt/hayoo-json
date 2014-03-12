@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hscurses-fish-ex"
+        "phrase": "hscurses-fish-ex",
+        "type": "phrase"
       },
       "type": "context"
     }

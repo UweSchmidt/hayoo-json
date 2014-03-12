@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Holumbus-Storage"
+        "phrase": "Holumbus-Storage",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller.ControllerData",
           "name": "ControllerData",
           "package": "Holumbus-Storage",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus FileSystem Controller ControllerData",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller.ControllerData",
           "name": "ControllerData",
           "package": "Holumbus-Storage",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller.ControllerData",
           "name": "ControllerData",
           "package": "Holumbus-Storage",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller ControllerData",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller.ControllerData",
           "name": "ControllerData",
           "package": "Holumbus-Storage",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller.ControllerData",
           "name": "newController",
           "package": "Holumbus-Storage",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller ControllerData",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller.ControllerData",
           "name": "newController",
           "normalized": "StreamName-\u003eMaybe PortNumber-\u003eIO ControllerData",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller.ControllerPort",
           "name": "ControllerPort",
           "package": "Holumbus-Storage",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus FileSystem Controller ControllerPort",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller.ControllerPort",
           "name": "ControllerPort",
           "package": "Holumbus-Storage",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller.ControllerPort",
           "name": "ControllerPort",
           "package": "Holumbus-Storage",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller ControllerPort",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller.ControllerPort",
           "name": "ControllerPort",
           "package": "Holumbus-Storage",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new ControllerPort\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller.ControllerPort",
           "name": "newControllerPort",
           "package": "Holumbus-Storage",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Creates new ControllerPort",
           "hierarchy": "Holumbus FileSystem Controller ControllerPort",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller.ControllerPort",
           "name": "newControllerPort",
           "normalized": "StreamName-\u003eMaybe SocketId-\u003eIO ControllerPort",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller.ControllerPort",
           "name": "newControllerPortFromServerPort",
           "package": "Holumbus-Storage",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller ControllerPort",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller.ControllerPort",
           "name": "newControllerPortFromServerPort",
           "normalized": "ServerPort-\u003eControllerPort",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "Controller",
           "package": "Holumbus-Storage",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "Controller",
           "package": "Holumbus-Storage",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "ControllerClass",
           "package": "Holumbus-Storage",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "ControllerClass",
           "package": "Holumbus-Storage",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "appendFile",
           "package": "Holumbus-Storage",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "appendFile",
           "normalized": "FileId-\u003eIdType-\u003ea-\u003eIO()",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "closeController",
           "package": "Holumbus-Storage",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "closeController",
           "normalized": "a-\u003eIO()",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "containsFile",
           "package": "Holumbus-Storage",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "containsFile",
           "normalized": "FileId-\u003ea-\u003eIO Bool",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "createFile",
           "package": "Holumbus-Storage",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "createFile",
           "normalized": "FileId-\u003eIdType-\u003ea-\u003eIO()",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "createFiles",
           "package": "Holumbus-Storage",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "createFiles",
           "normalized": "[(FileId,IdType)]-\u003ea-\u003eIO()",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "deleteFile",
           "package": "Holumbus-Storage",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "deleteFile",
           "normalized": "FileId-\u003eIdType-\u003ea-\u003eIO()",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "getFileSites",
           "package": "Holumbus-Storage",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "getFileSites",
           "normalized": "FileId-\u003ea-\u003eIO(Set SiteId)",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "getNearestNodePortForFile",
           "package": "Holumbus-Storage",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "getNearestNodePortForFile",
           "normalized": "FileId-\u003eInteger-\u003eSiteId-\u003ea-\u003eIO(Maybe ClientPort)",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "getNearestNodePortForFiles",
           "package": "Holumbus-Storage",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "getNearestNodePortForFiles",
           "normalized": "[(FileId,Integer)]-\u003eSiteId-\u003ea-\u003eIO ClientPortMap",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "getNearestNodePortWithFile",
           "package": "Holumbus-Storage",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "getNearestNodePortWithFile",
           "normalized": "FileId-\u003eSiteId-\u003ea-\u003eIO(Maybe ClientPort)",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Controller",
           "name": "getNearestNodePortWithFiles",
           "package": "Holumbus-Storage",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Controller",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Controller",
           "name": "getNearestNodePortWithFiles",
           "normalized": "[FileId]-\u003eSiteId-\u003ea-\u003eIO ClientPortMap",
@@ -489,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FileSystem",
           "package": "Holumbus-Storage",
@@ -498,6 +539,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FileSystem",
           "package": "Holumbus-Storage",
@@ -511,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSClientConf",
           "package": "Holumbus-Storage",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSClientConf",
           "package": "Holumbus-Storage",
@@ -532,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSControllerConf",
           "package": "Holumbus-Storage",
@@ -540,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSControllerConf",
           "package": "Holumbus-Storage",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSNodeConf",
           "package": "Holumbus-Storage",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSNodeConf",
           "package": "Holumbus-Storage",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSStandaloneConf",
           "package": "Holumbus-Storage",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSStandaloneConf",
           "package": "Holumbus-Storage",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FileContent",
           "package": "Holumbus-Storage",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FileContent",
           "package": "Holumbus-Storage",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emetadata of a file, known by the storage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FileData",
           "package": "Holumbus-Storage",
@@ -626,6 +679,7 @@
         "index": {
           "description": "metadata of file known by the storage",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FileData",
           "package": "Holumbus-Storage",
@@ -640,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file-identifier, should be unique in the whole system and\n   be an instance of the classes show, eq, ord and binary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FileId",
           "package": "Holumbus-Storage",
@@ -649,6 +704,7 @@
         "index": {
           "description": "The file-identifier should be unique in the whole system and be an instance of the classes show eq ord and binary",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FileId",
           "package": "Holumbus-Storage",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FileSystem",
           "package": "Holumbus-Storage",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FileSystem",
           "package": "Holumbus-Storage",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSClientConf",
           "package": "Holumbus-Storage",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSClientConf",
           "package": "Holumbus-Storage",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSControllerConf",
           "package": "Holumbus-Storage",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSControllerConf",
           "package": "Holumbus-Storage",
@@ -727,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSNodeConf",
           "package": "Holumbus-Storage",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSNodeConf",
           "package": "Holumbus-Storage",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSStandaloneConf",
           "package": "Holumbus-Storage",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "FSStandaloneConf",
           "package": "Holumbus-Storage",
@@ -795,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends a file in the fileSystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "appendFile",
           "package": "Holumbus-Storage",
@@ -805,6 +872,7 @@
         "index": {
           "description": "Appends file in the fileSystem",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "appendFile",
           "normalized": "FileId-\u003eFileContent-\u003eFileSystem-\u003eIO()",
@@ -821,6 +889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses the filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "closeFileSystem",
           "package": "Holumbus-Storage",
@@ -831,6 +900,7 @@
         "index": {
           "description": "Closes the filesystem",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "closeFileSystem",
           "normalized": "FileSystem-\u003eIO()",
@@ -847,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if a file is in the filesystem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "containsFile",
           "package": "Holumbus-Storage",
@@ -857,6 +928,7 @@
         "index": {
           "description": "Checks if file is in the filesystem",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "containsFile",
           "normalized": "FileId-\u003eFileSystem-\u003eIO Bool",
@@ -873,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a file in the filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "createFile",
           "package": "Holumbus-Storage",
@@ -883,6 +956,7 @@
         "index": {
           "description": "Creates file in the filesystem",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "createFile",
           "normalized": "FileId-\u003eFileContent-\u003eFileSystem-\u003eIO()",
@@ -899,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a list of files in the filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "createFiles",
           "package": "Holumbus-Storage",
@@ -909,6 +984,7 @@
         "index": {
           "description": "Creates list of files in the filesystem",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "createFiles",
           "normalized": "[(FileId,FileContent)]-\u003eFileSystem-\u003eIO()",
@@ -924,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "defaultFSClientConfig",
           "package": "Holumbus-Storage",
@@ -933,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "defaultFSClientConfig",
           "package": "Holumbus-Storage",
@@ -946,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "defaultFSControllerConfig",
           "package": "Holumbus-Storage",
@@ -955,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "defaultFSControllerConfig",
           "package": "Holumbus-Storage",
@@ -968,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "defaultFSNodeConfig",
           "package": "Holumbus-Storage",
@@ -977,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "defaultFSNodeConfig",
           "package": "Holumbus-Storage",
@@ -990,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "defaultFSStandaloneConfig",
           "package": "Holumbus-Storage",
@@ -999,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "defaultFSStandaloneConfig",
           "package": "Holumbus-Storage",
@@ -1013,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes a file from the filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "deleteFile",
           "package": "Holumbus-Storage",
@@ -1023,6 +1108,7 @@
         "index": {
           "description": "Deletes file from the filesystem",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "deleteFile",
           "normalized": "FileId-\u003eFileSystem-\u003eIO()",
@@ -1038,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fclc_SocketId",
           "package": "Holumbus-Storage",
@@ -1047,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fclc_SocketId",
           "package": "Holumbus-Storage",
@@ -1060,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fclc_StreamName",
           "package": "Holumbus-Storage",
@@ -1069,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fclc_StreamName",
           "package": "Holumbus-Storage",
@@ -1082,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fcoc_PortNumber",
           "package": "Holumbus-Storage",
@@ -1091,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fcoc_PortNumber",
           "package": "Holumbus-Storage",
@@ -1104,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fcoc_StreamName",
           "package": "Holumbus-Storage",
@@ -1113,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fcoc_StreamName",
           "package": "Holumbus-Storage",
@@ -1251,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fnoc_SocketId",
           "package": "Holumbus-Storage",
@@ -1260,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fnoc_SocketId",
           "package": "Holumbus-Storage",
@@ -1273,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fnoc_StorageFile",
           "package": "Holumbus-Storage",
@@ -1282,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fnoc_StorageFile",
           "package": "Holumbus-Storage",
@@ -1295,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fnoc_StoragePath",
           "package": "Holumbus-Storage",
@@ -1304,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fnoc_StoragePath",
           "package": "Holumbus-Storage",
@@ -1317,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fnoc_StreamName",
           "package": "Holumbus-Storage",
@@ -1326,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fnoc_StreamName",
           "package": "Holumbus-Storage",
@@ -1339,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fstc_StorageFile",
           "package": "Holumbus-Storage",
@@ -1348,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fstc_StorageFile",
           "package": "Holumbus-Storage",
@@ -1361,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fstc_StoragePath",
           "package": "Holumbus-Storage",
@@ -1370,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fstc_StoragePath",
           "package": "Holumbus-Storage",
@@ -1383,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fstc_StreamName",
           "package": "Holumbus-Storage",
@@ -1392,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "fstc_StreamName",
           "package": "Holumbus-Storage",
@@ -1431,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the file content from the nearest site whitch holds the file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getFileContent",
           "package": "Holumbus-Storage",
@@ -1441,6 +1550,7 @@
         "index": {
           "description": "Gets the file content from the nearest site whitch holds the file",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getFileContent",
           "normalized": "FileId-\u003eFileSystem-\u003eIO(Maybe FileContent)",
@@ -1457,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the file data from the nearest site whitch holds the file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getFileData",
           "package": "Holumbus-Storage",
@@ -1467,6 +1578,7 @@
         "index": {
           "description": "Gets the file data from the nearest site whitch holds the file",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getFileData",
           "normalized": "FileId-\u003eFileSystem-\u003eIO(Maybe FileData)",
@@ -1483,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a set of all sites the file exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getFileSites",
           "package": "Holumbus-Storage",
@@ -1493,6 +1606,7 @@
         "index": {
           "description": "Get set of all sites the file exists",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getFileSites",
           "normalized": "FileId-\u003eFileSystem-\u003eIO(Set SiteId)",
@@ -1509,6 +1623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the file content from the nearest site whitch holds the file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getMultiFileContent",
           "package": "Holumbus-Storage",
@@ -1519,6 +1634,7 @@
         "index": {
           "description": "Gets the file content from the nearest site whitch holds the file",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getMultiFileContent",
           "normalized": "[FileId]-\u003eFileSystem-\u003eIO[(FileId,FileContent)]",
@@ -1534,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getMySiteId",
           "package": "Holumbus-Storage",
@@ -1543,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getMySiteId",
           "normalized": "FileSystem-\u003eIO SiteId",
@@ -1559,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egets the nearest NodePort on which we can create our fileId. we need the\n   content-size to get a node with enough space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getNearestNodePortForFile",
           "package": "Holumbus-Storage",
@@ -1569,6 +1688,7 @@
         "index": {
           "description": "gets the nearest NodePort on which we can create our fileId we need the content-size to get node with enough space",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getNearestNodePortForFile",
           "normalized": "FileId-\u003eInteger-\u003eFileSystem-\u003eIO(Maybe NodePort)",
@@ -1585,6 +1705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egets the nearest NodePort with our fileId\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getNearestNodePortWithFile",
           "package": "Holumbus-Storage",
@@ -1595,6 +1716,7 @@
         "index": {
           "description": "gets the nearest NodePort with our fileId",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "getNearestNodePortWithFile",
           "normalized": "FileId-\u003eFileSystem-\u003eIO(Maybe NodePort)",
@@ -1611,6 +1733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests, if the local storage (if one exists) holds the file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "isFileLocal",
           "package": "Holumbus-Storage",
@@ -1621,6 +1744,7 @@
         "index": {
           "description": "Tests if the local storage if one exists holds the file",
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "isFileLocal",
           "normalized": "FileId-\u003eFileSystem-\u003eIO Bool",
@@ -1636,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "mkFileSystemClient",
           "package": "Holumbus-Storage",
@@ -1645,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "mkFileSystemClient",
           "normalized": "FSClientConf-\u003eIO FileSystem",
@@ -1660,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "mkFileSystemController",
           "package": "Holumbus-Storage",
@@ -1669,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "mkFileSystemController",
           "normalized": "FSControllerConf-\u003eIO FileSystem",
@@ -1684,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "mkFileSystemNode",
           "package": "Holumbus-Storage",
@@ -1693,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "mkFileSystemNode",
           "normalized": "FSNodeConf-\u003eIO FileSystem",
@@ -1708,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "mkStandaloneFileSystem",
           "package": "Holumbus-Storage",
@@ -1717,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem FileSystem",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.FileSystem",
           "name": "mkStandaloneFileSystem",
           "normalized": "FSStandaloneConf-\u003eIO FileSystem",
@@ -1733,6 +1865,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003cp\u003eThis module contains all message types which are exchanged between node and\n  Controller.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "Messages",
           "package": "Holumbus-Storage",
@@ -1742,6 +1875,7 @@
         "index": {
           "description": "Version This module contains all message types which are exchanged between node and Controller",
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "Messages",
           "package": "Holumbus-Storage",
@@ -1755,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "ClientPortMap",
           "package": "Holumbus-Storage",
@@ -1763,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "ClientPortMap",
           "package": "Holumbus-Storage",
@@ -1777,6 +1913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequests datatype, which is send to a filesystem Controller.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "ControllerRequestMessage",
           "package": "Holumbus-Storage",
@@ -1786,6 +1923,7 @@
         "index": {
           "description": "Requests datatype which is send to filesystem Controller",
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "ControllerRequestMessage",
           "package": "Holumbus-Storage",
@@ -1800,6 +1938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse datatype from a filesystem Controller.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "ControllerResponseMessage",
           "package": "Holumbus-Storage",
@@ -1809,6 +1948,7 @@
         "index": {
           "description": "Response datatype from filesystem Controller",
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "ControllerResponseMessage",
           "package": "Holumbus-Storage",
@@ -1822,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NodeId",
           "package": "Holumbus-Storage",
@@ -1830,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NodeId",
           "package": "Holumbus-Storage",
@@ -1844,6 +1986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequests datatype, which is send to a filesystem node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NodeRequestMessage",
           "package": "Holumbus-Storage",
@@ -1853,6 +1996,7 @@
         "index": {
           "description": "Requests datatype which is send to filesystem node",
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NodeRequestMessage",
           "package": "Holumbus-Storage",
@@ -1867,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse datatype from a filesystem node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NodeResponseMessage",
           "package": "Holumbus-Storage",
@@ -1876,6 +2021,7 @@
         "index": {
           "description": "Response datatype from filesystem node",
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NodeResponseMessage",
           "package": "Holumbus-Storage",
@@ -1889,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqAppend",
           "package": "Holumbus-Storage",
@@ -1898,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqAppend",
           "package": "Holumbus-Storage",
@@ -1911,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqContains",
           "package": "Holumbus-Storage",
@@ -1920,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqContains",
           "package": "Holumbus-Storage",
@@ -1933,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqCreate",
           "package": "Holumbus-Storage",
@@ -1942,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqCreate",
           "package": "Holumbus-Storage",
@@ -1955,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqCreateS",
           "package": "Holumbus-Storage",
@@ -1964,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqCreateS",
           "normalized": "CReqCreateS[(FileId,NodeId)]",
@@ -1979,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqDelete",
           "package": "Holumbus-Storage",
@@ -1988,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqDelete",
           "package": "Holumbus-Storage",
@@ -2001,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqGetFileSites",
           "package": "Holumbus-Storage",
@@ -2010,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqGetFileSites",
           "package": "Holumbus-Storage",
@@ -2023,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqGetNearestNodePortForFile",
           "package": "Holumbus-Storage",
@@ -2032,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqGetNearestNodePortForFile",
           "package": "Holumbus-Storage",
@@ -2045,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqGetNearestNodePortForFiles",
           "package": "Holumbus-Storage",
@@ -2054,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqGetNearestNodePortForFiles",
           "normalized": "CReqGetNearestNodePortForFiles[(FileId,Integer)]SiteId",
@@ -2069,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqGetNearestNodePortWithFile",
           "package": "Holumbus-Storage",
@@ -2078,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqGetNearestNodePortWithFile",
           "package": "Holumbus-Storage",
@@ -2091,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqGetNearestNodePortWithFiles",
           "package": "Holumbus-Storage",
@@ -2100,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqGetNearestNodePortWithFiles",
           "normalized": "CReqGetNearestNodePortWithFiles[FileId]SiteId",
@@ -2115,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqUnknown",
           "package": "Holumbus-Storage",
@@ -2124,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CReqUnknown",
           "package": "Holumbus-Storage",
@@ -2137,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspContains",
           "package": "Holumbus-Storage",
@@ -2146,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspContains",
           "package": "Holumbus-Storage",
@@ -2159,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspError",
           "package": "Holumbus-Storage",
@@ -2168,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspError",
           "package": "Holumbus-Storage",
@@ -2181,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspGetFileSites",
           "package": "Holumbus-Storage",
@@ -2190,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspGetFileSites",
           "package": "Holumbus-Storage",
@@ -2203,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspGetNearestNodePortForFile",
           "package": "Holumbus-Storage",
@@ -2212,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspGetNearestNodePortForFile",
           "package": "Holumbus-Storage",
@@ -2225,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspGetNearestNodePortForFiles",
           "package": "Holumbus-Storage",
@@ -2234,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspGetNearestNodePortForFiles",
           "package": "Holumbus-Storage",
@@ -2247,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspGetNearestNodePortWithFile",
           "package": "Holumbus-Storage",
@@ -2256,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspGetNearestNodePortWithFile",
           "package": "Holumbus-Storage",
@@ -2269,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspGetNearestNodePortWithFiles",
           "package": "Holumbus-Storage",
@@ -2278,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspGetNearestNodePortWithFiles",
           "package": "Holumbus-Storage",
@@ -2291,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspSuccess",
           "package": "Holumbus-Storage",
@@ -2300,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspSuccess",
           "package": "Holumbus-Storage",
@@ -2313,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspUnknown",
           "package": "Holumbus-Storage",
@@ -2322,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "CRspUnknown",
           "package": "Holumbus-Storage",
@@ -2335,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqAppend",
           "package": "Holumbus-Storage",
@@ -2344,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqAppend",
           "package": "Holumbus-Storage",
@@ -2357,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqContains",
           "package": "Holumbus-Storage",
@@ -2366,6 +2555,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqContains",
           "package": "Holumbus-Storage",
@@ -2379,6 +2569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqCopy",
           "package": "Holumbus-Storage",
@@ -2388,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqCopy",
           "package": "Holumbus-Storage",
@@ -2401,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqCreate",
           "package": "Holumbus-Storage",
@@ -2410,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqCreate",
           "package": "Holumbus-Storage",
@@ -2423,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqCreateS",
           "package": "Holumbus-Storage",
@@ -2432,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqCreateS",
           "normalized": "NReqCreateS[(FileId,FileContent)]",
@@ -2447,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqDelete",
           "package": "Holumbus-Storage",
@@ -2456,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqDelete",
           "package": "Holumbus-Storage",
@@ -2469,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqGetFileContent",
           "package": "Holumbus-Storage",
@@ -2478,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqGetFileContent",
           "package": "Holumbus-Storage",
@@ -2491,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqGetFileData",
           "package": "Holumbus-Storage",
@@ -2500,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqGetFileData",
           "package": "Holumbus-Storage",
@@ -2513,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqGetFileIds",
           "package": "Holumbus-Storage",
@@ -2522,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqGetFileIds",
           "package": "Holumbus-Storage",
@@ -2535,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqGetMultiFileContent",
           "package": "Holumbus-Storage",
@@ -2544,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqGetMultiFileContent",
           "normalized": "NReqGetMultiFileContent[FileId]",
@@ -2559,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqUnknown",
           "package": "Holumbus-Storage",
@@ -2568,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NReqUnknown",
           "package": "Holumbus-Storage",
@@ -2581,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspContains",
           "package": "Holumbus-Storage",
@@ -2590,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspContains",
           "package": "Holumbus-Storage",
@@ -2603,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspError",
           "package": "Holumbus-Storage",
@@ -2612,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspError",
           "package": "Holumbus-Storage",
@@ -2625,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspGetFileContent",
           "package": "Holumbus-Storage",
@@ -2634,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspGetFileContent",
           "package": "Holumbus-Storage",
@@ -2647,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspGetFileData",
           "package": "Holumbus-Storage",
@@ -2656,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspGetFileData",
           "package": "Holumbus-Storage",
@@ -2669,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspGetFileIds",
           "package": "Holumbus-Storage",
@@ -2678,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspGetFileIds",
           "normalized": "NRspGetFileIds[FileId]",
@@ -2693,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspGetMultiFileContent",
           "package": "Holumbus-Storage",
@@ -2702,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspGetMultiFileContent",
           "normalized": "NRspGetMultiFileContent[(FileId,FileContent)]",
@@ -2717,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspSuccess",
           "package": "Holumbus-Storage",
@@ -2726,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspSuccess",
           "package": "Holumbus-Storage",
@@ -2739,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspUnknown",
           "package": "Holumbus-Storage",
@@ -2748,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "NRspUnknown",
           "package": "Holumbus-Storage",
@@ -2762,6 +2986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a request to the server (stream) and handles the response and all\n   error cases. Very helpful when simulating a request response scheme\n   with the mailboxes.                    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Messages",
           "name": "performPortAction",
           "package": "Holumbus-Storage",
@@ -2771,6 +2996,7 @@
         "index": {
           "description": "Sends request to the server stream and handles the response and all error cases Very helpful when simulating request response scheme with the mailboxes",
           "hierarchy": "Holumbus FileSystem Messages",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Messages",
           "name": "performPortAction",
           "normalized": "Port a-\u003eStream b-\u003eInt-\u003ea-\u003e(b-\u003eIO(Maybe c))-\u003eIO c",
@@ -2787,6 +3013,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node.NodeData",
           "name": "NodeData",
           "package": "Holumbus-Storage",
@@ -2796,6 +3023,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus FileSystem Node NodeData",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node.NodeData",
           "name": "NodeData",
           "package": "Holumbus-Storage",
@@ -2810,6 +3038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node.NodeData",
           "name": "NodeData",
           "package": "Holumbus-Storage",
@@ -2819,6 +3048,7 @@
         "index": {
           "description": "Node datatype",
           "hierarchy": "Holumbus FileSystem Node NodeData",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node.NodeData",
           "name": "NodeData",
           "package": "Holumbus-Storage",
@@ -2832,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node.NodeData",
           "name": "newNode",
           "package": "Holumbus-Storage",
@@ -2841,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node NodeData",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node.NodeData",
           "name": "newNode",
           "normalized": "StreamName-\u003eMaybe SocketId-\u003eFileStorage-\u003eIO Node",
@@ -2857,6 +3089,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node.NodePort",
           "name": "NodePort",
           "package": "Holumbus-Storage",
@@ -2866,6 +3099,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus FileSystem Node NodePort",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node.NodePort",
           "name": "NodePort",
           "package": "Holumbus-Storage",
@@ -2879,6 +3113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node.NodePort",
           "name": "NodePort",
           "package": "Holumbus-Storage",
@@ -2887,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node NodePort",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node.NodePort",
           "name": "NodePort",
           "package": "Holumbus-Storage",
@@ -2901,6 +3137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new NodePort.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node.NodePort",
           "name": "newNodePort",
           "package": "Holumbus-Storage",
@@ -2911,6 +3148,7 @@
         "index": {
           "description": "Creates new NodePort",
           "hierarchy": "Holumbus FileSystem Node NodePort",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node.NodePort",
           "name": "newNodePort",
           "normalized": "ClientPort-\u003eNodePort",
@@ -2927,6 +3165,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "Node",
           "package": "Holumbus-Storage",
@@ -2936,6 +3175,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "Node",
           "package": "Holumbus-Storage",
@@ -2949,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "NodeClass",
           "package": "Holumbus-Storage",
@@ -2957,6 +3198,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "NodeClass",
           "package": "Holumbus-Storage",
@@ -2970,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "appendFile",
           "package": "Holumbus-Storage",
@@ -2979,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "appendFile",
           "normalized": "FileId-\u003eFileContent-\u003ea-\u003eIO()",
@@ -2994,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "closeNode",
           "package": "Holumbus-Storage",
@@ -3003,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "closeNode",
           "normalized": "a-\u003eIO()",
@@ -3018,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "containsFile",
           "package": "Holumbus-Storage",
@@ -3027,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "containsFile",
           "normalized": "FileId-\u003ea-\u003eIO Bool",
@@ -3042,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "copyFile",
           "package": "Holumbus-Storage",
@@ -3051,6 +3300,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "copyFile",
           "normalized": "FileId-\u003eClientPort-\u003ea-\u003eIO()",
@@ -3066,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "createFile",
           "package": "Holumbus-Storage",
@@ -3075,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "createFile",
           "normalized": "FileId-\u003eFileContent-\u003ea-\u003eIO()",
@@ -3090,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "createFiles",
           "package": "Holumbus-Storage",
@@ -3099,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "createFiles",
           "normalized": "[(FileId,FileContent)]-\u003ea-\u003eIO()",
@@ -3114,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "deleteFile",
           "package": "Holumbus-Storage",
@@ -3123,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "deleteFile",
           "normalized": "FileId-\u003eBool-\u003ea-\u003eIO()",
@@ -3138,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "getFileContent",
           "package": "Holumbus-Storage",
@@ -3147,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "getFileContent",
           "normalized": "FileId-\u003ea-\u003eIO(Maybe FileContent)",
@@ -3162,6 +3420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "getFileData",
           "package": "Holumbus-Storage",
@@ -3171,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "getFileData",
           "normalized": "FileId-\u003ea-\u003eIO(Maybe FileData)",
@@ -3186,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "getFileIds",
           "package": "Holumbus-Storage",
@@ -3195,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "getFileIds",
           "normalized": "a-\u003eIO[FileId]",
@@ -3210,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Node",
           "name": "getMultiFileContent",
           "package": "Holumbus-Storage",
@@ -3219,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Node",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Node",
           "name": "getMultiFileContent",
           "normalized": "[FileId]-\u003ea-\u003eIO[(FileId,FileContent)]",
@@ -3235,6 +3499,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003cp\u003eImplementation of the storage class.\n  The FileStorage saves each file in a single physical file. The metadata of\n  the files is hold in an extra directory an saved on disk.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage.FileStorage",
           "name": "FileStorage",
           "package": "Holumbus-Storage",
@@ -3244,6 +3509,7 @@
         "index": {
           "description": "Version Implementation of the storage class The FileStorage saves each file in single physical file The metadata of the files is hold in an extra directory an saved on disk",
           "hierarchy": "Holumbus FileSystem Storage FileStorage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage.FileStorage",
           "name": "FileStorage",
           "package": "Holumbus-Storage",
@@ -3258,6 +3524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe filestorage datatype.\n   Every file is physically saved in one file on the harddisk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage.FileStorage",
           "name": "FileStorage",
           "package": "Holumbus-Storage",
@@ -3267,6 +3534,7 @@
         "index": {
           "description": "The filestorage datatype Every file is physically saved in one file on the harddisk",
           "hierarchy": "Holumbus FileSystem Storage FileStorage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage.FileStorage",
           "name": "FileStorage",
           "package": "Holumbus-Storage",
@@ -3281,6 +3549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new filestorage, which is empty an contains no files \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage.FileStorage",
           "name": "newFileStorage",
           "package": "Holumbus-Storage",
@@ -3290,6 +3559,7 @@
         "index": {
           "description": "Create new filestorage which is empty an contains no files",
           "hierarchy": "Holumbus FileSystem Storage FileStorage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage.FileStorage",
           "name": "newFileStorage",
           "normalized": "FilePath-\u003eFilePath-\u003eFileStorage",
@@ -3306,6 +3576,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003cp\u003eThis Module contains the typeclass of a storage and the associated datatypes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "Storage",
           "package": "Holumbus-Storage",
@@ -3315,6 +3586,7 @@
         "index": {
           "description": "Version This Module contains the typeclass of storage and the associated datatypes",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "Storage",
           "package": "Holumbus-Storage",
@@ -3328,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "FileContent",
           "package": "Holumbus-Storage",
@@ -3336,6 +3609,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "FileContent",
           "package": "Holumbus-Storage",
@@ -3350,6 +3624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emetadata of a file, known by the storage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "FileData",
           "package": "Holumbus-Storage",
@@ -3359,6 +3634,7 @@
         "index": {
           "description": "metadata of file known by the storage",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "FileData",
           "package": "Holumbus-Storage",
@@ -3373,6 +3649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file-identifier, should be unique in the whole system and\n   be an instance of the classes show, eq, ord and binary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "FileId",
           "package": "Holumbus-Storage",
@@ -3382,6 +3659,7 @@
         "index": {
           "description": "The file-identifier should be unique in the whole system and be an instance of the classes show eq ord and binary",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "FileId",
           "package": "Holumbus-Storage",
@@ -3396,6 +3674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interface of a storage.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "Storage",
           "package": "Holumbus-Storage",
@@ -3405,6 +3684,7 @@
         "index": {
           "description": "The interface of storage",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "Storage",
           "package": "Holumbus-Storage",
@@ -3419,6 +3699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend the content of the file.\n   Create a new file, if it doesn't already exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "appendFile",
           "package": "Holumbus-Storage",
@@ -3429,6 +3710,7 @@
         "index": {
           "description": "Append the content of the file Create new file if it doesn already exist",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "appendFile",
           "normalized": "a-\u003eFileId-\u003eFileContent-\u003eIO a",
@@ -3445,6 +3727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeinitialize the storage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "closeStorage",
           "package": "Holumbus-Storage",
@@ -3455,6 +3738,7 @@
         "index": {
           "description": "Deinitialize the storage",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "closeStorage",
           "normalized": "a-\u003eIO a",
@@ -3471,6 +3755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the file is already in the storage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "containsFile",
           "package": "Holumbus-Storage",
@@ -3481,6 +3766,7 @@
         "index": {
           "description": "Check if the file is already in the storage",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "containsFile",
           "normalized": "a-\u003eFileId-\u003eIO Bool",
@@ -3497,6 +3783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new file in the storage.\n   Overwrite the file if it already exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "createFile",
           "package": "Holumbus-Storage",
@@ -3507,6 +3794,7 @@
         "index": {
           "description": "Create new file in the storage Overwrite the file if it already exists",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "createFile",
           "normalized": "a-\u003eFileId-\u003eFileContent-\u003eIO a",
@@ -3523,6 +3811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new file data item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "createFileData",
           "package": "Holumbus-Storage",
@@ -3533,6 +3822,7 @@
         "index": {
           "description": "Create new file data item",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "createFileData",
           "normalized": "FileId-\u003eFileContent-\u003eIO FileData",
@@ -3548,6 +3838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "createFiles",
           "package": "Holumbus-Storage",
@@ -3557,6 +3848,7 @@
         },
         "index": {
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "createFiles",
           "normalized": "a-\u003e[(FileId,FileContent)]-\u003eIO a",
@@ -3573,6 +3865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a file in the storage.\n   Nothing happens if the file doesn't exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "deleteFile",
           "package": "Holumbus-Storage",
@@ -3583,6 +3876,7 @@
         "index": {
           "description": "Delete file in the storage Nothing happens if the file doesn exist",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "deleteFile",
           "normalized": "a-\u003eFileId-\u003eIO a",
@@ -3599,6 +3893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the content of a file.\n   Return Nothing, if the file doesn't exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "getFileContent",
           "package": "Holumbus-Storage",
@@ -3609,6 +3904,7 @@
         "index": {
           "description": "Get the content of file Return Nothing if the file doesn exist",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "getFileContent",
           "normalized": "a-\u003eFileId-\u003eIO(Maybe FileContent)",
@@ -3625,6 +3921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the metadata of a file.\n   Return Nothing, if the file doesn't exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "getFileData",
           "package": "Holumbus-Storage",
@@ -3635,6 +3932,7 @@
         "index": {
           "description": "Get the metadata of file Return Nothing if the file doesn exist",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "getFileData",
           "normalized": "a-\u003eFileId-\u003eIO(Maybe FileData)",
@@ -3651,6 +3949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the files in the storage   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "getFileIds",
           "package": "Holumbus-Storage",
@@ -3661,6 +3960,7 @@
         "index": {
           "description": "List the files in the storage",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "getFileIds",
           "normalized": "a-\u003eIO[FileId]",
@@ -3677,6 +3977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the storage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "openStorage",
           "package": "Holumbus-Storage",
@@ -3687,6 +3988,7 @@
         "index": {
           "description": "Initialize the storage",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "openStorage",
           "normalized": "a-\u003eIO a",
@@ -3703,6 +4005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates a new file data item with the date, size and hash value of\n   an old one. First parameter is the new item, second the old one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.Storage",
           "name": "updateFileData",
           "package": "Holumbus-Storage",
@@ -3713,6 +4016,7 @@
         "index": {
           "description": "Updates new file data item with the date size and hash value of an old one First parameter is the new item second the old one",
           "hierarchy": "Holumbus FileSystem Storage",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.Storage",
           "name": "updateFileData",
           "normalized": "FileData-\u003eFileData-\u003eFileData",
@@ -3729,6 +4033,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003cp\u003eA nice console-user interface for the Holumbus-Filesystem based on the\n  Holumbus-Commandline-Interface. To get a standalone FileSystem-Site, just\n  add a filesystem-object.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.UserInterface",
           "name": "UserInterface",
           "package": "Holumbus-Storage",
@@ -3738,6 +4043,7 @@
         "index": {
           "description": "Version nice console-user interface for the Holumbus-Filesystem based on the Holumbus-Commandline-Interface To get standalone FileSystem-Site just add filesystem-object",
           "hierarchy": "Holumbus FileSystem UserInterface",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.UserInterface",
           "name": "UserInterface",
           "package": "Holumbus-Storage",
@@ -3752,6 +4058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eruns the user interface... just add an fileSystem an a fancy version-number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:49 UTC 2014",
           "module": "Holumbus.FileSystem.UserInterface",
           "name": "runUI",
           "package": "Holumbus-Storage",
@@ -3762,6 +4069,7 @@
         "index": {
           "description": "runs the user interface just add an fileSystem an fancy version-number",
           "hierarchy": "Holumbus FileSystem UserInterface",
+          "indexed": "2014-03-11T16:48:49",
           "module": "Holumbus.FileSystem.UserInterface",
           "name": "runUI",
           "normalized": "FileSystem-\u003eString-\u003eIO()",

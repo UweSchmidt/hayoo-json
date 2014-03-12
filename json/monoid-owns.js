@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monoid-owns"
+        "phrase": "monoid-owns",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:11 UTC 2014",
           "module": "Data.Monoid.Owns",
           "name": "Owns",
           "package": "monoid-owns",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Owns",
+          "indexed": "2014-03-11T19:22:11",
           "module": "Data.Monoid.Owns",
           "name": "Owns",
           "package": "monoid-owns",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:11 UTC 2014",
           "module": "Data.Monoid.Owns",
           "name": "Monoid",
           "package": "monoid-owns",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Owns",
+          "indexed": "2014-03-11T19:22:11",
           "module": "Data.Monoid.Owns",
           "name": "Monoid",
           "package": "monoid-owns",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:11 UTC 2014",
           "module": "Data.Monoid.Owns",
           "name": "(+)",
           "package": "monoid-owns",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Owns",
+          "indexed": "2014-03-11T19:22:11",
           "module": "Data.Monoid.Owns",
           "name": "(+) +",
           "normalized": "a-\u003ea-\u003ea",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:11 UTC 2014",
           "module": "Data.Monoid.Owns",
           "name": "mappend",
           "package": "monoid-owns",
@@ -94,6 +101,7 @@
         "index": {
           "description": "An associative operation",
           "hierarchy": "Data Monoid Owns",
+          "indexed": "2014-03-11T19:22:11",
           "module": "Data.Monoid.Owns",
           "name": "mappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a list using the monoid.\n For most types, the default definition for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e will be\n used, but the function is included in the class definition so\n that an optimized version can be provided for specific types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:11 UTC 2014",
           "module": "Data.Monoid.Owns",
           "name": "mconcat",
           "package": "monoid-owns",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Fold list using the monoid For most types the default definition for mconcat will be used but the function is included in the class definition so that an optimized version can be provided for specific types",
           "hierarchy": "Data Monoid Owns",
+          "indexed": "2014-03-11T19:22:11",
           "module": "Data.Monoid.Owns",
           "name": "mconcat",
           "normalized": "[a]-\u003ea",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:11 UTC 2014",
           "module": "Data.Monoid.Owns",
           "name": "mempty",
           "package": "monoid-owns",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "Data Monoid Owns",
+          "indexed": "2014-03-11T19:22:11",
           "module": "Data.Monoid.Owns",
           "name": "mempty",
           "package": "monoid-owns",

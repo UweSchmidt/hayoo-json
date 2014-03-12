@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "twill"
+        "phrase": "twill",
+        "type": "phrase"
       },
       "type": "context"
     }

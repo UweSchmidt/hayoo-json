@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "openssl-createkey"
+        "phrase": "openssl-createkey",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:17 UTC 2014",
           "module": "OpenSSL.CreateKey",
           "name": "CreateKey",
           "package": "openssl-createkey",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "OpenSSL CreateKey",
+          "indexed": "2014-03-11T19:32:17",
           "module": "OpenSSL.CreateKey",
           "name": "CreateKey",
           "package": "openssl-createkey",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:17 UTC 2014",
           "module": "OpenSSL.CreateKey",
           "name": "createKey",
           "package": "openssl-createkey",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "OpenSSL CreateKey",
+          "indexed": "2014-03-11T19:32:17",
           "module": "OpenSSL.CreateKey",
           "name": "createKey",
           "normalized": "String-\u003eFilePath-\u003eMaybe SomeKeyPair-\u003ePemPasswordSupply-\u003eIO(X,SomeKeyPair)",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:17 UTC 2014",
           "module": "OpenSSL.CreateKey",
           "name": "promptPassword",
           "package": "openssl-createkey",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "OpenSSL CreateKey",
+          "indexed": "2014-03-11T19:32:17",
           "module": "OpenSSL.CreateKey",
           "name": "promptPassword",
           "package": "openssl-createkey",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:17 UTC 2014",
           "module": "OpenSSL.CreateKey",
           "name": "readCertificate",
           "package": "openssl-createkey",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "OpenSSL CreateKey",
+          "indexed": "2014-03-11T19:32:17",
           "module": "OpenSSL.CreateKey",
           "name": "readCertificate",
           "normalized": "FilePath-\u003eIO X",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead Key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:17 UTC 2014",
           "module": "OpenSSL.CreateKey",
           "name": "readKeyPair",
           "package": "openssl-createkey",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Read Key",
           "hierarchy": "OpenSSL CreateKey",
+          "indexed": "2014-03-11T19:32:17",
           "module": "OpenSSL.CreateKey",
           "name": "readKeyPair",
           "normalized": "FilePath-\u003ePemPasswordSupply-\u003eIO(X,SomeKeyPair)",

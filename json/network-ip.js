@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-ip"
+        "phrase": "network-ip",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternet Protocol addressing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "Addr",
           "package": "network-ip",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Internet Protocol addressing",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "Addr",
           "package": "network-ip",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "IP",
           "package": "network-ip",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "IP",
           "package": "network-ip",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv4 address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "IP4",
           "package": "network-ip",
@@ -72,6 +77,7 @@
         "index": {
           "description": "IPv4 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "IP4",
           "package": "network-ip",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv6 address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "IP6",
           "package": "network-ip",
@@ -95,6 +102,7 @@
         "index": {
           "description": "IPv6 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "IP6",
           "package": "network-ip",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "Inet4Addr",
           "package": "network-ip",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "Inet4Addr",
           "package": "network-ip",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "Inet6Addr",
           "package": "network-ip",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "Inet6Addr",
           "package": "network-ip",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSocket address: host address + port number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "InetAddr",
           "package": "network-ip",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Socket address host address port number",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "InetAddr",
           "package": "network-ip",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "InetPort",
           "package": "network-ip",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Port number",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "InetPort",
           "package": "network-ip",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNetwork address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "IsNetAddr",
           "package": "network-ip",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Network address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "IsNetAddr",
           "package": "network-ip",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "Net4Addr",
           "package": "network-ip",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "Net4Addr",
           "package": "network-ip",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "Net6Addr",
           "package": "network-ip",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "Net6Addr",
           "package": "network-ip",
@@ -262,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNetwork address: host address + network mask length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "NetAddr",
           "package": "network-ip",
@@ -271,6 +294,7 @@
         "index": {
           "description": "Network address host address network mask length",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "NetAddr",
           "package": "network-ip",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv4 address range classification (per RFC6890).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "Range4",
           "package": "network-ip",
@@ -294,6 +319,7 @@
         "index": {
           "description": "IPv4 address range classification per RFC6890",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "Range4",
           "package": "network-ip",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv6 address range classification (per RFC6890).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "Range6",
           "package": "network-ip",
@@ -317,6 +344,7 @@
         "index": {
           "description": "IPv6 address range classification per RFC6890",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "Range6",
           "package": "network-ip",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnspecified address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "AnyIP6",
           "package": "network-ip",
@@ -341,6 +370,7 @@
         "index": {
           "description": "Unspecified address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "AnyIP6",
           "package": "network-ip",
@@ -355,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBenchmark testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "BenchmarkingIP4",
           "package": "network-ip",
@@ -365,6 +396,7 @@
         "index": {
           "description": "Benchmark testing",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "BenchmarkingIP4",
           "package": "network-ip",
@@ -379,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBenchmark testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "BenchmarkingIP6",
           "package": "network-ip",
@@ -389,6 +422,7 @@
         "index": {
           "description": "Benchmark testing",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "BenchmarkingIP6",
           "package": "network-ip",
@@ -403,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimited broadcast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "BroadcastIP4",
           "package": "network-ip",
@@ -413,6 +448,7 @@
         "index": {
           "description": "Limited broadcast",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "BroadcastIP4",
           "package": "network-ip",
@@ -427,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDual-Stack Lite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "DSLiteIP4",
           "package": "network-ip",
@@ -437,6 +474,7 @@
         "index": {
           "description": "Dual-Stack Lite",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "DSLiteIP4",
           "package": "network-ip",
@@ -451,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "DiscardIP6",
           "package": "network-ip",
@@ -461,6 +500,7 @@
         "index": {
           "description": "Discard address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "DiscardIP6",
           "package": "network-ip",
@@ -475,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved for documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "DocumentationIP4",
           "package": "network-ip",
@@ -485,6 +526,7 @@
         "index": {
           "description": "Reserved for documentation",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "DocumentationIP4",
           "package": "network-ip",
@@ -499,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved for documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "DocumentationIP6",
           "package": "network-ip",
@@ -509,6 +552,7 @@
         "index": {
           "description": "Reserved for documentation",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "DocumentationIP6",
           "package": "network-ip",
@@ -523,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFuture use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "FutureUseIP4",
           "package": "network-ip",
@@ -533,6 +578,7 @@
         "index": {
           "description": "Future use",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "FutureUseIP4",
           "package": "network-ip",
@@ -547,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral IPv4 address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "GeneralIP4",
           "package": "network-ip",
@@ -557,6 +604,7 @@
         "index": {
           "description": "General IPv4 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "GeneralIP4",
           "package": "network-ip",
@@ -571,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral IPv6 address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "GeneralIP6",
           "package": "network-ip",
@@ -581,6 +630,7 @@
         "index": {
           "description": "General IPv6 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "GeneralIP6",
           "package": "network-ip",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "IP4",
           "package": "network-ip",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "IP4",
           "package": "network-ip",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbedded IPv4 address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "IP4EmbeddedIP6",
           "package": "network-ip",
@@ -627,6 +680,7 @@
         "index": {
           "description": "Embedded IPv4 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "IP4EmbeddedIP6",
           "package": "network-ip",
@@ -641,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapped IPv4 address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "IP4MappedIP6",
           "package": "network-ip",
@@ -651,6 +706,7 @@
         "index": {
           "description": "Mapped IPv4 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "IP4MappedIP6",
           "package": "network-ip",
@@ -664,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "IP6",
           "package": "network-ip",
@@ -673,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "IP6",
           "package": "network-ip",
@@ -687,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e6to4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "IP6To4IP4",
           "package": "network-ip",
@@ -697,6 +756,7 @@
         "index": {
           "description": "to4",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "IP6To4IP4",
           "package": "network-ip",
@@ -711,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e6to4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "IP6To4IP6",
           "package": "network-ip",
@@ -721,6 +782,7 @@
         "index": {
           "description": "to4",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "IP6To4IP6",
           "package": "network-ip",
@@ -734,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "IPv4",
           "package": "network-ip",
@@ -743,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "IPv4",
           "package": "network-ip",
@@ -756,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "IPv6",
           "package": "network-ip",
@@ -765,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "IPv6",
           "package": "network-ip",
@@ -778,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "InetAddr",
           "package": "network-ip",
@@ -787,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "InetAddr",
           "package": "network-ip",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "InetPort",
           "package": "network-ip",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "InetPort",
           "package": "network-ip",
@@ -823,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink local address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "LinkLocalIP4",
           "package": "network-ip",
@@ -833,6 +904,7 @@
         "index": {
           "description": "Link local address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "LinkLocalIP4",
           "package": "network-ip",
@@ -847,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink local address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "LinkLocalIP6",
           "package": "network-ip",
@@ -857,6 +930,7 @@
         "index": {
           "description": "Link local address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "LinkLocalIP6",
           "package": "network-ip",
@@ -871,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoopback address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "LoopbackIP4",
           "package": "network-ip",
@@ -881,6 +956,7 @@
         "index": {
           "description": "Loopback address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "LoopbackIP4",
           "package": "network-ip",
@@ -895,6 +971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoopback address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "LoopbackIP6",
           "package": "network-ip",
@@ -905,6 +982,7 @@
         "index": {
           "description": "Loopback address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "LoopbackIP6",
           "package": "network-ip",
@@ -919,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMulticast address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "MulticastIP4",
           "package": "network-ip",
@@ -929,6 +1008,7 @@
         "index": {
           "description": "Multicast address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "MulticastIP4",
           "package": "network-ip",
@@ -943,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMulticast address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "MulticastIP6",
           "package": "network-ip",
@@ -953,6 +1034,7 @@
         "index": {
           "description": "Multicast address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "MulticastIP6",
           "package": "network-ip",
@@ -967,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eORCHID address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "OrchidIP6",
           "package": "network-ip",
@@ -977,6 +1060,7 @@
         "index": {
           "description": "ORCHID address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "OrchidIP6",
           "package": "network-ip",
@@ -991,6 +1075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrivate-Use networks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "PrivateUseIP4",
           "package": "network-ip",
@@ -1001,6 +1086,7 @@
         "index": {
           "description": "Private-Use networks",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "PrivateUseIP4",
           "package": "network-ip",
@@ -1015,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ReservedIP4",
           "package": "network-ip",
@@ -1025,6 +1112,7 @@
         "index": {
           "description": "Reserved address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ReservedIP4",
           "package": "network-ip",
@@ -1039,6 +1127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ReservedIP6",
           "package": "network-ip",
@@ -1049,6 +1138,7 @@
         "index": {
           "description": "Reserved address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ReservedIP6",
           "package": "network-ip",
@@ -1063,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShared address space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "SharedSpaceIP4",
           "package": "network-ip",
@@ -1073,6 +1164,7 @@
         "index": {
           "description": "Shared address space",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "SharedSpaceIP4",
           "package": "network-ip",
@@ -1087,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTeredo address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "TeredoIP6",
           "package": "network-ip",
@@ -1097,6 +1190,7 @@
         "index": {
           "description": "Teredo address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "TeredoIP6",
           "package": "network-ip",
@@ -1111,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis host on this network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ThisHostIP4",
           "package": "network-ip",
@@ -1121,6 +1216,7 @@
         "index": {
           "description": "This host on this network",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ThisHostIP4",
           "package": "network-ip",
@@ -1135,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique local address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "UniqueLocalIP6",
           "package": "network-ip",
@@ -1145,6 +1242,7 @@
         "index": {
           "description": "Unique local address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "UniqueLocalIP6",
           "package": "network-ip",
@@ -1159,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNet4Addr\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "aNet4Addr",
           "package": "network-ip",
@@ -1169,6 +1268,7 @@
         "index": {
           "description": "Net4Addr proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "aNet4Addr",
           "package": "network-ip",
@@ -1183,6 +1283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNet6Addr\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "aNet6Addr",
           "package": "network-ip",
@@ -1193,6 +1294,7 @@
         "index": {
           "description": "Net6Addr proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "aNet6Addr",
           "package": "network-ip",
@@ -1207,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNetAddr\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "aNetAddr",
           "package": "network-ip",
@@ -1217,6 +1320,7 @@
         "index": {
           "description": "NetAddr proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "aNetAddr",
           "package": "network-ip",
@@ -1231,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNetAddr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIP\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "aNetAddrIP",
           "package": "network-ip",
@@ -1241,6 +1346,7 @@
         "index": {
           "description": "NetAddr IP proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "aNetAddrIP",
           "package": "network-ip",
@@ -1255,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNetAddr\u003c/a\u003e\u003c/code\u003e \u003cem\u003ea\u003c/em\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "aNetAddrOf",
           "package": "network-ip",
@@ -1265,6 +1372,7 @@
         "index": {
           "description": "NetAddr proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "aNetAddrOf",
           "normalized": "Proxy a-\u003eProxy(NetAddr a)",
@@ -1281,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIP\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "anIP",
           "package": "network-ip",
@@ -1291,6 +1400,7 @@
         "index": {
           "description": "IP proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "anIP",
           "package": "network-ip",
@@ -1305,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIP4\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "anIP4",
           "package": "network-ip",
@@ -1315,6 +1426,7 @@
         "index": {
           "description": "IP4 proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "anIP4",
           "package": "network-ip",
@@ -1329,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIP6\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "anIP6",
           "package": "network-ip",
@@ -1339,6 +1452,7 @@
         "index": {
           "description": "IP6 proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "anIP6",
           "package": "network-ip",
@@ -1353,6 +1467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInet4Addr\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "anInet4Addr",
           "package": "network-ip",
@@ -1363,6 +1478,7 @@
         "index": {
           "description": "Inet4Addr proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "anInet4Addr",
           "package": "network-ip",
@@ -1377,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInet6Addr\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "anInet6Addr",
           "package": "network-ip",
@@ -1387,6 +1504,7 @@
         "index": {
           "description": "Inet6Addr proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "anInet6Addr",
           "package": "network-ip",
@@ -1401,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInetAddr\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "anInetAddr",
           "package": "network-ip",
@@ -1411,6 +1530,7 @@
         "index": {
           "description": "InetAddr proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "anInetAddr",
           "package": "network-ip",
@@ -1425,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInetAddr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIP\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "anInetAddrIP",
           "package": "network-ip",
@@ -1435,6 +1556,7 @@
         "index": {
           "description": "InetAddr IP proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "anInetAddrIP",
           "package": "network-ip",
@@ -1449,6 +1571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInetAddr\u003c/a\u003e\u003c/code\u003e \u003cem\u003ea\u003c/em\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "anInetAddrOf",
           "package": "network-ip",
@@ -1459,6 +1582,7 @@
         "index": {
           "description": "InetAddr proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "anInetAddrOf",
           "normalized": "Proxy a-\u003eProxy(InetAddr a)",
@@ -1475,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInetPort\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "anInetPort",
           "package": "network-ip",
@@ -1485,6 +1610,7 @@
         "index": {
           "description": "InetPort proxy value",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "anInetPort",
           "package": "network-ip",
@@ -1499,6 +1625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv4 address \u003ccode\u003e0.0.0.0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "anyIP4",
           "package": "network-ip",
@@ -1509,6 +1636,7 @@
         "index": {
           "description": "IPv4 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "anyIP4",
           "package": "network-ip",
@@ -1523,6 +1651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv6 address \u003ccode\u003e::\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "anyIP6",
           "package": "network-ip",
@@ -1533,6 +1662,7 @@
         "index": {
           "description": "IPv6 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "anyIP6",
           "package": "network-ip",
@@ -1547,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv4 address \u003ccode\u003e255.255.255.255\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "broadcastIP4",
           "package": "network-ip",
@@ -1557,6 +1688,7 @@
         "index": {
           "description": "IPv4 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "broadcastIP4",
           "package": "network-ip",
@@ -1571,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the address is in the network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "inNetwork",
           "package": "network-ip",
@@ -1581,6 +1714,7 @@
         "index": {
           "description": "Test if the address is in the network",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "inNetwork",
           "package": "network-ip",
@@ -1594,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "inetHost",
           "package": "network-ip",
@@ -1603,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "inetHost",
           "package": "network-ip",
@@ -1616,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "inetPort",
           "package": "network-ip",
@@ -1625,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "inetPort",
           "package": "network-ip",
@@ -1639,6 +1777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssemble IPv4 address from the octet list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ip4FromOctetList",
           "package": "network-ip",
@@ -1649,6 +1788,7 @@
         "index": {
           "description": "Assemble IPv4 address from the octet list",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ip4FromOctetList",
           "normalized": "[Word]-\u003eMaybe IP",
@@ -1665,6 +1805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssemble IPv4 address from the octets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ip4FromOctets",
           "package": "network-ip",
@@ -1675,6 +1816,7 @@
         "index": {
           "description": "Assemble IPv4 address from the octets",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ip4FromOctets",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eIP",
@@ -1691,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the address range type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ip4Range",
           "package": "network-ip",
@@ -1701,6 +1844,7 @@
         "index": {
           "description": "Determine the address range type",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ip4Range",
           "normalized": "IP-\u003eRange",
@@ -1717,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the octets of an IPv4 address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ip4ToOctetList",
           "package": "network-ip",
@@ -1727,6 +1872,7 @@
         "index": {
           "description": "List the octets of an IPv4 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ip4ToOctetList",
           "normalized": "IP-\u003e[Word]",
@@ -1743,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe octets of an IPv4 address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ip4ToOctets",
           "package": "network-ip",
@@ -1753,6 +1900,7 @@
         "index": {
           "description": "The octets of an IPv4 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ip4ToOctets",
           "normalized": "IP-\u003e(Word,Word,Word,Word)",
@@ -1769,6 +1917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssemble IPv6 address from the list of 16-bit pieces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ip6FromWordList",
           "package": "network-ip",
@@ -1779,6 +1928,7 @@
         "index": {
           "description": "Assemble IPv6 address from the list of bit pieces",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ip6FromWordList",
           "normalized": "[Word]-\u003eMaybe IP",
@@ -1795,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssemble IPv6 address from the 16-bit pieces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ip6FromWords",
           "package": "network-ip",
@@ -1805,6 +1956,7 @@
         "index": {
           "description": "Assemble IPv6 address from the bit pieces",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ip6FromWords",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eIP",
@@ -1821,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the address range type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ip6Range",
           "package": "network-ip",
@@ -1831,6 +1984,7 @@
         "index": {
           "description": "Determine the address range type",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ip6Range",
           "normalized": "IP-\u003eRange",
@@ -1847,6 +2001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the 16-bit pieces of an IPv6 address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ip6ToWordList",
           "package": "network-ip",
@@ -1857,6 +2012,7 @@
         "index": {
           "description": "List the bit pieces of an IPv6 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ip6ToWordList",
           "normalized": "IP-\u003e[Word]",
@@ -1873,6 +2029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 16-bit pieces of an IPv6 address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "ip6ToWords",
           "package": "network-ip",
@@ -1883,6 +2040,7 @@
         "index": {
           "description": "The bit pieces of an IPv6 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "ip6ToWords",
           "normalized": "IP-\u003e(Word,Word,Word,Word,Word,Word,Word,Word)",
@@ -1899,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv4 address \u003ccode\u003e127.0.0.1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "loopbackIP4",
           "package": "network-ip",
@@ -1909,6 +2068,7 @@
         "index": {
           "description": "IPv4 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "loopbackIP4",
           "package": "network-ip",
@@ -1923,6 +2083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv6 address \u003ccode\u003e::1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "loopbackIP6",
           "package": "network-ip",
@@ -1933,6 +2094,7 @@
         "index": {
           "description": "IPv6 address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "loopbackIP6",
           "package": "network-ip",
@@ -1946,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "net4Addr",
           "package": "network-ip",
@@ -1955,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "net4Addr",
           "normalized": "IP-\u003eWord-\u003eNet Addr",
@@ -1971,6 +2135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv4 network address parser (CIDR notation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "net4Parser",
           "package": "network-ip",
@@ -1981,6 +2146,7 @@
         "index": {
           "description": "IPv4 network address parser CIDR notation",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "net4Parser",
           "package": "network-ip",
@@ -1994,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "net6Addr",
           "package": "network-ip",
@@ -2003,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "net6Addr",
           "normalized": "IP-\u003eWord-\u003eNet Addr",
@@ -2019,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv6 network address parser (CIDR notation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "net6Parser",
           "package": "network-ip",
@@ -2029,6 +2198,7 @@
         "index": {
           "description": "IPv6 network address parser CIDR notation",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "net6Parser",
           "package": "network-ip",
@@ -2043,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a network address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "netAddr",
           "package": "network-ip",
@@ -2053,6 +2224,7 @@
         "index": {
           "description": "Make network address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "netAddr",
           "package": "network-ip",
@@ -2067,6 +2239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "netHost",
           "package": "network-ip",
@@ -2077,6 +2250,7 @@
         "index": {
           "description": "Host address",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "netHost",
           "normalized": "a-\u003eNetHost a",
@@ -2093,6 +2267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "netHostIx",
           "package": "network-ip",
@@ -2103,6 +2278,7 @@
         "index": {
           "description": "Host index",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "netHostIx",
           "normalized": "a-\u003eNetHost a",
@@ -2119,6 +2295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNetwork prefix length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "netLength",
           "package": "network-ip",
@@ -2129,6 +2306,7 @@
         "index": {
           "description": "Network prefix length",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "netLength",
           "normalized": "a-\u003eWord",
@@ -2145,6 +2323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNetwork mask.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "netMask",
           "package": "network-ip",
@@ -2155,6 +2334,7 @@
         "index": {
           "description": "Network mask",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "netMask",
           "normalized": "a-\u003eNetHost a",
@@ -2171,6 +2351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIP network address parser (CIDR notation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "netParser",
           "package": "network-ip",
@@ -2181,6 +2362,7 @@
         "index": {
           "description": "IP network address parser CIDR notation",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "netParser",
           "package": "network-ip",
@@ -2195,6 +2377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNetwork prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "netPrefix",
           "package": "network-ip",
@@ -2205,6 +2388,7 @@
         "index": {
           "description": "Network prefix",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "netPrefix",
           "normalized": "a-\u003eNetHost a",
@@ -2221,6 +2405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint network address (CIDR notation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "printNetAddr",
           "package": "network-ip",
@@ -2231,6 +2416,7 @@
         "index": {
           "description": "Print network address CIDR notation",
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "printNetAddr",
           "normalized": "a-\u003eb",
@@ -2246,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "unIP4",
           "package": "network-ip",
@@ -2255,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "unIP4",
           "package": "network-ip",
@@ -2268,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "unIP6",
           "package": "network-ip",
@@ -2277,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "unIP6",
           "package": "network-ip",
@@ -2290,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:03 UTC 2014",
           "module": "Network.IP.Addr",
           "name": "unInetPort",
           "package": "network-ip",
@@ -2299,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Network IP Addr",
+          "indexed": "2014-03-11T19:28:03",
           "module": "Network.IP.Addr",
           "name": "unInetPort",
           "package": "network-ip",

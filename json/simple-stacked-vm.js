@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-stacked-vm"
+        "phrase": "simple-stacked-vm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Binary",
           "name": "Binary",
           "package": "simple-stacked-vm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Binary",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Binary",
           "name": "Binary",
           "package": "simple-stacked-vm",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump bytecode to file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Binary",
           "name": "dumpCode",
           "package": "simple-stacked-vm",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Dump bytecode to file",
           "hierarchy": "Language SSVM Binary",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Binary",
           "name": "dumpCode",
           "normalized": "FilePath-\u003eCode-\u003eIO()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad bytecode from file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Binary",
           "name": "loadCode",
           "package": "simple-stacked-vm",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Load bytecode from file",
           "hierarchy": "Language SSVM Binary",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Binary",
           "name": "loadCode",
           "normalized": "FilePath-\u003eIO Code",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Interpreter",
           "name": "Interpreter",
           "package": "simple-stacked-vm",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Interpreter",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Interpreter",
           "name": "Interpreter",
           "package": "simple-stacked-vm",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Interpreter",
           "name": "interpret",
           "package": "simple-stacked-vm",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Interpret code",
           "hierarchy": "Language SSVM Interpreter",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Interpreter",
           "name": "interpret",
           "normalized": "Code-\u003eVM()",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun VM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Interpreter",
           "name": "runVM",
           "package": "simple-stacked-vm",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Run VM",
           "hierarchy": "Language SSVM Interpreter",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Interpreter",
           "name": "runVM",
           "normalized": "VM()-\u003eIO()",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Interpreter",
           "name": "runVM'",
           "package": "simple-stacked-vm",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Interpreter",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Interpreter",
           "name": "runVM'",
           "normalized": "VMState-\u003eVM()-\u003eIO()",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun VM in trace mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Interpreter",
           "name": "traceVM",
           "package": "simple-stacked-vm",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Run VM in trace mode",
           "hierarchy": "Language SSVM Interpreter",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Interpreter",
           "name": "traceVM",
           "normalized": "VM()-\u003eIO()",
@@ -213,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "Operations",
           "package": "simple-stacked-vm",
@@ -221,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "Operations",
           "package": "simple-stacked-vm",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "absF",
           "package": "simple-stacked-vm",
@@ -243,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "absF",
           "normalized": "VM()",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "add",
           "package": "simple-stacked-vm",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "add",
           "normalized": "VM()",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate an array\n (size variable-number -- )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "allocArray",
           "package": "simple-stacked-vm",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Allocate an array size variable-number",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "allocArray",
           "normalized": "VM()",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign value to variable\n (value variable-number -- )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "assign",
           "package": "simple-stacked-vm",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Assign value to variable value variable-number",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "assign",
           "normalized": "VM()",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign value to array item.\n (value array-or-variable-number index -- )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "assignArray",
           "package": "simple-stacked-vm",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Assign value to array item value array-or-variable-number index",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "assignArray",
           "normalized": "VM()",
@@ -357,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "cmpF",
           "package": "simple-stacked-vm",
@@ -366,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "cmpF",
           "normalized": "VM()",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "define",
           "package": "simple-stacked-vm",
@@ -391,6 +422,7 @@
         "index": {
           "description": "Define word",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "define",
           "normalized": "VM()",
@@ -405,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "divide",
           "package": "simple-stacked-vm",
@@ -414,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "divide",
           "normalized": "VM()",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuplicate stack head\n (a -- a a)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "dup",
           "package": "simple-stacked-vm",
@@ -439,6 +474,7 @@
         "index": {
           "description": "Duplicate stack head",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "dup",
           "normalized": "VM()",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet mark by name\n ( -- pc)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "getMark",
           "package": "simple-stacked-vm",
@@ -464,6 +501,7 @@
         "index": {
           "description": "Get mark by name pc",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "getMark",
           "normalized": "[Marks]-\u003eString-\u003eVM()",
@@ -480,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet PC from stack\n (pc -- )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "goto",
           "package": "simple-stacked-vm",
@@ -490,6 +529,7 @@
         "index": {
           "description": "Get PC from stack pc",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "goto",
           "normalized": "VM()",
@@ -505,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead value from stdin\n ( -- value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "input",
           "package": "simple-stacked-vm",
@@ -515,6 +556,7 @@
         "index": {
           "description": "Read value from stdin value",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "input",
           "normalized": "VM()",
@@ -530,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJump to given address if condition is satisfied\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "jumpIf",
           "package": "simple-stacked-vm",
@@ -540,6 +583,7 @@
         "index": {
           "description": "Jump to given address if condition is satisfied",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "jumpIf",
           "normalized": "(Integer-\u003eBool)-\u003eVM()",
@@ -556,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark at current PC\n ( -- pc)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "mark",
           "package": "simple-stacked-vm",
@@ -566,6 +611,7 @@
         "index": {
           "description": "Mark at current PC pc",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "mark",
           "normalized": "VM()",
@@ -580,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "mul",
           "package": "simple-stacked-vm",
@@ -589,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "mul",
           "normalized": "VM()",
@@ -603,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "neg",
           "package": "simple-stacked-vm",
@@ -612,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "neg",
           "normalized": "VM()",
@@ -627,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(a b -- a b a)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "over",
           "package": "simple-stacked-vm",
@@ -636,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "over",
           "normalized": "VM()",
@@ -651,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop stack head\n (a -- )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "pop",
           "package": "simple-stacked-vm",
@@ -661,6 +714,7 @@
         "index": {
           "description": "Drop stack head",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "pop",
           "normalized": "VM()",
@@ -676,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint current definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "printCurrentDef",
           "package": "simple-stacked-vm",
@@ -686,6 +741,7 @@
         "index": {
           "description": "Print current definition",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "printCurrentDef",
           "normalized": "VM()",
@@ -702,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint stack head\n (a -- )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "printF",
           "package": "simple-stacked-vm",
@@ -712,6 +769,7 @@
         "index": {
           "description": "Print stack head",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "printF",
           "normalized": "VM()",
@@ -727,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint stack content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "printStack",
           "package": "simple-stacked-vm",
@@ -737,6 +796,7 @@
         "index": {
           "description": "Print stack content",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "printStack",
           "normalized": "VM()",
@@ -753,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush value to the stack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "push",
           "package": "simple-stacked-vm",
@@ -763,6 +824,7 @@
         "index": {
           "description": "Push value to the stack",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "push",
           "normalized": "a-\u003eVM()",
@@ -778,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd item to current definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "pushD",
           "package": "simple-stacked-vm",
@@ -788,6 +851,7 @@
         "index": {
           "description": "Add item to current definition",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "pushD",
           "normalized": "StackItem-\u003eVM()",
@@ -803,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush stack item to the stack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "pushS",
           "package": "simple-stacked-vm",
@@ -813,6 +878,7 @@
         "index": {
           "description": "Push stack item to the stack",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "pushS",
           "normalized": "StackItem-\u003eVM()",
@@ -828,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead item from array.\n (array-or-variable-number index -- value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "readArray",
           "package": "simple-stacked-vm",
@@ -838,6 +905,7 @@
         "index": {
           "description": "Read item from array array-or-variable-number index value",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "readArray",
           "normalized": "VM()",
@@ -854,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead variable value\n (variable-number -- value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "readVar",
           "package": "simple-stacked-vm",
@@ -864,6 +933,7 @@
         "index": {
           "description": "Read variable value variable-number value",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "readVar",
           "normalized": "VM()",
@@ -880,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecall word definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "recall",
           "package": "simple-stacked-vm",
@@ -890,6 +961,7 @@
         "index": {
           "description": "Recall word definition",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "recall",
           "normalized": "String-\u003eVM Definition",
@@ -904,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "remF",
           "package": "simple-stacked-vm",
@@ -913,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "remF",
           "normalized": "VM()",
@@ -928,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement PC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "step",
           "package": "simple-stacked-vm",
@@ -938,6 +1013,7 @@
         "index": {
           "description": "Increment PC",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "step",
           "normalized": "VM()",
@@ -952,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "sub",
           "package": "simple-stacked-vm",
@@ -961,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "sub",
           "normalized": "VM()",
@@ -976,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap two top items on the stack\n (a b -- b a)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "swap",
           "package": "simple-stacked-vm",
@@ -986,6 +1065,7 @@
         "index": {
           "description": "Swap two top items on the stack",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "swap",
           "normalized": "VM()",
@@ -1001,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Operations",
           "name": "variable",
           "package": "simple-stacked-vm",
@@ -1011,6 +1092,7 @@
         "index": {
           "description": "Define variable",
           "hierarchy": "Language SSVM Operations",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Operations",
           "name": "variable",
           "normalized": "VM()",
@@ -1025,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Parser",
           "name": "Parser",
           "package": "simple-stacked-vm",
@@ -1033,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Parser",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Parser",
           "name": "Parser",
           "package": "simple-stacked-vm",
@@ -1046,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Parser",
           "name": "parseSourceFile",
           "package": "simple-stacked-vm",
@@ -1055,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Parser",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Parser",
           "name": "parseSourceFile",
           "normalized": "FilePath-\u003eIO(Either ParseError Code)",
@@ -1070,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Parser",
           "name": "parseVM",
           "package": "simple-stacked-vm",
@@ -1079,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Parser",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Parser",
           "name": "parseVM",
           "normalized": "FilePath-\u003eString-\u003eEither ParseError Code",
@@ -1094,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "Types",
           "package": "simple-stacked-vm",
@@ -1102,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "Types",
           "package": "simple-stacked-vm",
@@ -1116,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVM code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "Code",
           "package": "simple-stacked-vm",
@@ -1125,6 +1216,7 @@
         "index": {
           "description": "VM code",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "Code",
           "package": "simple-stacked-vm",
@@ -1138,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "DArray",
           "package": "simple-stacked-vm",
@@ -1146,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "DArray",
           "package": "simple-stacked-vm",
@@ -1160,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWord definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "Definition",
           "package": "simple-stacked-vm",
@@ -1169,6 +1264,7 @@
         "index": {
           "description": "Word definition",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "Definition",
           "package": "simple-stacked-vm",
@@ -1183,6 +1279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVM instructions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "Instruction",
           "package": "simple-stacked-vm",
@@ -1192,6 +1289,7 @@
         "index": {
           "description": "VM instructions",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "Instruction",
           "package": "simple-stacked-vm",
@@ -1205,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "Marks",
           "package": "simple-stacked-vm",
@@ -1213,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "Marks",
           "package": "simple-stacked-vm",
@@ -1226,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "Stack",
           "package": "simple-stacked-vm",
@@ -1234,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "Stack",
           "package": "simple-stacked-vm",
@@ -1248,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStack item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "StackItem",
           "package": "simple-stacked-vm",
@@ -1257,6 +1360,7 @@
         "index": {
           "description": "Stack item",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "StackItem",
           "package": "simple-stacked-vm",
@@ -1270,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "StackType",
           "package": "simple-stacked-vm",
@@ -1278,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "StackType",
           "package": "simple-stacked-vm",
@@ -1292,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVM monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "VM",
           "package": "simple-stacked-vm",
@@ -1301,6 +1408,7 @@
         "index": {
           "description": "VM monad",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "VM",
           "package": "simple-stacked-vm",
@@ -1315,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVM state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "VMState",
           "package": "simple-stacked-vm",
@@ -1324,6 +1433,7 @@
         "index": {
           "description": "VM state",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "VMState",
           "package": "simple-stacked-vm",
@@ -1337,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "ABS",
           "package": "simple-stacked-vm",
@@ -1346,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "ABS",
           "package": "simple-stacked-vm",
@@ -1359,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "ADD",
           "package": "simple-stacked-vm",
@@ -1368,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "ADD",
           "package": "simple-stacked-vm",
@@ -1381,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "ARRAY",
           "package": "simple-stacked-vm",
@@ -1390,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "ARRAY",
           "package": "simple-stacked-vm",
@@ -1403,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "ASSIGN",
           "package": "simple-stacked-vm",
@@ -1412,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "ASSIGN",
           "package": "simple-stacked-vm",
@@ -1425,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "ASSIGN_ARRAY",
           "package": "simple-stacked-vm",
@@ -1434,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "ASSIGN_ARRAY",
           "package": "simple-stacked-vm",
@@ -1448,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall named user-defined word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "CALL",
           "package": "simple-stacked-vm",
@@ -1458,6 +1579,7 @@
         "index": {
           "description": "Call named user-defined word",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "CALL",
           "package": "simple-stacked-vm",
@@ -1471,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "CMP",
           "package": "simple-stacked-vm",
@@ -1480,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "CMP",
           "package": "simple-stacked-vm",
@@ -1493,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "COLON",
           "package": "simple-stacked-vm",
@@ -1502,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "COLON",
           "package": "simple-stacked-vm",
@@ -1515,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "Code",
           "package": "simple-stacked-vm",
@@ -1524,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "Code",
           "package": "simple-stacked-vm",
@@ -1537,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "DEFINE",
           "package": "simple-stacked-vm",
@@ -1546,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "DEFINE",
           "package": "simple-stacked-vm",
@@ -1559,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "DIV",
           "package": "simple-stacked-vm",
@@ -1568,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "DIV",
           "package": "simple-stacked-vm",
@@ -1581,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "DROP",
           "package": "simple-stacked-vm",
@@ -1590,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "DROP",
           "package": "simple-stacked-vm",
@@ -1603,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "DUP",
           "package": "simple-stacked-vm",
@@ -1612,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "DUP",
           "package": "simple-stacked-vm",
@@ -1625,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "Definition",
           "package": "simple-stacked-vm",
@@ -1634,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "Definition",
           "package": "simple-stacked-vm",
@@ -1647,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "GETMARK",
           "package": "simple-stacked-vm",
@@ -1656,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "GETMARK",
           "package": "simple-stacked-vm",
@@ -1669,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "GOTO",
           "package": "simple-stacked-vm",
@@ -1678,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "GOTO",
           "package": "simple-stacked-vm",
@@ -1691,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "INPUT",
           "package": "simple-stacked-vm",
@@ -1700,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "INPUT",
           "package": "simple-stacked-vm",
@@ -1713,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "JGE",
           "package": "simple-stacked-vm",
@@ -1722,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "JGE",
           "package": "simple-stacked-vm",
@@ -1735,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "JGT",
           "package": "simple-stacked-vm",
@@ -1744,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "JGT",
           "package": "simple-stacked-vm",
@@ -1757,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "JLE",
           "package": "simple-stacked-vm",
@@ -1766,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "JLE",
           "package": "simple-stacked-vm",
@@ -1779,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "JLT",
           "package": "simple-stacked-vm",
@@ -1788,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "JLT",
           "package": "simple-stacked-vm",
@@ -1801,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "JNZ",
           "package": "simple-stacked-vm",
@@ -1810,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "JNZ",
           "package": "simple-stacked-vm",
@@ -1823,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "JZ",
           "package": "simple-stacked-vm",
@@ -1832,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "JZ",
           "package": "simple-stacked-vm",
@@ -1845,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "MARK",
           "package": "simple-stacked-vm",
@@ -1854,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "MARK",
           "package": "simple-stacked-vm",
@@ -1867,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "MUL",
           "package": "simple-stacked-vm",
@@ -1876,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "MUL",
           "package": "simple-stacked-vm",
@@ -1889,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "NEG",
           "package": "simple-stacked-vm",
@@ -1898,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "NEG",
           "package": "simple-stacked-vm",
@@ -1912,6 +2074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "NOP",
           "package": "simple-stacked-vm",
@@ -1922,6 +2085,7 @@
         "index": {
           "description": "Do nothing",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "NOP",
           "package": "simple-stacked-vm",
@@ -1935,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "OVER",
           "package": "simple-stacked-vm",
@@ -1944,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "OVER",
           "package": "simple-stacked-vm",
@@ -1957,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "PRINT",
           "package": "simple-stacked-vm",
@@ -1966,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "PRINT",
           "package": "simple-stacked-vm",
@@ -1979,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "PRINTALL",
           "package": "simple-stacked-vm",
@@ -1988,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "PRINTALL",
           "package": "simple-stacked-vm",
@@ -2001,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "PUSH",
           "package": "simple-stacked-vm",
@@ -2010,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "PUSH",
           "package": "simple-stacked-vm",
@@ -2023,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "Quote",
           "package": "simple-stacked-vm",
@@ -2032,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "Quote",
           "package": "simple-stacked-vm",
@@ -2045,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "READ",
           "package": "simple-stacked-vm",
@@ -2054,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "READ",
           "package": "simple-stacked-vm",
@@ -2067,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "READ_ARRAY",
           "package": "simple-stacked-vm",
@@ -2076,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "READ_ARRAY",
           "package": "simple-stacked-vm",
@@ -2089,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "REM",
           "package": "simple-stacked-vm",
@@ -2098,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "REM",
           "package": "simple-stacked-vm",
@@ -2111,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "SArray",
           "package": "simple-stacked-vm",
@@ -2120,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "SArray",
           "package": "simple-stacked-vm",
@@ -2133,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "SInstruction",
           "package": "simple-stacked-vm",
@@ -2142,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "SInstruction",
           "package": "simple-stacked-vm",
@@ -2155,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "SInteger",
           "package": "simple-stacked-vm",
@@ -2164,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "SInteger",
           "package": "simple-stacked-vm",
@@ -2177,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "SString",
           "package": "simple-stacked-vm",
@@ -2186,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "SString",
           "package": "simple-stacked-vm",
@@ -2199,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "SUB",
           "package": "simple-stacked-vm",
@@ -2208,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "SUB",
           "package": "simple-stacked-vm",
@@ -2221,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "SWAP",
           "package": "simple-stacked-vm",
@@ -2230,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "SWAP",
           "package": "simple-stacked-vm",
@@ -2243,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "VARIABLE",
           "package": "simple-stacked-vm",
@@ -2252,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "VARIABLE",
           "package": "simple-stacked-vm",
@@ -2265,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "VMState",
           "package": "simple-stacked-vm",
@@ -2274,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "VMState",
           "package": "simple-stacked-vm",
@@ -2287,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "cCode",
           "package": "simple-stacked-vm",
@@ -2296,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "cCode",
           "normalized": "[StackItem]",
@@ -2312,6 +2510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emarks stack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "cMarks",
           "package": "simple-stacked-vm",
@@ -2322,6 +2521,7 @@
         "index": {
           "description": "marks stack",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "cMarks",
           "normalized": "[Marks]",
@@ -2338,6 +2538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarting VM state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "emptyVMState",
           "package": "simple-stacked-vm",
@@ -2348,6 +2549,7 @@
         "index": {
           "description": "Starting VM state",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "emptyVMState",
           "package": "simple-stacked-vm",
@@ -2361,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "fromStack",
           "package": "simple-stacked-vm",
@@ -2370,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "fromStack",
           "normalized": "StackItem-\u003eMaybe a",
@@ -2385,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "showCode",
           "package": "simple-stacked-vm",
@@ -2394,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "showCode",
           "normalized": "Code-\u003eString",
@@ -2409,6 +2615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "showItem",
           "package": "simple-stacked-vm",
@@ -2418,6 +2625,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "showItem",
           "normalized": "StackItem-\u003eString",
@@ -2433,6 +2641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "showMarks",
           "package": "simple-stacked-vm",
@@ -2442,6 +2651,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "showMarks",
           "normalized": "Marks-\u003eString",
@@ -2457,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "showPrint",
           "package": "simple-stacked-vm",
@@ -2466,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "showPrint",
           "normalized": "StackItem-\u003eString",
@@ -2482,6 +2694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow type of item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "showType",
           "package": "simple-stacked-vm",
@@ -2492,6 +2705,7 @@
         "index": {
           "description": "Show type of item",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "showType",
           "normalized": "StackItem-\u003eString",
@@ -2507,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "toStack",
           "package": "simple-stacked-vm",
@@ -2516,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "toStack",
           "normalized": "a-\u003eStackItem",
@@ -2532,6 +2748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "vmCurrentDefinition",
           "package": "simple-stacked-vm",
@@ -2542,6 +2759,7 @@
         "index": {
           "description": "current definition",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "vmCurrentDefinition",
           "package": "simple-stacked-vm",
@@ -2556,6 +2774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealready defined words\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "vmDefinitions",
           "package": "simple-stacked-vm",
@@ -2566,6 +2785,7 @@
         "index": {
           "description": "already defined words",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "vmDefinitions",
           "package": "simple-stacked-vm",
@@ -2580,6 +2800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enext variable number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "vmNextVariable",
           "package": "simple-stacked-vm",
@@ -2590,6 +2811,7 @@
         "index": {
           "description": "next variable number",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "vmNextVariable",
           "package": "simple-stacked-vm",
@@ -2604,6 +2826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprogram counter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "vmPC",
           "package": "simple-stacked-vm",
@@ -2614,6 +2837,7 @@
         "index": {
           "description": "program counter",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "vmPC",
           "package": "simple-stacked-vm",
@@ -2628,6 +2852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent VM stack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "vmStack",
           "package": "simple-stacked-vm",
@@ -2638,6 +2863,7 @@
         "index": {
           "description": "current VM stack",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "vmStack",
           "package": "simple-stacked-vm",
@@ -2652,6 +2878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etrace mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "vmTraceMode",
           "package": "simple-stacked-vm",
@@ -2662,6 +2889,7 @@
         "index": {
           "description": "trace mode",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "vmTraceMode",
           "package": "simple-stacked-vm",
@@ -2676,6 +2904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariables values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:17 UTC 2014",
           "module": "Language.SSVM.Types",
           "name": "vmVariables",
           "package": "simple-stacked-vm",
@@ -2686,6 +2915,7 @@
         "index": {
           "description": "variables values",
           "hierarchy": "Language SSVM Types",
+          "indexed": "2014-03-11T20:03:17",
           "module": "Language.SSVM.Types",
           "name": "vmVariables",
           "package": "simple-stacked-vm",

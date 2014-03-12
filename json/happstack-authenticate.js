@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happstack-authenticate"
+        "phrase": "happstack-authenticate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules provides templates and routing functions which can\n be used to integrate authentication into your site.\n\u003c/p\u003e\u003cp\u003eIn most cases, you only need to call the \u003ccode\u003e\u003ca\u003ehandleAuth\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003ehanldeProfile\u003c/code\u003e functions. The other functions are exported in case\n you wish to create your own alternatives to \u003ccode\u003e\u003ca\u003ehandleAuth\u003c/a\u003e\u003c/code\u003e /\n \u003ccode\u003e\u003ca\u003ehandleProfile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "Templates",
           "package": "happstack-authenticate",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This modules provides templates and routing functions which can be used to integrate authentication into your site In most cases you only need to call the handleAuth and hanldeProfile functions The other functions are exported in case you wish to create your own alternatives to handleAuth handleProfile",
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "Templates",
           "package": "happstack-authenticate",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "addAuthPage",
           "package": "happstack-authenticate",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "addAuthPage",
           "normalized": "Maybe Credentials-\u003ea Html",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "authPicker",
           "package": "happstack-authenticate",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "authPicker",
           "normalized": "Set AuthId-\u003ea Html",
@@ -115,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "changePasswordForm",
           "package": "happstack-authenticate",
@@ -124,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "changePasswordForm",
           "normalized": "AcidState AuthState-\u003eUserPass-\u003eAuthForm a Text",
@@ -139,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "changePasswordPage",
           "package": "happstack-authenticate",
@@ -148,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "changePasswordPage",
           "normalized": "AcidState AuthState-\u003e(String-\u003eHtml-\u003eHtml-\u003ea Response)-\u003eAuthURL-\u003ea Response",
@@ -163,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "createAccountPage",
           "package": "happstack-authenticate",
@@ -172,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "createAccountPage",
           "normalized": "AcidState AuthState-\u003e(String-\u003eHtml-\u003eHtml-\u003ea Response)-\u003eText-\u003eAuthURL-\u003ea Response",
@@ -187,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "genericOpenIdPage",
           "package": "happstack-authenticate",
@@ -196,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "genericOpenIdPage",
           "normalized": "(String-\u003eHtml-\u003eHtml-\u003ea Response)-\u003eAuthURL-\u003eAuthMode-\u003ea Response",
@@ -211,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "googlePage",
           "package": "happstack-authenticate",
@@ -220,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "googlePage",
           "normalized": "AuthURL-\u003eAuthMode-\u003ea Response",
@@ -337,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "liveJournalForm",
           "package": "happstack-authenticate",
@@ -346,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "liveJournalForm",
           "package": "happstack-authenticate",
@@ -359,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "liveJournalPage",
           "package": "happstack-authenticate",
@@ -368,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "liveJournalPage",
           "normalized": "(String-\u003eHtml-\u003eHtml-\u003ea Response)-\u003eAuthURL-\u003eAuthMode-\u003ea Response",
@@ -383,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "localLoginPage",
           "package": "happstack-authenticate",
@@ -392,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "localLoginPage",
           "normalized": "AcidState(EventState UserPassIdAuthIds)-\u003e(a-\u003ea-\u003eHtml-\u003eb Response)-\u003eAuthURL-\u003eText-\u003eb Response",
@@ -407,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "loginPage",
           "package": "happstack-authenticate",
@@ -416,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "loginPage",
           "normalized": "Maybe Credentials-\u003ea Html",
@@ -431,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "logoutPage",
           "package": "happstack-authenticate",
@@ -440,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "logoutPage",
           "normalized": "AcidState AuthState-\u003ea Html",
@@ -455,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "myspacePage",
           "package": "happstack-authenticate",
@@ -464,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "myspacePage",
           "normalized": "(String-\u003eHtml-\u003eHtml-\u003ea Response)-\u003eAuthURL-\u003eAuthMode-\u003ea Response",
@@ -479,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "newAccountForm",
           "package": "happstack-authenticate",
@@ -488,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "newAccountForm",
           "normalized": "AcidState AuthState-\u003eAuthForm a(AuthId,UserPassId)",
@@ -503,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "personalityPicker",
           "package": "happstack-authenticate",
@@ -512,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "personalityPicker",
           "normalized": "Set Profile-\u003ea Html",
@@ -527,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "providerPage",
           "package": "happstack-authenticate",
@@ -536,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "providerPage",
           "normalized": "(String-\u003eHtml-\u003eHtml-\u003ea Response)-\u003eOpenIdProvider-\u003eAuthURL-\u003eAuthMode-\u003ea Response",
@@ -551,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "yahooPage",
           "package": "happstack-authenticate",
@@ -560,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Blaze Templates",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Blaze.Templates",
           "name": "yahooPage",
           "normalized": "AuthURL-\u003eAuthMode-\u003ea Response",
@@ -575,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "Auth",
           "package": "happstack-authenticate",
@@ -583,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "Auth",
           "package": "happstack-authenticate",
@@ -596,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AddAuthMethod",
           "package": "happstack-authenticate",
@@ -604,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AddAuthMethod",
           "package": "happstack-authenticate",
@@ -617,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AddAuthToken",
           "package": "happstack-authenticate",
@@ -625,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AddAuthToken",
           "package": "happstack-authenticate",
@@ -638,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AddAuthUserPassId",
           "package": "happstack-authenticate",
@@ -646,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AddAuthUserPassId",
           "package": "happstack-authenticate",
@@ -659,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AskAuthState",
           "package": "happstack-authenticate",
@@ -667,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AskAuthState",
           "package": "happstack-authenticate",
@@ -680,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AskAuthToken",
           "package": "happstack-authenticate",
@@ -688,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AskAuthToken",
           "package": "happstack-authenticate",
@@ -701,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AskUserPass",
           "package": "happstack-authenticate",
@@ -709,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AskUserPass",
           "package": "happstack-authenticate",
@@ -722,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthId",
           "package": "happstack-authenticate",
@@ -730,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthId",
           "package": "happstack-authenticate",
@@ -744,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis links an authentication method (such as on OpenId \u003ccode\u003e\u003ca\u003eIdentifier\u003c/a\u003e\u003c/code\u003e, a \u003ccode\u003e\u003ca\u003eFacebookId\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eUserPassId\u003c/a\u003e\u003c/code\u003e) to an \u003ccode\u003e\u003ca\u003eAuthId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthMap",
           "package": "happstack-authenticate",
@@ -753,6 +806,7 @@
         "index": {
           "description": "This links an authentication method such as on OpenId Identifier FacebookId or UserPassId to an AuthId",
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthMap",
           "package": "happstack-authenticate",
@@ -766,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthMethod",
           "package": "happstack-authenticate",
@@ -774,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthMethod",
           "package": "happstack-authenticate",
@@ -787,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthMethod_v1",
           "package": "happstack-authenticate",
@@ -795,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthMethod_v1",
           "package": "happstack-authenticate",
@@ -808,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthState",
           "package": "happstack-authenticate",
@@ -816,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthState",
           "package": "happstack-authenticate",
@@ -829,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthToken",
           "package": "happstack-authenticate",
@@ -837,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthToken",
           "package": "happstack-authenticate",
@@ -850,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "CheckUserPass",
           "package": "happstack-authenticate",
@@ -858,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "CheckUserPass",
           "package": "happstack-authenticate",
@@ -871,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "CreateUserPass",
           "package": "happstack-authenticate",
@@ -879,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "CreateUserPass",
           "package": "happstack-authenticate",
@@ -892,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "DeleteAuthToken",
           "package": "happstack-authenticate",
@@ -900,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "DeleteAuthToken",
           "package": "happstack-authenticate",
@@ -913,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "FacebookAuthIds",
           "package": "happstack-authenticate",
@@ -921,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "FacebookAuthIds",
           "package": "happstack-authenticate",
@@ -934,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "FacebookId",
           "package": "happstack-authenticate",
@@ -942,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "FacebookId",
           "package": "happstack-authenticate",
@@ -955,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "GenAuthId",
           "package": "happstack-authenticate",
@@ -963,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "GenAuthId",
           "package": "happstack-authenticate",
@@ -976,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "GetDefaultSessionTimeout",
           "package": "happstack-authenticate",
@@ -984,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "GetDefaultSessionTimeout",
           "package": "happstack-authenticate",
@@ -997,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "HashedPass",
           "package": "happstack-authenticate",
@@ -1005,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "HashedPass",
           "package": "happstack-authenticate",
@@ -1018,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "IdentifierAuthIds",
           "package": "happstack-authenticate",
@@ -1026,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "IdentifierAuthIds",
           "package": "happstack-authenticate",
@@ -1039,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "NewAuthMethod",
           "package": "happstack-authenticate",
@@ -1047,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "NewAuthMethod",
           "package": "happstack-authenticate",
@@ -1060,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "RemoveAuthIdentifier",
           "package": "happstack-authenticate",
@@ -1068,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "RemoveAuthIdentifier",
           "package": "happstack-authenticate",
@@ -1081,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "RemoveAuthUserPassId",
           "package": "happstack-authenticate",
@@ -1089,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "RemoveAuthUserPassId",
           "package": "happstack-authenticate",
@@ -1102,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "SetDefaultSessionTimeout",
           "package": "happstack-authenticate",
@@ -1110,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "SetDefaultSessionTimeout",
           "package": "happstack-authenticate",
@@ -1123,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "SetPassword",
           "package": "happstack-authenticate",
@@ -1131,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "SetPassword",
           "package": "happstack-authenticate",
@@ -1144,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "SetUserName",
           "package": "happstack-authenticate",
@@ -1152,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "SetUserName",
           "package": "happstack-authenticate",
@@ -1165,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UpdateAuthToken",
           "package": "happstack-authenticate",
@@ -1173,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UpdateAuthToken",
           "package": "happstack-authenticate",
@@ -1187,6 +1281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOTE: The Eq and Ord instances are 'case-insensitive'. They apply \u003ccode\u003etoCaseFold\u003c/code\u003e before comparing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserName",
           "package": "happstack-authenticate",
@@ -1196,6 +1291,7 @@
         "index": {
           "description": "NOTE The Eq and Ord instances are case-insensitive They apply toCaseFold before comparing",
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserName",
           "package": "happstack-authenticate",
@@ -1209,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPass",
           "package": "happstack-authenticate",
@@ -1217,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPass",
           "package": "happstack-authenticate",
@@ -1231,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eerrors that can occur when working with \u003ccode\u003e\u003ca\u003eUserPass\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPassError",
           "package": "happstack-authenticate",
@@ -1240,6 +1339,7 @@
         "index": {
           "description": "errors that can occur when working with UserPass",
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPassError",
           "package": "happstack-authenticate",
@@ -1253,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPassId",
           "package": "happstack-authenticate",
@@ -1261,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPassId",
           "package": "happstack-authenticate",
@@ -1274,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPassIdAuthIds",
           "package": "happstack-authenticate",
@@ -1282,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPassIdAuthIds",
           "package": "happstack-authenticate",
@@ -1295,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AddAuthMethod",
           "package": "happstack-authenticate",
@@ -1304,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AddAuthMethod",
           "package": "happstack-authenticate",
@@ -1317,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AddAuthToken",
           "package": "happstack-authenticate",
@@ -1326,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AddAuthToken",
           "package": "happstack-authenticate",
@@ -1339,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AddAuthUserPassId",
           "package": "happstack-authenticate",
@@ -1348,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AddAuthUserPassId",
           "package": "happstack-authenticate",
@@ -1361,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AskAuthState",
           "package": "happstack-authenticate",
@@ -1370,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AskAuthState",
           "package": "happstack-authenticate",
@@ -1383,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AskAuthToken",
           "package": "happstack-authenticate",
@@ -1392,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AskAuthToken",
           "package": "happstack-authenticate",
@@ -1405,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AskUserPass",
           "package": "happstack-authenticate",
@@ -1414,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AskUserPass",
           "package": "happstack-authenticate",
@@ -1427,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthFacebook",
           "package": "happstack-authenticate",
@@ -1436,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthFacebook",
           "package": "happstack-authenticate",
@@ -1449,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthId",
           "package": "happstack-authenticate",
@@ -1458,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthId",
           "package": "happstack-authenticate",
@@ -1471,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthIdentifier",
           "package": "happstack-authenticate",
@@ -1480,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthIdentifier",
           "package": "happstack-authenticate",
@@ -1493,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthIdentifier_v1",
           "package": "happstack-authenticate",
@@ -1502,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthIdentifier_v1",
           "package": "happstack-authenticate",
@@ -1515,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthMap",
           "package": "happstack-authenticate",
@@ -1524,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthMap",
           "package": "happstack-authenticate",
@@ -1560,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthToken",
           "package": "happstack-authenticate",
@@ -1569,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthToken",
           "package": "happstack-authenticate",
@@ -1582,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthUserPassId",
           "package": "happstack-authenticate",
@@ -1591,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthUserPassId",
           "package": "happstack-authenticate",
@@ -1604,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthUserPassId_v1",
           "package": "happstack-authenticate",
@@ -1613,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "AuthUserPassId_v1",
           "package": "happstack-authenticate",
@@ -1626,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "CheckUserPass",
           "package": "happstack-authenticate",
@@ -1635,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "CheckUserPass",
           "package": "happstack-authenticate",
@@ -1648,6 +1782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "CreateUserPass",
           "package": "happstack-authenticate",
@@ -1657,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "CreateUserPass",
           "package": "happstack-authenticate",
@@ -1670,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "DeleteAuthToken",
           "package": "happstack-authenticate",
@@ -1679,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "DeleteAuthToken",
           "package": "happstack-authenticate",
@@ -1692,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "FacebookAuthIds",
           "package": "happstack-authenticate",
@@ -1701,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "FacebookAuthIds",
           "package": "happstack-authenticate",
@@ -1714,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "FacebookId",
           "package": "happstack-authenticate",
@@ -1723,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "FacebookId",
           "package": "happstack-authenticate",
@@ -1736,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "GenAuthId",
           "package": "happstack-authenticate",
@@ -1745,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "GenAuthId",
           "package": "happstack-authenticate",
@@ -1758,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "GetDefaultSessionTimeout",
           "package": "happstack-authenticate",
@@ -1767,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "GetDefaultSessionTimeout",
           "package": "happstack-authenticate",
@@ -1780,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "HashedPass",
           "package": "happstack-authenticate",
@@ -1789,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "HashedPass",
           "package": "happstack-authenticate",
@@ -1802,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "IdentifierAuthIds",
           "package": "happstack-authenticate",
@@ -1811,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "IdentifierAuthIds",
           "package": "happstack-authenticate",
@@ -1824,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "InvalidPassword",
           "package": "happstack-authenticate",
@@ -1833,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "InvalidPassword",
           "package": "happstack-authenticate",
@@ -1846,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "InvalidUserName",
           "package": "happstack-authenticate",
@@ -1855,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "InvalidUserName",
           "package": "happstack-authenticate",
@@ -1868,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "InvalidUserPassId",
           "package": "happstack-authenticate",
@@ -1877,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "InvalidUserPassId",
           "package": "happstack-authenticate",
@@ -1890,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "NewAuthMethod",
           "package": "happstack-authenticate",
@@ -1899,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "NewAuthMethod",
           "package": "happstack-authenticate",
@@ -1912,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "RemoveAuthIdentifier",
           "package": "happstack-authenticate",
@@ -1921,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "RemoveAuthIdentifier",
           "package": "happstack-authenticate",
@@ -1934,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "RemoveAuthUserPassId",
           "package": "happstack-authenticate",
@@ -1943,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "RemoveAuthUserPassId",
           "package": "happstack-authenticate",
@@ -1956,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "SetDefaultSessionTimeout",
           "package": "happstack-authenticate",
@@ -1965,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "SetDefaultSessionTimeout",
           "package": "happstack-authenticate",
@@ -1978,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "SetPassword",
           "package": "happstack-authenticate",
@@ -1987,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "SetPassword",
           "package": "happstack-authenticate",
@@ -2000,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "SetUserName",
           "package": "happstack-authenticate",
@@ -2009,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "SetUserName",
           "package": "happstack-authenticate",
@@ -2022,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UpdateAuthToken",
           "package": "happstack-authenticate",
@@ -2031,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UpdateAuthToken",
           "package": "happstack-authenticate",
@@ -2044,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserName",
           "package": "happstack-authenticate",
@@ -2053,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserName",
           "package": "happstack-authenticate",
@@ -2066,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPass",
           "package": "happstack-authenticate",
@@ -2075,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPass",
           "package": "happstack-authenticate",
@@ -2088,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPassId",
           "package": "happstack-authenticate",
@@ -2097,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPassId",
           "package": "happstack-authenticate",
@@ -2110,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPassIdAuthIds",
           "package": "happstack-authenticate",
@@ -2119,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UserPassIdAuthIds",
           "package": "happstack-authenticate",
@@ -2132,6 +2310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UsernameInUse",
           "package": "happstack-authenticate",
@@ -2141,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "UsernameInUse",
           "package": "happstack-authenticate",
@@ -2154,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "addAuthCookie",
           "package": "happstack-authenticate",
@@ -2163,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "addAuthCookie",
           "normalized": "AcidState AuthState-\u003eMaybe AuthId-\u003eAuthMethod-\u003ea()",
@@ -2178,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amAuthId",
           "package": "happstack-authenticate",
@@ -2187,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amAuthId",
           "package": "happstack-authenticate",
@@ -2200,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amFacebookId",
           "package": "happstack-authenticate",
@@ -2209,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amFacebookId",
           "package": "happstack-authenticate",
@@ -2222,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amIdentifier",
           "package": "happstack-authenticate",
@@ -2231,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amIdentifier",
           "package": "happstack-authenticate",
@@ -2244,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amIdentifier_v1",
           "package": "happstack-authenticate",
@@ -2253,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amIdentifier_v1",
           "package": "happstack-authenticate",
@@ -2266,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amMethod",
           "package": "happstack-authenticate",
@@ -2275,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amMethod",
           "package": "happstack-authenticate",
@@ -2288,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amUserPassId",
           "package": "happstack-authenticate",
@@ -2297,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amUserPassId",
           "package": "happstack-authenticate",
@@ -2310,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amUserPassId_v1",
           "package": "happstack-authenticate",
@@ -2319,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "amUserPassId_v1",
           "package": "happstack-authenticate",
@@ -2401,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "deleteAuthCookie",
           "package": "happstack-authenticate",
@@ -2410,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "deleteAuthCookie",
           "normalized": "AcidState AuthState-\u003ea()",
@@ -2426,6 +2624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate an new authentication token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "genAuthToken",
           "package": "happstack-authenticate",
@@ -2436,6 +2635,7 @@
         "index": {
           "description": "generate an new authentication token",
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "genAuthToken",
           "normalized": "Maybe AuthId-\u003eAuthMethod-\u003eInt-\u003ea AuthToken",
@@ -2451,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "getAuthId",
           "package": "happstack-authenticate",
@@ -2460,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "getAuthId",
           "normalized": "AcidState AuthState-\u003ea(Maybe AuthId)",
@@ -2475,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "getAuthToken",
           "package": "happstack-authenticate",
@@ -2484,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "getAuthToken",
           "normalized": "AcidState AuthState-\u003ea(Maybe AuthToken)",
@@ -2500,6 +2704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea reasonable initial \u003ccode\u003e\u003ca\u003eAuthState\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "initialAuthState",
           "package": "happstack-authenticate",
@@ -2510,6 +2715,7 @@
         "index": {
           "description": "reasonable initial AuthState",
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "initialAuthState",
           "package": "happstack-authenticate",
@@ -2524,6 +2730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a password string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "mkHashedPass",
           "package": "happstack-authenticate",
@@ -2533,6 +2740,7 @@
         "index": {
           "description": "hash password string",
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "mkHashedPass",
           "normalized": "Text-\u003eIO HashedPass",
@@ -2594,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "tokenAuthId",
           "package": "happstack-authenticate",
@@ -2603,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "tokenAuthId",
           "package": "happstack-authenticate",
@@ -2616,6 +2826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "tokenAuthMethod",
           "package": "happstack-authenticate",
@@ -2625,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "tokenAuthMethod",
           "package": "happstack-authenticate",
@@ -2638,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "tokenExpires",
           "package": "happstack-authenticate",
@@ -2647,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "tokenExpires",
           "package": "happstack-authenticate",
@@ -2660,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "tokenLifetime",
           "package": "happstack-authenticate",
@@ -2669,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "tokenLifetime",
           "package": "happstack-authenticate",
@@ -2682,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "tokenString",
           "package": "happstack-authenticate",
@@ -2691,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "tokenString",
           "package": "happstack-authenticate",
@@ -2704,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "unAuthId",
           "package": "happstack-authenticate",
@@ -2713,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "unAuthId",
           "package": "happstack-authenticate",
@@ -2726,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "unFacebookId",
           "package": "happstack-authenticate",
@@ -2735,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "unFacebookId",
           "package": "happstack-authenticate",
@@ -2748,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "unUserName",
           "package": "happstack-authenticate",
@@ -2757,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "unUserName",
           "package": "happstack-authenticate",
@@ -2770,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "unUserPassId",
           "package": "happstack-authenticate",
@@ -2779,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "unUserPassId",
           "package": "happstack-authenticate",
@@ -2792,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "upId",
           "package": "happstack-authenticate",
@@ -2801,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "upId",
           "package": "happstack-authenticate",
@@ -2814,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "upName",
           "package": "happstack-authenticate",
@@ -2823,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "upName",
           "package": "happstack-authenticate",
@@ -2836,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "upPassword",
           "package": "happstack-authenticate",
@@ -2845,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "upPassword",
           "package": "happstack-authenticate",
@@ -2859,6 +3091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn a user-friendly error message string for an \u003ccode\u003eAddAuthError\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Auth",
           "name": "userPassErrorString",
           "package": "happstack-authenticate",
@@ -2869,6 +3102,7 @@
         "index": {
           "description": "return user-friendly error message string for an AddAuthError",
           "hierarchy": "Happstack Auth Core Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Auth",
           "name": "userPassErrorString",
           "normalized": "UserPassError-\u003eString",
@@ -2907,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "AuthParts",
           "package": "happstack-authenticate",
@@ -2915,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "AuthParts",
           "package": "happstack-authenticate",
@@ -2928,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "connect",
           "package": "happstack-authenticate",
@@ -2936,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "connect",
           "normalized": "AuthMode-\u003eMaybe Text-\u003eText-\u003ea Response",
@@ -2950,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "facebookAddAuthIdsCookie",
           "package": "happstack-authenticate",
@@ -2959,6 +3198,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "facebookAddAuthIdsCookie",
           "normalized": "AcidState AuthState-\u003eFacebookId-\u003ea(Maybe AuthId)",
@@ -2974,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "facebookPage",
           "package": "happstack-authenticate",
@@ -2983,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "facebookPage",
           "normalized": "Credentials-\u003eAuthMode-\u003ea Response",
@@ -2998,6 +3240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "facebookRedirectPage",
           "package": "happstack-authenticate",
@@ -3006,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "facebookRedirectPage",
           "normalized": "AcidState AuthState-\u003eCredentials-\u003eText-\u003eAuthMode-\u003ea Response",
@@ -3021,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "getIdentifier",
           "package": "happstack-authenticate",
@@ -3030,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "getIdentifier",
           "package": "happstack-authenticate",
@@ -3043,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "handleOpenId",
           "package": "happstack-authenticate",
@@ -3051,6 +3298,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "handleOpenId",
           "normalized": "AcidState AuthState-\u003eMaybe Text-\u003eText-\u003eOpenIdURL-\u003ea Response",
@@ -3066,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "identifierAddAuthIdsCookie",
           "package": "happstack-authenticate",
@@ -3075,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "identifierAddAuthIdsCookie",
           "normalized": "AcidState AuthState-\u003eIdentifier-\u003ea(Maybe AuthId)",
@@ -3090,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "openIdPage",
           "package": "happstack-authenticate",
@@ -3099,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthParts",
           "name": "openIdPage",
           "normalized": "AcidState AuthState-\u003eAuthMode-\u003eText-\u003ea Response",
@@ -3114,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthProfileURL",
           "name": "AuthProfileURL",
           "package": "happstack-authenticate",
@@ -3122,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthProfileURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthProfileURL",
           "name": "AuthProfileURL",
           "package": "happstack-authenticate",
@@ -3135,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthProfileURL",
           "name": "AuthProfileURL",
           "package": "happstack-authenticate",
@@ -3143,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthProfileURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthProfileURL",
           "name": "AuthProfileURL",
           "package": "happstack-authenticate",
@@ -3202,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "AuthURL",
           "package": "happstack-authenticate",
@@ -3210,6 +3467,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "AuthURL",
           "package": "happstack-authenticate",
@@ -3223,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "AuthMode",
           "package": "happstack-authenticate",
@@ -3231,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "AuthMode",
           "package": "happstack-authenticate",
@@ -3244,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "AuthURL",
           "package": "happstack-authenticate",
@@ -3252,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "AuthURL",
           "package": "happstack-authenticate",
@@ -3265,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "OpenIdProvider",
           "package": "happstack-authenticate",
@@ -3273,6 +3536,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "OpenIdProvider",
           "package": "happstack-authenticate",
@@ -3286,6 +3550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "OpenIdURL",
           "package": "happstack-authenticate",
@@ -3294,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "OpenIdURL",
           "package": "happstack-authenticate",
@@ -3560,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "AddIdentifierMode",
           "package": "happstack-authenticate",
@@ -3569,6 +3836,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "AddIdentifierMode",
           "package": "happstack-authenticate",
@@ -3582,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "Generic",
           "package": "happstack-authenticate",
@@ -3591,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "Generic",
           "package": "happstack-authenticate",
@@ -3604,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "Google",
           "package": "happstack-authenticate",
@@ -3613,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "Google",
           "package": "happstack-authenticate",
@@ -3626,6 +3898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "LiveJournal",
           "package": "happstack-authenticate",
@@ -3635,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "LiveJournal",
           "package": "happstack-authenticate",
@@ -3648,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "LoginMode",
           "package": "happstack-authenticate",
@@ -3657,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "LoginMode",
           "package": "happstack-authenticate",
@@ -3670,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "Myspace",
           "package": "happstack-authenticate",
@@ -3679,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "Myspace",
           "package": "happstack-authenticate",
@@ -3692,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "O_Connect",
           "package": "happstack-authenticate",
@@ -3701,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "O_Connect",
           "package": "happstack-authenticate",
@@ -3714,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "O_OpenId",
           "package": "happstack-authenticate",
@@ -3723,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "O_OpenId",
           "package": "happstack-authenticate",
@@ -3736,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "Yahoo",
           "package": "happstack-authenticate",
@@ -3745,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "Yahoo",
           "package": "happstack-authenticate",
@@ -3758,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "authUrlInverse",
           "package": "happstack-authenticate",
@@ -3767,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core AuthURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.AuthURL",
           "name": "authUrlInverse",
           "package": "happstack-authenticate",
@@ -3780,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "Profile",
           "package": "happstack-authenticate",
@@ -3788,6 +4075,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "Profile",
           "package": "happstack-authenticate",
@@ -3801,6 +4089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "AuthIdProfiles",
           "package": "happstack-authenticate",
@@ -3809,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "AuthIdProfiles",
           "package": "happstack-authenticate",
@@ -3822,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "AuthIdUserId",
           "package": "happstack-authenticate",
@@ -3830,6 +4121,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "AuthIdUserId",
           "package": "happstack-authenticate",
@@ -3843,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "CreateNewProfile",
           "package": "happstack-authenticate",
@@ -3851,6 +4144,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "CreateNewProfile",
           "package": "happstack-authenticate",
@@ -3864,6 +4158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "GenUserId",
           "package": "happstack-authenticate",
@@ -3872,6 +4167,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "GenUserId",
           "package": "happstack-authenticate",
@@ -3885,6 +4181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "GetProfileState",
           "package": "happstack-authenticate",
@@ -3893,6 +4190,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "GetProfileState",
           "package": "happstack-authenticate",
@@ -3906,6 +4204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "Profile",
           "package": "happstack-authenticate",
@@ -3914,6 +4213,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "Profile",
           "package": "happstack-authenticate",
@@ -3927,6 +4227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "ProfileState",
           "package": "happstack-authenticate",
@@ -3935,6 +4236,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "ProfileState",
           "package": "happstack-authenticate",
@@ -3948,6 +4250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "Profiles",
           "package": "happstack-authenticate",
@@ -3956,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "Profiles",
           "package": "happstack-authenticate",
@@ -3969,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "SetAuthIdUserId",
           "package": "happstack-authenticate",
@@ -3977,6 +4282,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "SetAuthIdUserId",
           "package": "happstack-authenticate",
@@ -3990,6 +4296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "UserId",
           "package": "happstack-authenticate",
@@ -3998,6 +4305,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "UserId",
           "package": "happstack-authenticate",
@@ -4011,6 +4319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "AuthIdProfiles",
           "package": "happstack-authenticate",
@@ -4020,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "AuthIdProfiles",
           "package": "happstack-authenticate",
@@ -4033,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "AuthIdUserId",
           "package": "happstack-authenticate",
@@ -4042,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "AuthIdUserId",
           "package": "happstack-authenticate",
@@ -4055,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "CreateNewProfile",
           "package": "happstack-authenticate",
@@ -4064,6 +4377,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "CreateNewProfile",
           "package": "happstack-authenticate",
@@ -4077,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "GenUserId",
           "package": "happstack-authenticate",
@@ -4086,6 +4401,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "GenUserId",
           "package": "happstack-authenticate",
@@ -4099,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "GetProfileState",
           "package": "happstack-authenticate",
@@ -4108,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "GetProfileState",
           "package": "happstack-authenticate",
@@ -4121,6 +4439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "Profile",
           "package": "happstack-authenticate",
@@ -4130,6 +4449,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "Profile",
           "package": "happstack-authenticate",
@@ -4166,6 +4486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "SetAuthIdUserId",
           "package": "happstack-authenticate",
@@ -4175,6 +4496,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "SetAuthIdUserId",
           "package": "happstack-authenticate",
@@ -4211,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "authIdProfiles",
           "package": "happstack-authenticate",
@@ -4220,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "authIdProfiles",
           "normalized": "AuthId-\u003eQuery ProfileState(Set Profile)",
@@ -4235,6 +4559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "authIdUserId",
           "package": "happstack-authenticate",
@@ -4244,6 +4569,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "authIdUserId",
           "normalized": "AuthId-\u003eQuery ProfileState(Maybe UserId)",
@@ -4284,6 +4610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "auths",
           "package": "happstack-authenticate",
@@ -4293,6 +4620,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "auths",
           "package": "happstack-authenticate",
@@ -4305,6 +4633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "createNewProfile",
           "package": "happstack-authenticate",
@@ -4314,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "createNewProfile",
           "normalized": "Set AuthId-\u003eUpdate ProfileState UserId",
@@ -4329,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "genUserId",
           "package": "happstack-authenticate",
@@ -4338,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "genUserId",
           "package": "happstack-authenticate",
@@ -4352,6 +4684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the entire ProfileState\n Warning, this is an admin level function?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "getProfileState",
           "package": "happstack-authenticate",
@@ -4362,6 +4695,7 @@
         "index": {
           "description": "Retrieve the entire ProfileState Warning this is an admin level function",
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "getProfileState",
           "package": "happstack-authenticate",
@@ -4401,6 +4735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea reasonable initial \u003ccode\u003e\u003ca\u003eProfileState\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "initialProfileState",
           "package": "happstack-authenticate",
@@ -4411,6 +4746,7 @@
         "index": {
           "description": "reasonable initial ProfileState",
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "initialProfileState",
           "package": "happstack-authenticate",
@@ -4447,6 +4783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "nickName",
           "package": "happstack-authenticate",
@@ -4456,6 +4793,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "nickName",
           "package": "happstack-authenticate",
@@ -4491,6 +4829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "setAuthIdUserId",
           "package": "happstack-authenticate",
@@ -4500,6 +4839,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "setAuthIdUserId",
           "normalized": "AuthId-\u003eUserId-\u003eUpdate ProfileState()",
@@ -4515,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "succUserId",
           "package": "happstack-authenticate",
@@ -4524,6 +4865,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "succUserId",
           "normalized": "UserId-\u003eUserId",
@@ -4562,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.Profile",
           "name": "userId",
           "package": "happstack-authenticate",
@@ -4571,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core Profile",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.Profile",
           "name": "userId",
           "package": "happstack-authenticate",
@@ -4584,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "ProfileParts",
           "package": "happstack-authenticate",
@@ -4592,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core ProfileParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "ProfileParts",
           "package": "happstack-authenticate",
@@ -4605,6 +4951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "PickProfile",
           "package": "happstack-authenticate",
@@ -4613,6 +4960,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core ProfileParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "PickProfile",
           "package": "happstack-authenticate",
@@ -4626,6 +4974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "PickAuthId",
           "package": "happstack-authenticate",
@@ -4635,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core ProfileParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "PickAuthId",
           "package": "happstack-authenticate",
@@ -4648,6 +4998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "PickPersonality",
           "package": "happstack-authenticate",
@@ -4657,6 +5008,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core ProfileParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "PickPersonality",
           "package": "happstack-authenticate",
@@ -4670,6 +5022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "Picked",
           "package": "happstack-authenticate",
@@ -4679,6 +5032,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core ProfileParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "Picked",
           "package": "happstack-authenticate",
@@ -4692,6 +5046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "pickAuthId",
           "package": "happstack-authenticate",
@@ -4701,6 +5056,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core ProfileParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "pickAuthId",
           "normalized": "AcidState AuthState-\u003ea(Either(Set AuthId)AuthId)",
@@ -4716,6 +5072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "pickProfile",
           "package": "happstack-authenticate",
@@ -4725,6 +5082,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core ProfileParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "pickProfile",
           "normalized": "AcidState AuthState-\u003eAcidState ProfileState-\u003ea PickProfile",
@@ -4740,6 +5098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "setAuthIdPage",
           "package": "happstack-authenticate",
@@ -4749,6 +5108,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core ProfileParts",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.ProfileParts",
           "name": "setAuthIdPage",
           "normalized": "AcidState AuthState-\u003eAuthId-\u003ea Bool",
@@ -4764,6 +5124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.ProfileURL",
           "name": "ProfileURL",
           "package": "happstack-authenticate",
@@ -4772,6 +5133,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core ProfileURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.ProfileURL",
           "name": "ProfileURL",
           "package": "happstack-authenticate",
@@ -4785,6 +5147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.ProfileURL",
           "name": "ProfileURL",
           "package": "happstack-authenticate",
@@ -4793,6 +5156,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core ProfileURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.ProfileURL",
           "name": "ProfileURL",
           "package": "happstack-authenticate",
@@ -4875,6 +5239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth.Core.ProfileURL",
           "name": "authUrlInverse",
           "package": "happstack-authenticate",
@@ -4884,6 +5249,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Core ProfileURL",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth.Core.ProfileURL",
           "name": "authUrlInverse",
           "package": "happstack-authenticate",
@@ -4897,6 +5263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth",
           "name": "Auth",
           "package": "happstack-authenticate",
@@ -4905,6 +5272,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth",
           "name": "Auth",
           "package": "happstack-authenticate",
@@ -4918,6 +5286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth",
           "name": "AuthProfileURL",
           "package": "happstack-authenticate",
@@ -4926,6 +5295,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth",
           "name": "AuthProfileURL",
           "package": "happstack-authenticate",
@@ -4939,6 +5309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth",
           "name": "AuthState",
           "package": "happstack-authenticate",
@@ -4947,6 +5318,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth",
           "name": "AuthState",
           "package": "happstack-authenticate",
@@ -4960,6 +5332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth",
           "name": "AuthURL",
           "package": "happstack-authenticate",
@@ -4968,6 +5341,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth",
           "name": "AuthURL",
           "package": "happstack-authenticate",
@@ -4981,6 +5355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth",
           "name": "ProfileState",
           "package": "happstack-authenticate",
@@ -4989,6 +5364,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth",
           "name": "ProfileState",
           "package": "happstack-authenticate",
@@ -5002,6 +5378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth",
           "name": "ProfileURL",
           "package": "happstack-authenticate",
@@ -5010,6 +5387,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth",
           "name": "ProfileURL",
           "package": "happstack-authenticate",
@@ -5023,6 +5401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:11 UTC 2014",
           "module": "Happstack.Auth",
           "name": "UserId",
           "package": "happstack-authenticate",
@@ -5031,6 +5410,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:11",
           "module": "Happstack.Auth",
           "name": "UserId",
           "package": "happstack-authenticate",

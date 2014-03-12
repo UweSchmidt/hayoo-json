@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PriorityChansConverger"
+        "phrase": "PriorityChansConverger",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA bottleneck for UI from multiple threads. Prevents mixing of output\n messages. Also makes possible a primitive form of input. By mastering\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecuisUIInput_E\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecuisUIOutput_E\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e it's possible\n to construct \u003ccode\u003e\u003ccode\u003e\u003ca\u003eConcurrentUISupport\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e with different than UI I/O.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "ConcurrentUISupport",
           "package": "PriorityChansConverger",
@@ -28,6 +29,7 @@
         "index": {
           "description": "bottleneck for UI from multiple threads Prevents mixing of output messages Also makes possible primitive form of input By mastering cuisUIInput and cuisUIOutput it possible to construct ConcurrentUISupport with different than UI",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "ConcurrentUISupport",
           "package": "PriorityChansConverger",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "AskerID",
           "package": "PriorityChansConverger",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "AskerID",
           "package": "PriorityChansConverger",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "CUISCommand",
           "package": "PriorityChansConverger",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "CUISCommand",
           "package": "PriorityChansConverger",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "ConcurrentUISupport",
           "package": "PriorityChansConverger",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "ConcurrentUISupport",
           "package": "PriorityChansConverger",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "ReadFromConsoleStr",
           "package": "PriorityChansConverger",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "ReadFromConsoleStr",
           "package": "PriorityChansConverger",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "ThreadFinisher",
           "package": "PriorityChansConverger",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "ThreadFinisher",
           "package": "PriorityChansConverger",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "ConcurrentUISupport",
           "package": "PriorityChansConverger",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "ConcurrentUISupport",
           "package": "PriorityChansConverger",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "NewPage_CUISC",
           "package": "PriorityChansConverger",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "NewPage_CUISC",
           "package": "PriorityChansConverger",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "PlusLine_CUISC",
           "package": "PriorityChansConverger",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "PlusLine_CUISC",
           "package": "PriorityChansConverger",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "PutStrLn_CUISC",
           "package": "PriorityChansConverger",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "PutStrLn_CUISC",
           "package": "PriorityChansConverger",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "ReadStr_CUISC",
           "package": "PriorityChansConverger",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "ReadStr_CUISC",
           "package": "PriorityChansConverger",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "acquirePutStr_fromCmdsList",
           "package": "PriorityChansConverger",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "acquirePutStr_fromCmdsList",
           "normalized": "[CUISCommand]-\u003eMaybe CUISCommand",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "acquireReadStr_fromCmdsList",
           "package": "PriorityChansConverger",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "acquireReadStr_fromCmdsList",
           "normalized": "[CUISCommand]-\u003eMaybe CUISCommand",
@@ -305,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do, when supporter thread finishes?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisFinalizer",
           "package": "PriorityChansConverger",
@@ -315,6 +342,7 @@
         "index": {
           "description": "What to do when supporter thread finishes",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisFinalizer",
           "normalized": "IO()",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall this, when you want to finish supporter thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisFinish",
           "package": "PriorityChansConverger",
@@ -341,6 +370,7 @@
         "index": {
           "description": "Call this when you want to finish supporter thread",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisFinish",
           "package": "PriorityChansConverger",
@@ -355,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot to be confised with \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecuisUIInput\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, which interfaces with user.\n This \u003cem\u003einput\u003c/em\u003e interfaces with threads, that makes use of it.\n\u003c/p\u003e\u003cp\u003eA wrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecuisInputTChan\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisInput",
           "package": "PriorityChansConverger",
@@ -365,6 +396,7 @@
         "index": {
           "description": "Not to be confised with cuisUIInput which interfaces with user This input interfaces with threads that makes use of it wrapper around cuisInputTChan",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisInput",
           "normalized": "ConcurrentUISupport-\u003e[CUISCommand]-\u003eIO()",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported threads are welcome to write their commands here.\n It is recommended not to use this channel directly -\n use \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecuisWrite\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecuisReadLn\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and other mediators instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisInputTChan",
           "package": "PriorityChansConverger",
@@ -391,6 +424,7 @@
         "index": {
           "description": "Supported threads are welcome to write their commands here It is recommended not to use this channel directly use cuisWrite cuisReadLn and other mediators instead",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisInputTChan",
           "normalized": "TChan[CUISCommand]",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisNewPage",
           "package": "PriorityChansConverger",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisNewPage",
           "normalized": "ConcurrentUISupport-\u003eIO()",
@@ -431,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap of feedback chans leading to threads, that issue the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eReadStr_CUISC\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisOutputChans",
           "package": "PriorityChansConverger",
@@ -441,6 +478,7 @@
         "index": {
           "description": "Map of feedback chans leading to threads that issue the ReadStr CUISC commands",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisOutputChans",
           "package": "PriorityChansConverger",
@@ -455,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor \u003ccode\u003e(Just i)\u003c/code\u003e, if count of printed lines is \u003e \u003ccode\u003ei\u003c/code\u003e,\n then automatically issue \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNewPage_CUISC\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e command and\n set lines counter to 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisPressAnyKey_linesCountCond",
           "package": "PriorityChansConverger",
@@ -465,6 +504,7 @@
         "index": {
           "description": "For Just if count of printed lines is then automatically issue NewPage CUISC command and set lines counter to",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisPressAnyKey_linesCountCond",
           "package": "PriorityChansConverger",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set, then call it on each \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNewPage_CUISC\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisPressAnyKey_uiCmd",
           "package": "PriorityChansConverger",
@@ -489,6 +530,7 @@
         "index": {
           "description": "If set then call it on each NewPage CUISC command",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisPressAnyKey_uiCmd",
           "normalized": "Maybe(IO())",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisReadLn",
           "package": "PriorityChansConverger",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisReadLn",
           "normalized": "ConcurrentUISupport-\u003eAskerID-\u003eIO ReadFromConsoleStr",
@@ -529,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWas \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecuisFinish\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e called?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisSupporterStopCheck",
           "package": "PriorityChansConverger",
@@ -539,6 +584,7 @@
         "index": {
           "description": "Was cuisFinish called",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisSupporterStopCheck",
           "package": "PriorityChansConverger",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhatever \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecuisUIInput_E\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is - \u003ccode\u003eLeft\u003c/code\u003e or \u003ccode\u003eRight\u003c/code\u003e - flattern it into IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisUIInput",
           "package": "PriorityChansConverger",
@@ -563,6 +610,7 @@
         "index": {
           "description": "Whatever cuisUIInput is Left or Right flattern it into IO",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisUIInput",
           "normalized": "ConcurrentUISupport-\u003eIO String",
@@ -579,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to input, when \u003ccode\u003e\u003ccode\u003e\u003ca\u003eReadStr_CUISC\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e command comes?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisUIInput_E",
           "package": "PriorityChansConverger",
@@ -589,6 +638,7 @@
         "index": {
           "description": "How to input when ReadStr CUISC command comes",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisUIInput_E",
           "package": "PriorityChansConverger",
@@ -603,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhatever \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecuisUIOutput_E\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is - \u003ccode\u003eLeft\u003c/code\u003e or \u003ccode\u003eRight\u003c/code\u003e - flattern it into IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisUIOutput",
           "package": "PriorityChansConverger",
@@ -613,6 +664,7 @@
         "index": {
           "description": "Whatever cuisUIOutput is Left or Right flattern it into IO",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisUIOutput",
           "normalized": "ConcurrentUISupport-\u003eString-\u003eIO()",
@@ -629,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to output, when \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePutStrLn_CUISC\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e command comes?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisUIOutput_E",
           "package": "PriorityChansConverger",
@@ -639,6 +692,7 @@
         "index": {
           "description": "How to output when PutStrLn CUISC command comes",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisUIOutput_E",
           "normalized": "Either(String-\u003eSTM())(String-\u003eIO())",
@@ -654,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisWrite",
           "package": "PriorityChansConverger",
@@ -663,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisWrite",
           "normalized": "ConcurrentUISupport-\u003eString-\u003eIO()",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisWriteSTM",
           "package": "PriorityChansConverger",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "cuisWriteSTM",
           "normalized": "ConcurrentUISupport-\u003eString-\u003eSTM()",
@@ -702,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "defaultConcurrentUISupportIO",
           "package": "PriorityChansConverger",
@@ -711,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "defaultConcurrentUISupportIO",
           "package": "PriorityChansConverger",
@@ -725,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUI in console + log to file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "defaultConcurrentUISupportIO_logInFile",
           "package": "PriorityChansConverger",
@@ -735,6 +796,7 @@
         "index": {
           "description": "UI in console log to file",
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "defaultConcurrentUISupportIO_logInFile",
           "normalized": "FilePath-\u003eIOMode-\u003eIO ConcurrentUISupport",
@@ -750,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "printExceptionIfAny",
           "package": "PriorityChansConverger",
@@ -759,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "printExceptionIfAny",
           "normalized": "String-\u003eIO a-\u003eIO a",
@@ -774,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "reportExceptionIfAny",
           "package": "PriorityChansConverger",
@@ -783,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "reportExceptionIfAny",
           "normalized": "(String-\u003eIO())-\u003eString-\u003eIO a-\u003eIO a",
@@ -798,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "reportExceptionIfAnySTM",
           "package": "PriorityChansConverger",
@@ -807,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "reportExceptionIfAnySTM",
           "normalized": "(String-\u003eSTM())-\u003eString-\u003eSTM a-\u003eSTM a",
@@ -822,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "reportExceptionIfAnySTM_2",
           "package": "PriorityChansConverger",
@@ -831,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "reportExceptionIfAnySTM_2",
           "normalized": "ConcurrentUISupport-\u003eString-\u003eSTM a-\u003eSTM a",
@@ -846,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "reportExceptionIfAny_2",
           "package": "PriorityChansConverger",
@@ -855,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "reportExceptionIfAny_2",
           "normalized": "ConcurrentUISupport-\u003eString-\u003eIO a-\u003eIO a",
@@ -870,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "runConcurrentUISupport",
           "package": "PriorityChansConverger",
@@ -879,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ConcurrentUISupport",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.ConcurrentUISupport",
           "name": "runConcurrentUISupport",
           "normalized": "ConcurrentUISupport-\u003eIO()",
@@ -894,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "Commons",
           "package": "PriorityChansConverger",
@@ -902,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger Commons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "Commons",
           "package": "PriorityChansConverger",
@@ -915,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "CurrentPriority",
           "package": "PriorityChansConverger",
@@ -923,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger Commons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "CurrentPriority",
           "package": "PriorityChansConverger",
@@ -936,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "FailureReasonWPCC",
           "package": "PriorityChansConverger",
@@ -944,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger Commons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "FailureReasonWPCC",
           "package": "PriorityChansConverger",
@@ -957,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "InterruptShouldWe",
           "package": "PriorityChansConverger",
@@ -965,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger Commons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "InterruptShouldWe",
           "package": "PriorityChansConverger",
@@ -978,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "NothingElseIsInStruct",
           "package": "PriorityChansConverger",
@@ -986,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger Commons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "NothingElseIsInStruct",
           "package": "PriorityChansConverger",
@@ -999,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "PCC_ContainsGivenSpecification",
           "package": "PriorityChansConverger",
@@ -1007,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger Commons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "PCC_ContainsGivenSpecification",
           "package": "PriorityChansConverger",
@@ -1020,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "StartPriority",
           "package": "PriorityChansConverger",
@@ -1028,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger Commons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "StartPriority",
           "package": "PriorityChansConverger",
@@ -1041,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "BadKey_FRWPCC",
           "package": "PriorityChansConverger",
@@ -1050,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger Commons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "BadKey_FRWPCC",
           "package": "PriorityChansConverger",
@@ -1063,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "ChanFull_FRWPCC",
           "package": "PriorityChansConverger",
@@ -1072,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger Commons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.Commons",
           "name": "ChanFull_FRWPCC",
           "package": "PriorityChansConverger",
@@ -1086,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module wraps STM PCC with IO.\n Some locks are added to balance heavyweight transactions, to reduce \"waste\n efforts\".\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PriorityChansConverger",
           "package": "PriorityChansConverger",
@@ -1095,6 +1188,7 @@
         "index": {
           "description": "This module wraps STM PCC with IO Some locks are added to balance heavyweight transactions to reduce waste efforts",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PriorityChansConverger",
           "package": "PriorityChansConverger",
@@ -1108,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "FunctionName",
           "package": "PriorityChansConverger",
@@ -1116,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "FunctionName",
           "package": "PriorityChansConverger",
@@ -1129,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "LockUserName",
           "package": "PriorityChansConverger",
@@ -1137,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "LockUserName",
           "package": "PriorityChansConverger",
@@ -1150,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PCC_Lock",
           "package": "PriorityChansConverger",
@@ -1158,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PCC_Lock",
           "package": "PriorityChansConverger",
@@ -1172,6 +1272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePriorityChansConvergerSTM\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Added locks. \u003ccode\u003e\u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e instance\n is defined using \u003ccode\u003e\u003ccode\u003eunsafePerformIO\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PriorityChansConverger",
           "package": "PriorityChansConverger",
@@ -1181,6 +1282,7 @@
         "index": {
           "description": "Wrapper around PriorityChansConvergerSTM Added locks Show instance is defined using unsafePerformIO",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PriorityChansConverger",
           "package": "PriorityChansConverger",
@@ -1194,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PCC_IOInterruptableRead",
           "package": "PriorityChansConverger",
@@ -1203,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PCC_IOInterruptableRead",
           "package": "PriorityChansConverger",
@@ -1216,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PCC_IOInterruptableWrite",
           "package": "PriorityChansConverger",
@@ -1225,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PCC_IOInterruptableWrite",
           "package": "PriorityChansConverger",
@@ -1238,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PCC_Lock",
           "package": "PriorityChansConverger",
@@ -1247,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PCC_Lock",
           "package": "PriorityChansConverger",
@@ -1260,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PriorityChansConverger",
           "package": "PriorityChansConverger",
@@ -1269,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "PriorityChansConverger",
           "package": "PriorityChansConverger",
@@ -1283,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003efastFlushPCC2List_STM'\u003c/code\u003e\n (see \u003ca\u003eControl.Concurrent.PriorityChansConverger.PriorityChansConverger\u003c/a\u003e).\n Used locks: \u003ccode\u003e[\u003ccode\u003e\u003ca\u003ePCC_Lock\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eStrict. This is a fast flush, it doesn't deal with priorities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "fastFlushPCC2List'",
           "package": "PriorityChansConverger",
@@ -1293,6 +1404,7 @@
         "index": {
           "description": "Wrapper around fastFlushPCC2List STM see Control.Concurrent.PriorityChansConverger.PriorityChansConverger Used locks PCC Lock Strict This is fast flush it doesn deal with priorities",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "fastFlushPCC2List'",
           "normalized": "PriorityChansConverger a b-\u003eIO[(a,b)]",
@@ -1309,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003efilterOutPCCElements_STM'\u003c/code\u003e\n (see \u003ca\u003eControl.Concurrent.PriorityChansConverger.PriorityChansConverger\u003c/a\u003e).\n Used locks: \u003ccode\u003e[\u003ccode\u003e\u003ca\u003ePCC_Lock\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eStrict.\n\u003c/p\u003e\u003cp\u003eTake everything, applu filter, return what's left in the PCC,\n return what's taken out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "filterOutPCCElements'",
           "package": "PriorityChansConverger",
@@ -1319,6 +1432,7 @@
         "index": {
           "description": "Wrapper around filterOutPCCElements STM see Control.Concurrent.PriorityChansConverger.PriorityChansConverger Used locks PCC Lock Strict Take everything applu filter return what left in the PCC return what taken out",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "filterOutPCCElements'",
           "normalized": "PriorityChansConverger a b-\u003e(b-\u003eTakeElementOutShouldWe)-\u003eIO[(a,b)]",
@@ -1335,6 +1449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003eflushPCC2List_STM\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Used locks: \u003ccode\u003e[\u003ccode\u003e\u003ca\u003ePCC_Lock\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eLazy (doublecheck that).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "flushPCC2List",
           "package": "PriorityChansConverger",
@@ -1345,6 +1460,7 @@
         "index": {
           "description": "Wrapper around flushPCC2List STM Used locks PCC Lock Lazy doublecheck that",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "flushPCC2List",
           "normalized": "PriorityChansConverger a b-\u003eIO[(a,b)]",
@@ -1361,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003eflushPCC2List_STM'\u003c/code\u003e\n (see \u003ca\u003eControl.Concurrent.PriorityChansConverger.PriorityChansConverger\u003c/a\u003e).\n Used locks: \u003ccode\u003e[\u003ccode\u003e\u003ca\u003ePCC_Lock\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eStrict. Should be a bit faster than \u003ccode\u003e\u003ccode\u003e\u003ca\u003eflushPCC2List\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "flushPCC2List'",
           "package": "PriorityChansConverger",
@@ -1371,6 +1488,7 @@
         "index": {
           "description": "Wrapper around flushPCC2List STM see Control.Concurrent.PriorityChansConverger.PriorityChansConverger Used locks PCC Lock Strict Should be bit faster than flushPCC2List",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "flushPCC2List'",
           "normalized": "PriorityChansConverger a b-\u003eIO[(a,b)]",
@@ -1387,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003efreeSpaceInPCCInput_STM\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Used locks: none\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "freeSpaceInPCCInput",
           "package": "PriorityChansConverger",
@@ -1397,6 +1516,7 @@
         "index": {
           "description": "Wrapper around freeSpaceInPCCInput STM Used locks none",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "freeSpaceInPCCInput",
           "normalized": "PriorityChansConverger a b-\u003ea-\u003eIO(Maybe ChanContentAmountMeasure)",
@@ -1413,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003estmInterruptableReadFromPCC\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Used locks: \u003ccode\u003e[\u003ccode\u003e\u003ca\u003ePCC_IOInterruptableRead\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eBlocking read.\n\u003c/p\u003e\u003cp\u003eCreates a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e Bool\u003c/code\u003e to control the interruptability of read operation.\n Spawns additional thread, which cyclicly reads given \u003ccode\u003eChan\u003c/code\u003e and checks,\n if it signals terminating condition - if so, then using \u003ca\u003einterrupter\u003c/a\u003e \u003ccode\u003eTVar\u003c/code\u003e\n stops trying to write in PCC. Temporary thread gets terminated at the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "interruptableReadFromPCC",
           "package": "PriorityChansConverger",
@@ -1423,6 +1544,7 @@
         "index": {
           "description": "Wrapper around stmInterruptableReadFromPCC Used locks PCC IOInterruptableRead Blocking read Creates TVar Bool to control the interruptability of read operation Spawns additional thread which cyclicly reads given Chan and checks if it signals terminating condition if so then using interrupter TVar stops trying to write in PCC Temporary thread gets terminated at the end",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "interruptableReadFromPCC",
           "normalized": "(Chan a,a-\u003eInterruptShouldWe)-\u003ePriorityChansConverger b c-\u003eIO(Either()(b,c))",
@@ -1439,6 +1561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003estmInterruptableWriteInPCC\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Used locks: \u003ccode\u003e[\u003ccode\u003e\u003ca\u003ePCC_IOInterruptableWrite\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eBlocking read.\n\u003c/p\u003e\u003cp\u003eCreates a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e Bool\u003c/code\u003e to control the interruptability of write operation.\n Spawns additional thread, which cyclicly reads given \u003ccode\u003eChan\u003c/code\u003e and checks,\n if it signals terminating condition - if so, then using \u003ca\u003einterrupter\u003c/a\u003e \u003ccode\u003eTVar\u003c/code\u003e\n stops trying to write in PCC. Temporary thread gets terminated at the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "interruptableWriteInPCC",
           "package": "PriorityChansConverger",
@@ -1449,6 +1572,7 @@
         "index": {
           "description": "Wrapper around stmInterruptableWriteInPCC Used locks PCC IOInterruptableWrite Blocking read Creates TVar Bool to control the interruptability of write operation Spawns additional thread which cyclicly reads given Chan and checks if it signals terminating condition if so then using interrupter TVar stops trying to write in PCC Temporary thread gets terminated at the end",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "interruptableWriteInPCC",
           "normalized": "(Chan a,a-\u003eInterruptShouldWe)-\u003eb-\u003ec-\u003ePriorityChansConverger b c-\u003eIO(Either()(Maybe FailureReasonWPCC))",
@@ -1465,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003eisEmptyPCC_STM\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Used locks: none\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "isEmptyPCC",
           "package": "PriorityChansConverger",
@@ -1475,6 +1600,7 @@
         "index": {
           "description": "Wrapper around isEmptyPCC STM Used locks none",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "isEmptyPCC",
           "normalized": "PriorityChansConverger a b-\u003eIO Bool",
@@ -1491,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003eisOfStructPCC_STM\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Used locks: none.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "isOfStructPCC",
           "package": "PriorityChansConverger",
@@ -1501,6 +1628,7 @@
         "index": {
           "description": "Wrapper around isOfStructPCC STM Used locks none",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "isOfStructPCC",
           "normalized": "Map a(StartPriority,ChanCapacity)-\u003ePriorityChansConverger a b-\u003eIO(PCC_ContainsGivenSpecification,NothingElseIsInStruct)",
@@ -1517,6 +1645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort the locks and lock them.\n\u003c/p\u003e\u003cp\u003eWARNING !!! Asynchronous exceptions may cause loss of locks!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "lockPCC",
           "package": "PriorityChansConverger",
@@ -1527,6 +1656,7 @@
         "index": {
           "description": "Sort the locks and lock them WARNING Asynchronous exceptions may cause loss of locks",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "lockPCC",
           "normalized": "LockUserName-\u003e[PCC_Lock]-\u003ePriorityChansConverger a b-\u003eIO()",
@@ -1542,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "maybeObserveExceptions",
           "package": "PriorityChansConverger",
@@ -1551,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "maybeObserveExceptions",
           "normalized": "PriorityChansConverger a b-\u003eFunctionName-\u003eIO c-\u003eIO c",
@@ -1567,6 +1699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003emutatePCC_STM\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Used locks: \u003ccode\u003e[\u003ccode\u003e\u003ca\u003ePCC_Lock\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "mutatePCC",
           "package": "PriorityChansConverger",
@@ -1577,6 +1710,7 @@
         "index": {
           "description": "Wrapper around mutatePCC STM Used locks PCC Lock",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "mutatePCC",
           "normalized": "Map a(StartPriority,ChanCapacity)-\u003ePriorityChansConverger a b-\u003eIO(PriorityChansConverger a b)",
@@ -1593,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003enewPriorityChansConverger_wCUIS\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e\u003cpre\u003enewPriorityChansConverger = \u003ccode\u003e\u003ca\u003enewPriorityChansConverger_wCUIS\u003c/a\u003e\u003c/code\u003e Nothing\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "newPriorityChansConverger",
           "package": "PriorityChansConverger",
@@ -1603,6 +1738,7 @@
         "index": {
           "description": "Wrapper around newPriorityChansConverger wCUIS constructor newPriorityChansConverger newPriorityChansConverger wCUIS Nothing",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "newPriorityChansConverger",
           "normalized": "Map a(StartPriority,ChanCapacity)-\u003eIO(PriorityChansConverger a b)",
@@ -1619,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003enewPriorityChansConvergerSTM_wCUIS\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e constructor.\n With an option to enable utility \u003ccode\u003e\u003ccode\u003e\u003ca\u003eConcurrentUISupport\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n (which is useful for debugging)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "newPriorityChansConverger_wCUIS",
           "package": "PriorityChansConverger",
@@ -1629,6 +1766,7 @@
         "index": {
           "description": "Wrapper around newPriorityChansConvergerSTM wCUIS constructor With an option to enable utility ConcurrentUISupport which is useful for debugging",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "newPriorityChansConverger_wCUIS",
           "normalized": "Maybe ConcurrentUISupport-\u003eMap a(StartPriority,ChanCapacity)-\u003eIO(PriorityChansConverger a b)",
@@ -1644,6 +1782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "pccLocks",
           "package": "PriorityChansConverger",
@@ -1653,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "pccLocks",
           "normalized": "Map PCC_Lock(MVar())",
@@ -1668,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "pccSTM",
           "package": "PriorityChansConverger",
@@ -1677,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "pccSTM",
           "package": "PriorityChansConverger",
@@ -1691,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003ereadFromPCC_STM\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Used locks: if blocking, then \u003ccode\u003e[]\u003c/code\u003e else \u003ccode\u003e[\u003ccode\u003e\u003ca\u003ePCC_Lock\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "readFromPCC",
           "package": "PriorityChansConverger",
@@ -1701,6 +1844,7 @@
         "index": {
           "description": "Wrapper around readFromPCC STM Used locks if blocking then else PCC Lock",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "readFromPCC",
           "normalized": "PermitToBlock-\u003ePriorityChansConverger a b-\u003eIO(Maybe(a,b))",
@@ -1716,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "reportIfPossible",
           "package": "PriorityChansConverger",
@@ -1725,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "reportIfPossible",
           "normalized": "PriorityChansConverger a b-\u003eString-\u003eIO()",
@@ -1741,6 +1887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003eshowPCC\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Used locks: none\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "showPCC",
           "package": "PriorityChansConverger",
@@ -1751,6 +1898,7 @@
         "index": {
           "description": "Wrapper around showPCC Used locks none",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "showPCC",
           "normalized": "PriorityChansConverger a b-\u003eIO String",
@@ -1767,6 +1915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003einterruptableReadFromPCC_STM\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Used locks: \u003ccode\u003e[]\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eBlocking read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "stmInterruptableReadFromPCC",
           "package": "PriorityChansConverger",
@@ -1777,6 +1926,7 @@
         "index": {
           "description": "Wrapper around interruptableReadFromPCC STM Used locks Blocking read",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "stmInterruptableReadFromPCC",
           "normalized": "STM InterruptShouldWe-\u003ePriorityChansConverger a b-\u003eIO(Either()(a,b))",
@@ -1793,6 +1943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003einterruptableWriteInPCC_STM\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Used locks: \u003ccode\u003e[]\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eBlocking write.\n\u003c/p\u003e\u003cp\u003eDo not put the control of the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSTM\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInterruptShouldWe\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e under \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePCC_Lock\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n Keep there \u003ccode\u003eFalse\u003c/code\u003e, if you don't want to get \u003ccode\u003eLeft ()\u003c/code\u003e in return.\n Put there \u003ccode\u003eTrue\u003c/code\u003e, whenever you want to stop waiting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "stmInterruptableWriteInPCC",
           "package": "PriorityChansConverger",
@@ -1803,6 +1954,7 @@
         "index": {
           "description": "Wrapper around interruptableWriteInPCC STM Used locks Blocking write Do not put the control of the STM InterruptShouldWe under PCC Lock Keep there False if you don want to get Left in return Put there True whenever you want to stop waiting",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "stmInterruptableWriteInPCC",
           "normalized": "STM InterruptShouldWe-\u003ea-\u003eb-\u003ePriorityChansConverger a b-\u003eIO(Either()(Maybe FailureReasonWPCC))",
@@ -1819,6 +1971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse sort the locks and unlock them.\n\u003c/p\u003e\u003cp\u003eWARNING !!! Asynchronous exceptions may cause loss of locks!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "unlockPCC",
           "package": "PriorityChansConverger",
@@ -1829,6 +1982,7 @@
         "index": {
           "description": "Reverse sort the locks and unlock them WARNING Asynchronous exceptions may cause loss of locks",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "unlockPCC",
           "normalized": "LockUserName-\u003e[PCC_Lock]-\u003ePriorityChansConverger a b-\u003eIO()",
@@ -1845,6 +1999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocking IO action wrapper.\n\u003c/p\u003e\u003cp\u003eWARNING !!! Asynchronous exceptions may cause loss of locks!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "withLockedDo",
           "package": "PriorityChansConverger",
@@ -1855,6 +2010,7 @@
         "index": {
           "description": "Locking IO action wrapper WARNING Asynchronous exceptions may cause loss of locks",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "withLockedDo",
           "normalized": "LockUserName-\u003e[PCC_Lock]-\u003ePriorityChansConverger a b-\u003eIO c-\u003eIO c",
@@ -1871,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003ewriteInPCC_STM\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Used locks: if blocking,\n then \u003ccode\u003e[]\u003c/code\u003e else \u003ccode\u003e[\u003ccode\u003e\u003ca\u003ePCC_Lock\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf blocking is enabled, may block, when there is no free space\n in \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePriorityChan\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "writeInPCC",
           "package": "PriorityChansConverger",
@@ -1881,6 +2038,7 @@
         "index": {
           "description": "Wrapper around writeInPCC STM Used locks if blocking then else PCC Lock If blocking is enabled may block when there is no free space in PriorityChan",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConverger",
           "name": "writeInPCC",
           "normalized": "PermitToBlock-\u003ea-\u003eb-\u003ePriorityChansConverger a b-\u003eIO(Maybe FailureReasonWPCC)",
@@ -1897,6 +2055,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbbreviation for the \u003ccode\u003ePriorityChansConverger\u003c/code\u003e is PCC.\n\u003c/p\u003e\u003cp\u003eBased on \u003ccode\u003eSTM.TChan\u003c/code\u003es, extended with capacity control\n (see \u003ccode\u003e\u003ca\u003eControl.Concurrent.STM.TChan.TChanB\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eWhen user reads from the PCC, the choice is made - from which channel\n to read. System selects a nonempty channel, whose /(CurrentPriority,\n StartPriority)/ tuple is max. The side effect of the channel selection\n is it's \u003cem\u003eCurrentPriority\u003c/em\u003e decrease by one, if it's value becomes\n less than one, then the \u003cem\u003eCurrentPriority\u003c/em\u003e is set to \u003cem\u003eStartPriority\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "PriorityChansConvergerSTM",
           "package": "PriorityChansConverger",
@@ -1906,6 +2065,7 @@
         "index": {
           "description": "Abbreviation for the PriorityChansConverger is PCC Based on STM.TChan extended with capacity control see Control.Concurrent.STM.TChan.TChanB When user reads from the PCC the choice is made from which channel to read System selects nonempty channel whose CurrentPriority StartPriority tuple is max The side effect of the channel selection is it CurrentPriority decrease by one if it value becomes less than one then the CurrentPriority is set to StartPriority",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "PriorityChansConvergerSTM",
           "package": "PriorityChansConverger",
@@ -1920,6 +2080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePriorityChan = ID + \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTChanB\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e + \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eCurrentPriority\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eStartPriority\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "PriorityChan",
           "package": "PriorityChansConverger",
@@ -1929,6 +2090,7 @@
         "index": {
           "description": "PriorityChan ID TChanB TVar CurrentPriority StartPriority",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "PriorityChan",
           "package": "PriorityChansConverger",
@@ -1942,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "PriorityChansConvergerSTM",
           "package": "PriorityChansConverger",
@@ -1950,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "PriorityChansConvergerSTM",
           "package": "PriorityChansConverger",
@@ -1963,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "PriorityChan",
           "package": "PriorityChansConverger",
@@ -1972,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "PriorityChan",
           "package": "PriorityChansConverger",
@@ -1985,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "PriorityChansConvergerSTM",
           "package": "PriorityChansConverger",
@@ -1994,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "PriorityChansConvergerSTM",
           "package": "PriorityChansConverger",
@@ -2008,6 +2176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrease \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCurrentPriority\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e by one, if it's value becomes\n less than one, then the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCurrentPriority\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is set to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eStartPriority\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "decPriority",
           "package": "PriorityChansConverger",
@@ -2018,6 +2187,7 @@
         "index": {
           "description": "Decrease CurrentPriority by one if it value becomes less than one then the CurrentPriority is set to StartPriority",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "decPriority",
           "normalized": "(CurrentPriority,StartPriority)-\u003e(CurrentPriority,StartPriority)",
@@ -2034,6 +2204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict. This is a fast flush, it doesn't deal with priorities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "fastFlushPCC2List_STM'",
           "package": "PriorityChansConverger",
@@ -2044,6 +2215,7 @@
         "index": {
           "description": "Strict This is fast flush it doesn deal with priorities",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "fastFlushPCC2List_STM'",
           "normalized": "PriorityChansConvergerSTM a b-\u003eSTM[(a,b)]",
@@ -2060,6 +2232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict.\n\u003c/p\u003e\u003cp\u003eTake everything, applu filter, return what's left in the PCC,\n return what's taken out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "filterOutPCCElements_STM'",
           "package": "PriorityChansConverger",
@@ -2070,6 +2243,7 @@
         "index": {
           "description": "Strict Take everything applu filter return what left in the PCC return what taken out",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "filterOutPCCElements_STM'",
           "normalized": "PriorityChansConvergerSTM a b-\u003e(b-\u003eTakeElementOutShouldWe)-\u003eSTM[(a,b)]",
@@ -2086,6 +2260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition of \u003ccode\u003e\u003ccode\u003e\u003ca\u003ereadFromPCC_STM\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es. Lazy (doublecheck that).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "flushPCC2List_STM",
           "package": "PriorityChansConverger",
@@ -2096,6 +2271,7 @@
         "index": {
           "description": "Composition of readFromPCC STM Lazy doublecheck that",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "flushPCC2List_STM",
           "normalized": "PriorityChansConvergerSTM a b-\u003eSTM[(a,b)]",
@@ -2112,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict. Should be a bit faster than \u003ccode\u003e\u003ccode\u003e\u003ca\u003eflushPCC2List_STM\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "flushPCC2List_STM'",
           "package": "PriorityChansConverger",
@@ -2122,6 +2299,7 @@
         "index": {
           "description": "Strict Should be bit faster than flushPCC2List STM",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "flushPCC2List_STM'",
           "normalized": "PriorityChansConvergerSTM a b-\u003eSTM[(a,b)]",
@@ -2138,6 +2316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree space in referenced channel = Capacity - Load.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "freeSpaceInPCCInput_STM",
           "package": "PriorityChansConverger",
@@ -2148,6 +2327,7 @@
         "index": {
           "description": "Free space in referenced channel Capacity Load",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "freeSpaceInPCCInput_STM",
           "normalized": "PriorityChansConvergerSTM a b-\u003ea-\u003eSTM(Maybe ChanContentAmountMeasure)",
@@ -2164,6 +2344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e(\u003ccode\u003e\u003ca\u003ereadFromPCC_STM\u003c/a\u003e\u003c/code\u003e True)\u003c/code\u003e - blocking read.\n Uses \u003ccode\u003e\u003ca\u003einterruptableSTM\u003c/a\u003e\u003c/code\u003e. If returns Left, then transaction ended with\n interrupting condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "interruptableReadFromPCC_STM",
           "package": "PriorityChansConverger",
@@ -2174,6 +2355,7 @@
         "index": {
           "description": "Wrapper around readFromPCC STM True blocking read Uses interruptableSTM If returns Left then transaction ended with interrupting condition",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "interruptableReadFromPCC_STM",
           "normalized": "STM InterruptShouldWe-\u003ePriorityChansConvergerSTM a b-\u003eSTM(Either()(a,b))",
@@ -2190,6 +2372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor \u003ccode\u003einterruptableSTM interrupter subj\u003c/code\u003e, when \u003ccode\u003einterrupter\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e,\n the transaction returns \u003ccode\u003eNothing\u003c/code\u003e. Else the result of \u003ccode\u003esubj\u003c/code\u003e is waited\n and returned wrapped into \u003ccode\u003eJust\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "interruptableSTM",
           "package": "PriorityChansConverger",
@@ -2200,6 +2383,7 @@
         "index": {
           "description": "For interruptableSTM interrupter subj when interrupter returns True the transaction returns Nothing Else the result of subj is waited and returned wrapped into Just",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "interruptableSTM",
           "normalized": "STM InterruptShouldWe-\u003eSTM a-\u003eSTM(Maybe a)",
@@ -2216,6 +2400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e(\u003ccode\u003e\u003ca\u003ewriteInPCC_STM\u003c/a\u003e\u003c/code\u003e True)\u003c/code\u003e - blocking write.\n Uses \u003ccode\u003e\u003ca\u003einterruptableSTM\u003c/a\u003e\u003c/code\u003e. If returns Left, then transaction ended with\n interrupting condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "interruptableWriteInPCC_STM",
           "package": "PriorityChansConverger",
@@ -2226,6 +2411,7 @@
         "index": {
           "description": "Wrapper around writeInPCC STM True blocking write Uses interruptableSTM If returns Left then transaction ended with interrupting condition",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "interruptableWriteInPCC_STM",
           "normalized": "STM InterruptShouldWe-\u003ea-\u003eb-\u003ePriorityChansConvergerSTM a b-\u003eSTM(Either()(Maybe FailureReasonWPCC))",
@@ -2241,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "isEmptyPCC_STM",
           "package": "PriorityChansConverger",
@@ -2250,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "isEmptyPCC_STM",
           "normalized": "PriorityChansConvergerSTM a b-\u003eSTM Bool",
@@ -2266,6 +2454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If PCC contains all channels, constructable by given specification.\n\u003c/li\u003e\u003cli\u003e If PCC contains nothing else, than mentioned in the given specification.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "isOfStructPCC_STM",
           "package": "PriorityChansConverger",
@@ -2276,6 +2465,7 @@
         "index": {
           "description": "Checks If PCC contains all channels constructable by given specification If PCC contains nothing else than mentioned in the given specification",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "isOfStructPCC_STM",
           "normalized": "Map a(StartPriority,ChanCapacity)-\u003ePriorityChansConvergerSTM a b-\u003eSTM(PCC_ContainsGivenSpecification,NothingElseIsInStruct)",
@@ -2292,6 +2482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates PCC with given specification. New channels may be added\n or existing alerted.\n But no operation for removing channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "mutatePCC_STM",
           "package": "PriorityChansConverger",
@@ -2302,6 +2493,7 @@
         "index": {
           "description": "Updates PCC with given specification New channels may be added or existing alerted But no operation for removing channels",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "mutatePCC_STM",
           "normalized": "Map a(StartPriority,ChanCapacity)-\u003ePriorityChansConvergerSTM a b-\u003eSTM(PriorityChansConvergerSTM a b)",
@@ -2318,6 +2510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "newPriorityChan",
           "package": "PriorityChansConverger",
@@ -2328,6 +2521,7 @@
         "index": {
           "description": "Constructor",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "newPriorityChan",
           "normalized": "a-\u003eStartPriority-\u003eChanCapacity-\u003eSTM(PriorityChan a b)",
@@ -2344,6 +2538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePCC constructor. \u003ccode\u003e\u003ccode\u003e\u003ca\u003eConcurrentUISupport\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is off.\n\u003c/p\u003e\u003cpre\u003enewPriorityChansConvergerSTM = \u003ccode\u003e\u003ca\u003enewPriorityChansConvergerSTM_wCUIS\u003c/a\u003e\u003c/code\u003e Nothing\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "newPriorityChansConvergerSTM",
           "package": "PriorityChansConverger",
@@ -2354,6 +2549,7 @@
         "index": {
           "description": "PCC constructor ConcurrentUISupport is off newPriorityChansConvergerSTM newPriorityChansConvergerSTM wCUIS Nothing",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "newPriorityChansConvergerSTM",
           "normalized": "Map a(StartPriority,ChanCapacity)-\u003eSTM(PriorityChansConvergerSTM a b)",
@@ -2370,6 +2566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePCC constructor with an option to enable utility \u003ccode\u003e\u003ccode\u003e\u003ca\u003eConcurrentUISupport\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n (which is useful for debugging).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "newPriorityChansConvergerSTM_wCUIS",
           "package": "PriorityChansConverger",
@@ -2380,6 +2577,7 @@
         "index": {
           "description": "PCC constructor with an option to enable utility ConcurrentUISupport which is useful for debugging",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "newPriorityChansConvergerSTM_wCUIS",
           "normalized": "Maybe ConcurrentUISupport-\u003eMap a(StartPriority,ChanCapacity)-\u003eSTM(PriorityChansConvergerSTM a b)",
@@ -2396,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003epcCapacity\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003echanCapacity\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003epcChanB\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcCapacity",
           "package": "PriorityChansConverger",
@@ -2406,6 +2605,7 @@
         "index": {
           "description": "pcCapacity chanCapacity pcChanB",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcCapacity",
           "normalized": "PriorityChan a b-\u003eSTM ChanCapacity",
@@ -2421,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcChanB",
           "package": "PriorityChansConverger",
@@ -2430,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcChanB",
           "package": "PriorityChansConverger",
@@ -2443,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcID",
           "package": "PriorityChansConverger",
@@ -2452,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcID",
           "package": "PriorityChansConverger",
@@ -2466,6 +2670,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003epcIsEmpty\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eisEmptyTChanB\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003epcChanB\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcIsEmpty",
           "package": "PriorityChansConverger",
@@ -2476,6 +2681,7 @@
         "index": {
           "description": "pcIsEmpty isEmptyTChanB pcChanB",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcIsEmpty",
           "normalized": "PriorityChan a b-\u003eSTM Bool",
@@ -2492,6 +2698,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003epcLoad\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003echanLoad\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003epcChanB\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcLoad",
           "package": "PriorityChansConverger",
@@ -2502,6 +2709,7 @@
         "index": {
           "description": "pcLoad chanLoad pcChanB",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcLoad",
           "normalized": "PriorityChan a b-\u003eSTM ChanLoad",
@@ -2518,6 +2726,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003epcPriority\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ereadTVar\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003epcPriorityTV\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcPriority",
           "package": "PriorityChansConverger",
@@ -2528,6 +2737,7 @@
         "index": {
           "description": "pcPriority readTVar pcPriorityTV",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcPriority",
           "normalized": "PriorityChan a b-\u003eSTM(CurrentPriority,StartPriority)",
@@ -2543,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcPriorityTV",
           "package": "PriorityChansConverger",
@@ -2552,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcPriorityTV",
           "normalized": "TVar(CurrentPriority,StartPriority)",
@@ -2568,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003epcStartPriority\u003c/a\u003e\u003c/code\u003e pc = snd \u003ccode\u003e\u003ca\u003eliftM\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003epcPriority\u003c/a\u003e\u003c/code\u003e pc\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcStartPriority",
           "package": "PriorityChansConverger",
@@ -2578,6 +2791,7 @@
         "index": {
           "description": "pcStartPriority pc snd liftM pcPriority pc",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pcStartPriority",
           "normalized": "PriorityChan a b-\u003eSTM StartPriority",
@@ -2594,6 +2808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor testing and debugging purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pccConcurrentUISupport",
           "package": "PriorityChansConverger",
@@ -2604,6 +2819,7 @@
         "index": {
           "description": "For testing and debugging purposes",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pccConcurrentUISupport",
           "package": "PriorityChansConverger",
@@ -2618,6 +2834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty channels. Map keys == \u003ccode\u003e\u003ccode\u003e\u003ca\u003epcPriorityTV\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pccEmpties",
           "package": "PriorityChansConverger",
@@ -2628,6 +2845,7 @@
         "index": {
           "description": "Empty channels Map keys pcPriorityTV of elements",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pccEmpties",
           "normalized": "TVar(Map(CurrentPriority,StartPriority)[PriorityChan a b])",
@@ -2644,6 +2862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNonempty channels. Map keys == \u003ccode\u003e\u003ccode\u003e\u003ca\u003epcPriorityTV\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e of elements.\n Convenient for taking output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pccNonEmpties",
           "package": "PriorityChansConverger",
@@ -2654,6 +2873,7 @@
         "index": {
           "description": "Nonempty channels Map keys pcPriorityTV of elements Convenient for taking output",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pccNonEmpties",
           "normalized": "TVar(Map(CurrentPriority,StartPriority)[PriorityChan a b])",
@@ -2670,6 +2890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll channels. Convenient to use for input.\n Map keys == \u003ccode\u003e\u003ccode\u003e\u003ca\u003epcID\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pccStruct",
           "package": "PriorityChansConverger",
@@ -2680,6 +2901,7 @@
         "index": {
           "description": "All channels Convenient to use for input Map keys pcID of elements",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "pccStruct",
           "package": "PriorityChansConverger",
@@ -2694,6 +2916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePermitToBlock\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is \u003ccode\u003eTrue\u003c/code\u003e, then never returns \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "readFromPCC_STM",
           "package": "PriorityChansConverger",
@@ -2704,6 +2927,7 @@
         "index": {
           "description": "If PermitToBlock is True then never returns Nothing",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "readFromPCC_STM",
           "normalized": "PermitToBlock-\u003ePriorityChansConvergerSTM a b-\u003eSTM(Maybe(a,b))",
@@ -2720,6 +2944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed wrapped in \u003ccode\u003e(unsafePerformIO . atomically)\u003c/code\u003e in the definition\n of show instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "showPCC_STM",
           "package": "PriorityChansConverger",
@@ -2730,6 +2955,7 @@
         "index": {
           "description": "Used wrapped in unsafePerformIO atomically in the definition of show instance",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "showPCC_STM",
           "normalized": "PriorityChansConvergerSTM a b-\u003eSTM String",
@@ -2746,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed wrapped in \u003ccode\u003e(unsafePerformIO . atomically)\u003c/code\u003e in the definition\n of show instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "showPC_STM",
           "package": "PriorityChansConverger",
@@ -2756,6 +2983,7 @@
         "index": {
           "description": "Used wrapped in unsafePerformIO atomically in the definition of show instance",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "showPC_STM",
           "normalized": "PriorityChan a b-\u003eSTM String",
@@ -2772,6 +3000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf blocking is on, then blocks, when trying to write to a full channel\n (where's no free space).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "writeInPCC_STM",
           "package": "PriorityChansConverger",
@@ -2782,6 +3011,7 @@
         "index": {
           "description": "If blocking is on then blocks when trying to write to full channel where no free space",
           "hierarchy": "Control Concurrent PriorityChansConverger PriorityChansConvergerSTM",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger.PriorityChansConvergerSTM",
           "name": "writeInPCC_STM",
           "normalized": "PermitToBlock-\u003ea-\u003eb-\u003ePriorityChansConvergerSTM a b-\u003eSTM(Maybe FailureReasonWPCC)",
@@ -2797,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.PriorityChansConverger",
           "name": "PriorityChansConverger",
           "package": "PriorityChansConverger",
@@ -2805,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent PriorityChansConverger",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.PriorityChansConverger",
           "name": "PriorityChansConverger",
           "package": "PriorityChansConverger",
@@ -2818,6 +3050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "ExtsCommons",
           "package": "PriorityChansConverger",
@@ -2826,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan ExtsCommons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "ExtsCommons",
           "package": "PriorityChansConverger",
@@ -2839,6 +3073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "ChanCapacity",
           "package": "PriorityChansConverger",
@@ -2847,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan ExtsCommons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "ChanCapacity",
           "package": "PriorityChansConverger",
@@ -2861,6 +3097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBigger than \u003ccode\u003eInt\u003c/code\u003e might not work, because some list functions are used,\n that consume \u003ccode\u003eInt\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "ChanContentAmountMeasure",
           "package": "PriorityChansConverger",
@@ -2870,6 +3107,7 @@
         "index": {
           "description": "Bigger than Int might not work because some list functions are used that consume Int",
           "hierarchy": "Control Concurrent STM TChan ExtsCommons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "ChanContentAmountMeasure",
           "package": "PriorityChansConverger",
@@ -2883,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "ChanLoad",
           "package": "PriorityChansConverger",
@@ -2891,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan ExtsCommons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "ChanLoad",
           "package": "PriorityChansConverger",
@@ -2904,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "PermitToBlock",
           "package": "PriorityChansConverger",
@@ -2912,6 +3153,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan ExtsCommons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "PermitToBlock",
           "package": "PriorityChansConverger",
@@ -2925,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "TakeElementOutShouldWe",
           "package": "PriorityChansConverger",
@@ -2933,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan ExtsCommons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "TakeElementOutShouldWe",
           "package": "PriorityChansConverger",
@@ -2946,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "WriteSucceeded",
           "package": "PriorityChansConverger",
@@ -2954,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan ExtsCommons",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.ExtsCommons",
           "name": "WriteSucceeded",
           "package": "PriorityChansConverger",
@@ -2967,6 +3213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB",
           "name": "TChanB",
           "package": "PriorityChansConverger",
@@ -2975,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB",
           "name": "TChanB",
           "package": "PriorityChansConverger",
@@ -2989,6 +3237,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eTChanL\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eTChan\u003c/a\u003e\u003c/code\u003e + \u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eChanLoad\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eTChanB\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eTChanL\u003c/a\u003e\u003c/code\u003e + \u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eChanCapacity\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "TChanB_",
           "package": "PriorityChansConverger",
@@ -2998,6 +3247,7 @@
         "index": {
           "description": "TChanL TChan TVar ChanLoad TChanB TChanL TVar ChanCapacity",
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "TChanB_",
           "package": "PriorityChansConverger",
@@ -3011,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "TChanB",
           "package": "PriorityChansConverger",
@@ -3019,6 +3270,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "TChanB",
           "package": "PriorityChansConverger",
@@ -3032,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "TChanB",
           "package": "PriorityChansConverger",
@@ -3041,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "TChanB",
           "package": "PriorityChansConverger",
@@ -3054,6 +3308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "chanCapacity",
           "package": "PriorityChansConverger",
@@ -3063,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "chanCapacity",
           "normalized": "TChanB a-\u003eSTM ChanCapacity",
@@ -3078,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "chanLoad",
           "package": "PriorityChansConverger",
@@ -3087,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "chanLoad",
           "normalized": "TChanB a-\u003eSTM ChanCapacity",
@@ -3102,6 +3360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "changeChanCapacity",
           "package": "PriorityChansConverger",
@@ -3111,6 +3370,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "changeChanCapacity",
           "normalized": "ChanCapacity-\u003eTChanB a-\u003eSTM()",
@@ -3127,6 +3387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis procedure is highly uneffective and is dangerous,\n when \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePermitToBlock\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is on.\n Since it won't complete unless there is enough free space in the channnel.\n Even the part of input that fits won't commit to get into the channel.\n If capacity isn't enough, it won't ever commit,\n unless the capacity is made bigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "elacticWriteList2TChanB",
           "package": "PriorityChansConverger",
@@ -3137,6 +3398,7 @@
         "index": {
           "description": "This procedure is highly uneffective and is dangerous when PermitToBlock is on Since it won complete unless there is enough free space in the channnel Even the part of input that fits won commit to get into the channel If capacity isn enough it won ever commit unless the capacity is made bigger",
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "elacticWriteList2TChanB",
           "normalized": "PermitToBlock-\u003eTChanB a-\u003e[a]-\u003eSTM[a]",
@@ -3153,6 +3415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \"elastic-\" prefix stands for the opportunity to regulate\n with option \u003ccode\u003e\u003ca\u003ePermitToBlock\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "elasticWriteTChanB",
           "package": "PriorityChansConverger",
@@ -3163,6 +3426,7 @@
         "index": {
           "description": "The elastic prefix stands for the opportunity to regulate with option PermitToBlock",
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "elasticWriteTChanB",
           "normalized": "PermitToBlock-\u003eTChanB a-\u003ea-\u003eSTM WriteSucceeded",
@@ -3179,6 +3443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust filter out elements. Is abstracted over implementation,\n so doesn't suffer from possible inconsistency between capacity\n and load (when capacity \u003c load).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "filterOutTChanBElements",
           "package": "PriorityChansConverger",
@@ -3189,6 +3454,7 @@
         "index": {
           "description": "Just filter out elements Is abstracted over implementation so doesn suffer from possible inconsistency between capacity and load when capacity load",
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "filterOutTChanBElements",
           "normalized": "(a-\u003eTakeElementOutShouldWe)-\u003eTChanB a-\u003eSTM[a]",
@@ -3205,6 +3471,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003efreeSpace = \u003ccode\u003e\u003ca\u003echanCapacity\u003c/a\u003e\u003c/code\u003e - \u003ccode\u003e\u003ca\u003echanLoad\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "freeSpaceInTChanB",
           "package": "PriorityChansConverger",
@@ -3215,6 +3482,7 @@
         "index": {
           "description": "freeSpace chanCapacity chanLoad",
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "freeSpaceInTChanB",
           "normalized": "TChanB a-\u003eSTM ChanContentAmountMeasure",
@@ -3231,6 +3499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake everything from channel, and leave it empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "getTChanBContents",
           "package": "PriorityChansConverger",
@@ -3241,6 +3510,7 @@
         "index": {
           "description": "Take everything from channel and leave it empty",
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "getTChanBContents",
           "normalized": "TChanB a-\u003eSTM[a]",
@@ -3256,6 +3526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "isEmptyTChanB",
           "package": "PriorityChansConverger",
@@ -3265,6 +3536,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "isEmptyTChanB",
           "normalized": "TChanB a-\u003eSTM Bool",
@@ -3280,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "newTChanB",
           "package": "PriorityChansConverger",
@@ -3289,6 +3562,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "newTChanB",
           "normalized": "ChanCapacity-\u003eSTM(TChanB a)",
@@ -3304,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "newTChanB_IO",
           "package": "PriorityChansConverger",
@@ -3313,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "newTChanB_IO",
           "normalized": "ChanCapacity-\u003eIO(TChanB a)",
@@ -3328,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "readTChanB",
           "package": "PriorityChansConverger",
@@ -3337,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "readTChanB",
           "normalized": "TChanB a-\u003eSTM a",
@@ -3352,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "tcbCapacity",
           "package": "PriorityChansConverger",
@@ -3361,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "tcbCapacity",
           "package": "PriorityChansConverger",
@@ -3374,6 +3654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "tcbChanL",
           "package": "PriorityChansConverger",
@@ -3383,6 +3664,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "tcbChanL",
           "package": "PriorityChansConverger",
@@ -3396,6 +3678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "tryReadTChanB",
           "package": "PriorityChansConverger",
@@ -3405,6 +3688,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "tryReadTChanB",
           "normalized": "TChanB a-\u003eSTM(Maybe a)",
@@ -3421,6 +3705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003eelasticWriteTChanB\u003c/a\u003e\u003c/code\u003e:\n \u003ccode\u003etryWriteTChanB = elasticWriteTChanB False\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "tryWriteTChanB",
           "package": "PriorityChansConverger",
@@ -3431,6 +3716,7 @@
         "index": {
           "description": "Wrapper around elasticWriteTChanB tryWriteTChanB elasticWriteTChanB False",
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "tryWriteTChanB",
           "normalized": "TChanB a-\u003ea-\u003eSTM Bool",
@@ -3446,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "viewChanBContent",
           "package": "PriorityChansConverger",
@@ -3455,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "viewChanBContent",
           "normalized": "TChanB a-\u003eSTM[a]",
@@ -3471,6 +3759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003eelasticWriteTChanB\u003c/a\u003e\u003c/code\u003e:\n \u003ccode\u003ewriteTChanB tchb a = return () \u003c\u003c elasticWriteTChanB True tchb a\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "writeTChanB",
           "package": "PriorityChansConverger",
@@ -3481,6 +3770,7 @@
         "index": {
           "description": "Wrapper around elasticWriteTChanB writeTChanB tchb return elasticWriteTChanB True tchb",
           "hierarchy": "Control Concurrent STM TChan TChanB_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanB_",
           "name": "writeTChanB",
           "normalized": "TChanB a-\u003ea-\u003eSTM()",
@@ -3496,6 +3786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL",
           "name": "TChanL",
           "package": "PriorityChansConverger",
@@ -3504,6 +3795,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL",
           "name": "TChanL",
           "package": "PriorityChansConverger",
@@ -3518,6 +3810,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eTChanL\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eTChan\u003c/a\u003e\u003c/code\u003e + \u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eChanLoad\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "TChanL_",
           "package": "PriorityChansConverger",
@@ -3527,6 +3820,7 @@
         "index": {
           "description": "TChanL TChan TVar ChanLoad",
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "TChanL_",
           "package": "PriorityChansConverger",
@@ -3540,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "TChanL",
           "package": "PriorityChansConverger",
@@ -3548,6 +3843,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "TChanL",
           "package": "PriorityChansConverger",
@@ -3561,6 +3857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "TChanL",
           "package": "PriorityChansConverger",
@@ -3570,6 +3867,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "TChanL",
           "package": "PriorityChansConverger",
@@ -3583,6 +3881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "chanLoad",
           "package": "PriorityChansConverger",
@@ -3592,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "chanLoad",
           "normalized": "TChanL a-\u003eSTM ChanLoad",
@@ -3607,6 +3907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "filterOutTChanLElements",
           "package": "PriorityChansConverger",
@@ -3616,6 +3917,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "filterOutTChanLElements",
           "normalized": "(a-\u003eTakeElementOutShouldWe)-\u003eTChanL a-\u003eSTM[a]",
@@ -3631,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "getTChanLContents",
           "package": "PriorityChansConverger",
@@ -3640,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "getTChanLContents",
           "normalized": "TChanL a-\u003eSTM[a]",
@@ -3655,6 +3959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "isEmptyTChanL",
           "package": "PriorityChansConverger",
@@ -3664,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "isEmptyTChanL",
           "normalized": "TChanL a-\u003eSTM Bool",
@@ -3679,6 +3985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "newTChanL",
           "package": "PriorityChansConverger",
@@ -3688,6 +3995,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "newTChanL",
           "package": "PriorityChansConverger",
@@ -3701,6 +4009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "newTChanL_IO",
           "package": "PriorityChansConverger",
@@ -3710,6 +4019,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "newTChanL_IO",
           "package": "PriorityChansConverger",
@@ -3723,6 +4033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "readTChanL",
           "package": "PriorityChansConverger",
@@ -3732,6 +4043,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "readTChanL",
           "normalized": "TChanL a-\u003eSTM a",
@@ -3747,6 +4059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "tclChan",
           "package": "PriorityChansConverger",
@@ -3756,6 +4069,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "tclChan",
           "package": "PriorityChansConverger",
@@ -3769,6 +4083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "tclLoad",
           "package": "PriorityChansConverger",
@@ -3778,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "tclLoad",
           "package": "PriorityChansConverger",
@@ -3791,6 +4107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "tryReadTChanL",
           "package": "PriorityChansConverger",
@@ -3800,6 +4117,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "tryReadTChanL",
           "normalized": "TChanL a-\u003eSTM(Maybe a)",
@@ -3815,6 +4133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "viewChanLContent",
           "package": "PriorityChansConverger",
@@ -3824,6 +4143,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "viewChanLContent",
           "normalized": "TChanL a-\u003eSTM[a]",
@@ -3839,6 +4159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "writeList2TChanL",
           "package": "PriorityChansConverger",
@@ -3848,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "writeList2TChanL",
           "normalized": "TChanL a-\u003e[a]-\u003eSTM()",
@@ -3863,6 +4185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:24 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "writeTChanL",
           "package": "PriorityChansConverger",
@@ -3872,6 +4195,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan TChanL_",
+          "indexed": "2014-03-11T16:57:24",
           "module": "Control.Concurrent.STM.TChan.TChanL_",
           "name": "writeTChanL",
           "normalized": "TChanL a-\u003ea-\u003eSTM()",

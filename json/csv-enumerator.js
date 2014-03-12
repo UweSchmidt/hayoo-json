@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "csv-enumerator"
+        "phrase": "csv-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports the underlying Attoparsec row parser. This is helpful if\n  you want to do some ad-hoc CSV string parsing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator.Parser",
           "name": "Parser",
           "package": "csv-enumerator",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module exports the underlying Attoparsec row parser This is helpful if you want to do some ad-hoc CSV string parsing",
           "hierarchy": "Data CSV Enumerator Parser",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator.Parser",
           "name": "Parser",
           "package": "csv-enumerator",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse CSV\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator.Parser",
           "name": "csv",
           "package": "csv-enumerator",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Parse CSV",
           "hierarchy": "Data CSV Enumerator Parser",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator.Parser",
           "name": "csv",
           "normalized": "CSVSettings-\u003eParser[Row]",
@@ -121,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a CSV row\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator.Parser",
           "name": "row",
           "package": "csv-enumerator",
@@ -131,6 +136,7 @@
         "index": {
           "description": "Parse CSV row",
           "hierarchy": "Data CSV Enumerator Parser",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator.Parser",
           "name": "row",
           "normalized": "CSVSettings-\u003eParser(Maybe Row)",
@@ -145,6 +151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "Enumerator",
           "package": "csv-enumerator",
@@ -153,6 +160,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "Enumerator",
           "package": "csv-enumerator",
@@ -167,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn iteratee that processes each row of a CSV file and updates the\n accumulator.\n\u003c/p\u003e\u003cp\u003eYou would implement one of these to use with the \u003ccode\u003e\u003ca\u003efoldCSVFile\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "CSVAction",
           "package": "csv-enumerator",
@@ -176,6 +185,7 @@
         "index": {
           "description": "An iteratee that processes each row of CSV file and updates the accumulator You would implement one of these to use with the foldCSVFile function",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "CSVAction",
           "package": "csv-enumerator",
@@ -190,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for a CSV file. This library is intended to be flexible and offer a way to process the majority of text data files out there.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "CSVSettings",
           "package": "csv-enumerator",
@@ -199,6 +210,7 @@
         "index": {
           "description": "Settings for CSV file This library is intended to be flexible and offer way to process the majority of text data files out there",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "CSVSettings",
           "package": "csv-enumerator",
@@ -212,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "CSVeable",
           "package": "csv-enumerator",
@@ -220,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "CSVeable",
           "package": "csv-enumerator",
@@ -233,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "Field",
           "package": "csv-enumerator",
@@ -241,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "Field",
           "package": "csv-enumerator",
@@ -254,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "MapRow",
           "package": "csv-enumerator",
@@ -262,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "MapRow",
           "package": "csv-enumerator",
@@ -276,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype that incorporates the signaling of parsing status to the\nuser-developed iteratee.\n\u003c/p\u003e\u003cp\u003eWe need this because some iteratees do interleaved IO (such as outputting to\n a file via a handle inside the accumulator) and some final actions may need\n to be taken upon encountering EOF (such as closing the interleaved handle).\n\u003c/p\u003e\u003cp\u003eUse this datatype when developing iteratees for use with fold* family of\n functions (Row enumarators).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "ParsedRow",
           "package": "csv-enumerator",
@@ -285,6 +304,7 @@
         "index": {
           "description": "datatype that incorporates the signaling of parsing status to the user-developed iteratee We need this because some iteratees do interleaved IO such as outputting to file via handle inside the accumulator and some final actions may need to be taken upon encountering EOF such as closing the interleaved handle Use this datatype when developing iteratees for use with fold family of functions Row enumarators",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "ParsedRow",
           "package": "csv-enumerator",
@@ -298,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "Row",
           "package": "csv-enumerator",
@@ -306,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "Row",
           "package": "csv-enumerator",
@@ -319,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "CSVS",
           "package": "csv-enumerator",
@@ -328,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "CSVS",
           "package": "csv-enumerator",
@@ -341,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "EOF",
           "package": "csv-enumerator",
@@ -350,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "EOF",
           "package": "csv-enumerator",
@@ -363,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "ParsedRow",
           "package": "csv-enumerator",
@@ -372,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "ParsedRow",
           "package": "csv-enumerator",
@@ -385,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "appendCSVFile",
           "package": "csv-enumerator",
@@ -393,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "appendCSVFile",
           "normalized": "CSVSettings-\u003eFilePath-\u003e[a]-\u003eIO Int",
@@ -409,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust collect all rows into an array. This will cancel out the incremental\n nature of this library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "collectRows",
           "package": "csv-enumerator",
@@ -419,6 +450,7 @@
         "index": {
           "description": "Just collect all rows into an array This will cancel out the incremental nature of this library",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "collectRows",
           "normalized": "CSVAction a[a]",
@@ -435,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField separator that should be used in the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "csvOutputColSep",
           "package": "csv-enumerator",
@@ -445,6 +478,7 @@
         "index": {
           "description": "Field separator that should be used in the output",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "csvOutputColSep",
           "package": "csv-enumerator",
@@ -459,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuote character that should be used in the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "csvOutputQuoteChar",
           "package": "csv-enumerator",
@@ -469,6 +504,7 @@
         "index": {
           "description": "Quote character that should be used in the output",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "csvOutputQuoteChar",
           "package": "csv-enumerator",
@@ -483,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuote character that may sometimes be present around fields. If \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is given, the library will never expect quotation even if it is present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "csvQuoteChar",
           "package": "csv-enumerator",
@@ -493,6 +530,7 @@
         "index": {
           "description": "Quote character that may sometimes be present around fields If Nothing is given the library will never expect quotation even if it is present",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "csvQuoteChar",
           "package": "csv-enumerator",
@@ -507,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparator character to be used in between fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "csvSep",
           "package": "csv-enumerator",
@@ -517,6 +556,7 @@
         "index": {
           "description": "Separator character to be used in between fields",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "csvSep",
           "package": "csv-enumerator",
@@ -531,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault settings for a CSV file. \n\u003c/p\u003e\u003cpre\u003e csvSep = ','\n csvQuoteChar = Just '\"'\n csvOutputQuoteChar = Just '\"'\n csvOutputColSep = ','\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "defCSVSettings",
           "package": "csv-enumerator",
@@ -541,6 +582,7 @@
         "index": {
           "description": "Default settings for CSV file csvSep csvQuoteChar Just csvOutputQuoteChar Just csvOutputColSep",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "defCSVSettings",
           "package": "csv-enumerator",
@@ -555,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossibly return headers for a list of rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "fileHeaders",
           "package": "csv-enumerator",
@@ -565,6 +608,7 @@
         "index": {
           "description": "Possibly return headers for list of rows",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "fileHeaders",
           "normalized": "[a]-\u003eMaybe Row",
@@ -581,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIteratee to push rows into a given file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "fileSink",
           "package": "csv-enumerator",
@@ -591,6 +636,7 @@
         "index": {
           "description": "Iteratee to push rows into given file",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "fileSink",
           "normalized": "CSVSettings-\u003eFilePath-\u003e(Maybe Handle,Int)-\u003eParsedRow a-\u003eIteratee ByteString IO(Maybe Handle,Int)",
@@ -607,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen & fold over the CSV file.\n\u003c/p\u003e\u003cp\u003eProcessing starts on row 2 for MapRow instance to use first row as column\n headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "foldCSVFile",
           "package": "csv-enumerator",
@@ -616,6 +663,7 @@
         "index": {
           "description": "Open fold over the CSV file Processing starts on row for MapRow instance to use first row as column headers",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "foldCSVFile",
           "normalized": "FilePath-\u003eCSVSettings-\u003eCSVAction a b-\u003eb-\u003eIO(Either SomeException b)",
@@ -632,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience converter for fold step functions that are pure.\n\u003c/p\u003e\u003cp\u003eUse this if you don't want to deal with Iteratees when writing your fold\n functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "funToIter",
           "package": "csv-enumerator",
@@ -642,6 +691,7 @@
         "index": {
           "description": "Convenience converter for fold step functions that are pure Use this if you don want to deal with Iteratees when writing your fold functions",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "funToIter",
           "normalized": "(a-\u003eParsedRow b-\u003ea)-\u003eCSVAction b a",
@@ -658,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience converter for fold step functions that live in the IO monad.\n\u003c/p\u003e\u003cp\u003eUse this if you don't want to deal with Iteratees when writing your fold\n functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "funToIterIO",
           "package": "csv-enumerator",
@@ -668,6 +719,7 @@
         "index": {
           "description": "Convenience converter for fold step functions that live in the IO monad Use this if you don want to deal with Iteratees when writing your fold functions",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "funToIterIO",
           "normalized": "(a-\u003eParsedRow b-\u003eIO a)-\u003eCSVAction b a",
@@ -684,6 +736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe raw iteratee to process any Enumerator stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "iterCSV",
           "package": "csv-enumerator",
@@ -694,6 +747,7 @@
         "index": {
           "description": "The raw iteratee to process any Enumerator stream",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "iterCSV",
           "normalized": "CSVSettings-\u003eCSVAction a b-\u003eb-\u003eIteratee ByteString IO b",
@@ -710,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap-accumulate over a CSV file. Similar to \u003ccode\u003emapAccumL\u003c/code\u003e in \u003ccode\u003e\u003ca\u003eList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "mapAccumCSVFile",
           "package": "csv-enumerator",
@@ -720,6 +775,7 @@
         "index": {
           "description": "Map-accumulate over CSV file Similar to mapAccumL in List",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "mapAccumCSVFile",
           "normalized": "FilePath-\u003eCSVSettings-\u003e(a-\u003eb-\u003e(a,[b]))-\u003ea-\u003eFilePath-\u003eIO(Either SomeException a)",
@@ -736,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a CSV file, apply function to each of its rows and save the\n resulting rows into a new file.\n\u003c/p\u003e\u003cp\u003eEach row is simply a list of fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "mapCSVFile",
           "package": "csv-enumerator",
@@ -745,6 +802,7 @@
         "index": {
           "description": "Take CSV file apply function to each of its rows and save the resulting rows into new file Each row is simply list of fields",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "mapCSVFile",
           "normalized": "FilePath-\u003eCSVSettings-\u003e(a-\u003e[a])-\u003eFilePath-\u003eIO(Either SomeException Int)",
@@ -761,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a CSV file, apply an IO action to each of its rows and save the\n resulting rows into a new file.\n\u003c/p\u003e\u003cp\u003eEach row is simply a list of fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "mapCSVFileM",
           "package": "csv-enumerator",
@@ -770,6 +829,7 @@
         "index": {
           "description": "Take CSV file apply an IO action to each of its rows and save the resulting rows into new file Each row is simply list of fields",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "mapCSVFileM",
           "normalized": "FilePath-\u003eCSVSettings-\u003e(a-\u003eIO[a])-\u003eFilePath-\u003eIO(Either SomeException Int)",
@@ -786,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a CSV file, apply an IO action to each of its rows and discard the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "mapCSVFileM_",
           "package": "csv-enumerator",
@@ -795,6 +856,7 @@
         "index": {
           "description": "Take CSV file apply an IO action to each of its rows and discard the results",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "mapCSVFileM_",
           "normalized": "FilePath-\u003eCSVSettings-\u003e(a-\u003eIO b)-\u003eIO(Either SomeException Int)",
@@ -811,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emapCSVFile\u003c/a\u003e\u003c/code\u003e but operates on multiple files pouring results into\n a single file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "mapCSVFiles",
           "package": "csv-enumerator",
@@ -821,6 +884,7 @@
         "index": {
           "description": "Like mapCSVFile but operates on multiple files pouring results into single file",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "mapCSVFiles",
           "package": "csv-enumerator",
@@ -835,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an iteratee that can map over a CSV stream and output results to\n a handle in an interleaved fashion.\n\u003c/p\u003e\u003cp\u003eExample use: Let's map over a CSV file coming in through \u003ccode\u003e\u003ca\u003estdin\u003c/a\u003e\u003c/code\u003e and push\n results to \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e f r = return [r] -- a function that just returns the given row\n\u003c/pre\u003e\u003cpre\u003e E.run (E.enumHandle 4096 stdin $$ mapIntoHandle defCSVSettings True stdout f)\n\u003c/pre\u003e\u003cp\u003eThis nicely allows us to do things like (assuming you have pv installed):\n\u003c/p\u003e\u003cpre\u003e pv inputFile.csv | myApp \u003e output.CSV\n\u003c/pre\u003e\u003cp\u003eAnd monitor the ongoing progress of processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "mapIntoHandle",
           "package": "csv-enumerator",
@@ -844,6 +909,7 @@
         "index": {
           "description": "Create an iteratee that can map over CSV stream and output results to handle in an interleaved fashion Example use Let map over CSV file coming in through stdin and push results to stdout return function that just returns the given row E.run E.enumHandle stdin mapIntoHandle defCSVSettings True stdout This nicely allows us to do things like assuming you have pv installed pv inputFile.csv myApp output.CSV And monitor the ongoing progress of processing",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "mapIntoHandle",
           "normalized": "CSVSettings-\u003eBool-\u003eHandle-\u003e(a-\u003eIO[a])-\u003eIteratee ByteString IO Int",
@@ -860,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand or contract the given \u003ccode\u003e\u003ca\u003eMapRow\u003c/a\u003e\u003c/code\u003e to contain exactly the given set of\n columns and then write the row into the given \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is helpful in filtering the columns or perhaps combining a number of\n files that don't have the same columns.\n\u003c/p\u003e\u003cp\u003eMissing columns will be left empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "outputColumns",
           "package": "csv-enumerator",
@@ -870,6 +937,7 @@
         "index": {
           "description": "Expand or contract the given MapRow to contain exactly the given set of columns and then write the row into the given Handle This is helpful in filtering the columns or perhaps combining number of files that don have the same columns Missing columns will be left empty",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "outputColumns",
           "normalized": "CSVSettings-\u003eHandle-\u003e[ByteString]-\u003eMapRow-\u003eIO()",
@@ -886,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput given row into given handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "outputRow",
           "package": "csv-enumerator",
@@ -896,6 +965,7 @@
         "index": {
           "description": "Output given row into given handle",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "outputRow",
           "normalized": "CSVSettings-\u003eHandle-\u003ea-\u003eIO()",
@@ -911,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "outputRowIter",
           "package": "csv-enumerator",
@@ -920,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "outputRowIter",
           "normalized": "CSVSettings-\u003eHandle-\u003ea-\u003eIteratee ByteString IO()",
@@ -935,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "outputRows",
           "package": "csv-enumerator",
@@ -944,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "outputRows",
           "normalized": "CSVSettings-\u003eHandle-\u003e[a]-\u003eIO()",
@@ -959,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "outputRowsIter",
           "package": "csv-enumerator",
@@ -968,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "outputRowsIter",
           "normalized": "CSVSettings-\u003eHandle-\u003e[a]-\u003eIteratee ByteString IO()",
@@ -983,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "readCSVFile",
           "package": "csv-enumerator",
@@ -991,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "readCSVFile",
           "normalized": "CSVSettings-\u003eFilePath-\u003eIO(Either SomeException[a])",
@@ -1007,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a CSV row into strict ByteString equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "rowToStr",
           "package": "csv-enumerator",
@@ -1017,6 +1096,7 @@
         "index": {
           "description": "Convert CSV row into strict ByteString equivalent",
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "rowToStr",
           "normalized": "CSVSettings-\u003ea-\u003eByteString",
@@ -1032,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "writeCSVFile",
           "package": "csv-enumerator",
@@ -1040,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "writeCSVFile",
           "normalized": "CSVSettings-\u003eFilePath-\u003e[a]-\u003eIO Int",
@@ -1055,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:00 UTC 2014",
           "module": "Data.CSV.Enumerator",
           "name": "writeHeaders",
           "package": "csv-enumerator",
@@ -1064,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Data CSV Enumerator",
+          "indexed": "2014-03-11T17:45:00",
           "module": "Data.CSV.Enumerator",
           "name": "writeHeaders",
           "normalized": "CSVSettings-\u003eHandle-\u003e[a]-\u003eIO Bool",

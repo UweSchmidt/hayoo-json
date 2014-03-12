@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pointless-rewrite"
+        "phrase": "pointless-rewrite",
+        "type": "phrase"
       },
       "type": "context"
     }

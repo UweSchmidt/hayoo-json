@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "RJson"
+        "phrase": "RJson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "RJson",
           "package": "RJson",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "RJson",
           "package": "RJson",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "FromJson",
           "package": "RJson",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "FromJson",
           "package": "RJson",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "FromJsonD",
           "package": "RJson",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "FromJsonD",
           "package": "RJson",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Haskell representation of a JSON\n   data structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "JsonData",
           "package": "RJson",
@@ -91,6 +98,7 @@
         "index": {
           "description": "Haskell representation of JSON data structure",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "JsonData",
           "package": "RJson",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew instances can be added to this class to customize certain aspects\n   of the way in which Haskell types are serialized to JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "ToJson",
           "package": "RJson",
@@ -114,6 +123,7 @@
         "index": {
           "description": "New instances can be added to this class to customize certain aspects of the way in which Haskell types are serialized to JSON",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "ToJson",
           "package": "RJson",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "ToJsonD",
           "package": "RJson",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "ToJsonD",
           "package": "RJson",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "TranslateField",
           "package": "RJson",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "TranslateField",
           "package": "RJson",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "TranslateFieldD",
           "package": "RJson",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "TranslateFieldD",
           "package": "RJson",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type can be used for merging two or more records together into a single\n   JSON object. By default, a structure such as (Union X Y) is serialized as follows.\n   First, X and Y are serialized, and a runtime error is signalled if the result of\n   serialization is not a JSON object in both cases. The key/value pairs of the\n   two JSON objects are then merged to form a single object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "Union",
           "package": "RJson",
@@ -200,6 +217,7 @@
         "index": {
           "description": "This type can be used for merging two or more records together into single JSON object By default structure such as Union is serialized as follows First and are serialized and runtime error is signalled if the result of serialization is not JSON object in both cases The key value pairs of the two JSON objects are then merged to form single object",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "Union",
           "package": "RJson",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "Union10",
           "package": "RJson",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "Union10",
           "package": "RJson",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNested Unions are left-branching by convention (since this is what you get\n   by using the constructor as an infix operator).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "Union3",
           "package": "RJson",
@@ -244,6 +265,7 @@
         "index": {
           "description": "Nested Unions are left-branching by convention since this is what you get by using the constructor as an infix operator",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "Union3",
           "package": "RJson",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "Union4",
           "package": "RJson",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "Union4",
           "package": "RJson",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "Union5",
           "package": "RJson",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "Union5",
           "package": "RJson",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "Union6",
           "package": "RJson",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "Union6",
           "package": "RJson",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "Union7",
           "package": "RJson",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "Union7",
           "package": "RJson",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "Union8",
           "package": "RJson",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "Union8",
           "package": "RJson",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "Union9",
           "package": "RJson",
@@ -370,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "Union9",
           "package": "RJson",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "JDArray",
           "package": "RJson",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "JDArray",
           "normalized": "JDArray[JsonData]",
@@ -407,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "JDBool",
           "package": "RJson",
@@ -416,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "JDBool",
           "package": "RJson",
@@ -429,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "JDNull",
           "package": "RJson",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "JDNull",
           "package": "RJson",
@@ -451,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "JDNumber",
           "package": "RJson",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "JDNumber",
           "package": "RJson",
@@ -473,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "JDObject",
           "package": "RJson",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "JDObject",
           "package": "RJson",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "JDString",
           "package": "RJson",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "JDString",
           "package": "RJson",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "Union",
           "package": "RJson",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "Union",
           "package": "RJson",
@@ -540,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that will be converted to JSON arrays can override\n   this method to specify additional elements to be appended to the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "arrayAppend",
           "package": "RJson",
@@ -550,6 +599,7 @@
         "index": {
           "description": "Types that will be converted to JSON arrays can override this method to specify additional elements to be appended to the array",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "arrayAppend",
           "normalized": "a-\u003e[JsonData]",
@@ -566,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that will be converted to JSON arrays can override\n   this method to specify additional elements to be prepended to the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "arrayPrepend",
           "package": "RJson",
@@ -576,6 +627,7 @@
         "index": {
           "description": "Types that will be converted to JSON arrays can override this method to specify additional elements to be prepended to the array",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "arrayPrepend",
           "normalized": "a-\u003e[JsonData]",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "cond",
           "package": "RJson",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "cond",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003ea-\u003eb",
@@ -615,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe counterpart of \u003ccode\u003e\u003ca\u003eenumToJson\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "enumFromJson",
           "package": "RJson",
@@ -625,6 +680,7 @@
         "index": {
           "description": "The counterpart of enumToJson",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "enumFromJson",
           "normalized": "(String-\u003eString)-\u003ea-\u003eJsonData-\u003eEither String a",
@@ -641,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function can be used as an implementation of \u003ccode\u003e\u003ca\u003etoJson\u003c/a\u003e\u003c/code\u003e for simple enums.\n   It converts an enum value to a string determined by the name of the constructor,\n   after being fed through the (String -\u003e String) function given as the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "enumToJson",
           "package": "RJson",
@@ -651,6 +708,7 @@
         "index": {
           "description": "This function can be used as an implementation of toJson for simple enums It converts an enum value to string determined by the name of the constructor after being fed through the String String function given as the first argument",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "enumToJson",
           "normalized": "(String-\u003eString)-\u003ea-\u003eJsonData",
@@ -667,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies to record types only. You can specialize this method to\n   prevent certain fields from being serialized.\n   Given a Haskell field name, it should return True if that field is\n   to be serialized, and False otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "exclude",
           "package": "RJson",
@@ -677,6 +736,7 @@
         "index": {
           "description": "Applies to record types only You can specialize this method to prevent certain fields from being serialized Given Haskell field name it should return True if that field is to be serialized and False otherwise",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "exclude",
           "normalized": "a-\u003eString-\u003eBool",
@@ -692,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the first character of a string to lower case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "firstCharToLower",
           "package": "RJson",
@@ -702,6 +763,7 @@
         "index": {
           "description": "Converts the first character of string to lower case",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "firstCharToLower",
           "normalized": "String-\u003eString",
@@ -718,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the first character of a string to upper case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "firstCharToUpper",
           "package": "RJson",
@@ -728,6 +791,7 @@
         "index": {
           "description": "Converts the first character of string to upper case",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "firstCharToUpper",
           "normalized": "String-\u003eString",
@@ -743,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "fromJson",
           "package": "RJson",
@@ -752,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "fromJson",
           "normalized": "a-\u003eJsonData-\u003eEither String a",
@@ -768,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a JSON ByteString (with unicode encoding automatically detected)\n   to a value of the type given by the first (dummy) argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "fromJsonByteString",
           "package": "RJson",
@@ -778,6 +845,7 @@
         "index": {
           "description": "Converts JSON ByteString with unicode encoding automatically detected to value of the type given by the first dummy argument",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "fromJsonByteString",
           "normalized": "a-\u003eByteString-\u003eEither String a",
@@ -794,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a JSON String (interpreted as a true unicode string) to\n   a value of the type given by the first (dummy) argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "fromJsonString",
           "package": "RJson",
@@ -804,6 +873,7 @@
         "index": {
           "description": "Converts JSON String interpreted as true unicode string to value of the type given by the first dummy argument",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "fromJsonString",
           "normalized": "a-\u003eString-\u003eEither String a",
@@ -819,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "genericFromJson",
           "package": "RJson",
@@ -828,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "genericFromJson",
           "normalized": "a-\u003eJsonData-\u003eEither String a",
@@ -844,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is used as the the implementation of \u003ccode\u003e\u003ca\u003etoJson\u003c/a\u003e\u003c/code\u003e for the\n   generic instance declaration.\n   It's useful to be able to use the same implentation for\n   other instance declarations which override the default implementations\n   of other methods of the ToJson class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "genericToJson",
           "package": "RJson",
@@ -854,6 +927,7 @@
         "index": {
           "description": "This function is used as the the implementation of toJson for the generic instance declaration It useful to be able to use the same implentation for other instance declarations which override the default implementations of other methods of the ToJson class",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "genericToJson",
           "normalized": "a-\u003eJsonData",
@@ -870,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo specify default values for the required fields of a JSON object,\n   specialize this method in the instance definition for the relevant\n   datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "objectDefaults",
           "package": "RJson",
@@ -880,6 +955,7 @@
         "index": {
           "description": "To specify default values for the required fields of JSON object specialize this method in the instance definition for the relevant datatype",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "objectDefaults",
           "normalized": "a-\u003eMap String JsonData",
@@ -896,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that will be converted to JSON objects can override\n   this method to specify additional fields of the object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "objectExtras",
           "package": "RJson",
@@ -906,6 +983,7 @@
         "index": {
           "description": "Types that will be converted to JSON objects can override this method to specify additional fields of the object",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "objectExtras",
           "normalized": "a-\u003e[(String,JsonData)]",
@@ -922,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a ByteString to an instance of JsonData (unicode encoding\n   is detected automatically).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "parseJsonByteString",
           "package": "RJson",
@@ -932,6 +1011,7 @@
         "index": {
           "description": "Converts ByteString to an instance of JsonData unicode encoding is detected automatically",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "parseJsonByteString",
           "normalized": "ByteString-\u003eEither String JsonData",
@@ -948,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a String (interpreted as a true unicode String) to an instance\n   of JsonData.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "parseJsonString",
           "package": "RJson",
@@ -958,6 +1039,7 @@
         "index": {
           "description": "Converts String interpreted as true unicode String to an instance of JsonData",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "parseJsonString",
           "normalized": "String-\u003eEither String JsonData",
@@ -973,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "stripInitialUnderscores",
           "package": "RJson",
@@ -982,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "stripInitialUnderscores",
           "normalized": "[Char]-\u003e[Char]",
@@ -997,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "toJson",
           "package": "RJson",
@@ -1006,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "toJson",
           "normalized": "a-\u003eJsonData",
@@ -1022,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a value to an ASCII-only JSON String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "toJsonString",
           "package": "RJson",
@@ -1032,6 +1119,7 @@
         "index": {
           "description": "Converts value to an ASCII-only JSON String",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "toJsonString",
           "normalized": "a-\u003eString",
@@ -1048,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis method defines the mapping from Haskell record field names\n   to JSON object field names. The default is to strip any initial\n   underscores. Specialize this method to define a different behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:09 UTC 2014",
           "module": "Text.RJson",
           "name": "translateField",
           "package": "RJson",
@@ -1058,6 +1147,7 @@
         "index": {
           "description": "This method defines the mapping from Haskell record field names to JSON object field names The default is to strip any initial underscores Specialize this method to define different behavior",
           "hierarchy": "Text RJson",
+          "indexed": "2014-03-11T16:58:09",
           "module": "Text.RJson",
           "name": "translateField",
           "normalized": "a-\u003eString-\u003eString",

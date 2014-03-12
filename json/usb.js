@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "usb"
+        "phrase": "usb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUSB devices report their attributes using descriptors. A descriptor is a data\n structure with a defined format. Using descriptors allows concise storage of\n the attributes of individual configurations because each configuration may\n reuse descriptors or portions of descriptors from other configurations that\n have the same characteristics. In this manner, the descriptors resemble\n individual data records in a relational database.\n\u003c/p\u003e\u003cp\u003eWhere appropriate, descriptors contain references to string descriptors\n (\u003ccode\u003e\u003ca\u003eStrIx\u003c/a\u003e\u003c/code\u003e) that provide textual information describing a descriptor in\n human-readable form. Note that the inclusion of string descriptors is\n optional.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Descriptors",
           "package": "usb",
@@ -28,6 +29,7 @@
         "index": {
           "description": "USB devices report their attributes using descriptors descriptor is data structure with defined format Using descriptors allows concise storage of the attributes of individual configurations because each configuration may reuse descriptors or portions of descriptors from other configurations that have the same characteristics In this manner the descriptors resemble individual data records in relational database Where appropriate descriptors contain references to string descriptors StrIx that provide textual information describing descriptor in human-readable form Note that the inclusion of string descriptors is optional",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Descriptors",
           "package": "usb",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe USB 2.0 specification specifies that the configuration attributes only\n describe the device status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "ConfigAttribs",
           "package": "usb",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The USB specification specifies that the configuration attributes only describe the device status",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "ConfigAttribs",
           "package": "usb",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure representing the standard USB configuration descriptor.\n\u003c/p\u003e\u003cp\u003eThis descriptor is documented in section 9.6.3 of the USB 2.0 specification.\n\u003c/p\u003e\u003cp\u003eThis structure can be retrieved by \u003ccode\u003e\u003ca\u003egetConfigDesc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "ConfigDesc",
           "package": "usb",
@@ -74,6 +79,7 @@
         "index": {
           "description": "structure representing the standard USB configuration descriptor This descriptor is documented in section of the USB specification This structure can be retrieved by getConfigDesc",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "ConfigDesc",
           "package": "usb",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure representing the standard USB device descriptor.\n\u003c/p\u003e\u003cp\u003eThis descriptor is documented in section 9.6.1 of the USB 2.0 specification.\n\u003c/p\u003e\u003cp\u003eThis structure can be retrieved by \u003ccode\u003edeviceDesc\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "DeviceDesc",
           "package": "usb",
@@ -97,6 +104,7 @@
         "index": {
           "description": "structure representing the standard USB device descriptor This descriptor is documented in section of the USB specification This structure can be retrieved by deviceDesc",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "DeviceDesc",
           "package": "usb",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "DeviceStatus",
           "package": "usb",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "DeviceStatus",
           "package": "usb",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe address of an endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "EndpointAddress",
           "package": "usb",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The address of an endpoint",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "EndpointAddress",
           "package": "usb",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe USB 2.0 specification specifies that the endpoint attributes only\n describe the endpoint transfer type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "EndpointAttribs",
           "package": "usb",
@@ -164,6 +177,7 @@
         "index": {
           "description": "The USB specification specifies that the endpoint attributes only describe the endpoint transfer type",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "EndpointAttribs",
           "package": "usb",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure representing the standard USB endpoint descriptor.\n\u003c/p\u003e\u003cp\u003eThis descriptor is documented in section 9.6.3 of the USB 2.0 specification.\n\u003c/p\u003e\u003cp\u003eThis structure can be retrieved by using \u003ccode\u003e\u003ca\u003einterfaceEndpoints\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "EndpointDesc",
           "package": "usb",
@@ -187,6 +202,7 @@
         "index": {
           "description": "structure representing the standard USB endpoint descriptor This descriptor is documented in section of the USB specification This structure can be retrieved by using interfaceEndpoints",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "EndpointDesc",
           "package": "usb",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn interface is represented as a vector of alternate interface settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Interface",
           "package": "usb",
@@ -210,6 +227,7 @@
         "index": {
           "description": "An interface is represented as vector of alternate interface settings",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Interface",
           "package": "usb",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure representing the standard USB interface descriptor.\n\u003c/p\u003e\u003cp\u003eThis descriptor is documented in section 9.6.5 of the USB 2.0 specification.\n\u003c/p\u003e\u003cp\u003eThis structure can be retrieved using \u003ccode\u003e\u003ca\u003econfigInterfaces\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "InterfaceDesc",
           "package": "usb",
@@ -233,6 +252,7 @@
         "index": {
           "description": "structure representing the standard USB interface descriptor This descriptor is documented in section of the USB specification This structure can be retrieved using configInterfaces",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "InterfaceDesc",
           "package": "usb",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe language ID consists of the primary language identifier and the\nsublanguage identififier as described in:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.usb.org/developers/docs/USB_LANGIDs.pdf\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eFor a mapping between IDs and languages see the\n\u003ca\u003eusb-id-database\u003c/a\u003e package.\n\u003c/p\u003e\u003cp\u003eTo see which \u003ccode\u003e\u003ca\u003eLangId\u003c/a\u003e\u003c/code\u003es are supported by a device see \u003ccode\u003e\u003ca\u003egetLanguages\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "LangId",
           "package": "usb",
@@ -256,6 +277,7 @@
         "index": {
           "description": "The language ID consists of the primary language identifier and the sublanguage identififier as described in http www.usb.org developers docs USB LANGIDs.pdf For mapping between IDs and languages see the usb-id-database package To see which LangId are supported by device see getLanguages",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "LangId",
           "package": "usb",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "MaxPacketSize",
           "package": "usb",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "MaxPacketSize",
           "package": "usb",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "PrimaryLangId",
           "package": "usb",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "PrimaryLangId",
           "package": "usb",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "ProductId",
           "package": "usb",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "ProductId",
           "package": "usb",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "ReleaseNumber",
           "package": "usb",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "ReleaseNumber",
           "package": "usb",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of indici of string descriptors.\n\u003c/p\u003e\u003cp\u003eCan be retrieved by all the *StrIx functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "StrIx",
           "package": "usb",
@@ -363,6 +394,7 @@
         "index": {
           "description": "Type of indici of string descriptors Can be retrieved by all the StrIx functions",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "StrIx",
           "package": "usb",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "SubLangId",
           "package": "usb",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "SubLangId",
           "package": "usb",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee section 5.12.4.1 of the USB 2.0 specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Synchronization",
           "package": "usb",
@@ -407,6 +442,7 @@
         "index": {
           "description": "See section of the USB specification",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Synchronization",
           "package": "usb",
@@ -421,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of additional transaction oppurtunities per microframe.\n\u003c/p\u003e\u003cp\u003eSee table 9-13 of the USB 2.0 specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "TransactionOpportunities",
           "package": "usb",
@@ -430,6 +467,7 @@
         "index": {
           "description": "Number of additional transaction oppurtunities per microframe See table of the USB specification",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "TransactionOpportunities",
           "package": "usb",
@@ -444,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe direction of data transfer relative to the host.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "TransferDirection",
           "package": "usb",
@@ -453,6 +492,7 @@
         "index": {
           "description": "The direction of data transfer relative to the host",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "TransferDirection",
           "package": "usb",
@@ -467,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes what types of transfers are allowed on the endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "TransferType",
           "package": "usb",
@@ -476,6 +517,7 @@
         "index": {
           "description": "Describes what types of transfers are allowed on the endpoint",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "TransferType",
           "package": "usb",
@@ -490,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee section 5.12.4.2 of the USB 2.0 specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Usage",
           "package": "usb",
@@ -499,6 +542,7 @@
         "index": {
           "description": "See section of the USB specification",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Usage",
           "package": "usb",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "VendorId",
           "package": "usb",
@@ -520,6 +565,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "VendorId",
           "package": "usb",
@@ -534,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronized using feedback or feedforward\n   data rate information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Adaptive",
           "package": "usb",
@@ -544,6 +591,7 @@
         "index": {
           "description": "Synchronized using feedback or feedforward data rate information",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Adaptive",
           "package": "usb",
@@ -558,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsynchronized,\n   although sinks provide data rate feedback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Asynchronous",
           "package": "usb",
@@ -568,6 +617,7 @@
         "index": {
           "description": "Unsynchronized although sinks provide data rate feedback",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Asynchronous",
           "package": "usb",
@@ -582,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBulk transfers can be used for large bursty data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Bulk",
           "package": "usb",
@@ -592,6 +643,7 @@
         "index": {
           "description": "Bulk transfers can be used for large bursty data",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Bulk",
           "package": "usb",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "ConfigDesc",
           "package": "usb",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "ConfigDesc",
           "package": "usb",
@@ -628,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl transfers are typically used for command and status\n operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Control",
           "package": "usb",
@@ -638,6 +693,7 @@
         "index": {
           "description": "Control transfers are typically used for command and status operations",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Control",
           "package": "usb",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Data",
           "package": "usb",
@@ -660,6 +717,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Data",
           "package": "usb",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "DeviceDesc",
           "package": "usb",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "DeviceDesc",
           "package": "usb",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "DeviceStatus",
           "package": "usb",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "DeviceStatus",
           "package": "usb",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "EndpointAddress",
           "package": "usb",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "EndpointAddress",
           "package": "usb",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "EndpointDesc",
           "package": "usb",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "EndpointDesc",
           "package": "usb",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Feedback",
           "package": "usb",
@@ -770,6 +837,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Feedback",
           "package": "usb",
@@ -783,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Implicit",
           "package": "usb",
@@ -792,6 +861,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Implicit",
           "package": "usb",
@@ -806,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn transfer direction (device -\u003e host) used\n   for reading.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "In",
           "package": "usb",
@@ -816,6 +887,7 @@
         "index": {
           "description": "In transfer direction device host used for reading",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "In",
           "package": "usb",
@@ -829,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "InterfaceDesc",
           "package": "usb",
@@ -838,6 +911,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "InterfaceDesc",
           "package": "usb",
@@ -852,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterrupt transfers are typically non-periodic, small device\n \"initiated\" communication requiring bounded latency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Interrupt",
           "package": "usb",
@@ -862,6 +937,7 @@
         "index": {
           "description": "Interrupt transfers are typically non-periodic small device initiated communication requiring bounded latency",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Interrupt",
           "package": "usb",
@@ -876,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsochronous transfers occur continuously and periodically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Isochronous",
           "package": "usb",
@@ -886,6 +963,7 @@
         "index": {
           "description": "Isochronous transfers occur continuously and periodically",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Isochronous",
           "package": "usb",
@@ -899,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "MaxPacketSize",
           "package": "usb",
@@ -908,6 +987,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "MaxPacketSize",
           "package": "usb",
@@ -921,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "NoSynchronization",
           "package": "usb",
@@ -930,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "NoSynchronization",
           "package": "usb",
@@ -944,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1 additional (2 per microframe)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "One",
           "package": "usb",
@@ -954,6 +1037,7 @@
         "index": {
           "description": "additional per microframe",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "One",
           "package": "usb",
@@ -968,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOut transfer direction (host -\u003e device) used\n   for writing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Out",
           "package": "usb",
@@ -978,6 +1063,7 @@
         "index": {
           "description": "Out transfer direction host device used for writing",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Out",
           "package": "usb",
@@ -992,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronized to the USB&#8217;s SOF (\u003cem\u003eStart Of Frame\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Synchronous",
           "package": "usb",
@@ -1002,6 +1089,7 @@
         "index": {
           "description": "Synchronized to the USB SOF Start Of Frame",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Synchronous",
           "package": "usb",
@@ -1016,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2 additional (3 per microframe)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Two",
           "package": "usb",
@@ -1026,6 +1115,7 @@
         "index": {
           "description": "additional per microframe",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Two",
           "package": "usb",
@@ -1040,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNone (1 transaction per microframe)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "Zero",
           "package": "usb",
@@ -1050,6 +1141,7 @@
         "index": {
           "description": "None transaction per microframe",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "Zero",
           "package": "usb",
@@ -1064,6 +1156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration characteristics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "configAttribs",
           "package": "usb",
@@ -1074,6 +1167,7 @@
         "index": {
           "description": "Configuration characteristics",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "configAttribs",
           "package": "usb",
@@ -1088,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra descriptors. If \u003ccode\u003elibusb\u003c/code\u003e encounters unknown configuration\n descriptors, it will store them here, should you wish to parse them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "configExtra",
           "package": "usb",
@@ -1098,6 +1193,7 @@
         "index": {
           "description": "Extra descriptors If libusb encounters unknown configuration descriptors it will store them here should you wish to parse them",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "configExtra",
           "package": "usb",
@@ -1112,6 +1208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector of interfaces supported by the configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "configInterfaces",
           "package": "usb",
@@ -1122,6 +1219,7 @@
         "index": {
           "description": "Vector of interfaces supported by the configuration",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "configInterfaces",
           "package": "usb",
@@ -1136,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum power consumption of the USB device from the bus in the\n configuration when the device is fully operational.  Expressed in 2 mA\n units (i.e., 50 = 100 mA).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "configMaxPower",
           "package": "usb",
@@ -1146,6 +1245,7 @@
         "index": {
           "description": "Maximum power consumption of the USB device from the bus in the configuration when the device is fully operational Expressed in mA units i.e mA",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "configMaxPower",
           "package": "usb",
@@ -1160,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional index of string descriptor describing the configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "configStrIx",
           "package": "usb",
@@ -1170,6 +1271,7 @@
         "index": {
           "description": "Optional index of string descriptor describing the configuration",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "configStrIx",
           "package": "usb",
@@ -1184,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier value for the configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "configValue",
           "package": "usb",
@@ -1194,6 +1297,7 @@
         "index": {
           "description": "Identifier value for the configuration",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "configValue",
           "package": "usb",
@@ -1208,6 +1312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUSB-IF class code for the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "deviceClass",
           "package": "usb",
@@ -1218,6 +1323,7 @@
         "index": {
           "description": "USB-IF class code for the device",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "deviceClass",
           "package": "usb",
@@ -1232,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional index of string descriptor describing manufacturer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "deviceManufacturerStrIx",
           "package": "usb",
@@ -1242,6 +1349,7 @@
         "index": {
           "description": "Optional index of string descriptor describing manufacturer",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "deviceManufacturerStrIx",
           "package": "usb",
@@ -1256,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum packet size for endpoint 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "deviceMaxPacketSize0",
           "package": "usb",
@@ -1266,6 +1375,7 @@
         "index": {
           "description": "Maximum packet size for endpoint",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "deviceMaxPacketSize0",
           "package": "usb",
@@ -1280,6 +1390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of possible configurations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "deviceNumConfigs",
           "package": "usb",
@@ -1290,6 +1401,7 @@
         "index": {
           "description": "Number of possible configurations",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "deviceNumConfigs",
           "package": "usb",
@@ -1304,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUSB-IF product ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "deviceProductId",
           "package": "usb",
@@ -1314,6 +1427,7 @@
         "index": {
           "description": "USB-IF product ID",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "deviceProductId",
           "package": "usb",
@@ -1328,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional index of string descriptor describing product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "deviceProductStrIx",
           "package": "usb",
@@ -1338,6 +1453,7 @@
         "index": {
           "description": "Optional index of string descriptor describing product",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "deviceProductStrIx",
           "package": "usb",
@@ -1352,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUSB-IF protocol code for the device, qualified by the \u003ccode\u003e\u003ca\u003edeviceClass\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003edeviceSubClass\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "deviceProtocol",
           "package": "usb",
@@ -1362,6 +1479,7 @@
         "index": {
           "description": "USB-IF protocol code for the device qualified by the deviceClass and deviceSubClass values",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "deviceProtocol",
           "package": "usb",
@@ -1376,6 +1494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice release number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "deviceReleaseNumber",
           "package": "usb",
@@ -1386,6 +1505,7 @@
         "index": {
           "description": "Device release number",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "deviceReleaseNumber",
           "package": "usb",
@@ -1400,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional index of string descriptor containing device serial number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "deviceSerialNumberStrIx",
           "package": "usb",
@@ -1410,6 +1531,7 @@
         "index": {
           "description": "Optional index of string descriptor containing device serial number",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "deviceSerialNumberStrIx",
           "package": "usb",
@@ -1424,6 +1546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUSB-IF subclass code for the device, qualified by the \u003ccode\u003e\u003ca\u003edeviceClass\u003c/a\u003e\u003c/code\u003e\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "deviceSubClass",
           "package": "usb",
@@ -1434,6 +1557,7 @@
         "index": {
           "description": "USB-IF subclass code for the device qualified by the deviceClass value",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "deviceSubClass",
           "package": "usb",
@@ -1448,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUSB specification release number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "deviceUSBSpecReleaseNumber",
           "package": "usb",
@@ -1458,6 +1583,7 @@
         "index": {
           "description": "USB specification release number",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "deviceUSBSpecReleaseNumber",
           "package": "usb",
@@ -1472,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUSB-IF vendor ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "deviceVendorId",
           "package": "usb",
@@ -1482,6 +1609,7 @@
         "index": {
           "description": "USB-IF vendor ID",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "deviceVendorId",
           "package": "usb",
@@ -1496,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe address of the endpoint described by the descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "endpointAddress",
           "package": "usb",
@@ -1506,6 +1635,7 @@
         "index": {
           "description": "The address of the endpoint described by the descriptor",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "endpointAddress",
           "package": "usb",
@@ -1520,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes which apply to the endpoint when it is configured using the\n \u003ccode\u003e\u003ca\u003econfigValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "endpointAttribs",
           "package": "usb",
@@ -1530,6 +1661,7 @@
         "index": {
           "description": "Attributes which apply to the endpoint when it is configured using the configValue",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "endpointAttribs",
           "package": "usb",
@@ -1544,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra descriptors. If \u003ccode\u003elibusb\u003c/code\u003e encounters unknown endpoint descriptors,\n it will store them here, should you wish to parse them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "endpointExtra",
           "package": "usb",
@@ -1554,6 +1687,7 @@
         "index": {
           "description": "Extra descriptors If libusb encounters unknown endpoint descriptors it will store them here should you wish to parse them",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "endpointExtra",
           "package": "usb",
@@ -1568,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval for polling endpoint for data transfers. Expressed in frames\n or microframes depending on the device operating speed (i.e., either 1\n millisecond or 125 &#956;s units).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "endpointInterval",
           "package": "usb",
@@ -1578,6 +1713,7 @@
         "index": {
           "description": "Interval for polling endpoint for data transfers Expressed in frames or microframes depending on the device operating speed i.e either millisecond or units",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "endpointInterval",
           "package": "usb",
@@ -1592,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum packet size the endpoint is capable of sending/receiving.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "endpointMaxPacketSize",
           "package": "usb",
@@ -1602,6 +1739,7 @@
         "index": {
           "description": "Maximum packet size the endpoint is capable of sending receiving",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "endpointMaxPacketSize",
           "package": "usb",
@@ -1616,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust be \u003e= 0 and \u003c= 15\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "endpointNumber",
           "package": "usb",
@@ -1626,6 +1765,7 @@
         "index": {
           "description": "Must be and",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "endpointNumber",
           "package": "usb",
@@ -1640,6 +1780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eFor audio devices only:\u003c/em\u003e the rate at which synchronization feedback\n is provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "endpointRefresh",
           "package": "usb",
@@ -1650,6 +1791,7 @@
         "index": {
           "description": "For audio devices only the rate at which synchronization feedback is provided",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "endpointRefresh",
           "package": "usb",
@@ -1664,6 +1806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eFor audio devices only:\u003c/em\u003e the address of the synch endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "endpointSynchAddress",
           "package": "usb",
@@ -1674,6 +1817,7 @@
         "index": {
           "description": "For audio devices only the address of the synch endpoint",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "endpointSynchAddress",
           "package": "usb",
@@ -1688,6 +1832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a USB configuration descriptor based on its index.\n\u003c/p\u003e\u003cp\u003eThis is a non-blocking function which does not involve any requests\n being sent to the device.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e if the configuration does not exist.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "getConfigDesc",
           "package": "usb",
@@ -1698,6 +1843,7 @@
         "index": {
           "description": "Get USB configuration descriptor based on its index This is non-blocking function which does not involve any requests being sent to the device Exceptions NotFoundException if the configuration does not exist Another USBException",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "getConfigDesc",
           "normalized": "Device-\u003eWord-\u003eIO ConfigDesc",
@@ -1714,6 +1860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the USB device descriptor for a given device.\n\u003c/p\u003e\u003cp\u003eThis is a non-blocking function; the device descriptor is cached in memory.\n\u003c/p\u003e\u003cp\u003eThis function may throw \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "getDeviceDesc",
           "package": "usb",
@@ -1724,6 +1871,7 @@
         "index": {
           "description": "Get the USB device descriptor for given device This is non-blocking function the device descriptor is cached in memory This function may throw USBException",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "getDeviceDesc",
           "normalized": "Device-\u003eIO DeviceDesc",
@@ -1740,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a vector of supported languages.\n\u003c/p\u003e\u003cp\u003eThis function may throw \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "getLanguages",
           "package": "usb",
@@ -1750,6 +1899,7 @@
         "index": {
           "description": "Retrieve vector of supported languages This function may throw USBException",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "getLanguages",
           "normalized": "DeviceHandle-\u003eIO(Vector LangId)",
@@ -1766,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a string descriptor from a device.\n\u003c/p\u003e\u003cp\u003eThis function may throw \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "getStrDesc",
           "package": "usb",
@@ -1775,6 +1926,7 @@
         "index": {
           "description": "Retrieve string descriptor from device This function may throw USBException",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "getStrDesc",
           "normalized": "DeviceHandle-\u003eStrIx-\u003eLangId-\u003eInt-\u003eIO Text",
@@ -1791,6 +1943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a string descriptor from a device using the first supported language.\n\u003c/p\u003e\u003cp\u003eThis function may throw \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "getStrDescFirstLang",
           "package": "usb",
@@ -1800,6 +1953,7 @@
         "index": {
           "description": "Retrieve string descriptor from device using the first supported language This function may throw USBException",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "getStrDescFirstLang",
           "normalized": "DeviceHandle-\u003eStrIx-\u003eInt-\u003eIO Text",
@@ -1816,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue used to select the alternate setting for the interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "interfaceAltSetting",
           "package": "usb",
@@ -1826,6 +1981,7 @@
         "index": {
           "description": "Value used to select the alternate setting for the interface",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "interfaceAltSetting",
           "package": "usb",
@@ -1840,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUSB-IF class code for the interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "interfaceClass",
           "package": "usb",
@@ -1850,6 +2007,7 @@
         "index": {
           "description": "USB-IF class code for the interface",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "interfaceClass",
           "package": "usb",
@@ -1864,6 +2022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector of endpoints supported by the interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "interfaceEndpoints",
           "package": "usb",
@@ -1874,6 +2033,7 @@
         "index": {
           "description": "Vector of endpoints supported by the interface",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "interfaceEndpoints",
           "package": "usb",
@@ -1888,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra descriptors. If \u003ccode\u003elibusb\u003c/code\u003e encounters unknown interface\n descriptors, it will store them here, should you wish to parse them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "interfaceExtra",
           "package": "usb",
@@ -1898,6 +2059,7 @@
         "index": {
           "description": "Extra descriptors If libusb encounters unknown interface descriptors it will store them here should you wish to parse them",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "interfaceExtra",
           "package": "usb",
@@ -1912,6 +2074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of the interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "interfaceNumber",
           "package": "usb",
@@ -1922,6 +2085,7 @@
         "index": {
           "description": "Number of the interface",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "interfaceNumber",
           "package": "usb",
@@ -1936,6 +2100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUSB-IF protocol code for the interface, qualified by the\n \u003ccode\u003e\u003ca\u003einterfaceClass\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003einterfaceSubClass\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "interfaceProtocol",
           "package": "usb",
@@ -1946,6 +2111,7 @@
         "index": {
           "description": "USB-IF protocol code for the interface qualified by the interfaceClass and interfaceSubClass values",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "interfaceProtocol",
           "package": "usb",
@@ -1960,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional index of string descriptor describing the interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "interfaceStrIx",
           "package": "usb",
@@ -1970,6 +2137,7 @@
         "index": {
           "description": "Optional index of string descriptor describing the interface",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "interfaceStrIx",
           "package": "usb",
@@ -1984,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUSB-IF subclass code for the interface, qualified by the\n \u003ccode\u003e\u003ca\u003einterfaceClass\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "interfaceSubClass",
           "package": "usb",
@@ -1994,6 +2163,7 @@
         "index": {
           "description": "USB-IF subclass code for the interface qualified by the interfaceClass value",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "interfaceSubClass",
           "package": "usb",
@@ -2008,6 +2178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the maximum packet size which a specific endpoint is capable of\nsending or receiving in the duration of 1 microframe.\n\u003c/p\u003e\u003cp\u003eIf acting on an \u003ccode\u003e\u003ca\u003eIsochronous\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eInterrupt\u003c/a\u003e\u003c/code\u003e endpoint, this function will\nmultiply the \u003ccode\u003e\u003ca\u003emaxPacketSize\u003c/a\u003e\u003c/code\u003e by the additional \u003ccode\u003e\u003ca\u003etransactionOpportunities\u003c/a\u003e\u003c/code\u003e.\nIf acting on another type of endpoint only the \u003ccode\u003e\u003ca\u003emaxPacketSize\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e\u003cp\u003eThis function is mainly useful for setting up \u003cem\u003eisochronous\u003c/em\u003e transfers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "maxIsoPacketSize",
           "package": "usb",
@@ -2018,6 +2189,7 @@
         "index": {
           "description": "Calculate the maximum packet size which specific endpoint is capable of sending or receiving in the duration of microframe If acting on an Isochronous or Interrupt endpoint this function will multiply the maxPacketSize by the additional transactionOpportunities If acting on another type of endpoint only the maxPacketSize is returned This function is mainly useful for setting up isochronous transfers",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "maxIsoPacketSize",
           "normalized": "EndpointDesc-\u003eSize",
@@ -2033,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "maxPacketSize",
           "package": "usb",
@@ -2042,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "maxPacketSize",
           "package": "usb",
@@ -2056,6 +2230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Remote Wakeup field indicates whether the\n   device is currently enabled to request remote\n   wakeup. The default mode for devices that\n   support remote wakeup is disabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "remoteWakeup",
           "package": "usb",
@@ -2066,6 +2241,7 @@
         "index": {
           "description": "The Remote Wakeup field indicates whether the device is currently enabled to request remote wakeup The default mode for devices that support remote wakeup is disabled",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "remoteWakeup",
           "package": "usb",
@@ -2080,6 +2256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Self Powered field indicates whether the\n   device is currently self-powered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "selfPowered",
           "package": "usb",
@@ -2090,6 +2267,7 @@
         "index": {
           "description": "The Self Powered field indicates whether the device is currently self-powered",
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "selfPowered",
           "package": "usb",
@@ -2103,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "transactionOpportunities",
           "package": "usb",
@@ -2112,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "transactionOpportunities",
           "package": "usb",
@@ -2125,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Descriptors",
           "name": "transferDirection",
           "package": "usb",
@@ -2134,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "System USB Descriptors",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Descriptors",
           "name": "transferDirection",
           "package": "usb",
@@ -2148,6 +2330,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides functionality for opening, closing and configuring USB\n devices.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "DeviceHandling",
           "package": "usb",
@@ -2157,6 +2340,7 @@
         "index": {
           "description": "The module provides functionality for opening closing and configuring USB devices",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "DeviceHandling",
           "package": "usb",
@@ -2171,6 +2355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier for configurations.\n\u003c/p\u003e\u003cp\u003eCan be retrieved by \u003ccode\u003e\u003ca\u003egetConfig\u003c/a\u003e\u003c/code\u003e or by \u003ccode\u003e\u003ca\u003econfigValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "ConfigValue",
           "package": "usb",
@@ -2180,6 +2365,7 @@
         "index": {
           "description": "Identifier for configurations Can be retrieved by getConfig or by configValue",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "ConfigValue",
           "package": "usb",
@@ -2194,6 +2380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type representing a handle of a USB device.\n\u003c/p\u003e\u003cp\u003eYou can acquire a handle from \u003ccode\u003e\u003ca\u003eopenDevice\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA device handle is used to perform I/O and other operations. When finished with\na device handle you should close it by applying \u003ccode\u003e\u003ca\u003ecloseDevice\u003c/a\u003e\u003c/code\u003e to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "DeviceHandle",
           "package": "usb",
@@ -2203,6 +2390,7 @@
         "index": {
           "description": "Abstract type representing handle of USB device You can acquire handle from openDevice device handle is used to perform and other operations When finished with device handle you should close it by applying closeDevice to it",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "DeviceHandle",
           "package": "usb",
@@ -2217,6 +2405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier for interface alternate settings.\n\u003c/p\u003e\u003cp\u003eCan be retrieved by \u003ccode\u003e\u003ca\u003einterfaceAltSetting\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "InterfaceAltSetting",
           "package": "usb",
@@ -2226,6 +2415,7 @@
         "index": {
           "description": "Identifier for interface alternate settings Can be retrieved by interfaceAltSetting",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "InterfaceAltSetting",
           "package": "usb",
@@ -2240,6 +2430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier for interfaces.\n\u003c/p\u003e\u003cp\u003eCan be retrieved by \u003ccode\u003e\u003ca\u003einterfaceNumber\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "InterfaceNumber",
           "package": "usb",
@@ -2249,6 +2440,7 @@
         "index": {
           "description": "Identifier for interfaces Can be retrieved by interfaceNumber",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "InterfaceNumber",
           "package": "usb",
@@ -2263,6 +2455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRe-attach an interface's kernel driver, which was previously\ndetached using \u003ccode\u003e\u003ca\u003edetachKernelDriver\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e if no kernel driver was active.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eInvalidParamException\u003c/a\u003e\u003c/code\u003e if the interface does not exist.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eBusyException\u003c/a\u003e\u003c/code\u003e if the driver cannot be attached because the interface\n   is claimed by a program or driver.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "attachKernelDriver",
           "package": "usb",
@@ -2273,6 +2466,7 @@
         "index": {
           "description": "Re-attach an interface kernel driver which was previously detached using detachKernelDriver Exceptions NotFoundException if no kernel driver was active InvalidParamException if the interface does not exist NoDeviceException if the device has been disconnected BusyException if the driver cannot be attached because the interface is claimed by program or driver Another USBException",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "attachKernelDriver",
           "normalized": "DeviceHandle-\u003eInterfaceNumber-\u003eIO()",
@@ -2289,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClaim an interface on a given device handle.\n\u003c/p\u003e\u003cp\u003eYou must claim the interface you wish to use before you can perform I/O on any\nof its endpoints.\n\u003c/p\u003e\u003cp\u003eIt is legal to attempt to claim an already-claimed interface, in which case this\nfunction just returns without doing anything.\n\u003c/p\u003e\u003cp\u003eClaiming of interfaces is a purely logical operation; it does not cause any\nrequests to be sent over the bus. Interface claiming is used to instruct the\nunderlying operating system that your application wishes to take ownership of\nthe interface.\n\u003c/p\u003e\u003cp\u003eThis is a non-blocking function.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e if the requested interface does not exist.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eBusyException\u003c/a\u003e\u003c/code\u003e if the interface is already claimed.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "claimInterface",
           "package": "usb",
@@ -2299,6 +2494,7 @@
         "index": {
           "description": "Claim an interface on given device handle You must claim the interface you wish to use before you can perform on any of its endpoints It is legal to attempt to claim an already-claimed interface in which case this function just returns without doing anything Claiming of interfaces is purely logical operation it does not cause any requests to be sent over the bus Interface claiming is used to instruct the underlying operating system that your application wishes to take ownership of the interface This is non-blocking function Exceptions NotFoundException if the requested interface does not exist BusyException if the interface is already claimed NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "claimInterface",
           "normalized": "DeviceHandle-\u003eInterfaceNumber-\u003eIO()",
@@ -2315,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear the halt/stall condition for an endpoint.\n\u003c/p\u003e\u003cp\u003eEndpoints with halt status are unable to receive or transmit data until the halt\ncondition is stalled.\n\u003c/p\u003e\u003cp\u003eYou should cancel all pending transfers before attempting to clear the halt\ncondition.\n\u003c/p\u003e\u003cp\u003eThis is a blocking function.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e if the endpoint does not exist.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "clearHalt",
           "package": "usb",
@@ -2325,6 +2522,7 @@
         "index": {
           "description": "Clear the halt stall condition for an endpoint Endpoints with halt status are unable to receive or transmit data until the halt condition is stalled You should cancel all pending transfers before attempting to clear the halt condition This is blocking function Exceptions NotFoundException if the endpoint does not exist NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "clearHalt",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eIO()",
@@ -2341,6 +2539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a device handle.\n\u003c/p\u003e\u003cp\u003eShould be called on all open handles before your application exits.\n\u003c/p\u003e\u003cp\u003eThis is a non-blocking function; no requests are sent over the bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "closeDevice",
           "package": "usb",
@@ -2351,6 +2550,7 @@
         "index": {
           "description": "Close device handle Should be called on all open handles before your application exits This is non-blocking function no requests are sent over the bus",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "closeDevice",
           "normalized": "DeviceHandle-\u003eIO()",
@@ -2367,6 +2567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetach a kernel driver from an interface.\n\u003c/p\u003e\u003cp\u003eIf successful, you will then be able to claim the interface and perform I/O.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e if no kernel driver was active.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eInvalidParamException\u003c/a\u003e\u003c/code\u003e if the interface does not exist.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "detachKernelDriver",
           "package": "usb",
@@ -2377,6 +2578,7 @@
         "index": {
           "description": "Detach kernel driver from an interface If successful you will then be able to claim the interface and perform Exceptions NotFoundException if no kernel driver was active InvalidParamException if the interface does not exist NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "detachKernelDriver",
           "normalized": "DeviceHandle-\u003eInterfaceNumber-\u003eIO()",
@@ -2393,6 +2595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the value of the currently active configuration.\n\u003c/p\u003e\u003cp\u003eYou could formulate your own control request to obtain this information, but\nthis function has the advantage that it may be able to retrieve the information\nfrom operating system caches (no I/O involved).\n\u003c/p\u003e\u003cp\u003eIf the OS does not cache this information, then this function will block while\na control transfer is submitted to retrieve the information.\n\u003c/p\u003e\u003cp\u003eThis function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the device is in unconfigured state.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "getConfig",
           "package": "usb",
@@ -2403,6 +2606,7 @@
         "index": {
           "description": "Determine the value of the currently active configuration You could formulate your own control request to obtain this information but this function has the advantage that it may be able to retrieve the information from operating system caches no involved If the OS does not cache this information then this function will block while control transfer is submitted to retrieve the information This function returns Nothing if the device is in unconfigured state Exceptions NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "getConfig",
           "normalized": "DeviceHandle-\u003eIO(Maybe ConfigValue)",
@@ -2419,6 +2623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the \u003ccode\u003e\u003ca\u003eDevice\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eDeviceHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "getDevice",
           "package": "usb",
@@ -2429,6 +2634,7 @@
         "index": {
           "description": "Retrieve the Device from the DeviceHandle",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "getDevice",
           "normalized": "DeviceHandle-\u003eDevice",
@@ -2445,6 +2651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if a kernel driver is active on an interface.\n\u003c/p\u003e\u003cp\u003eIf a kernel driver is active, you cannot claim the interface, and libusb will be\nunable to perform I/O.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "kernelDriverActive",
           "package": "usb",
@@ -2455,6 +2662,7 @@
         "index": {
           "description": "Determine if kernel driver is active on an interface If kernel driver is active you cannot claim the interface and libusb will be unable to perform Exceptions NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "kernelDriverActive",
           "normalized": "DeviceHandle-\u003eInterfaceNumber-\u003eIO Bool",
@@ -2471,6 +2679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a device and obtain a device handle.\n\u003c/p\u003e\u003cp\u003eA handle allows you to perform I/O on the device in question.\n\u003c/p\u003e\u003cp\u003eThis is a non-blocking function; no requests are sent over the bus.\n\u003c/p\u003e\u003cp\u003eIt is advisable to use \u003ccode\u003e\u003ca\u003ewithDeviceHandle\u003c/a\u003e\u003c/code\u003e because it automatically closes the\ndevice when the computation terminates.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoMemException\u003c/a\u003e\u003c/code\u003e if there is a memory allocation failure.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eAccessException\u003c/a\u003e\u003c/code\u003e if the user has insufficient permissions.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "openDevice",
           "package": "usb",
@@ -2481,6 +2690,7 @@
         "index": {
           "description": "Open device and obtain device handle handle allows you to perform on the device in question This is non-blocking function no requests are sent over the bus It is advisable to use withDeviceHandle because it automatically closes the device when the computation terminates Exceptions NoMemException if there is memory allocation failure AccessException if the user has insufficient permissions NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "openDevice",
           "normalized": "Device-\u003eIO DeviceHandle",
@@ -2497,6 +2707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelease an interface previously claimed with \u003ccode\u003e\u003ca\u003eclaimInterface\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou should release all claimed interfaces before closing a device handle.\n\u003c/p\u003e\u003cp\u003eThis is a blocking function. A SET_INTERFACE control request will be sent to the\ndevice, resetting interface state to the first alternate setting.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e if the interface was not claimed.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "releaseInterface",
           "package": "usb",
@@ -2507,6 +2718,7 @@
         "index": {
           "description": "Release an interface previously claimed with claimInterface You should release all claimed interfaces before closing device handle This is blocking function SET INTERFACE control request will be sent to the device resetting interface state to the first alternate setting Exceptions NotFoundException if the interface was not claimed NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "releaseInterface",
           "normalized": "DeviceHandle-\u003eInterfaceNumber-\u003eIO()",
@@ -2523,6 +2735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a USB port reset to reinitialize a device.\n\u003c/p\u003e\u003cp\u003eThe system will attempt to restore the previous configuration and alternate\nsettings after the reset has completed.\n\u003c/p\u003e\u003cp\u003eIf the reset fails, the descriptors change, or the previous state cannot be\nrestored, the device will appear to be disconnected and reconnected. This means\nthat the device handle is no longer valid (you should close it) and rediscover\nthe device. A \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e is raised to indicate that this is the\ncase.\n\u003c/p\u003e\u003cp\u003eThis is a blocking function which usually incurs a noticeable delay.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e if re-enumeration is required, or if the\n   device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "resetDevice",
           "package": "usb",
@@ -2533,6 +2746,7 @@
         "index": {
           "description": "Perform USB port reset to reinitialize device The system will attempt to restore the previous configuration and alternate settings after the reset has completed If the reset fails the descriptors change or the previous state cannot be restored the device will appear to be disconnected and reconnected This means that the device handle is no longer valid you should close it and rediscover the device NotFoundException is raised to indicate that this is the case This is blocking function which usually incurs noticeable delay Exceptions NotFoundException if re-enumeration is required or if the device has been disconnected Another USBException",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "resetDevice",
           "normalized": "DeviceHandle-\u003eIO()",
@@ -2549,6 +2763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the active configuration for a device.\n\u003c/p\u003e\u003cp\u003eThe operating system may or may not have already set an active configuration on\nthe device. It is up to your application to ensure the correct configuration is\nselected before you attempt to claim interfaces and perform other operations.\n\u003c/p\u003e\u003cp\u003eIf you call this function on a device already configured with the selected\nconfiguration, then this function will act as a lightweight device reset: it\nwill issue a SET_CONFIGURATION request using the current configuration, causing\nmost USB-related device state to be reset (altsetting reset to zero, endpoint\nhalts cleared, toggles reset).\n\u003c/p\u003e\u003cp\u003eYou cannot change/reset configuration if your application has claimed interfaces\n- you should free them with \u003ccode\u003e\u003ca\u003ereleaseInterface\u003c/a\u003e\u003c/code\u003e first. You cannot change/reset\nconfiguration if other applications or drivers have claimed interfaces.\n\u003c/p\u003e\u003cp\u003eA configuration value of \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e will put the device in an unconfigured\nstate. The USB specification states that a configuration value of 0 does this,\nhowever buggy devices exist which actually have a configuration 0.\n\u003c/p\u003e\u003cp\u003eYou should always use this function rather than formulating your own\nSET_CONFIGURATION control request. This is because the underlying operating\nsystem needs to know when such changes happen.\n\u003c/p\u003e\u003cp\u003eThis is a blocking function.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e if the requested configuration does not exist.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eBusyException\u003c/a\u003e\u003c/code\u003e if interfaces are currently claimed.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "setConfig",
           "package": "usb",
@@ -2559,6 +2774,7 @@
         "index": {
           "description": "Set the active configuration for device The operating system may or may not have already set an active configuration on the device It is up to your application to ensure the correct configuration is selected before you attempt to claim interfaces and perform other operations If you call this function on device already configured with the selected configuration then this function will act as lightweight device reset it will issue SET CONFIGURATION request using the current configuration causing most USB-related device state to be reset altsetting reset to zero endpoint halts cleared toggles reset You cannot change reset configuration if your application has claimed interfaces you should free them with releaseInterface first You cannot change reset configuration if other applications or drivers have claimed interfaces configuration value of Nothing will put the device in an unconfigured state The USB specification states that configuration value of does this however buggy devices exist which actually have configuration You should always use this function rather than formulating your own SET CONFIGURATION control request This is because the underlying operating system needs to know when such changes happen This is blocking function Exceptions NotFoundException if the requested configuration does not exist BusyException if interfaces are currently claimed NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "setConfig",
           "normalized": "DeviceHandle-\u003eMaybe ConfigValue-\u003eIO()",
@@ -2575,6 +2791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivate an alternate setting for an interface.\n\u003c/p\u003e\u003cp\u003eThe interface must have been previously claimed with \u003ccode\u003e\u003ca\u003eclaimInterface\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou should always use this function rather than formulating your own\nSET_INTERFACE control request. This is because the underlying operating system\nneeds to know when such changes happen.\n\u003c/p\u003e\u003cp\u003eThis is a blocking function.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e if the interface was not claimed or the requested\n   alternate setting does not exist.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "setInterfaceAltSetting",
           "package": "usb",
@@ -2585,6 +2802,7 @@
         "index": {
           "description": "Activate an alternate setting for an interface The interface must have been previously claimed with claimInterface You should always use this function rather than formulating your own SET INTERFACE control request This is because the underlying operating system needs to know when such changes happen This is blocking function Exceptions NotFoundException if the interface was not claimed or the requested alternate setting does not exist NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "setInterfaceAltSetting",
           "normalized": "DeviceHandle-\u003eInterfaceNumber-\u003eInterfaceAltSetting-\u003eIO()",
@@ -2601,6 +2819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewithClaimedInterface\u003c/code\u003e claims the interface on the given device handle then\nexecutes the given computation. On exit from \u003ccode\u003ewithClaimedInterface\u003c/code\u003e, the\ninterface is released whether by normal termination or by raising an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "withClaimedInterface",
           "package": "usb",
@@ -2611,6 +2830,7 @@
         "index": {
           "description": "withClaimedInterface claims the interface on the given device handle then executes the given computation On exit from withClaimedInterface the interface is released whether by normal termination or by raising an exception",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "withClaimedInterface",
           "normalized": "DeviceHandle-\u003eInterfaceNumber-\u003eIO a-\u003eIO a",
@@ -2627,6 +2847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a kernel driver is active on the specified interface the driver is\ndetached and the given action is executed. If the action terminates, whether by\nnormal termination or by raising an exception, the kernel driver is attached\nagain. If a kernel driver is not active on the specified interface the action is\njust executed.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "withDetachedKernelDriver",
           "package": "usb",
@@ -2637,6 +2858,7 @@
         "index": {
           "description": "If kernel driver is active on the specified interface the driver is detached and the given action is executed If the action terminates whether by normal termination or by raising an exception the kernel driver is attached again If kernel driver is not active on the specified interface the action is just executed Exceptions NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "withDetachedKernelDriver",
           "normalized": "DeviceHandle-\u003eInterfaceNumber-\u003eIO a-\u003eIO a",
@@ -2653,6 +2875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewithDeviceHandle dev act\u003c/code\u003e opens the \u003ccode\u003e\u003ca\u003eDevice\u003c/a\u003e\u003c/code\u003e \u003ccode\u003edev\u003c/code\u003e and passes\nthe resulting handle to the computation \u003ccode\u003eact\u003c/code\u003e. The handle will be closed on exit\nfrom \u003ccode\u003ewithDeviceHandle\u003c/code\u003e whether by normal termination or by raising an\nexception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.DeviceHandling",
           "name": "withDeviceHandle",
           "package": "usb",
@@ -2663,6 +2886,7 @@
         "index": {
           "description": "withDeviceHandle dev act opens the Device dev and passes the resulting handle to the computation act The handle will be closed on exit from withDeviceHandle whether by normal termination or by raising an exception",
           "hierarchy": "System USB DeviceHandling",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.DeviceHandling",
           "name": "withDeviceHandle",
           "normalized": "Device-\u003e(DeviceHandle-\u003eIO a)-\u003eIO a",
@@ -2679,6 +2903,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functionality for enumerating the USB devices currently\n attached to the system.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Enumeration",
           "name": "Enumeration",
           "package": "usb",
@@ -2688,6 +2913,7 @@
         "index": {
           "description": "This module provides functionality for enumerating the USB devices currently attached to the system",
           "hierarchy": "System USB Enumeration",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Enumeration",
           "name": "Enumeration",
           "package": "usb",
@@ -2702,6 +2928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type representing a USB device detected on the system.\n\u003c/p\u003e\u003cp\u003eYou can only obtain a USB device from the \u003ccode\u003e\u003ca\u003egetDevices\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003cp\u003eCertain operations can be performed on a device, but in order to do any I/O you\nwill have to first obtain a \u003ccode\u003e\u003ca\u003eDeviceHandle\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eopenDevice\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eJust because you have a reference to a device does not mean it is necessarily\nusable. The device may have been unplugged, you may not have permission to\noperate such device or another process or driver may be using the device.\n\u003c/p\u003e\u003cp\u003eTo get additional information about a device you can retrieve its descriptor\nusing \u003ccode\u003e\u003ca\u003egetDeviceDesc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Enumeration",
           "name": "Device",
           "package": "usb",
@@ -2711,6 +2938,7 @@
         "index": {
           "description": "Abstract type representing USB device detected on the system You can only obtain USB device from the getDevices function Certain operations can be performed on device but in order to do any you will have to first obtain DeviceHandle using openDevice Just because you have reference to device does not mean it is necessarily usable The device may have been unplugged you may not have permission to operate such device or another process or driver may be using the device To get additional information about device you can retrieve its descriptor using getDeviceDesc",
           "hierarchy": "System USB Enumeration",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Enumeration",
           "name": "Device",
           "package": "usb",
@@ -2725,6 +2953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of the bus that a device is connected to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Enumeration",
           "name": "busNumber",
           "package": "usb",
@@ -2735,6 +2964,7 @@
         "index": {
           "description": "The number of the bus that device is connected to",
           "hierarchy": "System USB Enumeration",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Enumeration",
           "name": "busNumber",
           "normalized": "Device-\u003eWord",
@@ -2751,6 +2981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe address of the device on the bus it is connected to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Enumeration",
           "name": "deviceAddress",
           "package": "usb",
@@ -2761,6 +2992,7 @@
         "index": {
           "description": "The address of the device on the bus it is connected to",
           "hierarchy": "System USB Enumeration",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Enumeration",
           "name": "deviceAddress",
           "normalized": "Device-\u003eWord",
@@ -2777,6 +3009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a vector of USB devices currently attached to the system.\n\u003c/p\u003e\u003cp\u003eThis is your entry point into finding a USB device.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoMemException\u003c/a\u003e\u003c/code\u003e on a memory allocation failure.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Enumeration",
           "name": "getDevices",
           "package": "usb",
@@ -2787,6 +3020,7 @@
         "index": {
           "description": "Returns vector of USB devices currently attached to the system This is your entry point into finding USB device Exceptions NoMemException on memory allocation failure",
           "hierarchy": "System USB Enumeration",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Enumeration",
           "name": "getDevices",
           "normalized": "Ctx-\u003eIO(Vector Device)",
@@ -2802,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "Exceptions",
           "package": "usb",
@@ -2810,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "Exceptions",
           "package": "usb",
@@ -2824,6 +3060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of USB exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "USBException",
           "package": "usb",
@@ -2833,6 +3070,7 @@
         "index": {
           "description": "Type of USB exceptions",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "USBException",
           "package": "usb",
@@ -2847,6 +3085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess denied (insufficient permissions). It may\n   help to run your program with elevated privileges or\n   change the permissions of your device using\n   something like \u003ccode\u003eudev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "AccessException",
           "package": "usb",
@@ -2857,6 +3096,7 @@
         "index": {
           "description": "Access denied insufficient permissions It may help to run your program with elevated privileges or change the permissions of your device using something like udev",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "AccessException",
           "package": "usb",
@@ -2871,6 +3111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResource busy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "BusyException",
           "package": "usb",
@@ -2881,6 +3122,7 @@
         "index": {
           "description": "Resource busy",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "BusyException",
           "package": "usb",
@@ -2895,6 +3137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput/output exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "IOException",
           "package": "usb",
@@ -2905,6 +3148,7 @@
         "index": {
           "description": "Input output exception",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "IOException",
           "package": "usb",
@@ -2919,6 +3163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSystem call interrupted (perhaps due to signal).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "InterruptedException",
           "package": "usb",
@@ -2929,6 +3174,7 @@
         "index": {
           "description": "System call interrupted perhaps due to signal",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "InterruptedException",
           "package": "usb",
@@ -2943,6 +3189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvalid parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "InvalidParamException",
           "package": "usb",
@@ -2953,6 +3200,7 @@
         "index": {
           "description": "Invalid parameter",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "InvalidParamException",
           "package": "usb",
@@ -2967,6 +3215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo such device (it may have been disconnected).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "NoDeviceException",
           "package": "usb",
@@ -2977,6 +3226,7 @@
         "index": {
           "description": "No such device it may have been disconnected",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "NoDeviceException",
           "package": "usb",
@@ -2991,6 +3241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsufficient memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "NoMemException",
           "package": "usb",
@@ -3001,6 +3252,7 @@
         "index": {
           "description": "Insufficient memory",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "NoMemException",
           "package": "usb",
@@ -3015,6 +3267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "NotFoundException",
           "package": "usb",
@@ -3025,6 +3278,7 @@
         "index": {
           "description": "Entity not found",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "NotFoundException",
           "package": "usb",
@@ -3039,6 +3293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperation not supported or unimplemented on this\n   platform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "NotSupportedException",
           "package": "usb",
@@ -3049,6 +3304,7 @@
         "index": {
           "description": "Operation not supported or unimplemented on this platform",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "NotSupportedException",
           "package": "usb",
@@ -3063,6 +3319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "OtherException",
           "package": "usb",
@@ -3073,6 +3330,7 @@
         "index": {
           "description": "Other exception",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "OtherException",
           "package": "usb",
@@ -3087,6 +3345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the device offered to much data. See\n   \u003ca\u003ePackets and overflows\u003c/a\u003e in the \u003ccode\u003elibusb\u003c/code\u003e documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "OverflowException",
           "package": "usb",
@@ -3097,6 +3356,7 @@
         "index": {
           "description": "If the device offered to much data See Packets and overflows in the libusb documentation",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "OverflowException",
           "package": "usb",
@@ -3111,6 +3371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePipe exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "PipeException",
           "package": "usb",
@@ -3121,6 +3382,7 @@
         "index": {
           "description": "Pipe exception",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "PipeException",
           "package": "usb",
@@ -3135,6 +3397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperation timed out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "TimeoutException",
           "package": "usb",
@@ -3145,6 +3408,7 @@
         "index": {
           "description": "Operation timed out",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "TimeoutException",
           "package": "usb",
@@ -3159,6 +3423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIOException\u003c/a\u003e\u003c/code\u003e that is thrown when the number of bytes \u003cem\u003eread\u003c/em\u003e\n doesn't equal the requested number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "incompleteReadException",
           "package": "usb",
@@ -3169,6 +3434,7 @@
         "index": {
           "description": "IOException that is thrown when the number of bytes read doesn equal the requested number",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "incompleteReadException",
           "package": "usb",
@@ -3183,6 +3449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIOException\u003c/a\u003e\u003c/code\u003e that is thrown when the number of bytes \u003cem\u003ewritten\u003c/em\u003e\n doesn't equal the requested number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "incompleteWriteException",
           "package": "usb",
@@ -3193,6 +3460,7 @@
         "index": {
           "description": "IOException that is thrown when the number of bytes written doesn equal the requested number",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "incompleteWriteException",
           "package": "usb",
@@ -3207,6 +3475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA general \u003ccode\u003e\u003ca\u003eIOException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Exceptions",
           "name": "ioException",
           "package": "usb",
@@ -3217,6 +3486,7 @@
         "index": {
           "description": "general IOException",
           "hierarchy": "System USB Exceptions",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Exceptions",
           "name": "ioException",
           "package": "usb",
@@ -3231,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions for performing standard device requests.\n The functions are primarily used for testing USB devices.\n\u003c/p\u003e\u003cp\u003eTo avoid name clashes with functions from \u003ccode\u003eSystem.USB\u003c/code\u003e it is advised to use\n an explicit import list or a qualified import.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "StandardDeviceRequests",
           "package": "usb",
@@ -3240,6 +3511,7 @@
         "index": {
           "description": "This module provides functions for performing standard device requests The functions are primarily used for testing USB devices To avoid name clashes with functions from System.USB it is advised to use an explicit import list or qualified import",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "StandardDeviceRequests",
           "package": "usb",
@@ -3253,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "FrameNumber",
           "package": "usb",
@@ -3261,6 +3534,7 @@
         },
         "index": {
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "FrameNumber",
           "package": "usb",
@@ -3275,6 +3549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee: USB 2.0 Spec. table 9-7\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "TestMode",
           "package": "usb",
@@ -3284,6 +3559,7 @@
         "index": {
           "description": "See USB Spec table",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "TestMode",
           "package": "usb",
@@ -3297,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "Test_Force_Enable",
           "package": "usb",
@@ -3306,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "Test_Force_Enable",
           "package": "usb",
@@ -3319,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "Test_J",
           "package": "usb",
@@ -3328,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "Test_J",
           "package": "usb",
@@ -3341,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "Test_K",
           "package": "usb",
@@ -3350,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "Test_K",
           "package": "usb",
@@ -3363,6 +3645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "Test_Packet",
           "package": "usb",
@@ -3372,6 +3655,7 @@
         },
         "index": {
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "Test_Packet",
           "package": "usb",
@@ -3385,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "Test_SE0_NAK",
           "package": "usb",
@@ -3394,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "Test_SE0_NAK",
           "package": "usb",
@@ -3408,6 +3694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee: USB 2.0 Spec. section 9.4.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "clearRemoteWakeup",
           "package": "usb",
@@ -3418,6 +3705,7 @@
         "index": {
           "description": "See USB Spec section",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "clearRemoteWakeup",
           "normalized": "DeviceHandle-\u003eTimeout-\u003eIO()",
@@ -3434,6 +3722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee: USB 2.0 Spec. section 9.4.2\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eThis function is for testing purposes only!\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eYou should normally use \u003ccode\u003eSystem.USB.DeviceHandling.\u003ccode\u003e\u003ca\u003egetConfig\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e because\n that functon may exploit operating system caches (no I/O involved).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "getConfig",
           "package": "usb",
@@ -3444,6 +3733,7 @@
         "index": {
           "description": "See USB Spec section This function is for testing purposes only You should normally use System.USB.DeviceHandling getConfig because that functon may exploit operating system caches no involved",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "getConfig",
           "normalized": "DeviceHandle-\u003eTimeout-\u003eIO(Maybe ConfigValue)",
@@ -3460,6 +3750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee: USB 2.0 Spec. section 9.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "getDeviceStatus",
           "package": "usb",
@@ -3470,6 +3761,7 @@
         "index": {
           "description": "See USB Spec section",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "getDeviceStatus",
           "normalized": "DeviceHandle-\u003eTimeout-\u003eIO DeviceStatus",
@@ -3486,6 +3778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee: USB 2.0 Spec. section 9.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "getEndpointStatus",
           "package": "usb",
@@ -3496,6 +3789,7 @@
         "index": {
           "description": "See USB Spec section",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "getEndpointStatus",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eTimeout-\u003eIO Bool",
@@ -3512,6 +3806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee: USB 2.0 Spec. section 9.4.4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "getInterfaceAltSetting",
           "package": "usb",
@@ -3522,6 +3817,7 @@
         "index": {
           "description": "See USB Spec section",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "getInterfaceAltSetting",
           "normalized": "DeviceHandle-\u003eInterfaceNumber-\u003eTimeout-\u003eIO InterfaceAltSetting",
@@ -3538,6 +3834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee: USB 2.0 Spec. section 9.4.7\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eThis function is for testing purposes only!\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eYou should normally use \u003ccode\u003eSystem.USB.DeviceHandling.\u003ccode\u003e\u003ca\u003esetConfig\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e because\n that function notifies the underlying operating system about the changed\n configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "setConfig",
           "package": "usb",
@@ -3548,6 +3845,7 @@
         "index": {
           "description": "See USB Spec section This function is for testing purposes only You should normally use System.USB.DeviceHandling setConfig because that function notifies the underlying operating system about the changed configuration",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "setConfig",
           "normalized": "DeviceHandle-\u003eMaybe ConfigValue-\u003eTimeout-\u003eIO()",
@@ -3564,6 +3862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee: USB 2.0 Spec. section 9.4.6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "setDeviceAddress",
           "package": "usb",
@@ -3574,6 +3873,7 @@
         "index": {
           "description": "See USB Spec section",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "setDeviceAddress",
           "normalized": "DeviceHandle-\u003eWord-\u003eTimeout-\u003eIO()",
@@ -3590,6 +3890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee: USB 2.0 Spec. section 9.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "setHalt",
           "package": "usb",
@@ -3600,6 +3901,7 @@
         "index": {
           "description": "See USB Spec section",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "setHalt",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eTimeout-\u003eIO()",
@@ -3616,6 +3918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee: USB 2.0 Spec. section 9.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "setRemoteWakeup",
           "package": "usb",
@@ -3626,6 +3929,7 @@
         "index": {
           "description": "See USB Spec section",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "setRemoteWakeup",
           "normalized": "DeviceHandle-\u003eTimeout-\u003eIO()",
@@ -3642,6 +3946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee: USB 2.0 Spec. section 9.4.9\n TODO: What about vendor-specific test modes?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "setStandardTestMode",
           "package": "usb",
@@ -3652,6 +3957,7 @@
         "index": {
           "description": "See USB Spec section TODO What about vendor-specific test modes",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "setStandardTestMode",
           "normalized": "DeviceHandle-\u003eTestMode-\u003eTimeout-\u003eIO()",
@@ -3668,6 +3974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis request is used to set and then report an endpoint's synchronization frame.\n\u003c/p\u003e\u003cp\u003eWhen an endpoint supports isochronous transfers, the endpoint may also require\nper-frame transfers to vary in size according to a specific pattern. The host\nand the endpoint must agree on which frame the repeating pattern begins. The\nnumber of the frame in which the pattern began is returned to the host.\n\u003c/p\u003e\u003cp\u003eIf a high-speed device supports the Synch Frame request, it must internally\nsynchronize itself to the zeroth microframe and have a time notion of classic\nframe. Only the frame number is used to synchronize and reported by the device\nendpoint (i.e., no microframe number). The endpoint must synchronize to the\nzeroth microframe.\n\u003c/p\u003e\u003cp\u003eThis value is only used for isochronous data transfers using implicit pattern\nsynchronization. If the specified endpoint does not support this request, then\nthe device will respond with a Request Error.\n\u003c/p\u003e\u003cp\u003eSee: USB 2.0 Spec. section 9.4.11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "synchFrame",
           "package": "usb",
@@ -3678,6 +3985,7 @@
         "index": {
           "description": "This request is used to set and then report an endpoint synchronization frame When an endpoint supports isochronous transfers the endpoint may also require per-frame transfers to vary in size according to specific pattern The host and the endpoint must agree on which frame the repeating pattern begins The number of the frame in which the pattern began is returned to the host If high-speed device supports the Synch Frame request it must internally synchronize itself to the zeroth microframe and have time notion of classic frame Only the frame number is used to synchronize and reported by the device endpoint i.e no microframe number The endpoint must synchronize to the zeroth microframe This value is only used for isochronous data transfers using implicit pattern synchronization If the specified endpoint does not support this request then the device will respond with Request Error See USB Spec section",
           "hierarchy": "System USB IO StandardDeviceRequests",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO.StandardDeviceRequests",
           "name": "synchFrame",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eTimeout-\u003eIO FrameNumber",
@@ -3694,6 +4002,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions for performing \u003cem\u003econtrol\u003c/em\u003e, \u003cem\u003ebulk\u003c/em\u003e and\n \u003cem\u003einterrupt\u003c/em\u003e transfers.\n\u003c/p\u003e\u003cp\u003eWhen your system supports the GHC \u003ccode\u003e\u003ca\u003eEventManager\u003c/a\u003e\u003c/code\u003e this module additionally\n exports functions for performing \u003cem\u003eisochronous\u003c/em\u003e transfers. These are currently\n not available on Windows.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWARNING:\u003c/em\u003e You need to enable the threaded runtime (\u003ccode\u003e-threaded\u003c/code\u003e) when using\n the isochronous functions. They throw a runtime error otherwise!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "IO",
           "package": "usb",
@@ -3703,6 +4012,7 @@
         "index": {
           "description": "This module provides functions for performing control bulk and interrupt transfers When your system supports the GHC EventManager this module additionally exports functions for performing isochronous transfers These are currently not available on Windows WARNING You need to enable the threaded runtime threaded when using the isochronous functions They throw runtime error otherwise",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "IO",
           "package": "usb",
@@ -3717,6 +4027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandy type synonym that names the parameters of a control transfer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "ControlAction",
           "package": "usb",
@@ -3726,6 +4037,7 @@
         "index": {
           "description": "Handy type synonym that names the parameters of control transfer",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "ControlAction",
           "package": "usb",
@@ -3740,6 +4052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Host-endian)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "Index",
           "package": "usb",
@@ -3749,6 +4062,7 @@
         "index": {
           "description": "Host-endian",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "Index",
           "package": "usb",
@@ -3763,6 +4077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandy type synonym for read transfers.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003eReadAction\u003c/code\u003e is a function which takes a \u003ccode\u003e\u003ca\u003eSize\u003c/a\u003e\u003c/code\u003e which defines how many bytes\nto read and a \u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e. The function returns an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action which, when\nexecuted, performs the actual read and returns the \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e that was read\npaired with a \u003ccode\u003e\u003ca\u003eStatus\u003c/a\u003e\u003c/code\u003e flag which indicates whether the transfer\n\u003ccode\u003e\u003ca\u003eCompleted\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eTimedOut\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "ReadAction",
           "package": "usb",
@@ -3772,6 +4087,7 @@
         "index": {
           "description": "Handy type synonym for read transfers ReadAction is function which takes Size which defines how many bytes to read and Timeout The function returns an IO action which when executed performs the actual read and returns the ByteString that was read paired with Status flag which indicates whether the transfer Completed or TimedOut",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "ReadAction",
           "package": "usb",
@@ -3786,6 +4102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandy type synonym for read transfers that must exactly read the specified\n number of bytes. An \u003ccode\u003e\u003ca\u003eincompleteReadException\u003c/a\u003e\u003c/code\u003e is thrown otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "ReadExactAction",
           "package": "usb",
@@ -3795,6 +4112,7 @@
         "index": {
           "description": "Handy type synonym for read transfers that must exactly read the specified number of bytes An incompleteReadException is thrown otherwise",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "ReadExactAction",
           "package": "usb",
@@ -3808,6 +4126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "Recipient",
           "package": "usb",
@@ -3816,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "Recipient",
           "package": "usb",
@@ -3829,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "Request",
           "package": "usb",
@@ -3837,6 +4158,7 @@
         },
         "index": {
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "Request",
           "package": "usb",
@@ -3850,6 +4172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "RequestType",
           "package": "usb",
@@ -3858,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "RequestType",
           "package": "usb",
@@ -3872,6 +4196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of bytes transferred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "Size",
           "package": "usb",
@@ -3881,6 +4206,7 @@
         "index": {
           "description": "Number of bytes transferred",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "Size",
           "package": "usb",
@@ -3895,6 +4221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of a terminated transfer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "Status",
           "package": "usb",
@@ -3904,6 +4231,7 @@
         "index": {
           "description": "Status of terminated transfer",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "Status",
           "package": "usb",
@@ -3918,6 +4246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA timeout in milliseconds. A timeout defines how long a transfer should wait\n before giving up due to no response being received.\n Use \u003ccode\u003e\u003ca\u003enoTimeout\u003c/a\u003e\u003c/code\u003e for no timeout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "Timeout",
           "package": "usb",
@@ -3927,6 +4256,7 @@
         "index": {
           "description": "timeout in milliseconds timeout defines how long transfer should wait before giving up due to no response being received Use noTimeout for no timeout",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "Timeout",
           "package": "usb",
@@ -3941,6 +4271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Host-endian)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "Value",
           "package": "usb",
@@ -3950,6 +4281,7 @@
         "index": {
           "description": "Host-endian",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "Value",
           "package": "usb",
@@ -3964,6 +4296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandy type synonym for write transfers.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003eWriteAction\u003c/code\u003e is a function which takes a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to write and a\n\u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e. The function returns an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action which, when exectued, returns the\nnumber of bytes that were actually written paired with a \u003ccode\u003e\u003ca\u003eStatus\u003c/a\u003e\u003c/code\u003e flag which\nindicates whether the transfer \u003ccode\u003e\u003ca\u003eCompleted\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eTimedOut\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "WriteAction",
           "package": "usb",
@@ -3973,6 +4306,7 @@
         "index": {
           "description": "Handy type synonym for write transfers WriteAction is function which takes ByteString to write and Timeout The function returns an IO action which when exectued returns the number of bytes that were actually written paired with Status flag which indicates whether the transfer Completed or TimedOut",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "WriteAction",
           "package": "usb",
@@ -3987,6 +4321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandy type synonym for write transfers that must exactly write all the\n given bytes. An \u003ccode\u003e\u003ca\u003eincompleteWriteException\u003c/a\u003e\u003c/code\u003e is thrown otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "WriteExactAction",
           "package": "usb",
@@ -3996,6 +4331,7 @@
         "index": {
           "description": "Handy type synonym for write transfers that must exactly write all the given bytes An incompleteWriteException is thrown otherwise",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "WriteExactAction",
           "package": "usb",
@@ -4009,6 +4345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "Class",
           "package": "usb",
@@ -4018,6 +4355,7 @@
         },
         "index": {
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "Class",
           "package": "usb",
@@ -4032,6 +4370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll bytes were transferred\n   within the maximum allowed \u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e period.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "Completed",
           "package": "usb",
@@ -4042,6 +4381,7 @@
         "index": {
           "description": "All bytes were transferred within the maximum allowed Timeout period",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "Completed",
           "package": "usb",
@@ -4055,6 +4395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "Standard",
           "package": "usb",
@@ -4064,6 +4405,7 @@
         },
         "index": {
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "Standard",
           "package": "usb",
@@ -4078,6 +4420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot all bytes were transferred\n   within the maximum allowed \u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e period.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "TimedOut",
           "package": "usb",
@@ -4088,6 +4431,7 @@
         "index": {
           "description": "Not all bytes were transferred within the maximum allowed Timeout period",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "TimedOut",
           "package": "usb",
@@ -4101,6 +4445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "ToDevice",
           "package": "usb",
@@ -4110,6 +4455,7 @@
         },
         "index": {
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "ToDevice",
           "package": "usb",
@@ -4123,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "ToEndpoint",
           "package": "usb",
@@ -4132,6 +4479,7 @@
         },
         "index": {
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "ToEndpoint",
           "package": "usb",
@@ -4145,6 +4493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "ToInterface",
           "package": "usb",
@@ -4154,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "ToInterface",
           "package": "usb",
@@ -4167,6 +4517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "ToOther",
           "package": "usb",
@@ -4176,6 +4527,7 @@
         },
         "index": {
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "ToOther",
           "package": "usb",
@@ -4189,6 +4541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "Vendor",
           "package": "usb",
@@ -4198,6 +4551,7 @@
         },
         "index": {
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "Vendor",
           "package": "usb",
@@ -4212,6 +4566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a USB \u003cem\u003econtrol\u003c/em\u003e request that does not transfer data.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eTimeoutException\u003c/a\u003e\u003c/code\u003e if the transfer timed out.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePipeException\u003c/a\u003e\u003c/code\u003e if the control request was not supported by the device\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e  Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "control",
           "package": "usb",
@@ -4222,6 +4577,7 @@
         "index": {
           "description": "Perform USB control request that does not transfer data Exceptions TimeoutException if the transfer timed out PipeException if the control request was not supported by the device NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "control",
           "normalized": "DeviceHandle-\u003eControlAction(Timeout-\u003eIO())",
@@ -4237,6 +4593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA timeout of 0 denotes no timeout so: \u003ccode\u003enoTimeout = 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "noTimeout",
           "package": "usb",
@@ -4247,6 +4604,7 @@
         "index": {
           "description": "timeout of denotes no timeout so noTimeout",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "noTimeout",
           "package": "usb",
@@ -4261,6 +4619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a USB \u003cem\u003ebulk\u003c/em\u003e read.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePipeException\u003c/a\u003e\u003c/code\u003e if the endpoint halted.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eOverflowException\u003c/a\u003e\u003c/code\u003e if the device offered more data, see\n   \u003ca\u003ePackets and overflows\u003c/a\u003e\n   in the \u003ccode\u003elibusb\u003c/code\u003e documentation.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "readBulk",
           "package": "usb",
@@ -4271,6 +4630,7 @@
         "index": {
           "description": "Perform USB bulk read Exceptions PipeException if the endpoint halted OverflowException if the device offered more data see Packets and overflows in the libusb documentation NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "readBulk",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eReadAction",
@@ -4287,6 +4647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a USB \u003cem\u003econtrol\u003c/em\u003e read.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePipeException\u003c/a\u003e\u003c/code\u003e if the control request was not supported by the device\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e  Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "readControl",
           "package": "usb",
@@ -4297,6 +4658,7 @@
         "index": {
           "description": "Perform USB control read Exceptions PipeException if the control request was not supported by the device NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "readControl",
           "normalized": "DeviceHandle-\u003eControlAction ReadAction",
@@ -4313,6 +4675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function similar to \u003ccode\u003e\u003ca\u003ereadControl\u003c/a\u003e\u003c/code\u003e which checks if the\n specified number of bytes to read were actually read.\n Throws an \u003ccode\u003e\u003ca\u003eincompleteReadException\u003c/a\u003e\u003c/code\u003e if this is not the case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "readControlExact",
           "package": "usb",
@@ -4323,6 +4686,7 @@
         "index": {
           "description": "convenience function similar to readControl which checks if the specified number of bytes to read were actually read Throws an incompleteReadException if this is not the case",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "readControlExact",
           "normalized": "DeviceHandle-\u003eControlAction ReadExactAction",
@@ -4339,6 +4703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a USB \u003cem\u003einterrupt\u003c/em\u003e read.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePipeException\u003c/a\u003e\u003c/code\u003e if the endpoint halted.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eOverflowException\u003c/a\u003e\u003c/code\u003e if the device offered more data, see\n   \u003ca\u003ePackets and overflows\u003c/a\u003e\n   in the \u003ccode\u003elibusb\u003c/code\u003e documentation.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "readInterrupt",
           "package": "usb",
@@ -4349,6 +4714,7 @@
         "index": {
           "description": "Perform USB interrupt read Exceptions PipeException if the endpoint halted OverflowException if the device offered more data see Packets and overflows in the libusb documentation NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "readInterrupt",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eReadAction",
@@ -4365,6 +4731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a USB \u003cem\u003eisochronous\u003c/em\u003e read.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWARNING:\u003c/em\u003e You need to enable the threaded runtime (\u003ccode\u003e-threaded\u003c/code\u003e) for this\nfunction to work correctly. It throws a runtime error otherwise!\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePipeException\u003c/a\u003e\u003c/code\u003e if the endpoint halted.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eOverflowException\u003c/a\u003e\u003c/code\u003e if the device offered more data, see\n   \u003ca\u003ePackets and overflows\u003c/a\u003e\n   in the \u003ccode\u003elibusb\u003c/code\u003e documentation.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "readIsochronous",
           "package": "usb",
@@ -4374,6 +4741,7 @@
         "index": {
           "description": "Perform USB isochronous read WARNING You need to enable the threaded runtime threaded for this function to work correctly It throws runtime error otherwise Exceptions PipeException if the endpoint halted OverflowException if the device offered more data see Packets and overflows in the libusb documentation NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "readIsochronous",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eVector Size-\u003eTimeout-\u003eIO(Vector ByteString)",
@@ -4390,6 +4758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a USB \u003cem\u003ebulk\u003c/em\u003e write.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePipeException\u003c/a\u003e\u003c/code\u003e if the endpoint halted.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eOverflowException\u003c/a\u003e\u003c/code\u003e if the device offered more data, see\n   \u003ca\u003ePackets and overflows\u003c/a\u003e\n   in the \u003ccode\u003elibusb\u003c/code\u003e documentation.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "writeBulk",
           "package": "usb",
@@ -4400,6 +4769,7 @@
         "index": {
           "description": "Perform USB bulk write Exceptions PipeException if the endpoint halted OverflowException if the device offered more data see Packets and overflows in the libusb documentation NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "writeBulk",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eWriteAction",
@@ -4416,6 +4786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a USB \u003cem\u003econtrol\u003c/em\u003e write.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePipeException\u003c/a\u003e\u003c/code\u003e if the control request was not supported by the device\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e  Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "writeControl",
           "package": "usb",
@@ -4426,6 +4797,7 @@
         "index": {
           "description": "Perform USB control write Exceptions PipeException if the control request was not supported by the device NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "writeControl",
           "normalized": "DeviceHandle-\u003eControlAction WriteAction",
@@ -4442,6 +4814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function similar to \u003ccode\u003e\u003ca\u003ewriteControl\u003c/a\u003e\u003c/code\u003e which checks if the given\n bytes were actually fully written.\n Throws an \u003ccode\u003e\u003ca\u003eincompleteWriteException\u003c/a\u003e\u003c/code\u003e if this is not the case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "writeControlExact",
           "package": "usb",
@@ -4452,6 +4825,7 @@
         "index": {
           "description": "convenience function similar to writeControl which checks if the given bytes were actually fully written Throws an incompleteWriteException if this is not the case",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "writeControlExact",
           "normalized": "DeviceHandle-\u003eControlAction WriteExactAction",
@@ -4468,6 +4842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a USB \u003cem\u003einterrupt\u003c/em\u003e write.\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePipeException\u003c/a\u003e\u003c/code\u003e if the endpoint halted.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eOverflowException\u003c/a\u003e\u003c/code\u003e if the device offered more data, see\n   \u003ca\u003ePackets and overflows\u003c/a\u003e\n   in the \u003ccode\u003elibusb\u003c/code\u003e documentation.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "writeInterrupt",
           "package": "usb",
@@ -4478,6 +4853,7 @@
         "index": {
           "description": "Perform USB interrupt write Exceptions PipeException if the endpoint halted OverflowException if the device offered more data see Packets and overflows in the libusb documentation NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "writeInterrupt",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eWriteAction",
@@ -4494,6 +4870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a USB \u003cem\u003eisochronous\u003c/em\u003e write.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWARNING:\u003c/em\u003e You need to enable the threaded runtime (\u003ccode\u003e-threaded\u003c/code\u003e) for this\nfunction to work correctly. It throws a runtime error otherwise!\n\u003c/p\u003e\u003cp\u003eExceptions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePipeException\u003c/a\u003e\u003c/code\u003e if the endpoint halted.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eOverflowException\u003c/a\u003e\u003c/code\u003e if the device offered more data, see\n   \u003ca\u003ePackets and overflows\u003c/a\u003e\n   in the \u003ccode\u003elibusb\u003c/code\u003e documentation.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNoDeviceException\u003c/a\u003e\u003c/code\u003e if the device has been disconnected.\n\u003c/li\u003e\u003cli\u003e Another \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.IO",
           "name": "writeIsochronous",
           "package": "usb",
@@ -4504,6 +4881,7 @@
         "index": {
           "description": "Perform USB isochronous write WARNING You need to enable the threaded runtime threaded for this function to work correctly It throws runtime error otherwise Exceptions PipeException if the endpoint halted OverflowException if the device offered more data see Packets and overflows in the libusb documentation NoDeviceException if the device has been disconnected Another USBException",
           "hierarchy": "System USB IO",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.IO",
           "name": "writeIsochronous",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eVector ByteString-\u003eTimeout-\u003eIO(Vector Size)",
@@ -4520,6 +4898,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functionality for initializing the \u003ccode\u003eusb\u003c/code\u003e library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Initialization",
           "name": "Initialization",
           "package": "usb",
@@ -4529,6 +4908,7 @@
         "index": {
           "description": "This module provides functionality for initializing the usb library",
           "hierarchy": "System USB Initialization",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Initialization",
           "name": "Initialization",
           "package": "usb",
@@ -4543,6 +4923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type representing a USB session.\n\u003c/p\u003e\u003cp\u003eThe concept of individual sessions allows your program to use multiple threads\nthat can independently use this library without interfering with eachother.\n\u003c/p\u003e\u003cp\u003eSessions are created and initialized by \u003ccode\u003e\u003ca\u003enewCtx\u003c/a\u003e\u003c/code\u003e and are automatically closed\nwhen they are garbage collected.\n\u003c/p\u003e\u003cp\u003eThe only functions that receive a \u003ccode\u003eCtx\u003c/code\u003e are \u003ccode\u003e\u003ca\u003esetDebug\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egetDevices\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Initialization",
           "name": "Ctx",
           "package": "usb",
@@ -4552,6 +4933,7 @@
         "index": {
           "description": "Abstract type representing USB session The concept of individual sessions allows your program to use multiple threads that can independently use this library without interfering with eachother Sessions are created and initialized by newCtx and are automatically closed when they are garbage collected The only functions that receive Ctx are setDebug and getDevices",
           "hierarchy": "System USB Initialization",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Initialization",
           "name": "Ctx",
           "package": "usb",
@@ -4566,6 +4948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage verbosity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Initialization",
           "name": "Verbosity",
           "package": "usb",
@@ -4575,6 +4958,7 @@
         "index": {
           "description": "Message verbosity",
           "hierarchy": "System USB Initialization",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Initialization",
           "name": "Verbosity",
           "package": "usb",
@@ -4589,6 +4973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError messages are printed to stderr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Initialization",
           "name": "PrintErrors",
           "package": "usb",
@@ -4599,6 +4984,7 @@
         "index": {
           "description": "Error messages are printed to stderr",
           "hierarchy": "System USB Initialization",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Initialization",
           "name": "PrintErrors",
           "package": "usb",
@@ -4613,6 +4999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformational messages are printed to stdout,\n   warning and error messages are printed to stderr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Initialization",
           "name": "PrintInfo",
           "package": "usb",
@@ -4623,6 +5010,7 @@
         "index": {
           "description": "Informational messages are printed to stdout warning and error messages are printed to stderr",
           "hierarchy": "System USB Initialization",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Initialization",
           "name": "PrintInfo",
           "package": "usb",
@@ -4637,6 +5025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo messages are ever printed by the library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Initialization",
           "name": "PrintNothing",
           "package": "usb",
@@ -4647,6 +5036,7 @@
         "index": {
           "description": "No messages are ever printed by the library",
           "hierarchy": "System USB Initialization",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Initialization",
           "name": "PrintNothing",
           "package": "usb",
@@ -4661,6 +5051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarning and error messages are printed to stderr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Initialization",
           "name": "PrintWarnings",
           "package": "usb",
@@ -4671,6 +5062,7 @@
         "index": {
           "description": "Warning and error messages are printed to stderr",
           "hierarchy": "System USB Initialization",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Initialization",
           "name": "PrintWarnings",
           "package": "usb",
@@ -4685,6 +5077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate and initialize a new USB context.\n\u003c/p\u003e\u003cp\u003eThis function may throw \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eNote that the internal \u003ccode\u003elibusb\u003c/code\u003e event handling can return errors. These errors\noccur in the thread that is executing the event handling loop. \u003ccode\u003e\u003ca\u003enewCtx\u003c/a\u003e\u003c/code\u003e will\nprint these errors to \u003ccode\u003e\u003ca\u003estderr\u003c/a\u003e\u003c/code\u003e. If you need to handle the errors yourself (for\nexample log them in an application specific way) please use \u003ccode\u003e\u003ca\u003enewCtx'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Initialization",
           "name": "newCtx",
           "package": "usb",
@@ -4695,6 +5088,7 @@
         "index": {
           "description": "Create and initialize new USB context This function may throw USBException Note that the internal libusb event handling can return errors These errors occur in the thread that is executing the event handling loop newCtx will print these errors to stderr If you need to handle the errors yourself for example log them in an application specific way please use newCtx",
           "hierarchy": "System USB Initialization",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Initialization",
           "name": "newCtx",
           "package": "usb",
@@ -4709,6 +5103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003enewCtx\u003c/a\u003e\u003c/code\u003e but enables you to specify the way errors should be handled\n that occur while handling \u003ccode\u003elibusb\u003c/code\u003e events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Initialization",
           "name": "newCtx'",
           "package": "usb",
@@ -4719,6 +5114,7 @@
         "index": {
           "description": "Like newCtx but enables you to specify the way errors should be handled that occur while handling libusb events",
           "hierarchy": "System USB Initialization",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Initialization",
           "name": "newCtx'",
           "normalized": "(USBException-\u003eIO())-\u003eIO Ctx",
@@ -4735,6 +5131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet message verbosity.\n\u003c/p\u003e\u003cp\u003eThe default level is \u003ccode\u003e\u003ca\u003ePrintNothing\u003c/a\u003e\u003c/code\u003e. This means no messages are ever\nprinted. If you choose to increase the message verbosity level you must ensure\nthat your application does not close the \u003ccode\u003estdout\u003c/code\u003e/\u003ccode\u003estderr\u003c/code\u003e file descriptors.\n\u003c/p\u003e\u003cp\u003eYou are advised to set the debug level to \u003ccode\u003e\u003ca\u003ePrintWarnings\u003c/a\u003e\u003c/code\u003e. Libusb is\nconservative with its message logging. Most of the time it will only log\nmessages that explain error conditions and other oddities. This will help you\ndebug your software.\n\u003c/p\u003e\u003cp\u003eThe LIBUSB_DEBUG environment variable overrules the debug level set by this\nfunction. The message verbosity is fixed to the value in the environment\nvariable if it is defined.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003elibusb\u003c/code\u003e was compiled without any message logging, this function does nothing:\nyou'll never get any messages.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003elibusb\u003c/code\u003e was compiled with verbose debug message logging, this function does\nnothing: you'll always get messages from all levels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Initialization",
           "name": "setDebug",
           "package": "usb",
@@ -4745,6 +5142,7 @@
         "index": {
           "description": "Set message verbosity The default level is PrintNothing This means no messages are ever printed If you choose to increase the message verbosity level you must ensure that your application does not close the stdout stderr file descriptors You are advised to set the debug level to PrintWarnings Libusb is conservative with its message logging Most of the time it will only log messages that explain error conditions and other oddities This will help you debug your software The LIBUSB DEBUG environment variable overrules the debug level set by this function The message verbosity is fixed to the value in the environment variable if it is defined If libusb was compiled without any message logging this function does nothing you ll never get any messages If libusb was compiled with verbose debug message logging this function does nothing you ll always get messages from all levels",
           "hierarchy": "System USB Initialization",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Initialization",
           "name": "setDebug",
           "normalized": "Ctx-\u003eVerbosity-\u003eIO()",
@@ -4761,6 +5159,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is not intended for end users. It provides internal and unsafe\n functions used for extending this package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "Internal",
           "package": "usb",
@@ -4770,6 +5169,7 @@
         "index": {
           "description": "This module is not intended for end users It provides internal and unsafe functions used for extending this package",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "Internal",
           "package": "usb",
@@ -4784,6 +5184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandy type synonym for the \u003ccode\u003elibusb\u003c/code\u003e transfer functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "C'TransferFunc",
           "package": "usb",
@@ -4793,6 +5194,7 @@
         "index": {
           "description": "Handy type synonym for the libusb transfer functions",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "C'TransferFunc",
           "package": "usb",
@@ -4806,6 +5208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "C'TransferType",
           "package": "usb",
@@ -4814,6 +5217,7 @@
         },
         "index": {
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "C'TransferType",
           "package": "usb",
@@ -4828,6 +5232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lock is in one of two states: \"locked\" or \"unlocked\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "Lock",
           "package": "usb",
@@ -4837,6 +5242,7 @@
         "index": {
           "description": "lock is in one of two states locked or unlocked",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "Lock",
           "package": "usb",
@@ -4851,6 +5257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to wait for the termination of a submitted transfer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "Wait",
           "package": "usb",
@@ -4860,6 +5267,7 @@
         "index": {
           "description": "function to wait for the termination of submitted transfer",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "Wait",
           "package": "usb",
@@ -4874,6 +5282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcquires the \u003ccode\u003e\u003ca\u003eLock\u003c/a\u003e\u003c/code\u003e. Blocks if another thread has acquired the \u003ccode\u003e\u003ca\u003eLock\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eacquire\u003c/code\u003e behaves as follows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e When the state is \"unlocked\" \u003ccode\u003eacquire\u003c/code\u003e changes the state to \"locked\".\n\u003c/li\u003e\u003cli\u003e When the state is \"locked\" \u003ccode\u003eacquire\u003c/code\u003e \u003cem\u003eblocks\u003c/em\u003e until a call to \u003ccode\u003e\u003ca\u003erelease\u003c/a\u003e\u003c/code\u003e in\nanother thread wakes the calling thread. Upon awakening it will change the state\nto \"locked\".\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "acquire",
           "package": "usb",
@@ -4884,6 +5293,7 @@
         "index": {
           "description": "Acquires the Lock Blocks if another thread has acquired the Lock acquire behaves as follows When the state is unlocked acquire changes the state to locked When the state is locked acquire blocks until call to release in another thread wakes the calling thread Upon awakening it will change the state to locked",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "acquire",
           "normalized": "Lock-\u003eIO()",
@@ -4899,6 +5309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a transfer with the given number of isochronous packets and apply\n the function to the resulting pointer. The transfer is automatically freed\n when the function terminates (whether normally or by raising an exception).\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eNoMemException\u003c/a\u003e\u003c/code\u003e may be thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "allocaTransfer",
           "package": "usb",
@@ -4909,6 +5320,7 @@
         "index": {
           "description": "Allocate transfer with the given number of isochronous packets and apply the function to the resulting pointer The transfer is automatically freed when the function terminates whether normally or by raising an exception NoMemException may be thrown",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "allocaTransfer",
           "normalized": "Int-\u003e(Ptr C'libusb_transfer-\u003eIO a)-\u003eIO a",
@@ -4925,6 +5337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003eC'libusb_error\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eUSBException\u003c/a\u003e\u003c/code\u003e. If the \u003ccode\u003eC'libusb_error\u003c/code\u003e is\n unknown an \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "convertUSBException",
           "package": "usb",
@@ -4935,6 +5348,7 @@
         "index": {
           "description": "Convert libusb error to USBException If the libusb error is unknown an error is thrown",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "convertUSBException",
           "normalized": "a-\u003eUSBException",
@@ -4951,6 +5365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the system supports asynchronous I/O.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e means asynchronous I/O is not supported so synchronous I/O should\n   be used instead.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e wait\u003c/code\u003e means that asynchronous I/O is supported. The \u003ccode\u003ewait\u003c/code\u003e\n function can be used to wait for submitted transfers.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "getWait",
           "package": "usb",
@@ -4961,6 +5376,7 @@
         "index": {
           "description": "Checks if the system supports asynchronous Nothing means asynchronous is not supported so synchronous should be used instead Just wait means that asynchronous is supported The wait function can be used to wait for submitted transfers",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "getWait",
           "normalized": "DeviceHandle-\u003eMaybe Wait",
@@ -4977,6 +5393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn isochronous packet descriptor with all fields zero except for the length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "initIsoPacketDesc",
           "package": "usb",
@@ -4987,6 +5404,7 @@
         "index": {
           "description": "An isochronous packet descriptor with all fields zero except for the length",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "initIsoPacketDesc",
           "normalized": "Size-\u003eC'libusb_iso_packet_descriptor",
@@ -5003,6 +5421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarshal an endpoint address so that it can be used by the \u003ccode\u003elibusb\u003c/code\u003e transfer\n functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "marshalEndpointAddress",
           "package": "usb",
@@ -5013,6 +5432,7 @@
         "index": {
           "description": "Marshal an endpoint address so that it can be used by the libusb transfer functions",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "marshalEndpointAddress",
           "normalized": "EndpointAddress-\u003ea",
@@ -5029,6 +5449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a lock in the \"unlocked\" state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "newLock",
           "package": "usb",
@@ -5039,6 +5460,7 @@
         "index": {
           "description": "Create lock in the unlocked state",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "newLock",
           "package": "usb",
@@ -5052,6 +5474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "pokeVector",
           "package": "usb",
@@ -5061,6 +5484,7 @@
         },
         "index": {
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "pokeVector",
           "normalized": "Ptr a-\u003eVector a-\u003eIO()",
@@ -5077,6 +5501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erelease\u003c/code\u003e changes the state to \"unlocked\" and returns immediately.\n\u003c/p\u003e\u003cp\u003eThe behaviour is undefined when a lock in the \"unlocked\" state is released!\n\u003c/p\u003e\u003cp\u003eIf there are any threads blocked on \u003ccode\u003e\u003ca\u003eacquire\u003c/a\u003e\u003c/code\u003e the thread that first called\n\u003ccode\u003eacquire\u003c/code\u003e will be woken up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "release",
           "package": "usb",
@@ -5087,6 +5512,7 @@
         "index": {
           "description": "release changes the state to unlocked and returns immediately The behaviour is undefined when lock in the unlocked state is released If there are any threads blocked on acquire the thread that first called acquire will be woken up",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "release",
           "normalized": "Lock-\u003eIO()",
@@ -5102,6 +5528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnmarshal an 8bit word as an endpoint address. This function is primarily\n used when unmarshalling USB descriptors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "unmarshalEndpointAddress",
           "package": "usb",
@@ -5112,6 +5539,7 @@
         "index": {
           "description": "Unmarshal an bit word as an endpoint address This function is primarily used when unmarshalling USB descriptors",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "unmarshalEndpointAddress",
           "normalized": "Word-\u003eEndpointAddress",
@@ -5128,6 +5556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnmarshal a a 16bit word as a release number. The 16bit word should be\n encoded as a\n \u003ca\u003eBinary Coded Decimal\u003c/a\u003e\n using 4 bits for each of the 4 decimals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "unmarshalReleaseNumber",
           "package": "usb",
@@ -5138,6 +5567,7 @@
         "index": {
           "description": "Unmarshal bit word as release number The bit word should be encoded as Binary Coded Decimal using bits for each of the decimals",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "unmarshalReleaseNumber",
           "normalized": "Word-\u003eReleaseNumber",
@@ -5154,6 +5584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnmarshal an 8bit word to a string descriptor index. 0 denotes that a\n string descriptor is not available and unmarshals to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "unmarshalStrIx",
           "package": "usb",
@@ -5164,6 +5595,7 @@
         "index": {
           "description": "Unmarshal an bit word to string descriptor index denotes that string descriptor is not available and unmarshals to Nothing",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "unmarshalStrIx",
           "normalized": "Word-\u003eMaybe StrIx",
@@ -5180,6 +5612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003eFunPtr\u003c/code\u003e to the given transfer callback function and pass it to\n the continuation function. The \u003ccode\u003eFunPtr\u003c/code\u003e is automatically freed when the\n continuation terminates (whether normally or by raising an exception).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "withCallback",
           "package": "usb",
@@ -5190,6 +5623,7 @@
         "index": {
           "description": "Create FunPtr to the given transfer callback function and pass it to the continuation function The FunPtr is automatically freed when the continuation terminates whether normally or by raising an exception",
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "withCallback",
           "normalized": "(Ptr C'libusb_transfer-\u003eIO())-\u003e(C'libusb_transfer_cb_fn-\u003eIO a)-\u003eIO a",
@@ -5205,6 +5639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB.Internal",
           "name": "withDevHndlPtr",
           "package": "usb",
@@ -5214,6 +5649,7 @@
         },
         "index": {
           "hierarchy": "System USB Internal",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB.Internal",
           "name": "withDevHndlPtr",
           "normalized": "DeviceHandle-\u003e(Ptr C'libusb_device_handle-\u003eIO a)-\u003eIO a",
@@ -5230,6 +5666,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA convenience module which re-exports all the important modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:56 UTC 2014",
           "module": "System.USB",
           "name": "USB",
           "package": "usb",
@@ -5239,6 +5676,7 @@
         "index": {
           "description": "convenience module which re-exports all the important modules",
           "hierarchy": "System USB",
+          "indexed": "2014-03-11T20:31:56",
           "module": "System.USB",
           "name": "USB",
           "package": "usb",

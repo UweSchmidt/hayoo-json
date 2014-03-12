@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-tabular"
+        "phrase": "simple-tabular",
+        "type": "phrase"
       },
       "type": "context"
     }

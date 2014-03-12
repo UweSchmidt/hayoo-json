@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "craftwerk-gtk"
+        "phrase": "craftwerk-gtk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe UI functions of Craftwerk allow quick display of figures. They also\n support the creation of a simple user interface to control parameters of\n the figures that are displayed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "Gtk",
           "package": "craftwerk-gtk",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The UI functions of Craftwerk allow quick display of figures They also support the creation of simple user interface to control parameters of the figures that are displayed",
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "Gtk",
           "package": "craftwerk-gtk",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribing options for a user interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "Option",
           "package": "craftwerk-gtk",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Describing options for user interface",
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "Option",
           "package": "craftwerk-gtk",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombined cairo and tikz rendering functions depending on the options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "RenderContext",
           "package": "craftwerk-gtk",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Combined cairo and tikz rendering functions depending on the options",
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "RenderContext",
           "package": "craftwerk-gtk",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "BoolOption",
           "package": "craftwerk-gtk",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "BoolOption",
           "package": "craftwerk-gtk",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn option of choices with a default selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "ChoiceOption",
           "package": "craftwerk-gtk",
@@ -120,6 +129,7 @@
         "index": {
           "description": "An option of choices with default selection",
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "ChoiceOption",
           "normalized": "ChoiceOption[String]Int",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "NumberOption",
           "package": "craftwerk-gtk",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "NumberOption",
           "package": "craftwerk-gtk",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA range: min, max, step and initial value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "RangeOption",
           "package": "craftwerk-gtk",
@@ -168,6 +181,7 @@
         "index": {
           "description": "range min max step and initial value",
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "RangeOption",
           "package": "craftwerk-gtk",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "RenderContext",
           "package": "craftwerk-gtk",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "RenderContext",
           "package": "craftwerk-gtk",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "cairo",
           "package": "craftwerk-gtk",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "cairo",
           "normalized": "Map String Option-\u003eDouble-\u003eDouble-\u003eIO(Render())",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "choice",
           "package": "craftwerk-gtk",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "choice",
           "normalized": "Option-\u003eInt",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "choices",
           "package": "craftwerk-gtk",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "choices",
           "normalized": "Option-\u003e[String]",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay multiple render contexts in a Gtk window, starts the Gtk main loop.\n The first argument contains a list of named options whose UI values\n are passed to the render context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "displayMultiple",
           "package": "craftwerk-gtk",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Display multiple render contexts in Gtk window starts the Gtk main loop The first argument contains list of named options whose UI values are passed to the render context",
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "displayMultiple",
           "normalized": "[(String,Option)]-\u003e[(String,RenderContext)]-\u003eIO()",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a render context in a Gtk window, starts the Gtk main loop.\n The first argument contains a list of named options whose UI values\n are passed to the render context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "displayRender",
           "package": "craftwerk-gtk",
@@ -309,6 +334,7 @@
         "index": {
           "description": "Display render context in Gtk window starts the Gtk main loop The first argument contains list of named options whose UI values are passed to the render context",
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "displayRender",
           "normalized": "[(String,Option)]-\u003eRenderContext-\u003eIO()",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "isSet",
           "package": "craftwerk-gtk",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "isSet",
           "normalized": "Option-\u003eBool",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders an 'IO Figure' into a render context with the given dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "renderFigure",
           "package": "craftwerk-gtk",
@@ -358,6 +387,7 @@
         "index": {
           "description": "Renders an IO Figure into render context with the given dimensions",
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "renderFigure",
           "normalized": "Double-\u003eDouble-\u003e(Map String Option-\u003eIO Figure)-\u003eRenderContext",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003edisplayMultiple\u003c/a\u003e\u003c/code\u003e except that the Gtk main loop is not started or\n initialized. The window is not visible upon return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "renderWindow",
           "package": "craftwerk-gtk",
@@ -384,6 +415,7 @@
         "index": {
           "description": "Same as displayMultiple except that the Gtk main loop is not started or initialized The window is not visible upon return",
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "renderWindow",
           "normalized": "[(String,Option)]-\u003e[(String,RenderContext)]-\u003eIO Window",
@@ -399,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "tikz",
           "package": "craftwerk-gtk",
@@ -408,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "tikz",
           "normalized": "Map String Option-\u003eIO String",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "value",
           "package": "craftwerk-gtk",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk UI Gtk",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI.Gtk",
           "name": "value",
           "normalized": "Option-\u003eDouble",
@@ -445,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:45 UTC 2014",
           "module": "Graphics.Craftwerk.UI",
           "name": "UI",
           "package": "craftwerk-gtk",
@@ -453,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk UI",
+          "indexed": "2014-03-11T17:42:45",
           "module": "Graphics.Craftwerk.UI",
           "name": "UI",
           "package": "craftwerk-gtk",
